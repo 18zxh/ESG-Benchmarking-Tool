@@ -1,0 +1,31 @@
+{
+  "name": "unified-esg-workspace",
+  "version": "0.4.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit && vite build && node tools/copy-assets.mjs",
+    "test": "node --experimental-strip-types --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "1.5.0",
+    "@rjsf/core": "6.11.0",
+    "@rjsf/validator-ajv8": "6.11.0",
+    "@tanstack/react-table": "8.21.3",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "lucide-react": "1.59.0",
+    "pdfjs-dist": "6.4.299",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "tailwind-merge": "3.7.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "prettier": "3.6.2",
+    "typescript": "7.0.2",
+    "vite": "8.3.4"
+  }
+}

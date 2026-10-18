@@ -1,0 +1,1287 @@
+{
+  "version": "V1",
+  "publishedDate": "2026-10-18",
+  "repository": "18zxh/CSA_ESG_Workbench",
+  "branch": "main",
+  "filesExcludingManifest": 213,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "49698c992570d4552a724a55a6bbe2d7a43ee31522cdd47f362cbeb563d0c615",
+      "bytes": 578,
+      "mode": "0o644"
+    },
+    {
+      "path": "README.md",
+      "sha256": "582bd78a85a44206f2e62489dcb27dcd2ee1ae84b273201cdb85848c066af847",
+      "bytes": 5883,
+      "mode": "0o644"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "2c54b678b4690cffdb0d773b7d955d4a7201bc9a1e53198cde2236a6dd688dc4",
+      "bytes": 10938,
+      "mode": "0o644"
+    },
+    {
+      "path": "docs/CSA-精简问题库.xlsx",
+      "sha256": "2dec1f770f74a25ba776152a7cb3e2eb51bce43a874fe37368caad997e21441d",
+      "bytes": 859999,
+      "mode": "0o644"
+    },
+    {
+      "path": "docs/HANDOFF.md",
+      "sha256": "b6240001289dcc2d174bae19653a57aec765750fe467af176bb4d71e33c77495",
+      "bytes": 5644,
+      "mode": "0o644"
+    },
+    {
+      "path": "docs/RUNTIME.md",
+      "sha256": "3d03785b8f7fe77d5ead397f24f515be56e50bc2f18f94b0af212d67e666972d",
+      "bytes": 3591,
+      "mode": "0o644"
+    },
+    {
+      "path": "docs/WORKBENCH-PIPELINE-REUSE.md",
+      "sha256": "d44c586aa84944a78a16ff9cfe78f3e596cc7d63f54c1c3f36b11bb5d566a47d",
+      "bytes": 8251,
+      "mode": "0o644"
+    },
+    {
+      "path": "pipeline/bin/pdf-converter-macos-arm64",
+      "sha256": "74bbd1061a482b9d329e4375a44b19ca3b4c6eafd2a5cfefc0e50c1581f82ea6",
+      "bytes": 54584,
+      "mode": "0o755"
+    },
+    {
+      "path": "pipeline/bin/pdf-converter-manifest.json",
+      "sha256": "21bf07ab9dec406fe8d41d7a0fca93c8f674a98da996b13bdd723311671f6560",
+      "bytes": 270,
+      "mode": "0o644"
+    },
+    {
+      "path": "pipeline/csa_adapter.py",
+      "sha256": "dde1366aa2ee8faaafe705ad8dd0b5c39569522b221064b1d7245a56edab5dbe",
+      "bytes": 4163,
+      "mode": "0o644"
+    },
+    {
+      "path": "pipeline/errors.py",
+      "sha256": "b8f87b69551501ca3c6ef7e29bdc539b19f5206afdee12ff2c10c44ea9ade6a2",
+      "bytes": 125,
+      "mode": "0o644"
+    },
+    {
+      "path": "pipeline/model_proxy.py",
+      "sha256": "2daa91f9cb343354ff60f9e28cde1b0d990a038dd7eb8eaa8b7580d0eafc3f80",
+      "bytes": 39911,
+      "mode": "0o644"
+    },
+    {
+      "path": "pipeline/native_pdf.py",
+      "sha256": "a9cef9660428d8d20c7a12a1da8c0ce0518504e698c5c91f54c6e871e8f75a3c",
+      "bytes": 45756,
+      "mode": "0o644"
+    },
+    {
+      "path": "pipeline/native_pdf_jobs.py",
+      "sha256": "f945aa372ceaa744c762cd803af52c09499ca2c4b2dfe5abecdafcb5369b9584",
+      "bytes": 7082,
+      "mode": "0o644"
+    },
+    {
+      "path": "pipeline/pdf_conversion.py",
+      "sha256": "c5d03523e59ed0b223a535d168a478516ed9ed3006f21f00e0e4e166b33a22e9",
+      "bytes": 16030,
+      "mode": "0o644"
+    },
+    {
+      "path": "pipeline/pdf_convert.m",
+      "sha256": "88e738b23a86771786a96745d8d2811153fc86c1a046cdb36489d35149e9c6c7",
+      "bytes": 4683,
+      "mode": "0o644"
+    },
+    {
+      "path": "pipeline/pdf_jobs.py",
+      "sha256": "896abe2116a8eeedce9a30a5b1c903642012d49e31501f8ff54bdf53135b076c",
+      "bytes": 2577,
+      "mode": "0o644"
+    },
+    {
+      "path": "pipeline/pdf_quotes.py",
+      "sha256": "cfa0877ba200a177ffe83fe4de5e4d2935d318d69df32ca9ce3977ae7e000c8b",
+      "bytes": 3742,
+      "mode": "0o644"
+    },
+    {
+      "path": "pipeline/requirements.txt",
+      "sha256": "2042a254d20883ec21dd890f31e35bc9553fd943b211d52d91d62c0dfd66cb51",
+      "bytes": 58,
+      "mode": "0o644"
+    },
+    {
+      "path": "pipeline/workbench_runtime.py",
+      "sha256": "9aced48e3cb5336cf8618baed4611b3c2307c2dba045227451375967cd8e8c9c",
+      "bytes": 8291,
+      "mode": "0o644"
+    },
+    {
+      "path": "pipeline/workbench_server.py",
+      "sha256": "2e2590319bd185e8cfb01d9e6b6a9e9616d2c3c505d55272cf619839b65d4601",
+      "bytes": 18279,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/app.js",
+      "sha256": "c7002234a66ac7ef7fa862fce73e53a8478a43624ee2989155c63c4903ca0716",
+      "bytes": 6146,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/assessment-method.js",
+      "sha256": "601395b35c4cbce374bd1b669df1e4076132b9f2f6f750895462a34b248c1751",
+      "bytes": 2818,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/core.js",
+      "sha256": "f99e158f355766e9b0892753e73a2df357d4e365d9d3ed9c62449d27e477b98c",
+      "bytes": 10996,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/assessment-method-schema.json",
+      "sha256": "786723c50fdd8bd2d1b859bff5071dfae7e5f59768bf26f9fd8859199ada4b0f",
+      "bytes": 1933,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/catalog-metadata.json",
+      "sha256": "c8b8c37fa0f168f543f6609bf6e75134ba56b9202e9b45e751c94e656fff4ece",
+      "bytes": 78602,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/companies.json",
+      "sha256": "323923ad3839f90f2957a3743d468bf7c8bff410f80cc45680f04e6baa7fbf11",
+      "bytes": 342920,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/company-aliases.json",
+      "sha256": "48e8279f0256ca12eabdb06d9ad8d097d831a0b9d25de134d08d959b22da5188",
+      "bytes": 1589,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/coverage.json",
+      "sha256": "f1bc5f89b054416cc83a2d0b04cb3810fc35f4f177320d3640c9434218c4e6d4",
+      "bytes": 21368,
+      "mode": "0o600"
+    },
+    {
+      "path": "site/data/indices.json",
+      "sha256": "3c2951d0632bc7225810df1b3a4426b86a7e1170da32d133041fc0ed3de9d255",
+      "bytes": 1092,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/industries.json",
+      "sha256": "46fb50c91714f2e2a4db49a4b224e467e0b82d7324be1f56e88a02d83343c820",
+      "bytes": 217312,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/meta.json",
+      "sha256": "4aca4c4c3c7158a362241954d470ecf46895051973efc8441f43a74139f0d13d",
+      "bytes": 614,
+      "mode": "0o600"
+    },
+    {
+      "path": "site/data/portal-guidance.json",
+      "sha256": "f94526fdccca8d69be829820c32d8e86fb0c7e5f3799abeb9b72f00252ce1e42",
+      "bytes": 10318,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/question-index.json",
+      "sha256": "f80745d03b09e10d1b619b60259fc7c1f566d31459db620fa58c921f384dc2b4",
+      "bytes": 2818129,
+      "mode": "0o600"
+    },
+    {
+      "path": "site/data/question-primary.json",
+      "sha256": "d24061a0c9e4ba80ca68f1cc155893fe99886015419815ed93d6375f4b0a314f",
+      "bytes": 116231,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/question-structures.json",
+      "sha256": "b1abc6396e1daea057ab2c39a5c6862f44ce0dbab6f75bd77c2ac88e4b82c8eb",
+      "bytes": 3494790,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/question-templates.json",
+      "sha256": "ffb3ad970c271762b7d4111aecab53b590a1abe24f793e281c419bae61fae7da",
+      "bytes": 8513558,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/question-translations.json",
+      "sha256": "66aa1830d284dad2b56ee0aea8c987552ed097edb17d426b3eceb94295d786b1",
+      "bytes": 6720765,
+      "mode": "0o600"
+    },
+    {
+      "path": "site/data/questions-AIR.json",
+      "sha256": "fe775a38bb0e72e23a04bb4c9dea09f197f297e775347e76ef6ce128064c09f0",
+      "bytes": 828991,
+      "mode": "0o600"
+    },
+    {
+      "path": "site/data/questions-ALU.json",
+      "sha256": "59caa93d594820746d1de527a7c6927e9608db5a44427adeaba9475c4536782d",
+      "bytes": 901125,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-ARO.json",
+      "sha256": "8a2ac8aab389eaa1b093968dc37aad6383cd761049c3471e56d4c509be249ce0",
+      "bytes": 835973,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-ATX.json",
+      "sha256": "92d9074877c347b3fcf871873aabd3c8ff4df291a5a7006f83965b17ad661566",
+      "bytes": 852282,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-AUT.json",
+      "sha256": "7b9976cda4dc3a3520b395d0f0b73f06e3083f3f58cfdf0e44012b4ca088b88f",
+      "bytes": 911464,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-BLD.json",
+      "sha256": "0de4ec29498bf9b64cc9ca7695a2645d7c7b2bec394967d8cf46f952ab2088ae",
+      "bytes": 826008,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-BNK.json",
+      "sha256": "05b4536f933fbd07327a9ccec01ce762e8d32a3a1fdbe5b93ba34c00a314d1fe",
+      "bytes": 779628,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-BTC.json",
+      "sha256": "c60bca8033da508aed6eca3d305aa6aab6b9193890b74ab4a7e5099d61a39df0",
+      "bytes": 830973,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-BVG.json",
+      "sha256": "3bdceacb465a1b06e32af811b89ddfe62e01f7d47032199e3d791a15be460b4c",
+      "bytes": 906995,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-CHM.json",
+      "sha256": "35ac53b2ae63122bae991caa6c90e8e2b84c90a63abce0571396565940f35bef",
+      "bytes": 890908,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-CMT.json",
+      "sha256": "8b5019f0b6ade2b25c0c691f375ccf82497d81a338567f0584265f53c5bc2a6e",
+      "bytes": 883182,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-CNO.json",
+      "sha256": "d607e8b5cfe2fdef88a83d83a562b474d2d1ae898f148fa9ef73324e587970a9",
+      "bytes": 854416,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-COL.json",
+      "sha256": "3a4806cb79497fa518a6b150d28351b0d2f57ef88a9c0c7e6bf29b29d2ca995a",
+      "bytes": 909173,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-COM.json",
+      "sha256": "7dd81afb118eb7ce468337e0332b959ea4bfcdbc063f7d1719b7b25fa5732d83",
+      "bytes": 888430,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-CON.json",
+      "sha256": "5e6e7b747ae606f46d37b2d579df2bc19d33247e6bd39cd4e674021ce5e6afb4",
+      "bytes": 762274,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-COS.json",
+      "sha256": "bddc67d47c63a591a90ea0f4313b6f55b4483906b3ff28b3f2e16cd7836424a7",
+      "bytes": 883640,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-CSV.json",
+      "sha256": "3839428ccb3c3a0a8d1e1c3bc43dc4995b5d3dbe9929270d9cd84518f223f69e",
+      "bytes": 662278,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-CTR.json",
+      "sha256": "50f152c835af169f6d912eb02fe449c085b3f327ad802d3354d27b081d6b7603",
+      "bytes": 861877,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-DHP.json",
+      "sha256": "bf83e8db4e435b7a9c0a325424198ac1a30e349045d79698069ebc9ab39f2b61",
+      "bytes": 837741,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-DRG.json",
+      "sha256": "f31c93aef2541f9e8b72c7ee4dffa45580b0abf15af9e7138ec092e6f53872bf",
+      "bytes": 842669,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-ELC.json",
+      "sha256": "283857fe744d3215a3e0b22ba932f3d4631cad343681f0c1d8de9e1c4a968ca2",
+      "bytes": 912355,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-ELQ.json",
+      "sha256": "2d40a1d7af4a7dc2a467dbf4c6db7a7fe156c1ee711bf399d3f64fa4a4a7429a",
+      "bytes": 866255,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-FBN.json",
+      "sha256": "e7dc455f096296b6f39b64b50711b85196157ed16579f13d86088a7e48e9da2f",
+      "bytes": 834565,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-FDR.json",
+      "sha256": "d685ba1f48515c0f88e5bd4dde16640adaf2fbd08b4dacd4785922384b55cc38",
+      "bytes": 929010,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-FOA.json",
+      "sha256": "77c546a12e2318f36b6bdf239f49592ec870948f1775b53cee8f70a02f313172",
+      "bytes": 935390,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-FRP.json",
+      "sha256": "83d3857f56c585c632e942e43ca8ed9dcbea075fd217b8088ba893331517fe6f",
+      "bytes": 932139,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-GAS.json",
+      "sha256": "14e4e604c91176c50b9835db3c5bc7c592585d030898890a6039706e7b7fb10b",
+      "bytes": 825287,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-HEA.json",
+      "sha256": "311fcb018ae0caaa14a22795506c9152ea43d6f891184bd12871efbd39fcb45a",
+      "bytes": 687188,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-HOM.json",
+      "sha256": "c0969e6a2b461491b6faf437911fcdc7b2796c59f1b4a0099d8be9d13011adc9",
+      "bytes": 774190,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-HOU.json",
+      "sha256": "4964d3d26493bdbc75c7787f2e676d30bf98fb63292a07fd6d74d4ea04d58aaa",
+      "bytes": 864703,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-ICS.json",
+      "sha256": "351594b1c7ee6efc19511c80af87bbee9e61e1c0f5a76375e00ddda642187693",
+      "bytes": 733530,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-IDD.json",
+      "sha256": "a42fb243622d79a30e5579f5c757b0aeeea75525a501a7003dd583e14b611601",
+      "bytes": 818812,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-IEQ.json",
+      "sha256": "2e1709b9810192129a8d3bacb6c1c2bb9b0e2a15cddc32fa1f97ce7235ca800f",
+      "bytes": 866245,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-IMS.json",
+      "sha256": "d137e8003d341d5c53630ecb58890e1e0ee1039255b63e4030c1706845891bd5",
+      "bytes": 707411,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-INS.json",
+      "sha256": "fb88593aac097033033e25080c3f6afb52c539a6f58ec2266ffaf980652947d3",
+      "bytes": 724907,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-ITC.json",
+      "sha256": "2db0bc35e28bdf98b3a0f72e80a698970fa89215da8cd98415a2e94cadc5492f",
+      "bytes": 895185,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-LEG.json",
+      "sha256": "2a861513dd94dc8d1dbc4e98cde32db4f9941d45e0b7d633318f372182304905",
+      "bytes": 835023,
+      "mode": "0o600"
+    },
+    {
+      "path": "site/data/questions-LIF.json",
+      "sha256": "12a04778dbf9d0a80249afc28005e4b54a42e9bb5fddc83cae6cb29e5ae0fe6c",
+      "bytes": 800271,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-MNX.json",
+      "sha256": "4323846767e2b7185f332e3e23d03638eae6c6cfd60c7fcc1a49b776b2e0131a",
+      "bytes": 909391,
+      "mode": "0o600"
+    },
+    {
+      "path": "site/data/questions-MTC.json",
+      "sha256": "4def502ea116ce89ec95b3b38e15b773553c901731a1d8089c0989c82b39afb8",
+      "bytes": 863151,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-MUW.json",
+      "sha256": "0066193ac0453737811d5a3e7f020195b47079fd22ed0b02e0b3f8d489c79056",
+      "bytes": 922659,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-OGR.json",
+      "sha256": "e80c6d5cef94a8fbb4ef48ac4e2189ba9e23450af8476c6041f6e540f260da77",
+      "bytes": 891264,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-OGX.json",
+      "sha256": "0ecee21e96a2395ecc9957f00e934c5f7c78e02afb957e1cb19b129639f42944",
+      "bytes": 924668,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-OIE.json",
+      "sha256": "85f0ff34d8f5a5c50877f1b5472619d70db1c619b06d7fe87abe19f9bf984821",
+      "bytes": 777161,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-PIP.json",
+      "sha256": "8605415ad39714bd27acd2dcf9d4e62f6cb346f50749b85c61397031b2b5ac06",
+      "bytes": 807870,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-PRO.json",
+      "sha256": "0f1fb37d07ace42af6244edcd9f35a3b551573bf6cbdaf2f40066bf95ee7b1ee",
+      "bytes": 602824,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-PUB.json",
+      "sha256": "f8df0d9fa238cf28f0b54a97c150bcc368688cb86f5efd1812a7a99663551525",
+      "bytes": 754367,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-REI.json",
+      "sha256": "eb6ae99ec6344a004ff7b7b18c5519bc11221f76dfe809426a25fa32e45453de",
+      "bytes": 825843,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-REM.json",
+      "sha256": "f84686af5cee47cce8b50969c27eb580d05d145b3d0d811e30f0715b77eca37e",
+      "bytes": 872372,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-REX.json",
+      "sha256": "052fcbfd7815804ad842e956ffab820a6fce8b63255c36520f32161a647cd949",
+      "bytes": 861963,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-RTS.json",
+      "sha256": "e01ecb7b7879dc33ecc987620e0272a05f104b87a10c01caf7e7fa6706434e9d",
+      "bytes": 893944,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-SEM.json",
+      "sha256": "16cab4518a5b522e405e2bf2fc563eaf92f22d7383a07223898e8c78702b2673",
+      "bytes": 899764,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-SOF.json",
+      "sha256": "ad0a5051a30c4e568a35e9d1f6f78707c85771679211aafce7b4192c5f9caca5",
+      "bytes": 680697,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-STL.json",
+      "sha256": "9d2ffcf98d8f27cf88b95fb34023d702faefd57942b7efd0a2ad57a38c8c2cbf",
+      "bytes": 926411,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-TCD.json",
+      "sha256": "0f8ecc13546a7a99e1dfd9a5c4d7fa77dbaf9bfbc8b559fad5879ea74a972c99",
+      "bytes": 712309,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-TEX.json",
+      "sha256": "708c3b332c84c67137f0679a9a1c73c9c646301d83d31fcdc48661b57ef61d47",
+      "bytes": 894525,
+      "mode": "0o600"
+    },
+    {
+      "path": "site/data/questions-THQ.json",
+      "sha256": "ff7fea953f9b968b43c83a6724fece0cee09cab2635f56ccad0abdac711ee5a8",
+      "bytes": 885572,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-TLS.json",
+      "sha256": "f889b03460c6bccf57c27a0879d1673a6d7db5f4d340fc6d3a4a99a04f439610",
+      "bytes": 812404,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-TOB.json",
+      "sha256": "40f07aaf3febd37670ed3a0247ba65783938c936f15f43e4d91660a7a40fff62",
+      "bytes": 829545,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data/questions-TRA.json",
+      "sha256": "b2b7db5a614533b613b1693822fd9832398e41f78a2fd79d271b6b23887bc4ad",
+      "bytes": 838911,
+      "mode": "0o600"
+    },
+    {
+      "path": "site/data/questions-TRT.json",
+      "sha256": "c51a2d21d6c89b66834abdd96f622a6b7c65f0c70a0983788997d64121db8847",
+      "bytes": 879633,
+      "mode": "0o600"
+    },
+    {
+      "path": "site/data/questions-TSV.json",
+      "sha256": "a41c65b04eab8b4e32331cb556baa142f2d30df2415a10cbd8e9a3840bf51914",
+      "bytes": 677059,
+      "mode": "0o600"
+    },
+    {
+      "path": "site/data/sources.json",
+      "sha256": "dd5ece208b67387099805f71e149f79c3313ac795837fdf9bd75ebe93dc1f0c4",
+      "bytes": 47939,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/data-store.js",
+      "sha256": "7cc0d917d199cbcd3f824677a1f3ab1023331a2724c18891bf33a1462dc42588",
+      "bytes": 890,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/evidence.js",
+      "sha256": "652a4049df407d171709d379781bc3f181810d4ad7bb66656e80027853bf3fdb",
+      "bytes": 16803,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/index.html",
+      "sha256": "33309f964f58be2bb908de3bba696299cd6a0f4644bc6867e4c87516a4c03dc1",
+      "bytes": 2016,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/methods.js",
+      "sha256": "aec82c0cdb03027148ae0758de81bae0a0aede16a6f513dc0f6d1841bec7d787",
+      "bytes": 10755,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/model-evaluation.js",
+      "sha256": "e29475aba49880de12cf3470a5d81f8e00b6e4fb8034db89e2ccfd74c5912826",
+      "bytes": 5061,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/native-pdf.js",
+      "sha256": "6c97c760997af69b42a0ee51d9a1bc727ce7304fb62a567cb033b81e372ba9ae",
+      "bytes": 5021,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/pages/home.js",
+      "sha256": "e2a248c23d0eaa1643396015b8f726c68e3b48b1c8c54e786fe9673e264789a8",
+      "bytes": 1714,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/pages/questions.js",
+      "sha256": "4013b73fe54e1aa2d4e3fe63ba13f03cea741ccff6029e99f465aeeffd02ab62",
+      "bytes": 6211,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/pages/search.js",
+      "sha256": "cfeb8e799d11c530f8e206840d39f6871d9277a8b8f9d2017ca44adae162ccc8",
+      "bytes": 3536,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/pages/weights.js",
+      "sha256": "a75803bc34d51e9e80a6d94a9a91c10a6c35fa8cf8104cf37866ff066d902311",
+      "bytes": 3737,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/project-export.js",
+      "sha256": "e97bd1e480bf2c5f819c01fb6f2ffb8c91866bd2652b43bc4f49e3fc6a105e0b",
+      "bytes": 4577,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/project.js",
+      "sha256": "77b10a8ec1059ee854e7363de81cd455a8138790a400d0cb98949a749dda6a3c",
+      "bytes": 6602,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/question-export.js",
+      "sha256": "bc9db9717f9ccb89e5f89311f132a9bd1c3b0cea09b42d6debe521e37924ea81",
+      "bytes": 261,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/question-layout.js",
+      "sha256": "9fa49c4f1c53035f21547a015228d79928529f846dd041dcc38412099f8ce026",
+      "bytes": 7334,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/question-policy.js",
+      "sha256": "add3cc7a56c141387eb7ab30e373239eda1816d39d3f23bbd497bc6d7c290f17",
+      "bytes": 2677,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/question-reader.js",
+      "sha256": "1dbd408d9cec51256a034b1ed043250212c5cbfee745fa052c1ddce088a380f3",
+      "bytes": 5295,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/reports.js",
+      "sha256": "0e9d439803690b15f190875e5d9355cde3d24ab2f4489b375fe4b7d9ab200151",
+      "bytes": 6551,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/resources.js",
+      "sha256": "674940afbea4c5749ad201157682f05edb016dda848544f715afdf633c7a0401",
+      "bytes": 4702,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/retrieval-ranking.js",
+      "sha256": "e87c4ceaab8ebf961cedfc1bb7f2db1cf3882f94dadb07130cbe4c4b9bef709f",
+      "bytes": 3484,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/router.js",
+      "sha256": "1bc36f7be815770dfe5b2ed266072b14616337f35b53e0e0a823da27c3d0e84e",
+      "bytes": 1129,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/Best_in_Class_Indices_Asia_Pacific.pdf",
+      "sha256": "120010e8d84dd5ef5776dc5b18b7f12779435a7a8af8b5e5c18293d40cd865cc",
+      "bytes": 103694,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/Best_in_Class_Indices_Australia.pdf",
+      "sha256": "b0d6265f757c9b1d2735bf339f0fb6d669997da346fbf45e8054b25c68570676",
+      "bytes": 97973,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/Best_in_Class_Indices_Chile.pdf",
+      "sha256": "664b3523068a0b0b795d1fb1f655b0828f119ef7de6d5c3aa4583c8e8480d4b1",
+      "bytes": 95128,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/Best_in_Class_Indices_Emerging_Markets.pdf",
+      "sha256": "531024b3768315cabfbba4a7750606841a7568fe80e4a46ec2f82d6003678571",
+      "bytes": 102853,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/Best_in_Class_Indices_Europe.pdf",
+      "sha256": "6a5099be1c5c28cb6ab77f4eb2273638d2d9d093e822750054f12fc8f92715c0",
+      "bytes": 103958,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/Best_in_Class_Indices_Korea.pdf",
+      "sha256": "a7e22b99dcb2fe96684c2a12f1787f9e86e533bd56668321f09c1e8036f1c526",
+      "bytes": 98343,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/Best_in_Class_Indices_MILA.pdf",
+      "sha256": "c5c0d3014767e59d6222e5331a77c5bd150f08b6d2898a4d0ff58443df19180c",
+      "bytes": 98985,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/Best_in_Class_Indices_North_America.pdf",
+      "sha256": "665db114276dd85ea013780cf000290ecaeeed9c5ec36a3a5008c3e27014fdc3",
+      "bytes": 103757,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/Best_in_Class_Indices_World.pdf",
+      "sha256": "b2a7171a29f46d7b1c14386efbe8c6873d02a191bf6e1954e0879a4c8f32127d",
+      "bytes": 114437,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_2026_Methodology_Updates_Overview.pdf",
+      "sha256": "ba7053bbf97842544f8852b4df70997982a3167fc0b33907210680bd289ff10e",
+      "bytes": 2481609,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Annual_Scoring_Methodology_2025.pdf",
+      "sha256": "87b8191786cd25c17ece5db57ac0d9a9ae92358b2f93e3cb5953541923928c76",
+      "bytes": 7035616,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Handbook_2026_Index.pdf",
+      "sha256": "360c75a7a8b2ce0b50ce2449f0bc1e93939963d5e34f92b20b21a6266ce17a4b",
+      "bytes": 124886,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Measuring_Sustainability_Performance_2026.pdf",
+      "sha256": "415bc295600932556a5f4762d3cb0ef7b0d058988624f438e2022444376c6762",
+      "bytes": 7240339,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Measuring_Sustainability_Performance_2026中文翻译（双语）.pdf",
+      "sha256": "729382fc6efa987c61b6a18e4d279acc08cab93213b5948a44fa621525ead8cd",
+      "bytes": 14510319,
+      "mode": "0o600"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_AIR.pdf",
+      "sha256": "05d4a14daa82379529c70cc04971bc6aa972f2e39b1ce5c514d09bc5f71ce670",
+      "bytes": 3427660,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_ALU.pdf",
+      "sha256": "105aa0864a823e55b397aeb642b342ba36624fa1dd1b5febe6d3e1be1eb5e609",
+      "bytes": 3624611,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_ARO.pdf",
+      "sha256": "4cd4b4a79f5d5b697556ecd39ea5a2ecbe43b0515484ad7803121a741023dfad",
+      "bytes": 3393435,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_ATX.pdf",
+      "sha256": "cb254c09b46e81a1e5693905713492144abbddf76060f13bbf381647d1a92418",
+      "bytes": 3471049,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_AUT.pdf",
+      "sha256": "32ebd0b8cb988cea8c5e6ed44c02e21a0da214331720573a85ecba81accb11d6",
+      "bytes": 3673196,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_BLD.pdf",
+      "sha256": "a8fa262af967762a7ce23c7a8d5ab85a5f80fda77af226941f34f11bc8689018",
+      "bytes": 3359746,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_BNK.pdf",
+      "sha256": "508fb2972314df834dcbc79e6777d9b6ecd17b2f2a5020ac3e411acc88e01fd2",
+      "bytes": 3297761,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_BTC.pdf",
+      "sha256": "4487a75cd78c46667ea53f7406fc1a7cf95539d31d2ae648fa89391319357fa6",
+      "bytes": 3466443,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_BVG.pdf",
+      "sha256": "c058beeea6af3bb54319eae1a991e9a4bac4eb542e6b6b046bf96f858f581007",
+      "bytes": 3613411,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_CHM.pdf",
+      "sha256": "771edd5e42dadc157ede8730fb2cedc9e55a5fa82ba24258f46c54785fb01df1",
+      "bytes": 3562075,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_CMT.pdf",
+      "sha256": "eead83438d1cac4b4df91e1d8d93e36d0d8c293e54fb54e599f56e561d181b94",
+      "bytes": 3542630,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_CNO.pdf",
+      "sha256": "e9febcdec82cdcea8184fef646c34798b17b500fb5dc731d0dc00eb004095293",
+      "bytes": 3383536,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_COL.pdf",
+      "sha256": "d6ec4a20a8d83d3ebe67ddeb43c89f8e97a5b6de2ee7fe4dbf04200fa11ec2c9",
+      "bytes": 3661361,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_COM.pdf",
+      "sha256": "3e60f9ad1ca092556749f98bba699ee867eedbf630098a899db9d7b5fe5e3fb4",
+      "bytes": 3533571,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_CON.pdf",
+      "sha256": "ba5dd0d0e7aff51a381c60293a02b5a88740ae1adbb18f9a2d4d2677ab3eede5",
+      "bytes": 3166208,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_COS.pdf",
+      "sha256": "b0dd5ec4647bd15f2c02dee8d0dd79b4cf7e8f1ddb9265a3936f25d70428f0ca",
+      "bytes": 3529302,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_CSV.pdf",
+      "sha256": "bb64393ad01315602ed52334dfaf0e1c6a430c1e2c942e234a6a00baee0c4a01",
+      "bytes": 2924807,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_CTR.pdf",
+      "sha256": "1f404709f9c00667828eb111029e9c82b056e1a96c62f2f148752f40cfad34ab",
+      "bytes": 3479387,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_DHP.pdf",
+      "sha256": "eba5d887fec320ed95d116c3e761a28aba4736cf978b54fa6a6fabf02917b328",
+      "bytes": 3415087,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_DRG.pdf",
+      "sha256": "9b3717e6998e7ff4590203d2f11fa98eba8c8dfca304bf3e9f0b939c98d298e1",
+      "bytes": 3469493,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_ELC.pdf",
+      "sha256": "817501a1220af5d7bbbab23b50660acb1fbb42664e0eacb7773ad65ab153e73d",
+      "bytes": 3619969,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_ELQ.pdf",
+      "sha256": "f51407f68fe58c9ab22d502b0537a5d526cb78a46282b4e0fbe3e7cfdd076ebc",
+      "bytes": 3504337,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_FBN.pdf",
+      "sha256": "d639646980ee6cbb89894ded94e143186b417e0183e284b98345e80cd01f4e90",
+      "bytes": 3492643,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_FDR.pdf",
+      "sha256": "feb282d872547ad6a6ca714461fc8f80736cffc9e5b97836a84887068f7b9f80",
+      "bytes": 3671496,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_FOA.pdf",
+      "sha256": "7b55c231665ea473e9c8dad7e6433d6646d4884bc05bd11935571eea078bb051",
+      "bytes": 3692368,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_FRP.pdf",
+      "sha256": "c7d83668222a6193adb537269664eabfdd92e1a934f8e96445d9d2b07e0ba14e",
+      "bytes": 3734130,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_GAS.pdf",
+      "sha256": "f51ba33ab14d27468d869e3e8758767eaf172ce152fd563711fadacc85e88756",
+      "bytes": 3318648,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_HEA.pdf",
+      "sha256": "e613920049c62ac7ec94025669420c22f8bf3c142b35fe4375670e96cbaf4969",
+      "bytes": 2884137,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_HOM.pdf",
+      "sha256": "09f8db5cdb2258f83276303cad7a35c5c04a797823923d5ce223adc9feb24521",
+      "bytes": 3180558,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_HOU.pdf",
+      "sha256": "63ed0fd33b51d03ad8a0966d657cc5b9a7d33f8ddc71f798a405ebe22111de8b",
+      "bytes": 5151695,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_ICS.pdf",
+      "sha256": "e512e6ed523158d67ec368255c54bdf6691d2f67937742c6877318e477c9e446",
+      "bytes": 4477522,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_IDD.pdf",
+      "sha256": "e07f80621c214a0349ff86697d176ec0e846e2b00040af7c826b92f6bca0ac78",
+      "bytes": 4910866,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_IEQ.pdf",
+      "sha256": "a95afeff69306caa9c6a006a814050172385e78f2406a4b5ebdb6119a78e7d4e",
+      "bytes": 5167722,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_IMS.pdf",
+      "sha256": "c37c394a233ec0f4334cf12924de00f94d6c9ef4ceaa0c4997ae95d928f3eb75",
+      "bytes": 4392959,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_INS.pdf",
+      "sha256": "54aedd42ce4648d871339a6fe53a48fd7bc6d7efb2261c466d9270a549393871",
+      "bytes": 3144843,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_ITC.pdf",
+      "sha256": "1572894435bb712d42c82f2a5e92213fcbca58994fc8fcd5082dd66ff95feaef",
+      "bytes": 3579735,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_LEG.pdf",
+      "sha256": "8369082cdef8cd26dd1e796a6fd3ff13f290646aaf75a8b66eb081fb8d58dba4",
+      "bytes": 3396701,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_LIF.pdf",
+      "sha256": "bae92c5769e87671d771adec5a2098fe96e5fe50b3e8acdf03a7af6403fc88c3",
+      "bytes": 3301491,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_MNX.pdf",
+      "sha256": "e047847c896c5bd49ebba747d8e1d669543cf2bf873644216c6500602bf6aa03",
+      "bytes": 3689959,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_MTC.pdf",
+      "sha256": "cdc6b2da796c331f60aa9e147a89938e7d0629a91388ddf76c8284d162b6173f",
+      "bytes": 3569239,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_MUW.pdf",
+      "sha256": "9eb1177a0da471eeccea6c6f6b4ea29904b38667c0e19f04a27d3cf151692f01",
+      "bytes": 5407124,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_OGR.pdf",
+      "sha256": "48c87425a773dcc0f2acc8ccd774d98498434b68519a9e3803f0e42692098955",
+      "bytes": 5282623,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_OGX.pdf",
+      "sha256": "1b4c5d317403fcd0b949b5f896eb0668ec4a5b7a38e3cd8041c9c6722ed89828",
+      "bytes": 5501293,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_OIE.pdf",
+      "sha256": "6c02834a685e46812476a9a626ab62373e4cb751c09d6181513ba3a49a7f660c",
+      "bytes": 4708627,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_PIP.pdf",
+      "sha256": "c17d65140c373ff22d96b6cabbc88c344b66d87dcbe0932a25977fad6402e586",
+      "bytes": 3308850,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_PRO.pdf",
+      "sha256": "a539271a4d691bb20bf844d335869792cb5e0afa6b884ae839ccca8c3e29b937",
+      "bytes": 2759603,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_PUB.pdf",
+      "sha256": "83f3f5ffbd2a3bea55bac3554d08ef391e4389c3995df2319fe5335fcdbefa9a",
+      "bytes": 3146608,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_REI.pdf",
+      "sha256": "e85ecb188555bb4e0127eebec69edd3ef5ba24ee659ac675326aca61a68891f6",
+      "bytes": 3378254,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_REM.pdf",
+      "sha256": "bf755bdae034db02f977ef708848b1278e68a85b4f6a581b29d1ea12deaf570f",
+      "bytes": 3530211,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_REX.pdf",
+      "sha256": "71c6f5db8c5d4454cdbcaa1f7c8414feaa48b1ac4cf0bf52779608b128841a0e",
+      "bytes": 3473595,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_RTS.pdf",
+      "sha256": "648df6aa84ac3c2f97f52310c18bcfeb7f9970ea9d7ad0a5ca4d6777197a2470",
+      "bytes": 3607594,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_SEM.pdf",
+      "sha256": "46166f66cc5fa71ecae9db8554f2fab572a8e170704d184a92045e0b08862125",
+      "bytes": 3661678,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_SOF.pdf",
+      "sha256": "30d8c3c9644929118ea1479c84418be84e7d7fca39df8e595a7798743577c57e",
+      "bytes": 3010868,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_STL.pdf",
+      "sha256": "7278eac16e89dc56260f0065fe89861c670d5f6ca05c5eaddaebb97a29fe71ac",
+      "bytes": 3746457,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_TCD.pdf",
+      "sha256": "ea80b7c9df968fcaa6229043b9532697cc8710ce8a523af8bb348030755e1e55",
+      "bytes": 3013070,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_TEX.pdf",
+      "sha256": "4147ceb946c08aa7ef6c4c7f65ede4b7173a508846e0f9cf0d5d936a530e83cc",
+      "bytes": 3628811,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_THQ.pdf",
+      "sha256": "a150fdbbe01e7235f13f72c2b95adc18b93ad48f63be329d8a115b19034a2d41",
+      "bytes": 3596588,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_TLS.pdf",
+      "sha256": "8d199e259b151698738e68d408fff0d68711a68196d65771853fcb4c6c934f6c",
+      "bytes": 3296102,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_TOB.pdf",
+      "sha256": "6b2b2c3376fee7cf205a89e61b8849dabd5af9810cc50c151fd292977429117b",
+      "bytes": 3398302,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_TRA.pdf",
+      "sha256": "f123b205b51ffc45152574f796abdf11738f26130a9f1e3c738dcd23f56ff154",
+      "bytes": 3396507,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_TRT.pdf",
+      "sha256": "a82b71ab653c7c776e390d88652135c25348b70543b5764b70f393979638a16f",
+      "bytes": 3469397,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Methodology_Handbook_TSV.pdf",
+      "sha256": "048fa34e532c748f534acff344153b40f0d925bc65d6bac2441c35a5b04028de",
+      "bytes": 2981519,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Online_Portal_Guide_2026.pdf",
+      "sha256": "848abc6e1bbd272375b9152458b8d4790f89fada9db8f2329eb103ebfebb2c83",
+      "bytes": 3299549,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/CSA_Weights_2026.pdf",
+      "sha256": "37bb63fbae9d46739823ac7154580ed858df85c8885a98675ebf056098fd9177",
+      "bytes": 953073,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/MSA_Methodology_Guidebook.pdf",
+      "sha256": "d4ffd4a6af4b1ae061229f62a27d7b238bbdf48787509fc03a817656333585a5",
+      "bytes": 1671397,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/MSA_Upcoming_Changes.pdf",
+      "sha256": "bc8e24a15b050641d58ec7b40513477c5bc9baf5491ab552771a4e1e577abad4",
+      "bytes": 295824,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/SP_Global_ESG_Scores_Methodology.pdf",
+      "sha256": "50f35531be8ea65f6091c89a4c24ebc90ce6cd429454a6d4c3eb489bac30208f",
+      "bytes": 576821,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/SP_Global_ESG_Scores_Methodology中文翻译（双语）.pdf",
+      "sha256": "483035e972833a4264bdb10052d44ab9110caab21f8c804a8013890da8f29c58",
+      "bytes": 1192991,
+      "mode": "0o600"
+    },
+    {
+      "path": "site/sources/Sample_Benchmarking_Report_on_Materiality.pdf",
+      "sha256": "b147462d59effcf628e013dbc022c67e0448e8ebe50e51544814d960018dccba",
+      "bytes": 1347031,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/Sample_CSA_Performance_Outline_Report_2025.pdf",
+      "sha256": "c453dba4d16acc66af62fe7474c42249b13e3b0281a7d7d999ac3274a2ac10a4",
+      "bytes": 1145566,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/sources/Sample_Company_Benchmarking_Report_2026.pdf",
+      "sha256": "378e1ebd36d887f718fd9672f20a7047affaffddc65043f7781f19f7453d0bc4",
+      "bytes": 1346590,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/styles.css",
+      "sha256": "0d40d431f539fcf18c760f11af5a9abe8eb1256dd55cc8eaacbd68a57da03f34",
+      "bytes": 33828,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/task-queue.js",
+      "sha256": "45094155c33cf5f9797c6c00133b029a33f48a77f8e1634be8abd0a73395ada7",
+      "bytes": 936,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/ui.js",
+      "sha256": "3a784f75d550c17cbffe39ff4addd11b86e7c0f534a82db3c76501b06de75166",
+      "bytes": 1883,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/workbench-view.js",
+      "sha256": "ffca07b2b4050a9cc4e7ff87eee8c461dfeb27085ac95b0ad9e58e24626baf73",
+      "bytes": 25744,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/workbench.js",
+      "sha256": "62d237a34fc5094b5d35a437fce187c10dce275758fe3ddd6d98954a3f75cbb6",
+      "bytes": 43055,
+      "mode": "0o644"
+    },
+    {
+      "path": "site/xlsx.js",
+      "sha256": "e59479c0a5880d6be39d900d9cc7ab5601651d9b02071acafc6c32b343ceb5b5",
+      "bytes": 13536,
+      "mode": "0o644"
+    },
+    {
+      "path": "启动 CSA 工作台.command",
+      "sha256": "cf8b9742e5916566b4ee83ed7d4ea5aa4234da473faa116748854c9b99848886",
+      "bytes": 1556,
+      "mode": "0o755"
+    }
+  ]
+}

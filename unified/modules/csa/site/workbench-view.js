@@ -1,0 +1,107 @@
+import {
+  esc,
+  qName,
+  sourceLink,
+  disclosureNames,
+  effectiveDisclosure,
+} from './core.js';
+import { reportTypeNames, reportMetadata, reportPeriodIssues } from './reports.js';
+import { resultStatus, reviewStatus, isFullProject } from './project.js';
+import { selectedEvidenceForResult } from './evidence.js';
+import { options as selectOptions } from './ui.js';
+import { isLibraryQuestion, questionEvidence } from './question-policy.js';
+
+export function renderWorkbench(state) {
+  const p = state.project,
+    reviewed = p.results.filter((r) => r.review?.opinion?.trim()).length;
+  return `<header class="page-head"><h1>报告披露评估工作台</h1><p class="lede">上传 ESG 报告、年报等 PDF，逐项查找原文，再人工确认。所有初评均保留依据与待核实事项，不输出标普官方分数。</p></header>
+  <div class="actions"><button class="btn" data-wb="save" ${state.busy ? 'disabled' : ''}>保存项目</button><button class="text-button" data-wb="backup">下载项目备份</button><label class="text-button">恢复备份<input class="sr-only" type="file" accept=".json,application/json" data-wb-file="backup"></label><button class="text-button push" data-wb="new" ${state.busy ? 'disabled' : ''}>备份并新建项目</button></div><p class="small" id="save-state">${state.dirty ? '当前修改待保存 · ' : ''}${p.savedAt ? '上次保存：' + esc(new Date(p.savedAt).toLocaleString('zh-CN')) : '当前项目尚未保存'} · ${p.results.length} 项初评 · ${reviewed} 项有人工备注</p>
+  ${!isFullProject(p) ? '<div class="notice warning">本站已不再支持此历史版本的初评，原项目可查阅、人工复核和导出。请下载备份，再点击“备份并新建项目”，使用 Full 方法开展新的初评。</div>' : ''}
+  ${!state.busy && p.results.some(r => r.mode === 'native-pdf') && p.selected.some(id => !p.results.some(r => r.questionId === id)) ? `<p class="notice warning">全量初评尚未完成：已选 ${p.selected.length} 项，${p.results.filter(r => p.selected.includes(r.questionId)).length} 项已有草稿。现有备注保留，可恢复模型连接后继续分析。</p>` : ''}
+  <nav class="subnav" aria-label="评估步骤">${[
+    [1, '1 上传与范围'],
+    [2, '2 披露初评'],
+    [3, '3 人工复核'],
+  ]
+    .map(
+      ([s, t]) =>
+        `<button class="btn" data-wb="step" data-step="${s}" ${state.step === s ? 'aria-current="step"' : ''}>${t}</button>`,
+    )
+    .join('')}</nav>
+  ${state.error ? `<div class="notice error" role="alert">${esc(state.error)} <button class="text-button" data-wb="dismiss">关闭提示</button></div>` : ''}
+  ${state.busy ? `<div class="notice" role="status"><strong>${esc((state.queue?.paused || state.nativePaused) ? '已暂停后续任务 · ' + state.progress : state.progress || '正在处理…')}</strong>${state.modelBusy || state.retrievalBusy ? `<div class="actions"><button class="text-button" data-wb="${(state.queue?.paused || state.nativePaused) ? 'resume' : 'pause'}">${(state.queue?.paused || state.nativePaused) ? '继续处理' : '暂停后续任务'}</button><button class="text-button" data-wb="cancel">停止后续任务</button></div>` : ''}<progress ${state.progressTotal ? `value="${state.progressDone || 0}" max="${state.progressTotal}"` : ''}></progress><p class="small">已完成结果逐题保存。暂停或停止后，已发送的模型请求会完成，后续任务保留待处理。</p></div>` : ''}
+  ${p.nativePdfNeedsRefresh ? '<p class="notice warning">材料已更新，请重新生成初评；原有人工备注已保留。</p>' : ''}
+  ${p.nativePdfRun ? `<p class="small">上次任务新消耗 ${p.nativePdfRun.pipeline?.calls > 0 && !Number.isFinite(p.nativePdfRun.usage?.total_tokens) ? '待供应商确认' : Number(p.nativePdfRun.usage?.total_tokens || 0).toLocaleString('zh-CN') + ' Token'} · 复用 ${Number(p.nativePdfRun.pipeline?.cachedQuestionReads || 0)} 项报告阅读、${Number(p.nativePdfRun.pipeline?.cachedAssessments || 0)} 项初评。${p.nativePdfRun.completedAt ? '完成于 ' + esc(new Date(p.nativePdfRun.completedAt).toLocaleString('zh-CN')) : ''}</p>` : ''}
+  ${state.step === 1 ? renderSetup(state) : state.step === 2 ? renderEvaluation(state) : renderReview(state)}`;
+}
+function renderSetup(state) {
+  const p = state.project,
+    ind = state.data.industries.find((x) => x.code === p.industry),
+    cov = state.data.coverage.find((x) => x.industry === p.industry),
+    locked = state.busy || p.results.length > 0 || !isFullProject(p),
+    inputsLocked = state.busy || !isFullProject(p);
+  return `<div class="two-col"><section class="section-box"><h2>项目与方法范围</h2><div class="form-grid"><label>企业名称<input data-project="name" value="${esc(p.name)}" maxlength="120" placeholder="输入本次评估企业" ${locked ? 'disabled' : ''}></label><label>上市身份<select data-project="listed" ${locked ? 'disabled' : ''}>${selectOptions(
+    [
+      ['listed', '上市公司'],
+      ['nonlisted', '非上市公司'],
+      ['unknown', '尚待确认'],
+    ],
+    p.listed,
+  )}</select></label><label>官方 CSA 行业<select data-project="industry" ${locked ? 'disabled' : ''}>${selectOptions(
+    state.data.industries.map((i) => [i.code, i.code + ' · ' + i.zh]),
+    p.industry,
+  )}</select></label><label>方法依据<input value="${isFullProject(p) ? '2026 Full CSA' : '历史项目（仅供复核）'}" readonly></label><label class="full">行业确认依据<input data-project="industryBasis" value="${esc(p.industryBasis)}" maxlength="500" placeholder="例如企业 CSA 门户行业代码；或官方名单及页码" ${locked ? 'disabled' : ''}></label><label>方法年度<input value="2026" readonly aria-label="方法年度 2026"></label><label>项目评估年度<input type="number" min="2026" max="2026" data-project="scoreYear" value="2026" readonly><span class="small">本版只支持 2026 方法；不是已发布官方分数年度。</span></label><label>本次评估报告期间<input data-project="reportPeriod" value="${esc(p.reportPeriod)}" maxlength="80" placeholder="例如 2025-01-01 至 2025-12-31" ${locked ? 'disabled' : ''}></label><label>目标披露期间（可选）<input data-project="targetPeriod" value="${esc(p.targetPeriod)}" maxlength="80" placeholder="用于改进建议，不推断未来数据" ${locked ? 'disabled' : ''}></label></div>
+  ${p.results.length && isFullProject(p) ? '<p class="small">已有初评后，适用范围字段锁定以保留意见。要修改行业／期间，可备份并新建项目，或先备份并清除初评。</p><button class="text-button" data-wb="reset-results">备份并清除初评（保留报告）</button>' : ''}
+  <div class="file-drop"><label>主要报告 PDF（必需，可多选）<input type="file" accept=".pdf,application/pdf" multiple data-wb-file="main" ${state.busy || (!isFullProject(p) && p.reports.every((r) => r.blob)) ? 'disabled' : ''}></label><p>支持上传 ESG 报告、可持续发展报告、年报等，可多选。系统逐页识别文字与表格。</p><p>请填写报告实际覆盖的期间（不是发布日期），不确定可先留空。主要报告与佐证合计不超过 6 份，每份不超过 80 MB。</p></div><div class="file-drop"><label>佐证 PDF（可选，可多选）<input type="file" accept=".pdf,application/pdf" multiple data-wb-file="support" ${state.busy || (!isFullProject(p) && p.reports.every((r) => r.blob)) ? 'disabled' : ''}></label><p>可上传政策、台账、鉴证报告等补充材料，可多选。</p></div>
+  <div class="file-list">${p.reports.map((r) => `<div class="file-row"><div><strong>${r.role === 'main' ? '主要报告' : '佐证'} · ${esc(r.name)}</strong><p>${r.meta.processedPages}/${r.meta.pageCount} 页处理 · ${r.meta.readablePages} 页有可识别内容 · ${r.meta.tableCount} 个表格</p><div class="form-grid"><label>资料类型<select data-report-field="documentType" data-report-id="${r.id}" ${inputsLocked ? 'disabled' : ''}>${selectOptions(Object.entries(reportTypeNames), r.documentType || 'unspecified')}</select></label><label>该资料覆盖期间／信息时点<input data-report-field="documentPeriod" data-report-id="${r.id}" value="${esc(r.documentPeriod || '')}" maxlength="80" placeholder="如报告覆盖 2024 年；不是发布日期" ${inputsLocked ? 'disabled' : ''}></label></div>${!r.documentType || r.documentType === 'unspecified' || !r.documentPeriod ? '<p class="small">类型或期间待确认；本次评估期间不会自动作为本文件的覆盖期间。</p>' : ''}<label class="check-row"><input type="checkbox" data-report-public="${r.id}" ${r.public ? 'checked' : ''} ${inputsLocked ? 'disabled' : ''}><span>这是公开且可追溯的材料<span class="small">由用户确认；公开资格仍需核验网址及来源。</span></span></label><label>公开原网址／来源（公开材料需填写）<input type="url" data-report-url="${r.id}" value="${esc(r.sourceUrl || '')}" placeholder="https://企业官网/报告.pdf" ${inputsLocked ? 'disabled' : ''}></label>${r.warnings?.length ? `<details><summary class="small">${r.warnings.length} 项识别提醒</summary><div class="source-excerpt">${esc(r.warnings.join('\n'))}</div></details>` : ''}</div><div class="actions"><button class="text-button" data-wb="pdf" data-report="${esc(r.id)}">查看原 PDF</button><button class="text-button" data-wb="remove-report" data-report="${esc(r.id)}" ${inputsLocked ? 'disabled' : ''}>移除</button></div></div>`).join('') || '<p class="small">尚未上传资料。可先选 ESG 报告与年报，再逐份填写类型、期间及公开来源。扫描件识别结果需对照原 PDF。</p>'}</div>
+  ${
+    reportPeriodIssues(p).length
+      ? `<div class="notice warning">${reportPeriodIssues(p)
+          .map((x) => `<p>${esc(x)}</p>`)
+          .join('')}</div>`
+      : ''
+  }
+  <details><summary>继续与重新评估</summary><label>本次处理方式<select data-native-cache-mode ${state.busy ? 'disabled' : ''}>${selectOptions([['normal', '继续初评（复用已完成部分）'], ['refresh-results', '重新生成初评（复用已读原文）'], ['refresh-all', '重新读取原 PDF 并初评']], state.nativeCacheMode || 'normal')}</select></label><p class="small">中断后可重新连接模型，使用相同原 PDF 继续。新增题目仍需查找证据；人工备注始终保留。</p><button class="text-button" data-wb="clear-pdf-cache" ${state.busy ? 'disabled' : ''}>清理读取与初评缓存</button></details>
+  <div class="actions"><button class="btn primary" data-wb="run" ${state.busy || !isFullProject(p) ? 'disabled' : ''}>生成披露初评</button></div><p class="small">连接模型后，系统会将原 PDF 发送至所选服务读取，逐题生成简短备注并保留原文页码。未连接模型时仅生成本机候选原文。</p></section>
+  <aside><section class="section-box"><h2>本项目的资料覆盖</h2><p><strong>${esc(ind.zh)} · ${p.industry}</strong><br><span class="small">Handbook ${cov.handbookPages} 页 · ${cov.questions} 条问题说明</span></p><p class="small">当前题库按 2026 Full 方法整理，供披露准备参考。仅启用问题布局、资料要求和证据类型已提取、且本行业标准权重大于零的条目。企业完整线上问卷及问题级评分矩阵尚未取得，实际适用性以门户问卷为准。</p><p class="source-meta">${sourceLink('CSA_Weights_2026.pdf', ind.sourcePage, '行业权重')}<br>${sourceLink(`CSA_Methodology_Handbook_${p.industry}.pdf`, 5, '问卷适用说明')}</p>
+  <details><summary>本次评估清单（已选 ${p.selected.length} 项）</summary><div class="actions"><button class="text-button" data-wb="select-all" ${inputsLocked ? 'disabled' : ''}>选择有依据的全部问题</button><button class="text-button" data-wb="select-none" ${inputsLocked ? 'disabled' : ''}>清空选题</button><button class="text-button" data-wb="methodology-export" ${inputsLocked || !p.selected.length ? 'disabled' : ''}>导出本次 AI 方法依据 Excel</button></div><p class="small">该表逐项使用与 AI 评级请求相同的方法字段。报告 PDF 原文是另一项输入，会作为证据单独发送。</p><div style="max-height:450px;overflow:auto">${state.questions.filter((q) => isLibraryQuestion(q, state.questionLibrary)).map((q) => `<label class="check-row"><input type="checkbox" data-question-check="${q.id}" ${p.selected.includes(q.id) ? 'checked' : ''} ${inputsLocked || !state.isQuestionAssessable(q) ? 'disabled' : ''}><span>${esc(qName(q))}<span class="secondary">${esc(q.criterionZh)} · ${esc(questionEvidence(q).label)}${!state.isQuestionAssessable(q) ? (questionEvidence(q).fromGuidance ? ' · 已有资料说明，初评未启用' : ' · 初评未启用') : ''}</span></span></label>`).join('')}</div></details></section>
+  <section class="section-box"><h2>保存与模型</h2><p class="small">保存会将原 PDF、解析文本、初评及人工意见存到当前浏览器。换浏览器／端口会进入独立存储。项目备份包含解析文本和意见，不含原 PDF；恢复后可按文件指纹重新关联。</p>${renderModelSettings(state)}</section></aside></div>`;
+}
+function renderModelSettings(state) {
+  return `<details><summary>模型连接设置${state.providers.length ? ' · 已连接' : ''}</summary><p class="small">工作台只连接 GLM。密钥只保留在本机服务内存，停止服务后清除，不写入项目或备份。</p>${state.providers.map((p) => `<p class="small">${esc(p.name)} · ${esc(p.model)} · 原生 PDF</p>`).join('')}<form data-wb-form="provider" class="form-grid"><label class="full">连接名称<input name="name" maxlength="48" required value="GLM-5.3-Flash"></label><label class="full">智谱官方接口地址<input name="baseUrl" type="url" required value="https://open.bigmodel.cn/api/paas/v4"></label><label class="full">GLM 模型<select name="model" required>${selectOptions([['glm-5.3-flash', 'GLM-5.3-Flash（默认）'], ['glm-5.3-flashx', 'GLM-5.3-FlashX']], 'glm-5.3-flash')}</select></label><label class="full">API 密钥<input name="apiKey" type="password" autocomplete="off" placeholder="粘贴你的 API Key"></label><button class="btn full" ${state.busy ? 'disabled' : ''}>保存 GLM 连接</button></form><p class="small">默认使用 GLM-5.3-Flash。原 PDF 以分段页文件发送，每段最多 12 页、文本预算约 14,000 字符、文件不超过 6 MB；单份原 PDF 上限 50 MB。识别结果仍需对照原页人工复核。</p></details>`;
+}
+function noteEditor(state, result, title) {
+  return `<label class="sr-only" for="note-${result.questionId}">${esc(title)} 人工备注</label><textarea id="note-${result.questionId}" data-review-note="${result.questionId}" maxlength="10000" rows="3" placeholder="直接补充备注…" ${state.busy ? 'disabled' : ''}>${esc(result.reviewDraft?.opinion ?? result.review?.opinion ?? '')}</textarea><div class="actions"><button class="text-button" data-wb="save-note" data-id="${result.questionId}" ${state.busy ? 'disabled' : ''}>保存备注</button><span class="small">${result.reviewDraft ? '待保存' : result.review?.opinion ? '已保存' : '尚无备注'}</span></div>`;
+}
+function renderResultTable(state) {
+  const rs = state.project.results,
+    page = Math.min(state.page, Math.max(0, Math.ceil(rs.length / 20) - 1));
+  return `<div class="table-wrap"><table class="data work-table remarks-table"><thead><tr><th>问题与标准</th><th>初评备注</th><th>人工备注</th></tr></thead><tbody>${rs.slice(page * 20, (page + 1) * 20).map(r => {
+    const q = state.questions.find(x => x.id === r.questionId);
+    return `<tr><td data-label="问题"><button class="text-button" data-wb="focus" data-id="${q.id}">${esc(qName(q))}</button><span class="secondary">${esc(q.criterionZh)}</span></td><td data-label="初评备注"><p>${esc(r.current || '尚无初评备注')}</p><span class="secondary">${r.modelIssues?.length ? '引用或数值需核对' : '初评待确认'} · ${r.evidence.length} 段原文</span><button class="text-button" data-wb="focus" data-id="${q.id}">查看原文与 PDF 页码</button></td><td data-label="人工备注">${noteEditor(state, r, qName(q))}</td></tr>`;
+  }).join('')}</tbody></table></div><div class="pager"><span>${rs.length} 项 · 第 ${page + 1}/${Math.max(1, Math.ceil(rs.length / 20))} 页</span><div class="actions"><button class="btn small-btn" data-wb="page" data-page="${page - 1}" ${page === 0 ? 'disabled' : ''}>上一页</button><button class="btn small-btn" data-wb="page" data-page="${page + 1}" ${(page + 1) * 20 >= rs.length ? 'disabled' : ''}>下一页</button></div></div>`;
+}
+function renderEvaluation(state) {
+  const p = state.project;
+  return `<section class="section-box"><div class="actions"><h2>逐项披露初评</h2><button class="btn push" data-wb="run" ${state.busy || !isFullProject(p) ? 'disabled' : ''}>重新初评</button></div><p class="small">${esc(p.name || '尚未填写企业')} · ${p.industry} · ${p.methodYear} ${isFullProject(p) ? 'Full' : '历史项目'} · ${esc(p.reportPeriod || '期间未填写')}</p><p class="small">初评备注均待确认。可直接在右侧补充备注；点击问题查看原文。</p>${p.results.length ? renderResultTable(state) : '<p class="state-empty">尚未生成初评，请先上传报告。</p>'}${state.focusId && state.currentResult() ? renderDetail(state, false) : ''}<details><summary>重新分析与模型设置</summary>${renderModelSettings(state)}<div class="toolbar"><label>使用连接<select data-provider>${state.providers.length ? selectOptions(state.providers.map(p => [p.id, p.name + ' · ' + p.model]), state.providerId) : '<option>尚未配置模型</option>'}</select></label><button class="btn" data-wb="model-all" ${state.busy || !isFullProject(p) || !state.providers.length || !p.results.length ? 'disabled' : ''}>重新分析全部</button><button class="text-button" data-wb="model-retry" ${state.busy || !isFullProject(p) || !state.providers.length || !p.results.some(r => r.status === 'error') ? 'disabled' : ''}>重试需核对项</button></div></details></section>`;
+}
+function renderReview(state) {
+  return `<section class="section-box"><div class="actions"><h2>备注与导出</h2><button class="btn primary push" data-wb="export" ${!state.project.results.length || state.busy ? 'disabled' : ''}>一键导出 Excel</button></div><p class="small">直接填写备注并保存，Excel 使用已保存的内容。初评不代表标普官方评分。</p>${state.project.results.length ? renderResultTable(state) : '<p class="state-empty">尚无初评结果。</p>'}${state.focusId && state.currentResult() ? renderDetail(state, true) : ''}</section>`;
+}
+function renderPdfDetail(state) {
+  const q = state.currentQuestion(), r = state.currentResult();
+  return `<section class="section-box" id="question-detail"><div class="actions"><h2>${esc(qName(q))}</h2><button class="text-button push" data-wb="close-detail">收起</button></div><p class="secondary">${esc(q.title)} · ${esc(q.criterionZh)}</p><h3>初评备注</h3><p>${esc(r.current)}</p>${r.modelIssues?.length ? `<p class="notice warning">${esc(r.modelIssues.join('；'))}</p><details><summary>待核对的模型原稿</summary><p>${esc(r.nativeRemark || '')}</p></details>` : ''}${r.uncertainties?.length ? `<p class="small">${esc(r.uncertainties.join('；'))}</p>` : ''}<h3>原文依据</h3>${r.evidence.map(e => `<article class="evidence"><div class="actions"><strong>${esc(e.source)} · PDF 第 ${e.page} 页</strong><button class="text-button push" data-wb="pdf" data-report="${esc(e.reportId)}" data-pdf-page="${e.page}">对照原 PDF</button></div><p>${esc(e.text)}</p></article>`).join('') || '<p class="small">没有可直接核实的原文引用，请对照 PDF 查看。</p>'}<p class="source-meta">${sourceLink(q.sourceFile, q.page, '方法原文')} · ${esc(r.modelLabel || '')}</p>${r.reviewHistory?.length ? `<details><summary>历史备注</summary>${r.reviewHistory.map(h => `<p>${esc(h.opinion || '')}</p>`).join('')}</details>` : ''}</section>`;
+}
+function renderDetail(state, review) {
+  if (state.currentResult()?.mode === 'native-pdf') return renderPdfDetail(state);
+  const q = state.currentQuestion(),
+    r = state.currentResult(),
+    d = effectiveDisclosure(q, state.project.listed),
+    selected = new Set(selectedEvidenceForResult(r));
+  return `<section class="section-box" id="question-detail"><div class="actions"><h2>${esc(qName(q))}</h2><button class="text-button push" data-wb="close-detail">收起</button></div><p class="secondary">${esc(q.title)} · 本站条目 ID ${q.id}（门户题号未取得） · ${esc(q.criterionZh)} · ${esc(q.dimensionZh)}</p><p class="small">${esc(disclosureNames[d] || '证据类型待核实')} · 标准占总分 ${q.weight}% · ${sourceLink(q.sourceFile, q.page, '方法原文')}</p>
+  <div class="result-grid"><div><h3>原文候选与证据选择</h3><form data-wb-form="search"><label>补充检索关键词（逗号分隔）<input name="query" value="${esc(r.query || '')}" placeholder="输入报告中的具体中文或英文用语" ${!isFullProject(state.project) ? 'disabled' : ''}></label><button class="btn small-btn" ${!isFullProject(state.project) ? 'disabled' : ''}>检索更多原文</button></form><p class="small">匹配较强的片段会默认勾选；宽泛或较弱的命中保留为未勾选候选。请对照原 PDF 确认后再选用。最多选 8 条供模型分析；报告页码指 PDF 物理页码。</p>
+  ${r.evidence.map((e) => `<article class="evidence"><div class="actions"><label class="check-row"><input type="checkbox" data-evidence-check="${esc(e.id)}" ${selected.has(e.id) ? 'checked' : ''} ${state.busy ? 'disabled' : ''}><span>${esc(e.source)} · PDF 第 ${e.page} 页</span></label><button class="text-button" data-wb="pdf" data-report="${esc(e.reportId)}" data-pdf-page="${e.page}">对照原 PDF</button></div><span class="badge">${e.public ? '用户确认公开' : '内部／未确认公开'}</span>${e.matchType ? `<span class="badge">${esc(e.matchType)}</span>` : ''}<p class="small">${esc(reportMetadata(state.project.reports.find((doc) => doc.id === e.reportId)).documentType)} · 覆盖期间／信息时点：${esc(reportMetadata(state.project.reports.find((doc) => doc.id === e.reportId)).documentPeriod)}（用户填写，需核对原文）</p>${e.quality_note ? `<p class="notice warning">${esc(e.quality_note)}</p>` : ''}<p>${esc(e.text)}</p><p class="source-meta">${esc(e.id)}</p></article>`).join('') || '<p class="state-empty">未找到候选原文。请用报告中的关键词补充检索，或上传佐证材料后重新初评。</p>'}</div>
+  <aside class="sticky-side"><h3>本题初评</h3><span class="badge pending">${esc(resultStatus[r.status])}</span><div class="result-copy"><h4>已有披露</h4><p>${esc(r.current)}</p><h4>披露待核实项</h4><ul>${(r.gaps || []).map((x) => `<li>${esc(x)}</li>`).join('')}</ul><h4>需要补充材料</h4><ul>${(r.requests || []).map((x) => `<li>${esc(x)}</li>`).join('') || '<li>依据问题布局核对证据覆盖及边界。</li>'}</ul><h4>改进建议</h4><p>${esc(r.recommendation)}</p><h4>待核实事项</h4><ul>${(r.uncertainties || []).map((x) => `<li>${esc(x)}</li>`).join('')}</ul>${r.modelIssues?.length ? `<div class="notice error"><strong>模型结果未通过校验</strong><ul>${r.modelIssues.map((x) => `<li>${esc(x)}</li>`).join('')}</ul></div>` : ''}${r.modelLabel ? `<p class="source-meta">模型：${esc(r.modelLabel)} · ${esc(r.modelAt || '')}</p>` : ''}</div>
+  ${r.reviewHistory?.length ? `<details><summary>既往人工意见（${r.reviewHistory.length} 条，已归档）</summary>${r.reviewHistory.map((h) => `<article class="review-history"><p><strong>${esc(reviewStatus[h.status] || h.status)}</strong> · ${esc(h.updated || '')}</p><p>${esc(h.opinion || '')}</p><p class="small">${esc(h.reason || '')}</p></article>`).join('')}</details>` : ''}<details><summary>问题布局与说明原文</summary><div class="source-excerpt">${esc(q.layout)}</div><div class="source-excerpt">${esc(q.guidance)}</div><p class="small">完整内容见 ${q.page}–${q.endPage} 页。</p></details>
+  ${!review ? `<div class="actions"><button class="btn" data-wb="model-one" ${state.busy || !isFullProject(state.project) || !state.providers.length ? 'disabled' : ''}>用模型分析本题</button><button class="btn primary" data-wb="to-review">进入人工复核</button></div><p class="small">模型操作会发送已勾选原文至所选服务；没有问题级数字标尺，不输出分数。</p>` : `<form data-wb-form="review"><label>人工状态<select name="status" ${state.busy ? 'disabled' : ''}>${selectOptions(Object.entries(reviewStatus), r.reviewDraft?.status || r.review?.status || 'pending')}</select></label><label>复核意见／缺失材料／不适用理由<textarea name="opinion" maxlength="10000" ${state.busy ? 'disabled' : ''} placeholder="记录证据覆盖、期间、边界及待补资料">${esc(r.reviewDraft?.opinion ?? r.review?.opinion ?? '')}</textarea></label><label>复核人（可选）<input name="reviewer" maxlength="120" ${state.busy ? 'disabled' : ''} value="${esc(r.reviewDraft?.reviewer ?? r.review?.reviewer ?? '')}"></label><button class="btn primary" ${state.busy ? 'disabled' : ''}>保存本题复核意见</button><p class="small">${r.reviewDraft ? '有未提交的复核草稿；Excel 使用已提交意见。 ' : ''}${r.review?.updated ? '最近保存 ' + esc(new Date(r.review.updated).toLocaleString('zh-CN')) : '尚无人工保存记录'}</p></form>`}</aside></div></section>`;
+}

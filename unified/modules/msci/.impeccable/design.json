@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-06T04:11:17Z",
+  "title": "Design System: MSCI ESG 评级知识库",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "页面白"
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "表面白"
+      },
+      "surface-2": {
+        "role": "neutral",
+        "displayName": "容器浅灰"
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "正文墨灰"
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "辅助墨灰"
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "说明灰绿"
+      },
+      "faint": {
+        "role": "neutral",
+        "displayName": "来源灰绿"
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "细分隔灰"
+      },
+      "line-strong": {
+        "role": "neutral",
+        "displayName": "边界灰绿"
+      },
+      "navy": {
+        "role": "primary",
+        "displayName": "森林绿"
+      },
+      "navy-ink": {
+        "role": "primary",
+        "displayName": "深森林绿"
+      },
+      "env": {
+        "role": "secondary",
+        "displayName": "环境绿"
+      },
+      "env-soft": {
+        "role": "secondary",
+        "displayName": "环境浅绿"
+      },
+      "soc": {
+        "role": "secondary",
+        "displayName": "社会棕"
+      },
+      "soc-soft": {
+        "role": "secondary",
+        "displayName": "社会浅米"
+      },
+      "gov": {
+        "role": "secondary",
+        "displayName": "治理灰绿"
+      },
+      "gov-soft": {
+        "role": "secondary",
+        "displayName": "治理浅绿"
+      },
+      "nav-active": {
+        "role": "primary",
+        "displayName": "当前导航浅绿"
+      },
+      "nav-active-hover": {
+        "role": "primary",
+        "displayName": "当前导航悬停浅绿"
+      },
+      "row-hover": {
+        "role": "primary",
+        "displayName": "行悬停浅绿"
+      },
+      "source-warning-bg": {
+        "role": "secondary",
+        "displayName": "来源警告浅米"
+      },
+      "source-warning-ink": {
+        "role": "secondary",
+        "displayName": "来源警告深棕"
+      },
+      "source-warning-line": {
+        "role": "secondary",
+        "displayName": "来源警告米灰边界"
+      },
+      "workbench-error-bg": {
+        "role": "secondary",
+        "displayName": "错误浅红"
+      },
+      "workbench-error-ink": {
+        "role": "secondary",
+        "displayName": "工作台错误红"
+      },
+      "export-error": {
+        "role": "secondary",
+        "displayName": "导出错误红"
+      },
+      "search-match": {
+        "role": "secondary",
+        "displayName": "搜索命中黄"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "知识页面标题",
+        "purpose": "知识页主标题，使用现有流式字号。"
+      },
+      "headline": {
+        "displayName": "工作台标题",
+        "purpose": "工作台标题；窄屏有实际字号覆盖。"
+      },
+      "title": {
+        "displayName": "分区标题",
+        "purpose": "工作台分区标题，保持正文可扫描。"
+      },
+      "body": {
+        "displayName": "基础正文",
+        "purpose": "页面基础正文；阅读段落保留自己的既有行高。"
+      },
+      "label": {
+        "displayName": "表单标签",
+        "purpose": "项目与复核字段标签。"
+      },
+      "mono": {
+        "displayName": "来源等宽信息",
+        "purpose": "来源编号、版本与现有英文辅助信息。"
+      }
+    },
+    "shadows": [
+      {
+        "name": "sidebar-open",
+        "value": "0 8px 24px rgba(36, 43, 40, 0.08)",
+        "purpose": "移动抽屉打开时的现有阴影，桌面侧栏关闭该阴影。"
+      },
+      {
+        "name": "matrix-cell-separator",
+        "value": "inset -1px 0 0 var(--line), inset 0 -1px 0 var(--line)",
+        "purpose": "层级矩阵的单元格分隔，不表示浮起。"
+      },
+      {
+        "name": "pillar-selected",
+        "value": "inset 0 0 0 2px rgba(255, 255, 255, 0.85)",
+        "purpose": "支柱筛选选中时的现有白色内描边。"
+      }
+    ],
+    "motion": [
+      {
+        "name": "button-state",
+        "value": "border-color 0.15s ease, color 0.15s ease, background 0.15s ease",
+        "purpose": "主要和次要按钮的边界、文字与背景颜色过渡。"
+      },
+      {
+        "name": "chip-state",
+        "value": "background 0.15s ease, color 0.15s ease, border-color 0.15s ease",
+        "purpose": "筛选按钮的现有状态过渡。"
+      },
+      {
+        "name": "sidebar",
+        "value": "transform 0.24s ease",
+        "purpose": "移动抽屉进出。"
+      },
+      {
+        "name": "menu-icon",
+        "value": "transform 0.2s ease, opacity 0.2s ease",
+        "purpose": "移动菜单图形变化。"
+      },
+      {
+        "name": "reduced-motion-duration",
+        "value": "0.01ms",
+        "purpose": "减弱动态偏好时的全局过渡与动画时长。"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "workbench-compact-max",
+        "value": "480px"
+      },
+      {
+        "name": "knowledge-narrow-max",
+        "value": "719px"
+      },
+      {
+        "name": "knowledge-grid-min",
+        "value": "720px"
+      },
+      {
+        "name": "workbench-single-column-max",
+        "value": "760px"
+      },
+      {
+        "name": "desktop-sidebar-min",
+        "value": "1024px"
+      },
+      {
+        "name": "workbench-spacing-max",
+        "value": "1100px"
+      },
+      {
+        "name": "reading-directory-min",
+        "value": "1200px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "主要操作按钮",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "知识页和工作台共用的主要动作；悬停、焦点及工作台禁用状态取自现有 CSS。",
+      "html": "<button type=\"button\" class=\"ds-btn-primary\">开始 AI 评估</button>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;gap:6px;font-family:var(--font, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Noto Sans CJK SC\", sans-serif);font-size:14px;line-height:1.65;min-height:44px;padding:10px 16px;cursor:pointer;border:1px solid var(--navy, #344b40);border-radius:var(--radius-sm, 8px);background:var(--navy, #344b40);color:#fff;transition:border-color 0.15s ease,color 0.15s ease,background 0.15s ease}.ds-btn-primary:hover{background:var(--navy-ink, #293c33);border-color:var(--navy-ink, #293c33);color:#fff}.ds-btn-primary:focus-visible{outline:2px solid var(--navy, #344b40);outline-offset:2px;}.ds-btn-primary:disabled{opacity:.55;cursor:default;pointer-events:none}@media(prefers-reduced-motion:reduce){.ds-btn-primary{transition-duration:0.01ms}}"
+    },
+    {
+      "name": "次要操作按钮",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "返回、保存与非主要操作；白底细边框，悬停强调森林绿。",
+      "html": "<button type=\"button\" class=\"ds-btn-secondary\">保存到本机</button>",
+      "css": ".ds-btn-secondary{display:inline-flex;align-items:center;gap:6px;font-family:var(--font, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Noto Sans CJK SC\", sans-serif);font-size:14px;line-height:1.65;min-height:44px;padding:10px 16px;cursor:pointer;border:1px solid var(--line-strong, #b8c7bc);border-radius:var(--radius-sm, 8px);background:var(--surface, #ffffff);color:var(--ink, #242b28);transition:border-color 0.15s ease,color 0.15s ease,background 0.15s ease}.ds-btn-secondary:hover{border-color:var(--navy, #344b40);color:var(--navy, #344b40)}.ds-btn-secondary:focus-visible{outline:2px solid var(--navy, #344b40);outline-offset:2px;}.ds-btn-secondary[aria-expanded=\"true\"]{border-color:var(--navy, #344b40);color:var(--navy, #344b40)}.ds-btn-secondary:disabled{opacity:.55;cursor:default;pointer-events:none}@media(prefers-reduced-motion:reduce){.ds-btn-secondary{transition-duration:0.01ms}}"
+    },
+    {
+      "name": "工作台输入字段",
+      "kind": "input",
+      "refersTo": "input-workbench",
+      "description": "单列占满的项目与复核字段；占位文字、光标与键盘焦点沿用实际规则。",
+      "html": "<div class=\"ds-field-wrap\"><label class=\"ds-field-label\" for=\"ds-client-name\">客户名称</label><input class=\"ds-field\" id=\"ds-client-name\" placeholder=\"公司名称 · A 股代码（选填）\"></div>",
+      "css": ".ds-field-wrap{font-family:var(--font, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Noto Sans CJK SC\", sans-serif);line-height:1.65}.ds-field-label{display:block;margin:14px 0 8px;font-size:.875rem;color:var(--ink-2, #39463e);font-weight:600}.ds-field{width:100%;min-height:44px;padding:10px 12px;border:1px solid var(--line-strong, #b8c7bc);border-radius:var(--radius-sm, 8px);background:var(--surface, #ffffff);color:var(--ink, #242b28);font:inherit;font-size:.875rem;caret-color:var(--navy, #344b40)}.ds-field::placeholder{color:var(--muted, #626d66);opacity:1}.ds-field:hover{background:var(--surface, #ffffff)}.ds-field:focus-visible{outline:2px solid var(--navy, #344b40);outline-offset:2px;}"
+    },
+    {
+      "name": "侧栏导航",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "当前页浅绿底、森林绿字；图标使用现有内联 SVG，状态样式不附带路由逻辑。",
+      "html": "<nav class=\"ds-nav\" aria-label=\"知识模块\"><a class=\"ds-nav-item\" href=\"#/issues\" aria-current=\"page\"><svg class=\"ds-nav-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect x=\"14\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect x=\"3\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/><rect x=\"14\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/></svg><span>关键议题</span><span class=\"ds-nav-count\">33 议题</span></a><a class=\"ds-nav-item\" href=\"#/search\"><svg class=\"ds-nav-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"10.5\" cy=\"10.5\" r=\"6.5\"/><path d=\"m16 16 5 5\"/></svg><span>知识查询</span></a></nav>",
+      "css": ".ds-nav{display:flex;flex-direction:column;gap:2px;font-family:var(--font, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Noto Sans CJK SC\", sans-serif);line-height:1.65}.ds-nav-item{display:flex;align-items:center;gap:10px;min-height:44px;padding:10px 8px;border-radius:var(--radius-sm, 8px);color:var(--ink-2, #39463e);text-decoration:none;font-size:14.5px}.ds-nav-item:hover{background:var(--surface-2, #f7f8f8);color:var(--ink, #242b28)}.ds-nav-item[aria-current=\"page\"]{background:#edf3ee;color:var(--navy, #344b40);font-weight:650}.ds-nav-item[aria-current=\"page\"]:hover{color:var(--navy, #344b40);background:#e5eee7}.ds-nav-item:focus-visible{outline:2px solid var(--navy, #344b40);outline-offset:2px;}.ds-nav-icon{display:block;width:18px;height:18px;flex:0 0 auto}.ds-nav-count{margin-left:auto;font-size:11px;color:var(--muted, #626d66);white-space:nowrap}.ds-nav-item[aria-current=\"page\"] .ds-nav-count{color:var(--navy, #344b40);font-weight:400}"
+    },
+    {
+      "name": "筛选按钮",
+      "kind": "chip",
+      "refersTo": "chip-filter",
+      "description": "胶囊形筛选控件；悬停强调边界、选中为绿底白字，窄屏保留 44px 最小高度。",
+      "html": "<div class=\"ds-chips\" role=\"group\" aria-label=\"检索范围\"><button type=\"button\" class=\"ds-chip\" aria-pressed=\"true\">全部</button><button type=\"button\" class=\"ds-chip\" aria-pressed=\"false\">关键议题</button></div>",
+      "css": ".ds-chips{display:flex;flex-wrap:wrap;gap:6px;font-family:var(--font, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Noto Sans CJK SC\", sans-serif);line-height:1.65}.ds-chip{font:inherit;font-size:13px;padding:5px 12px;border-radius:999px;border:1px solid var(--line-strong, #b8c7bc);background:var(--surface, #ffffff);color:var(--ink-2, #39463e);cursor:pointer;transition:background 0.15s ease,color 0.15s ease,border-color 0.15s ease}.ds-chip:hover{border-color:var(--navy, #344b40)}.ds-chip[aria-pressed=\"true\"]{background:var(--navy, #344b40);border-color:var(--navy, #344b40);color:#fff}.ds-chip:focus-visible{outline:2px solid var(--navy, #344b40);outline-offset:2px;}@media(max-width:719px){.ds-chip{min-height:44px}}@media(prefers-reduced-motion:reduce){.ds-chip{transition-duration:0.01ms}}"
+    },
+    {
+      "name": "文字辅助按钮",
+      "kind": "button",
+      "refersTo": "button-text",
+      "description": "工作台的低优先级文字操作，保留原有 36px 最小高度。",
+      "html": "<button type=\"button\" class=\"ds-text-button\">展开辅助设置</button>",
+      "css": ".ds-text-button { border: 0; background: transparent; color: var(--navy); padding: 8px 0; min-height: 36px; font: inherit; font-size: .8125rem; text-align: start; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; } .ds-text-button:hover { color: var(--navy); } .ds-text-button:focus-visible { outline: 2px solid var(--navy); outline-offset: 2px; border-radius: 3px; } .ds-text-button:disabled { opacity: .55; cursor: default; }"
+    },
+    {
+      "name": "知识内容容器",
+      "kind": "card",
+      "refersTo": "card-knowledge",
+      "description": "现有 .card 的扁平内容行；底部分隔线，不增加点击或悬停行为。",
+      "html": "<article class=\"ds-card\"><h3>指标与来源</h3><p>按来源版本与页码核对适用要求。</p></article>",
+      "css": ".ds-card { background: var(--surface); color: var(--ink); border: 0; border-bottom: 1px solid var(--line); padding: 24px 0; font-family: var(--font); line-height: 1.65; } .ds-card h3 { margin: 0 0 6px; font-size: 15px; font-weight: 650; line-height: 1.3; letter-spacing: -.01em; } .ds-card p { font-size: 14px; color: var(--ink-2); margin: 0; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "ESG Hub v5 简洁工作界面",
+    "overview": "白色承载阅读与操作，森林绿标记当前步骤、来源链接和主要动作。知识阅读、查询与三页工作台共用系统中文字体、细分隔线和留白；内容层级由标题、字号及间距形成。\n\n界面采用扁平层次，列表与表格便于逐项核对。浅灰和浅绿用于容器与选中状态，警告、错误和支柱分类保留自己的语义颜色。现有功能与资料内容不由本文件重新定义。\n\n记录日期为 2026-10-06。令牌与状态依据 [全站样式](site/styles.css) 和现有组件代码提取；未访问真实浏览器，响应布局与参考风格的视觉相似度尚未验收。扩展信息与五个独立样式片段见 [.impeccable/design.json](.impeccable/design.json)。",
+    "keyCharacteristics": [
+      "白底、森林绿操作色、灰色分隔线。",
+      "系统中文字体，英文与来源信息采用次级层次。",
+      "扁平列表与表格，主要操作和表单保留清晰的操作面积。",
+      "选中状态与键盘焦点均有独立标记。"
+    ],
+    "rules": [
+      {
+        "name": "The Action Color Rule",
+        "body": "主要动作、当前步骤和来源链接共用森林绿；分类、警告和错误保留各自语义颜色。",
+        "section": "colors"
+      },
+      {
+        "name": "The One Font Stack Rule",
+        "body": "中文内容和操作控件使用现有系统字体栈；来源与版本信息才使用等宽字体。",
+        "section": "typography"
+      },
+      {
+        "name": "The Keep Rows Readable Rule",
+        "body": "长表格保留横向滚动，长词与来源文本允许换行；不要靠缩小正文挤入窄屏。",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat Surface Rule",
+        "body": "阅读列表和工作台分区以底部分隔线组织；抽屉阴影与表格内描边仅用于既有功能状态。",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** 用森林绿标记主要动作、当前步骤与来源链接，保持主按钮悬停白字。",
+      "**Do** 用分隔线、字号和间距组织阅读与工作台密度，保持现有中文和英文层次。",
+      "**Do** 保留主要操作面积、键盘焦点、长表横向滚动与长词换行。",
+      "**Do** 从实际样式更新令牌与扩展文件，并分别记录离线检查和真实浏览器验收。"
+    ],
+    "donts": [
+      "**Don't** 为常态阅读列表和工作台分区添加装饰阴影、渐变或过场动画。",
+      "**Don't** 用浅色分隔线作为版本文字颜色，或移除查询输入的可收缩最小宽度。",
+      "**Don't** 添加未实施的令牌、颜色梯度或组件，或将开发方向说明写入设计规范。",
+      "**Don't** 把源码、离线 DOM 或颜色抽样通过表述为像素一致或真实浏览器视觉通过。"
+    ]
+  }
+}

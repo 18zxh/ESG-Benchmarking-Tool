@@ -1,0 +1,20 @@
+{
+  "built": "2026-10-10",
+  "methodYear": 2026,
+  "industryCount": 62,
+  "handbookCount": 62,
+  "indexCount": 9,
+  "companyCount": 773,
+  "questionCount": 7025,
+  "enabledQuestionCount": 6921,
+  "sourceCount": 88,
+  "indexEffectiveDate": "2026-05-01",
+  "fullQuestionnaireCoverage": false,
+  "missing": "2026 完整行业问卷、问题级官方评分矩阵、企业分数及指数成分股权重未取得",
+  "localPDFCount": 85,
+  "lastInterfaceUpdate": "2026-10-12",
+  "reviewedStructureLayouts": 419,
+  "reviewedStructureQuestions": 7018,
+  "interfaceVersion": "10.12",
+  "sharedQuestionTemplateCount": 667
+}

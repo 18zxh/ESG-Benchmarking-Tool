@@ -1,0 +1,27 @@
+{
+  "sources": [
+    {
+      "id": "mb",
+      "title": "主板上市规则附录C2",
+      "url": "https://en-rules.hkex.com.hk/entiresection/3742",
+      "path": "data/sources/hkex/mb-c2.txt",
+      "sha256": "3b90d252a475007016074ae71d047873b5ec32d59f671d76157a547dd2972ddd",
+      "retrieved": "2026-10-16"
+    },
+    {
+      "id": "gem",
+      "title": "GEM上市规则附录C2",
+      "url": "https://en-rules.hkex.com.hk/entiresection/1801",
+      "path": "data/sources/hkex/gem-c2.txt",
+      "sha256": "0a24ac76c5580e28ab54343ad0b44fa753fe515dd4378ac35a6d28f46af8faf7",
+      "retrieved": "2026-10-16"
+    }
+  ],
+  "note": "原官方英文来源保留作历史核对。当前知识库及AI评估采用官方中文条文，中文原件、转换及映射来源见hk-zh-manifest.json。A1.2两板均删除；A4一般披露及A4.1仅GEM保留。",
+  "implementationTimelineSource": {
+    "title": "港交所2024-04-19气候披露咨询总结公告",
+    "url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2024/240419news?sc_lang=en",
+    "scope": "FY2025起分阶段实施气候新规；不将其作为整份C2守则统一施行日期。"
+  },
+  "primarySourceManifest": "data/sources/hkex/hk-zh-manifest.json"
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "aliases": [
+      "腾讯",
+      "腾讯控股",
+      "腾讯控股有限公司"
+    ],
+    "officialName": "Tencent Holdings Limited",
+    "companyId": "075c232d118522",
+    "sourceUrl": [
+      "https://static.www.tencent.com/attachments/CorporateGovernance/e_THL_third%20amended%20M%26A_18%20May%202022.pdf",
+      "https://www.tencent.com/zh-cn/investors/",
+      "https://portal.s1.spglobal.com/survey/documents/Best_in_Class_Indices_Emerging_Markets.pdf",
+      "https://portal.s1.spglobal.com/survey/documents/Best_in_Class_Indices_World.pdf"
+    ],
+    "sourceNote": "腾讯公司章程首页及第1条将TENCENT HOLDINGS LIMITED与“腾讯控股有限公司”并列；腾讯中文投资者页面显示“腾讯控股 (0700.HK)”；官方指数原文行确认Tencent Holdings Limited，Emerging Markets名单PDF p.2、World名单PDF p.5，原文行业列IMS。"
+  },
+  {
+    "aliases": [
+      "京东",
+      "京东集团股份有限公司"
+    ],
+    "officialName": "JD.com, Inc.",
+    "companyId": "8cef746e9cdf23",
+    "sourceUrl": [
+      "https://ir.jd.com/zh-hans",
+      "https://ir.jd.com/static-files/7f630298-69ba-4041-a1e6-2b0510fe11cf",
+      "https://portal.s1.spglobal.com/survey/documents/Best_in_Class_Indices_World.pdf"
+    ],
+    "sourceNote": "京东官方中文投资者页面使用“京东（JD.COM）”；官方股东大会通知载明通过“京东集团股份有限公司”作为公司的中文双重外国名称；官方World名单PDF p.2列有“JD.com, Inc. | China | Consumer Discretionary Distribution & Retail | RTS”。"
+  }
+]

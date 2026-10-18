@@ -1,0 +1,1909 @@
+{
+  "schema": 1,
+  "version": "10.12-primary",
+  "scope": "Primary question text only; English PDF line-wrap whitespace is normalized.",
+  "mapping": {
+    "Q-16bdc5f5a56f43cc": "P-438f4cf2f168b5e8",
+    "Q-4c8247b6aea78922": "P-1bdb741b32f35da8",
+    "Q-cec0924da7cf948f": "P-e58b0443f67458d3",
+    "Q-f20a37df518e53a6": "P-6fe05b1bf072345b",
+    "Q-9bfe4d817cac562d": "P-c6ae058bd1c5511e",
+    "Q-5825d101a622a6e4": "P-bb2e780dee9a3240",
+    "Q-5910f8308daa0ae5": "P-d44f500645ccd9f5",
+    "Q-43060b89a8c22d8a": "P-f104715125956d3c",
+    "Q-920623309616937d": "P-3a36bbc4ec748938",
+    "Q-3228812b9c7a98c7": "P-ae4b42285a07b6c3",
+    "Q-da753d9f57c7880b": "P-6cd15989ce243b23",
+    "Q-9b68b05248cb31e8": "P-8f59ee245b137b03",
+    "Q-0512619e8d601908": "P-139f7ef925da27e5",
+    "Q-2f4fc0a68edc64a7": "P-33f68a10dde6edea",
+    "Q-bec5f85a069a68a2": "P-590ddf412d43e324",
+    "Q-9186c67f42a9f8cd": "P-65d66ecc4c55f0c6",
+    "Q-4eda98aed236cb2b": "P-0a87487e26d8d8a0",
+    "Q-5edddba01732d0dd": "P-69db6820ee6a6e4c",
+    "Q-4f96fde9d036cb3a": "P-998dd838028aed06",
+    "Q-2783e2b25d5ce587": "P-f198a021cd1f5b28",
+    "Q-72d544138cf6382e": "P-ec7b94decccf5c9e",
+    "Q-3fce02f6d9638525": "P-24f74fc2e60f47f5",
+    "Q-7e50f9e4b1918d53": "P-2611d6698ee7785e",
+    "Q-d9354b09e3112d56": "P-6b3768893268e8a7",
+    "Q-1c3f055b47449e70": "P-865e94a6014199b1",
+    "Q-0f16764dac44a82b": "P-0f86400d57ec3f04",
+    "Q-daf1af7646697418": "P-8274324a42d6636c",
+    "Q-ac085a90684d42f1": "P-c5607203a3babf8b",
+    "Q-18974bdc22678b1e": "P-2e207337e0c41258",
+    "Q-ac0b3dd8fa177425": "P-85e4d4685db6223f",
+    "Q-9fdca2107b76f870": "P-0eb23db97f7e5629",
+    "Q-ebcd7a6ed33dc89d": "P-e1e1659a9066fafe",
+    "Q-9788c907781a3ef1": "P-92f1c7b73eb90b9d",
+    "Q-394afe6c7da229f0": "P-42842ac3fc14ef20",
+    "Q-f6a6ac2cb9833e1d": "P-9c44c38c22299726",
+    "Q-39f306073251d82d": "P-a67844701f46ed46",
+    "Q-ba5c5a8e7828962f": "P-9a01347d948549bc",
+    "Q-ce002311884c4779": "P-7a4769f64eae356b",
+    "Q-602879341f88b6e6": "P-ad39a58ed98b9d96",
+    "Q-d6d5bcc6a1bd2b54": "P-d5138d4164e80019",
+    "Q-4d20cc8a3a289435": "P-4e13b35fd4c09bf3",
+    "Q-09a6dfdb7f3b7d3e": "P-f281242f587b1bc3",
+    "Q-6c719e799c6dd758": "P-f4c5b38664fcce88",
+    "Q-34deaac12223980e": "P-0a2ddb6aa3a46e6f",
+    "Q-6418b5f1da2cd81e": "P-c709e76945b7a286",
+    "Q-dd565767d1039b5d": "P-89ac3dae5813ca91",
+    "Q-b935d1e408c8812c": "P-73bd991cca901f67",
+    "Q-d0763c8260f2f071": "P-7e5db28157656275",
+    "Q-dd5abc6bfc55ee7e": "P-4f4b28d1dde6fba4",
+    "Q-a05f03f626d09017": "P-19089e80301f52d1",
+    "Q-a58458e0a4676342": "P-06761e6b2dfe10b0",
+    "Q-9780716d4c131c5e": "P-bf5bafc156f59ab8",
+    "Q-05b66490098daeda": "P-ecabef26bbb6cd3a",
+    "Q-f5fefad96c074ed9": "P-11375b3288994155",
+    "Q-cbf4fa271932b2fd": "P-b6343941c6ad234d",
+    "Q-2ed67b3bda0383a6": "P-b3584b7bd997ba99",
+    "Q-d6697ac84e66c483": "P-1f7260a6bcc145dc",
+    "Q-52a0cef0fcb83356": "P-972a5c7f5d071dbc",
+    "Q-7fbaea623e63f6f0": "P-55800f99a8893df4",
+    "Q-2bc35d2880aa7d82": "P-8d5b7b89ded4b976",
+    "Q-3fad9a120f3aa6eb": "P-4c697231f1edbd61",
+    "Q-569dc2073be78849": "P-fa60b6aedfb69792",
+    "Q-1d5812ae3c966f8f": "P-054e0b570264f5ab",
+    "Q-90efbcc01ec113dd": "P-3ec99cf62f6eface",
+    "Q-983f9ea950d0ddf6": "P-f893aa9bce3ca5bd",
+    "Q-96d70a832e745e15": "P-d56077b7436cf4e5",
+    "Q-ffc2b7eddbc0369e": "P-199068748458c705",
+    "Q-378d733b34f8689e": "P-240609c9b884048a",
+    "Q-c785b3012e8314bf": "P-cda973dd25b85001",
+    "Q-3ce7c34aad552c25": "P-4c75911ecf62dab0",
+    "Q-f059211f3071b5e4": "P-fc9d82ba965c1039",
+    "Q-5c5b098a48e320c0": "P-21f86e82cb1a6864",
+    "Q-f245802f9b36b69b": "P-e96f52e85b74799a",
+    "Q-272318e0ecd21acf": "P-b68d4624a942dde7",
+    "Q-c3c6773edff97bda": "P-fdad5c518d0dc793",
+    "Q-284da80618ea1853": "P-bf137ec1f46ea209",
+    "Q-5f0cc84ddd880e4b": "P-d5ba443e1a078725",
+    "Q-f9d28fec9cd1f55e": "P-3ddcc6e905b5fe07",
+    "Q-691b058d623d79a4": "P-35ac6641d16589c3",
+    "Q-bebddcc44f2ff3a5": "P-65603e274269164b",
+    "Q-38570bdf004e6501": "P-f2a3f7b430c271bf",
+    "Q-90799f6e951151a7": "P-133183456082e6b8",
+    "Q-b3efa46ea2e1ef17": "P-55803728c98ea418",
+    "Q-71f993eeed5cf560": "P-e41a2da7ca289668",
+    "Q-2f66384bc8319b01": "P-bc76348a55b5f536",
+    "Q-b3ff8a9b9be222ea": "P-ca9425913a48aa46",
+    "Q-2a4b7f6b0b905e62": "P-f24bb68076fb5f19",
+    "Q-443b9524d107a9d1": "P-8b408df8276b3d01",
+    "Q-c8150879ee8e92e8": "P-e33dc4f0e1b26e7f",
+    "Q-fa43650da2256af9": "P-d6345dc751ea4d03",
+    "Q-a95f083eaa67103d": "P-8b22f18acda7165c",
+    "Q-15b1b58d3a55c414": "P-d07b318247cdb5bb",
+    "Q-5c9bcdaa7cc440f5": "P-b090f3f37fed7966",
+    "Q-037025a74d7551fb": "P-6f969801869c9767",
+    "Q-870325efbe20c702": "P-caa3734a832bf68a",
+    "Q-e273a993026486b6": "P-890f4881986f3c23",
+    "Q-c53f0bbebc6c7ab6": "P-67e288b83ee6540e",
+    "Q-59fb731e2c180177": "P-e4fc1395d50cde0a",
+    "Q-51780fd0c07f86db": "P-f198bdcd17420420",
+    "Q-bf07964157dc4246": "P-2b7f426a72b1c5b4",
+    "Q-4d232766ef000f27": "P-5ba4c0038df7ec19",
+    "Q-afed34e5187ecdd8": "P-9efc939fbd5341d9",
+    "Q-787d9ee67ee96f28": "P-8b5152008c4229b1",
+    "Q-81ffb56efb20b45e": "P-43c995a824a75f9f",
+    "Q-c2bc232b0ffebf6e": "P-d220fa38c1aad004",
+    "Q-dae8fb3388c3a4f2": "P-38276a992e40d7ac",
+    "Q-d564e3a655fff926": "P-68b4d95434196428",
+    "Q-f5e8a7979aa20b3c": "P-bad244a6eeed97c0",
+    "Q-f6a627212745eb28": "P-41609462619b82a1",
+    "Q-fc1d2f0506c73365": "P-9f7edeeca09891bc",
+    "Q-3429ee82ade91703": "P-c9ff707d58903e78",
+    "Q-e19698274ff8a064": "P-502b36e0687b8726",
+    "Q-f671d3fdafd907b9": "P-2d114277088bc472",
+    "Q-7708163d40f886aa": "P-9b8a7a8e87c11895",
+    "Q-3dd0dfe3abef237e": "P-5d2ae2d653e2f2f1",
+    "Q-abeea1905f3b2959": "P-a82317f6763df5d8",
+    "Q-6db0345aa7ad56bc": "P-18c325f7d5607fa0",
+    "Q-e7e6a3c942dafcf0": "P-21a586d9d2b57685",
+    "Q-f3d0759febb1a4aa": "P-9287c238dca82174",
+    "Q-40f24aca460704aa": "P-e28054001263ace1",
+    "Q-e23b5f086be679ce": "P-21c8f69db688482c",
+    "Q-b09cd240fb8466e5": "P-438f4cf2f168b5e8",
+    "Q-b8e4ccc6b5214536": "P-1bdb741b32f35da8",
+    "Q-ee8b5f9f37de341e": "P-e58b0443f67458d3",
+    "Q-8880691f77bafa69": "P-6fe05b1bf072345b",
+    "Q-3d829e71abb900b4": "P-c6ae058bd1c5511e",
+    "Q-b24eb96abc8539a1": "P-bb2e780dee9a3240",
+    "Q-90c696825d6b0183": "P-d44f500645ccd9f5",
+    "Q-c4a61276ff74127d": "P-f104715125956d3c",
+    "Q-f928eaacb27da9ca": "P-3a36bbc4ec748938",
+    "Q-12e23e09d6783c36": "P-ae4b42285a07b6c3",
+    "Q-9337d3728fba8982": "P-6cd15989ce243b23",
+    "Q-143218874fc310ad": "P-8f59ee245b137b03",
+    "Q-4ac3e5d7eefcb217": "P-139f7ef925da27e5",
+    "Q-a69baacfb641f368": "P-33f68a10dde6edea",
+    "Q-66fc770f035d0941": "P-590ddf412d43e324",
+    "Q-bb05853235b26444": "P-65d66ecc4c55f0c6",
+    "Q-10043622c93b8d72": "P-0a87487e26d8d8a0",
+    "Q-a76caada8f7e109d": "P-69db6820ee6a6e4c",
+    "Q-23eddf46019d3ec7": "P-998dd838028aed06",
+    "Q-9799e93b568c35de": "P-f198a021cd1f5b28",
+    "Q-eab3a186ed855e65": "P-ec7b94decccf5c9e",
+    "Q-a1c7baf5a4e36d74": "P-24f74fc2e60f47f5",
+    "Q-b4cc996f17bf20ed": "P-2611d6698ee7785e",
+    "Q-206ac7128f831f8f": "P-6b3768893268e8a7",
+    "Q-3f5c6b68c581826a": "P-865e94a6014199b1",
+    "Q-251b00a7209e1e27": "P-0f86400d57ec3f04",
+    "Q-222721196800905b": "P-8274324a42d6636c",
+    "Q-5feb00e6e6a9f8d7": "P-c5607203a3babf8b",
+    "Q-471fca09e79b7494": "P-2e207337e0c41258",
+    "Q-48435c79d64783c4": "P-85e4d4685db6223f",
+    "Q-8c6251fbbc7abf33": "P-0eb23db97f7e5629",
+    "Q-e64a7b973a2fca3e": "P-e1e1659a9066fafe",
+    "Q-4485805ec75b9456": "P-111a08fcd08d0e87",
+    "Q-7f2512ac484b80b6": "P-42842ac3fc14ef20",
+    "Q-b1fcc7751ae2a117": "P-9c44c38c22299726",
+    "Q-9398f436d46455d1": "P-a67844701f46ed46",
+    "Q-c4452b82872e7964": "P-9a01347d948549bc",
+    "Q-0c603a36d2e97e16": "P-7a4769f64eae356b",
+    "Q-a570cc0629263f7d": "P-ad39a58ed98b9d96",
+    "Q-539e919c0e038864": "P-d5138d4164e80019",
+    "Q-01a2e45f66985b05": "P-7c7eddc4142df484",
+    "Q-cbc1fb9837c52d1b": "P-2d28bf45d6449207",
+    "Q-34ac9b542a3e82cb": "P-3629a458b7b01592",
+    "Q-1f145fe04fe5b778": "P-4e13b35fd4c09bf3",
+    "Q-251f4ca441a4fead": "P-f281242f587b1bc3",
+    "Q-a9ca8d2a2d2bf1bd": "P-f4c5b38664fcce88",
+    "Q-c0ee08b5f19f6df9": "P-0a2ddb6aa3a46e6f",
+    "Q-ef4443bdb1e35e8f": "P-c709e76945b7a286",
+    "Q-010dcb261b87eb0b": "P-89ac3dae5813ca91",
+    "Q-67249f2b88d9361c": "P-73bd991cca901f67",
+    "Q-dc6eed104c3d13dc": "P-4f4b28d1dde6fba4",
+    "Q-7567417cc071ffbd": "P-19089e80301f52d1",
+    "Q-47b43487f855a75e": "P-06761e6b2dfe10b0",
+    "Q-80300e0dfc9d3234": "P-bf5bafc156f59ab8",
+    "Q-f0c64b7514d56a4f": "P-b3584b7bd997ba99",
+    "Q-cc02fcda8e083f48": "P-3e3fb955d6b88d16",
+    "Q-5a057d46961526b4": "P-a636f802dcaa5a0c",
+    "Q-2cb29674b6449260": "P-a435929d85be758d",
+    "Q-5c79aebc00b38e48": "P-3435018a3cc81af6",
+    "Q-d27e43c2563c4ffc": "P-4a72e738a2de636b",
+    "Q-591f1ee2b88abdee": "P-4c697231f1edbd61",
+    "Q-bcf12810ce8cc67a": "P-fa60b6aedfb69792",
+    "Q-ffed99d2d5ad8f21": "P-4f61027e960556bd",
+    "Q-ad7227da4a9b6905": "P-c383decdb7ffe329",
+    "Q-cbae55a34415fd75": "P-85f6cc187eb96da3",
+    "Q-52d7842ad7e21362": "P-054e0b570264f5ab",
+    "Q-4be47e143b53d890": "P-3ec99cf62f6eface",
+    "Q-439836e23bf1b138": "P-f893aa9bce3ca5bd",
+    "Q-9055d62647f611b3": "P-e4319d496551e31c",
+    "Q-122ba55e03b62f62": "P-d56077b7436cf4e5",
+    "Q-94414b3812bac470": "P-199068748458c705",
+    "Q-ec0fa78199a655ef": "P-240609c9b884048a",
+    "Q-b93a6b06b4898df4": "P-cda973dd25b85001",
+    "Q-fdf83bc2e4cef876": "P-4c75911ecf62dab0",
+    "Q-3c3785bd40d415bf": "P-fc9d82ba965c1039",
+    "Q-084f142c9c3831dd": "P-21f86e82cb1a6864",
+    "Q-7974d8790fbdc080": "P-e96f52e85b74799a",
+    "Q-115b1762b9d55593": "P-b68d4624a942dde7",
+    "Q-bcf81b2d0e88dbcf": "P-fdad5c518d0dc793",
+    "Q-9632e88503600d5d": "P-bf137ec1f46ea209",
+    "Q-6bd90a0d6673dcfd": "P-d5ba443e1a078725",
+    "Q-872765aace07773a": "P-3ddcc6e905b5fe07",
+    "Q-0fad4b36dd4a565a": "P-35ac6641d16589c3",
+    "Q-ab2857f04acdd11c": "P-78faa5fa141187cd",
+    "Q-1b32a3800d16f19d": "P-59f760cb896cc7c4",
+    "Q-fb45043728fba6c5": "P-8b408df8276b3d01",
+    "Q-81c80cfe97f79fed": "P-e33dc4f0e1b26e7f",
+    "Q-a19ca9118e764907": "P-d6345dc751ea4d03",
+    "Q-cf53139d4f85f6e8": "P-8b22f18acda7165c",
+    "Q-609aeddbccf71b7b": "P-d07b318247cdb5bb",
+    "Q-49c3ba278348ceb6": "P-b090f3f37fed7966",
+    "Q-a1d18e000ffbef9a": "P-6f969801869c9767",
+    "Q-0a3877cd54c78b2d": "P-caa3734a832bf68a",
+    "Q-1f3c0729d9787600": "P-67e288b83ee6540e",
+    "Q-8b7c5a0baa817cdb": "P-e4fc1395d50cde0a",
+    "Q-22f13aebd93ee059": "P-f198bdcd17420420",
+    "Q-580b018bef75985e": "P-2b7f426a72b1c5b4",
+    "Q-86ddf205bc8940d5": "P-5ba4c0038df7ec19",
+    "Q-8a59eea7f5da338f": "P-9efc939fbd5341d9",
+    "Q-5b55196b6f54eb29": "P-8b5152008c4229b1",
+    "Q-d8c5f56ff561189e": "P-43c995a824a75f9f",
+    "Q-b9c5ad6142fa212a": "P-d220fa38c1aad004",
+    "Q-9452cbe9150ce8af": "P-38276a992e40d7ac",
+    "Q-9380b1d3c405c60c": "P-68b4d95434196428",
+    "Q-209b150c033bc8f7": "P-bad244a6eeed97c0",
+    "Q-3410d0c7a2cbb41f": "P-41609462619b82a1",
+    "Q-cbb60a8b1a990410": "P-9f7edeeca09891bc",
+    "Q-0759ea2791b53b25": "P-c9ff707d58903e78",
+    "Q-3323be4450323f57": "P-5e872d96da8f3633",
+    "Q-f234e07b7d37f14c": "P-e2d3b263e93ee4bf",
+    "Q-aba6d468b11657a4": "P-cff07aaeb0318f27",
+    "Q-069a0acdc993ab3a": "P-e60fa259ac743317",
+    "Q-dbe4db30b115b1cd": "P-cdecdc05b00ab564",
+    "Q-6eda304b5ccb281e": "P-18c325f7d5607fa0",
+    "Q-bb4ac5244065a46c": "P-21a586d9d2b57685",
+    "Q-6d31a2ed70466221": "P-c7822346e12ca8f6",
+    "Q-6a9e15f409281edb": "P-0cd9a66c70beca2e",
+    "Q-d2e13828eefa3319": "P-b7e85ee360dcc6ef",
+    "Q-ee911520c02595e1": "P-d1a24d742e9c07aa",
+    "Q-0385d0487aab13a8": "P-a0d6f0eac58df590",
+    "Q-946e96a51758bd4f": "P-ba70cd9ad60f4ecb",
+    "Q-429d4310fced92ff": "P-e1f4580e83ac2318",
+    "Q-153522c5ab1340a1": "P-94e23d59bc6cd2c4",
+    "Q-d157e8c75d1787cc": "P-438f4cf2f168b5e8",
+    "Q-4859f65a976e44f2": "P-650c2726e6eaaf30",
+    "Q-3d8af199679cd592": "P-a7929fe52bbfc6cc",
+    "Q-25125b723cae0b3d": "P-0ed2b47dcb789933",
+    "Q-009c9a87b4369950": "P-0a2ddb6aa3a46e6f",
+    "Q-67f5d49b3a8775c5": "P-fef24760700224ad",
+    "Q-492126680d37f1fb": "P-430d4a02fad4d436",
+    "Q-95eaa18e748b0533": "P-3d63dd9946a46826",
+    "Q-8b019ad303ebba1b": "P-3515120ab0232f6c",
+    "Q-8ddacabca56634da": "P-fc9d82ba965c1039",
+    "Q-3d974645feff4206": "P-ec1b6f36e422768c",
+    "Q-e6e4a00ee9710b0e": "P-40fa0361ebbf13cf",
+    "Q-7fb50ab0eb5be0f3": "P-893a971030e82512",
+    "Q-60869e42fa810e71": "P-7668c229591196ec",
+    "Q-7e27aa1cd7ed3070": "P-da160aa23a3f6fb8",
+    "Q-4e3608124559bcd3": "P-015c0c4a7cb16761",
+    "Q-985bc1f1e258eb11": "P-d7734eb2352d02ed",
+    "Q-47df851a38059df8": "P-cb535a82016d213b",
+    "Q-69e2d01c040f021c": "P-cff07aaeb0318f27",
+    "Q-d911103e8497a70e": "P-438f4cf2f168b5e8",
+    "Q-d429d7aa1b6e5404": "P-9d58ad1f782225d9",
+    "Q-c656be5200d902f4": "P-3a488b3c5d248ef2",
+    "Q-51f1da4dd503f692": "P-ab66c717c5ede5f4",
+    "Q-21c8f88217206a45": "P-d6177c8552257326",
+    "Q-a49f394931cbda1b": "P-3c0a5ba013415554",
+    "Q-0ce6b9f6e4c9c0fc": "P-7668c229591196ec",
+    "Q-f6323066ded62f99": "P-da160aa23a3f6fb8",
+    "Q-f6dec1c53747b548": "P-cff07aaeb0318f27",
+    "Q-74da094243a382f7": "P-438f4cf2f168b5e8",
+    "Q-3c32cff7139a6840": "P-6fe05b1bf072345b",
+    "Q-e51cca55f8e3de5b": "P-f104715125956d3c",
+    "Q-6c5d3768e75bac4d": "P-139f7ef925da27e5",
+    "Q-7236d731dc80a021": "P-33f68a10dde6edea",
+    "Q-2209b502bed764ef": "P-590ddf412d43e324",
+    "Q-e5de45ed5c479f3b": "P-65d66ecc4c55f0c6",
+    "Q-821b6930eee69a8c": "P-f198a021cd1f5b28",
+    "Q-7b811d56685da231": "P-2e207337e0c41258",
+    "Q-b3e5ccc2c35212f0": "P-0eb23db97f7e5629",
+    "Q-7b50ef12216b6cbe": "P-92f1c7b73eb90b9d",
+    "Q-d078f777320ad5fd": "P-9c44c38c22299726",
+    "Q-97ed59db681d0c17": "P-ad39a58ed98b9d96",
+    "Q-0e96b51a1b9df5fd": "P-3629a458b7b01592",
+    "Q-c2dc948795c76707": "P-f281242f587b1bc3",
+    "Q-b092d92cd044991d": "P-f4c5b38664fcce88",
+    "Q-d4b893244830cf98": "P-0a2ddb6aa3a46e6f",
+    "Q-a463583d490419dc": "P-73bd991cca901f67",
+    "Q-25f2ce98decf2dba": "P-06761e6b2dfe10b0",
+    "Q-d86b72a484e9b112": "P-bf5bafc156f59ab8",
+    "Q-009a5aa7f4fb602a": "P-054e0b570264f5ab",
+    "Q-f442f42a5848629b": "P-40fa0361ebbf13cf",
+    "Q-86db5eb97bb7e7f3": "P-d2ad130e70747e26",
+    "Q-02b0b3557e9c9ab2": "P-b08ce0488ef09798",
+    "Q-a75491756d3baada": "P-07c102dd6b1cc7c5",
+    "Q-4c3d12ca637275ca": "P-646117d154ba979d",
+    "Q-009bf481a12fbe3d": "P-7de0b94f05edc884",
+    "Q-26c15180255f1661": "P-da160aa23a3f6fb8",
+    "Q-ee4233da75da79d0": "P-015c0c4a7cb16761",
+    "Q-91a0ba0efa025630": "P-8b22f18acda7165c",
+    "Q-1e0d727053c0b298": "P-d07b318247cdb5bb",
+    "Q-1160c22cda01bd55": "P-caa3734a832bf68a",
+    "Q-f63970090fa24184": "P-890f4881986f3c23",
+    "Q-33357a04f447323c": "P-5ba4c0038df7ec19",
+    "Q-3d10e91d62713352": "P-43c995a824a75f9f",
+    "Q-200fb35ae9e2475f": "P-d220fa38c1aad004",
+    "Q-0483fbf066c213e6": "P-68b4d95434196428",
+    "Q-b7bba523ebb5ceb4": "P-18c325f7d5607fa0",
+    "Q-6aead898ffa7d574": "P-9287c238dca82174",
+    "Q-7b2a55ce7043cc03": "P-e28054001263ace1",
+    "Q-da5e697fd19c0a81": "P-21c8f69db688482c",
+    "Q-8e488fd8553b4c32": "P-438f4cf2f168b5e8",
+    "Q-97b77cafde5e0f8a": "P-33f68a10dde6edea",
+    "Q-e4affb02ffb31037": "P-430d4a02fad4d436",
+    "Q-c8336af6a665a1d7": "P-df612e4d7b410b9e",
+    "Q-08b57e4d961d74d2": "P-e86c55503b25f0d6",
+    "Q-e0c9a0d3a3fc710e": "P-b97ee64df318a1ec",
+    "Q-fa3bec5ef14041db": "P-bf137ec1f46ea209",
+    "Q-a306cb9313ba17f1": "P-f4f3f779e111e53f",
+    "Q-e42b4434e73407ab": "P-43c995a824a75f9f",
+    "Q-262bee2a89461eb6": "P-21a586d9d2b57685",
+    "Q-e6e3325c98fcf173": "P-438f4cf2f168b5e8",
+    "Q-8ef0147f2981667a": "P-1bdb741b32f35da8",
+    "Q-8ea4d91103ea1213": "P-6b3768893268e8a7",
+    "Q-87e21ac65d875690": "P-8274324a42d6636c",
+    "Q-016cc4c0dc13eefd": "P-32f842e45f62b570",
+    "Q-bb6a6a8adf9b99e6": "P-e39febcdaba9f947",
+    "Q-5658f26bc6ea6e81": "P-9c44c38c22299726",
+    "Q-ca36ac5ab955ce9b": "P-655c9398480919d5",
+    "Q-382b53b02e10e258": "P-09416010193382e2",
+    "Q-b1c3ca9a252d4c22": "P-585a9cedbf124425",
+    "Q-50d98c585df10600": "P-5b2d6725c6c24f4b",
+    "Q-76aa2851aec2e37d": "P-9cf7d3419817ec75",
+    "Q-6989e6d29de1d511": "P-d6cf3c8e09fb6f27",
+    "Q-7b4b7d52cb22869a": "P-6995315517d339ff",
+    "Q-45f51fb2ca1b6e4f": "P-75c56f74b6ed0fdb",
+    "Q-ec6ca82de4e29464": "P-b0a2e4c0fead81f4",
+    "Q-9583c831ab829cbf": "P-bf5bafc156f59ab8",
+    "Q-ecfa260b18373a70": "P-3e3fb955d6b88d16",
+    "Q-a836066131e6c9d5": "P-fa60b6aedfb69792",
+    "Q-5f46eddbb8baa557": "P-3ec99cf62f6eface",
+    "Q-81368d286f858acb": "P-f893aa9bce3ca5bd",
+    "Q-314ba9cf031eedb7": "P-199068748458c705",
+    "Q-7220965433ede010": "P-cda973dd25b85001",
+    "Q-aa2cc5d317ef985b": "P-fc9d82ba965c1039",
+    "Q-5d54be476677c092": "P-21f86e82cb1a6864",
+    "Q-94881057580425e2": "P-e96f52e85b74799a",
+    "Q-b2b885d7c8c6949f": "P-b68d4624a942dde7",
+    "Q-fd5c78a0b048ce91": "P-51f72f4b9a5df113",
+    "Q-331c3272a11a0e48": "P-2769d9f89abbe88b",
+    "Q-5eb177b6f19686b7": "P-55d8bd8b5bfdecc8",
+    "Q-3cd5a0ff93362fc5": "P-2af8800b594a34be",
+    "Q-23d8bd0b16322337": "P-640f0b71d3d558e7",
+    "Q-2a1fc87f6f7b89bb": "P-26a9a7b83565fb1c",
+    "Q-e95ce5bde3c99d55": "P-8b22f18acda7165c",
+    "Q-d11911aca3c24fdb": "P-d07b318247cdb5bb",
+    "Q-96e0eca8284cf0d9": "P-2b7f426a72b1c5b4",
+    "Q-deca4faa3058cc00": "P-9efc939fbd5341d9",
+    "Q-d85730041c487e63": "P-38276a992e40d7ac",
+    "Q-c83bc2b1bca027ed": "P-9f7edeeca09891bc",
+    "Q-49fbedccad04b2a6": "P-502b36e0687b8726",
+    "Q-abb0c6105138ef4a": "P-e859815d020108c7",
+    "Q-617566756f7a49f4": "P-a7d9d70693c198a1",
+    "Q-5b53cb6a5772e222": "P-c0af32d68d8ff7ea",
+    "Q-8036368d94acdb93": "P-21a586d9d2b57685",
+    "Q-d00773884e32b7c4": "P-e28054001263ace1",
+    "Q-ced9e071bfc68d72": "P-438f4cf2f168b5e8",
+    "Q-7fc7d1c572f65328": "P-bb2e780dee9a3240",
+    "Q-9c594f64171180c6": "P-ae4b42285a07b6c3",
+    "Q-e853c143d06432a6": "P-0a87487e26d8d8a0",
+    "Q-c59d351598d501fc": "P-2e207337e0c41258",
+    "Q-8ddf77a7e98b1c92": "P-9c44c38c22299726",
+    "Q-1e2d50b697664667": "P-3629a458b7b01592",
+    "Q-e6f21b473ed78115": "P-0a2ddb6aa3a46e6f",
+    "Q-b3cb27a63267af7e": "P-b23a1107c50e45fc",
+    "Q-538c187e5458c84a": "P-0bce7926f4112106",
+    "Q-1219d3d341b61fa8": "P-caa3734a832bf68a",
+    "Q-50e0446d91c6567a": "P-5d699bfa2f46c925",
+    "Q-8c0ab967ed638ed7": "P-ae44f52fd37db6f5",
+    "Q-187977aea0897282": "P-2613ee50e383b6b5",
+    "Q-d79587b7dd3a8cd6": "P-9d0c266531d2f3c5",
+    "Q-25b1d7e062c7aa37": "P-0287d28b97a4ab9a",
+    "Q-80a96d0e51b72334": "P-21a91d1bed65693b",
+    "Q-34fb211d7639965f": "P-1966c8e515c0b082",
+    "Q-74b9db118909cbf4": "P-e28054001263ace1",
+    "Q-5061d2b4dd778eec": "P-438f4cf2f168b5e8",
+    "Q-70c62ae8d65cb80e": "P-ecabef26bbb6cd3a",
+    "Q-37b61eb0112e94f3": "P-11375b3288994155",
+    "Q-e9816aa05d1267b5": "P-b6343941c6ad234d",
+    "Q-6f1500cd896fa207": "P-1f7260a6bcc145dc",
+    "Q-ca533839e4721af8": "P-972a5c7f5d071dbc",
+    "Q-76cecf774cb3d383": "P-35673625adcf6153",
+    "Q-c1bc8bab174b4378": "P-4c86489346e30085",
+    "Q-ba82e9cbc5b6fe2a": "P-18563cdb8d8fddc7",
+    "Q-fc7db4e38c0b830f": "P-ac4a9cb7113e90e8",
+    "Q-448837b96ac6f1a0": "P-5f2d532da58f489c",
+    "Q-8bb25d445c14eb67": "P-b257f5d8fd563d52",
+    "Q-aeb44f7770112eb6": "P-31702cc34bd4391a",
+    "Q-6d346139faa76f5e": "P-a82317f6763df5d8",
+    "Q-d619165116702b29": "P-18c325f7d5607fa0",
+    "Q-368f74480b780dd3": "P-9287c238dca82174",
+    "Q-5ef08c0f379ed16b": "P-19a8f3a3389ac213",
+    "Q-27eb6e2fc9e4c733": "P-6dff248007ec57e7",
+    "Q-e0528f5a8de04b5b": "P-8b408df8276b3d01",
+    "Q-f8cc06770154ea9d": "P-ca23dd7f9e6d1f51",
+    "Q-27ba4ce3c4041444": "P-21a586d9d2b57685",
+    "Q-6b669dd6bdf35513": "P-87b57565fef6a1ba",
+    "Q-d7edbb2b35c68621": "P-6b5b6929323e354c",
+    "Q-d83790ec9ab33e8b": "P-438f4cf2f168b5e8",
+    "Q-816cea3947418d4d": "P-21d5dbee883d6e08",
+    "Q-61103c8db784a454": "P-14955f3f7504a0bd",
+    "Q-3b5a78a615e63e07": "P-e33dc4f0e1b26e7f",
+    "Q-5effaa68a58e64bc": "P-da160aa23a3f6fb8",
+    "Q-163306d4f11dd188": "P-21c8f69db688482c",
+    "Q-ffb39fd94a78d714": "P-caa3734a832bf68a",
+    "Q-a5def207f0922b04": "P-a82317f6763df5d8",
+    "Q-52f9b22c8d0e3172": "P-21c8f69db688482c",
+    "Q-56f48961e1bf7cd2": "P-8f59ee245b137b03",
+    "Q-f0764d5c2a77782d": "P-139f7ef925da27e5",
+    "Q-927af55eaa8e2b67": "P-2e207337e0c41258",
+    "Q-3d6f4bda75b70a18": "P-0a2ddb6aa3a46e6f",
+    "Q-9965f00be7a87aab": "P-4f4b28d1dde6fba4",
+    "Q-0fc40f06e69ab69b": "P-19089e80301f52d1",
+    "Q-0848168215cc75fb": "P-bf5bafc156f59ab8",
+    "Q-d3198413662ac772": "P-c375b67debbaa505",
+    "Q-13689a0f01fdc677": "P-8b408df8276b3d01",
+    "Q-8f7b2ec35faef26e": "P-ca23dd7f9e6d1f51",
+    "Q-bfd6ca26f708501f": "P-e1f4580e83ac2318",
+    "Q-014f281cb5d163a5": "P-94e23d59bc6cd2c4",
+    "Q-1aafd7131804a063": "P-6a73167dbe9b40ac",
+    "Q-c090ff26d1dc3a58": "P-7d8e4a0895753c23",
+    "Q-5f35962d77e4436b": "P-f2a23dcc381bea2f",
+    "Q-dba8c9784b69417d": "P-18c325f7d5607fa0",
+    "Q-a0119410073c752a": "P-438f4cf2f168b5e8",
+    "Q-4f8b1fc047c3f752": "P-85e4d4685db6223f",
+    "Q-97fe8a4b45c927e2": "P-9c44c38c22299726",
+    "Q-317fd7f3e7bd69fe": "P-a719b7b9ac13ed78",
+    "Q-516e2f37f17264ef": "P-fa60b6aedfb69792",
+    "Q-aaf185d77696f36d": "P-7d2d2882bcc9da3f",
+    "Q-8c6356f71a133a33": "P-03e22f1810e56fd1",
+    "Q-c869ac962814ac93": "P-164e000c9ab99bc3",
+    "Q-e9c8ec2aafd64e5a": "P-8b1d1eeb4f9816ba",
+    "Q-4290d4c9c947fb66": "P-21a586d9d2b57685",
+    "Q-437c220b39b7a919": "P-a82317f6763df5d8",
+    "Q-0c2558a68b89cf89": "P-438f4cf2f168b5e8",
+    "Q-04fbb1ca349b166e": "P-4f4b28d1dde6fba4",
+    "Q-50890ca1758f5551": "P-da160aa23a3f6fb8",
+    "Q-5bd39d2ed899ca6c": "P-3c71a522b342a971",
+    "Q-42d381e8444dcb29": "P-21a586d9d2b57685",
+    "Q-7738477fd44aa50d": "P-438f4cf2f168b5e8",
+    "Q-ae1537167593140d": "P-85e4d4685db6223f",
+    "Q-f8189853e74469bb": "P-0a2ddb6aa3a46e6f",
+    "Q-c924762592c105b0": "P-fa60b6aedfb69792",
+    "Q-1a943509565cf614": "P-7668c229591196ec",
+    "Q-7c253fac3f9e0fea": "P-21c8f69db688482c",
+    "Q-a5bf9f504ac69017": "P-438f4cf2f168b5e8",
+    "Q-9270a5f22c2246d8": "P-0b0a861dd06fa590",
+    "Q-678210f7e9679440": "P-2311338f807c17fb",
+    "Q-9296de8ad2c789f1": "P-87351c5e15e1054c",
+    "Q-93ced185ada0415f": "P-3abf6fffae34ce3d",
+    "Q-af5e973b9a656162": "P-769a5c671c2a7f59",
+    "Q-9e24b5a9cfc11d5e": "P-aabd931b1c88e97d",
+    "Q-5de8064797a68650": "P-b97a03f151f4f3ed",
+    "Q-fb264f83912fe827": "P-ac3a3ff3a32b14f1",
+    "Q-f8a6dd43752e1d95": "P-f939d73ac4c2caad",
+    "Q-0afc6e6c876a8420": "P-a84e1ebafdac5a6e",
+    "Q-a453a0802ea94ca6": "P-061956b0c53aa233",
+    "Q-1c10321a6af5be54": "P-6b5b6929323e354c",
+    "Q-779c92f32fb3cc51": "P-438f4cf2f168b5e8",
+    "Q-8ed7a7ad7977f2c8": "P-430d4a02fad4d436",
+    "Q-bb9f62136aef9068": "P-438f4cf2f168b5e8",
+    "Q-39071b691437a705": "P-e1e1659a9066fafe",
+    "Q-498280c85cf12181": "P-9c44c38c22299726",
+    "Q-e1430265e79dedf9": "P-09416010193382e2",
+    "Q-468b9d607729d8c7": "P-585a9cedbf124425",
+    "Q-9232a3bcd6df11d6": "P-d6cf3c8e09fb6f27",
+    "Q-e13591ae401dcf0d": "P-50c45b5dbabaa8a4",
+    "Q-a8bc9ddb8fbe0c99": "P-add5a6a46f51e45e",
+    "Q-4cb99731388e9fd4": "P-6995315517d339ff",
+    "Q-4b3618df1dae6f69": "P-75c56f74b6ed0fdb",
+    "Q-5948bd6ec9c14b49": "P-b82370917e4d07f8",
+    "Q-33a2c9150e4cc9d1": "P-a8d8dccfd5870458",
+    "Q-487a447e95ce12e4": "P-01a6243e0273a5e9",
+    "Q-fc39d43d25869258": "P-bf5bafc156f59ab8",
+    "Q-8d5bf825cf742750": "P-fa60b6aedfb69792",
+    "Q-7abe2a3b09c2262e": "P-51f72f4b9a5df113",
+    "Q-beb8700b8b029cd5": "P-85e3877175b76390",
+    "Q-1fbf8963f1e08fa0": "P-640f0b71d3d558e7",
+    "Q-44818a0f8dcb2589": "P-dc03647e9b68bd8a",
+    "Q-f5d4907d5c9c5f9f": "P-e859815d020108c7",
+    "Q-42e326bfad9cd6ed": "P-c0af32d68d8ff7ea",
+    "Q-9aeb1c2925665d77": "P-4c697231f1edbd61",
+    "Q-6e67671d83d6b871": "P-e33dc4f0e1b26e7f",
+    "Q-fe624da8d08e8af3": "P-6c8f5b6a1ee89266",
+    "Q-1ca08c144e21536c": "P-485c113630463203",
+    "Q-c6456eb04cdc57a6": "P-04def27e1142efe3",
+    "Q-5dcb0c3229262675": "P-eaa5520ee445f40b",
+    "Q-d25ec94d55a7c328": "P-e28054001263ace1",
+    "Q-548cda2ac28104eb": "P-438f4cf2f168b5e8",
+    "Q-2ff648f815bf886d": "P-438f4cf2f168b5e8",
+    "Q-5689ed36a4aa58c7": "P-db9efb2705ca67c8",
+    "Q-c0245544a49113ff": "P-7e41e376292507e5",
+    "Q-8b353d86bd0c7195": "P-e3ea127886de39c3",
+    "Q-7a5c60aa092415b8": "P-f958277f8743ff26",
+    "Q-f2d5d7ce7fc967f5": "P-d785363282c3e94e",
+    "Q-73a707dc0387c666": "P-94e23d59bc6cd2c4",
+    "Q-8d4fb1a8c6cc10c2": "P-8b408df8276b3d01",
+    "Q-bea06f3dd5081c70": "P-6b5b6929323e354c",
+    "Q-fda709defbbd486e": "P-ba316e4f11d34b91",
+    "Q-37ad55483c486555": "P-89aa84583393fe2e",
+    "Q-119c84572265ff69": "P-21a586d9d2b57685",
+    "Q-0aae67efd2a100fe": "P-21a91d1bed65693b",
+    "Q-c5f7e621acd1b178": "P-21c8f69db688482c",
+    "Q-85e72f2060816842": "P-03e22f1810e56fd1",
+    "Q-6828a479fcd1c725": "P-cff07aaeb0318f27",
+    "Q-ad702455e55db814": "P-8f6c08f027d35a43",
+    "Q-08d4ea1e10f0b049": "P-438f4cf2f168b5e8",
+    "Q-54fa77e74e359f73": "P-0a2ddb6aa3a46e6f",
+    "Q-5c7b6e285d147a35": "P-cda973dd25b85001",
+    "Q-3da8d41c7456f669": "P-f198bdcd17420420",
+    "Q-12f1d41431a9ffd4": "P-3ddcc6e905b5fe07",
+    "Q-a2a5d4052a0b97e8": "P-35ac6641d16589c3",
+    "Q-237a3159f4ed9782": "P-35deac90fa4088b6",
+    "Q-4180646948612f2f": "P-bde7fa5761b3b4f3",
+    "Q-5d41865fc1269371": "P-8e3994607aee4169",
+    "Q-36b842b7be1b33ff": "P-ebdef30a447730ed",
+    "Q-532538fb923478c0": "P-21c8f69db688482c",
+    "Q-70542b76646f522f": "P-c8cc683ff5f0e053",
+    "Q-7d04811c01142fca": "P-438f4cf2f168b5e8",
+    "Q-5eafe8652de4c83d": "P-09416010193382e2",
+    "Q-75734c97639734ce": "P-50c45b5dbabaa8a4",
+    "Q-e38b0c24c328af9c": "P-bf5bafc156f59ab8",
+    "Q-5ef645eff97f5c4a": "P-3e3fb955d6b88d16",
+    "Q-1c90a40b2090a2bd": "P-51f72f4b9a5df113",
+    "Q-7575ff087eb9443f": "P-2769d9f89abbe88b",
+    "Q-08fb1f954cf16adb": "P-85e3877175b76390",
+    "Q-33c8ac8a2e2f03ae": "P-c0af32d68d8ff7ea",
+    "Q-822ad928c66cdbda": "P-438f4cf2f168b5e8",
+    "Q-387dea72bb0b1634": "P-40fa0361ebbf13cf",
+    "Q-b3b204b1b7caea9c": "P-d6177c8552257326",
+    "Q-550228c8ecb980bb": "P-14955f3f7504a0bd",
+    "Q-36c289fb9f4b4de0": "P-68b4d95434196428",
+    "Q-cc2fd048093a6348": "P-a82317f6763df5d8",
+    "Q-cf0ff0b6fef225ee": "P-3a36bbc4ec748938",
+    "Q-73a3cf2d4c496871": "P-85e4d4685db6223f",
+    "Q-070b331b199e87f7": "P-0eb23db97f7e5629",
+    "Q-f4223ce7ad5487a1": "P-e1e1659a9066fafe",
+    "Q-41cbe9f1f1fc3acf": "P-92f1c7b73eb90b9d",
+    "Q-82d677c0a57cb5b6": "P-4f089efc50666dc5",
+    "Q-c350c8eb71afaca6": "P-9c44c38c22299726",
+    "Q-254a38429c092f16": "P-19089e80301f52d1",
+    "Q-9a9006be0560c482": "P-3e3fb955d6b88d16",
+    "Q-8945a57e58822619": "P-cda973dd25b85001",
+    "Q-6dbba7476c2d5ee1": "P-fc9d82ba965c1039",
+    "Q-cab6ddffb85ad988": "P-d6177c8552257326",
+    "Q-6322872f96febb57": "P-d07b318247cdb5bb",
+    "Q-ccb255a71728b508": "P-b090f3f37fed7966",
+    "Q-231a37a00d621443": "P-6f969801869c9767",
+    "Q-3ce224db4b5f9cf8": "P-9f7edeeca09891bc",
+    "Q-7f5452e61b18cd2d": "P-c9ff707d58903e78",
+    "Q-1f9bbdcc48fe5818": "P-438f4cf2f168b5e8",
+    "Q-a2c08b28865f53c0": "P-438f4cf2f168b5e8",
+    "Q-6e7b3453c8b80ff6": "P-e58b0443f67458d3",
+    "Q-1ad67f5a7e917fbb": "P-e1e1659a9066fafe",
+    "Q-3a51216556a5889f": "P-94e23d59bc6cd2c4",
+    "Q-742f07beb37fa0bf": "P-34efdae221e8e3a9",
+    "Q-d6f0b4d7c53bc271": "P-2b04a101cdd2a43b",
+    "Q-368489dafd781f40": "P-438f4cf2f168b5e8",
+    "Q-e9c797da93d68a77": "P-e4fcf90006409de9",
+    "Q-7c386f1189679abd": "P-8ef0faa21feec27a",
+    "Q-c69d8b3cdf939c25": "P-6b5b6929323e354c",
+    "Q-c25a2cf6c3c6279b": "P-438f4cf2f168b5e8",
+    "Q-f4009c71c058898c": "P-4fd3afe4ff917205",
+    "Q-85bbfe9228f0318b": "P-f0e1cdfbe8bc8607",
+    "Q-0ce89dc16d402bcc": "P-295e3175cf6744d6",
+    "Q-3c0745cd9108b891": "P-e7db5c1f19e4ff78",
+    "Q-34ee976cef5c538e": "P-628752f3f880ae6f",
+    "Q-5171dc336c4b2547": "P-6cbd14af746172af",
+    "Q-024aff77c8769d39": "P-438f4cf2f168b5e8",
+    "Q-22799891dc5ad29b": "P-438f4cf2f168b5e8",
+    "Q-c04b7bb02c9cf055": "P-18c325f7d5607fa0",
+    "Q-2bf88ac3f99eb97b": "P-94e23d59bc6cd2c4",
+    "Q-623afb7066f6db60": "P-bf5bafc156f59ab8",
+    "Q-19b1eb9066abcb48": "P-3e3fb955d6b88d16",
+    "Q-4e657000c59bd78f": "P-fa60b6aedfb69792",
+    "Q-bf9d58a9ecc57ebd": "P-bf137ec1f46ea209",
+    "Q-f350a731346868fa": "P-21c8f69db688482c",
+    "Q-1eb19fa3c7600116": "P-502b36e0687b8726",
+    "Q-579f24042c24dc38": "P-a82317f6763df5d8",
+    "Q-94a64f69ff481ff5": "P-41c6ee976fd2e00e",
+    "Q-435f470b9b38b894": "P-c8cc683ff5f0e053",
+    "Q-168781eb82f4eda6": "P-438f4cf2f168b5e8",
+    "Q-74d7c5546c2da9f1": "P-7e5db28157656275",
+    "Q-e355ed0152d33e21": "P-985cd29b2e6517ac",
+    "Q-f8a34ef0c135c936": "P-a719b7b9ac13ed78",
+    "Q-2de7e069c3e8782b": "P-ddcfe87a8aeb59a4",
+    "Q-58fc196846e5bac5": "P-cfe2b4e866b3008f",
+    "Q-db6f621ec49f88e0": "P-7d8e4a0895753c23",
+    "Q-f1d8cbb954098a4c": "P-0a64eb2f28e0526e",
+    "Q-7017f7d987f5829f": "P-688deca9a185fd1f",
+    "Q-405dcca76aa9ed19": "P-8f6c08f027d35a43",
+    "Q-41c657329fb03a37": "P-6b5b6929323e354c",
+    "Q-abca595509dd92fd": "P-438f4cf2f168b5e8",
+    "Q-22b24bce5a9610d3": "P-cfe2b4e866b3008f",
+    "Q-7f6a935538647dfa": "P-485c113630463203",
+    "Q-428a71e9d567328c": "P-04def27e1142efe3",
+    "Q-5178266f3ffcb2fc": "P-d1bcf7051143a87d",
+    "Q-524073c5fa8868e1": "P-9c9bf9ce4e83be84",
+    "Q-de20d7c640cadea1": "P-76a47a9139391193",
+    "Q-e783696ed37010a6": "P-bb4d42fb1e84c501",
+    "Q-c164f979a4d11afb": "P-fef24760700224ad",
+    "Q-411affd16428daff": "P-cee0996c71b75938",
+    "Q-353725a55b4ab4ea": "P-21c8f69db688482c",
+    "Q-b65021aaed6ea57d": "P-d1bcf7051143a87d",
+    "Q-9462980a2d3c841b": "P-21c8f69db688482c",
+    "Q-a52ca6bc4b6a1c5d": "P-da160aa23a3f6fb8",
+    "Q-5146d3826d1f8f5f": "P-cb535a82016d213b",
+    "Q-9e6cf667be334086": "P-6cd15989ce243b23",
+    "Q-5a0346498dfc6b02": "P-8f59ee245b137b03",
+    "Q-c4c807c7f3fe8d96": "P-69db6820ee6a6e4c",
+    "Q-078a3f744fbab656": "P-ec7b94decccf5c9e",
+    "Q-10c8aab174bf66e6": "P-0eb23db97f7e5629",
+    "Q-5b2c1be2d4646fae": "P-9a01347d948549bc",
+    "Q-5869c36b0f21a5b8": "P-a719b7b9ac13ed78",
+    "Q-5efd2319f4e78191": "P-240609c9b884048a",
+    "Q-f4ae0a2a587d1368": "P-5f8098104932f1a6",
+    "Q-106ca8afdb8c97ac": "P-8b408df8276b3d01",
+    "Q-2b75887d99814cd8": "P-21a586d9d2b57685",
+    "Q-148bce03dfcd8370": "P-c8cc683ff5f0e053",
+    "Q-bb8395137490df00": "P-6b5b6929323e354c",
+    "Q-2ac4254a3bf5b469": "P-438f4cf2f168b5e8",
+    "Q-2368dd402a8c674a": "P-2e207337e0c41258",
+    "Q-bbc1cd70affd1ca2": "P-35673625adcf6153",
+    "Q-934d845cfa316c86": "P-054e0b570264f5ab",
+    "Q-7ea1588cd14246b9": "P-dabe9d581e465822",
+    "Q-f493860c3ad60b97": "P-42842ac3fc14ef20",
+    "Q-a622f7f49edf221c": "P-9c44c38c22299726",
+    "Q-24dc5593c76646cc": "P-4f4b28d1dde6fba4",
+    "Q-22ef298a52c26ed3": "P-133183456082e6b8",
+    "Q-d35b86250305e7f3": "P-55803728c98ea418",
+    "Q-029ab6423ee42201": "P-e41a2da7ca289668",
+    "Q-c0683ab333609a1f": "P-bc76348a55b5f536",
+    "Q-abc0ab2d7b651d14": "P-1d2e85145169449e",
+    "Q-aadc9a8c7c486269": "P-b3b4ea622c5c5739",
+    "Q-465ab2651d3b49e2": "P-5e3913d528d5103d",
+    "Q-b233cb059757ea6a": "P-ca9425913a48aa46",
+    "Q-19f098b452bb5d05": "P-f24bb68076fb5f19",
+    "Q-ba0c600df9aff20d": "P-2d114277088bc472",
+    "Q-eeceb555cc8d7368": "P-5d2ae2d653e2f2f1",
+    "Q-b1b81be31a32c603": "P-6b5b6929323e354c",
+    "Q-2167e313db161db9": "P-438f4cf2f168b5e8",
+    "Q-b154c359da5b9e72": "P-c709e76945b7a286",
+    "Q-037f28d2b3aa4656": "P-4f4b28d1dde6fba4",
+    "Q-c0bfa995bbd2573f": "P-d5ba443e1a078725",
+    "Q-c0a275c5332fa754": "P-8b408df8276b3d01",
+    "Q-66781f895762890f": "P-21a586d9d2b57685",
+    "Q-c1d115d65f802700": "P-438f4cf2f168b5e8",
+    "Q-87ced83c8cc8045d": "P-6fe05b1bf072345b",
+    "Q-abd959df6e3ffcf0": "P-33f68a10dde6edea",
+    "Q-4c68366bed6f9eef": "P-ec7b94decccf5c9e",
+    "Q-6bfc06eb614bab0f": "P-3629a458b7b01592",
+    "Q-dc56b8989535559c": "P-8b408df8276b3d01",
+    "Q-42aadcc1a3d7fedd": "P-c8cc683ff5f0e053"
+  },
+  "entries": {
+    "P-1bdb741b32f35da8": {
+      "en": "Does the company report on the scope or boundaries of its sustainability disclosure?",
+      "zh": "公司是否报告其可持续发展披露的范围或边界？"
+    },
+    "P-e58b0443f67458d3": {
+      "en": "Does the company have external assurance for its sustainability reporting?",
+      "zh": "公司的可持续发展报告是否经过外部鉴证？"
+    },
+    "P-e1e1659a9066fafe": {
+      "en": "Does the company publicly report on breaches of the code of conduct for the last financial year?",
+      "zh": "公司是否公开报告上一财年违反行为准则的情况？"
+    },
+    "P-2d28bf45d6449207": {
+      "en": "Does the company report on key business, financial and tax information for each tax jurisdiction in which it operates?",
+      "zh": "公司是否报告其开展业务的各税收管辖区的关键业务、财务和税务信息？"
+    },
+    "P-6fe05b1bf072345b": {
+      "en": "Does the company have an independence statement for the board of directors?",
+      "zh": "公司是否有董事会独立性声明？"
+    },
+    "P-f198a021cd1f5b28": {
+      "en": "Does the company disclose details of its materiality determination process and how the materiality analysis is conducted?",
+      "zh": "公司是否披露其重要性判定流程的详情，以及重要性分析的开展方式？"
+    },
+    "P-24f74fc2e60f47f5": {
+      "en": "Does the company have targets or metrics linked to the top three material issues and does it disclose the progress of these targets or metrics? Does the company link executive compensation with the targets or metrics involved?",
+      "zh": "公司是否针对前三项重大议题设定了相关目标或指标，并披露这些目标或指标的进展？公司是否将高管薪酬与相关目标或指标挂钩？"
+    },
+    "P-6b3768893268e8a7": {
+      "en": "Has the company evaluated the positive/negative impacts on external stakeholders using quantitative output and impact metrics?",
+      "zh": "公司是否使用量化产出和影响指标评估对外部利益相关方的正面/负面影响？"
+    },
+    "P-d56077b7436cf4e5": {
+      "en": "Does the company have governance mechanisms in place to oversee climate-related issues?",
+      "zh": "公司是否建立了监督气候相关议题的治理机制？"
+    },
+    "P-cda973dd25b85001": {
+      "en": "Does the company have a climate risk management process?",
+      "zh": "公司是否设有气候风险管理流程？"
+    },
+    "P-e96f52e85b74799a": {
+      "en": "Does the company have corporate-level emissions reduction targets?",
+      "zh": "公司是否设定了公司层面的减排目标？"
+    },
+    "P-f893aa9bce3ca5bd": {
+      "en": "Does the company track its indirect greenhouse gas emissions (Scope 3)?",
+      "zh": "公司是否追踪其间接温室气体排放（范围3）？"
+    },
+    "P-b090f3f37fed7966": {
+      "en": "Does the company monitor the following indicators regarding workforce gender diversity?",
+      "zh": "公司是否监测以下有关员工性别多元化的指标？"
+    },
+    "P-c6ae058bd1c5511e": {
+      "en": "Does the company report on its board type?",
+      "zh": "公司是否报告其董事会类型？"
+    },
+    "P-998dd838028aed06": {
+      "en": "Does the company have governance mechanisms in place to oversee ESG/sustainability issues?",
+      "zh": "公司是否建立了监督ESG/可持续发展议题的治理机制？"
+    },
+    "P-85e4d4685db6223f": {
+      "en": "Does the company have a group-wide policy on anti-bribery and anti-corruption and is it available publicly?",
+      "zh": "公司是否制定全集团反贿赂与反腐败政策，并可公开查阅？"
+    },
+    "P-fa60b6aedfb69792": {
+      "en": "Does the company track its freshwater consumption, including water withdrawal and discharge?",
+      "zh": "公司是否追踪其淡水消耗，包括取水和排水？"
+    },
+    "P-3ec99cf62f6eface": {
+      "en": "Does the company track its indirect greenhouse gas emissions (Scope 2)?",
+      "zh": "公司是否追踪其间接温室气体排放（范围2）？"
+    },
+    "P-67e288b83ee6540e": {
+      "en": "Does the company have a group-wide commitment to respect human rights and is it available publicly?",
+      "zh": "公司是否制定全集团尊重人权承诺，并可公开查阅？"
+    },
+    "P-f198bdcd17420420": {
+      "en": "Does the company report whether it has conducted an assessment of potential human rights issues across its business activities in the last three years?",
+      "zh": "公司是否报告其在过去三年内是否对其业务活动中的潜在人权问题开展过评估？"
+    },
+    "P-09416010193382e2": {
+      "en": "Does the company have a policy outlining its approach to sustainable investment and is it available publicly?",
+      "zh": "公司是否有一项说明其可持续投资方法的政策，并且该政策是否公开可获取？"
+    },
+    "P-bb2e780dee9a3240": {
+      "en": "Is the board of directors/supervisory board headed by a non-executive and independent chairperson and/or an independent lead director?",
+      "zh": "董事会/监事会是否由非执行且独立的主席领导，和/或是否任命了独立首席董事？"
+    },
+    "P-6cd15989ce243b23": {
+      "en": "Does the company report on the number and names of the board members with relevant work experience in its sector according to GICS Level 1 sector classification (excluding executive members and employee representatives)?",
+      "zh": "公司是否报告其所在行业中具有相关工作经验的董事会成员人数和姓名，行业按 GICS Level 1 行业分类确定（不包括执行成员和职工代表）？"
+    },
+    "P-0a87487e26d8d8a0": {
+      "en": "Does the company report whether governmental institutions own more than 5% of the total voting rights of the company?",
+      "zh": "公司是否报告政府机构所持投票权是否超过公司总投票权的5%？"
+    },
+    "P-4e13b35fd4c09bf3": {
+      "en": "Does the company have governance mechanisms to oversee its information security activities?",
+      "zh": "公司是否建立了监督信息安全活动的治理机制？"
+    },
+    "P-8b22f18acda7165c": {
+      "en": "Does the company have programs to manage its labor practices?",
+      "zh": "公司是否有管理其劳动实践的计划？"
+    },
+    "P-2b7f426a72b1c5b4": {
+      "en": "Does the company have programs to mitigate and remediate negative impacts of human rights risks?",
+      "zh": "公司是否有计划来缓解和补救人权风险造成的负面影响？"
+    },
+    "P-38276a992e40d7ac": {
+      "en": "Does the company conduct individual and/or team-based performance appraisals?",
+      "zh": "公司是否开展个人和/或团队绩效评估？"
+    },
+    "P-0a2ddb6aa3a46e6f": {
+      "en": "Does the company have a policy on responsible artificial intelligence and is it available publicly?",
+      "zh": "公司是否制定负责任人工智能政策，并可公开查阅？"
+    },
+    "P-865e94a6014199b1": {
+      "en": "Does the company have governance mechanisms in place to oversee risks?",
+      "zh": "公司是否建立了监督风险的治理机制？"
+    },
+    "P-0f86400d57ec3f04": {
+      "en": "Does the company have risk management processes to promote effective risk culture?",
+      "zh": "公司是否设有风险管理流程，以促进形成有效的风险文化？"
+    },
+    "P-fc9d82ba965c1039": {
+      "en": "Does the company conduct climate-related scenario analysis?",
+      "zh": "公司是否开展气候相关情景分析？"
+    },
+    "P-e4fc1395d50cde0a": {
+      "en": "Does the company have a company-wide human rights due diligence process?",
+      "zh": "公司是否设有全公司范围的人权尽职调查流程？"
+    },
+    "P-c5607203a3babf8b": {
+      "en": "Is the company a participant of the UN Global Compact?",
+      "zh": "公司是否为联合国全球契约的参与方？"
+    },
+    "P-42842ac3fc14ef20": {
+      "en": "Does the company report any contributions to or expenditures to political campaigns or organizations, lobbying, trade associations, tax-exempt entities, or other groups whose role is to influence political campaigns or public policy and legislation?",
+      "zh": "公司是否报告向政治竞选活动或组织、游说、行业协会、免税实体或其他旨在影响政治竞选活动、公共政策和立法的团体提供的任何捐款或支出？"
+    },
+    "P-fdad5c518d0dc793": {
+      "en": "Has the company committed to reaching net-zero emissions across its value chain and is it available publicly?",
+      "zh": "公司是否承诺在整个价值链实现净零排放，并且相关信息是否可公开获取？"
+    },
+    "P-199068748458c705": {
+      "en": "Does the company integrate the TCFD framework in the management of climate-related risks and opportunities?",
+      "zh": "公司是否在管理气候相关风险和机遇时纳入 TCFD 框架？"
+    },
+    "P-9a01347d948549bc": {
+      "en": "Does the company have measures to ensure effective implementation of its suppliers' ESG programs?",
+      "zh": "公司是否采取措施，确保其供应商的ESG计划得到有效实施？"
+    },
+    "P-b3584b7bd997ba99": {
+      "en": "Does the company have programs on waste management?",
+      "zh": "公司是否有废弃物管理计划？"
+    },
+    "P-a67844701f46ed46": {
+      "en": "Does the company have a supplier code of conduct and is it available publicly?",
+      "zh": "公司是否有供应商行为准则，并且该准则是否公开可获取？"
+    },
+    "P-3ddcc6e905b5fe07": {
+      "en": "Does the company have a commitment on biodiversity and is it available publicly?",
+      "zh": "公司是否制定生物多样性承诺，并可公开查阅？"
+    },
+    "P-33f68a10dde6edea": {
+      "en": "Does the company track the ratio of the median or mean employee compensation or the total annual compensation of the CEO?",
+      "zh": "公司是否跟踪员工薪酬中位数或平均值与 CEO 年度总薪酬之间的比率？"
+    },
+    "P-21a586d9d2b57685": {
+      "en": "Does the company monitor and set quantitative targets to improve satisfaction and are targets and results communicated externally?",
+      "zh": "公司是否监测并设定提高满意度的量化目标，并对外沟通目标和结果？"
+    },
+    "P-e2d3b263e93ee4bf": {
+      "en": "Does the company publicly report on the lost-time injury frequency rate (LTIFR) for its employees?",
+      "zh": "公司是否公开报告其员工的损失工时伤害频率（LTIFR）？"
+    },
+    "P-19089e80301f52d1": {
+      "en": "Does the company publicly report on paid significant fines or penalties related to the environment or ecology for the last four years?",
+      "zh": "公司是否公开报告过去四年中已支付的重大环境或生态相关罚款或处罚？"
+    },
+    "P-65d66ecc4c55f0c6": {
+      "en": "Does the company have specific stock ownership requirements for the CEO and other members of its executive committee?",
+      "zh": "公司是否对首席执行官（CEO）及其执行委员会其他成员设有具体的持股要求？"
+    },
+    "P-d220fa38c1aad004": {
+      "en": "Does the company track its employee turnover rate?",
+      "zh": "公司是否追踪员工流动率？"
+    },
+    "P-e28054001263ace1": {
+      "en": "Does the company have measures in place to ensure effective implementation of its privacy policy?",
+      "zh": "公司是否采取措施，确保其隐私政策得到有效实施？"
+    },
+    "P-18c325f7d5607fa0": {
+      "en": "Does the company have a program in place to manage and improve customer relations?",
+      "zh": "公司是否建立了管理并改善客户关系的计划？"
+    },
+    "P-78faa5fa141187cd": {
+      "en": "Does the company assess the sites used for its operational activities in order to identify sites with significant biodiversity impacts?",
+      "zh": "公司是否评估其运营活动所涉及的场址，以识别对生物多样性有重大影响的场址？"
+    },
+    "P-3d63dd9946a46826": {
+      "en": "Does the company track its total hazardous waste recycled/reused and disposed?",
+      "zh": "公司是否追踪其危险废弃物回收利用/再使用和处置总量？"
+    },
+    "P-3629a458b7b01592": {
+      "en": "Does the company report the tax rate (income statement) and cash tax rate (cash flow statement) for the last two financial years?",
+      "zh": "公司是否报告最近两个财年的税率（损益表）和现金税率（现金流量表）？"
+    },
+    "P-3c0a5ba013415554": {
+      "en": "Does the company have a commitment to reduce or phase out hazardous substances in its products or substances, or general product portfolio and is it available publicly?",
+      "zh": "公司是否承诺减少或逐步淘汰其产品或物质中的危险物质，或在整体产品组合中减少或逐步淘汰危险物质，并可公开查阅？"
+    },
+    "P-87b57565fef6a1ba": {
+      "en": "Does the company have a group-wide policy on stakeholder engagement and is it available publicly?",
+      "zh": "公司是否制定全集团利益相关方参与政策，并可公开查阅？"
+    },
+    "P-85f6cc187eb96da3": {
+      "en": "Does the company have programs on water risk management?",
+      "zh": "公司是否有水风险管理计划？"
+    },
+    "P-8b408df8276b3d01": {
+      "en": "Does the company track its revenues from sustainable products or services?",
+      "zh": "公司是否追踪其可持续产品或服务收入？"
+    },
+    "P-0ed2b47dcb789933": {
+      "en": "Does the company track its revenues derived from products containing minerals from conflict-affected and high-risk areas?",
+      "zh": "公司是否追踪来自含有冲突影响地区和高风险地区矿物的产品的收入？"
+    },
+    "P-b6343941c6ad234d": {
+      "en": "Does the company track the amounts of plastic packaging used?",
+      "zh": "公司是否追踪所用塑料包装的数量？"
+    },
+    "P-7668c229591196ec": {
+      "en": "Does the company track its revenues derived from eco-labeled products?",
+      "zh": "公司是否追踪其生态标签产品产生的收入？"
+    },
+    "P-972a5c7f5d071dbc": {
+      "en": "Does the company track its total food loss & waste?",
+      "zh": "公司是否追踪其食物损失和食物浪费总量？"
+    },
+    "P-893a971030e82512": {
+      "en": "Does the company actively and directly engage in product take-back programs (e.g., disassembly, re-manufacturing, reuse or recycling of the product and its components)?",
+      "zh": "公司是否积极、直接参与产品回收计划（例如拆解、再制造、再使用或回收产品及其部件）？"
+    },
+    "P-d1a24d742e9c07aa": {
+      "en": "Does the company have a company-wide framework on community consultation?",
+      "zh": "公司是否制定全公司范围的社区协商框架？"
+    },
+    "P-ba70cd9ad60f4ecb": {
+      "en": "Does the company have programs on engaging with indigenous peoples?",
+      "zh": "公司是否有与原住民开展互动的计划？"
+    },
+    "P-35673625adcf6153": {
+      "en": "Does the company systematically track and map the exposure of its suppliers to water-related risks with a comprehensive water tool taking into account local physical water risks?",
+      "zh": "公司是否使用综合水资源工具，考虑当地实体水风险，系统追踪并绘制其供应商面临的水相关风险敞口？"
+    },
+    "P-a719b7b9ac13ed78": {
+      "en": "Does the company have strategies to control and reduce the amount of construction and demolition waste from buildings that they construct or that are part of its portfolio?",
+      "zh": "公司是否制定了控制和减少其建造的建筑物或其资产组合中建筑物产生的建筑和拆除废弃物数量的策略？"
+    },
+    "P-3435018a3cc81af6": {
+      "en": "Does the company have programs on managing its owned or operated tailings storage facilities (TSFs)?",
+      "zh": "公司是否有计划管理其自有或运营的尾矿储存设施（TSF）？"
+    },
+    "P-c7822346e12ca8f6": {
+      "en": "Does the company have programs to ensure local communities have other forms of resources and capital once a mine is closed?",
+      "zh": "公司是否有计划确保矿山关闭后当地社区拥有其他形式的资源和资本？"
+    },
+    "P-1966c8e515c0b082": {
+      "en": "Does the company track its ethical marketing and labelling performance?",
+      "zh": "公司是否追踪其道德营销和标签表现？"
+    },
+    "P-18563cdb8d8fddc7": {
+      "en": "Does the company have a commitment on sustainable agriculture and is it available publicly?",
+      "zh": "公司是否制定可持续农业承诺，并可公开查阅？"
+    },
+    "P-03e22f1810e56fd1": {
+      "en": "Does the company track its sustainable revenues generated from certifying its buildings managed, developed, constructed, and/or designed according to independently developed energy performance ratings or labels?",
+      "zh": "公司是否追踪其管理、开发、建造和/或设计的建筑中，依据独立制定的能源绩效评级或标签获得认证的建筑所产生的可持续收入？"
+    },
+    "P-164e000c9ab99bc3": {
+      "en": "Does the company certify its buildings managed, developed, constructed, and/or designed according to independently developed sustainable building standards?",
+      "zh": "公司是否依据独立制定的可持续建筑标准，对其管理、开发、建造和/或设计的建筑进行认证？"
+    },
+    "P-da160aa23a3f6fb8": {
+      "en": "Does the company have a policy on the use of sustainable raw materials and is it available publicly?",
+      "zh": "公司是否制定原材料可持续使用政策，并可公开查阅？"
+    },
+    "P-2af8800b594a34be": {
+      "en": "Does the company currently invest in thermal coal? If so, does it have a publicly available policy in place to restrict and/or exclude coal investments?",
+      "zh": "公司目前是否投资于动力煤？如果是，公司是否制定了公开可查的政策，以限制和/或排除煤炭投资？"
+    },
+    "P-0bce7926f4112106": {
+      "en": "Has the company been subject to inspection by regulators and/or received any FDA Form 483 notices or FDA Warning Letters (or equivalent notices from other agencies) as a result of production plant inspections by regulatory authorities in the last four years?",
+      "zh": "过去四年中，公司是否曾接受监管机构检查，和/或因监管机构检查生产工厂而收到任何 FDA Form 483 通知或 FDA 警告信（或其他机构的同等通知）？"
+    },
+    "P-c375b67debbaa505": {
+      "en": "Does the company have programs to manage its Acid Rock Drainage (ARD)?",
+      "zh": "公司是否有管理酸性岩石排水（ARD）的计划？"
+    },
+    "P-2311338f807c17fb": {
+      "en": "Does the company track its direct sulfur hexafluoride (SF6) emissions?",
+      "zh": "公司是否追踪其直接六氟化硫（SF6）排放？"
+    },
+    "P-769a5c671c2a7f59": {
+      "en": "Does the company track the average reliability of the company's electricity transmission and distribution systems?",
+      "zh": "公司是否追踪其输配电系统的平均供电可靠性？"
+    },
+    "P-485c113630463203": {
+      "en": "Does the company have a policy on animal welfare and is it available publicly?",
+      "zh": "公司是否制定动物福利政策，并可公开查阅？"
+    },
+    "P-8f6c08f027d35a43": {
+      "en": "Does the company have programs on social integration?",
+      "zh": "公司是否有社会融合计划？"
+    },
+    "P-e41a2da7ca289668": {
+      "en": "Does the company track the revenues generated by transport modes that are owned, leased, and subcontracted, as well as the percentage of greenhouse gas (GHG) emissions relative to its total fleet emissions for the last financial year?",
+      "zh": "公司是否跟踪其自有、租赁和分包运输方式产生的收入，以及上一财年温室气体（GHG）排放占其车队排放总量的比例？"
+    },
+    "P-94e23d59bc6cd2c4": {
+      "en": "Does the company have programs on employing local people for at least 80% of its owned or operating sites?",
+      "zh": "公司是否在其至少80%的自有或运营场址开展雇用当地人员的计划？"
+    },
+    "P-ab66c717c5ede5f4": {
+      "en": "Does the company track the percentage of total products and impacts covered by the following life cycle assessment?",
+      "zh": "公司是否追踪以下生命周期评估所覆盖的产品占全部产品的比例，以及所覆盖影响的比例？"
+    },
+    "P-5b2d6725c6c24f4b": {
+      "en": "Does the company have a policy outlining how it integrates sustainability into its financing activities and is it available publicly?",
+      "zh": "公司是否制定政策，说明其如何将可持续性纳入融资活动，并可公开查阅？"
+    },
+    "P-b0a2e4c0fead81f4": {
+      "en": "Does the company report on its sustainable fixed income underwriting or securitization issuance products and/or services for the last financial year?",
+      "zh": "公司是否报告上一财年可持续固定收益承销或证券化发行产品和/或服务？"
+    },
+    "P-640f0b71d3d558e7": {
+      "en": "Does the company currently finance the below-mentioned unconventional oil & gas fuels? If so, does it have a publicly available policy in place to restrict and/or exclude unconventional oil & gas financing?",
+      "zh": "公司目前是否为下述非常规油气燃料提供融资？如果是，公司是否已制定公开政策，以限制和/或排除非常规油气融资？"
+    },
+    "P-19a8f3a3389ac213": {
+      "en": "Does the company track its direct chemical oxygen demand?",
+      "zh": "公司是否追踪其直接化学需氧量？"
+    },
+    "P-7d2d2882bcc9da3f": {
+      "en": "Does the company have programs on water efficiency in construction?",
+      "zh": "公司是否有施工过程中的用水效率计划？"
+    },
+    "P-0b0a861dd06fa590": {
+      "en": "Does the company track its total ash and gypsum waste recycled/reused and disposed?",
+      "zh": "公司是否追踪其灰渣和石膏废弃物的回收利用/再使用及处置总量？"
+    },
+    "P-b97a03f151f4f3ed": {
+      "en": "Does the company track its gross electricity generation from owned/controlled assets for the last financial year?",
+      "zh": "公司是否追踪上一财政年度自有/受控资产的总发电量？"
+    },
+    "P-585a9cedbf124425": {
+      "en": "Does the company have policies on engagement and voting and is it available publicly?",
+      "zh": "公司是否有参与和投票政策，并且这些政策是否公开可获取？"
+    },
+    "P-e859815d020108c7": {
+      "en": "Does the company have a commitment on financial inclusion and is it available publicly?",
+      "zh": "公司是否制定金融普惠承诺，并可公开查阅？"
+    },
+    "P-04def27e1142efe3": {
+      "en": "Does the company report on animal welfare-related data and objectives related to their own operations or commitments from suppliers?",
+      "zh": "公司是否报告与其自身运营相关的动物福利数据和目标，或供应商作出的承诺？"
+    },
+    "P-ebdef30a447730ed": {
+      "en": "Does the company have programs to ensure children's privacy and safety?",
+      "zh": "公司是否有计划确保儿童隐私与安全？"
+    },
+    "P-a82317f6763df5d8": {
+      "en": "Does the company track information regarding the use of its online services by customers and the revenue generated from such services?",
+      "zh": "公司是否追踪客户对其在线服务的使用情况，以及此类服务产生的收入？"
+    },
+    "P-7d8e4a0895753c23": {
+      "en": "Does the company disclose the environmental and health attributes of building materials?",
+      "zh": "公司是否披露建筑材料的环境和健康属性？"
+    },
+    "P-9c9bf9ce4e83be84": {
+      "en": "Does the company have programs on circular fashion?",
+      "zh": "公司是否有循环时尚计划？"
+    },
+    "P-cee0996c71b75938": {
+      "en": "Does the company track its ultra-pure water usage?",
+      "zh": "公司是否追踪其超纯水用量？"
+    },
+    "P-8274324a42d6636c": {
+      "en": "Does the company report on long-term, emerging risks?",
+      "zh": "公司是否报告长期新兴风险？"
+    },
+    "P-9c44c38c22299726": {
+      "en": "Does the company have a program to align its lobbying activities with the Paris Agreement?",
+      "zh": "公司是否有一项使其游说活动与《巴黎协定》保持一致的计划？"
+    },
+    "P-d5138d4164e80019": {
+      "en": "Does the company monitor and report on the coverage and progress of its supplier screening, assessment and development programs?",
+      "zh": "公司是否监测并报告其供应商筛选、评估和发展计划的覆盖范围及进展？"
+    },
+    "P-240609c9b884048a": {
+      "en": "Does the company provide incentives for the management of climate change issues, including the attainment of targets?",
+      "zh": "公司是否为气候变化议题管理提供激励措施，包括实现目标的激励？"
+    },
+    "P-d6345dc751ea4d03": {
+      "en": "Does the company have a group-wide commitment to respect labor rights and is it available publicly?",
+      "zh": "公司是否制定全集团尊重劳工权利的承诺，并可公开查阅？"
+    },
+    "P-caa3734a832bf68a": {
+      "en": "Does the company track the results of its gender pay gap or equal pay analysis?",
+      "zh": "公司是否跟踪性别薪酬差距或同工同酬分析的结果？"
+    },
+    "P-68b4d95434196428": {
+      "en": "Does the company offer programs on long-term incentives for employees below the senior management level?",
+      "zh": "公司是否为高级管理层级以下的员工提供长期激励计划？"
+    },
+    "P-502b36e0687b8726": {
+      "en": "Does the company track the absentee rate for employees and contractors?",
+      "zh": "公司是否追踪员工和承包商的缺勤率？"
+    },
+    "P-d2ad130e70747e26": {
+      "en": "Does the company have management measures in place to analyze and act on possible discrepancies for data on vehicle efficiency and emissions between the below two datasets? a) Data reported to authorities (dataset 1) b) Data collected and analyzed in independent real-life driving situations or currently non-regulated off-cycle tests (dataset 2)",
+      "zh": "公司是否建立了管理措施，以分析并应对车辆能效和排放数据在以下两组数据之间可能存在的差异：a）向主管机构报告的数据（数据集1）；b）在独立的真实道路驾驶情境或目前未受监管的非循环测试中收集并分析的数据（数据集2）？"
+    },
+    "P-430d4a02fad4d436": {
+      "en": "Does the company track the number of its product recalls and the total units/tonnes recalled?",
+      "zh": "公司是否跟踪其产品召回次数及召回产品的总件数/吨数？"
+    },
+    "P-26a9a7b83565fb1c": {
+      "en": "Does the company currently invest in the below-mentioned unconventional oil & gas fuels? If so, does it have a publicly available policy in place to restrict and/or exclude unconventional oil & gas investment?",
+      "zh": "公司目前是否投资于下述非常规油气燃料？如果是，公司是否制定了公开可查的政策，以限制和/或排除对非常规油气的投资？"
+    },
+    "P-139f7ef925da27e5": {
+      "en": "Does the company reports on the performance-based variable compensation system for its CEO?",
+      "zh": "公司是否报告其CEO基于绩效的浮动薪酬体系？"
+    },
+    "P-add5a6a46f51e45e": {
+      "en": "Does the company have measures in place to advance sustainability in its activities as a stock or derivative exchange?",
+      "zh": "公司是否采取措施，推动其作为证券或衍生品交易所开展活动的可持续性？"
+    },
+    "P-75c56f74b6ed0fdb": {
+      "en": "Does the company publicly report on its sustainable financing products and/or services for the last financial year?",
+      "zh": "公司是否公开报告上一财年的可持续融资产品和/或服务？"
+    },
+    "P-e3ea127886de39c3": {
+      "en": "Does the company have programs on sustainable management of small-forest owners/smallholders certified by PEFC and/or FSC, or other certification systems?",
+      "zh": "公司是否有关于小型森林所有者/小农户可持续管理的计划，且该管理经PEFC和/或FSC或其他认证体系认证？"
+    },
+    "P-d785363282c3e94e": {
+      "en": "Does the company track its purchased wood-based materials for the last financial year?",
+      "zh": "公司是否追踪上一财政年度采购的木质材料？"
+    },
+    "P-3e3fb955d6b88d16": {
+      "en": "Does the company track its total solid waste recycled/reused and disposed?",
+      "zh": "公司是否追踪其固体废弃物回收利用/再使用和处置总量？"
+    },
+    "P-2b04a101cdd2a43b": {
+      "en": "Does the company have programs to improve access to healthcare?",
+      "zh": "公司是否有改善医疗保健可及性的计划？"
+    },
+    "P-295e3175cf6744d6": {
+      "en": "Does the company publicly report on the net production volume for the last financial year for the following categories?",
+      "zh": "公司是否公开报告上一财年以下类别的净产量？"
+    },
+    "P-41c6ee976fd2e00e": {
+      "en": "Does the company have an editorial policy and is it available publicly?",
+      "zh": "公司是否有编辑政策，并且该政策是否公开可获取？"
+    },
+    "P-5e3913d528d5103d": {
+      "en": "Does the company publicly report on the percentage of low-carbon fleet per technology compared with its owned, leased and subcontracted road fleet?",
+      "zh": "公司是否公开报告其自有、租赁和分包公路车队中按技术类型划分的低碳车队比例？"
+    },
+    "P-d44f500645ccd9f5": {
+      "en": "Does the company have a policy on board diversity?",
+      "zh": "公司是否制定董事会多元化政策？"
+    },
+    "P-3a36bbc4ec748938": {
+      "en": "Does the company have practices to ensure the accountability of its board of directors/supervisory board and the alignment with the long-term interests of shareholders?",
+      "zh": "公司是否采取做法，确保其董事会/监事会承担问责责任，并与股东的长期利益保持一致？"
+    },
+    "P-590ddf412d43e324": {
+      "en": "Does the company's CEO and other executive committee members hold company shares?",
+      "zh": "公司 CEO 及其他执行委员会成员是否持有公司股份？"
+    },
+    "P-2e207337e0c41258": {
+      "en": "Does the company have a group-wide code of conduct and is it available publicly?",
+      "zh": "公司是否制定全集团行为准则，并可公开查阅？"
+    },
+    "P-0eb23db97f7e5629": {
+      "en": "Does the company have a whistleblowing mechanism?",
+      "zh": "公司是否有举报机制？"
+    },
+    "P-f4c5b38664fcce88": {
+      "en": "Does the company have programs on information security management?",
+      "zh": "公司是否有信息安全管理计划？"
+    },
+    "P-d07b318247cdb5bb": {
+      "en": "Does the company have a group-wide policy on non-discrimination and anti-harassment and is it available publicly?",
+      "zh": "公司是否制定全集团反歧视和反骚扰政策，并可公开查阅？"
+    },
+    "P-8b5152008c4229b1": {
+      "en": "Does the company publicly report the following information on a standard human capital return on investment metric, serving as a global measure of the return of the company's human capital programs?",
+      "zh": "公司是否公开报告以下标准人力资本投资回报指标，用作衡量公司人力资本计划回报的全球性指标？"
+    },
+    "P-2611d6698ee7785e": {
+      "en": "Does the company conduct a materiality analysis to identify and value the positive/negative impact on external stakeholders associated with its business operations, products/services and/or its supply chain?",
+      "zh": "公司是否开展重要性分析，以识别并评估与其业务运营、产品/服务和/或供应链相关的对外部利益相关方产生的正面/负面影响？"
+    },
+    "P-b68d4624a942dde7": {
+      "en": "Does the company use an internal carbon price?",
+      "zh": "公司是否使用内部碳价？"
+    },
+    "P-41609462619b82a1": {
+      "en": "Does the company track the results of its employee survey?",
+      "zh": "公司是否跟踪员工调查结果？"
+    },
+    "P-bf5bafc156f59ab8": {
+      "en": "Does the company track its energy consumption?",
+      "zh": "公司是否追踪能源消耗？"
+    },
+    "P-054e0b570264f5ab": {
+      "en": "Does the company track its direct greenhouse gas emissions (Scope 1)?",
+      "zh": "公司是否追踪其直接温室气体排放（范围1）？"
+    },
+    "P-73bd991cca901f67": {
+      "en": "Does the company publicly report on whether its Environmental Management System (EMS) is certified, audited, or verified?",
+      "zh": "公司是否公开报告其环境管理体系（EMS）是否经过认证、审计或验证？"
+    },
+    "P-bf137ec1f46ea209": {
+      "en": "Does the company have a transition plan in place to align with global net-zero GHG emission goals?",
+      "zh": "公司是否制定了转型计划，以与全球温室气体（GHG）净零排放目标保持一致？"
+    },
+    "P-89ac3dae5813ca91": {
+      "en": "Does the company have a group-wide environmental policy and is it available publicly?",
+      "zh": "公司是否制定全集团环境政策，并且该政策是否公开可获取？"
+    },
+    "P-4c697231f1edbd61": {
+      "en": "Does the company have programs on water efficiency management?",
+      "zh": "公司是否有用水效率管理计划？"
+    },
+    "P-7a4769f64eae356b": {
+      "en": "Does the company conduct supplier screening to systematically identify significant suppliers?",
+      "zh": "公司是否开展供应商筛选，以系统识别重要供应商？"
+    },
+    "P-5ba4c0038df7ec19": {
+      "en": "Does the company track its training & development data for the last four financial years?",
+      "zh": "公司是否追踪过去四个财年的培训与发展数据？"
+    },
+    "P-06761e6b2dfe10b0": {
+      "en": "Does the company have programs on energy management?",
+      "zh": "公司是否有能源管理计划？"
+    },
+    "P-e33dc4f0e1b26e7f": {
+      "en": "Does the company have a program for sustainable products or services?",
+      "zh": "公司是否有可持续产品或服务计划？"
+    },
+    "P-890f4881986f3c23": {
+      "en": "Does the company publicly report on the total percentage of its employees that are represented by an independent trade union or covered by collective bargaining agreements?",
+      "zh": "公司是否公开报告其由独立工会代表或受集体谈判协议覆盖的员工总比例？"
+    },
+    "P-4c75911ecf62dab0": {
+      "en": "Has the company identified any climate change risks (current or future) that have potential to generate a substantive change in its business operations, revenue or expenditures?",
+      "zh": "公司是否识别出可能对其业务运营、收入或支出产生实质性变化的当前或未来气候变化风险？"
+    },
+    "P-43c995a824a75f9f": {
+      "en": "Does the company track the total number of new employee hire rates and the percentage of open positions filled by internal candidates?",
+      "zh": "公司是否跟踪新员工招聘总人数，以及由内部候选人填补的空缺职位比例？"
+    },
+    "P-59f760cb896cc7c4": {
+      "en": "Does the company have mitigating actions to reduce impact and dependency on biodiversity?",
+      "zh": "公司是否采取了减少对生物多样性的影响和依赖的缓解行动？"
+    },
+    "P-d6177c8552257326": {
+      "en": "Does the company assess its exposure to hazardous substances in its products and/or did it perform a risk assessment on its product portfolio?",
+      "zh": "公司是否评估其产品中的危险物质暴露情况，和/或是否对其产品组合进行过风险评估？"
+    },
+    "P-fef24760700224ad": {
+      "en": "Does the company have programs to ensure product quality?",
+      "zh": "公司是否有确保产品质量的计划？"
+    },
+    "P-6b5b6929323e354c": {
+      "en": "Does the company have initiatives in place to ensure the effective implementation of its stakeholder engagement programs?",
+      "zh": "公司是否有举措确保其利益相关方参与计划得到有效实施？"
+    },
+    "P-c383decdb7ffe329": {
+      "en": "Does the company systematically track and map its plant water usage with a comprehensive water tool taking into account local water stress?",
+      "zh": "公司是否使用综合水资源工具，考虑当地水资源紧张状况，系统追踪并绘制其工厂用水情况？"
+    },
+    "P-ecabef26bbb6cd3a": {
+      "en": "Does the company have a group-wide commitment and associated programs to improve packaging solutions and is it available publicly?",
+      "zh": "公司是否制定全集团承诺和相关项目以改进包装方案，并可公开查阅？"
+    },
+    "P-3515120ab0232f6c": {
+      "en": "Does the company track its direct Volatile Organic Compounds (VOC) emissions?",
+      "zh": "公司是否追踪其直接挥发性有机化合物（VOC）排放？"
+    },
+    "P-df612e4d7b410b9e": {
+      "en": "Does the company track its direct NOx emissions?",
+      "zh": "公司是否追踪其直接NOx排放？"
+    },
+    "P-e86c55503b25f0d6": {
+      "en": "Does the company track its direct SOx emissions?",
+      "zh": "公司是否追踪其直接SOx排放？"
+    },
+    "P-cb535a82016d213b": {
+      "en": "Does the company track the metal and mineral-derived raw materials contained in its products that are processed, refined, assembled, transported and/or distributed by the company?",
+      "zh": "公司是否跟踪其产品中所含、由公司加工、精炼、组装、运输和/或分销的金属及矿物来源原材料？"
+    },
+    "P-a0d6f0eac58df590": {
+      "en": "Does the company have programs on relocations or resettlements?",
+      "zh": "公司是否有搬迁或重新安置计划？"
+    },
+    "P-ca23dd7f9e6d1f51": {
+      "en": "Does the company track tier 1 process safety events?",
+      "zh": "公司是否跟踪第 1 级工艺安全事件？"
+    },
+    "P-c8cc683ff5f0e053": {
+      "en": "Does the company publicly report on the number of requests for customer information received from government or law enforcement agencies during the last financial year and the percentage of requests which resulted in disclosure?",
+      "zh": "公司是否公开报告上一财年收到的政府或执法机构客户信息请求数量，以及其中导致信息披露的请求比例？"
+    },
+    "P-a435929d85be758d": {
+      "en": "Does the company have a commitment on tailings management and is it available publicly?",
+      "zh": "公司是否制定尾矿管理承诺，并可公开查阅？"
+    },
+    "P-4a72e738a2de636b": {
+      "en": "Does the company publicly report on the number of tailings facilities it currently owns or manages, as well as their risk exposure levels?",
+      "zh": "公司是否公开报告其目前拥有或管理的尾矿设施数量及其风险暴露等级？"
+    },
+    "P-0cd9a66c70beca2e": {
+      "en": "Does the company have mine closure plans?",
+      "zh": "公司是否有矿山闭矿计划？"
+    },
+    "P-e1f4580e83ac2318": {
+      "en": "Is the company a corporate participant of the Voluntary Principles on Security and Human Rights or does it have a structured approach to manage security forces?",
+      "zh": "公司是否为《安全与人权自愿原则》的企业参与方，或是否采用结构化方法管理安保力量？"
+    },
+    "P-7e5db28157656275": {
+      "en": "Does the company have a management program or measures in place to address corporate environmental requirements for its property portfolio or investments?",
+      "zh": "公司是否制定管理计划或采取措施，以应对其房地产组合或投资相关的企业环境要求？"
+    },
+    "P-51f72f4b9a5df113": {
+      "en": "Has the company set a net-zero target and/or intermediate emissions reduction targets for its financed emissions?",
+      "zh": "公司是否为其融资排放设定净零目标和/或中期减排目标？"
+    },
+    "P-b23a1107c50e45fc": {
+      "en": "Did the company recall any products during the last four years?",
+      "zh": "公司在过去四年内是否召回过任何产品？"
+    },
+    "P-0287d28b97a4ab9a": {
+      "en": "Does the company provide access to its research data to maximize its value for societal healthcare?",
+      "zh": "公司是否向社会开放其研究数据，以最大化其对社会医疗保健的价值？"
+    },
+    "P-5f2d532da58f489c": {
+      "en": "Does the company have a policy on health & nutrition and is it available publicly?",
+      "zh": "公司是否制定健康与营养政策，并可公开查阅？"
+    },
+    "P-31702cc34bd4391a": {
+      "en": "Does the company track revenues derived from food & beverage products that meet the criteria for healthy products?",
+      "zh": "公司是否追踪符合健康产品标准的食品和饮料产品所产生的收入？"
+    },
+    "P-6a73167dbe9b40ac": {
+      "en": "Does the company track its direct mercury emissions?",
+      "zh": "公司是否追踪其直接汞排放？"
+    },
+    "P-3abf6fffae34ce3d": {
+      "en": "Does the company track the average technical losses of its electricity transmission and distribution systems?",
+      "zh": "公司是否追踪其输配电系统的平均技术损耗？"
+    },
+    "P-aabd931b1c88e97d": {
+      "en": "Does the company track its gas leakage rate?",
+      "zh": "公司是否追踪燃气泄漏率？"
+    },
+    "P-4fd3afe4ff917205": {
+      "en": "Does the company track the volume of hydrocarbon spills greater than one barrel (bbl) that reached the environment?",
+      "zh": "公司是否跟踪进入环境的超过一桶（bbl）烃类泄漏量？"
+    },
+    "P-f0e1cdfbe8bc8607": {
+      "en": "Does the company track its direct methane (CH4) emissions?",
+      "zh": "公司是否追踪其直接甲烷（CH4）排放？"
+    },
+    "P-55803728c98ea418": {
+      "en": "Does the company actively engage in national/international discussions on efficiency and environmental issues?",
+      "zh": "公司是否积极参与国家/国际层面关于效率和环境问题的讨论？"
+    },
+    "P-f24bb68076fb5f19": {
+      "en": "Does the company publicly report on the average age of its air fleet in the past four years?",
+      "zh": "公司是否公开报告过去四年航空机队的平均机龄？"
+    },
+    "P-9d58ad1f782225d9": {
+      "en": "Does the company publicly report on the warranty balance at the beginning of the period, the warranty payments (costs) that were realized during the financial year period, and the revenues in each of the last four years?",
+      "zh": "公司是否公开报告过去四年每年期初的保修余额、财年期间实际发生的保修付款（成本）以及收入？"
+    },
+    "P-f4f3f779e111e53f": {
+      "en": "Does the company track its revenues from sustainable construction materials?",
+      "zh": "公司是否追踪其可持续建筑材料收入？"
+    },
+    "P-655c9398480919d5": {
+      "en": "Please indicate which activities the company operates in and derives at least 5% of revenues from. For project finance, tick the option if the company has project finance operations, even if this segment represents less than 5% of revenues.",
+      "zh": "请注明公司经营且收入至少占总收入 5% 的业务活动。对于项目融资，即使该业务板块收入占比不足 5%，只要公司开展项目融资业务，也请勾选该选项。"
+    },
+    "P-9cf7d3419817ec75": {
+      "en": "Does the company integrate ESG aspects into its approach for financing large-scale projects?",
+      "zh": "公司是否在大型项目融资方法中纳入 ESG 方面的考量？"
+    },
+    "P-55d8bd8b5bfdecc8": {
+      "en": "Does the company currently finance thermal coal? If so, does it have a publicly available policy in place to restrict and/or exclude coal financing?",
+      "zh": "公司目前是否为动力煤提供融资？若是，是否制定了公开可获取的政策，以限制和/或排除煤炭融资？"
+    },
+    "P-ae44f52fd37db6f5": {
+      "en": "Does the company have long-term programs, partnerships, or activities from the last financial year aimed at strengthening local capacities in alignment with the Access to Medicine Index 2024 for the least developed countries (LDCs)?",
+      "zh": "公司在上一财政年度是否开展了长期计划、合作伙伴关系或活动，旨在依据2024年《药品可及性指数》（Access to Medicine Index），为最不发达国家（LDCs）加强本地能力？"
+    },
+    "P-21a91d1bed65693b": {
+      "en": "Does the company have a worldwide commitment to ethical marketing, advertising and sales practices and is it available publicly?",
+      "zh": "公司是否在全球范围内承诺遵守道德营销、广告和销售实践，并且该承诺是否公开可获取？"
+    },
+    "P-ac3a3ff3a32b14f1": {
+      "en": "Does the company publicly report on its electricity generation's installed capacity for the last financial year?",
+      "zh": "公司是否公开报告上一财年发电装机容量？"
+    },
+    "P-50c45b5dbabaa8a4": {
+      "en": "Does the company integrate ESG aspects in its underwriting process and is it available publicly?",
+      "zh": "公司是否在承保流程中纳入 ESG 方面的考量，并公开提供相关信息？"
+    },
+    "P-b82370917e4d07f8": {
+      "en": "Does the company publicly report on its sustainable insurance underwriting products and/or services for the last financial year?",
+      "zh": "公司是否公开报告上一财年的可持续保险承保产品和/或服务？"
+    },
+    "P-85e3877175b76390": {
+      "en": "Does the company currently underwrite thermal coal? If so, does it have a publicly available policy in place to restrict and/or exclude coal re/insurance underwriting?",
+      "zh": "公司目前是否承保动力煤业务？若是，是否制定了公开可获取的政策，以限制和/或排除煤炭保险/再保险承保业务？"
+    },
+    "P-c0af32d68d8ff7ea": {
+      "en": "Does the company offer non-financial support (beyond financial products or services) to underserved groups?",
+      "zh": "公司是否向服务不足群体提供非金融支持（金融产品或服务以外的支持）？"
+    },
+    "P-bde7fa5761b3b4f3": {
+      "en": "Does the company have a code of ethics for advertising and is it available publicly?",
+      "zh": "公司是否制定广告道德准则，并可公开查阅？"
+    },
+    "P-e4fcf90006409de9": {
+      "en": "Does the company track its energy intensity?",
+      "zh": "公司是否追踪能源强度？"
+    },
+    "P-0a64eb2f28e0526e": {
+      "en": "Does the company have programs for promoting the health and wellbeing of tenants?",
+      "zh": "公司是否有促进租户健康与福祉的计划？"
+    },
+    "P-d1bcf7051143a87d": {
+      "en": "Does the company have a groupwide commitment on circular fashion and is it available publicly?",
+      "zh": "公司是否制定全集团循环时尚承诺，并可公开查阅？"
+    },
+    "P-8d5b7b89ded4b976": {
+      "en": "Does the company track its specific NOx emissions for cargo transport?",
+      "zh": "公司是否追踪其货物运输的氮氧化物（NOx）排放强度？"
+    },
+    "P-6f969801869c9767": {
+      "en": "Does the company monitor the breakdown of its workforce according to racial and ethnic self-identifications, or nationality?",
+      "zh": "公司是否监测员工按种族和族裔自我认同或国籍划分的构成情况？"
+    },
+    "P-5d2ae2d653e2f2f1": {
+      "en": "Does the company publicly report on passenger fatalities?",
+      "zh": "公司是否公开报告乘客死亡人数？"
+    },
+    "P-b08ce0488ef09798": {
+      "en": "Does the company measures the applicable range for the average battery degradation of its EV offering, specifically in terms of the average number of kilometers and years before the battery reaches 70-80% of its original total capacity?",
+      "zh": "公司是否衡量其电动汽车产品平均电池衰减的适用区间，具体以电池容量降至原始总容量的70%–80%之前的平均行驶里程和使用年限表示？"
+    },
+    "P-7de0b94f05edc884": {
+      "en": "Does the company track the total number of vehicles (combustion engine and alternative drive train) sold and the number of vehicles by alternative drive train type sold globally in the last financial year?",
+      "zh": "公司是否跟踪上一财年全球销售的车辆总数（内燃机车辆和替代动力系统车辆），以及按替代动力系统类型划分的车辆数量？"
+    },
+    "P-8b1d1eeb4f9816ba": {
+      "en": "Does the company track the amount of recycled/re-used input material used across its construction operations and the corresponding total amount of input material used for each material type?",
+      "zh": "公司是否追踪其建筑运营中使用的再生/再使用投入材料数量，以及各类材料对应的投入材料总量？"
+    },
+    "P-01a6243e0273a5e9": {
+      "en": "Does the company publicly report on its sustainability-related indices offering?",
+      "zh": "公司是否公开报告其提供的可持续发展相关指数？"
+    },
+    "P-db9efb2705ca67c8": {
+      "en": "Does the company track its absorbable organic halogens?",
+      "zh": "公司是否追踪可吸附有机卤素？"
+    },
+    "P-7e41e376292507e5": {
+      "en": "Does the company track revenues derived from sustainable timber and paper products, including derivatives?",
+      "zh": "公司是否追踪来自可持续木材和纸制品（包括其衍生产品）的收入？"
+    },
+    "P-89aa84583393fe2e": {
+      "en": "Does the company have programs to improve the accessibility of healthcare?",
+      "zh": "公司是否有改善医疗保健可及性的计划？"
+    },
+    "P-8ef0faa21feec27a": {
+      "en": "Does the company track its water leakage rate?",
+      "zh": "公司是否追踪其供水管网漏损率？"
+    },
+    "P-e7db5c1f19e4ff78": {
+      "en": "Does the company publicly report its estimated net hydrocarbon reserves?",
+      "zh": "公司是否公开报告其估算的净烃类储量？"
+    },
+    "P-6cbd14af746172af": {
+      "en": "Does the company publicly report on the breakeven price of oil?",
+      "zh": "公司是否公开报告石油盈亏平衡价格？"
+    },
+    "P-5f8098104932f1a6": {
+      "en": "Does the company have programs for managing its end-of-life product waste from electrical and electronic equipment (WEEE or e-waste)?",
+      "zh": "公司是否有计划管理其电气和电子设备报废后产生的废弃物（WEEE或电子废弃物）？"
+    },
+    "P-1d2e85145169449e": {
+      "en": "Does the company publicly report on the percentage of low-carbon fuel used compared with its entire owned, leased and subcontracted maritime fleet fuel use?",
+      "zh": "公司是否公开报告低碳燃料用量占其全部自有、租赁及分包海运船队燃料总用量的比例？"
+    },
+    "P-ca9425913a48aa46": {
+      "en": "Does the company publicly report on the percentage of Sustainable Aviation Fuel (SAF) used compared with its owned, leased and subcontracted air fleet fuel use?",
+      "zh": "公司是否公开报告其自有、租赁和分包航空机队燃料使用中可持续航空燃料（SAF）的使用比例？"
+    },
+    "P-d5ba443e1a078725": {
+      "en": "Does the company assess dependency- and impact-related biodiversity risks covering all its relevant activities?",
+      "zh": "公司是否评估其所有相关活动对生物多样性的依赖和影响相关风险？"
+    },
+    "P-f104715125956d3c": {
+      "en": "Does the company report the number of women on its board of directors/supervisory board?",
+      "zh": "公司是否报告其董事会/监事会中的女性人数？"
+    },
+    "P-ae4b42285a07b6c3": {
+      "en": "Does the company report the average tenure of board members on its board of directors/supervisory board in years?",
+      "zh": "公司是否以年为单位报告其董事会/监事会成员的平均任期？"
+    },
+    "P-8f59ee245b137b03": {
+      "en": "Does the company have predefined corporate performance indicators relevant for the CEO's variable compensation?",
+      "zh": "公司是否预先确定了与CEO浮动薪酬相关的公司绩效指标？"
+    },
+    "P-69db6820ee6a6e4c": {
+      "en": "Does the company report whether any individual founding members or family members, either personally or through other companies or organizations, hold more than 5% of the company's voting rights?",
+      "zh": "公司是否报告任何创始个人或家庭成员（无论是以个人名义，还是通过其他公司或组织）是否持有公司超过5%的投票权？"
+    },
+    "P-f281242f587b1bc3": {
+      "en": "Does the company have a policy on information security and is it available publicly?",
+      "zh": "公司是否制定信息安全政策，并可公开查阅？"
+    },
+    "P-c709e76945b7a286": {
+      "en": "Does the company have programs on responsible artificial intelligence?",
+      "zh": "公司是否有负责任人工智能计划？"
+    },
+    "P-9efc939fbd5341d9": {
+      "en": "Does the company have programs on employee development?",
+      "zh": "公司是否有员工发展计划？"
+    },
+    "P-bad244a6eeed97c0": {
+      "en": "Does the company have employee support programs?",
+      "zh": "公司是否有员工支持计划？"
+    },
+    "P-9f7edeeca09891bc": {
+      "en": "Does the company have a policy on Occupational Health & Safety (OHS) and is it available publicly?",
+      "zh": "公司是否制定职业健康与安全（OHS）政策，并可公开查阅？"
+    },
+    "P-c9ff707d58903e78": {
+      "en": "Does the company have programs on Occupational Health & Safety (OHS)?",
+      "zh": "公司是否有职业健康与安全（OHS）计划？"
+    },
+    "P-ad39a58ed98b9d96": {
+      "en": "Does the company have a process for supplier assessment and development?",
+      "zh": "公司是否有供应商评估与发展流程？"
+    },
+    "P-35ac6641d16589c3": {
+      "en": "Does the company have a commitment on no-deforestation and is it available publicly?",
+      "zh": "公司是否制定零毁林承诺，并可公开查阅？"
+    },
+    "P-5e872d96da8f3633": {
+      "en": "Does the company track its work-related fatalities for employees and contractors?",
+      "zh": "公司是否追踪员工和承包商的工伤死亡人数？"
+    },
+    "P-cff07aaeb0318f27": {
+      "en": "Does the company track the lost-time injury frequency rate (LTIFR) for its contractors?",
+      "zh": "公司是否跟踪承包商的损失工时伤害频率（LTIFR）？"
+    },
+    "P-7c7eddc4142df484": {
+      "en": "Does the company have a group-wide commitment on tax strategy and governance and is it available publicly?",
+      "zh": "公司是否制定全集团税务战略与治理承诺，并可公开查阅？"
+    },
+    "P-21c8f69db688482c": {
+      "en": "Does the company have a policy to inform customers regarding privacy protection issues and is it available publicly?",
+      "zh": "公司是否有一项告知客户隐私保护相关事项的政策，并且该政策是否公开可获取？"
+    },
+    "P-ec1b6f36e422768c": {
+      "en": "Does the company consider environmental criteria in the development of new products/services?",
+      "zh": "公司在开发新产品/服务时是否考虑环境标准？"
+    },
+    "P-4f4b28d1dde6fba4": {
+      "en": "Does the company track its return on environmental investments?",
+      "zh": "公司是否追踪其环境投资回报？"
+    },
+    "P-111a08fcd08d0e87": {
+      "en": "Does the company track its annual total monetary contributions to and spending for political campaigns, political organizations, lobbyists or lobbying organizations, trade associations, and other tax-exempt groups?",
+      "zh": "公司是否追踪其每年向政治竞选活动、政治组织、游说人员或游说组织、行业协会及其他免税团体提供的货币捐助，以及用于上述对象的支出总额？"
+    },
+    "P-9287c238dca82174": {
+      "en": "Does the company have a policy on ethical marketing, advertising, and sales practices and is it available publicly?",
+      "zh": "公司是否制定道德营销、广告和销售实践政策，并可公开查阅？"
+    },
+    "P-4f61027e960556bd": {
+      "en": "Does the company track its freshwater consumption in water-stressed areas?",
+      "zh": "公司是否追踪其在水资源紧张地区的淡水消耗？"
+    },
+    "P-a7929fe52bbfc6cc": {
+      "en": "Does the company have a company-wide conflict minerals due diligence process?",
+      "zh": "公司是否设有全公司范围的冲突矿产尽职调查流程？"
+    },
+    "P-11375b3288994155": {
+      "en": "Does the company track the amounts of packaging material used?",
+      "zh": "公司是否追踪所用包装材料的数量？"
+    },
+    "P-015c0c4a7cb16761": {
+      "en": "Does the company have programs to ensure the sustainability of raw materials?",
+      "zh": "公司是否有计划确保原材料的可持续性？"
+    },
+    "P-d7734eb2352d02ed": {
+      "en": "Does the company track the plastic raw materials contained in its products that are designed or manufactured by the company?",
+      "zh": "公司是否跟踪其设计或制造的产品中所含塑料原材料？"
+    },
+    "P-1f7260a6bcc145dc": {
+      "en": "Does the company have a group-wide commitment to monitor and reduce its food loss and waste volumes and is it available publicly?",
+      "zh": "公司是否制定全集团承诺，以监测并减少食物损失和浪费量，并可公开查阅？"
+    },
+    "P-cdecdc05b00ab564": {
+      "en": "Does the company track the total recordable injury frequency rate (TRIFR) for its contractors?",
+      "zh": "公司是否跟踪承包商的总可记录伤害频率（TRIFR）？"
+    },
+    "P-e60fa259ac743317": {
+      "en": "Does the company publicly report on the total recordable injury frequency rate (TRIFR) for its employees?",
+      "zh": "公司是否公开报告其员工的总可记录伤害频率（TRIFR）？"
+    },
+    "P-14955f3f7504a0bd": {
+      "en": "Does the company track indicators related to its takeback of waste from electrical and/or electronic equipment (WEEE or e-waste)?",
+      "zh": "公司是否追踪与其回收电气和/或电子设备废弃物（WEEE或电子废弃物）相关的指标？"
+    },
+    "P-b97ee64df318a1ec": {
+      "en": "Does the company track its direct dust emissions?",
+      "zh": "公司是否追踪其直接粉尘排放？"
+    },
+    "P-4c86489346e30085": {
+      "en": "Does the company collaborate with critical tier 1 suppliers located in water-stressed areas to minimize water risks?",
+      "zh": "公司是否与位于水资源紧张地区的关键一级供应商合作，以尽量减少水风险？"
+    },
+    "P-a636f802dcaa5a0c": {
+      "en": "Does the company track its mineral waste generated, disaggregated by waste rock and tailings, and recycled/reused?",
+      "zh": "公司是否追踪其产生的矿物废弃物，并按废石和尾矿分类，同时追踪其回收利用/再使用情况？"
+    },
+    "P-e4319d496551e31c": {
+      "en": "Does the company track its direct perfluorocarbons (PFC) emissions?",
+      "zh": "公司是否追踪其直接全氟化碳（PFC）排放？"
+    },
+    "P-e39febcdaba9f947": {
+      "en": "Does the company have publicly available policies or procedures in place to ensure the effective establishment and implementation of a company culture opposing money-laundering and terrorism financing?",
+      "zh": "公司是否制定了可公开获取的政策或程序，以确保有效建立和实施反对洗钱和恐怖主义融资的公司文化？"
+    },
+    "P-ac4a9cb7113e90e8": {
+      "en": "Does the company track its exposure to agricultural crops including the amount used and whether it received certification from one or more independent third parties?",
+      "zh": "公司是否追踪其农作物相关业务敞口，包括使用量，以及相关农作物是否获得一个或多个独立第三方的认证？"
+    },
+    "P-35deac90fa4088b6": {
+      "en": "Does the company track its average Power Usage Effectiveness (PUE) across its data centers and indicate what percentage of its ICT population is covered by the average PUE?",
+      "zh": "公司是否追踪其各数据中心的平均电能使用效率（PUE），并说明该平均PUE覆盖其ICT总体的比例？"
+    },
+    "P-2769d9f89abbe88b": {
+      "en": "Does the company track its Scope 3 financed absolute emissions?",
+      "zh": "公司是否追踪其范围3融资绝对排放量？"
+    },
+    "P-a7d9d70693c198a1": {
+      "en": "Does the company offer tailored products or services aimed at the financial inclusion of underserved groups?",
+      "zh": "公司是否提供旨在促进服务不足群体金融普惠的定制产品或服务？"
+    },
+    "P-438f4cf2f168b5e8": {
+      "en": "Please provide the following information for the organization.",
+      "zh": "请提供本组织以下信息。"
+    },
+    "P-b257f5d8fd563d52": {
+      "en": "Does the company have programs on health & nutrition?",
+      "zh": "公司是否有健康与营养计划？"
+    },
+    "P-87351c5e15e1054c": {
+      "en": "Does the company have a program in place to help customers address environmental issues?",
+      "zh": "公司是否建立了帮助客户应对环境问题的计划？"
+    },
+    "P-061956b0c53aa233": {
+      "en": "Does the company have programs to improve affordability and/or access to clean energy and/or water?",
+      "zh": "公司是否有计划提高清洁能源和/或水的可负担性和/或可及性？"
+    },
+    "P-eaa5520ee445f40b": {
+      "en": "Does the company track its exposure to animal products including the amount used and whether it received certification from one or more independent third parties?",
+      "zh": "公司是否追踪其动物产品相关业务敞口，包括使用量，以及相关动物产品是否获得一个或多个独立第三方的认证？"
+    },
+    "P-133183456082e6b8": {
+      "en": "Does the company have measures to improve fuel efficiency?",
+      "zh": "公司是否采取措施提高燃油效率？"
+    },
+    "P-bc76348a55b5f536": {
+      "en": "Does the company track the greenhouse gas (GHG) intensity of its entire owned, leased, and subcontracted fleets?",
+      "zh": "公司是否跟踪其全部自有、租赁和分包车队的温室气体（GHG）强度？"
+    },
+    "P-2d114277088bc472": {
+      "en": "Does the company have a safety management system?",
+      "zh": "公司是否有安全管理体系？"
+    },
+    "P-3a488b3c5d248ef2": {
+      "en": "Does the company publicly report on the number of vehicles recalled, the percentage that were mandated (involuntary), and the combined financial implications caused by these recalls?",
+      "zh": "公司是否公开报告召回车辆数量、强制（非自愿）召回所占比例，以及这些召回造成的合计财务影响？"
+    },
+    "P-32f842e45f62b570": {
+      "en": "Does the company publicly report on the components of its Basel III leverage ratio (fully phased-in Basel III framework) and whether it is considered a Global Systemically Important Bank (G-SIB)?",
+      "zh": "公司是否公开报告巴塞尔 III 杠杆率的构成项目（完全实施的巴塞尔 III 框架），以及其是否被认定为全球系统重要性银行（G-SIB）？"
+    },
+    "P-d6cf3c8e09fb6f27": {
+      "en": "Does the company have a policy on how it integrates sustainability into its investment banking advisory activities and is it available publicly?",
+      "zh": "公司是否制定政策，说明其如何将可持续性纳入投资银行咨询活动，并可公开查阅？"
+    },
+    "P-5d699bfa2f46c925": {
+      "en": "Does the company have programs to improve the accessibility of healthcare products and drugs?",
+      "zh": "公司是否有计划改善医疗保健产品和药品的可及性？"
+    },
+    "P-2613ee50e383b6b5": {
+      "en": "Does the company track and disclose the total number of patients, and number of patients with low-cost access to the organization's products or services?",
+      "zh": "公司是否追踪并披露患者总人数，以及能够以低价获得本组织产品或服务的患者人数？"
+    },
+    "P-9d0c266531d2f3c5": {
+      "en": "Does the company track its percentage change in pricing for \"weighted average list price and weighted average net price\" or \"list price and net price\"?",
+      "zh": "公司是否追踪“加权平均标价和加权平均净价”或“标价和净价”的价格变动百分比？"
+    },
+    "P-f939d73ac4c2caad": {
+      "en": "Does the company track the average thermal efficiency of its power plants?",
+      "zh": "公司是否追踪其电厂的平均热效率？"
+    },
+    "P-a84e1ebafdac5a6e": {
+      "en": "Does the company track the average availability factor of its coal and gas plants (considering average weighted by generation capacity of each plant and also considering forced and planned/scheduled outages) for the most recent financial year?",
+      "zh": "公司是否追踪最近一个财年其燃煤和燃气电厂的平均可用率（按各电厂发电容量加权计算，同时考虑非计划停运和计划/预定停运）？"
+    },
+    "P-6995315517d339ff": {
+      "en": "Does the company publicly report on its sustainable investing products and/or services in the last financial year?",
+      "zh": "公司是否公开报告上一财年的可持续投资产品和/或服务？"
+    },
+    "P-dc03647e9b68bd8a": {
+      "en": "Does the company currently underwrite the below mentioned unconventional oil & gas fuels? If so, does it have a publicly available policy in place to restrict and/or exclude unconventional oil & gas re/insurance underwriting?",
+      "zh": "公司目前是否承保下述非常规油气燃料？如果是，公司是否已制定公开政策，以限制和/或排除非常规油气再保险/保险承保？"
+    },
+    "P-ba316e4f11d34b91": {
+      "en": "Does the company partner with other companies, governmental bodies, start-ups, NGOs, etc. to improve access to healthcare?",
+      "zh": "公司是否与其他公司、政府机构、初创企业、非政府组织（NGO）等合作，以改善医疗保健服务的可及性？"
+    },
+    "P-985cd29b2e6517ac": {
+      "en": "Does the company track the percentage of energy generated from on-site renewable sources in its new construction and major renovation projects?",
+      "zh": "公司是否跟踪新建和重大翻新项目中现场可再生能源发电量占比？"
+    },
+    "P-ddcfe87a8aeb59a4": {
+      "en": "Does the company track the types of water efficiency or conservation measures implemented in its real estate portfolio, as well as the coverage and effects of these programs?",
+      "zh": "公司是否跟踪其房地产资产组合中实施的用水效率或节水措施类型，以及这些计划的覆盖范围和效果？"
+    },
+    "P-688deca9a185fd1f": {
+      "en": "Does the company have measures to foster tenant health and wellbeing?",
+      "zh": "公司是否采取措施，促进租户健康与福祉？"
+    },
+    "P-bb4d42fb1e84c501": {
+      "en": "Does the company track the plant and animal-derived materials contained in its products that are designed or manufactured by the company?",
+      "zh": "公司是否跟踪其设计或制造的产品中所含植物和动物来源材料？"
+    },
+    "P-55800f99a8893df4": {
+      "en": "Does the company track its specific NOx emissions for passenger transport?",
+      "zh": "公司是否追踪其客运的单位 NOx 排放量？"
+    },
+    "P-9b8a7a8e87c11895": {
+      "en": "Does the company track its harmonized accident rate per million sectors?",
+      "zh": "公司是否跟踪其每百万航段的统一口径事故率？"
+    },
+    "P-650c2726e6eaaf30": {
+      "en": "Does the company have a policy establishing the company’s position on prohibiting the production of weapons, components of weapons, or services to the defense industry considered under any of the below-mentioned international treaties and coalitions, and is it available publicly?",
+      "zh": "公司是否制定政策，明确其对禁止生产武器、武器部件或向国防行业提供服务的立场（适用以下国际条约或联盟），并可公开查阅？"
+    },
+    "P-646117d154ba979d": {
+      "en": "Does the company track the average vehicle or carbon efficiency of the vehicles sold under its brands in the EU, the US and China?",
+      "zh": "公司是否跟踪其品牌在欧盟、美国和中国销售车辆的平均车辆能效或碳效率？"
+    },
+    "P-6dff248007ec57e7": {
+      "en": "Does the company track the percentage of its raw materials that come from renewable sources?",
+      "zh": "公司是否跟踪其原材料中来自可再生来源的比例？"
+    },
+    "P-f2a23dcc381bea2f": {
+      "en": "Does the company track the percentage of its total fuels and raw materials that consist of recycled or waste-by-product materials?",
+      "zh": "公司是否跟踪其燃料和原材料总量中由回收材料或废弃副产品材料构成的比例？"
+    },
+    "P-3c71a522b342a971": {
+      "en": "Does the company track the raw materials contained in its packaging products that are processed, refined, assembled, transported and distributed by the company.",
+      "zh": "公司是否跟踪其加工、精炼、组装、运输和分销的包装产品中所含原材料？"
+    },
+    "P-a8d8dccfd5870458": {
+      "en": "Does the company offer ESG/sustainability data, ratings, analytics, or research products?",
+      "zh": "公司是否提供 ESG/可持续发展数据、评级、分析或研究产品？"
+    },
+    "P-6c8f5b6a1ee89266": {
+      "en": "Does the company track the share of food and beverage revenues from products marketed as organic or containing a significant share (over 50%) of organically produced content?",
+      "zh": "公司是否跟踪被宣传为有机或含有较高比例（超过 50%）有机生产成分的产品所产生的食品和饮料收入占比？"
+    },
+    "P-f958277f8743ff26": {
+      "en": "Does the company track its produced wood in owned or leased forests for the last financial year?",
+      "zh": "公司是否追踪上一财政年度在自有或租赁森林中生产的木材？"
+    },
+    "P-8e3994607aee4169": {
+      "en": "Does the company have a policy on content moderation and is it available publicly?",
+      "zh": "公司是否制定内容审核政策，并可公开查阅？"
+    },
+    "P-4f089efc50666dc5": {
+      "en": "Does the company report any contributions to or expenditures to political campaigns or organizations, lobbying, trade associations, tax-exempt entities, or other groups whose role is to influence political campaigns or public policy and LEGislation?",
+      "zh": "公司是否报告向政治竞选活动或组织、游说、行业协会、免税实体或其他旨在影响政治竞选活动、公共政策和立法的团体提供的任何捐款或支出？"
+    },
+    "P-628752f3f880ae6f": {
+      "en": "Does the company track its renewable generation mix and targets for installed capacity for the last financial year?",
+      "zh": "公司是否追踪上一财政年度的可再生能源发电结构及装机容量目标？"
+    },
+    "P-cfe2b4e866b3008f": {
+      "en": "Does the company have programs on energy efficiency for real estate portfolio?",
+      "zh": "公司是否有提高其房地产资产组合能源效率的计划？"
+    },
+    "P-dabe9d581e465822": {
+      "en": "Does the company publicly report on its revenues derived from the sale of tobacco alternatives & reduced-risk products?",
+      "zh": "公司是否公开报告其来自烟草替代品和减害产品的收入？"
+    },
+    "P-b3b4ea622c5c5739": {
+      "en": "Does the company publicly report on the percentage of electric rail fleet compared with its owned, leased and subcontracted rail fleet?",
+      "zh": "公司是否公开报告其自有、租赁和分包铁路机队中电气化车辆所占比例？"
+    },
+    "P-52438592931ee75b": {
+      "en": "Does the company track its share of renewable energy in data centers?",
+      "zh": "公司是否跟踪其数据中心所用能源中来自可再生能源的占比？"
+    },
+    "P-ec7b94decccf5c9e": {
+      "en": "Does the company report the three most important material issues (economic, environmental, or social) that have the greatest impact on its business and how these issues impact the business and serve as significant determinants of long-term value creation?",
+      "zh": "公司是否报告三项最重要、对其业务影响最大的重大议题（经济、环境或社会方面），并说明这些议题如何影响业务，以及如何成为创造长期价值的重要决定因素？"
+    },
+    "P-21f86e82cb1a6864": {
+      "en": "Does the company have an existing plan to adapt to physical climate risks?",
+      "zh": "公司是否已制定适应气候物理风险的计划？"
+    },
+    "P-07c102dd6b1cc7c5": {
+      "en": "Does the company track the sales-weighted average energy economy of the its Battery Electric Vehicles (BEV) and Fuel Cell Electric Vehicle (FCEV) of the fleet under its brands?",
+      "zh": "公司是否跟踪其品牌车队中电池电动汽车（BEV）和燃料电池电动汽车（FCEV）的销售加权平均能源经济性指标？"
+    },
+    "P-40fa0361ebbf13cf": {
+      "en": "Does the company track the percentage of total products and impacts covered by the following life cycle assessment?",
+      "zh": "公司是否跟踪以下生命周期评估覆盖的产品占全部产品的比例，以及其涵盖的影响？"
+    },
+    "P-21d5dbee883d6e08": {
+      "en": "Does the company have programs for managing its end-of-life product waste from electrical and electronic equipment (WEEE or e-waste)?",
+      "zh": "公司是否有计划管理电气和电子设备报废后产生的废弃物（WEEE 或电子废弃物）？"
+    },
+    "P-92f1c7b73eb90b9d": {
+      "en": "Does the company track its annual total monetary contributions to and spending for political campaigns, political organizations, lobbyists or lobbying organizations, trade associations, and other tax-exempt groups?",
+      "zh": "公司是否跟踪每年向政治竞选活动、政治组织、游说人员或游说组织、行业协会及其他免税团体提供的货币捐助总额，以及用于上述对象的支出总额？"
+    },
+    "P-65603e274269164b": {
+      "en": "Does the company track its specific fuel consumption for passenger transport?",
+      "zh": "公司是否跟踪客运每百人公里燃料消耗量？"
+    },
+    "P-f2a3f7b430c271bf": {
+      "en": "Does the company track its specific fuel consumption for cargo transport?",
+      "zh": "公司是否跟踪货运每吨公里燃料消耗量？"
+    },
+    "P-b7e85ee360dcc6ef": {
+      "en": "Does the company track information related to its community consultation activities?",
+      "zh": "公司是否跟踪与社区协商活动相关的信息？"
+    },
+    "P-76a47a9139391193": {
+      "en": "Does the company track the weight of post-consumer items collected and reintegrated into the value chain, and the total weight of items produces and sold for the last financial year?",
+      "zh": "公司是否跟踪收集并重新纳入价值链的消费后产品重量，以及上一财年生产并销售的产品总重量？"
+    },
+    "P-34efdae221e8e3a9": {
+      "en": "Does the company have programs to address its exposure and engagement with legitimate local artisanal small-scale miners?",
+      "zh": "公司是否有计划应对其与当地合法手工和小规模采矿者相关的风险敞口，并与这些采矿者开展互动？"
+    }
+  },
+  "overrides": {
+    "ALU-041": {
+      "status": "exclude"
+    },
+    "BVG-054": {
+      "status": "exclude"
+    },
+    "COS-041": {
+      "status": "exclude"
+    },
+    "IMS-049": {
+      "status": "recover",
+      "entry": "P-52438592931ee75b",
+      "sourceField": "rationale"
+    },
+    "LEG-104": {
+      "status": "recover",
+      "entry": "P-9f7edeeca09891bc",
+      "sourceField": "pdf",
+      "sourceFile": "CSA_Methodology_Handbook_LEG.pdf",
+      "sourcePage": 255,
+      "sourceText": "Question Layout\nDoes the company have a policy on Occupational Health & Safety (OHS) and is it available publicly?\no Yes, the company has a policy on OHS. Please indicate where this information is available in public reporting or corporate website.\nPolicy aspects\nThe policy covers the following aspects:\n□ Applicability to the company’s entire operations/employees and contractors or individuals under the company’s supervision.\n□ Compliance with relevant OHS international standards and regulations, voluntary programs and/or collective agreements on OHS.\n□ Consultation with and participation of workers, and, where they exist, workers’ representatives.\n□ A commitment to continually improve the performance of the OHS management system.\n□ Setting up action plans or prioritization of OHS related actions.\n□ Establishment of targets for improving OHS performance metrics.\nPolicy endorsement\n□ Please select the highest endorsing decision-making body:\no Board of directors\no Executive management\nData Requirements\nThis question assesses policies and commitments, therefore the Disclosure Requirements\ninformation provided must be in the context of the company’s OHS\nThis question requires supporting evidence from the public domain.\npolicies and commitments, not on actual OHS measures.\nThe information provided must be included in your public reporting\n1. Commitment to establish targets for improving OHS performance\n(e.g., annual report, sustainability report, integrated report, company\nmetrics\npublications) or corporate website.\n• Actual OHS targets/metrics themselves are not acceptable\n2. Endorsement by the top management\nReferences\n• Whoever signs the policy and in which capacity needs to be ISO 45001\nILO Occupational Safety and Health Convention, 1981 (No. 155)\nclear. If the CEO signs the policy, then it will be considered as\nendorsement by \"Executive management\" unless it is clearly Standards & Frameworks\nspecified that they signed the policy as a BOD representative.\nSFDR - A - Severe Human Rights Incidents, A - Workplace Accident\nPlease note: If you have 25 or fewer full-time equivalents in your\nPrevention\norganization, please mark \"The question is not applicable to the UNGC - G1, G2, G3, G3.1, HR/L2, HR/L2.1, HR/L3\ncompany\".\nOHS Programs\nPublic: this question requires publicly available information\n255 / 280",
+      "pdfSha256": "8369082cdef8cd26dd1e796a6fd3ff13f290646aaf75a8b66eb081fb8d58dba4"
+    },
+    "SOF-049": {
+      "status": "recover",
+      "entry": "P-52438592931ee75b",
+      "sourceField": "rationale"
+    },
+    "TLS-054": {
+      "status": "recover",
+      "entry": "P-52438592931ee75b",
+      "sourceField": "rationale"
+    },
+    "TSV-049": {
+      "status": "recover",
+      "entry": "P-52438592931ee75b",
+      "sourceField": "rationale"
+    },
+    "FDR-062": {
+      "status": "exclude",
+      "reason": "本记录 enabled=false，title=Water 指向栏目/criterion 标题；同页相邻的启用题 FDR-063 才是 “Water Efficiency Management Programs”。layout 和 rationale 与该启用题重复，避免工作台将同一问题显示两次；保留原始禁用状态与记录。",
+      "retainedQuestionId": "FDR-063"
+    },
+    "FOA-063": {
+      "status": "exclude",
+      "reason": "本记录 enabled=false，title=Water 指向栏目/criterion 标题；同页相邻的启用题 FOA-064 才是 “Water Efficiency Management Programs”。layout 和 rationale 与该启用题重复，避免工作台将同一问题显示两次；保留原始禁用状态与记录。",
+      "retainedQuestionId": "FOA-064"
+    },
+    "LEG-105": {
+      "status": "source-correction",
+      "entry": "P-c9ff707d58903e78",
+      "sourceField": "pdf",
+      "sourceFile": "CSA_Methodology_Handbook_LEG.pdf",
+      "sourcePage": 256,
+      "sourceText": "Assessment Focus\nChange from Last Year\nNo changes from 2025\nApplicable Industries\nQuestion Rationale\nAll Poor occupational health and safety (OHS) performance directly\naffects labor costs through lower productivity. Lower performance\nnot only poses a threat to a company’s reputation and staff morale it\nresults in increased operating costs in the form of fines and other\ncontingent liabilities. This question, aims to find out how a company\nensures effective management of health risks/issues and to identify\ncompanies that have dedicated OHS programs.\nThe OHS programs should cover a set of actions that ensure a robust,\ncredible and reliable OHS management system, which aims to provide\ntools to assess and improve performance in the prevention of\nworkplace incidents and accidents via the effective management of\nhazards and risks.\nQuestion Layout\nDoes the company have programs on Occupational Health & Safety (OHS)?\no Yes, the company has an OHS programs. Please indicate where this information is available in public reporting or corporate website.\n□ OHS risk and hazard assessments to identify what could cause harm in the workplace.\n□ Prioritization and integration of action plans with quantified targets to address those risks.\n□ Integration of actions to prepare for and respond to emergency situations.\n□ Evaluation of progress in reducing/preventing health issues/risks against targets.\n□ Procedures to investigate work-related injuries, ill health, diseases and incidents.\n□ OHS criteria introduced in procurement and contractual requirements.\n□ OHS training provided to employees and/or other relevant parties to raise awareness and reduce operational health & safety incidents.\n□ Internal inspections.\n□ Independent external verification of health, safety and well-being: please provide the names and standards used (such as ISO 45001):\nDisclosure Requirements\nData Requirements\nThis question requires supporting evidence from the public domain.\nThis question assesses management programs, therefore the\nThe information provided has must be included in your public\ninformation provided must be in the context of the company’s\nreporting (e.g., annual report, sustainability report, integrated report,\nmanagement measures and programs. Policy-related information is\ncompany publications) or corporate website.\nnot acceptable in this question.\nPlease note: If you have 25 or fewer full-time equivalents in your References\norganization, please mark \"The question is not applicable to the ISO 45001\nILO Occupational Safety and Health Convention, 1981 (No. 155)\ncompany\".\nStandards & Frameworks\nUNGC - G7, HR/L4, HR/L4.1\n256 / 280",
+      "pdfSha256": "8369082cdef8cd26dd1e796a6fd3ff13f290646aaf75a8b66eb081fb8d58dba4"
+    }
+  }
+}

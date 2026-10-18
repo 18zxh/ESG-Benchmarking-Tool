@@ -1,0 +1,2134 @@
+{
+  "version": "2024-05-01.20261015-v1",
+  "sourceMode": "ruleset",
+  "resolution": "topicComparison的sh/sz/bj为规则集引用，运行时按topicId读取各规则集的name/clause/requirement；baseline仅为编制时核对快照，不作为显示数据源。",
+  "topicComparison": [
+    {
+      "topicId": "climate",
+      "topicName": "应对气候变化",
+      "sourceMode": "ruleset",
+      "sh": "data/ruleset/sh.json#climate",
+      "sz": "data/ruleset/sz.json#climate",
+      "bj": "data/ruleset/bj.json#climate",
+      "baseline": {
+        "sh": {
+          "name": "应对气候变化",
+          "clause": "第二十一条至第二十八条",
+          "requirement": "按第二章及本节披露气候相关治理、战略、影响风险和机遇管理、指标与目标；披露气候适应性评估、转型计划及措施和进展，核算并披露温室气体排放总量及范围1、范围2排放量（换算为二氧化碳当量公吨数），披露核算标准、方法、假设或工具、合并方法及变化影响、减排目标措施和成效、按范围分类的直接减排量；涉及碳信用、碳交易及减排机制登记交易的按原文披露。鼓励有条件披露范围3、情景分析和第三方核查，鼓励分类披露排放。披露低碳新技术、新产品、新服务及研发进展时，须客观审慎说明产品或服务、研发投入及进度、已取得的审批或认证、已具备的规模化生产能力、已取得的订单，鼓励说明财务影响及不确定性和风险。"
+        },
+        "sz": {
+          "name": "应对气候变化",
+          "clause": "第二十一条至第二十八条",
+          "requirement": "按第二章及本节披露气候相关治理、战略、影响风险和机遇管理、指标与目标；披露气候适应性评估、转型计划及措施和进展，核算并披露温室气体排放总量及范围1、范围2排放量（换算为二氧化碳当量公吨数），披露核算标准、方法、假设或工具、合并方法及变化影响、减排目标措施和成效、按范围分类的直接减排量；涉及碳信用、碳交易及减排机制登记交易的按原文披露。鼓励有条件披露范围3、情景分析和第三方核查，鼓励分类披露排放。披露低碳新技术、新产品、新服务及研发进展时，须客观审慎说明产品或服务、研发投入及进度、已取得的审批或认证、已具备的规模化生产能力、已取得的订单，鼓励说明财务影响及不确定性和风险。"
+        },
+        "bj": {
+          "name": "应对气候变化",
+          "clause": "第二十一条至第二十八条",
+          "requirement": "按第二章及本节披露气候相关治理、战略、影响风险和机遇管理、指标与目标；披露气候适应性评估、转型计划及措施和进展，核算并披露温室气体排放总量及范围1、范围2排放量（换算为二氧化碳当量公吨数），披露核算标准、方法、假设或工具、合并方法及变化影响、减排目标措施和成效、按范围分类的直接减排量；涉及碳信用、碳交易及减排机制登记交易的按原文披露。鼓励有条件披露范围3、情景分析和第三方核查，鼓励分类披露排放。披露低碳新技术、新产品、新服务及研发进展时，须客观审慎说明产品或服务、研发投入及进度、是否取得必要的审批或认证、是否已具备规模化生产能力、已取得的订单，鼓励说明财务影响及不确定性和风险。"
+        }
+      }
+    },
+    {
+      "topicId": "pollutants",
+      "topicName": "污染物排放",
+      "sourceMode": "ruleset",
+      "sh": "data/ruleset/sh.json#pollutants",
+      "sz": "data/ruleset/sz.json#pollutants",
+      "bj": "data/ruleset/bj.json#pollutants",
+      "baseline": {
+        "sh": {
+          "name": "污染物排放",
+          "clause": "第三十条",
+          "requirement": "披露主体或其重要控股子公司被列入环境信息依法披露企业名单的，披露主要及特征污染物和受控物质的种类、名称、排放总量、核定总量、超标情况和环保绩效等级（如有），处理技术、方式及设施运行成效，减排目标和措施，对员工和社区等群体的影响，以及重大行政处罚或刑事责任和环境监测、风险管理措施的重大缺陷。鼓励分类披露排放，鼓励其他披露主体参照披露。"
+        },
+        "sz": {
+          "name": "污染物排放",
+          "clause": "第三十条",
+          "requirement": "披露主体或其重要控股子公司被列入环境信息依法披露企业名单的，披露主要及特征污染物和受控物质的种类、名称、排放总量、核定总量、超标情况和环保绩效等级（如有），处理技术、方式及设施运行成效，减排目标和措施，对员工和社区等群体的影响，以及重大行政处罚或刑事责任和环境监测、风险管理措施的重大缺陷。鼓励分类披露排放，鼓励其他披露主体参照披露。"
+        },
+        "bj": {
+          "name": "污染物排放",
+          "clause": "第三十条",
+          "requirement": "披露主体或其重要控股子公司被列入环境信息依法披露企业名单的，披露主要及特征污染物和受控物质的种类、名称、排放总量、核定总量、超标情况和环保绩效等级（如有），处理技术、方式及设施运行成效，减排目标和措施，对员工和社区等群体的影响，以及重大行政处罚或刑事责任和环境监测、风险管理措施的重大缺陷。鼓励分类披露排放，鼓励其他披露主体参照披露。"
+        }
+      }
+    },
+    {
+      "topicId": "waste",
+      "topicName": "废弃物处理",
+      "sourceMode": "ruleset",
+      "sh": "data/ruleset/sh.json#waste",
+      "sz": "data/ruleset/sz.json#waste",
+      "bj": "data/ruleset/bj.json#waste",
+      "baseline": {
+        "sh": {
+          "name": "废弃物处理",
+          "clause": "第三十一条",
+          "requirement": "生产经营产生的废弃物对环境有重大影响的，披露报告期内有害、无害废弃物各自总量（吨）和密度、处理方法和处置情况，以及废弃物减排目标和具体措施。"
+        },
+        "sz": {
+          "name": "废弃物处理",
+          "clause": "第三十一条",
+          "requirement": "生产经营产生的废弃物对环境有重大影响的，披露报告期内有害、无害废弃物各自总量（吨）和密度、处理方法和处置情况，以及废弃物减排目标和具体措施。"
+        },
+        "bj": {
+          "name": "废弃物处理",
+          "clause": "第三十一条",
+          "requirement": "生产经营产生的废弃物对环境有重大影响的，披露报告期内有害、无害废弃物各自总量（吨）和密度、处理方法和处置情况，以及废弃物减排目标和具体措施。"
+        }
+      }
+    },
+    {
+      "topicId": "biodiversity",
+      "topicName": "生态系统和生物多样性保护",
+      "sourceMode": "ruleset",
+      "sh": "data/ruleset/sh.json#biodiversity",
+      "sz": "data/ruleset/sz.json#biodiversity",
+      "bj": "data/ruleset/bj.json#biodiversity",
+      "baseline": {
+        "sh": {
+          "name": "生态系统和生物多样性保护",
+          "clause": "第三十二条",
+          "requirement": "生产经营对生态系统和生物多样性有重大影响的，披露生态保护红线内退出生产经营及相关设施情况，在经营场所周边及重要或敏感脆弱区域保护恢复、野生动植物和栖息地保护、生物遗传资源保护与可持续利用及获取惠益分享、监测预警和风险管理的措施成效，以及降低产品全生命周期对生态系统、生物物种、栖息地和生物遗传资源影响与依赖的行动成效。"
+        },
+        "sz": {
+          "name": "生态系统和生物多样性保护",
+          "clause": "第三十二条",
+          "requirement": "生产经营对生态系统和生物多样性有重大影响的，披露生态保护红线内退出生产经营及相关设施情况，在经营场所周边及重要或敏感脆弱区域保护恢复、野生动植物和栖息地保护、生物遗传资源保护与可持续利用及获取惠益分享、监测预警和风险管理的措施成效，以及降低产品全生命周期对生态系统、生物物种、栖息地和生物遗传资源影响与依赖的行动成效。"
+        },
+        "bj": {
+          "name": "生态系统和生物多样性保护",
+          "clause": "第三十二条",
+          "requirement": "生产经营对生态系统和生物多样性有重大影响的，披露生态保护红线内退出生产经营及相关设施情况，在经营场所周边及重要或敏感脆弱区域保护恢复、野生动植物和栖息地保护、生物遗传资源保护与可持续利用及获取惠益分享、监测预警和风险管理的措施成效，以及降低产品全生命周期对生态系统、生物物种、栖息地和生物遗传资源影响与依赖的行动成效。"
+        }
+      }
+    },
+    {
+      "topicId": "environment_compliance",
+      "topicName": "环境合规管理",
+      "sourceMode": "ruleset",
+      "sh": "data/ruleset/sh.json#environment_compliance",
+      "sz": "data/ruleset/sz.json#environment_compliance",
+      "bj": "data/ruleset/bj.json#environment_compliance",
+      "baseline": {
+        "sh": {
+          "name": "环境合规管理",
+          "clause": "第三十三条",
+          "requirement": "结合报告期实际情况披露环境事件风险评估、预防管理措施和应急预案总体情况；发生突发重大环境事件的，披露时间地点、持续时间、等级、处理结果、对公司和社会公众的影响及整改；披露因环境事件受到重大行政处罚或被追究刑事责任的违规情形、原因、金额、生产经营影响和整改措施。"
+        },
+        "sz": {
+          "name": "环境合规管理",
+          "clause": "第三十三条",
+          "requirement": "结合报告期实际情况披露环境事件风险评估、预防管理措施和应急预案总体情况；发生突发重大环境事件的，披露时间地点、持续时间、等级、处理结果、对公司和社会公众的影响及整改；披露因环境事件受到重大行政处罚或被追究刑事责任的违规情形、原因、金额、生产经营影响和整改措施。"
+        },
+        "bj": {
+          "name": "环境合规管理",
+          "clause": "第三十三条",
+          "requirement": "结合报告期实际情况披露环境事件风险评估、预防管理措施和应急预案总体情况；发生突发重大环境事件的，披露时间地点、持续时间、等级、处理结果、对公司和社会公众的影响及整改；披露因环境事件受到重大行政处罚或被追究刑事责任的违规情形、原因、金额、生产经营影响和整改措施。"
+        }
+      }
+    },
+    {
+      "topicId": "energy",
+      "topicName": "能源利用",
+      "sourceMode": "ruleset",
+      "sh": "data/ruleset/sh.json#energy",
+      "sz": "data/ruleset/sz.json#energy",
+      "bj": "data/ruleset/bj.json#energy",
+      "baseline": {
+        "sh": {
+          "name": "能源利用",
+          "clause": "第三十五条",
+          "requirement": "披露报告期内按类型划分的直接、间接能源总能耗量（吨标准煤）、结构和能耗强度；清洁能源种类、总量和比例；能源节约目标、具体措施及能源使用困难（如有）。"
+        },
+        "sz": {
+          "name": "能源利用",
+          "clause": "第三十五条",
+          "requirement": "披露报告期内按类型划分的直接、间接能源总能耗量（吨标准煤）、结构和能耗强度；清洁能源种类、总量和比例；能源节约目标、具体措施及能源使用困难（如有）。"
+        },
+        "bj": {
+          "name": "能源利用",
+          "clause": "第三十五条",
+          "requirement": "披露报告期内按类型划分的直接、间接能源总能耗量（吨标准煤）、结构和能耗强度；清洁能源种类、总量和比例；能源节约目标、具体措施及能源使用困难（如有）。"
+        }
+      }
+    },
+    {
+      "topicId": "water",
+      "topicName": "水资源利用",
+      "sourceMode": "ruleset",
+      "sh": "data/ruleset/sh.json#water",
+      "sz": "data/ruleset/sz.json#water",
+      "bj": "data/ruleset/bj.json#water",
+      "baseline": {
+        "sh": {
+          "name": "水资源利用",
+          "clause": "第三十六条",
+          "requirement": "披露报告期内总耗水量（吨）和使用强度、水资源节约目标与具体措施、回收利用情况，以及水资源使用困难（如有）。"
+        },
+        "sz": {
+          "name": "水资源利用",
+          "clause": "第三十六条",
+          "requirement": "披露报告期内总耗水量（吨）和使用强度、水资源节约目标与具体措施、回收利用情况，以及水资源使用困难（如有）。"
+        },
+        "bj": {
+          "name": "水资源利用",
+          "clause": "第三十六条",
+          "requirement": "披露报告期内总耗水量（吨）和使用强度、水资源节约目标与具体措施、回收利用情况，以及水资源使用困难（如有）。"
+        }
+      }
+    },
+    {
+      "topicId": "circular_economy",
+      "topicName": "循环经济",
+      "sourceMode": "ruleset",
+      "sh": "data/ruleset/sh.json#circular_economy",
+      "sz": "data/ruleset/sz.json#circular_economy",
+      "bj": "data/ruleset/bj.json#circular_economy",
+      "baseline": {
+        "sh": {
+          "name": "循环经济",
+          "clause": "第三十七条",
+          "requirement": "披露循环经济目标和计划、节约资源与提高利用率、使用可再生资源、预防减少和回收利用废弃物等具体措施，以及实现目标的进展成效，包括废弃物回收综合利用量、可再生资源消耗量及占相应资源总消耗量比例。"
+        },
+        "sz": {
+          "name": "循环经济",
+          "clause": "第三十七条",
+          "requirement": "披露循环经济目标和计划、节约资源与提高利用率、使用可再生资源、预防减少和回收利用废弃物等具体措施，以及实现目标的进展成效，包括废弃物回收综合利用量、可再生资源消耗量及占相应资源总消耗量比例。"
+        },
+        "bj": {
+          "name": "循环经济",
+          "clause": "第三十七条",
+          "requirement": "披露循环经济目标和计划、节约资源与提高利用率、使用可再生资源、预防减少和回收利用废弃物等具体措施，以及实现目标的进展成效，包括废弃物回收综合利用量、可再生资源消耗量及占相应资源总消耗量比例。"
+        }
+      }
+    },
+    {
+      "topicId": "rural_revitalization",
+      "topicName": "乡村振兴",
+      "sourceMode": "ruleset",
+      "sh": "data/ruleset/sh.json#rural_revitalization",
+      "sz": "data/ruleset/sz.json#rural_revitalization",
+      "bj": "data/ruleset/bj.json#rural_revitalization",
+      "baseline": {
+        "sh": {
+          "name": "乡村振兴",
+          "clause": "第三十九条",
+          "requirement": "披露报告期支持乡村振兴的措施和成果，包括结合乡村及脱贫地区业务支持特色产业、当地就业和其他工作，总投入金额、惠及群体范围与数量、对品牌及业务的影响；在乡村和脱贫地区业务占比较高的，说明将乡村振兴及巩固拓展脱贫攻坚成果融入战略的情况。"
+        },
+        "sz": {
+          "name": "乡村振兴",
+          "clause": "第三十九条",
+          "requirement": "披露报告期支持乡村振兴的措施和成果，包括结合乡村及脱贫地区业务支持特色产业、当地就业和其他工作，总投入金额、惠及群体范围与数量、对品牌及业务的影响；在乡村和脱贫地区业务占比较高的，说明将乡村振兴及巩固拓展脱贫攻坚成果融入战略的情况。"
+        },
+        "bj": {
+          "name": "乡村振兴",
+          "clause": "第三十九条",
+          "requirement": "披露报告期支持乡村振兴的措施和成果，包括结合乡村及脱贫地区业务支持特色产业、当地就业和其他工作，总投入金额、惠及群体范围与数量、对品牌及业务的影响；在乡村和脱贫地区业务占比较高的，说明将乡村振兴及巩固拓展脱贫攻坚成果融入战略的情况。"
+        }
+      }
+    },
+    {
+      "topicId": "social_contribution",
+      "topicName": "社会贡献",
+      "sourceMode": "ruleset",
+      "sh": "data/ruleset/sh.json#social_contribution",
+      "sz": "data/ruleset/sz.json#social_contribution",
+      "bj": "data/ruleset/bj.json#social_contribution",
+      "baseline": {
+        "sh": {
+          "name": "社会贡献",
+          "clause": "第四十条",
+          "requirement": "披露报告期对公众及社会作出贡献的情况，包括公益慈善、志愿活动的具体情况，投入资金、人员和时间、取得效果，以及对公司品牌和业务开展的影响。"
+        },
+        "sz": {
+          "name": "社会贡献",
+          "clause": "第四十条",
+          "requirement": "披露报告期对公众及社会作出贡献的情况，包括公益慈善、志愿活动的具体情况，投入资金、人员和时间、取得效果，以及对公司品牌和业务开展的影响。"
+        },
+        "bj": {
+          "name": "社会贡献",
+          "clause": "第四十条",
+          "requirement": "披露报告期对公众及社会作出贡献的情况，包括公益慈善、志愿活动的具体情况，投入资金、人员和时间、取得效果，以及对公司品牌和业务开展的影响。"
+        }
+      }
+    },
+    {
+      "topicId": "innovation",
+      "topicName": "创新驱动",
+      "sourceMode": "ruleset",
+      "sh": "data/ruleset/sh.json#innovation",
+      "sz": "data/ruleset/sz.json#innovation",
+      "bj": "data/ruleset/bj.json#innovation",
+      "baseline": {
+        "sh": {
+          "name": "创新驱动",
+          "clause": "第四十二条",
+          "requirement": "在不涉及国家安全、国家秘密并兼顾商业秘密保护的前提下，鼓励自愿披露科技创新战略和目标、研发创新管理制度及项目、研发投入和主营业务收入占比、研发人员数量和占比、主营业务发明专利数量、研发进展成果及资质奖项、创新成果应用对新质生产力及经济社会环境和利益相关方的影响；披露创新目标涉及投入金额时，应同时说明资金筹措安排和保障措施。"
+        },
+        "sz": {
+          "name": "创新驱动",
+          "clause": "第四十二条",
+          "requirement": "在不涉及国家安全、国家秘密并兼顾商业秘密保护的前提下，鼓励自愿披露科技创新战略和目标、研发创新管理制度及项目、研发投入和主营业务收入占比、研发人员数量和占比、主营业务发明专利数量、研发进展成果及资质奖项、创新成果应用对新质生产力及经济社会环境和利益相关方的影响；披露创新目标涉及投入金额时，应同时说明资金筹措安排和保障措施。"
+        },
+        "bj": {
+          "name": "创新驱动",
+          "clause": "第四十二条",
+          "requirement": "在不涉及国家安全、国家秘密并兼顾商业秘密保护的前提下，鼓励自愿披露科技创新战略和目标、研发创新管理制度及项目、研发投入和主营业务收入占比、研发人员数量和占比、主营业务发明专利数量、研发进展成果及资质奖项、创新成果应用对新质生产力及经济社会环境和利益相关方的影响；披露创新目标涉及投入金额时，应同时说明资金筹措安排和保障措施。"
+        }
+      }
+    },
+    {
+      "topicId": "technology_ethics",
+      "topicName": "科技伦理",
+      "sourceMode": "ruleset",
+      "sh": "data/ruleset/sh.json#technology_ethics",
+      "sz": "data/ruleset/sz.json#technology_ethics",
+      "bj": "data/ruleset/bj.json#technology_ethics",
+      "baseline": {
+        "sh": {
+          "name": "科技伦理",
+          "clause": "第四十三条",
+          "requirement": "从事生命科学、人工智能等科技伦理敏感领域科研或技术开发的，披露科技活动领域与伦理规范、科技伦理内部制度及落实和审查委员会运作（如有）、违反科技伦理行为及处罚、内部调查追责和整改（如有），以及科技伦理内外部培训与科普宣传。"
+        },
+        "sz": {
+          "name": "科技伦理",
+          "clause": "第四十三条",
+          "requirement": "从事生命科学、人工智能等科技伦理敏感领域科研或技术开发的，披露科技活动领域与伦理规范、科技伦理内部制度及落实和审查委员会运作（如有）、违反科技伦理行为及处罚、内部调查追责和整改（如有），以及科技伦理内外部培训与科普宣传。"
+        },
+        "bj": {
+          "name": "科技伦理",
+          "clause": "第四十三条",
+          "requirement": "从事生命科学、人工智能等科技伦理敏感领域科研或技术开发的，披露科技活动领域与伦理规范、科技伦理内部制度及落实和审查委员会运作（如有）、违反科技伦理行为及处罚、内部调查追责和整改（如有），以及科技伦理内外部培训与科普宣传。"
+        }
+      }
+    },
+    {
+      "topicId": "supply_chain",
+      "topicName": "供应链安全",
+      "sourceMode": "ruleset",
+      "sh": "data/ruleset/sh.json#supply_chain",
+      "sz": "data/ruleset/sz.json#supply_chain",
+      "bj": "data/ruleset/bj.json#supply_chain",
+      "baseline": {
+        "sh": {
+          "name": "供应链安全",
+          "clause": "第四十五条",
+          "requirement": "披露报告期供应链风险管理目标和计划、风险应对机制、措施及效果，以及通过并购重组、科技创新等保障供应链安全、强化供应链优势的举措与效果；鼓励披露加强供应链管理、促进供应链可持续发展的行动。"
+        },
+        "sz": {
+          "name": "供应链安全",
+          "clause": "第四十五条",
+          "requirement": "披露报告期供应链风险管理目标和计划、风险应对机制、措施及效果，以及通过并购重组、科技创新等保障供应链安全、强化供应链优势的举措与效果；鼓励披露加强供应链管理、促进供应链可持续发展的行动。"
+        },
+        "bj": {
+          "name": "供应链安全",
+          "clause": "第四十五条",
+          "requirement": "披露报告期供应链风险管理目标和计划、风险应对机制、措施及效果，以及通过并购重组、科技创新等保障供应链安全、强化供应链优势的举措与效果；鼓励披露加强供应链管理、促进供应链可持续发展的行动。"
+        }
+      }
+    },
+    {
+      "topicId": "sme_fair",
+      "topicName": "平等对待中小企业",
+      "sourceMode": "ruleset",
+      "sh": "data/ruleset/sh.json#sme_fair",
+      "sz": "data/ruleset/sz.json#sme_fair",
+      "bj": "data/ruleset/bj.json#sme_fair",
+      "baseline": {
+        "sh": {
+          "name": "平等对待中小企业",
+          "clause": "第四十六条（超过300亿元或占总资产的比重超过50%）",
+          "requirement": "报告期末应付账款（含应付票据）余额超过300亿元或占总资产的比重超过50%的，披露期末逾期未支付款项金额及拟采取的解决方案；公司或控股子公司已通过国家企业信用信息公示系统公示逾期未付中小企业款项的，披露逾期金额、对中小企业供应商的账期设置、形成原因、是否涉及诉讼仲裁及解决方案。鼓励其他披露主体参照披露。"
+        },
+        "sz": {
+          "name": "平等对待中小企业",
+          "clause": "第四十六条（超过300亿元或占总资产的比重超过50%）",
+          "requirement": "报告期末应付账款（含应付票据）余额超过300亿元或占总资产的比重超过50%的，披露期末逾期未支付款项金额及拟采取的解决方案；公司或控股子公司已通过国家企业信用信息公示系统公示逾期未付中小企业款项的，披露逾期金额、对中小企业供应商的账期设置、形成原因、是否涉及诉讼仲裁及解决方案。鼓励其他披露主体参照披露。"
+        },
+        "bj": {
+          "name": "平等对待中小企业",
+          "clause": "第四十六条（占总资产的比重超过50%）",
+          "requirement": "报告期末应付账款（含应付票据）余额占总资产的比重超过50%的，披露期末逾期未支付款项金额及拟采取的解决方案；公司或控股子公司已通过国家企业信用信息公示系统公示逾期未付中小企业款项的，披露逾期金额、对中小企业供应商的账期设置、形成原因、是否涉及诉讼仲裁及解决方案。鼓励其他披露主体参照披露。"
+        }
+      }
+    },
+    {
+      "topicId": "product_quality",
+      "topicName": "产品和服务安全与质量",
+      "sourceMode": "ruleset",
+      "sh": "data/ruleset/sh.json#product_quality",
+      "sz": "data/ruleset/sz.json#product_quality",
+      "bj": "data/ruleset/bj.json#product_quality",
+      "baseline": {
+        "sh": {
+          "name": "产品和服务安全与质量",
+          "clause": "第四十七条",
+          "requirement": "披露产品和服务安全质量管理体系、制度执行及措施，质量管理认证、主要产品服务体系认证，重大安全质量责任事故及性质、影响、损害金额和应对进展（如有），以及售后服务、召回制度和客户投诉受理渠道、流程及处理情况；鼓励金融、医疗、电力、通讯、公用事业等行业披露产品服务可获得性。"
+        },
+        "sz": {
+          "name": "产品和服务安全与质量",
+          "clause": "第四十七条",
+          "requirement": "披露产品和服务安全质量管理体系、制度执行及措施，质量管理认证、主要产品服务体系认证，重大安全质量责任事故及性质、影响、损害金额和应对进展（如有），以及售后服务、召回制度和客户投诉受理渠道、流程及处理情况；鼓励金融、医疗、电力、通讯、公用事业等行业披露产品服务可获得性。"
+        },
+        "bj": {
+          "name": "产品和服务安全与质量",
+          "clause": "第四十七条",
+          "requirement": "披露产品和服务安全质量管理体系、制度执行及措施，质量管理认证、主要产品服务体系认证，重大安全质量责任事故及性质、影响、损害金额和应对进展（如有），以及售后服务、召回制度和客户投诉受理渠道、流程及处理情况；鼓励金融、医疗、电力、通讯、公用事业等行业披露产品服务可获得性。"
+        }
+      }
+    },
+    {
+      "topicId": "data_privacy",
+      "topicName": "数据安全与客户隐私保护",
+      "sourceMode": "ruleset",
+      "sh": "data/ruleset/sh.json#data_privacy",
+      "sz": "data/ruleset/sz.json#data_privacy",
+      "bj": "data/ruleset/bj.json#data_privacy",
+      "baseline": {
+        "sh": {
+          "name": "数据安全与客户隐私保护",
+          "clause": "第四十八条",
+          "requirement": "披露数据安全管理制度体系及运行、具体措施与认证（如有），客户隐私保护制度体系及运行；发生数据安全或客户隐私泄露事件的，披露具体情况、影响、涉及金额及应对措施和进展。"
+        },
+        "sz": {
+          "name": "数据安全与客户隐私保护",
+          "clause": "第四十八条",
+          "requirement": "披露数据安全管理制度体系及运行、具体措施与认证（如有），客户隐私保护制度体系及运行；发生数据安全或客户隐私泄露事件的，披露具体情况、影响、涉及金额及应对措施和进展。"
+        },
+        "bj": {
+          "name": "数据安全与客户隐私保护",
+          "clause": "第四十八条",
+          "requirement": "披露数据安全管理制度体系及运行、具体措施与认证（如有），客户隐私保护制度体系及运行；发生数据安全或客户隐私泄露事件的，披露具体情况、影响、涉及金额及应对措施和进展。"
+        }
+      }
+    },
+    {
+      "topicId": "employees",
+      "topicName": "员工",
+      "sourceMode": "ruleset",
+      "sh": "data/ruleset/sh.json#employees",
+      "sz": "data/ruleset/sz.json#employees",
+      "bj": "data/ruleset/bj.json#employees",
+      "baseline": {
+        "sh": {
+          "name": "员工",
+          "clause": "第五十条",
+          "requirement": "披露员工聘用待遇政策与执行、吸纳就业与灵活就业岗位、期末员工性别年龄构成、工资社保、劳工纠纷和员工变动、灵活就业人员权益及招聘公平合规；披露职业安全风险识别评估、健康安全体系及认证培训、工伤保险和安全生产责任险投入及覆盖率、安全事故（如有）；披露职位体系、晋升选拔与发展机制、培训类型次数和开展情况、年度培训支出及覆盖率。"
+        },
+        "sz": {
+          "name": "员工",
+          "clause": "第五十条",
+          "requirement": "披露员工聘用待遇政策与执行、吸纳就业与灵活就业岗位、期末员工性别年龄构成、工资社保、劳工纠纷和员工变动、灵活就业人员权益及招聘公平合规；披露职业安全风险识别评估、健康安全体系及认证培训、工伤保险和安全生产责任险投入及覆盖率、安全事故（如有）；披露职位体系、晋升选拔与发展机制、培训类型次数和开展情况、年度培训支出及覆盖率。"
+        },
+        "bj": {
+          "name": "员工",
+          "clause": "第五十条",
+          "requirement": "披露员工聘用待遇政策与执行、吸纳就业与灵活就业岗位、期末员工性别年龄构成、工资社保、劳工纠纷和员工变动、灵活就业人员权益及招聘公平合规；披露职业安全风险识别评估、健康安全体系及认证培训、工伤保险和安全生产责任险投入及覆盖率、安全事故（如有）；披露职位体系、晋升选拔与发展机制、培训类型次数和开展情况、年度培训支出及覆盖率。"
+        }
+      }
+    },
+    {
+      "topicId": "due_diligence",
+      "topicName": "尽职调查",
+      "sourceMode": "ruleset",
+      "sh": "data/ruleset/sh.json#due_diligence",
+      "sz": "data/ruleset/sz.json#due_diligence",
+      "bj": "data/ruleset/bj.json#due_diligence",
+      "baseline": {
+        "sh": {
+          "name": "尽职调查",
+          "clause": "第五十二条",
+          "requirement": "鼓励结合实际情况披露报告期识别和应对可持续发展相关负面影响或风险的尽职调查，包括负责机构或人员、调查范围、识别程序，以及应对相关负面影响和风险的具体情况。"
+        },
+        "sz": {
+          "name": "尽职调查",
+          "clause": "第五十二条",
+          "requirement": "鼓励结合实际情况披露报告期识别和应对可持续发展相关负面影响或风险的尽职调查，包括负责机构或人员、调查范围、识别程序，以及应对相关负面影响和风险的具体情况。"
+        },
+        "bj": {
+          "name": "尽职调查",
+          "clause": "第五十二条",
+          "requirement": "鼓励结合实际情况披露报告期识别和应对可持续发展相关负面影响或风险的尽职调查，包括负责机构或人员、调查范围、识别程序，以及应对相关负面影响和风险的具体情况。"
+        }
+      }
+    },
+    {
+      "topicId": "stakeholder_communication",
+      "topicName": "利益相关方沟通",
+      "sourceMode": "ruleset",
+      "sh": "data/ruleset/sh.json#stakeholder_communication",
+      "sz": "data/ruleset/sz.json#stakeholder_communication",
+      "bj": "data/ruleset/bj.json#stakeholder_communication",
+      "baseline": {
+        "sh": {
+          "name": "利益相关方沟通",
+          "clause": "第五十三条",
+          "requirement": "披露报告期与包括投资者在内的利益相关方沟通的具体情况，包括沟通制度建设和执行，听取及反馈意见建议的渠道和执行，以及沟通方式、频率、内容等。"
+        },
+        "sz": {
+          "name": "利益相关方沟通",
+          "clause": "第五十三条",
+          "requirement": "披露报告期与包括投资者在内的利益相关方沟通的具体情况，包括沟通制度建设和执行，听取及反馈意见建议的渠道和执行，以及沟通方式、频率、内容等。"
+        },
+        "bj": {
+          "name": "利益相关方沟通",
+          "clause": "第五十三条",
+          "requirement": "披露报告期与包括投资者在内的利益相关方沟通的具体情况，包括沟通制度建设和执行，听取及反馈意见建议的渠道和执行，以及沟通方式、频率、内容等。"
+        }
+      }
+    },
+    {
+      "topicId": "anti_bribery",
+      "topicName": "反商业贿赂及反贪污",
+      "sourceMode": "ruleset",
+      "sh": "data/ruleset/sh.json#anti_bribery",
+      "sz": "data/ruleset/sz.json#anti_bribery",
+      "bj": "data/ruleset/bj.json#anti_bribery",
+      "baseline": {
+        "sh": {
+          "name": "反商业贿赂及反贪污",
+          "clause": "第五十五条",
+          "requirement": "披露反商业贿赂及反贪污风险管理制度体系及运行、是否建立举报者保护政策、风险评估，以及接受培训的董事、管理层、员工总数和百分比；披露报告期相关事件，包括人员被解雇或开除、处分或调查，合作合同终止或不续约，相关诉讼等（如有）。"
+        },
+        "sz": {
+          "name": "反商业贿赂及反贪污",
+          "clause": "第五十五条",
+          "requirement": "披露反商业贿赂及反贪污风险管理制度体系及运行、是否建立举报者保护政策、风险评估，以及接受培训的董事、管理层、员工总数和百分比；披露报告期相关事件，包括人员被解雇或开除、处分或调查，合作合同终止或不续约，相关诉讼等（如有）。"
+        },
+        "bj": {
+          "name": "反商业贿赂及反贪污",
+          "clause": "第五十五条",
+          "requirement": "披露反商业贿赂及反贪污风险管理制度体系及运行、是否建立举报者保护政策、风险评估，以及接受培训的董事、管理层、员工总数和百分比；披露报告期相关事件，包括人员被解雇或开除、处分或调查，合作合同终止或不续约，相关诉讼等（如有）。"
+        }
+      }
+    },
+    {
+      "topicId": "anti_unfair_competition",
+      "topicName": "反不正当竞争",
+      "sourceMode": "ruleset",
+      "sh": "data/ruleset/sh.json#anti_unfair_competition",
+      "sz": "data/ruleset/sz.json#anti_unfair_competition",
+      "bj": "data/ruleset/bj.json#anti_unfair_competition",
+      "baseline": {
+        "sh": {
+          "name": "反不正当竞争",
+          "clause": "第五十六条",
+          "requirement": "披露防范虚假宣传、垄断、侵犯商业秘密等不正当竞争的管理制度体系、运行及具体措施；报告期因不正当竞争导致诉讼或重大行政处罚的，披露诉讼情况、涉案金额、行政处罚和整改措施。"
+        },
+        "sz": {
+          "name": "反不正当竞争",
+          "clause": "第五十六条",
+          "requirement": "披露防范虚假宣传、垄断、侵犯商业秘密等不正当竞争的管理制度体系、运行及具体措施；报告期因不正当竞争导致诉讼或重大行政处罚的，披露诉讼情况、涉案金额、行政处罚和整改措施。"
+        },
+        "bj": {
+          "name": "反不正当竞争",
+          "clause": "第五十六条",
+          "requirement": "披露防范虚假宣传、垄断、侵犯商业秘密等不正当竞争的管理制度体系、运行及具体措施；报告期因不正当竞争导致诉讼或重大行政处罚的，披露诉讼情况、涉案金额、行政处罚和整改措施。"
+        }
+      }
+    }
+  ],
+  "structuralDiff": [
+    {
+      "dimension": "条文结构",
+      "sh": "6章63条＋附表（议题索引表）",
+      "sz": "6章63条＋附件（议题索引表）及起草说明",
+      "bj": "6章62条；本地原件未包含第59条所述附表",
+      "sources": [
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            26,
+            27
+          ],
+          "sourceLines": [
+            641,
+            650
+          ],
+          "clause": "第六十三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            28
+          ],
+          "sourceLines": [
+            642,
+            652
+          ],
+          "clause": "第六十三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            314,
+            314
+          ],
+          "clause": "第六十二条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        }
+      ]
+    },
+    {
+      "dimension": "适用板块",
+      "sh": "主板、科创板",
+      "sz": "主板、创业板",
+      "bj": "全部上市公司（产品不细分板块）",
+      "sources": [
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            2
+          ],
+          "sourceLines": [
+            25,
+            30
+          ],
+          "clause": "第一条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            2
+          ],
+          "sourceLines": [
+            37,
+            45
+          ],
+          "clause": "第三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            2
+          ],
+          "sourceLines": [
+            27,
+            32
+          ],
+          "clause": "第一条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            2,
+            3
+          ],
+          "sourceLines": [
+            39,
+            46
+          ],
+          "clause": "第三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            14,
+            14
+          ],
+          "clause": "第一条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            18,
+            19
+          ],
+          "clause": "第三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        }
+      ]
+    },
+    {
+      "dimension": "披露属性",
+      "sh": "整个报告期内持续纳入上证180指数、科创50指数的样本公司及境内外同时上市公司应披露；其余鼓励自愿披露；报告中涉及本指引规范内容的，须与相关要求保持一致。",
+      "sz": "整个报告期内持续纳入深证100指数、创业板指数的样本公司及境内外同时上市公司应披露；其余鼓励自愿披露；报告中涉及本指引规范内容的，须与相关要求保持一致。",
+      "bj": "不设强制披露要求，全部自愿；报告中涉及本指引规范内容的，须与相关要求保持一致。",
+      "sources": [
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            2
+          ],
+          "sourceLines": [
+            37,
+            45
+          ],
+          "clause": "第三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            2,
+            3
+          ],
+          "sourceLines": [
+            39,
+            46
+          ],
+          "clause": "第三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            18,
+            19
+          ],
+          "clause": "第三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        }
+      ]
+    },
+    {
+      "dimension": "过渡期时间表",
+      "sh": "应披露主体须在2026-04-30前发布2025年度报告；鼓励提前披露2024年度；有首期缓释",
+      "sz": "应披露主体须在2026-04-30前发布2025年度报告；鼓励提前披露2024年度；有首期缓释",
+      "bj": "无强制首发时间表；有首个报告期缓释",
+      "sources": [
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            26,
+            27
+          ],
+          "sourceLines": [
+            641,
+            650
+          ],
+          "clause": "第六十三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            28
+          ],
+          "sourceLines": [
+            642,
+            652
+          ],
+          "clause": "第六十三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            314,
+            314
+          ],
+          "clause": "第六十二条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        }
+      ]
+    },
+    {
+      "dimension": "社会责任报告衔接",
+      "sh": "第60条：按本指引规定披露或自愿披露可持续发展报告的，无需再披露社会责任报告",
+      "sz": "第60条：按本指引规定披露可持续发展报告的，无需再披露社会责任报告",
+      "bj": "无对应CSR替代衔接条款；第60条为违规监管措施",
+      "sources": [
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            26
+          ],
+          "sourceLines": [
+            632,
+            634
+          ],
+          "clause": "第六十条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            28
+          ],
+          "sourceLines": [
+            634,
+            635
+          ],
+          "clause": "第六十条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            310,
+            310
+          ],
+          "clause": "第六十条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        }
+      ]
+    },
+    {
+      "dimension": "平等对待中小企业门槛",
+      "sh": "期末应付账款（含应付票据）余额超过300亿元，或占总资产的比重超过50%",
+      "sz": "期末应付账款（含应付票据）余额超过300亿元，或占总资产的比重超过50%",
+      "bj": "期末应付账款（含应付票据）余额占总资产的比重超过50%",
+      "sources": [
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            18
+          ],
+          "sourceLines": [
+            437,
+            444
+          ],
+          "clause": "第四十六条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            19
+          ],
+          "sourceLines": [
+            438,
+            445
+          ],
+          "clause": "第四十六条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            221,
+            223
+          ],
+          "clause": "第四十六条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        }
+      ]
+    },
+    {
+      "dimension": "绿色研发披露口径",
+      "sh": "第28条：已取得的审批或认证、已具备的规模化生产能力",
+      "sz": "第28条：已取得的审批或认证、已具备的规模化生产能力",
+      "bj": "第28条：是否取得必要的审批或认证、是否已具备规模化生产能力",
+      "sources": [
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            12
+          ],
+          "sourceLines": [
+            271,
+            276
+          ],
+          "clause": "第二十八条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            12
+          ],
+          "sourceLines": [
+            272,
+            277
+          ],
+          "clause": "第二十八条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            128,
+            128
+          ],
+          "clause": "第二十八条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        }
+      ]
+    }
+  ],
+  "commonality": [
+    {
+      "dimension": "双重重要性",
+      "content": "识别短中长期对商业模式、业务运营、战略、财务状况、经营成果、现金流、融资方式及成本的重大影响（财务重要性），以及企业表现对经济、社会和环境的重大影响（影响重要性）；说明分析过程。",
+      "sources": [
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            3
+          ],
+          "sourceLines": [
+            52,
+            62
+          ],
+          "clause": "第五条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            23,
+            24,
+            25,
+            26
+          ],
+          "sourceLines": [
+            553,
+            630
+          ],
+          "clause": "第五十九条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            3
+          ],
+          "sourceLines": [
+            53,
+            63
+          ],
+          "clause": "第五条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            24,
+            25,
+            26,
+            27,
+            28
+          ],
+          "sourceLines": [
+            554,
+            632
+          ],
+          "clause": "第五十九条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            24,
+            26
+          ],
+          "clause": "第五条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            285,
+            308
+          ],
+          "clause": "第五十九条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        }
+      ]
+    },
+    {
+      "dimension": "四要素",
+      "content": "具有财务重要性的议题，按治理、战略、影响风险和机遇管理、指标与目标及具体议题规定披露；仅具影响重要性的按具体议题规定披露；均不重要的按第7条解释。",
+      "sources": [
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            3
+          ],
+          "sourceLines": [
+            52,
+            62
+          ],
+          "clause": "第五条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            4
+          ],
+          "sourceLines": [
+            79,
+            85
+          ],
+          "clause": "第七条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            5
+          ],
+          "sourceLines": [
+            105,
+            119
+          ],
+          "clause": "第十一条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            3
+          ],
+          "sourceLines": [
+            53,
+            63
+          ],
+          "clause": "第五条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            4
+          ],
+          "sourceLines": [
+            80,
+            86
+          ],
+          "clause": "第七条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            5,
+            6
+          ],
+          "sourceLines": [
+            106,
+            120
+          ],
+          "clause": "第十一条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            24,
+            26
+          ],
+          "clause": "第五条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            34,
+            35
+          ],
+          "clause": "第七条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            46,
+            51
+          ],
+          "clause": "第十一条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        }
+      ]
+    },
+    {
+      "dimension": "议题总数",
+      "content": "工作台统一为21议题：环境8、社会9、治理4。沪深原索引已逐项核对；北交所按同名议题对应正文核对，本地原件未含附表。",
+      "sources": [
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            9
+          ],
+          "sourceLines": [
+            214,
+            216
+          ],
+          "clause": "第二十一条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            12,
+            13
+          ],
+          "sourceLines": [
+            286,
+            298
+          ],
+          "clause": "第三十条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            13
+          ],
+          "sourceLines": [
+            300,
+            305
+          ],
+          "clause": "第三十一条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            13
+          ],
+          "sourceLines": [
+            307,
+            318
+          ],
+          "clause": "第三十二条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            14
+          ],
+          "sourceLines": [
+            320,
+            328
+          ],
+          "clause": "第三十三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            14,
+            15
+          ],
+          "sourceLines": [
+            337,
+            346
+          ],
+          "clause": "第三十五条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            15
+          ],
+          "sourceLines": [
+            348,
+            353
+          ],
+          "clause": "第三十六条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            15
+          ],
+          "sourceLines": [
+            355,
+            363
+          ],
+          "clause": "第三十七条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            16
+          ],
+          "sourceLines": [
+            375,
+            384
+          ],
+          "clause": "第三十九条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            16
+          ],
+          "sourceLines": [
+            386,
+            388
+          ],
+          "clause": "第四十条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            17
+          ],
+          "sourceLines": [
+            397,
+            409
+          ],
+          "clause": "第四十二条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            17,
+            18
+          ],
+          "sourceLines": [
+            411,
+            420
+          ],
+          "clause": "第四十三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            18
+          ],
+          "sourceLines": [
+            428,
+            435
+          ],
+          "clause": "第四十五条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            18
+          ],
+          "sourceLines": [
+            437,
+            444
+          ],
+          "clause": "第四十六条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            19
+          ],
+          "sourceLines": [
+            446,
+            457
+          ],
+          "clause": "第四十七条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            19
+          ],
+          "sourceLines": [
+            459,
+            467
+          ],
+          "clause": "第四十八条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            20
+          ],
+          "sourceLines": [
+            476,
+            488
+          ],
+          "clause": "第五十条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            21
+          ],
+          "sourceLines": [
+            500,
+            503
+          ],
+          "clause": "第五十二条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            21
+          ],
+          "sourceLines": [
+            505,
+            509
+          ],
+          "clause": "第五十三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            21,
+            22
+          ],
+          "sourceLines": [
+            519,
+            529
+          ],
+          "clause": "第五十五条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            22
+          ],
+          "sourceLines": [
+            531,
+            536
+          ],
+          "clause": "第五十六条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            10
+          ],
+          "sourceLines": [
+            215,
+            217
+          ],
+          "clause": "第二十一条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            13
+          ],
+          "sourceLines": [
+            287,
+            299
+          ],
+          "clause": "第三十条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            13,
+            14
+          ],
+          "sourceLines": [
+            301,
+            306
+          ],
+          "clause": "第三十一条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            14
+          ],
+          "sourceLines": [
+            308,
+            319
+          ],
+          "clause": "第三十二条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            14,
+            15
+          ],
+          "sourceLines": [
+            321,
+            329
+          ],
+          "clause": "第三十三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            15
+          ],
+          "sourceLines": [
+            338,
+            347
+          ],
+          "clause": "第三十五条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            15,
+            16
+          ],
+          "sourceLines": [
+            349,
+            354
+          ],
+          "clause": "第三十六条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            16
+          ],
+          "sourceLines": [
+            356,
+            364
+          ],
+          "clause": "第三十七条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            16,
+            17
+          ],
+          "sourceLines": [
+            376,
+            385
+          ],
+          "clause": "第三十九条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            17
+          ],
+          "sourceLines": [
+            387,
+            389
+          ],
+          "clause": "第四十条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            17,
+            18
+          ],
+          "sourceLines": [
+            398,
+            410
+          ],
+          "clause": "第四十二条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            18
+          ],
+          "sourceLines": [
+            412,
+            421
+          ],
+          "clause": "第四十三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            19
+          ],
+          "sourceLines": [
+            429,
+            436
+          ],
+          "clause": "第四十五条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            19
+          ],
+          "sourceLines": [
+            438,
+            445
+          ],
+          "clause": "第四十六条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            19,
+            20
+          ],
+          "sourceLines": [
+            447,
+            458
+          ],
+          "clause": "第四十七条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            20
+          ],
+          "sourceLines": [
+            460,
+            468
+          ],
+          "clause": "第四十八条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            21
+          ],
+          "sourceLines": [
+            477,
+            489
+          ],
+          "clause": "第五十条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            22
+          ],
+          "sourceLines": [
+            501,
+            504
+          ],
+          "clause": "第五十二条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            22
+          ],
+          "sourceLines": [
+            506,
+            510
+          ],
+          "clause": "第五十三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            22,
+            23
+          ],
+          "sourceLines": [
+            520,
+            530
+          ],
+          "clause": "第五十五条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            23
+          ],
+          "sourceLines": [
+            532,
+            537
+          ],
+          "clause": "第五十六条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            98,
+            98
+          ],
+          "clause": "第二十一条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            135,
+            141
+          ],
+          "clause": "第三十条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            143,
+            146
+          ],
+          "clause": "第三十一条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            148,
+            153
+          ],
+          "clause": "第三十二条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            155,
+            158
+          ],
+          "clause": "第三十三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            165,
+            168
+          ],
+          "clause": "第三十五条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            170,
+            172
+          ],
+          "clause": "第三十六条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            174,
+            177
+          ],
+          "clause": "第三十七条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            187,
+            190
+          ],
+          "clause": "第三十九条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            192,
+            192
+          ],
+          "clause": "第四十条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            199,
+            203
+          ],
+          "clause": "第四十二条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            205,
+            209
+          ],
+          "clause": "第四十三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            216,
+            219
+          ],
+          "clause": "第四十五条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            221,
+            223
+          ],
+          "clause": "第四十六条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            225,
+            230
+          ],
+          "clause": "第四十七条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            232,
+            236
+          ],
+          "clause": "第四十八条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            243,
+            246
+          ],
+          "clause": "第五十条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            256,
+            256
+          ],
+          "clause": "第五十二条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            258,
+            260
+          ],
+          "clause": "第五十三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            267,
+            271
+          ],
+          "clause": "第五十五条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            273,
+            275
+          ],
+          "clause": "第五十六条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        }
+      ]
+    },
+    {
+      "dimension": "气候核算",
+      "content": "核算并披露温室气体排放总量及范围1、范围2排放量，换算为二氧化碳当量公吨数；鼓励有条件的披露主体披露范围3。",
+      "sources": [
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            10,
+            11
+          ],
+          "sourceLines": [
+            239,
+            247
+          ],
+          "clause": "第二十四条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            11
+          ],
+          "sourceLines": [
+            240,
+            248
+          ],
+          "clause": "第二十四条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            113,
+            115
+          ],
+          "clause": "第二十四条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        }
+      ]
+    },
+    {
+      "dimension": "披露时间",
+      "content": "每个会计年度结束后4个月内，经董事会审议通过后披露，披露时间不早于年度报告；报告主体和期间与年度报告一致。12月31日年结对应次年4月30日前。",
+      "sources": [
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            2,
+            3
+          ],
+          "sourceLines": [
+            47,
+            50
+          ],
+          "clause": "第四条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            3
+          ],
+          "sourceLines": [
+            48,
+            51
+          ],
+          "clause": "第四条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            21,
+            22
+          ],
+          "clause": "第四条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        }
+      ]
+    },
+    {
+      "dimension": "施行日期",
+      "content": "三所指引均自2024年5月1日起施行。",
+      "sources": [
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            26,
+            27
+          ],
+          "sourceLines": [
+            641,
+            650
+          ],
+          "clause": "第六十三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            28
+          ],
+          "sourceLines": [
+            642,
+            652
+          ],
+          "clause": "第六十三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            314,
+            314
+          ],
+          "clause": "第六十二条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "version": "2024-05-01.20261015-v1",
+  "note": "过渡期首期缓释（沪深第63条、北第62条）与CSR报告替代（沪深第60条）是不同安排。",
+  "rows": [
+    {
+      "id": "effective",
+      "title": "施行日期",
+      "sh": "2024年5月1日起施行。",
+      "sz": "2024年5月1日起施行。",
+      "bj": "2024年5月1日起施行。",
+      "sources": [
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            26,
+            27
+          ],
+          "sourceLines": [
+            641,
+            650
+          ],
+          "clause": "第六十三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            28
+          ],
+          "sourceLines": [
+            642,
+            652
+          ],
+          "clause": "第六十三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            314,
+            314
+          ],
+          "clause": "第六十二条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        }
+      ]
+    },
+    {
+      "id": "first_report",
+      "title": "首份报告时间表",
+      "sh": "应披露主体须在2026年4月30日前发布2025年度可持续发展报告，并提前安排技术、数据与内部治理工作。",
+      "sz": "应披露主体须在2026年4月30日前发布2025年度可持续发展报告，并提前安排技术、数据与内部治理工作。",
+      "bj": "第62条无强制首发年度或截止日；选择按本指引披露的，仍应符合第4条。",
+      "sources": [
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            26,
+            27
+          ],
+          "sourceLines": [
+            641,
+            650
+          ],
+          "clause": "第六十三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            28
+          ],
+          "sourceLines": [
+            642,
+            652
+          ],
+          "clause": "第六十三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            18,
+            19
+          ],
+          "clause": "第三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            21,
+            22
+          ],
+          "clause": "第四条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            314,
+            314
+          ],
+          "clause": "第六十二条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        }
+      ]
+    },
+    {
+      "id": "early",
+      "title": "提前适用",
+      "sh": "鼓励提前适用并披露2024年度可持续发展报告，内容应符合指引。",
+      "sz": "鼓励提前适用并披露2024年度可持续发展报告，内容应符合指引。",
+      "bj": "本地第62条无对应“2024年度提前适用”条款。",
+      "sources": [
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            26,
+            27
+          ],
+          "sourceLines": [
+            641,
+            650
+          ],
+          "clause": "第六十三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            28
+          ],
+          "sourceLines": [
+            642,
+            652
+          ],
+          "clause": "第六十三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            314,
+            314
+          ],
+          "clause": "第六十二条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        }
+      ]
+    },
+    {
+      "id": "relief",
+      "title": "首个报告期缓释",
+      "sh": "披露主体适用本指引的首个报告期可以不披露相关指标同比变化；定量困难的指标可定性披露并解释原因，但前期已定量披露相关指标的除外。",
+      "sz": "披露主体适用本指引的首个报告期可以不披露相关指标同比变化；定量困难的指标可定性披露并解释原因，但前期已定量披露相关指标的除外。",
+      "bj": "披露主体适用本指引的首个报告期可以不披露相关指标同比变化；定量困难的指标可定性披露并解释原因，但前期已定量披露相关指标的除外。",
+      "sources": [
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            26,
+            27
+          ],
+          "sourceLines": [
+            641,
+            650
+          ],
+          "clause": "第六十三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            28
+          ],
+          "sourceLines": [
+            642,
+            652
+          ],
+          "clause": "第六十三条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            314,
+            314
+          ],
+          "clause": "第六十二条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        }
+      ]
+    },
+    {
+      "id": "csr",
+      "title": "社会责任报告替代",
+      "sh": "第60条：按本指引规定披露或自愿披露可持续发展报告的，无需再披露按本所规定应披露的社会责任报告。",
+      "sz": "第60条：按本指引规定披露可持续发展报告的，无需再披露按本所规定应披露的社会责任报告。",
+      "bj": "没有对应CSR替代衔接条款；第60条为违规监管措施。",
+      "sources": [
+        {
+          "exchange": "sh",
+          "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            26
+          ],
+          "sourceLines": [
+            632,
+            634
+          ],
+          "clause": "第六十条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "sz",
+          "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "sourcePages": [
+            28
+          ],
+          "sourceLines": [
+            634,
+            635
+          ],
+          "clause": "第六十条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        },
+        {
+          "exchange": "bj",
+          "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+          "sourcePages": [],
+          "sourceLines": [
+            310,
+            310
+          ],
+          "clause": "第六十条",
+          "rulesetVersion": "2024-05-01.20261015-v1"
+        }
+      ]
+    }
+  ]
+}

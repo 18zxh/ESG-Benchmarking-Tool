@@ -1,0 +1,85 @@
+{
+  "version": "peer-disclosure-v1",
+  "source": "用户提供的 example.xlsx／同行业议题对标；四要素结构及二级检查口径，不作为交易所新增强制要求。",
+  "levels": [
+    {
+      "id": "governance",
+      "name": "治理",
+      "checks": [
+        {
+          "id": "policy",
+          "name": "政策机制",
+          "requirement": "披露与该议题直接相关的政策、制度或管理机制。泛泛声明重视可持续发展不算。"
+        },
+        {
+          "id": "structure",
+          "name": "组织架构",
+          "requirement": "披露负责该议题的董事会、委员会、管理层或执行部门及其组织安排。"
+        },
+        {
+          "id": "accountability",
+          "name": "职责与考核",
+          "requirement": "披露相关人员或机构对该议题的具体职责，或监督、考核、问责安排。"
+        }
+      ]
+    },
+    {
+      "id": "strategy",
+      "name": "战略",
+      "checks": [
+        {
+          "id": "risk_strategy",
+          "name": "风险、影响与举措",
+          "requirement": "披露该议题的风险或负面影响，以及应对该风险或影响的举措。仅列举风险名称不足。"
+        },
+        {
+          "id": "opportunity_strategy",
+          "name": "机遇、影响与举措",
+          "requirement": "披露该议题的机遇或正面影响，以及把握机遇的举措。"
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "name": "影响、风险和机遇管理",
+      "checks": [
+        {
+          "id": "risk_assessment",
+          "name": "风险识别与评估",
+          "requirement": "披露识别或评估该议题风险、负面影响的流程、方法或实际分析。"
+        },
+        {
+          "id": "opportunity_assessment",
+          "name": "机遇识别与评估",
+          "requirement": "披露识别或评估该议题机遇、正面影响的流程、方法或实际分析。"
+        },
+        {
+          "id": "actions",
+          "name": "管理与行动",
+          "requirement": "披露对该议题开展的具体管理措施、活动、项目或监测行动。"
+        }
+      ]
+    },
+    {
+      "id": "metrics",
+      "name": "指标与目标",
+      "checks": [
+        {
+          "id": "targets",
+          "name": "目标披露",
+          "requirement": "披露该议题明确的定量或定性目标，能识别期望达到的状态。仅有已完成的绩效数字不算目标。"
+        },
+        {
+          "id": "progress",
+          "name": "达成情况",
+          "requirement": "披露对该议题既定目标的进展、完成情况或差距。只有年度绩效但未关联目标不足。"
+        },
+        {
+          "id": "performance",
+          "name": "绩效",
+          "requirement": "披露该议题实际绩效或结果，包括定量指标或明确的定性成果。此处仅判断是否披露，不比较绩效高低。"
+        }
+      ]
+    }
+  ]
+}

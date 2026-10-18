@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "verifiedOn": "2026-10-11",
+    "scope": "只核对S&P Global官方公开网页和文件；未登录门户，未输入公司信息，未填写或提交任何问卷。",
+    "portalGuideVersion": "2026 CSA Cycle; Updated March 2026",
+    "portalGuideUrl": "https://portal.s1.spglobal.com/survey/documents/CSA_Online_Portal_Guide.pdf"
+  },
+  "officialSources": [
+    {
+      "id": "portal-guide-2026",
+      "title": "Sustainability Portal Guide: Corporate Sustainability Assessment Module, 2026 CSA Cycle",
+      "url": "https://portal.s1.spglobal.com/survey/documents/CSA_Online_Portal_Guide.pdf",
+      "sourcePage": "PDF p.1, p.4–5, p.7 (Figure 18)",
+      "evidence": "封面p.1标注Updated March 2026。p.4说明受邀公司可在未选参与窗口时查看/下载PDF，但须有注册企业账户；p.5定位Frameworks > CSA > Response > Questionnaires、年份下拉框以及2026周期4月1日起查看/下载；p.7 Figure 18明确Export下拉菜单和PDF生成对话框。"
+    },
+    {
+      "id": "steps-start-2026",
+      "title": "Steps to Start the CSA Questionnaire",
+      "url": "https://www.spglobal.com/sustainable1/en/csa/tutorials/steps-to-start-the-csa-questionnaire",
+      "sourcePage": null,
+      "evidence": "官网说明2026问卷自2026-04-01开放查看，不取决于参与窗口开始日；用户可从Frameworks > CSA > Response进入，也可从Dashboard的2026 Corporate Sustainability Assessment链接进入。"
+    },
+    {
+      "id": "registration",
+      "title": "Registration 101 - Understanding the Basics",
+      "url": "https://www.spglobal.com/sustainable1/en/csa/tutorials/registration-101-understanding-the-basics",
+      "sourcePage": null,
+      "evidence": "官方注册说明：受邀公司注册企业门户账户不收费，注册本身不要求参加CSA；公司不在下拉列表或已注册但需找管理员时联系csa@spglobal.com。"
+    },
+    {
+      "id": "invited-companies",
+      "title": "Invited Companies",
+      "url": "https://www.spglobal.com/sustainable1/en/csa/invited-companies",
+      "sourcePage": null,
+      "evidence": "官方邀请名单查询页；2026年邀请范围说明及注册入口。未受邀企业可咨询CSA as a Service。"
+    },
+    {
+      "id": "methodology-documents",
+      "title": "CSA Documentation",
+      "url": "https://www.spglobal.com/sustainable1/en/csa/policies-guidelines",
+      "sourcePage": null,
+      "evidence": "官方页面列出2026更新、衡量方法、权重、2026 Handbook、MSA指南与预告、ESG Scores方法及2025年度回顾；其中明确Handbook用于说明一般和跨行业问题的目的/理由、题目结构、定义及参考资料。"
+    },
+    {
+      "id": "handbook-index-current",
+      "title": "CSA Methodology Handbook industry index",
+      "url": "https://portal.s1.spglobal.com/survey/documents/CSA_Handbook.pdf",
+      "sourcePage": "在线PDF第1页",
+      "evidence": "现行官方索引列出2026各行业手册，并显示Last updated: March 2026。注意本地副本CSA_Handbook_2026_Index.pdf的正文没有该日期，未将网页日期套用到本地副本。"
+    },
+    {
+      "id": "public-questionnaire-examples",
+      "title": "ESG Scores and Raw Data",
+      "url": "https://www.spglobal.com/sustainable1/en/solutions/esg-scores-data",
+      "sourcePage": null,
+      "evidence": "官方页面公开链接Banks、Pharmaceuticals、Metals and Mining三个行业样例，同时说明受邀公司可在CSA Portal取得最新行业问卷。当前三个公开PDF均为CSA 2024 Test Companies，不是2026正式问卷。"
+    },
+    {
+      "id": "public-report-examples",
+      "title": "CSA Benchmarking Reports Solution",
+      "url": "https://www.marketplace.spglobal.com/en/solutions/csa-benchmarking-reports-%288a37359a-66e7-4c73-855a-e5092d7fbafd%29",
+      "sourcePage": null,
+      "evidence": "官方Marketplace列出Company Benchmarking Report、CSA Performance Outline Report和Benchmarking Report on Materiality三个样例入口。已确认公开直链的CBR与POR样例为2025版本；Materiality样例仍使用Company XYZ, Month YYYY占位符。"
+    },
+    {
+      "id": "tencent-charter",
+      "title": "Tencent Holdings Limited Third Amended and Restated Memorandum of Association",
+      "url": "https://static.www.tencent.com/attachments/CorporateGovernance/e_THL_third%20amended%20M%26A_18%20May%202022.pdf",
+      "sourcePage": "PDF p.1",
+      "evidence": "官方章程并列显示TENCENT HOLDINGS LIMITED与腾讯控股有限公司。"
+    },
+    {
+      "id": "jd-investor",
+      "title": "JD.com, Inc. Chinese Investor Relations",
+      "url": "https://ir.jd.com/zh-hans",
+      "sourcePage": null,
+      "evidence": "官方中文投资者页面使用“京东（JD.COM）”。"
+    }
+  ],
+  "questionnaireAccess": {
+    "availability": "官方Steps页面说明2026 CSA问卷自2026-04-01起对所有公司开放查看，且不取决于参与窗口开始日；Portal Guide说明查看/导出PDF需要注册企业门户账户。受邀企业可免费注册，注册本身不要求参加CSA。",
+    "loginUrl": "https://portal.s1.spglobal.com/survey/ui/frameworks/csa/response/questionnaires",
+    "alternateEntry": "门户Dashboard中的“2026 Corporate Sustainability Assessment”链接。",
+    "navigation": [
+      "登录已授权的Sustainability Portal企业账户",
+      "顶栏选择 Frameworks",
+      "在 CSA 下选择 Response",
+      "进入 Questionnaires 标签",
+      "如账户关联多家公司，先选正确公司；用年份下拉框选择2026或所需历史问卷"
+    ],
+    "exportSteps": [
+      {
+        "step": 1,
+        "action": "在问卷页面点击“Export”下拉菜单，选择“Export your questionnaire in PDF”。",
+        "evidence": "2026 Portal Guide PDF p.7, Figure 18。"
+      },
+      {
+        "step": 2,
+        "action": "在“Questionnaire PDF”对话框填写接收邮箱。默认勾选“Include question rationale and definitions in PDF”；需要企业已填写内容时勾选“Include answers into PDF”，如需一并导出公司附加评论，再勾选其下级选项。",
+        "evidence": "2026 Portal Guide PDF p.7, Figure 18。"
+      },
+      {
+        "step": 3,
+        "action": "点击“OK”。指南说明PDF会发送至对话框中填写的邮箱；从该邮件下载附件并保存到企业授权的受控资料目录。",
+        "evidence": "2026 Portal Guide PDF p.7, Figure 18。"
+      }
+    ],
+    "limits": [
+      "指南未提供Word或Excel问卷文件。",
+      "PDF为只读内部分享/线下参考；正式填写和提交必须通过Portal在线问卷。",
+      "本次核对未登录、未代用户输入邮箱/公司信息、未生成或导出任何企业问卷。"
+    ]
+  },
+  "handbookUse": {
+    "recommendedUse": "可先阅读本行业2026 Methodology Handbook，熟悉问题意图、一般/跨行业问题的理由、题目结构、定义和参考资料，作为备答材料。",
+    "authorityBoundary": "Handbook可用于预习和理解方法；企业当年授权账户中的在线问卷才提供当前问题、公司回答与门户操作信息。以当前Portal问卷和官方最新资料为准，Handbook不能替代在线填写/提交。",
+    "localIndexCaveat": "本地CSA_Handbook_2026_Index.pdf p.1只列行业，没有正文版本日期；在线官方同URL现行索引标注Last updated: March 2026。"
+  },
+  "publicExamples": {
+    "questionnaires": [
+      {
+        "industry": "Banks",
+        "edition": "CSA 2024 Test Companies",
+        "url": "https://www.spglobal.com/content/dam/spglobal/s1/en/documents/esg/CSA-2024---Test-Companies-CA---BNK-Test-Company.pdf",
+        "sourcePage": "PDF p.1",
+        "evidence": "标题写CSA 2024 – Test Companies CA；同页Created by S&P Global on 06 May 2024。"
+      },
+      {
+        "industry": "Pharmaceuticals",
+        "edition": "CSA 2024 Test Companies",
+        "url": "https://www.spglobal.com/content/dam/spglobal/s1/en/documents/esg/CSA-2024---Test-Companies-CA---DRG-Test-Company.pdf",
+        "sourcePage": "PDF p.1",
+        "evidence": "标题写CSA 2024 – Test Companies CA；公开问卷只作历史样例。"
+      },
+      {
+        "industry": "Metals and Mining",
+        "edition": "CSA 2024 Test Companies",
+        "url": "https://www.spglobal.com/content/dam/spglobal/s1/en/documents/esg/CSA-2024---Test-Companies-CA---MNX-Test-Company.pdf",
+        "sourcePage": "PDF p.1",
+        "evidence": "标题写CSA 2024 – Test Companies CA；公开问卷只作历史样例。"
+      }
+    ],
+    "reports": [
+      {
+        "type": "Company Benchmarking Report",
+        "edition": "2025 sample",
+        "url": "https://www.spglobal.com/content/dam/spglobal/s1/en/documents/esg/Company%20Benchmarking%20Report_Sample%20Report%202025.pdf"
+      },
+      {
+        "type": "CSA Performance Outline Report",
+        "edition": "2025 sample",
+        "url": "https://www.spglobal.com/content/dam/spglobal/s1/en/documents/general/CSA-Performance-Outline-Report-June-2025.pdf"
+      },
+      {
+        "type": "Benchmarking Report on Materiality",
+        "edition": "sample; title date is placeholder",
+        "url": "https://www.spglobal.com/content/dam/spglobal/s1/en/documents/esg/Benchmarking-Report-on-Materiality.pdf",
+        "sourcePage": "PDF p.1–2"
+      }
+    ],
+    "interpretation": "官方公开样例可以查看/下载，但已确认的完整问卷样例是2024历史测试公司版本；不能代替2026企业问卷。已确认公开报告样例包括2025 CBR/POR和日期占位的Materiality报告。"
+  },
+  "remainingGaps": [
+    "尚未取得任何公司的授权账户，因此未核验具体企业界面权限，也未导出该企业问卷；用户需使用本企业已授权账户按上述步骤操作。",
+    "没有找到可匿名下载的2026完整行业问卷PDF；官方网站指向Portal账户访问。",
+    "来源中的本地Sample_Company_Benchmarking_Report_2026.pdf封面为Sample Company, July 2026，但尚未确认它对应的官方公开直链；不在metadata中猜填下载URL。",
+    "本地CSA_Handbook_2026_Index.pdf正文未印日期，故版本日期留空；官方在线当前索引虽标注March 2026，但不能证明本地历史副本同版。"
+  ]
+}

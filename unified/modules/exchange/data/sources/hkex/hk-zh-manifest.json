@@ -1,0 +1,92 @@
+{
+  "version": "hk-c2-zh-source-manifest-2026-10-16-v1",
+  "scope": "Official current HKEX Chinese Appendix C2 sources used for the Simplified Chinese display dataset.",
+  "knowledgeData": {
+    "path": "data/knowledge/hk-zh.json",
+    "sha256": "fffbaff504fa41fe1f1540ebbd58a68fed95992a53c0c4e9901ed822cd856205",
+    "version": "hk-c2-zh-hans-2026-10-16-v1",
+    "topicCount": 71,
+    "topicIdsUnique": true
+  },
+  "sources": {
+    "mb": {
+      "title": "香港联合交易所有限公司主板上市规则附录C2《环境、社会及管治报告守则》",
+      "url": "https://cn-rules.hkex.com.hk/sites/default/files/net_file_store/HKEXCN_TC_10553_VER38253.pdf",
+      "originalPath": "data/sources/hkex/mb-c2-current-tc.pdf",
+      "extractedTextPath": "data/sources/hkex/mb-c2-current-zh-extracted.txt",
+      "language": "zh-Hant",
+      "sha256": "8e5d83db8815795448850e430ae98234bda84fcdc1a356a71f912c2a6c556439",
+      "extractedTextSha256": "7aa016bd75a4f7657a72ed996e9af959f9c59425c63c4142d8f033b509b4e451",
+      "physicalPages": 27,
+      "retrieved": "2026-10-16"
+    },
+    "gem": {
+      "title": "香港联合交易所有限公司GEM上市规则附录C2《环境、社会及管治报告守则》",
+      "url": "https://cn-rules.hkex.com.hk/sites/default/files/net_file_store/HKEXCN_TC_8299_VER38252.pdf",
+      "originalPath": "data/sources/hkex/gem-c2-current-tc.pdf",
+      "extractedTextPath": "data/sources/hkex/gem-c2-current-zh-extracted.txt",
+      "language": "zh-Hant",
+      "sha256": "f07a65081b5fabfd62be100f55742628b2ad2a31bc3726318dc6f0e2dac43882",
+      "extractedTextSha256": "1a3de7d5c0de88f660eb5e652c7c9816fe9fa6fda2efc8ff9d08b7ed0e0aaa50",
+      "physicalPages": 20,
+      "retrieved": "2026-10-16"
+    }
+  },
+  "conversion": {
+    "tool": "OpenCC",
+    "distribution": "opencc-python-reimplemented",
+    "version": "0.1.7",
+    "configuration": "t2s",
+    "sourceLanguage": "zh-Hant",
+    "displayLanguage": "zh-Hans",
+    "note": "仅在本次离线内容编制中使用；未加入生产依赖。"
+  },
+  "applicationTextAnchors": {
+    "mb": {
+      "partA": {
+        "pdfPages": [
+          1,
+          4
+        ],
+        "rules": "Part A paragraphs 1-12"
+      },
+      "partD": {
+        "pdfPages": [
+          13,
+          13
+        ],
+        "rules": "Part D paragraphs 16-18"
+      }
+    },
+    "gem": {
+      "partA": {
+        "pdfPages": [
+          1,
+          3
+        ],
+        "rules": "Part A paragraphs 1-12"
+      },
+      "partD": {
+        "pdfPages": [
+          11,
+          11
+        ],
+        "rules": "Part D paragraphs 16-18"
+      }
+    }
+  },
+  "topicAnchorFieldNames": [
+    "sourceAnchorMb",
+    "sourceAnchorGem"
+  ],
+  "topicHashBindingFieldNames": [
+    "sourceSha256",
+    "sourceSha256Gem"
+  ],
+  "notes": [
+    "The official PDFs are Traditional Chinese originals. The knowledge JSON is an OpenCC t2s Simplified display conversion, not a claim that the Simplified text is an official HKEX original.",
+    "The extracted TXT snapshots are preserved raw as extraction outputs and include page delimiters; the PDF SHA-256 values identify the authoritative originals.",
+    "For each topic, sourceAnchorMb/sourceAnchorGem records the PDF physical page span and source paragraph or KPI marker; non-contiguous paragraph 41 is marked explicitly.",
+    "English source text snapshots are preserved at data/sources/hkex/mb-c2.txt and data/sources/hkex/gem-c2.txt and in Git history; the active ruleset fields may be replaced by the Chinese source text."
+  ]
+}

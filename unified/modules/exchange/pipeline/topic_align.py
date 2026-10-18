@@ -1,0 +1,163 @@
+"""GLM alignment with bounded heading candidates and native scan evidence fallback."""
+import copy
+import json
+import math
+import re
+from pipeline.constants import (ALIGN_VERSION, MAX_RETRIES, MAX_CHAPTER_CANDIDATES,
+                                MAX_CHAPTER_SUMMARY_CHARS, ALIGNMENT_WINDOW_PAGES)
+from pipeline.errors import RequestError
+from pipeline.jobs import Task, TaskRegistry
+from pipeline.model_proxy import PROVIDERS, call_json
+from pipeline.pdf_pages import DOCUMENTS
+from pipeline.pdf_text import normalize_pdf_text
+from pipeline.review_cache import CACHE, cache_key
+from pipeline.rules import load_rules
+from pipeline.hk_assessment import model_topic
+from pipeline.pdf_context import fits, reading_batches
+
+HEAD = re.compile(r"^(?:第[一二三四五六七八九十百\d]+[章节部分]|[一二三四五六七八九十]+[、.]|[（(][一二三四五六七八九十\d]+[）)]|\d+(?:\.\d+){0,3}[、.\s]|[A-Z][.、]\s)")
+TITLE_TERMS = re.compile(r"climate|emission|energy|water|employee|supply|governance|气候|环境|能源|水资源|循环|生态|员工|人才|职业健康|产品质量|供应链|供应商|公益|乡村|创新|数据安全|隐私|伦理|中小企业|治理|廉洁|腐败|贿赂|利益相关方|尽职调查|公平竞争|不正当竞争", re.I)
+
+
+def extract_candidates(pages):
+    headings = []
+    for page in pages:
+        for line in page.get("text", "").splitlines():
+            title = re.sub(r"[\s\x00-\x1f\x7f]+", " ", normalize_pdf_text(line)).strip()
+            if not 2 <= len(title) <= 65 or re.search(r"[。；;？！!?]", title): continue
+            if re.match(r"^\d+\s+20\d{2}[·年]", title): continue
+            if not (HEAD.search(title) or (len(title) <= 24 and TITLE_TERMS.search(title))): continue
+            if headings and headings[-1]["reportSection"] == title and page["page"] <= headings[-1]["start"] + 1: continue
+            headings.append({"reportSection": title, "start": page["page"]})
+    last_page = max((p["page"] for p in pages), default=0)
+    if len(headings) > MAX_CHAPTER_CANDIDATES:
+        # Dense reports often contain numbered rows and KPI labels that look like
+        # headings. Preserve full-document coverage with truthful page-range
+        # candidates instead of rejecting the upload or inventing chapter names.
+        by_page = {p["page"]: p for p in pages}
+        result = []
+        for start in range(1, last_page + 1, ALIGNMENT_WINDOW_PAGES):
+            end = min(last_page, start + ALIGNMENT_WINDOW_PAGES - 1)
+            selected = [by_page[n] for n in range(start, end + 1) if n in by_page]
+            if not selected:
+                continue
+            per_page_budget = max(1, MAX_CHAPTER_SUMMARY_CHARS // len(selected))
+            snippets = []
+            for page in selected:
+                text = normalize_pdf_text(page.get("text", "")).strip()
+                if text:
+                    snippets.append(f"PDF第{page['page']}页：{text[:per_page_budget]}")
+            result.append({
+                "id": f"window-{start}-{end}",
+                "reportSection": f"全文定位页段（PDF第{start}–{end}页）",
+                "sourcePage": [p["page"] for p in selected],
+                "summary": "\n".join(snippets)[:MAX_CHAPTER_SUMMARY_CHARS],
+                "candidateBasis": "page_window",
+            })
+        return result
+    result = []
+    for i, heading in enumerate(headings):
+        end = headings[i + 1]["start"] if i + 1 < len(headings) else last_page
+        relevant = [p for p in pages if heading["start"] <= p["page"] <= end]
+        result.append({"id": "section-" + str(i + 1), "reportSection": heading["reportSection"],
+                       "sourcePage": [p["page"] for p in relevant],
+                       "summary": "\n".join(p.get("text", "") for p in relevant)[:MAX_CHAPTER_SUMMARY_CHARS]})
+    return result
+
+
+def validate_mappings(value, candidates, rules):
+    rows = value.get("mappings")
+    if not isinstance(rows, list) or len(rows) > len(candidates) * len(rules["topics"]):
+        raise RequestError("章节对齐结果格式不完整。", "model_contract", 502)
+    sections = {s["id"]: s for s in candidates}; topics = {t["id"]: t for t in rules["topics"]}
+    result, seen = [], set()
+    for row in rows:
+        if not isinstance(row, dict): raise RequestError("对齐行格式无效。", "model_contract", 502)
+        section = sections.get(row.get("candidateId")); topic = topics.get(row.get("topicId")); confidence = row.get("confidence")
+        if (not section or not topic or isinstance(confidence, bool) or not isinstance(confidence, (int, float))
+                or not math.isfinite(confidence) or not 0 <= confidence <= 1):
+            raise RequestError("章节对齐包含无效议题、章节或置信度。", "model_contract", 502)
+        pair = (section["id"], topic["id"])
+        if pair in seen: continue
+        seen.add(pair)
+        result.append({"id": cache_key(*pair)[:24], "candidateId": section["id"], "reportSection": section["reportSection"],
+                       "sectionSummary": section["summary"], "topicId": topic["id"], "topicName": topic["name"], "clause": topic["clause"],
+                       "confidence": float(confidence), "sourcePage": list(section["sourcePage"]), "confirmed": False, "autoGenerated": True})
+    return sorted(result, key=lambda row: -row["confidence"])
+
+
+class AlignmentService:
+    def __init__(self, documents=None, providers=None, cache=None, send=None):
+        self.documents, self.providers, self.cache = documents or DOCUMENTS, providers or PROVIDERS, cache or CACHE
+        self.send, self.jobs = send, TaskRegistry()
+
+    def create(self, data, asynchronous=True):
+        doc = self.documents.parsed(data.get("documentId"))
+        if doc["meta"]["source"] != "main":
+            raise RequestError("议题对齐只使用主报告，公司年报仅补充证据。")
+        rules = load_rules(data.get("exchange"), data if data.get("exchange") == "hk" else None); provider = self.providers.get(data.get("providerId"))
+        candidates = extract_candidates(doc["pages"])
+        task = self.jobs.add(Task("text_alignment"))
+        def worker(t):
+            t.update(phase="aligning", candidates=candidates, rulesetVersion=rules["version"], alignmentVersion=ALIGN_VERSION)
+            key = cache_key(doc["meta"]["sha256"], doc["meta"]["name"], doc["meta"]["source"], provider["fingerprint"], rules["exchange"], rules["version"], ALIGN_VERSION,
+                            [(x["id"], x["name"], x["clause"]) for x in rules["topics"]],
+                            *([rules['assessmentGuide']['fingerprint']] if rules['exchange'] == 'hk' else []))
+            value = self.cache.get("align", key)
+            hit = value is not None
+            if value is not None and "pdfCandidates" in value:
+                candidates[:] = value["pdfCandidates"]
+            if value is None:
+                if not candidates or any(not page.get("text", "").strip() for page in doc["pages"]):
+                    from pipeline.pdf_assessment import Reader
+                    reader = Reader(provider, t, rules['topics'], cache=self.cache, send=self.send,
+                                    assessment_guide=rules.get('assessmentGuide') if rules['exchange'] == 'hk' else None)
+                    evidence = []
+                    for start, end in reading_batches(doc['pages']):
+                        evidence.extend(reader.native_range(doc, start, end))
+                    candidates.clear()
+                    for topic in rules['topics']:
+                        hits = [e for e in evidence if topic['id'] in e['topicIds']]
+                        if hits:
+                            candidates.append({'id': 'pdf-' + topic['id'], 'reportSection': '全文证据定位 · ' + topic['name'],
+                                               'sourcePage': sorted({e['page'] for e in hits}), 'summary': hits[0]['quote']})
+                    value = {'mappings': [{'candidateId': c['id'], 'topicId': c['id'][4:], 'confidence': 0.5} for c in candidates], 'pdfCandidates': candidates}
+                    t.update(candidates=candidates, alignmentBasis='native_pdf_evidence')
+                else:
+                    instruction = "把主报告候选内容对应到下列交易所指标（数量以topics为准），可一项候选对应多个议题。不确定时给出真实置信度，不编造候选。候选可能是报告章节，也可能是因标题噪声改用的连续PDF页段；页段名称只是定位范围，不代表报告真实章节标题。只输出mappings数组。"
+                    guide = {"task": "topic_align", "instruction": instruction, "candidates": candidates,
+                             "topics": [{k: topic[k] for k in ("id", "name", "clause", "requirement")} for topic in rules["topics"]],
+                             "output": {"mappings": [{"candidateId": candidates[0]["id"], "topicId": rules["topics"][0]["id"], "confidence": 0.8}]}}
+                    if rules['exchange'] == 'hk':
+                        guide.update(instruction='按所给港交所附录C2的部分、议题、指标、条款及检查问题，将主报告章节映射至对应指标。一章可对应多项。只使用给定ID，给出真实置信度，不编造候选，按指定结构返回mappings。年报不产生独立映射。',
+                                     topics=[model_topic(topic) for topic in rules['topics']],
+                                     questionVersion=rules['assessmentGuide']['questionVersion'])
+                    def align(part, topic_set=None):
+                        topic_set = guide['topics'] if topic_set is None else topic_set
+                        request = {**guide, 'candidates': part, 'topics': topic_set}
+                        if not fits(request):
+                            if len(part) == 1:
+                                if len(topic_set) > 1:
+                                    middle = len(topic_set) // 2
+                                    return align(part, topic_set[:middle]) + align(part, topic_set[middle:])
+                                raise RequestError('完整章节候选与指标问题超过输入预算，未截断。', 'context_budget')
+                            middle = len(part) // 2
+                            return align(part[:middle], topic_set) + align(part[middle:], topic_set)
+                        for attempt in range(MAX_RETRIES + 1):
+                            try:
+                                t.checkpoint()
+                                value = call_json(provider, json.dumps(request, ensure_ascii=False), t.data['usage'], send=self.send)
+                                validate_mappings(value, part, {**rules, "topics": [t for t in rules["topics"] if t["id"] in {x["id"] for x in topic_set}]})
+                                return value['mappings']
+                            except RequestError as exc:
+                                if exc.category in ('network', 'upstream') or attempt == MAX_RETRIES: raise
+                                request['correction'] = str(exc)
+                    value = {'mappings': align(candidates)}
+                if not extract_candidates(doc["pages"]): value["pdfCandidates"] = candidates
+                self.cache.put("align", key, value)
+            mappings = validate_mappings(value, candidates, rules)
+            t.update(mappings=mappings, alignmentComplete=True, cached=hit, phase="completed")
+        return task.start(worker, asynchronous)
+
+
+ALIGNMENTS = AlignmentService()

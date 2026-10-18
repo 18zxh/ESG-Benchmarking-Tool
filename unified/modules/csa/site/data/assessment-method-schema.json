@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "version": "2026-full-ai-method-v1",
+  "fields": [
+    { "key": "id", "source": "id", "label": "条目 ID" },
+    { "key": "industryCode", "source": "industryCode", "label": "行业代码" },
+    { "key": "industryEn", "source": "industryEn", "label": "Industry" },
+    { "key": "industryZh", "source": "industryZh", "label": "行业中文名称" },
+    { "key": "dimension", "source": "dimension", "label": "Dimension" },
+    { "key": "dimensionZh", "source": "dimensionZh", "label": "维度" },
+    { "key": "criterion", "source": "criterion", "label": "Criteria" },
+    { "key": "criterionZh", "source": "criterionZh", "label": "标准" },
+    { "key": "title", "source": "title", "label": "English title" },
+    { "key": "titleZh", "source": "title", "translation": "title", "label": "中文标题" },
+    { "key": "disclosure", "source": "disclosure", "label": "证据类别" },
+    { "key": "weight", "source": "weight", "label": "标准权重（%）" },
+    { "key": "year", "source": "year", "label": "方法年度" },
+    { "key": "version", "source": "version", "label": "问卷版本" },
+    { "key": "layout", "source": "layout", "label": "Question Layout (English)" },
+    { "key": "layoutZh", "source": "layout", "translation": "layout", "label": "问题布局（中文）" },
+    { "key": "guidance", "source": "guidance", "label": "Guidance (English)" },
+    { "key": "guidanceZh", "source": "guidance", "translation": "guidance", "label": "评分说明（中文）" },
+    { "key": "rationale", "source": "rationale", "label": "Rationale (English)" },
+    { "key": "rationaleZh", "source": "rationale", "translation": "rationale", "label": "评分意图（中文）" },
+    { "key": "sourceFile", "source": "sourceFile", "label": "来源文件" },
+    { "key": "page", "source": "page", "label": "来源起始页" },
+    { "key": "endPage", "source": "endPage", "label": "来源结束页" }
+  ]
+}

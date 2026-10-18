@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>统一 ESG 工作台</title><link rel="stylesheet" href="/_unified/home.css"></head>
+<body><main><h1>统一 ESG 工作台</h1><p>本机资料库 · 原界面保留</p>
+<section><h2>当前企业项目</h2><label for="project">选择项目</label><select id="project"><option value="default">默认项目</option></select>
+<form id="new-project"><label for="company">新建企业项目</label><input id="company" required maxlength="120" placeholder="企业或项目名称"><button>新建</button></form>
+<nav><a data-module="csa" href="/csa/">CSA 知识库与工作台</a><a data-module="msci" href="/msci/#/workbench">MSCI 知识库与工作台</a><a data-module="exchange" href="/exchange/#/markets">交易所与横向对标</a></nav></section>
+<section><h2>共享 GLM 连接</h2><form id="provider"><label for="base-url">接口地址</label><input id="base-url" value="https://open.bigmodel.cn/api/paas/v4" type="url" required><label for="model">模型</label><select id="model"><option>glm-5.3-flash</option><option>glm-5.3-flashx</option></select><label for="api-key">API Key（仅服务内存）</label><input id="api-key" type="password" autocomplete="off"><button>连接三个工作台</button></form><p id="connection">正在检查连接…</p></section>
+<section><h2>旧项目与备份</h2><p>原工作台与旧浏览器草稿保留。CSA 的项目 JSON 可在原有“恢复备份”入口导入；新保存使用统一资料库。其他浏览器或旧端口的草稿不会自动搬移。</p><p><a href="/api/v1/backup" download>下载完整本机备份（含 PDF）</a> · <a href="/api/v1/usage">查看实际模型调用记录</a></p></section>
+<p id="status" role="status"></p></main><script src="/_unified/home.js"></script></body></html>

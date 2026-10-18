@@ -1,0 +1,161 @@
+/* Shared tokens and native-screen adapters; domain source snapshots stay intact. */
+:root {
+  --u-font: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --u-primary: #344b40;
+  --u-hover: #293c33;
+  --u-text: #242b28;
+  --u-muted: #626d66;
+  --u-paper: #fff;
+  --u-surface: #f7f8f8;
+  --u-selected: #e8eeea;
+  --u-line: #e0e5e2;
+  --u-strong: #a4b2a9;
+  --u-radius: 6px;
+  --u-sidebar: 224px;
+  --u-bar: 64px;
+  --u-space-sm: 8px;
+  --u-space-md: 16px;
+  --u-space-lg: 28px;
+  --u-space-xl: 40px;
+}
+.u-native {
+  --paper: var(--u-paper); --surface: var(--u-paper); --surface-2: var(--u-surface);
+  --ink: var(--u-text); --ink-2: #39463e; --muted: var(--u-muted); --faint: var(--u-muted);
+  --line: var(--u-line); --line-strong: var(--u-strong);
+  --navy: var(--u-primary); --navy-ink: var(--u-hover); --green: var(--u-primary);
+  --accent: var(--u-primary); --pale: var(--u-selected);
+  --radius: var(--u-radius); --radius-sm: var(--u-radius);
+  --sidebar-w: var(--u-sidebar); --topbar-h: var(--u-bar);
+  font: 14px/1.7 var(--u-font); color: var(--u-text); background: var(--u-paper);
+}
+.u-native [hidden] { display: none; }
+.u-native .topbar, .u-native .app-header {
+  position: sticky; inset: 0 0 auto; margin-left: var(--u-sidebar);
+  width: calc(100% - var(--u-sidebar)); height: var(--u-bar); min-height: var(--u-bar);
+  display: flex; align-items: center; gap: var(--u-space-md); padding: 0 36px;
+  background: var(--u-paper); border-bottom: 1px solid var(--u-line); z-index: 30;
+}
+.u-native .topbar-search { display: block; flex: 0 1 320px; margin-left: auto; }
+.u-native .topbar-search input { height: 40px; font: inherit; border-radius: var(--u-radius); }
+.u-native .u-location { color: var(--u-muted); font-size: 13px; white-space: nowrap; }
+.u-native .u-model { margin-left: auto; color: var(--u-primary); font-size: 13px; white-space: nowrap; }
+.u-native .shell, .u-native .app-shell { display: block; margin: 0; }
+.u-native .u-sidebar {
+  position: fixed; inset: 0 auto 0 0; width: var(--u-sidebar); height: 100dvh;
+  padding: 30px 16px 18px; display: flex; flex-direction: column; gap: 0;
+  background: var(--u-surface); border-right: 1px solid var(--u-line); overflow-y: auto; z-index: 40;
+}
+.u-native .u-brand {
+  display: flex; align-items: center; gap: 12px; padding: 0 12px 30px;
+  color: var(--u-primary); font-size: 17px; font-weight: 650; text-decoration: none; line-height: 1.35;
+}
+.u-native .u-brand small { display: block; margin-top: 6px; color: var(--u-muted); font-size: 11px; font-weight: 400; }
+.u-native .u-mark { display: grid; place-items: center; flex: 0 0 32px; height: 32px; border-radius: var(--u-radius); background: var(--u-primary); color: var(--u-paper); font-size: 21px; }
+.u-native .u-global-nav { display: flex; flex-direction: column; gap: 4px; }
+.u-native .u-global-nav > a, .u-native .u-settings {
+  display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 10px 12px;
+  border-radius: var(--u-radius); color: #39463e; text-decoration: none; font-size: 14px;
+}
+.u-native .u-global-nav svg, .u-native .u-settings svg { flex-shrink: 0; }
+.u-native .u-global-nav > a:hover, .u-native .u-settings:hover { background: var(--u-selected); }
+.u-native .u-global-nav > a.u-active { background: var(--u-selected); color: var(--u-primary); font-weight: 650; }
+.u-native .u-nav-label { padding: 24px 12px 6px; margin: 0; font-size: 12px; color: var(--u-muted); }
+.u-native .u-subnav { display: grid; margin: 0 0 4px 20px; padding-left: 18px; border-left: 1px solid var(--u-strong); }
+.u-native .u-subnav a { padding: 8px 4px; color: var(--u-muted); font-size: 12px; text-decoration: none; }
+.u-native .u-subnav a[aria-current] { color: var(--u-primary); font-weight: 650; text-decoration: underline; text-underline-offset: 5px; }
+.u-native .u-settings { margin-top: auto; flex-shrink: 0; }
+.u-native .view, .u-native .app-main {
+  margin: 0 0 0 var(--u-sidebar); padding: 36px 40px 60px;
+  max-width: 1600px; width: auto; min-width: 0; min-height: calc(100dvh - var(--u-bar));
+}
+.u-native h1 { font-size: 28px; line-height: 1.35; letter-spacing: -0.02em; font-weight: 650; margin: 0 0 10px; }
+.u-native h2, .u-native h1.u-domain-title { font-size: 18px; line-height: 1.5; font-weight: 650; letter-spacing: 0; }
+.u-native h3 { font-size: 15px; line-height: 1.5; font-weight: 650; }
+.u-native p { line-height: 1.75; }
+.u-native .page-head, .u-native .page-heading { margin-bottom: var(--u-space-lg); }
+.u-native .page-head h1, .u-native .page-heading h1 { font-size: 28px; }
+.u-native .page-head h1.u-domain-title, .u-native .page-heading h1.u-domain-title { font-size: 18px; }
+.u-native .lede, .u-native .page-head p, .u-native .page-heading p { font-size: 14px; color: var(--u-muted); max-width: 76ch; line-height: 1.75; }
+.u-native .u-knowledge-heading { margin-bottom: 28px; }
+.u-native .u-knowledge-heading > p { color: var(--u-muted); margin: 0 0 24px; }
+.u-native .u-chapters { display: flex; flex-wrap: wrap; gap: 4px 20px; border-bottom: 1px solid var(--u-line); }
+.u-native .u-chapters a { display: inline-flex; align-items: center; min-height: 44px; border-bottom: 2px solid transparent; padding: 8px 0; color: var(--u-muted); font-size: 13px; text-decoration: none; }
+.u-native .u-chapters a[aria-current] { color: var(--u-primary); border-bottom-color: var(--u-primary); font-weight: 650; }
+.u-native .u-chapters a:hover { color: var(--u-primary); }
+.u-native button, .u-native input, .u-native select, .u-native textarea { font-family: var(--u-font); }
+.u-native button, .u-native .btn, .u-native .file-select { border-radius: var(--u-radius); font-size: 13px; min-height: 40px; }
+.u-native button:not(:disabled), .u-native summary, .u-native .file-select { cursor: pointer; }
+.u-native button:disabled { cursor: not-allowed; }
+.u-native input:not([type=checkbox]):not([type=radio]):not([type=file]), .u-native select, .u-native textarea {
+  border-color: var(--u-strong); border-radius: var(--u-radius); font-size: 14px; min-height: 42px; max-width: 100%; min-width: 0;
+}
+.u-native input[type=checkbox], .u-native input[type=radio] { accent-color: var(--u-primary); }
+.u-native :focus-visible { outline: 2px solid var(--u-primary); outline-offset: 3px; }
+.u-native a { text-underline-offset: 4px; }
+.u-native ::selection { color: var(--u-paper); background: var(--u-primary); }
+.u-native input, .u-native textarea { caret-color: var(--u-primary); }
+.u-native .toolbar, .u-native .filter-bar, .u-native .filters, .u-native .project-toolbar { font-size: 13px; gap: 12px; }
+.u-native .table-wrap, .u-native .table-scroll, .u-native .table-frame, .u-native .knowledge-table-wrap { max-width: 100%; overflow-x: auto; border-radius: var(--u-radius); }
+.u-native table { font-size: 13px; line-height: 1.75; border-color: var(--u-line); }
+.u-native th { background: var(--u-surface); color: #39463e; font-size: 12px; font-weight: 600; }
+.u-native th, .u-native td { padding: 14px 16px; border-color: var(--u-line); vertical-align: top; }
+.u-native td p, .u-native .knowledge-table td p, .u-native .hk-requirements-table td p { font-size: 13px; line-height: 1.8; }
+.u-native .source-ref, .u-native .source-meta, .u-native .source-ref button { font-size: 12px; color: var(--u-muted); }
+.u-native .badge, .u-native .tag { border-radius: 4px; font: 12px/1.5 var(--u-font); }
+.u-native .hier-table { border-color: var(--u-line); border-radius: var(--u-radius); box-shadow: none; }
+.u-native .ht-head { background: var(--u-surface); color: #39463e; font-size: 12px; }
+.u-native button.ht-pillar { background: var(--u-surface); color: var(--u-text); border-color: var(--u-line); filter: none; }
+.u-native button.ht-pillar:hover, .u-native button.ht-pillar[aria-pressed=true] { background: var(--u-selected); box-shadow: none; }
+.u-native .ht-theme, .u-native .ht-label { background: var(--u-surface); }
+.u-native .ht-pillar b, .u-native .ht-theme b, .u-native .ht-issue, .u-native .ht-row h4 { font-size: 13px; }
+.u-native .ht-row p { font-size: 13px; line-height: 1.8; }
+.u-native .ht-version, .u-native .ht-version .source-pdf { font-size: 12px; }
+.u-native .q-list > details { border-color: var(--u-line); border-radius: var(--u-radius); box-shadow: none; }
+.u-native .q-list summary { padding: 16px; font-size: 14px; }
+.u-native .u-check-scroll { max-height: 450px; overflow: auto; }
+.u-native .card, .u-native .notice, .u-native .source-warning { border-radius: var(--u-radius); box-shadow: none; }
+.u-native .wb-steps, .u-native .step-nav, .u-native .wb-stage-nav { gap: 16px; margin: 20px 0 28px; }
+.u-native .wb-section p, .u-native .wb-review-detail p { font-size: 14px; line-height: 1.8; }
+.u-native .wb-section h2, .u-native .wb-section h3 { font-size: 18px; }
+.u-native .u-project-toolbar { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 20px; }
+.u-native .u-model-tools { min-width: 0; max-width: none; margin: 0 0 20px; border: 1px solid var(--u-line); border-radius: var(--u-radius); }
+.u-native .u-model-tools > summary { text-align: left; padding: 14px 16px; font-size: 13px; font-weight: 600; }
+.u-native .u-model-tools .wb-tools-content { padding: 16px; }
+.u-native #wbClearSaved { color: #8b3027; }
+.u-native .subnav[aria-label="评估步骤"], .u-native .wb-steps, .u-native .step-nav { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 16px; border-bottom: 1px solid var(--u-line); }
+.u-native .subnav[aria-label="评估步骤"] button, .u-native .wb-steps button, .u-native .step-nav button {
+  border: 0; border-bottom: 2px solid transparent; border-radius: 0; background: transparent; color: var(--u-muted); min-height: 48px; padding: 10px 6px; font-size: 13px;
+}
+.u-native .subnav button[aria-current="step"], .u-native .wb-steps button[aria-selected="true"], .u-native .step-nav button[aria-current="step"] { color: var(--u-primary); border-bottom-color: var(--u-primary); background: transparent; font-weight: 600; }
+.u-native .issue-counts b { font-size: 15px; font-weight: 600; }
+.u-native #hk-knowledge-content .hk-requirements-table, .u-native #hk-knowledge-content .hk-requirements-table p { font-size: 13px; line-height: 1.8; }
+.u-native #hk-knowledge-content .hk-requirements-table th, .u-native #hk-knowledge-content .hk-requirements-table td { padding: 14px 16px; border-color: var(--u-line); }
+.u-native .u-menu { display: none; }
+.u-native .u-scrim { position: fixed; inset: 0; border: 0; border-radius: 0; background: rgb(36 43 40 / 38%); z-index: 35; }
+@media (max-width: 1200px) and (min-width: 961px) {
+  :root { --u-sidebar: 208px; }
+  .u-native .view, .u-native .app-main { padding: 30px 28px 48px; }
+}
+@media (max-width: 960px) {
+  .u-native .u-sidebar { width: 240px; transform: translateX(-100%); visibility: hidden; }
+  .u-native .u-sidebar.u-open { transform: none; visibility: visible; }
+  .u-native .topbar, .u-native .app-header { margin-left: 0; width: 100%; padding: 0 18px; }
+  .u-native .u-menu { display: grid; place-items: center; width: 44px; height: 44px; padding: 0; border: 1px solid var(--u-line); background: var(--u-paper); flex-shrink: 0; }
+  .u-native .view, .u-native .app-main { margin-left: 0; padding: 30px 28px 48px; }
+  .u-native .u-location { white-space: normal; font-size: 12px; }
+  .u-native .topbar-search { display: none; }
+  .u-native .u-model { font-size: 12px; }
+  .u-native .u-global-nav { flex-shrink: 0; }
+}
+@media (max-width: 640px) {
+  .u-native .view, .u-native .app-main { padding: 25px 18px 40px; }
+  .u-native h1, .u-native .page-head h1, .u-native .page-heading h1 { font-size: 24px; }
+  .u-native h1.u-domain-title, .u-native .page-head h1.u-domain-title, .u-native .page-heading h1.u-domain-title { font-size: 18px; }
+  .u-native .u-chapters { column-gap: 16px; }
+  .u-native button, .u-native .btn, .u-native .file-select, .u-native .u-subnav a { min-height: 44px; }
+  .u-native .page-heading { align-items: flex-start; flex-wrap: wrap; gap: 16px; }
+  .u-native .knowledge-table, .u-native .hk-requirements-table { min-width: 800px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .u-native .u-sidebar, .u-native button, .u-native a { transition: none; }
+}

@@ -1,0 +1,81 @@
+{
+  "pillars": [
+    {
+      "id": "environmental",
+      "name": "环境",
+      "nameEn": "Environmental"
+    },
+    {
+      "id": "social",
+      "name": "社会",
+      "nameEn": "Social"
+    },
+    {
+      "id": "governance",
+      "name": "治理",
+      "nameEn": "Governance"
+    }
+  ],
+  "themes": [
+    {
+      "id": "climate-change",
+      "pillar": "environmental",
+      "name": "气候变化",
+      "nameEn": "Climate Change"
+    },
+    {
+      "id": "natural-capital",
+      "pillar": "environmental",
+      "name": "自然资本",
+      "nameEn": "Natural Capital"
+    },
+    {
+      "id": "pollution-waste",
+      "pillar": "environmental",
+      "name": "污染与废弃物",
+      "nameEn": "Pollution & Waste"
+    },
+    {
+      "id": "environmental-opportunities",
+      "pillar": "environmental",
+      "name": "环境机遇",
+      "nameEn": "Environmental Opportunities"
+    },
+    {
+      "id": "human-capital",
+      "pillar": "social",
+      "name": "人力资本",
+      "nameEn": "Human Capital"
+    },
+    {
+      "id": "product-liability",
+      "pillar": "social",
+      "name": "产品责任",
+      "nameEn": "Product Liability"
+    },
+    {
+      "id": "stakeholder-opposition",
+      "pillar": "social",
+      "name": "利益相关方阻力",
+      "nameEn": "Stakeholder Opposition"
+    },
+    {
+      "id": "social-opportunities",
+      "pillar": "social",
+      "name": "社会机遇",
+      "nameEn": "Social Opportunities"
+    },
+    {
+      "id": "corporate-governance",
+      "pillar": "governance",
+      "name": "公司治理",
+      "nameEn": "Corporate Governance"
+    },
+    {
+      "id": "corporate-behavior",
+      "pillar": "governance",
+      "name": "企业行为",
+      "nameEn": "Corporate Behavior"
+    }
+  ]
+}

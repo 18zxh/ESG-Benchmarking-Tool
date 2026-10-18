@@ -1,0 +1,386 @@
+Appendix C2 Environmental, Social and Governance Reporting Code
+
+Part A: Introduction 
+The Code
+1.   This Environmental, Social and Governance Reporting Code comprises two levels of disclosure obligations: (a) mandatory disclosure requirements; and (b) “comply or explain” provisions.  
+2.   (1)Part B of this Code sets out the mandatory disclosure requirements that must be included in all issuers’ ESG reports. 
+ (2)Part C of this Code sets out the “comply or explain” provisions that all issuers are required to report in their ESG reports on a “comply or explain” basis.  
+ (3)
+Part D of this Code sets out disclosure requirements regarding climate-related risks to which an issuer is exposed to, and climate-related opportunities available to the company with reference to the following core pillars: 
+(a)   Governance – the governance process, controls and procedures an issuer uses to monitor, manage and oversee climate-related risks and opportunities; 
+(b)   Strategy – an issuer’s strategy for managing climate-related risks and opportunities; 
+(c)   Risk management – the process an issuer uses to identify, assess, prioritise and monitor climate-related risks and opportunities; and 
+(d)   Metrics and targets – the metrics and targets an issuer uses to understand its performance in relation to climate-related risks and opportunities, including progress towards any climate-related targets it has set, and any targets it is required to meet by law or regulation. 
+Issuers shall refer to Part D of this Code for the applicable disclosure obligation and contents to be disclosed in the ESG reports in respect of each core pillar set out above.  
+3.   An issuer must report on the “comply or explain” provisions of this Code. If the issuer does not report on one or more of these provisions, it must provide considered reasons in its ESG report. For guidance on the “comply or explain” approach, issuers may refer to the “What is “comply or explain”?” section of the Corporate Governance Code in Appendix C1 of the GEM Listing Rules. 
+4.   (1)   An issuer must publish its ESG report on an annual basis and regarding the same period covered in its annual report. An ESG report may be presented as information in the issuer’s annual report or in a separate report. Regardless of the format adopted, the ESG report must be published on the Exchange’s website and the issuer’s website. 
+ (2)   
+Where the ESG report does not form part of the issuer’s annual report: 
+(a)   To the extent permitted under all applicable laws and regulations, an issuer shall provide the ESG report to its shareholders using electronic means in accordance with and subject to the provisions set out in rule 16.04A. 
+(b)   [Repealed 31 December 2023] 
+(c)   [Repealed 31 December 2023] 
+(d)   The issuer shall publish the ESG report at the same time as the publication of the annual report.
+Overall Approach
+5.   This Code is organised into two ESG subject areas (“Subject Areas”): Environmental (Subject Area A) and Social (Subject Area B). Corporate governance is addressed separately in the Corporate Governance Code. 
+6.   Each Subject Area has various aspects (“Aspects”). Each Aspect sets out general disclosures (“General Disclosures”) and key performance indicators (“KPIs”) for issuers to report on in order to demonstrate how they have performed. 
+7.   In addition to the “comply or explain” matters set out in this Code, the Exchange encourages an issuer to identify and disclose additional ESG issues and KPIs that reflect the issuer’s significant environmental and social impacts; or substantially influence the assessments and decisions of stakeholders. In assessing these matters, the issuer should engage stakeholders on an ongoing basis in order to understand their views and better meet their expectations. 
+8.   This Code is not comprehensive and the issuer may refer to existing international ESG reporting guidance for its relevant industry or sector. The issuer may adopt international ESG reporting guidance, including the IFRS Sustainability Disclosure Standards, so long as it includes comparable disclosures to those required under this Code. ESG reports prepared in compliance with the IFRS S1 General Requirements for Disclosure of Sustainability-related Financial Information and IFRS S2 Climate-related Disclosures are considered to have complied with Part D of this Code. 
+9.   The issuer may seek independent assurance to strengthen the credibility of the ESG information disclosed. Where independent assurance is obtained, the issuer should describe the level, scope and processes adopted for the assurance given clearly in the ESG report. 
+10.   The board has overall responsibility for an issuer’s ESG strategy and reporting.
+Reporting Principles
+11.   
+The following Reporting Principles underpin the preparation of an ESG report, informing the content of the report and how information is presented. An issuer should follow these Reporting Principles in the preparation of an ESG report: 
+(1)   Materiality: The threshold at which ESG issues determined by the board are sufficiently important to investors and other stakeholders that they should be reported. For the purpose of Part D of this Code, an issuer must disclose information about climate-related risks and opportunities that could reasonably be expected to affect its cash flows, its access to finance or cost of capital over the short, medium or long term. 
+(2)   Quantitative: KPIs in respect of historical data need to be measurable. The issuer should set targets (which may be actual numerical figures or directional, forward-looking statements) to reduce a particular impact. In this way the effectiveness of ESG policies and management systems can be evaluated and validated. Quantitative information should be accompanied by a narrative, explaining its purpose, impacts, and giving comparative data where appropriate. 
+(3)   Balance: The ESG report should provide an unbiased picture of the issuer’s performance. The report should avoid selections, omissions, or presentation formats that may inappropriately influence a decision or judgment by the report reader. 
+(4)   Consistency: The issuer should use consistent methodologies to allow for meaningful comparisons of ESG data over time.
+Complementing ESG discussions in the Business Review Section of the Directors’ Report
+12.   
+Pursuant to rule 18.07A(2)(d), an issuer’s directors’ report for a financial year must contain a business review in accordance with Schedule 5 to the Companies Ordinance. The business review must include, to the extent necessary for an understanding of the development, performance or position of the issuer’s business: 
+(i)   a discussion of the issuer’s environmental (including climate-related) policies and performance; 
+(ii)   a discussion of the issuer’s compliance with the relevant laws and regulations that have a significant impact on the issuer; and 
+(iii)   an account of the issuer’s key relationships with its employees, customers and suppliers and others that have a significant impact on the issuer and on which the issuer’s success depends. 
+This Code should complement the content requirements of the directors’ report, as it calls for issuers to disclose information in respect of specific ESG areas.
+Part B: Mandatory Disclosure Requirements 
+This part sets out disclosure requirements that must be included in an issuer’s ESG report on a mandatory basis. 
+Governance Structure
+13.   
+A statement from the board containing the following elements: 
+(i)   a disclosure of the board’s oversight of ESG issues; 
+
+(ii)   the board’s ESG management approach and strategy, including the process used to evaluate, prioritise and manage material ESG-related issues (including risks to the issuer’s businesses); and 
+
+(iii)   how the board reviews progress made against ESG-related goals and targets with an explanation of how they relate to the issuer’s businesses.
+
+Reporting Principles
+14.   A description of, or an explanation on, the application of the following Reporting Principles in the preparation of the ESG report: Materiality: The ESG report should disclose: (i) the process to identify and the criteria for the selection of material ESG factors; (ii) if a stakeholder engagement is conducted, a description of significant stakeholders identified, and the process and results of the issuer’s stakeholder engagement. Quantitative: Information on the standards, methodologies, assumptions and/or calculation tools used, and source of conversion factors used, for the reporting of emissions/energy consumption (where applicable) should be disclosed. Consistency: The issuer should disclose in the ESG report any changes to the methods or KPIs used, or any other relevant factors affecting a meaningful comparison.
+Reporting Boundary
+15.   A narrative explaining the reporting boundaries of the ESG report and describing the process used to identify which entities or operations are included in the ESG report. If there is a change in the scope, the issuer should explain the difference and reason for the change. 
+Part C: “Comply or explain” Provisions 
+This part sets out provisions to be reported on by an issuer in the ESG report on a “comply or explain” basis. 
+Subject Areas, Aspects, General Disclosures and KPIs
+A. Environmental
+Aspect A1:Emissions
+General Disclosure
+Information on:
+(a)   the policies; and 
+(b)   compliance with relevant laws and regulations that have a significant impact on the issuer
+relating to air emissions, discharges into water and land, and generation of hazardous and non-hazardous waste.
+Note:     Air emissions include NOx, SOx, and other pollutants regulated under national laws and regulations.Hazardous wastes are those defined by national regulations. 
+KPI A1.1The types of emissions and respective emissions data. 
+KPI A1.2[Repealed 1 January 2025] 
+KPI A1.3Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). 
+KPI A1.4Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). 
+KPI A1.5Description of emission target(s) set and steps taken to achieve them. 
+KPI A1.6Description of how hazardous and non-hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. 
+Aspect A2:Use of ResourcesGeneral DisclosurePolicies on the efficient use of resources, including energy, water and other raw materials.Note: Resources may be used in production, in storage, transportation, in buildings, electronic equipment, etc. 
+KPI A2.1Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. per unit of production volume, per facility). 
+KPI A2.2Water consumption in total and intensity (e.g. per unit of production volume, per facility). 
+KPI A2.3Description of energy use efficiency target(s) set and steps taken to achieve them. 
+KPI A2.4Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. 
+KPI A2.5Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. 
+Aspect A3:The Environment and Natural ResourcesGeneral DisclosurePolicies on minimising the issuer's significant impacts on the environment and natural resources. 
+KPI A3.1Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. 
+Aspect A4:Climate ChangeGeneral DisclosurePolicies on identification and mitigation of significant climate-related issues which have impacted, and those which may impact, the issuer. 
+KPI A4.1Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. 
+B. Social
+Employment and Labour Practices
+Aspect B1:Employment
+General Disclosure
+Information on:
+(a)   the policies; and 
+(b)   compliance with relevant laws and regulations that have a significant impact on the issuer
+relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti-discrimination, and other benefits and welfare.
+KPI B1.1Total workforce by gender, employment type (for example, full- or part-time), age group and geographical region. 
+KPI B1.2Employee turnover rate by gender, age group and geographical region. 
+Aspect B2:Health and Safety
+General Disclosure
+Information on:
+(a)   the policies; and 
+(b)   compliance with relevant laws and regulations that have a significant impact on the issuer
+relating to providing a safe working environment and protecting employees from occupational hazards.
+KPI B2.1Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. 
+KPI B2.2Lost days due to work injury. 
+KPI B2.3Description of occupational health and safety measures adopted, and how they are implemented and monitored. 
+Aspect B3:Development and TrainingGeneral DisclosurePolicies on improving employees' knowledge and skills for discharging duties at work. Description of training activities.Note: Training refers to vocational training. It may include internal and external courses paid by the employer. 
+KPI B3.1The percentage of employees trained by gender and employee category (e.g. senior management, middle management). 
+KPI B3.2The average training hours completed per employee by gender and employee category. 
+Aspect B4:Labour Standards
+General Disclosure
+Information on:
+(a)   the policies; and 
+(b)   compliance with relevant laws and regulations that have a significant impact on the issuer
+relating to preventing child and forced labour.
+KPI B4.1Description of measures to review employment practices to avoid child and forced labour. 
+KPI B4.2Description of steps taken to eliminate such practices when discovered. 
+Operating Practices
+Aspect B5:Supply Chain ManagementGeneral DisclosurePolicies on managing environmental and social risks of the supply chain. 
+KPI B5.1Number of suppliers by geographical region. 
+KPI B5.2Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, and how they are implemented and monitored. 
+KPI B5.3Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored. 
+KPI B5.4Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. 
+Aspect B6:Product Responsibility
+General Disclosure
+Information on:
+(a)   the policies; and 
+(b)   compliance with relevant laws and regulations that have a significant impact on the issuer
+relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress.
+KPI B6.1Percentage of total products sold or shipped subject to recalls for safety and health reasons. 
+KPI B6.2Number of products and service related complaints received and how they are dealt with. 
+KPI B6.3Description of practices relating to observing and protecting intellectual property rights. 
+KPI B6.4Description of quality assurance process and recall procedures. 
+KPI B6.5Description of consumer data protection and privacy policies, and how they are implemented and monitored. 
+Aspect B7:Anti-corruption
+General Disclosure
+Information on:
+(a)   the policies; and 
+(b)   compliance with relevant laws and regulations that have a significant impact on the issuer
+relating to bribery, extortion, fraud and money laundering.
+KPI B7.1Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the reporting period and the outcomes of the cases. 
+KPI B7.2Description of preventive measures and whistle-blowing procedures, and how they are implemented and monitored. 
+KPI B7.3Description of anti-corruption training provided to directors and staff. 
+Community
+Aspect B8:Community InvestmentGeneral DisclosurePolicies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests. 
+KPI B8.1Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport). 
+KPI B8.2Resources contributed (e.g. money or time) to the focus area.
+ 
+
+Part D: Climate-related Disclosures 
+
+Disclosure Obligation 
+16.Subject to paragraph 17, an issuer is encouraged to report on the climate-related disclosures set out in this part in the ESG report on a voluntary basis. 
+17.An issuer shall disclose its Scope 1 greenhouse gas emissions and Scope 2 greenhouse gas emissions pursuant to paragraphs 28(a), 28(b) and 29 on a mandatory basis. 
+
+Definitions and Guidance 
+18.
+(1)In this part, unless otherwise specified, terms in bold and italics shall have the meaning ascribed to them in Appendix A of the IFRS S2 Climate-related Disclosures. 
+(2)When preparing disclosures pursuant to the provisions of this part, issuers should refer to (i) the application guidance set out in Appendix B of the IFRS S2 Climate-related Disclosures; and (ii) implementation guidance issued by the Exchange on the Exchange’s website, as amended from time to time. 
+
+Climate-related Disclosures 
+
+(I) Governance 
+19.
+An issuer shall disclose information about: 
+(a)the governance body(s) (which can include a board, committee or equivalent body charged with governance) or individual(s) responsible for oversight of climate-related risks and opportunities. Specifically, the issuer shall identify that body(s) or individual(s) and disclose information about: 
+Note:    
+The responsibilities of such body(s) or individual(s) should be reflected in the terms of reference, mandates, role descriptions and other related policies applicable to that body(s) or individual(s). 
+(i)how the body(s) or individual(s) determines whether appropriate skills and competencies are available or will be developed to oversee strategies designed to respond to climate-related risks and opportunities; 
+(ii)how and how often the body(s) or individual(s) is informed about climate-related risks and opportunities; 
+(iii)how the body(s) or individual(s) takes into account climate-related risks and opportunities when overseeing the issuer’s strategy, its decisions on major transactions, and its risk management processes and related policies, including whether the body(s) or individual(s) has considered trade-offs associated with those risks and opportunities;  
+(iv)how the body(s) or individual(s) oversees the setting of, and monitors progress towards, targets related to climate-related risks and opportunities (see paragraphs 37 to 40), including whether and how related performance metrics are included in remuneration policies (see paragraph 35); and 
+(b)
+management’s role in the governance processes, controls and procedures used to monitor, manage and oversee climate-related risks and opportunities, including information about:  
+(i)whether the role is delegated to a specific management-level position or management-level committee and how oversight is exercised over that position or committee; and  
+(ii)whether management uses controls and procedures to support the oversight of climate-related risks and opportunities and, if so, how these controls and procedures are integrated with other internal functions. 
+Note:    In preparing disclosures to fulfil the requirements in this paragraph 19, an issuer shall avoid unnecessary duplication with disclosures made pursuant to paragraph 13 of this Code. For example, although an issuer shall provide the information required by this paragraph 19, if oversight of ESG-related (including climate-related) risks and opportunities is managed on an integrated basis, the issuer would avoid duplication by providing integrated governance disclosures instead of separate disclosures for each ESG-related risk and opportunity. 
+
+(II) Strategy 
+
+Climate-related risks and opportunities 
+20.
+An issuer shall disclose information to enable an understanding of climate-related risks and opportunities that could reasonably be expected to affect the issuer’s cash flows, its access to finance or cost of capital over the short, medium or long term. Specifically, the issuer shall:  
+(a)describe climate-related risks and opportunities that could reasonably be expected to affect the issuer’s cash flows, its access to finance or cost of capital over the short, medium or long term; 
+(b)explain, for each climate-related risk the issuer has identified, whether the issuer considers the risk to be a climate-related physical risk or climate-related transition risk;  
+(c)specify, for each climate-related risk and opportunity the issuer has identified, over which time horizons – short, medium or long term – the effects of each climate-related risk and opportunity could reasonably be expected to occur; and 
+(d)explain how the issuer defines ‘short term’, ‘medium term’ and ‘long term’ and how these definitions are linked to the planning horizons used by the issuer for strategic decision-making. 
+
+Notes: 
+1.
+In identifying the climate-related risks and opportunities pursuant to paragraph 20, an issuer: 
+(a)shall use all reasonable and supportable information that is available to it at the reporting date without undue cost or effort, including information about past events, current conditions and forecasts of future conditions; and  
+(b)is encouraged to refer to and consider the applicability of the industry-based disclosure topics defined in IFRS S2 Industry-based Guidance on implementing Climate-related Disclosures. 
+2.
+(a)If an issuer determines that disclosing information about a climate-related opportunity pursuant to any provision under this Part D is commercially sensitive in the limited circumstances set out in this note 2(b) below, the issuer is permitted to omit disclosure of such information. 
+(b)
+An issuer qualifies for the exemption specified in this note 2(a) above if, and only if: 
+(i)information about the climate-related opportunity is not already publicly available; 
+(ii)disclosure of that information could reasonably be expected to prejudice seriously the economic benefits the issuer would otherwise be able to realise in pursuing the opportunity; and 
+(iii)the issuer has determined that it is impossible to disclose that information in a manner - for example, at an aggregated level - that would enable the issuer to meet the objectives of the disclosure requirement without prejudicing seriously the economic benefits the issuer would otherwise be able to realise in pursuing the opportunity.  
+(c)
+If an issuer elects to use the exemption specified in this note 2(a) above, the issuer shall, for each item of information omitted:  
+(i)disclose the fact that it has used the exemption; and 
+(ii)reassess, at each reporting date, whether the information qualifies for the exemption. 
+
+Business model and value chain 
+21.
+An issuer shall disclose information that enables an understanding of the current and anticipated effects of climate-related risks and opportunities on the issuer’s business model and value chain. Specifically, the issuer shall disclose: 
+(a)a description of the current and anticipated effects of climate-related risks and opportunities on the issuer’s business model and value chain; and 
+(b)a description of where in the issuer’s business model and value chain climate-related risks and opportunities are concentrated (for example, geographical areas, facilities and types of assets). 
+Note:    An issuer shall use all reasonable and supportable information that is available to the issuer at the reporting date without undue cost or effort to determine the scope of its value chain, including its breadth and composition. 
+
+Strategy and decision-making 
+22.
+An issuer shall disclose information that enables an understanding of the effects of climate-related risks and opportunities on its strategy and decision-making. Specifically, the issuer shall disclose: 
+(a)
+information about how the issuer has responded to, and plans to respond to, climate-related risks and opportunities in its strategy and decision-making, including how the issuer plans to achieve any climate-related targets it has set and any targets it is required to meet by law or regulation. Specifically, the issuer shall disclose information about:  
+(i)current and anticipated changes to the issuer’s business model, including its resource allocation, to address climate-related risks and opportunities;  
+(ii)current and anticipated adaptation and mitigation efforts (whether direct or indirect);  
+(iii)any climate-related transition plan the issuer has (including information about key assumptions used in developing its transition plan, and dependencies on which the issuer’s transition plan relies), or an appropriate negative statement where the issuer does not have a climate-related transition plan;  
+(iv)how the issuer plans to achieve any climate-related targets (including any greenhouse gas emissions targets (if any)), described in accordance with paragraphs 37 to 40; and 
+(b)information about how the issuer is resourcing, and plans to resource, the activities disclosed in accordance with paragraph 22(a). 
+23.An issuer shall disclose information about the progress of plans disclosed in previous reporting periods in accordance with paragraph 22(a). 
+
+Financial position, financial performance and cash flows 
+
+Current financial effect 
+24.
+An issuer shall disclose qualitative and quantitative information about:  
+(a)how climate-related risks and opportunities have affected its financial position, financial performance and cash flows for the reporting period; and  
+(b)the climate-related risks and opportunities identified in paragraph 24(a) for which there is a significant risk of a material adjustment within the next annual reporting period to the carrying amounts of assets and liabilities reported in the related financial statements. 
+
+Notes: 
+1.Issuers should account for climate-related matters in the financial statements in accordance with the requirements under HKFRS, IFRS, CASBE or the alternative overseas financial reporting standard acceptable to the Exchange.  
+2.Where the quantitative information disclosed pursuant to paragraph 24 is not expressed as a line item in the financial statements, the issuer shall explain how such information is reflected in its financial statements (e.g. identifying the relevant financial item). 
+
+Anticipated financial effect 
+25.
+The issuer shall provide qualitative and quantitative disclosures about: 
+(a)
+how the issuer expects its financial position to change over the short, medium and long term, given its strategy to manage climate-related risks and opportunities, taking into consideration: 
+(i)its investment and disposal plans; and  
+(ii)its planned sources of funding to implement its strategy; and  
+(b)how the issuer expects its financial performance and cash flows to change over the short, medium and long term, given its strategy to manage climate-related risks and opportunities. 
+
+Notes: 
+1.In providing quantitative information about current or anticipated financial effects, an issuer may disclose a single amount or a range. 
+2.
+In preparing disclosures about the anticipated financial effects of a climate-related risk or opportunity, an issuer shall: 
+(a)use all reasonable and supportable information that is available to the issuer at the reporting date without undue cost or effort; and  
+(b)use an approach that is commensurate with the skills, capabilities and resources that are available to the issuer for preparing those disclosures. 
+3.
+An issuer need not provide quantitative information about the current or anticipated financial effects of a climate-related risk or opportunity if the issuer determines that:  
+(a)those effects are not separately identifiable; or  
+(b)the level of measurement uncertainty involved in estimating those effects is so high that the resulting quantitative information would not be useful.  
+4.In addition, an issuer need not provide quantitative information about the anticipated financial effects of a climate-related risk or opportunity if the issuer does not have the skills, capabilities or resources to provide that quantitative information.  
+5.
+If an issuer determines that it need not provide quantitative information about the current or anticipated financial effects of a climate-related risk or opportunity applying the criteria set out in note 3 or 4 above, the issuer shall:  
+(a)explain why it has not provided quantitative information;  
+(b)provide qualitative information about those financial effects, including identifying line items, totals and subtotals within the related financial statements that are likely to be affected, or have been affected, by that climate-related risk or opportunity; and  
+(c)provide quantitative information about the combined financial effects of that climate-related risk or opportunity with other climate-related risks or opportunities and other factors unless the issuer determines that quantitative information about the combined financial effects would not be useful.  
+
+Climate resilience 
+26.
+An issuer shall disclose information that enables an understanding of the resilience of the issuer’s strategy and business model to climate-related changes, developments and uncertainties, taking into consideration the issuer’s identified climate-related risks and opportunities. An issuer shall use climate-related scenario analysis to assess its climate resilience using an approach that is commensurate with an issuer’s circumstances. In providing quantitative information, the issuer may disclose a single amount or a range. Specifically, the issuer shall disclose: 
+(a)
+the issuer’s assessment of its climate resilience as at the reporting date, which shall enable an understanding of: 
+(i)the implications, if any, of the issuer’s assessment for its strategy and business model, including how the issuer would need to respond to the effects identified in the climate-related scenario analysis;  
+(ii)the significant areas of uncertainty considered in the issuer’s assessment of its climate resilience; and 
+(iii)the issuer’s capacity to adjust, or adapt its strategy and business model to climate change over the short, medium or long term; 
+(b)
+how and when the climate-related scenario analysis was carried out, including: 
+(i)
+information about the inputs used, including: 
+(1)which climate-related scenarios the issuer used for the analysis and the sources of such scenarios; 
+(2)whether the analysis included a diverse range of climate-related scenarios; 
+(3)whether the climate-related scenarios used for the analysis are associated with climate-related transition risks or climate-related physical risks; 
+(4)whether the issuer used, among its scenarios, a climate-related scenario aligned with the latest international agreement on climate change; 
+(5)why the issuer decided that its chosen climate-related scenarios are relevant to assessing its resilience to climate-related changes, developments or uncertainties; 
+(6)time horizons the issuer used in the analysis; and 
+(7)what scope of operations the issuer used in the analysis (for example, the operation, locations and business units used in the analysis);  
+(ii)the key assumptions the issuer made in the analysis; and 
+(iii)the reporting period in which the climate-related scenario analysis was carried out. 
+Note:    An issuer shall determine an approach to climate-related scenario analysis that enables it to consider all reasonable and supportable information that is available to the issuer at the reporting date without undue cost or effort. The determination of the approach shall be informed by the assessments of the issuer’s exposure to climate-related risks and opportunities and its available skills, capabilities and resources.  
+
+(III) Risk Management 
+27.
+An issuer shall disclose information about: 
+(a)
+the processes and related policies it uses to identify, assess, prioritise and monitor climate-related risks, including information about: 
+(i)the inputs and parameters the issuer uses (for example, information about data sources and the scope of operations covered in the processes); 
+(ii)whether and how the issuer uses climate-related scenario analysis to inform its identification of climate-related risks;  
+(iii)how the issuer assesses the nature, likelihood and magnitude of the effects of those risks (for example, whether the issuer considers qualitative factors, quantitative thresholds or other criteria); 
+(iv)whether and how the issuer prioritises climate-related risks relative to other types of risks; 
+(v)how the issuer monitors climate-related risks; and 
+(vi)whether and how the issuer has changed the processes it uses compared with the previous reporting period; 
+(b)the processes the issuer uses to identify, assess, prioritise and monitor climate-related opportunities (including information about whether and how the issuer uses climate-related scenario analysis to inform its identification of climate-related opportunities); and 
+(c)the extent to which, and how, the processes for identifying, assessing, prioritising and monitoring climate-related risks and opportunities are integrated into and inform the issuer’s overall risk management process. 
+Note:    In preparing disclosures to meet the requirements in this paragraph 27, an issuer shall avoid unnecessary duplication with disclosures made pursuant to paragraphs 13(ii) and 14 (Materiality) of this Code. For example, although an issuer shall provide the information required by this paragraph 27, if oversight of ESG-related (including climate-related) risks and opportunities is managed on an integrated basis, the issuer would avoid duplication by providing integrated risk management disclosures instead of separate disclosures for each ESG-related risk and opportunity. 
+
+(IV) Metrics and Targets 
+
+Greenhouse gas emissions 
+28.
+An issuer shall disclose its absolute gross greenhouse gas emissions generated during the reporting period, expressed as metric tons of CO2 equivalent, classified as:  
+(a)Scope 1 greenhouse gas emissions;  
+(b)Scope 2 greenhouse gas emissions; and 
+(c)Scope 3 greenhouse gas emissions.  
+29.
+An issuer shall: 
+(a)measure its greenhouse gas emissions in accordance with the Greenhouse Gas Protocol: A Corporate Accounting and Reporting Standard (2004) unless required by a jurisdictional authority or another exchange on which the issuer is listed to use a different method for measuring greenhouse gas emissions;  
+(b)
+disclose the approach it uses to measure its greenhouse gas emissions including: 
+(i)the measurement approach, inputs and assumptions the issuer uses to measure its greenhouse gas emissions; 
+(ii)the reason why the issuer has chosen the measurement approach, inputs and assumptions it uses to measure its greenhouse gas emissions; and 
+(iii)any changes the issuer made to the measurement approach, inputs and assumptions during the reporting period and the reasons for those changes;  
+(c)for Scope 2 greenhouse gas emissions disclosed in accordance with paragraph 28(b), disclose its location-based Scope 2 greenhouse gas emissions, and provide information about any contractual instruments that is necessary to enable an understanding of the issuer’s Scope 2 greenhouse gas emissions; and 
+(d)for Scope 3 greenhouse gas emissions disclosed in accordance with paragraph 28(c), disclose the categories included within the issuer’s measure of Scope 3 greenhouse gas emissions, in accordance with the Scope 3 categories described in the Greenhouse Gas Protocol Corporate Value Chain (Scope 3) Accounting and Reporting Standard (2011). 
+
+Notes: 
+1.An issuer is required to use all reasonable and supportable information that is available to it at the reporting date without undue cost or effort when the issuer selects the measurement approach, inputs and assumptions it uses in measuring Scope 3 greenhouse gas emissions.  
+2.
+An issuer is permitted to measure its greenhouse gas emissions in accordance with paragraph 28 using information for reporting periods that are different from its own reporting period if that information is obtained from entities in its value chain with reporting periods that are different from the issuer’s reporting period, on the condition that: 
+(a)the issuer uses the most recent data available from those entities in its value chain without undue cost or effort to measure and disclose its greenhouse gas emissions; 
+(b)the length of the reporting periods is the same; and 
+(c)the issuer discloses the effects of significant events and changes in circumstances (relevant to its greenhouse gas emissions) that occur between the reporting dates of the entities in its value chain and the date of the issuer’s ESG report. 
+3.Where an issuer’s activities include asset management, commercial banking or insurance, the issuer is encouraged to disclose additional information about the issuer’s Category 15 greenhouse gas emissions or those associated with its investments (financed emissions). 
+
+Climate-related transition risks 
+30.An issuer shall disclose the amount and percentage of assets or business activities vulnerable to climate-related transition risks.  
+
+Climate-related physical risks 
+31.An issuer shall disclose the amount and percentage of assets or business activities vulnerable to climate-related physical risks.  
+
+Climate-related opportunities 
+32.An issuer shall disclose the amount and percentage of assets or business activities aligned with climate-related opportunities.  
+Note:In preparing disclosures to meet the requirements in paragraphs 30 to 32, an issuer shall use all reasonable and supportable information that is available to the issuer at the reporting date without undue cost or effort. 
+
+Capital deployment 
+33.An issuer shall disclose the amount of capital expenditure, financing or investment deployed towards climate-related risks and opportunities.  
+
+Internal carbon prices 
+34.
+An issuer shall disclose: 
+(a)an explanation of whether and how the issuer is applying a carbon price in decision-making (for example, investment decisions, transfer pricing, and scenario analysis); and 
+(b)the price of each metric tonne of greenhouse gas emissions the issuer uses to assess the costs of its greenhouse gas emissions; 
+ or an appropriate negative statement that the issuer does not apply a carbon price in decision-making.  
+
+Remuneration 
+35.An issuer shall disclose whether and how climate-related considerations are factored into remuneration policy, or an appropriate negative statement. This may form part of the disclosure under paragraph 19(a)(iv).  
+
+Industry-based metrics 
+36.An issuer is encouraged to disclose industry-based metrics that are associated with one or more particular business models, activities or other common features that characterise participation in an industry. In determining the industry-based metrics that the issuer discloses, an issuer is encouraged to refer to and consider the applicability of the industry-based metrics associated with disclosure topics described in IFRS S2 Industry-based Guidance on implementing Climate-related Disclosures and other industry-based disclosure requirements prescribed under other international ESG reporting frameworks.  
+
+Climate-related targets  
+37.
+An issuer shall disclose (a) the qualitative and quantitative climate-related targets the issuer has set to monitor progress towards achieving its strategic goals; and (b) any targets the issuer is required to meet by law or regulation, including any greenhouse gas emissions targets. For each target, the issuer shall disclose: 
+(a)the metric used to set the target; 
+(b)the objective of the target (for example, mitigation, adaptation or conformance with science-based initiatives); 
+(c)the part of the issuer to which the target applies (for example, whether the target applies to the issuer in its entirety or only a part of the issuer, such as a specific business unit or geographic region); 
+(d)the period over which the target applies; 
+(e)the base period from which progress is measured; 
+(f)milestones or interim targets (if any);  
+(g)if the target is quantitative, whether the target is an absolute target or an intensity target; and 
+(h)how the latest international agreement on climate change, including jurisdictional commitments that arise from that agreement, has informed the target. 
+Note:    Targets set may or may not be those set out under KPIs A1.5, A1.6, A2.3 and A2.4 of Part C of this Code. 
+38.
+An issuer shall disclose information about its approach to setting and reviewing each target, and how it monitors progress against each target, including: 
+(a)whether the target and the methodology for setting the target has been validated by a third party; 
+(b)the issuer’s processes for reviewing the target; 
+(c)the metrics used to monitor progress towards reaching the target; and  
+(d)any revisions to the target and an explanation for those revisions. 
+39.An issuer shall disclose information about its performance against each climate-related target and an analysis of trends or changes in the issuer’s performance.  
+40.
+For each greenhouse gas emissions target disclosed in accordance with paragraphs 37 to 39, an issuer shall disclose:  
+(a)which greenhouse gases are covered by the target;  
+(b)whether Scope 1, Scope 2 or Scope 3 greenhouse gas emissions are covered by the target;  
+(c)whether the target is a gross greenhouse gas emissions target or a net greenhouse gas emissions target. If the issuer discloses a net greenhouse gas emissions target, the issuer is also required to separately disclose its associated gross greenhouse gas emissions target; 
+(d)whether the target was derived using a sectoral decarbonisation approach; and 
+(e)
+the issuer’s planned use of carbon credits to offset greenhouse gas emissions to achieve any net greenhouse gas emissions target. In explaining its planned use of carbon credits, the issuer shall disclose:  
+(i)the extent to which, and how, achieving any net greenhouse gas emissions target relies on the use of carbon credits; 
+(ii)which third-party scheme(s) will verify or certify the carbon credits;  
+(iii)the type of carbon credit, including whether the underlying offset will be nature-based or based on technological carbon removals, and whether the underlying offset is achieved through carbon reduction or removal; and  
+(iv)any other factors necessary to enable an understanding of the credibility and integrity of the carbon credits the issuer plans to use (for example, assumptions regarding the permanence of the carbon offset).  
+
+Applicability of cross-industry metrics and industry-based metrics 
+41.In preparing disclosures to meet the requirements in paragraphs 21 to 26 and 37 to 38, an issuer shall refer to and consider the applicability of cross-industry metrics (see paragraphs 28 to 35) and (ii) industry-based metrics (see paragraph 36).

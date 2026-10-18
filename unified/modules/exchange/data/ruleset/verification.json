@@ -1,0 +1,2209 @@
+{
+  "version": "2024-05-01.20261015-v1",
+  "date": "2026-10-15",
+  "method": "模型从本地原文生成概述后，逐条重新对照完整条款进行语义核验；全量63行，不以脚本哈希代替语义审核。核验为开发核验，未替代用户验收。",
+  "topicChecks": [
+    {
+      "exchange": "sh",
+      "topicId": "climate",
+      "topicName": "应对气候变化",
+      "clause": "第二十一条至第二十八条",
+      "sourceArticles": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "sourceLines": [
+        214,
+        276
+      ],
+      "sourcePages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对第21—28条全部8条：四要素、适应性、转型、范围1/2及有条件鼓励范围3、核算及减排、碳机制和第28条研发口径；未把鼓励情景分析/核查改为强制。",
+      "requirementSha256": "5a25e2d699e65926751e494cfd2283787593f5ee6fd35e6d7b2b43f3d8c13f9b",
+      "sourceTextSha256": "eb7ad77541d77b01091e2927c317c8256acff2d5c64e6638c629d391ca0d8305"
+    },
+    {
+      "exchange": "sh",
+      "topicId": "pollutants",
+      "topicName": "污染物排放",
+      "clause": "第三十条",
+      "sourceArticles": [
+        30
+      ],
+      "sourceLines": [
+        286,
+        298
+      ],
+      "sourcePages": [
+        12,
+        13
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对5项及末款；保留公司或重要控股子公司进入环境信息依法披露企业名单的条件；其他主体仅鼓励参照。",
+      "requirementSha256": "6307e650694dcb9d1b4d3daf8bd5e30af5ee74a533e2f54524672118667eb90e",
+      "sourceTextSha256": "7dcaa383fa65b351251e68d9b2a2f0d3606cf7c0e3114a465cf74d8bcbfbd845"
+    },
+    {
+      "exchange": "sh",
+      "topicId": "waste",
+      "topicName": "废弃物处理",
+      "clause": "第三十一条",
+      "sourceArticles": [
+        31
+      ],
+      "sourceLines": [
+        300,
+        305
+      ],
+      "sourcePages": [
+        13
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对3项；保留对环境有重大影响条件，包含有害/无害总量、吨、密度、处置和目标措施。",
+      "requirementSha256": "d6f13ac34ec47fc0e90390f21353e8dbedcfd6b9658f4896e313a5b3f134646b",
+      "sourceTextSha256": "5aa2375ddca63c828d47ed91074b6fec56645b77ecea0b8a6c75e8a7eb254f7e"
+    },
+    {
+      "exchange": "sh",
+      "topicId": "biodiversity",
+      "topicName": "生态系统和生物多样性保护",
+      "clause": "第三十二条",
+      "sourceArticles": [
+        32
+      ],
+      "sourceLines": [
+        307,
+        318
+      ],
+      "sourcePages": [
+        13
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对5项；保留重大影响条件、红线及敏感区域、物种栖息地、生物遗传资源和产品全生命周期影响依赖。",
+      "requirementSha256": "dddd10deaebd2bbd7c80cba437d99f5fe10174e6e9989749b12cb47b0310c054",
+      "sourceTextSha256": "04b0764feb99cb97387d421f4f7035110611ae4cf835a0751bd1935ec190900f"
+    },
+    {
+      "exchange": "sh",
+      "topicId": "environment_compliance",
+      "topicName": "环境合规管理",
+      "clause": "第三十三条",
+      "sourceArticles": [
+        33
+      ],
+      "sourceLines": [
+        320,
+        328
+      ],
+      "sourcePages": [
+        14
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对3项；风险预案、重大环境事件时间等级影响整改、重大行政处罚或刑事责任均覆盖。",
+      "requirementSha256": "8bf8bf2ea256fda94310930be6f01cc6355e6fa92e5e957c83d6d959ddd432db",
+      "sourceTextSha256": "c958497516e68f7385d360dd80ff856e08e6ed01879380b4774afa7bf07cb651"
+    },
+    {
+      "exchange": "sh",
+      "topicId": "energy",
+      "topicName": "能源利用",
+      "clause": "第三十五条",
+      "sourceArticles": [
+        35
+      ],
+      "sourceLines": [
+        337,
+        346
+      ],
+      "sourcePages": [
+        14,
+        15
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对3项；直接/间接能源、吨标准煤总量结构强度、清洁能源、节能目标措施及困难均覆盖。",
+      "requirementSha256": "d6a5ef4cb176749e224580ec316c2a24ad958f564b61f63b0e5929ef593dc5cf",
+      "sourceTextSha256": "a01eb7567245fbdd34b3a1a9c7f48dd89262438368f4cf1c9de43bc06b29a4ef"
+    },
+    {
+      "exchange": "sh",
+      "topicId": "water",
+      "topicName": "水资源利用",
+      "clause": "第三十六条",
+      "sourceArticles": [
+        36
+      ],
+      "sourceLines": [
+        348,
+        353
+      ],
+      "sourcePages": [
+        15
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对2项；总耗水量及吨、强度、节水目标措施、回收利用与困难均覆盖。",
+      "requirementSha256": "6595449dab862707928c71dfeace2d892e735c16350751fa0d716fe997759d7b",
+      "sourceTextSha256": "ce7159ce752fd73e7fefe01452123f537a78b422708f45d9926e1ea4f0848de1"
+    },
+    {
+      "exchange": "sh",
+      "topicId": "circular_economy",
+      "topicName": "循环经济",
+      "clause": "第三十七条",
+      "sourceArticles": [
+        37
+      ],
+      "sourceLines": [
+        355,
+        363
+      ],
+      "sourcePages": [
+        15
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对3项；目标计划、资源节约再生及废弃物管理措施、回收综合利用量及再生资源消耗占比均覆盖。",
+      "requirementSha256": "eb669eb6f76f02a1cf0f0f59a9f094b10bc7a3672674322d8664edeed67f64d0",
+      "sourceTextSha256": "0f50b7c33d1f82debab16518a06565d037f1843b50be2b5bba7960f3c23f4be1"
+    },
+    {
+      "exchange": "sh",
+      "topicId": "rural_revitalization",
+      "topicName": "乡村振兴",
+      "clause": "第三十九条",
+      "sourceArticles": [
+        39
+      ],
+      "sourceLines": [
+        375,
+        384
+      ],
+      "sourcePages": [
+        16
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对3项；业务占比较高条件只修饰融入战略；支持措施及投入、惠及群体和品牌业务影响均覆盖。",
+      "requirementSha256": "da15020da5b33d096692d1f37322111578b833ffcd8a9ea81eba0b29d7e616af",
+      "sourceTextSha256": "3ed2020935a13aa5501f776ac46d7d1ffa7f58b12a2b16df8e7f91620d5deac7"
+    },
+    {
+      "exchange": "sh",
+      "topicId": "social_contribution",
+      "topicName": "社会贡献",
+      "clause": "第四十条",
+      "sourceArticles": [
+        40
+      ],
+      "sourceLines": [
+        386,
+        388
+      ],
+      "sourcePages": [
+        16
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对公益慈善志愿活动、资金人员时间、成效和品牌业务影响；未增添慈善最低投入等要求。",
+      "requirementSha256": "b2b7ac751584fb0618d9d817dc1369b21d33de68029ab3e9ab25ef640c26e848",
+      "sourceTextSha256": "04376bd74c9ffef4b1f773c421dae14e1af8ca1a79e275c3954627449bce6d15"
+    },
+    {
+      "exchange": "sh",
+      "topicId": "innovation",
+      "topicName": "创新驱动",
+      "clause": "第四十二条",
+      "sourceArticles": [
+        42
+      ],
+      "sourceLines": [
+        397,
+        409
+      ],
+      "sourcePages": [
+        17
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对4项及前提；“鼓励自愿”保留，安全/秘密限制保留，目标涉及金额时的资金筹措保障保留。",
+      "requirementSha256": "69e08ebf3f608f0b0bc59b5385f2c9c7a73e9b53366d741dd9ea6a79b5ab2a53",
+      "sourceTextSha256": "15f56aaaa0bfc6e97d716bcdfdbce8130501bc2dc2a5647ba3befe1f8acd4515"
+    },
+    {
+      "exchange": "sh",
+      "topicId": "technology_ethics",
+      "topicName": "科技伦理",
+      "clause": "第四十三条",
+      "sourceArticles": [
+        43
+      ],
+      "sourceLines": [
+        411,
+        420
+      ],
+      "sourcePages": [
+        17,
+        18
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对4项；以伦理敏感领域活动为条件，包含制度委员会、违规调查追责整改及培训宣传。",
+      "requirementSha256": "ec9c58ec64cfc95a68d015f33337cc0ae5ca7036cb04b06cb616b25c42a24376",
+      "sourceTextSha256": "5c28ed23c19019f317c8d1047739959e237c1707da12a56a24f472b3e794eb15"
+    },
+    {
+      "exchange": "sh",
+      "topicId": "supply_chain",
+      "topicName": "供应链安全",
+      "clause": "第四十五条",
+      "sourceArticles": [
+        45
+      ],
+      "sourceLines": [
+        428,
+        435
+      ],
+      "sourcePages": [
+        18
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对2项及末款；风险目标应对与效果、并购科技措施为披露内容，可持续供应链行动为鼓励。",
+      "requirementSha256": "963a3a4cae808554569dd90763e97377ea86b38f90e28e02f91f4ddf98f5b87a",
+      "sourceTextSha256": "579917f1d21e11e0e7c5d92a393a4d4a1cb04d26e1343c16cc528e90b8b91ea5"
+    },
+    {
+      "exchange": "sh",
+      "topicId": "sme_fair",
+      "topicName": "平等对待中小企业",
+      "clause": "第四十六条（超过300亿元或占总资产的比重超过50%）",
+      "sourceArticles": [
+        46
+      ],
+      "sourceLines": [
+        437,
+        444
+      ],
+      "sourcePages": [
+        18
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对3款；余额包含应付票据且严格“超过”；首款门槛与第二款公示情形分别成立，均保留解决方案。",
+      "requirementSha256": "2c5fdc0446922126ca0394fa696f9fb111439affbf4a5e417222f44e605979e0",
+      "sourceTextSha256": "2cd2d7ab190566d6ed9d9bad673a2a800fe1193bd21a8a6e4524f17af9ad43d4"
+    },
+    {
+      "exchange": "sh",
+      "topicId": "product_quality",
+      "topicName": "产品和服务安全与质量",
+      "clause": "第四十七条",
+      "sourceArticles": [
+        47
+      ],
+      "sourceLines": [
+        446,
+        457
+      ],
+      "sourcePages": [
+        19
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对4项及末款；制度认证、重大责任事故、召回售后及投诉覆盖，特定行业可获得性为鼓励。",
+      "requirementSha256": "ffad79fb93e03cb9ef3588fecbd37a769dab8876d676b61ef1588b35699cd9b2",
+      "sourceTextSha256": "5ebf959a84bee6624c57ebeb5fa624cf0f30bd6aefba90939d72aa4cb8400171"
+    },
+    {
+      "exchange": "sh",
+      "topicId": "data_privacy",
+      "topicName": "数据安全与客户隐私保护",
+      "clause": "第四十八条",
+      "sourceArticles": [
+        48
+      ],
+      "sourceLines": [
+        459,
+        467
+      ],
+      "sourcePages": [
+        19
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对4项；数据安全和客户隐私制度及事件分别覆盖，事件披露保留“如有”条件。",
+      "requirementSha256": "d67b28632336fa40aba04dc7a84ed317d4e988c4384e34849fbbbe8e4a879cf1",
+      "sourceTextSha256": "f98b62b52a635801e170fa415d52b98a21f70c64ee7ff70d51fec5bd62e602d5"
+    },
+    {
+      "exchange": "sh",
+      "topicId": "employees",
+      "topicName": "员工",
+      "clause": "第五十条",
+      "sourceArticles": [
+        50
+      ],
+      "sourceLines": [
+        476,
+        488
+      ],
+      "sourcePages": [
+        20
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对3项；聘用待遇及灵活就业权益、健康安全保险投入覆盖、职业发展培训投入覆盖均覆盖。",
+      "requirementSha256": "a5d918d0e94727c14b4836a9e50aca7018e98d36e2b48f69bd83a91e1e413c8d",
+      "sourceTextSha256": "752fbed2f74d7ed51ec40abcc464207aa74674ecbc243e572d92fe02b3e01908"
+    },
+    {
+      "exchange": "sh",
+      "topicId": "due_diligence",
+      "topicName": "尽职调查",
+      "clause": "第五十二条",
+      "sourceArticles": [
+        52
+      ],
+      "sourceLines": [
+        500,
+        503
+      ],
+      "sourcePages": [
+        21
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对鼓励性全文；责任机构人员、范围、识别程序、应对情况均覆盖，默认勾选不改为强制义务。",
+      "requirementSha256": "be6e927a0dc5adab1b8be3b1c9ef945a3209e55df29749770e5538803abbb1c0",
+      "sourceTextSha256": "68047fb3d87a41527fa8e10bbd188863845150447d00874da33330edfdf10efb"
+    },
+    {
+      "exchange": "sh",
+      "topicId": "stakeholder_communication",
+      "topicName": "利益相关方沟通",
+      "clause": "第五十三条",
+      "sourceArticles": [
+        53
+      ],
+      "sourceLines": [
+        505,
+        509
+      ],
+      "sourcePages": [
+        21
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对2项；投资者等利益相关方、制度、意见反馈渠道及沟通方式频率内容均覆盖。",
+      "requirementSha256": "2a99f55ffb25454656c970d6d2e158c8885e172c94e5188e611c63abadda61a2",
+      "sourceTextSha256": "2b2b858cf14bcb59651a4de2b54fc2fc94eac21ba2ca7a22d37d43b08aac91eb"
+    },
+    {
+      "exchange": "sh",
+      "topicId": "anti_bribery",
+      "topicName": "反商业贿赂及反贪污",
+      "clause": "第五十五条",
+      "sourceArticles": [
+        55
+      ],
+      "sourceLines": [
+        519,
+        529
+      ],
+      "sourcePages": [
+        21,
+        22
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对4项；制度及举报保护、风险评估、培训总数及百分比、事件调查处分合同诉讼均覆盖。",
+      "requirementSha256": "6732202e812750c85ba02eec7cb8cffbd5a3dee1e884547e4b2b26e53605f7e3",
+      "sourceTextSha256": "543a94dc45bbde2eb78e8ac0da065a66f664e8f6fb8960652ccda2f5310733b3"
+    },
+    {
+      "exchange": "sh",
+      "topicId": "anti_unfair_competition",
+      "topicName": "反不正当竞争",
+      "clause": "第五十六条",
+      "sourceArticles": [
+        56
+      ],
+      "sourceLines": [
+        531,
+        536
+      ],
+      "sourcePages": [
+        22
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对2项；防范虚假宣传垄断商业秘密制度措施、相关诉讼/重大行政处罚及整改均覆盖。",
+      "requirementSha256": "8113f29934fa20b2fb7dd741c57cd45d5cb350d4bd6a627ecf4aae610eddb0d6",
+      "sourceTextSha256": "89c9457bc6bd8eede8d3964b36b7c2830c8020d910accada049b21a7d6cd8ae9"
+    },
+    {
+      "exchange": "sz",
+      "topicId": "climate",
+      "topicName": "应对气候变化",
+      "clause": "第二十一条至第二十八条",
+      "sourceArticles": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "sourceLines": [
+        215,
+        277
+      ],
+      "sourcePages": [
+        10,
+        11,
+        12
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对第21—28条全部8条：四要素、适应性、转型、范围1/2及有条件鼓励范围3、核算及减排、碳机制和第28条研发口径；未把鼓励情景分析/核查改为强制。",
+      "requirementSha256": "5a25e2d699e65926751e494cfd2283787593f5ee6fd35e6d7b2b43f3d8c13f9b",
+      "sourceTextSha256": "eb7ad77541d77b01091e2927c317c8256acff2d5c64e6638c629d391ca0d8305"
+    },
+    {
+      "exchange": "sz",
+      "topicId": "pollutants",
+      "topicName": "污染物排放",
+      "clause": "第三十条",
+      "sourceArticles": [
+        30
+      ],
+      "sourceLines": [
+        287,
+        299
+      ],
+      "sourcePages": [
+        13
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对5项及末款；保留公司或重要控股子公司进入环境信息依法披露企业名单的条件；其他主体仅鼓励参照。",
+      "requirementSha256": "6307e650694dcb9d1b4d3daf8bd5e30af5ee74a533e2f54524672118667eb90e",
+      "sourceTextSha256": "7dcaa383fa65b351251e68d9b2a2f0d3606cf7c0e3114a465cf74d8bcbfbd845"
+    },
+    {
+      "exchange": "sz",
+      "topicId": "waste",
+      "topicName": "废弃物处理",
+      "clause": "第三十一条",
+      "sourceArticles": [
+        31
+      ],
+      "sourceLines": [
+        301,
+        306
+      ],
+      "sourcePages": [
+        13,
+        14
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对3项；保留对环境有重大影响条件，包含有害/无害总量、吨、密度、处置和目标措施。",
+      "requirementSha256": "d6f13ac34ec47fc0e90390f21353e8dbedcfd6b9658f4896e313a5b3f134646b",
+      "sourceTextSha256": "5aa2375ddca63c828d47ed91074b6fec56645b77ecea0b8a6c75e8a7eb254f7e"
+    },
+    {
+      "exchange": "sz",
+      "topicId": "biodiversity",
+      "topicName": "生态系统和生物多样性保护",
+      "clause": "第三十二条",
+      "sourceArticles": [
+        32
+      ],
+      "sourceLines": [
+        308,
+        319
+      ],
+      "sourcePages": [
+        14
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对5项；保留重大影响条件、红线及敏感区域、物种栖息地、生物遗传资源和产品全生命周期影响依赖。",
+      "requirementSha256": "dddd10deaebd2bbd7c80cba437d99f5fe10174e6e9989749b12cb47b0310c054",
+      "sourceTextSha256": "04b0764feb99cb97387d421f4f7035110611ae4cf835a0751bd1935ec190900f"
+    },
+    {
+      "exchange": "sz",
+      "topicId": "environment_compliance",
+      "topicName": "环境合规管理",
+      "clause": "第三十三条",
+      "sourceArticles": [
+        33
+      ],
+      "sourceLines": [
+        321,
+        329
+      ],
+      "sourcePages": [
+        14,
+        15
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对3项；风险预案、重大环境事件时间等级影响整改、重大行政处罚或刑事责任均覆盖。",
+      "requirementSha256": "8bf8bf2ea256fda94310930be6f01cc6355e6fa92e5e957c83d6d959ddd432db",
+      "sourceTextSha256": "c958497516e68f7385d360dd80ff856e08e6ed01879380b4774afa7bf07cb651"
+    },
+    {
+      "exchange": "sz",
+      "topicId": "energy",
+      "topicName": "能源利用",
+      "clause": "第三十五条",
+      "sourceArticles": [
+        35
+      ],
+      "sourceLines": [
+        338,
+        347
+      ],
+      "sourcePages": [
+        15
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对3项；直接/间接能源、吨标准煤总量结构强度、清洁能源、节能目标措施及困难均覆盖。",
+      "requirementSha256": "d6a5ef4cb176749e224580ec316c2a24ad958f564b61f63b0e5929ef593dc5cf",
+      "sourceTextSha256": "a01eb7567245fbdd34b3a1a9c7f48dd89262438368f4cf1c9de43bc06b29a4ef"
+    },
+    {
+      "exchange": "sz",
+      "topicId": "water",
+      "topicName": "水资源利用",
+      "clause": "第三十六条",
+      "sourceArticles": [
+        36
+      ],
+      "sourceLines": [
+        349,
+        354
+      ],
+      "sourcePages": [
+        15,
+        16
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对2项；总耗水量及吨、强度、节水目标措施、回收利用与困难均覆盖。",
+      "requirementSha256": "6595449dab862707928c71dfeace2d892e735c16350751fa0d716fe997759d7b",
+      "sourceTextSha256": "ce7159ce752fd73e7fefe01452123f537a78b422708f45d9926e1ea4f0848de1"
+    },
+    {
+      "exchange": "sz",
+      "topicId": "circular_economy",
+      "topicName": "循环经济",
+      "clause": "第三十七条",
+      "sourceArticles": [
+        37
+      ],
+      "sourceLines": [
+        356,
+        364
+      ],
+      "sourcePages": [
+        16
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对3项；目标计划、资源节约再生及废弃物管理措施、回收综合利用量及再生资源消耗占比均覆盖。",
+      "requirementSha256": "eb669eb6f76f02a1cf0f0f59a9f094b10bc7a3672674322d8664edeed67f64d0",
+      "sourceTextSha256": "0f50b7c33d1f82debab16518a06565d037f1843b50be2b5bba7960f3c23f4be1"
+    },
+    {
+      "exchange": "sz",
+      "topicId": "rural_revitalization",
+      "topicName": "乡村振兴",
+      "clause": "第三十九条",
+      "sourceArticles": [
+        39
+      ],
+      "sourceLines": [
+        376,
+        385
+      ],
+      "sourcePages": [
+        16,
+        17
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对3项；业务占比较高条件只修饰融入战略；支持措施及投入、惠及群体和品牌业务影响均覆盖。",
+      "requirementSha256": "da15020da5b33d096692d1f37322111578b833ffcd8a9ea81eba0b29d7e616af",
+      "sourceTextSha256": "3ed2020935a13aa5501f776ac46d7d1ffa7f58b12a2b16df8e7f91620d5deac7"
+    },
+    {
+      "exchange": "sz",
+      "topicId": "social_contribution",
+      "topicName": "社会贡献",
+      "clause": "第四十条",
+      "sourceArticles": [
+        40
+      ],
+      "sourceLines": [
+        387,
+        389
+      ],
+      "sourcePages": [
+        17
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对公益慈善志愿活动、资金人员时间、成效和品牌业务影响；未增添慈善最低投入等要求。",
+      "requirementSha256": "b2b7ac751584fb0618d9d817dc1369b21d33de68029ab3e9ab25ef640c26e848",
+      "sourceTextSha256": "04376bd74c9ffef4b1f773c421dae14e1af8ca1a79e275c3954627449bce6d15"
+    },
+    {
+      "exchange": "sz",
+      "topicId": "innovation",
+      "topicName": "创新驱动",
+      "clause": "第四十二条",
+      "sourceArticles": [
+        42
+      ],
+      "sourceLines": [
+        398,
+        410
+      ],
+      "sourcePages": [
+        17,
+        18
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对4项及前提；“鼓励自愿”保留，安全/秘密限制保留，目标涉及金额时的资金筹措保障保留。",
+      "requirementSha256": "69e08ebf3f608f0b0bc59b5385f2c9c7a73e9b53366d741dd9ea6a79b5ab2a53",
+      "sourceTextSha256": "15f56aaaa0bfc6e97d716bcdfdbce8130501bc2dc2a5647ba3befe1f8acd4515"
+    },
+    {
+      "exchange": "sz",
+      "topicId": "technology_ethics",
+      "topicName": "科技伦理",
+      "clause": "第四十三条",
+      "sourceArticles": [
+        43
+      ],
+      "sourceLines": [
+        412,
+        421
+      ],
+      "sourcePages": [
+        18
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对4项；以伦理敏感领域活动为条件，包含制度委员会、违规调查追责整改及培训宣传。",
+      "requirementSha256": "ec9c58ec64cfc95a68d015f33337cc0ae5ca7036cb04b06cb616b25c42a24376",
+      "sourceTextSha256": "5c28ed23c19019f317c8d1047739959e237c1707da12a56a24f472b3e794eb15"
+    },
+    {
+      "exchange": "sz",
+      "topicId": "supply_chain",
+      "topicName": "供应链安全",
+      "clause": "第四十五条",
+      "sourceArticles": [
+        45
+      ],
+      "sourceLines": [
+        429,
+        436
+      ],
+      "sourcePages": [
+        19
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对2项及末款；风险目标应对与效果、并购科技措施为披露内容，可持续供应链行动为鼓励。",
+      "requirementSha256": "963a3a4cae808554569dd90763e97377ea86b38f90e28e02f91f4ddf98f5b87a",
+      "sourceTextSha256": "579917f1d21e11e0e7c5d92a393a4d4a1cb04d26e1343c16cc528e90b8b91ea5"
+    },
+    {
+      "exchange": "sz",
+      "topicId": "sme_fair",
+      "topicName": "平等对待中小企业",
+      "clause": "第四十六条（超过300亿元或占总资产的比重超过50%）",
+      "sourceArticles": [
+        46
+      ],
+      "sourceLines": [
+        438,
+        445
+      ],
+      "sourcePages": [
+        19
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对3款；余额包含应付票据且严格“超过”；首款门槛与第二款公示情形分别成立，均保留解决方案。",
+      "requirementSha256": "2c5fdc0446922126ca0394fa696f9fb111439affbf4a5e417222f44e605979e0",
+      "sourceTextSha256": "2cd2d7ab190566d6ed9d9bad673a2a800fe1193bd21a8a6e4524f17af9ad43d4"
+    },
+    {
+      "exchange": "sz",
+      "topicId": "product_quality",
+      "topicName": "产品和服务安全与质量",
+      "clause": "第四十七条",
+      "sourceArticles": [
+        47
+      ],
+      "sourceLines": [
+        447,
+        458
+      ],
+      "sourcePages": [
+        19,
+        20
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对4项及末款；制度认证、重大责任事故、召回售后及投诉覆盖，特定行业可获得性为鼓励。",
+      "requirementSha256": "ffad79fb93e03cb9ef3588fecbd37a769dab8876d676b61ef1588b35699cd9b2",
+      "sourceTextSha256": "5ebf959a84bee6624c57ebeb5fa624cf0f30bd6aefba90939d72aa4cb8400171"
+    },
+    {
+      "exchange": "sz",
+      "topicId": "data_privacy",
+      "topicName": "数据安全与客户隐私保护",
+      "clause": "第四十八条",
+      "sourceArticles": [
+        48
+      ],
+      "sourceLines": [
+        460,
+        468
+      ],
+      "sourcePages": [
+        20
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对4项；数据安全和客户隐私制度及事件分别覆盖，事件披露保留“如有”条件。",
+      "requirementSha256": "d67b28632336fa40aba04dc7a84ed317d4e988c4384e34849fbbbe8e4a879cf1",
+      "sourceTextSha256": "f98b62b52a635801e170fa415d52b98a21f70c64ee7ff70d51fec5bd62e602d5"
+    },
+    {
+      "exchange": "sz",
+      "topicId": "employees",
+      "topicName": "员工",
+      "clause": "第五十条",
+      "sourceArticles": [
+        50
+      ],
+      "sourceLines": [
+        477,
+        489
+      ],
+      "sourcePages": [
+        21
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对3项；聘用待遇及灵活就业权益、健康安全保险投入覆盖、职业发展培训投入覆盖均覆盖。",
+      "requirementSha256": "a5d918d0e94727c14b4836a9e50aca7018e98d36e2b48f69bd83a91e1e413c8d",
+      "sourceTextSha256": "752fbed2f74d7ed51ec40abcc464207aa74674ecbc243e572d92fe02b3e01908"
+    },
+    {
+      "exchange": "sz",
+      "topicId": "due_diligence",
+      "topicName": "尽职调查",
+      "clause": "第五十二条",
+      "sourceArticles": [
+        52
+      ],
+      "sourceLines": [
+        501,
+        504
+      ],
+      "sourcePages": [
+        22
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对鼓励性全文；责任机构人员、范围、识别程序、应对情况均覆盖，默认勾选不改为强制义务。",
+      "requirementSha256": "be6e927a0dc5adab1b8be3b1c9ef945a3209e55df29749770e5538803abbb1c0",
+      "sourceTextSha256": "68047fb3d87a41527fa8e10bbd188863845150447d00874da33330edfdf10efb"
+    },
+    {
+      "exchange": "sz",
+      "topicId": "stakeholder_communication",
+      "topicName": "利益相关方沟通",
+      "clause": "第五十三条",
+      "sourceArticles": [
+        53
+      ],
+      "sourceLines": [
+        506,
+        510
+      ],
+      "sourcePages": [
+        22
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对2项；投资者等利益相关方、制度、意见反馈渠道及沟通方式频率内容均覆盖。",
+      "requirementSha256": "2a99f55ffb25454656c970d6d2e158c8885e172c94e5188e611c63abadda61a2",
+      "sourceTextSha256": "2b2b858cf14bcb59651a4de2b54fc2fc94eac21ba2ca7a22d37d43b08aac91eb"
+    },
+    {
+      "exchange": "sz",
+      "topicId": "anti_bribery",
+      "topicName": "反商业贿赂及反贪污",
+      "clause": "第五十五条",
+      "sourceArticles": [
+        55
+      ],
+      "sourceLines": [
+        520,
+        530
+      ],
+      "sourcePages": [
+        22,
+        23
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对4项；制度及举报保护、风险评估、培训总数及百分比、事件调查处分合同诉讼均覆盖。",
+      "requirementSha256": "6732202e812750c85ba02eec7cb8cffbd5a3dee1e884547e4b2b26e53605f7e3",
+      "sourceTextSha256": "543a94dc45bbde2eb78e8ac0da065a66f664e8f6fb8960652ccda2f5310733b3"
+    },
+    {
+      "exchange": "sz",
+      "topicId": "anti_unfair_competition",
+      "topicName": "反不正当竞争",
+      "clause": "第五十六条",
+      "sourceArticles": [
+        56
+      ],
+      "sourceLines": [
+        532,
+        537
+      ],
+      "sourcePages": [
+        23
+      ],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对2项；防范虚假宣传垄断商业秘密制度措施、相关诉讼/重大行政处罚及整改均覆盖。",
+      "requirementSha256": "8113f29934fa20b2fb7dd741c57cd45d5cb350d4bd6a627ecf4aae610eddb0d6",
+      "sourceTextSha256": "89c9457bc6bd8eede8d3964b36b7c2830c8020d910accada049b21a7d6cd8ae9"
+    },
+    {
+      "exchange": "bj",
+      "topicId": "climate",
+      "topicName": "应对气候变化",
+      "clause": "第二十一条至第二十八条",
+      "sourceArticles": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "sourceLines": [
+        98,
+        128
+      ],
+      "sourcePages": [],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对第21—28条全部8条：四要素、适应性、转型、范围1/2及有条件鼓励范围3、核算及减排、碳机制和第28条研发口径；未把鼓励情景分析/核查改为强制。",
+      "requirementSha256": "8ba47e86f8934839dd032ebb62f65f77c0a66c7e3317d9dd292cc54243749a5b",
+      "sourceTextSha256": "cee66344ab84849db88f48466c0bc29ed832f8f7a87d5fbc4f87c75d35e5705e"
+    },
+    {
+      "exchange": "bj",
+      "topicId": "pollutants",
+      "topicName": "污染物排放",
+      "clause": "第三十条",
+      "sourceArticles": [
+        30
+      ],
+      "sourceLines": [
+        135,
+        141
+      ],
+      "sourcePages": [],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对5项及末款；保留公司或重要控股子公司进入环境信息依法披露企业名单的条件；其他主体仅鼓励参照。",
+      "requirementSha256": "6307e650694dcb9d1b4d3daf8bd5e30af5ee74a533e2f54524672118667eb90e",
+      "sourceTextSha256": "2c7b7799e21458e4dfe4060b250cb7e2878e37d2e18f754a6807e4f9bf461464"
+    },
+    {
+      "exchange": "bj",
+      "topicId": "waste",
+      "topicName": "废弃物处理",
+      "clause": "第三十一条",
+      "sourceArticles": [
+        31
+      ],
+      "sourceLines": [
+        143,
+        146
+      ],
+      "sourcePages": [],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对3项；保留对环境有重大影响条件，包含有害/无害总量、吨、密度、处置和目标措施。",
+      "requirementSha256": "d6f13ac34ec47fc0e90390f21353e8dbedcfd6b9658f4896e313a5b3f134646b",
+      "sourceTextSha256": "5aa2375ddca63c828d47ed91074b6fec56645b77ecea0b8a6c75e8a7eb254f7e"
+    },
+    {
+      "exchange": "bj",
+      "topicId": "biodiversity",
+      "topicName": "生态系统和生物多样性保护",
+      "clause": "第三十二条",
+      "sourceArticles": [
+        32
+      ],
+      "sourceLines": [
+        148,
+        153
+      ],
+      "sourcePages": [],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对5项；保留重大影响条件、红线及敏感区域、物种栖息地、生物遗传资源和产品全生命周期影响依赖。",
+      "requirementSha256": "dddd10deaebd2bbd7c80cba437d99f5fe10174e6e9989749b12cb47b0310c054",
+      "sourceTextSha256": "cf22e55133973333be0ddc1771ef80650a9ed98cc317935dc4b1ab03ab113543"
+    },
+    {
+      "exchange": "bj",
+      "topicId": "environment_compliance",
+      "topicName": "环境合规管理",
+      "clause": "第三十三条",
+      "sourceArticles": [
+        33
+      ],
+      "sourceLines": [
+        155,
+        158
+      ],
+      "sourcePages": [],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对3项；风险预案、重大环境事件时间等级影响整改、重大行政处罚或刑事责任均覆盖。",
+      "requirementSha256": "8bf8bf2ea256fda94310930be6f01cc6355e6fa92e5e957c83d6d959ddd432db",
+      "sourceTextSha256": "c958497516e68f7385d360dd80ff856e08e6ed01879380b4774afa7bf07cb651"
+    },
+    {
+      "exchange": "bj",
+      "topicId": "energy",
+      "topicName": "能源利用",
+      "clause": "第三十五条",
+      "sourceArticles": [
+        35
+      ],
+      "sourceLines": [
+        165,
+        168
+      ],
+      "sourcePages": [],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对3项；直接/间接能源、吨标准煤总量结构强度、清洁能源、节能目标措施及困难均覆盖。",
+      "requirementSha256": "d6a5ef4cb176749e224580ec316c2a24ad958f564b61f63b0e5929ef593dc5cf",
+      "sourceTextSha256": "a01eb7567245fbdd34b3a1a9c7f48dd89262438368f4cf1c9de43bc06b29a4ef"
+    },
+    {
+      "exchange": "bj",
+      "topicId": "water",
+      "topicName": "水资源利用",
+      "clause": "第三十六条",
+      "sourceArticles": [
+        36
+      ],
+      "sourceLines": [
+        170,
+        172
+      ],
+      "sourcePages": [],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对2项；总耗水量及吨、强度、节水目标措施、回收利用与困难均覆盖。",
+      "requirementSha256": "6595449dab862707928c71dfeace2d892e735c16350751fa0d716fe997759d7b",
+      "sourceTextSha256": "ce7159ce752fd73e7fefe01452123f537a78b422708f45d9926e1ea4f0848de1"
+    },
+    {
+      "exchange": "bj",
+      "topicId": "circular_economy",
+      "topicName": "循环经济",
+      "clause": "第三十七条",
+      "sourceArticles": [
+        37
+      ],
+      "sourceLines": [
+        174,
+        177
+      ],
+      "sourcePages": [],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对3项；目标计划、资源节约再生及废弃物管理措施、回收综合利用量及再生资源消耗占比均覆盖。",
+      "requirementSha256": "eb669eb6f76f02a1cf0f0f59a9f094b10bc7a3672674322d8664edeed67f64d0",
+      "sourceTextSha256": "417adc3871ba2a8ae508c75be581cfebf2b37b6d504411e85da30bd6953e7c10"
+    },
+    {
+      "exchange": "bj",
+      "topicId": "rural_revitalization",
+      "topicName": "乡村振兴",
+      "clause": "第三十九条",
+      "sourceArticles": [
+        39
+      ],
+      "sourceLines": [
+        187,
+        190
+      ],
+      "sourcePages": [],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对3项；业务占比较高条件只修饰融入战略；支持措施及投入、惠及群体和品牌业务影响均覆盖。",
+      "requirementSha256": "da15020da5b33d096692d1f37322111578b833ffcd8a9ea81eba0b29d7e616af",
+      "sourceTextSha256": "e3039ede215965f2cc8beedb9e9cecd9ae5f6a10c5b8c6031233173a459ed0db"
+    },
+    {
+      "exchange": "bj",
+      "topicId": "social_contribution",
+      "topicName": "社会贡献",
+      "clause": "第四十条",
+      "sourceArticles": [
+        40
+      ],
+      "sourceLines": [
+        192,
+        192
+      ],
+      "sourcePages": [],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对公益慈善志愿活动、资金人员时间、成效和品牌业务影响；未增添慈善最低投入等要求。",
+      "requirementSha256": "b2b7ac751584fb0618d9d817dc1369b21d33de68029ab3e9ab25ef640c26e848",
+      "sourceTextSha256": "04376bd74c9ffef4b1f773c421dae14e1af8ca1a79e275c3954627449bce6d15"
+    },
+    {
+      "exchange": "bj",
+      "topicId": "innovation",
+      "topicName": "创新驱动",
+      "clause": "第四十二条",
+      "sourceArticles": [
+        42
+      ],
+      "sourceLines": [
+        199,
+        203
+      ],
+      "sourcePages": [],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对4项及前提；“鼓励自愿”保留，安全/秘密限制保留，目标涉及金额时的资金筹措保障保留。",
+      "requirementSha256": "69e08ebf3f608f0b0bc59b5385f2c9c7a73e9b53366d741dd9ea6a79b5ab2a53",
+      "sourceTextSha256": "15f56aaaa0bfc6e97d716bcdfdbce8130501bc2dc2a5647ba3befe1f8acd4515"
+    },
+    {
+      "exchange": "bj",
+      "topicId": "technology_ethics",
+      "topicName": "科技伦理",
+      "clause": "第四十三条",
+      "sourceArticles": [
+        43
+      ],
+      "sourceLines": [
+        205,
+        209
+      ],
+      "sourcePages": [],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对4项；以伦理敏感领域活动为条件，包含制度委员会、违规调查追责整改及培训宣传。",
+      "requirementSha256": "ec9c58ec64cfc95a68d015f33337cc0ae5ca7036cb04b06cb616b25c42a24376",
+      "sourceTextSha256": "43827bf820c45c72a5ead41ee40bee4f698ce614f5007817b165f91d27b984d0"
+    },
+    {
+      "exchange": "bj",
+      "topicId": "supply_chain",
+      "topicName": "供应链安全",
+      "clause": "第四十五条",
+      "sourceArticles": [
+        45
+      ],
+      "sourceLines": [
+        216,
+        219
+      ],
+      "sourcePages": [],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对2项及末款；风险目标应对与效果、并购科技措施为披露内容，可持续供应链行动为鼓励。",
+      "requirementSha256": "963a3a4cae808554569dd90763e97377ea86b38f90e28e02f91f4ddf98f5b87a",
+      "sourceTextSha256": "579917f1d21e11e0e7c5d92a393a4d4a1cb04d26e1343c16cc528e90b8b91ea5"
+    },
+    {
+      "exchange": "bj",
+      "topicId": "sme_fair",
+      "topicName": "平等对待中小企业",
+      "clause": "第四十六条（占总资产的比重超过50%）",
+      "sourceArticles": [
+        46
+      ],
+      "sourceLines": [
+        221,
+        223
+      ],
+      "sourcePages": [],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对3款；余额包含应付票据且严格“超过”；首款门槛与第二款公示情形分别成立，均保留解决方案。",
+      "requirementSha256": "b9f3d2aeeef7951526cfd6e4baf8d829287cb5c48b714403b0a6d34493f1a296",
+      "sourceTextSha256": "59ef7ac91b588302d09db47e5d115d91ebb50888531394c35fdf4ac8fa2e82b7"
+    },
+    {
+      "exchange": "bj",
+      "topicId": "product_quality",
+      "topicName": "产品和服务安全与质量",
+      "clause": "第四十七条",
+      "sourceArticles": [
+        47
+      ],
+      "sourceLines": [
+        225,
+        230
+      ],
+      "sourcePages": [],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对4项及末款；制度认证、重大责任事故、召回售后及投诉覆盖，特定行业可获得性为鼓励。",
+      "requirementSha256": "ffad79fb93e03cb9ef3588fecbd37a769dab8876d676b61ef1588b35699cd9b2",
+      "sourceTextSha256": "8e8335c17ff6ec6d063039bb0e70b1740d46e608fc0eb111968b7ae928dfb81b"
+    },
+    {
+      "exchange": "bj",
+      "topicId": "data_privacy",
+      "topicName": "数据安全与客户隐私保护",
+      "clause": "第四十八条",
+      "sourceArticles": [
+        48
+      ],
+      "sourceLines": [
+        232,
+        236
+      ],
+      "sourcePages": [],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对4项；数据安全和客户隐私制度及事件分别覆盖，事件披露保留“如有”条件。",
+      "requirementSha256": "d67b28632336fa40aba04dc7a84ed317d4e988c4384e34849fbbbe8e4a879cf1",
+      "sourceTextSha256": "6865e4a47f1cf92d97ca53ad03045da4ba96457ad14000070d05b87182ab82db"
+    },
+    {
+      "exchange": "bj",
+      "topicId": "employees",
+      "topicName": "员工",
+      "clause": "第五十条",
+      "sourceArticles": [
+        50
+      ],
+      "sourceLines": [
+        243,
+        246
+      ],
+      "sourcePages": [],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对3项；聘用待遇及灵活就业权益、健康安全保险投入覆盖、职业发展培训投入覆盖均覆盖。",
+      "requirementSha256": "a5d918d0e94727c14b4836a9e50aca7018e98d36e2b48f69bd83a91e1e413c8d",
+      "sourceTextSha256": "a42bd1e7b2d25fe3589cd9d5555f6fd36c7d299d821d7c77e6ac2e1db3a70aec"
+    },
+    {
+      "exchange": "bj",
+      "topicId": "due_diligence",
+      "topicName": "尽职调查",
+      "clause": "第五十二条",
+      "sourceArticles": [
+        52
+      ],
+      "sourceLines": [
+        256,
+        256
+      ],
+      "sourcePages": [],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对鼓励性全文；责任机构人员、范围、识别程序、应对情况均覆盖，默认勾选不改为强制义务。",
+      "requirementSha256": "be6e927a0dc5adab1b8be3b1c9ef945a3209e55df29749770e5538803abbb1c0",
+      "sourceTextSha256": "55cbbe11872ca0abdb764e0ce8878b2473100d4c53a7eb5d8c5e017966f0a52e"
+    },
+    {
+      "exchange": "bj",
+      "topicId": "stakeholder_communication",
+      "topicName": "利益相关方沟通",
+      "clause": "第五十三条",
+      "sourceArticles": [
+        53
+      ],
+      "sourceLines": [
+        258,
+        260
+      ],
+      "sourcePages": [],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对2项；投资者等利益相关方、制度、意见反馈渠道及沟通方式频率内容均覆盖。",
+      "requirementSha256": "2a99f55ffb25454656c970d6d2e158c8885e172c94e5188e611c63abadda61a2",
+      "sourceTextSha256": "2b2b858cf14bcb59651a4de2b54fc2fc94eac21ba2ca7a22d37d43b08aac91eb"
+    },
+    {
+      "exchange": "bj",
+      "topicId": "anti_bribery",
+      "topicName": "反商业贿赂及反贪污",
+      "clause": "第五十五条",
+      "sourceArticles": [
+        55
+      ],
+      "sourceLines": [
+        267,
+        271
+      ],
+      "sourcePages": [],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对4项；制度及举报保护、风险评估、培训总数及百分比、事件调查处分合同诉讼均覆盖。",
+      "requirementSha256": "6732202e812750c85ba02eec7cb8cffbd5a3dee1e884547e4b2b26e53605f7e3",
+      "sourceTextSha256": "b231cbbec9b515ef1fa2d006d947a7a1bda9dd71fdb0e1d9dc28dc7feb885dd7"
+    },
+    {
+      "exchange": "bj",
+      "topicId": "anti_unfair_competition",
+      "topicName": "反不正当竞争",
+      "clause": "第五十六条",
+      "sourceArticles": [
+        56
+      ],
+      "sourceLines": [
+        273,
+        275
+      ],
+      "sourcePages": [],
+      "clauseVerdict": "通过：对应条文确实管辖本议题",
+      "requirementVerdict": "通过：对照完整条款逐项核对，条件及鼓励/应当口径保留",
+      "reviewNote": "核对2项；防范虚假宣传垄断商业秘密制度措施、相关诉讼/重大行政处罚及整改均覆盖。",
+      "requirementSha256": "8113f29934fa20b2fb7dd741c57cd45d5cb350d4bd6a627ecf4aae610eddb0d6",
+      "sourceTextSha256": "9a038942c639d8085592f2fdea65ae418450c6075fbcf3ddb7a7f9ecf466204b"
+    }
+  ],
+  "issues": [
+    {
+      "id": "SRC-BJ-ANNEX",
+      "kind": "来源限制",
+      "finding": "北交所第59条提及附表，但本地DOCX无表格、Markdown亦未包含该附表。",
+      "handling": "21个同名议题按对应条款正文逐项核对；参考沪深索引确定产品统一顺序，不声称看过北交所官方附表。",
+      "status": "已记录，不伪造缺失来源"
+    },
+    {
+      "id": "SRC-BJ-PAGES",
+      "kind": "来源限制",
+      "finding": "北交所原件为DOCX，物理页随排版环境变化。",
+      "handling": "sourcePages保持空数组，以第N条及Markdown实际行号定位，不编造PDF页码。",
+      "status": "已记录"
+    },
+    {
+      "id": "SRC-SH-INDEX",
+      "kind": "来源抽取",
+      "finding": "沪深Markdown索引存在换行/维度字词拆散；深交所起草说明Markdown末尾被截断。",
+      "handling": "沪PDF第27、28页及深PDF第29、30页渲染核对完整21行索引；仅将188条完整规则正文入fulltext，未将截断的起草说明称作全文。",
+      "status": "已用原件核对索引；原文件保留"
+    },
+    {
+      "id": "PRD-DEADLINE",
+      "kind": "PRD简化口径",
+      "finding": "PRD共性表写“每年4月30日前”，第4条原文为“每个会计年度结束后4个月内”，还要求董事会审议及不早于年报。",
+      "handling": "知识数据以原文期限为主，12月31日年结的4月30日仅作对应解释。",
+      "status": "已修订派生数据，未改PRD原稿"
+    },
+    {
+      "id": "PRD-INDEX-MEMBERS",
+      "kind": "PRD条件补足",
+      "finding": "PRD披露主体表简写指数样本，未每处重复“整个报告期内持续被纳入”。",
+      "handling": "披露属性及差异行补足完整报告期条件，避免扩大指数公司范围。",
+      "status": "已补足派生数据"
+    },
+    {
+      "id": "ANALYSIS-ARTICLE16",
+      "kind": "对比分析不精确",
+      "finding": "对比分析称北交所特别增加工作计划/进度/时间表；实际上沪深第16条也有，北交所差别是明确“定量披露”。",
+      "handling": "框架知识保留三所均有工作安排及北交所精确措辞，未沿用其独有性解释。",
+      "status": "已按原文更正派生说明"
+    },
+    {
+      "id": "PRD-CSR",
+      "kind": "条文措辞差别",
+      "finding": "上交所第60条为“按本指引规定披露或自愿披露”，深交所仅“按本指引规定披露”；北第60条为监管措施。",
+      "handling": "逐所保留措辞，CSR替代衔接与首个报告期缓释分别编列。",
+      "status": "已按原文逐所保留"
+    },
+    {
+      "id": "PRD-DIFF-SCOPE",
+      "kind": "PRD内部简写",
+      "finding": "PRD模块⑤-1说明称仅中小企业门槛不同，但模块⑤-2及第28条另有研发口径差异。",
+      "handling": "climate概述逐所保留“已取得/已具备”与“是否取得必要/是否已具备”。",
+      "status": "已按条文及PRD差异表同时保留"
+    }
+  ],
+  "originalBodyChecks": [
+    {
+      "exchange": "sh",
+      "originalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+      "method": "去除全部空白后，188条逐条全文精确子串匹配原始PDF文字层或DOCX document.xml文本；PyPDF2==3.0.1及标准库XML/ZIP",
+      "count": 63,
+      "matched": 63,
+      "results": [
+        {
+          "article": 1,
+          "matched": true
+        },
+        {
+          "article": 2,
+          "matched": true
+        },
+        {
+          "article": 3,
+          "matched": true
+        },
+        {
+          "article": 4,
+          "matched": true
+        },
+        {
+          "article": 5,
+          "matched": true
+        },
+        {
+          "article": 6,
+          "matched": true
+        },
+        {
+          "article": 7,
+          "matched": true
+        },
+        {
+          "article": 8,
+          "matched": true
+        },
+        {
+          "article": 9,
+          "matched": true
+        },
+        {
+          "article": 10,
+          "matched": true
+        },
+        {
+          "article": 11,
+          "matched": true
+        },
+        {
+          "article": 12,
+          "matched": true
+        },
+        {
+          "article": 13,
+          "matched": true
+        },
+        {
+          "article": 14,
+          "matched": true
+        },
+        {
+          "article": 15,
+          "matched": true
+        },
+        {
+          "article": 16,
+          "matched": true
+        },
+        {
+          "article": 17,
+          "matched": true
+        },
+        {
+          "article": 18,
+          "matched": true
+        },
+        {
+          "article": 19,
+          "matched": true
+        },
+        {
+          "article": 20,
+          "matched": true
+        },
+        {
+          "article": 21,
+          "matched": true
+        },
+        {
+          "article": 22,
+          "matched": true
+        },
+        {
+          "article": 23,
+          "matched": true
+        },
+        {
+          "article": 24,
+          "matched": true
+        },
+        {
+          "article": 25,
+          "matched": true
+        },
+        {
+          "article": 26,
+          "matched": true
+        },
+        {
+          "article": 27,
+          "matched": true
+        },
+        {
+          "article": 28,
+          "matched": true
+        },
+        {
+          "article": 29,
+          "matched": true
+        },
+        {
+          "article": 30,
+          "matched": true
+        },
+        {
+          "article": 31,
+          "matched": true
+        },
+        {
+          "article": 32,
+          "matched": true
+        },
+        {
+          "article": 33,
+          "matched": true
+        },
+        {
+          "article": 34,
+          "matched": true
+        },
+        {
+          "article": 35,
+          "matched": true
+        },
+        {
+          "article": 36,
+          "matched": true
+        },
+        {
+          "article": 37,
+          "matched": true
+        },
+        {
+          "article": 38,
+          "matched": true
+        },
+        {
+          "article": 39,
+          "matched": true
+        },
+        {
+          "article": 40,
+          "matched": true
+        },
+        {
+          "article": 41,
+          "matched": true
+        },
+        {
+          "article": 42,
+          "matched": true
+        },
+        {
+          "article": 43,
+          "matched": true
+        },
+        {
+          "article": 44,
+          "matched": true
+        },
+        {
+          "article": 45,
+          "matched": true
+        },
+        {
+          "article": 46,
+          "matched": true
+        },
+        {
+          "article": 47,
+          "matched": true
+        },
+        {
+          "article": 48,
+          "matched": true
+        },
+        {
+          "article": 49,
+          "matched": true
+        },
+        {
+          "article": 50,
+          "matched": true
+        },
+        {
+          "article": 51,
+          "matched": true
+        },
+        {
+          "article": 52,
+          "matched": true
+        },
+        {
+          "article": 53,
+          "matched": true
+        },
+        {
+          "article": 54,
+          "matched": true
+        },
+        {
+          "article": 55,
+          "matched": true
+        },
+        {
+          "article": 56,
+          "matched": true
+        },
+        {
+          "article": 57,
+          "matched": true
+        },
+        {
+          "article": 58,
+          "matched": true
+        },
+        {
+          "article": 59,
+          "matched": true
+        },
+        {
+          "article": 60,
+          "matched": true
+        },
+        {
+          "article": 61,
+          "matched": true
+        },
+        {
+          "article": 62,
+          "matched": true
+        },
+        {
+          "article": 63,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "exchange": "sz",
+      "originalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+      "method": "去除全部空白后，188条逐条全文精确子串匹配原始PDF文字层或DOCX document.xml文本；PyPDF2==3.0.1及标准库XML/ZIP",
+      "count": 63,
+      "matched": 63,
+      "results": [
+        {
+          "article": 1,
+          "matched": true
+        },
+        {
+          "article": 2,
+          "matched": true
+        },
+        {
+          "article": 3,
+          "matched": true
+        },
+        {
+          "article": 4,
+          "matched": true
+        },
+        {
+          "article": 5,
+          "matched": true
+        },
+        {
+          "article": 6,
+          "matched": true
+        },
+        {
+          "article": 7,
+          "matched": true
+        },
+        {
+          "article": 8,
+          "matched": true
+        },
+        {
+          "article": 9,
+          "matched": true
+        },
+        {
+          "article": 10,
+          "matched": true
+        },
+        {
+          "article": 11,
+          "matched": true
+        },
+        {
+          "article": 12,
+          "matched": true
+        },
+        {
+          "article": 13,
+          "matched": true
+        },
+        {
+          "article": 14,
+          "matched": true
+        },
+        {
+          "article": 15,
+          "matched": true
+        },
+        {
+          "article": 16,
+          "matched": true
+        },
+        {
+          "article": 17,
+          "matched": true
+        },
+        {
+          "article": 18,
+          "matched": true
+        },
+        {
+          "article": 19,
+          "matched": true
+        },
+        {
+          "article": 20,
+          "matched": true
+        },
+        {
+          "article": 21,
+          "matched": true
+        },
+        {
+          "article": 22,
+          "matched": true
+        },
+        {
+          "article": 23,
+          "matched": true
+        },
+        {
+          "article": 24,
+          "matched": true
+        },
+        {
+          "article": 25,
+          "matched": true
+        },
+        {
+          "article": 26,
+          "matched": true
+        },
+        {
+          "article": 27,
+          "matched": true
+        },
+        {
+          "article": 28,
+          "matched": true
+        },
+        {
+          "article": 29,
+          "matched": true
+        },
+        {
+          "article": 30,
+          "matched": true
+        },
+        {
+          "article": 31,
+          "matched": true
+        },
+        {
+          "article": 32,
+          "matched": true
+        },
+        {
+          "article": 33,
+          "matched": true
+        },
+        {
+          "article": 34,
+          "matched": true
+        },
+        {
+          "article": 35,
+          "matched": true
+        },
+        {
+          "article": 36,
+          "matched": true
+        },
+        {
+          "article": 37,
+          "matched": true
+        },
+        {
+          "article": 38,
+          "matched": true
+        },
+        {
+          "article": 39,
+          "matched": true
+        },
+        {
+          "article": 40,
+          "matched": true
+        },
+        {
+          "article": 41,
+          "matched": true
+        },
+        {
+          "article": 42,
+          "matched": true
+        },
+        {
+          "article": 43,
+          "matched": true
+        },
+        {
+          "article": 44,
+          "matched": true
+        },
+        {
+          "article": 45,
+          "matched": true
+        },
+        {
+          "article": 46,
+          "matched": true
+        },
+        {
+          "article": 47,
+          "matched": true
+        },
+        {
+          "article": 48,
+          "matched": true
+        },
+        {
+          "article": 49,
+          "matched": true
+        },
+        {
+          "article": 50,
+          "matched": true
+        },
+        {
+          "article": 51,
+          "matched": true
+        },
+        {
+          "article": 52,
+          "matched": true
+        },
+        {
+          "article": 53,
+          "matched": true
+        },
+        {
+          "article": 54,
+          "matched": true
+        },
+        {
+          "article": 55,
+          "matched": true
+        },
+        {
+          "article": 56,
+          "matched": true
+        },
+        {
+          "article": 57,
+          "matched": true
+        },
+        {
+          "article": 58,
+          "matched": true
+        },
+        {
+          "article": 59,
+          "matched": true
+        },
+        {
+          "article": 60,
+          "matched": true
+        },
+        {
+          "article": 61,
+          "matched": true
+        },
+        {
+          "article": 62,
+          "matched": true
+        },
+        {
+          "article": 63,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "exchange": "bj",
+      "originalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+      "method": "去除全部空白后，188条逐条全文精确子串匹配原始PDF文字层或DOCX document.xml文本；PyPDF2==3.0.1及标准库XML/ZIP",
+      "count": 62,
+      "matched": 62,
+      "results": [
+        {
+          "article": 1,
+          "matched": true
+        },
+        {
+          "article": 2,
+          "matched": true
+        },
+        {
+          "article": 3,
+          "matched": true
+        },
+        {
+          "article": 4,
+          "matched": true
+        },
+        {
+          "article": 5,
+          "matched": true
+        },
+        {
+          "article": 6,
+          "matched": true
+        },
+        {
+          "article": 7,
+          "matched": true
+        },
+        {
+          "article": 8,
+          "matched": true
+        },
+        {
+          "article": 9,
+          "matched": true
+        },
+        {
+          "article": 10,
+          "matched": true
+        },
+        {
+          "article": 11,
+          "matched": true
+        },
+        {
+          "article": 12,
+          "matched": true
+        },
+        {
+          "article": 13,
+          "matched": true
+        },
+        {
+          "article": 14,
+          "matched": true
+        },
+        {
+          "article": 15,
+          "matched": true
+        },
+        {
+          "article": 16,
+          "matched": true
+        },
+        {
+          "article": 17,
+          "matched": true
+        },
+        {
+          "article": 18,
+          "matched": true
+        },
+        {
+          "article": 19,
+          "matched": true
+        },
+        {
+          "article": 20,
+          "matched": true
+        },
+        {
+          "article": 21,
+          "matched": true
+        },
+        {
+          "article": 22,
+          "matched": true
+        },
+        {
+          "article": 23,
+          "matched": true
+        },
+        {
+          "article": 24,
+          "matched": true
+        },
+        {
+          "article": 25,
+          "matched": true
+        },
+        {
+          "article": 26,
+          "matched": true
+        },
+        {
+          "article": 27,
+          "matched": true
+        },
+        {
+          "article": 28,
+          "matched": true
+        },
+        {
+          "article": 29,
+          "matched": true
+        },
+        {
+          "article": 30,
+          "matched": true
+        },
+        {
+          "article": 31,
+          "matched": true
+        },
+        {
+          "article": 32,
+          "matched": true
+        },
+        {
+          "article": 33,
+          "matched": true
+        },
+        {
+          "article": 34,
+          "matched": true
+        },
+        {
+          "article": 35,
+          "matched": true
+        },
+        {
+          "article": 36,
+          "matched": true
+        },
+        {
+          "article": 37,
+          "matched": true
+        },
+        {
+          "article": 38,
+          "matched": true
+        },
+        {
+          "article": 39,
+          "matched": true
+        },
+        {
+          "article": 40,
+          "matched": true
+        },
+        {
+          "article": 41,
+          "matched": true
+        },
+        {
+          "article": 42,
+          "matched": true
+        },
+        {
+          "article": 43,
+          "matched": true
+        },
+        {
+          "article": 44,
+          "matched": true
+        },
+        {
+          "article": 45,
+          "matched": true
+        },
+        {
+          "article": 46,
+          "matched": true
+        },
+        {
+          "article": 47,
+          "matched": true
+        },
+        {
+          "article": 48,
+          "matched": true
+        },
+        {
+          "article": 49,
+          "matched": true
+        },
+        {
+          "article": 50,
+          "matched": true
+        },
+        {
+          "article": 51,
+          "matched": true
+        },
+        {
+          "article": 52,
+          "matched": true
+        },
+        {
+          "article": 53,
+          "matched": true
+        },
+        {
+          "article": 54,
+          "matched": true
+        },
+        {
+          "article": 55,
+          "matched": true
+        },
+        {
+          "article": 56,
+          "matched": true
+        },
+        {
+          "article": 57,
+          "matched": true
+        },
+        {
+          "article": 58,
+          "matched": true
+        },
+        {
+          "article": 59,
+          "matched": true
+        },
+        {
+          "article": 60,
+          "matched": true
+        },
+        {
+          "article": 61,
+          "matched": true
+        },
+        {
+          "article": 62,
+          "matched": true
+        }
+      ]
+    }
+  ],
+  "automatedValidation": {
+    "command": ".venv/bin/python pipeline/validate_rulesets.py --self-test --json",
+    "exitCode": 0,
+    "errorCount": 0,
+    "warnings": [],
+    "rounds": [
+      {
+        "step": "B5",
+        "name": "第1轮结构",
+        "errors": 0,
+        "status": "通过"
+      },
+      {
+        "step": "B6",
+        "name": "第2轮条款与批准文案",
+        "errors": 0,
+        "status": "通过"
+      },
+      {
+        "step": "B7",
+        "name": "第3轮三所交叉",
+        "errors": 0,
+        "status": "通过"
+      },
+      {
+        "step": "B8",
+        "name": "第4轮差异共性",
+        "errors": 0,
+        "status": "通过"
+      },
+      {
+        "step": "B12",
+        "name": "第5轮知识一致性",
+        "errors": 0,
+        "status": "通过"
+      }
+    ],
+    "mutationDetectedField": "topics[0].dimension",
+    "mutationSourceUntouched": true,
+    "dynamicTopics": [
+      "climate",
+      "sme_fair",
+      "anti_unfair_competition"
+    ]
+  }
+}

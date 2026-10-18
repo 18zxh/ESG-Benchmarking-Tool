@@ -1,0 +1,2634 @@
+{
+  "schema": 1,
+  "date": "2026-10-18",
+  "modules": {
+    "csa": {
+      "repository": "18zxh/CSA_ESG_Workbench",
+      "commit": "c143905fbca9e24d13780d40b3a2b3985bd5efee",
+      "files": [
+        {
+          "path": ".gitignore",
+          "gitBlob": "e5c020c9d5ae643f3baa144d381d3c5e9b938bbc",
+          "sha256": "49698c992570d4552a724a55a6bbe2d7a43ee31522cdd47f362cbeb563d0c615",
+          "bytes": 578
+        },
+        {
+          "path": "README.md",
+          "gitBlob": "f00a8f1a34603fa00f4996cb69ab54a39f8bd9ff",
+          "sha256": "582bd78a85a44206f2e62489dcb27dcd2ee1ae84b273201cdb85848c066af847",
+          "bytes": 5883
+        },
+        {
+          "path": "docs/ARCHITECTURE.md",
+          "gitBlob": "30442af008b052bce85e30424da53ae4e56be690",
+          "sha256": "2c54b678b4690cffdb0d773b7d955d4a7201bc9a1e53198cde2236a6dd688dc4",
+          "bytes": 10938
+        },
+        {
+          "path": "docs/CSA-精简问题库.xlsx",
+          "gitBlob": "ea23153fa60bea0c3eca52e39db58e1fa8498396",
+          "sha256": "2dec1f770f74a25ba776152a7cb3e2eb51bce43a874fe37368caad997e21441d",
+          "bytes": 859999
+        },
+        {
+          "path": "docs/HANDOFF.md",
+          "gitBlob": "7bedd6bbdd978bb495b96caa5462944c4731a02f",
+          "sha256": "b6240001289dcc2d174bae19653a57aec765750fe467af176bb4d71e33c77495",
+          "bytes": 5644
+        },
+        {
+          "path": "docs/RELEASE-V1.json",
+          "gitBlob": "b1ae7a36a8daf27c3f7eb6e35c52176c4d4de1ea",
+          "sha256": "a80e47e5a8b53552fba5469044996d76fd9b98bbfc5e20fb276031c58c1d7ca3",
+          "bytes": 41390
+        },
+        {
+          "path": "docs/RUNTIME.md",
+          "gitBlob": "1aa16b1ac5bf6ea27f3f95f344634b7b1b65f8d0",
+          "sha256": "3d03785b8f7fe77d5ead397f24f515be56e50bc2f18f94b0af212d67e666972d",
+          "bytes": 3591
+        },
+        {
+          "path": "docs/WORKBENCH-PIPELINE-REUSE.md",
+          "gitBlob": "5f2d6969c3505bef3ccc9a3badd30aed51d26b31",
+          "sha256": "d44c586aa84944a78a16ff9cfe78f3e596cc7d63f54c1c3f36b11bb5d566a47d",
+          "bytes": 8251
+        },
+        {
+          "path": "pipeline/bin/pdf-converter-macos-arm64",
+          "gitBlob": "c0dc8a19776128a840c6e6a4ae001b6a59731912",
+          "sha256": "74bbd1061a482b9d329e4375a44b19ca3b4c6eafd2a5cfefc0e50c1581f82ea6",
+          "bytes": 54584
+        },
+        {
+          "path": "pipeline/bin/pdf-converter-manifest.json",
+          "gitBlob": "fbaa739edc73bd0f9ac164995396e7ed456d6198",
+          "sha256": "21bf07ab9dec406fe8d41d7a0fca93c8f674a98da996b13bdd723311671f6560",
+          "bytes": 270
+        },
+        {
+          "path": "pipeline/csa_adapter.py",
+          "gitBlob": "39699edbf737905795bc9afafe6c2a9140faa643",
+          "sha256": "dde1366aa2ee8faaafe705ad8dd0b5c39569522b221064b1d7245a56edab5dbe",
+          "bytes": 4163
+        },
+        {
+          "path": "pipeline/errors.py",
+          "gitBlob": "e260014dc8e8b673975def566176f041b6240b60",
+          "sha256": "b8f87b69551501ca3c6ef7e29bdc539b19f5206afdee12ff2c10c44ea9ade6a2",
+          "bytes": 125
+        },
+        {
+          "path": "pipeline/model_proxy.py",
+          "gitBlob": "53d07d55fa94bbf8f6ea4573f9a94bde1409915b",
+          "sha256": "2daa91f9cb343354ff60f9e28cde1b0d990a038dd7eb8eaa8b7580d0eafc3f80",
+          "bytes": 39911
+        },
+        {
+          "path": "pipeline/native_pdf.py",
+          "gitBlob": "889c0ab320b33cb537e63a280899e13be39ff8fb",
+          "sha256": "a9cef9660428d8d20c7a12a1da8c0ce0518504e698c5c91f54c6e871e8f75a3c",
+          "bytes": 45756
+        },
+        {
+          "path": "pipeline/native_pdf_jobs.py",
+          "gitBlob": "bc22f057a72dc0fbebf36bfa6844a6fabafb9090",
+          "sha256": "f945aa372ceaa744c762cd803af52c09499ca2c4b2dfe5abecdafcb5369b9584",
+          "bytes": 7082
+        },
+        {
+          "path": "pipeline/pdf_conversion.py",
+          "gitBlob": "9eb7abd6f87c224813bdd6de1e9358a1b3e42cc0",
+          "sha256": "c5d03523e59ed0b223a535d168a478516ed9ed3006f21f00e0e4e166b33a22e9",
+          "bytes": 16030
+        },
+        {
+          "path": "pipeline/pdf_convert.m",
+          "gitBlob": "e4fdb7c8315e592acd590b7523d0724512c42e27",
+          "sha256": "88e738b23a86771786a96745d8d2811153fc86c1a046cdb36489d35149e9c6c7",
+          "bytes": 4683
+        },
+        {
+          "path": "pipeline/pdf_jobs.py",
+          "gitBlob": "f62b36a6d4c36b09243d1aa942699258ca6dd363",
+          "sha256": "896abe2116a8eeedce9a30a5b1c903642012d49e31501f8ff54bdf53135b076c",
+          "bytes": 2577
+        },
+        {
+          "path": "pipeline/pdf_quotes.py",
+          "gitBlob": "bf68ca38e3ffaf17d388b90383f3a6577e83f6cb",
+          "sha256": "cfa0877ba200a177ffe83fe4de5e4d2935d318d69df32ca9ce3977ae7e000c8b",
+          "bytes": 3742
+        },
+        {
+          "path": "pipeline/requirements.txt",
+          "gitBlob": "b66ac49964de632cadf7d76b28f3ca6471aec27c",
+          "sha256": "2042a254d20883ec21dd890f31e35bc9553fd943b211d52d91d62c0dfd66cb51",
+          "bytes": 58
+        },
+        {
+          "path": "pipeline/workbench_runtime.py",
+          "gitBlob": "bc4992d0c7cb91b4929ad66ad1bc37f0e8483909",
+          "sha256": "9aced48e3cb5336cf8618baed4611b3c2307c2dba045227451375967cd8e8c9c",
+          "bytes": 8291
+        },
+        {
+          "path": "pipeline/workbench_server.py",
+          "gitBlob": "d84a1f15298f19c4b87a01aa19903e6f0a511773",
+          "sha256": "2e2590319bd185e8cfb01d9e6b6a9e9616d2c3c505d55272cf619839b65d4601",
+          "bytes": 18279
+        },
+        {
+          "path": "site/app.js",
+          "gitBlob": "0cfc49225d28d6e108bc0cf46d006258496aa340",
+          "sha256": "c7002234a66ac7ef7fa862fce73e53a8478a43624ee2989155c63c4903ca0716",
+          "bytes": 6146
+        },
+        {
+          "path": "site/assessment-method.js",
+          "gitBlob": "f8e3fdc0e738619ac40e2292f3c5cc3c2b777891",
+          "sha256": "601395b35c4cbce374bd1b669df1e4076132b9f2f6f750895462a34b248c1751",
+          "bytes": 2818
+        },
+        {
+          "path": "site/core.js",
+          "gitBlob": "30a9649861581080579d7cd2746ea18471e10b0d",
+          "sha256": "f99e158f355766e9b0892753e73a2df357d4e365d9d3ed9c62449d27e477b98c",
+          "bytes": 10996
+        },
+        {
+          "path": "site/data-store.js",
+          "gitBlob": "d597a41910768c4b1df3116c3dc5aa94fd2075bd",
+          "sha256": "7cc0d917d199cbcd3f824677a1f3ab1023331a2724c18891bf33a1462dc42588",
+          "bytes": 890
+        },
+        {
+          "path": "site/data/assessment-method-schema.json",
+          "gitBlob": "d126789bfafec9ce7e977bcfb181b470f2889062",
+          "sha256": "786723c50fdd8bd2d1b859bff5071dfae7e5f59768bf26f9fd8859199ada4b0f",
+          "bytes": 1933
+        },
+        {
+          "path": "site/data/catalog-metadata.json",
+          "gitBlob": "cf82800e6285e55f32b8b2226498b4018f48e17f",
+          "sha256": "c8b8c37fa0f168f543f6609bf6e75134ba56b9202e9b45e751c94e656fff4ece",
+          "bytes": 78602
+        },
+        {
+          "path": "site/data/companies.json",
+          "gitBlob": "d7dffbbfbbbbd58b952fad33a7886f372c86202e",
+          "sha256": "323923ad3839f90f2957a3743d468bf7c8bff410f80cc45680f04e6baa7fbf11",
+          "bytes": 342920
+        },
+        {
+          "path": "site/data/company-aliases.json",
+          "gitBlob": "e0e0175b9af645170dea9d70e23062f9b0f64c72",
+          "sha256": "48e8279f0256ca12eabdb06d9ad8d097d831a0b9d25de134d08d959b22da5188",
+          "bytes": 1589
+        },
+        {
+          "path": "site/data/coverage.json",
+          "gitBlob": "351d23b49bd728567ab940c08870325a578c9abb",
+          "sha256": "f1bc5f89b054416cc83a2d0b04cb3810fc35f4f177320d3640c9434218c4e6d4",
+          "bytes": 21368
+        },
+        {
+          "path": "site/data/indices.json",
+          "gitBlob": "11d8471868f4094ccd5ad2998066ea68d3e7f321",
+          "sha256": "3c2951d0632bc7225810df1b3a4426b86a7e1170da32d133041fc0ed3de9d255",
+          "bytes": 1092
+        },
+        {
+          "path": "site/data/industries.json",
+          "gitBlob": "582cf0795fb5027b7e98e542081c1e43a6404c1d",
+          "sha256": "46fb50c91714f2e2a4db49a4b224e467e0b82d7324be1f56e88a02d83343c820",
+          "bytes": 217312
+        },
+        {
+          "path": "site/data/meta.json",
+          "gitBlob": "1ae54330976de94511801451ba2a29000f11849a",
+          "sha256": "4aca4c4c3c7158a362241954d470ecf46895051973efc8441f43a74139f0d13d",
+          "bytes": 614
+        },
+        {
+          "path": "site/data/portal-guidance.json",
+          "gitBlob": "22e44d9c6f7fe1b0f6419cb3971a1b2a3017b6e4",
+          "sha256": "f94526fdccca8d69be829820c32d8e86fb0c7e5f3799abeb9b72f00252ce1e42",
+          "bytes": 10318
+        },
+        {
+          "path": "site/data/question-index.json",
+          "gitBlob": "71c816c3974c7c726c927418ff18da68d0f0d03d",
+          "sha256": "f80745d03b09e10d1b619b60259fc7c1f566d31459db620fa58c921f384dc2b4",
+          "bytes": 2818129
+        },
+        {
+          "path": "site/data/question-primary.json",
+          "gitBlob": "398fa0bed9d0af5417116dac5ef0e6c360d63772",
+          "sha256": "d24061a0c9e4ba80ca68f1cc155893fe99886015419815ed93d6375f4b0a314f",
+          "bytes": 116231
+        },
+        {
+          "path": "site/data/question-structures.json",
+          "gitBlob": "f6d9d4f98206b587997a1cb315ae1c2645c19fc0",
+          "sha256": "b1abc6396e1daea057ab2c39a5c6862f44ce0dbab6f75bd77c2ac88e4b82c8eb",
+          "bytes": 3494790
+        },
+        {
+          "path": "site/data/question-templates.json",
+          "gitBlob": "ac36d1766c8b0282914a1ab0a84d54ecc8a700e5",
+          "sha256": "ffb3ad970c271762b7d4111aecab53b590a1abe24f793e281c419bae61fae7da",
+          "bytes": 8513558
+        },
+        {
+          "path": "site/data/question-translations.json",
+          "gitBlob": "26b2cdf4a715dc220278497961aad178edfd2483",
+          "sha256": "66aa1830d284dad2b56ee0aea8c987552ed097edb17d426b3eceb94295d786b1",
+          "bytes": 6720765
+        },
+        {
+          "path": "site/data/questions-AIR.json",
+          "gitBlob": "3b80b3e6e263d598cc0e75f99f8b713db54b6587",
+          "sha256": "fe775a38bb0e72e23a04bb4c9dea09f197f297e775347e76ef6ce128064c09f0",
+          "bytes": 828991
+        },
+        {
+          "path": "site/data/questions-ALU.json",
+          "gitBlob": "ac4a1870929d15165b52d178a644223179a27b29",
+          "sha256": "59caa93d594820746d1de527a7c6927e9608db5a44427adeaba9475c4536782d",
+          "bytes": 901125
+        },
+        {
+          "path": "site/data/questions-ARO.json",
+          "gitBlob": "7100bce3ec199f5505013c16ff7e80e02d707717",
+          "sha256": "8a2ac8aab389eaa1b093968dc37aad6383cd761049c3471e56d4c509be249ce0",
+          "bytes": 835973
+        },
+        {
+          "path": "site/data/questions-ATX.json",
+          "gitBlob": "87f48b28669964955f897fc00522019b04fe485a",
+          "sha256": "92d9074877c347b3fcf871873aabd3c8ff4df291a5a7006f83965b17ad661566",
+          "bytes": 852282
+        },
+        {
+          "path": "site/data/questions-AUT.json",
+          "gitBlob": "14714da01bdc764161e9769240613f465705b0f6",
+          "sha256": "7b9976cda4dc3a3520b395d0f0b73f06e3083f3f58cfdf0e44012b4ca088b88f",
+          "bytes": 911464
+        },
+        {
+          "path": "site/data/questions-BLD.json",
+          "gitBlob": "c050601650f0b13cb809488898867206b1e29655",
+          "sha256": "0de4ec29498bf9b64cc9ca7695a2645d7c7b2bec394967d8cf46f952ab2088ae",
+          "bytes": 826008
+        },
+        {
+          "path": "site/data/questions-BNK.json",
+          "gitBlob": "4bdf39fe2034fc784dd35f87bb15db65866cd842",
+          "sha256": "05b4536f933fbd07327a9ccec01ce762e8d32a3a1fdbe5b93ba34c00a314d1fe",
+          "bytes": 779628
+        },
+        {
+          "path": "site/data/questions-BTC.json",
+          "gitBlob": "acc407e2a7f02d2d62070bbc021c6e1599488887",
+          "sha256": "c60bca8033da508aed6eca3d305aa6aab6b9193890b74ab4a7e5099d61a39df0",
+          "bytes": 830973
+        },
+        {
+          "path": "site/data/questions-BVG.json",
+          "gitBlob": "0366535cf3f3844dd6bebdbe6b68e5a89ef71eac",
+          "sha256": "3bdceacb465a1b06e32af811b89ddfe62e01f7d47032199e3d791a15be460b4c",
+          "bytes": 906995
+        },
+        {
+          "path": "site/data/questions-CHM.json",
+          "gitBlob": "cf25ea1c42409a790a7ee89df42f9072ae93d480",
+          "sha256": "35ac53b2ae63122bae991caa6c90e8e2b84c90a63abce0571396565940f35bef",
+          "bytes": 890908
+        },
+        {
+          "path": "site/data/questions-CMT.json",
+          "gitBlob": "44c148d2adff485ee1111d1a54c41a56d3d3836c",
+          "sha256": "8b5019f0b6ade2b25c0c691f375ccf82497d81a338567f0584265f53c5bc2a6e",
+          "bytes": 883182
+        },
+        {
+          "path": "site/data/questions-CNO.json",
+          "gitBlob": "31f09c1393ae673c4f68b46d25e2700bae719fb3",
+          "sha256": "d607e8b5cfe2fdef88a83d83a562b474d2d1ae898f148fa9ef73324e587970a9",
+          "bytes": 854416
+        },
+        {
+          "path": "site/data/questions-COL.json",
+          "gitBlob": "d4dfc911dd66b6c0914018697f3a77bbe504c36b",
+          "sha256": "3a4806cb79497fa518a6b150d28351b0d2f57ef88a9c0c7e6bf29b29d2ca995a",
+          "bytes": 909173
+        },
+        {
+          "path": "site/data/questions-COM.json",
+          "gitBlob": "a7ae6a9c2fb90abbe3ad82f4be22ffe80aa41398",
+          "sha256": "7dd81afb118eb7ce468337e0332b959ea4bfcdbc063f7d1719b7b25fa5732d83",
+          "bytes": 888430
+        },
+        {
+          "path": "site/data/questions-CON.json",
+          "gitBlob": "b67d306f812f47a8735564e15f9db8a286e22dd9",
+          "sha256": "5e6e7b747ae606f46d37b2d579df2bc19d33247e6bd39cd4e674021ce5e6afb4",
+          "bytes": 762274
+        },
+        {
+          "path": "site/data/questions-COS.json",
+          "gitBlob": "a379e1eb61a306fea1b257990138efd52b32c774",
+          "sha256": "bddc67d47c63a591a90ea0f4313b6f55b4483906b3ff28b3f2e16cd7836424a7",
+          "bytes": 883640
+        },
+        {
+          "path": "site/data/questions-CSV.json",
+          "gitBlob": "efb66affa769d21b775833df69fe8c8ef61cd435",
+          "sha256": "3839428ccb3c3a0a8d1e1c3bc43dc4995b5d3dbe9929270d9cd84518f223f69e",
+          "bytes": 662278
+        },
+        {
+          "path": "site/data/questions-CTR.json",
+          "gitBlob": "655080678c1cfa188c2b6214acb9f601ea46adc6",
+          "sha256": "50f152c835af169f6d912eb02fe449c085b3f327ad802d3354d27b081d6b7603",
+          "bytes": 861877
+        },
+        {
+          "path": "site/data/questions-DHP.json",
+          "gitBlob": "13998dc38f869b6bdc6338bd1870c645f971f276",
+          "sha256": "bf83e8db4e435b7a9c0a325424198ac1a30e349045d79698069ebc9ab39f2b61",
+          "bytes": 837741
+        },
+        {
+          "path": "site/data/questions-DRG.json",
+          "gitBlob": "c63e782dbf5ac630116899761ab0a1a007e74220",
+          "sha256": "f31c93aef2541f9e8b72c7ee4dffa45580b0abf15af9e7138ec092e6f53872bf",
+          "bytes": 842669
+        },
+        {
+          "path": "site/data/questions-ELC.json",
+          "gitBlob": "02492449e9798a42e6cd3f12bae46136ed70beb3",
+          "sha256": "283857fe744d3215a3e0b22ba932f3d4631cad343681f0c1d8de9e1c4a968ca2",
+          "bytes": 912355
+        },
+        {
+          "path": "site/data/questions-ELQ.json",
+          "gitBlob": "416e59094b47e00ab2b3b35a751edee119c59bf4",
+          "sha256": "2d40a1d7af4a7dc2a467dbf4c6db7a7fe156c1ee711bf399d3f64fa4a4a7429a",
+          "bytes": 866255
+        },
+        {
+          "path": "site/data/questions-FBN.json",
+          "gitBlob": "2bc13db874eb20947f20693f881ce8a0326cee2b",
+          "sha256": "e7dc455f096296b6f39b64b50711b85196157ed16579f13d86088a7e48e9da2f",
+          "bytes": 834565
+        },
+        {
+          "path": "site/data/questions-FDR.json",
+          "gitBlob": "6befc0168660b9fd3884b4745c167836c14ae150",
+          "sha256": "d685ba1f48515c0f88e5bd4dde16640adaf2fbd08b4dacd4785922384b55cc38",
+          "bytes": 929010
+        },
+        {
+          "path": "site/data/questions-FOA.json",
+          "gitBlob": "3047c4b1d208a4c2e8f736a3c8aa8f94ee4cccd3",
+          "sha256": "77c546a12e2318f36b6bdf239f49592ec870948f1775b53cee8f70a02f313172",
+          "bytes": 935390
+        },
+        {
+          "path": "site/data/questions-FRP.json",
+          "gitBlob": "a9e012fdf88dfd4a04a71d5121f18c3eec9d2ad7",
+          "sha256": "83d3857f56c585c632e942e43ca8ed9dcbea075fd217b8088ba893331517fe6f",
+          "bytes": 932139
+        },
+        {
+          "path": "site/data/questions-GAS.json",
+          "gitBlob": "5601291495975a82a94c88cd739b71f6bbbc82b1",
+          "sha256": "14e4e604c91176c50b9835db3c5bc7c592585d030898890a6039706e7b7fb10b",
+          "bytes": 825287
+        },
+        {
+          "path": "site/data/questions-HEA.json",
+          "gitBlob": "93f5fe72c6eb369ef6d99f0cd175fb157a124cc3",
+          "sha256": "311fcb018ae0caaa14a22795506c9152ea43d6f891184bd12871efbd39fcb45a",
+          "bytes": 687188
+        },
+        {
+          "path": "site/data/questions-HOM.json",
+          "gitBlob": "998bc919436ac77b9cc816f1f486d822df2b5ddb",
+          "sha256": "c0969e6a2b461491b6faf437911fcdc7b2796c59f1b4a0099d8be9d13011adc9",
+          "bytes": 774190
+        },
+        {
+          "path": "site/data/questions-HOU.json",
+          "gitBlob": "f854c7131fad66f9a4592237e56facd776219651",
+          "sha256": "4964d3d26493bdbc75c7787f2e676d30bf98fb63292a07fd6d74d4ea04d58aaa",
+          "bytes": 864703
+        },
+        {
+          "path": "site/data/questions-ICS.json",
+          "gitBlob": "9cc5be8aeb0024e1682dca2e7b10605b6204e37a",
+          "sha256": "351594b1c7ee6efc19511c80af87bbee9e61e1c0f5a76375e00ddda642187693",
+          "bytes": 733530
+        },
+        {
+          "path": "site/data/questions-IDD.json",
+          "gitBlob": "2df7e09e92943ec61779d5388526c60a5aa5949e",
+          "sha256": "a42fb243622d79a30e5579f5c757b0aeeea75525a501a7003dd583e14b611601",
+          "bytes": 818812
+        },
+        {
+          "path": "site/data/questions-IEQ.json",
+          "gitBlob": "e8e6c8346cfbb689e795ddab5188ee39656043fe",
+          "sha256": "2e1709b9810192129a8d3bacb6c1c2bb9b0e2a15cddc32fa1f97ce7235ca800f",
+          "bytes": 866245
+        },
+        {
+          "path": "site/data/questions-IMS.json",
+          "gitBlob": "1a603d38bbfbb96a7b3e316dc0f73e89fb7c7262",
+          "sha256": "d137e8003d341d5c53630ecb58890e1e0ee1039255b63e4030c1706845891bd5",
+          "bytes": 707411
+        },
+        {
+          "path": "site/data/questions-INS.json",
+          "gitBlob": "9b3fbd073292f00ef7b1134017e6453450d07a69",
+          "sha256": "fb88593aac097033033e25080c3f6afb52c539a6f58ec2266ffaf980652947d3",
+          "bytes": 724907
+        },
+        {
+          "path": "site/data/questions-ITC.json",
+          "gitBlob": "8519ddb98e8a4a6e2e9b3cf0ced4013e1e434cd9",
+          "sha256": "2db0bc35e28bdf98b3a0f72e80a698970fa89215da8cd98415a2e94cadc5492f",
+          "bytes": 895185
+        },
+        {
+          "path": "site/data/questions-LEG.json",
+          "gitBlob": "8e608c2f56dfbca1359ab930e5a7d4a3cb8c8df4",
+          "sha256": "2a861513dd94dc8d1dbc4e98cde32db4f9941d45e0b7d633318f372182304905",
+          "bytes": 835023
+        },
+        {
+          "path": "site/data/questions-LIF.json",
+          "gitBlob": "047398fdb05e72890b76c069f1ed44215656abe5",
+          "sha256": "12a04778dbf9d0a80249afc28005e4b54a42e9bb5fddc83cae6cb29e5ae0fe6c",
+          "bytes": 800271
+        },
+        {
+          "path": "site/data/questions-MNX.json",
+          "gitBlob": "25e797ba2d8f8100c9cb02f25636daba1c11fd2d",
+          "sha256": "4323846767e2b7185f332e3e23d03638eae6c6cfd60c7fcc1a49b776b2e0131a",
+          "bytes": 909391
+        },
+        {
+          "path": "site/data/questions-MTC.json",
+          "gitBlob": "45f0c0bbff1cf8cacc21cddeb0b969acfacb611a",
+          "sha256": "4def502ea116ce89ec95b3b38e15b773553c901731a1d8089c0989c82b39afb8",
+          "bytes": 863151
+        },
+        {
+          "path": "site/data/questions-MUW.json",
+          "gitBlob": "253403991bc66c8e1711abef465479ad6fd5937e",
+          "sha256": "0066193ac0453737811d5a3e7f020195b47079fd22ed0b02e0b3f8d489c79056",
+          "bytes": 922659
+        },
+        {
+          "path": "site/data/questions-OGR.json",
+          "gitBlob": "73538132e6218a7983a8e9320892cc8c05bf484a",
+          "sha256": "e80c6d5cef94a8fbb4ef48ac4e2189ba9e23450af8476c6041f6e540f260da77",
+          "bytes": 891264
+        },
+        {
+          "path": "site/data/questions-OGX.json",
+          "gitBlob": "2ab9f973cf3804ef4322aba8904e15b1a0d78f5f",
+          "sha256": "0ecee21e96a2395ecc9957f00e934c5f7c78e02afb957e1cb19b129639f42944",
+          "bytes": 924668
+        },
+        {
+          "path": "site/data/questions-OIE.json",
+          "gitBlob": "2dd33866cdfd5690634450ea88321e7e08e19488",
+          "sha256": "85f0ff34d8f5a5c50877f1b5472619d70db1c619b06d7fe87abe19f9bf984821",
+          "bytes": 777161
+        },
+        {
+          "path": "site/data/questions-PIP.json",
+          "gitBlob": "eb0e1078aaf38b6f789b5e32be3af1412632aff1",
+          "sha256": "8605415ad39714bd27acd2dcf9d4e62f6cb346f50749b85c61397031b2b5ac06",
+          "bytes": 807870
+        },
+        {
+          "path": "site/data/questions-PRO.json",
+          "gitBlob": "5046e615a520d127c4dfa56e1d732970bb35bb49",
+          "sha256": "0f1fb37d07ace42af6244edcd9f35a3b551573bf6cbdaf2f40066bf95ee7b1ee",
+          "bytes": 602824
+        },
+        {
+          "path": "site/data/questions-PUB.json",
+          "gitBlob": "8a8504545bb797c841f0344608b6115501605956",
+          "sha256": "f8df0d9fa238cf28f0b54a97c150bcc368688cb86f5efd1812a7a99663551525",
+          "bytes": 754367
+        },
+        {
+          "path": "site/data/questions-REI.json",
+          "gitBlob": "92cec6aa7c2838ceff13d923a117a3aba94d4c6b",
+          "sha256": "eb6ae99ec6344a004ff7b7b18c5519bc11221f76dfe809426a25fa32e45453de",
+          "bytes": 825843
+        },
+        {
+          "path": "site/data/questions-REM.json",
+          "gitBlob": "ecbe935ac63a186a2c2e23c674c4788c1bcf4412",
+          "sha256": "f84686af5cee47cce8b50969c27eb580d05d145b3d0d811e30f0715b77eca37e",
+          "bytes": 872372
+        },
+        {
+          "path": "site/data/questions-REX.json",
+          "gitBlob": "18415b5927fb9a0351bf774032770ea3cff8a14c",
+          "sha256": "052fcbfd7815804ad842e956ffab820a6fce8b63255c36520f32161a647cd949",
+          "bytes": 861963
+        },
+        {
+          "path": "site/data/questions-RTS.json",
+          "gitBlob": "4f885a642d5f47e6fcf318afcffce8d2a36f58fb",
+          "sha256": "e01ecb7b7879dc33ecc987620e0272a05f104b87a10c01caf7e7fa6706434e9d",
+          "bytes": 893944
+        },
+        {
+          "path": "site/data/questions-SEM.json",
+          "gitBlob": "14abd8e131d24201cf3222cde017b789893fb819",
+          "sha256": "16cab4518a5b522e405e2bf2fc563eaf92f22d7383a07223898e8c78702b2673",
+          "bytes": 899764
+        },
+        {
+          "path": "site/data/questions-SOF.json",
+          "gitBlob": "059c77fdcbb39560543b43332b9fe04cffd83923",
+          "sha256": "ad0a5051a30c4e568a35e9d1f6f78707c85771679211aafce7b4192c5f9caca5",
+          "bytes": 680697
+        },
+        {
+          "path": "site/data/questions-STL.json",
+          "gitBlob": "c6e7238b2017d6afb078f2d05428ff293308bd95",
+          "sha256": "9d2ffcf98d8f27cf88b95fb34023d702faefd57942b7efd0a2ad57a38c8c2cbf",
+          "bytes": 926411
+        },
+        {
+          "path": "site/data/questions-TCD.json",
+          "gitBlob": "1d9d3818d4f8f91c0974941765197f19dbf072dc",
+          "sha256": "0f8ecc13546a7a99e1dfd9a5c4d7fa77dbaf9bfbc8b559fad5879ea74a972c99",
+          "bytes": 712309
+        },
+        {
+          "path": "site/data/questions-TEX.json",
+          "gitBlob": "3842ffc2bc85bc293da53ef454f2822761d70624",
+          "sha256": "708c3b332c84c67137f0679a9a1c73c9c646301d83d31fcdc48661b57ef61d47",
+          "bytes": 894525
+        },
+        {
+          "path": "site/data/questions-THQ.json",
+          "gitBlob": "d3972c9e93968021ae010eda1bab248ad215d7d5",
+          "sha256": "ff7fea953f9b968b43c83a6724fece0cee09cab2635f56ccad0abdac711ee5a8",
+          "bytes": 885572
+        },
+        {
+          "path": "site/data/questions-TLS.json",
+          "gitBlob": "eb36781691852c9bfa739acdf31c2f00229bd463",
+          "sha256": "f889b03460c6bccf57c27a0879d1673a6d7db5f4d340fc6d3a4a99a04f439610",
+          "bytes": 812404
+        },
+        {
+          "path": "site/data/questions-TOB.json",
+          "gitBlob": "0e2838200e587d9c93236c2bfb44914e35906160",
+          "sha256": "40f07aaf3febd37670ed3a0247ba65783938c936f15f43e4d91660a7a40fff62",
+          "bytes": 829545
+        },
+        {
+          "path": "site/data/questions-TRA.json",
+          "gitBlob": "b45ecbfd9cf2eb2f5fac06a89ecd1ea425db1ddf",
+          "sha256": "b2b7db5a614533b613b1693822fd9832398e41f78a2fd79d271b6b23887bc4ad",
+          "bytes": 838911
+        },
+        {
+          "path": "site/data/questions-TRT.json",
+          "gitBlob": "7afe4fac02881bb8465d71b9106c6ff5eaa2e2e4",
+          "sha256": "c51a2d21d6c89b66834abdd96f622a6b7c65f0c70a0983788997d64121db8847",
+          "bytes": 879633
+        },
+        {
+          "path": "site/data/questions-TSV.json",
+          "gitBlob": "2dabebf5a2ec77e390acac4ba1f5c193a4b4765f",
+          "sha256": "a41c65b04eab8b4e32331cb556baa142f2d30df2415a10cbd8e9a3840bf51914",
+          "bytes": 677059
+        },
+        {
+          "path": "site/data/sources.json",
+          "gitBlob": "8cc3ad13a77cc8aa20cb79b3d32a3983803c3798",
+          "sha256": "dd5ece208b67387099805f71e149f79c3313ac795837fdf9bd75ebe93dc1f0c4",
+          "bytes": 47939
+        },
+        {
+          "path": "site/evidence.js",
+          "gitBlob": "6f2d2c94f1a5e11ecb290685716dccf9b2a243c1",
+          "sha256": "652a4049df407d171709d379781bc3f181810d4ad7bb66656e80027853bf3fdb",
+          "bytes": 16803
+        },
+        {
+          "path": "site/index.html",
+          "gitBlob": "a586280caaaab584af4cbe606211fefab27b6ad6",
+          "sha256": "33309f964f58be2bb908de3bba696299cd6a0f4644bc6867e4c87516a4c03dc1",
+          "bytes": 2016
+        },
+        {
+          "path": "site/methods.js",
+          "gitBlob": "a919c013bb1452e9da7673e9ee0c6e479167955d",
+          "sha256": "aec82c0cdb03027148ae0758de81bae0a0aede16a6f513dc0f6d1841bec7d787",
+          "bytes": 10755
+        },
+        {
+          "path": "site/model-evaluation.js",
+          "gitBlob": "ce2c6a709b59948806f884709cb2ff25fb0154d4",
+          "sha256": "e29475aba49880de12cf3470a5d81f8e00b6e4fb8034db89e2ccfd74c5912826",
+          "bytes": 5061
+        },
+        {
+          "path": "site/native-pdf.js",
+          "gitBlob": "052daffbcb64f0a767ccb0bbefd5350f8ec7fd5b",
+          "sha256": "6c97c760997af69b42a0ee51d9a1bc727ce7304fb62a567cb033b81e372ba9ae",
+          "bytes": 5021
+        },
+        {
+          "path": "site/pages/home.js",
+          "gitBlob": "25d0b383da1b9851553a6f1093bd6a2369b4eabf",
+          "sha256": "e2a248c23d0eaa1643396015b8f726c68e3b48b1c8c54e786fe9673e264789a8",
+          "bytes": 1714
+        },
+        {
+          "path": "site/pages/questions.js",
+          "gitBlob": "43eb9f81c0a02d35d9ddd9b059ac12d649e836dc",
+          "sha256": "4013b73fe54e1aa2d4e3fe63ba13f03cea741ccff6029e99f465aeeffd02ab62",
+          "bytes": 6211
+        },
+        {
+          "path": "site/pages/search.js",
+          "gitBlob": "60fb2f7ee955b2026699c8de90e941bb604bc7ea",
+          "sha256": "cfeb8e799d11c530f8e206840d39f6871d9277a8b8f9d2017ca44adae162ccc8",
+          "bytes": 3536
+        },
+        {
+          "path": "site/pages/weights.js",
+          "gitBlob": "45de3a8e30f098807042764bc5bf90fc7589408e",
+          "sha256": "a75803bc34d51e9e80a6d94a9a91c10a6c35fa8cf8104cf37866ff066d902311",
+          "bytes": 3737
+        },
+        {
+          "path": "site/project-export.js",
+          "gitBlob": "8d5b2b8f310b4b37c1cbec2a8fa8ce9c03e1f7f8",
+          "sha256": "e97bd1e480bf2c5f819c01fb6f2ffb8c91866bd2652b43bc4f49e3fc6a105e0b",
+          "bytes": 4577
+        },
+        {
+          "path": "site/project.js",
+          "gitBlob": "9b6266178d2328f92731a56b205e29ad493aacfc",
+          "sha256": "77b10a8ec1059ee854e7363de81cd455a8138790a400d0cb98949a749dda6a3c",
+          "bytes": 6602
+        },
+        {
+          "path": "site/question-export.js",
+          "gitBlob": "2a85a509b2081626605e1e1cb0cc43689d0a1fae",
+          "sha256": "bc9db9717f9ccb89e5f89311f132a9bd1c3b0cea09b42d6debe521e37924ea81",
+          "bytes": 261
+        },
+        {
+          "path": "site/question-layout.js",
+          "gitBlob": "48fa3ad3dda8983c67471392f17219d186fd43bf",
+          "sha256": "9fa49c4f1c53035f21547a015228d79928529f846dd041dcc38412099f8ce026",
+          "bytes": 7334
+        },
+        {
+          "path": "site/question-policy.js",
+          "gitBlob": "806fb4a389b21bb63514b03e16fb429907f5ad8e",
+          "sha256": "add3cc7a56c141387eb7ab30e373239eda1816d39d3f23bbd497bc6d7c290f17",
+          "bytes": 2677
+        },
+        {
+          "path": "site/question-reader.js",
+          "gitBlob": "bb58ea9033bc8658f70edf810eeb6854a17e7433",
+          "sha256": "1dbd408d9cec51256a034b1ed043250212c5cbfee745fa052c1ddce088a380f3",
+          "bytes": 5295
+        },
+        {
+          "path": "site/reports.js",
+          "gitBlob": "e4d1aed169b6d86a8451dcc6f0becd7d36b9bf43",
+          "sha256": "0e9d439803690b15f190875e5d9355cde3d24ab2f4489b375fe4b7d9ab200151",
+          "bytes": 6551
+        },
+        {
+          "path": "site/resources.js",
+          "gitBlob": "8a7cfda7b3947d451f5c8d013eb621095a12d48a",
+          "sha256": "674940afbea4c5749ad201157682f05edb016dda848544f715afdf633c7a0401",
+          "bytes": 4702
+        },
+        {
+          "path": "site/retrieval-ranking.js",
+          "gitBlob": "10f6b46d036dbde94d4e2e99307ad81a2d381c9d",
+          "sha256": "e87c4ceaab8ebf961cedfc1bb7f2db1cf3882f94dadb07130cbe4c4b9bef709f",
+          "bytes": 3484
+        },
+        {
+          "path": "site/router.js",
+          "gitBlob": "028dc0d75223db6b73c3ab92b06831a057b18e0a",
+          "sha256": "1bc36f7be815770dfe5b2ed266072b14616337f35b53e0e0a823da27c3d0e84e",
+          "bytes": 1129
+        },
+        {
+          "path": "site/sources/Best_in_Class_Indices_Asia_Pacific.pdf",
+          "gitBlob": "fa3922869fc7631e5130dedbdc953dab8f737fa8",
+          "sha256": "120010e8d84dd5ef5776dc5b18b7f12779435a7a8af8b5e5c18293d40cd865cc",
+          "bytes": 103694
+        },
+        {
+          "path": "site/sources/Best_in_Class_Indices_Australia.pdf",
+          "gitBlob": "3b1649ab343f93b1798a804e1c45ceabdaf3a079",
+          "sha256": "b0d6265f757c9b1d2735bf339f0fb6d669997da346fbf45e8054b25c68570676",
+          "bytes": 97973
+        },
+        {
+          "path": "site/sources/Best_in_Class_Indices_Chile.pdf",
+          "gitBlob": "706596b6fab4c28c0a2cf6f088d6a3289dae456e",
+          "sha256": "664b3523068a0b0b795d1fb1f655b0828f119ef7de6d5c3aa4583c8e8480d4b1",
+          "bytes": 95128
+        },
+        {
+          "path": "site/sources/Best_in_Class_Indices_Emerging_Markets.pdf",
+          "gitBlob": "7e89d6b1e28fa10678455d3211c17344fdbfec96",
+          "sha256": "531024b3768315cabfbba4a7750606841a7568fe80e4a46ec2f82d6003678571",
+          "bytes": 102853
+        },
+        {
+          "path": "site/sources/Best_in_Class_Indices_Europe.pdf",
+          "gitBlob": "17abea3ee147c5bafdfac17020f80417b931ff98",
+          "sha256": "6a5099be1c5c28cb6ab77f4eb2273638d2d9d093e822750054f12fc8f92715c0",
+          "bytes": 103958
+        },
+        {
+          "path": "site/sources/Best_in_Class_Indices_Korea.pdf",
+          "gitBlob": "52b82c98032c7a23153668f3e22d9bc285214bd4",
+          "sha256": "a7e22b99dcb2fe96684c2a12f1787f9e86e533bd56668321f09c1e8036f1c526",
+          "bytes": 98343
+        },
+        {
+          "path": "site/sources/Best_in_Class_Indices_MILA.pdf",
+          "gitBlob": "35bbe719d102daeb0549ece3dc00db5f67190d5f",
+          "sha256": "c5c0d3014767e59d6222e5331a77c5bd150f08b6d2898a4d0ff58443df19180c",
+          "bytes": 98985
+        },
+        {
+          "path": "site/sources/Best_in_Class_Indices_North_America.pdf",
+          "gitBlob": "603e710b6d6bee0fa0d8052f2479ff470b195464",
+          "sha256": "665db114276dd85ea013780cf000290ecaeeed9c5ec36a3a5008c3e27014fdc3",
+          "bytes": 103757
+        },
+        {
+          "path": "site/sources/Best_in_Class_Indices_World.pdf",
+          "gitBlob": "5dc97e4a232a46ee0eecf1c08bf77a4593058411",
+          "sha256": "b2a7171a29f46d7b1c14386efbe8c6873d02a191bf6e1954e0879a4c8f32127d",
+          "bytes": 114437
+        },
+        {
+          "path": "site/sources/CSA_2026_Methodology_Updates_Overview.pdf",
+          "gitBlob": "bd11b27c79e62634d2b1bd5cb15d6e2b02f1e401",
+          "sha256": "ba7053bbf97842544f8852b4df70997982a3167fc0b33907210680bd289ff10e",
+          "bytes": 2481609
+        },
+        {
+          "path": "site/sources/CSA_Annual_Scoring_Methodology_2025.pdf",
+          "gitBlob": "cf4610bd04745fda5a8dd8fd30635788b17d2d88",
+          "sha256": "87b8191786cd25c17ece5db57ac0d9a9ae92358b2f93e3cb5953541923928c76",
+          "bytes": 7035616
+        },
+        {
+          "path": "site/sources/CSA_Handbook_2026_Index.pdf",
+          "gitBlob": "8405b070456cdf918b8206288e6734a7e4b4ca2b",
+          "sha256": "360c75a7a8b2ce0b50ce2449f0bc1e93939963d5e34f92b20b21a6266ce17a4b",
+          "bytes": 124886
+        },
+        {
+          "path": "site/sources/CSA_Measuring_Sustainability_Performance_2026.pdf",
+          "gitBlob": "d73c482340287e3a4809873c00c7954297150ea3",
+          "sha256": "415bc295600932556a5f4762d3cb0ef7b0d058988624f438e2022444376c6762",
+          "bytes": 7240339
+        },
+        {
+          "path": "site/sources/CSA_Measuring_Sustainability_Performance_2026中文翻译（双语）.pdf",
+          "gitBlob": "6e3e26d1dd4540c156a6a59d1005f3acb050ee49",
+          "sha256": "729382fc6efa987c61b6a18e4d279acc08cab93213b5948a44fa621525ead8cd",
+          "bytes": 14510319
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_AIR.pdf",
+          "gitBlob": "9eab8ae1f181bbcae15be21db341b731490d2f56",
+          "sha256": "05d4a14daa82379529c70cc04971bc6aa972f2e39b1ce5c514d09bc5f71ce670",
+          "bytes": 3427660
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_ALU.pdf",
+          "gitBlob": "1f2c2c0ddb77a413c1d685196fef4908ce44fbc1",
+          "sha256": "105aa0864a823e55b397aeb642b342ba36624fa1dd1b5febe6d3e1be1eb5e609",
+          "bytes": 3624611
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_ARO.pdf",
+          "gitBlob": "9f39b00e0a094f8ace1f333efaba943ecdf37918",
+          "sha256": "4cd4b4a79f5d5b697556ecd39ea5a2ecbe43b0515484ad7803121a741023dfad",
+          "bytes": 3393435
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_ATX.pdf",
+          "gitBlob": "df70b7bb6297bdc690e65684917b96335ac59b19",
+          "sha256": "cb254c09b46e81a1e5693905713492144abbddf76060f13bbf381647d1a92418",
+          "bytes": 3471049
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_AUT.pdf",
+          "gitBlob": "09ebe35cd124f908975c2c8381102becf39682e1",
+          "sha256": "32ebd0b8cb988cea8c5e6ed44c02e21a0da214331720573a85ecba81accb11d6",
+          "bytes": 3673196
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_BLD.pdf",
+          "gitBlob": "b66b5498cf1193d4683731abadbf51df42ec53d4",
+          "sha256": "a8fa262af967762a7ce23c7a8d5ab85a5f80fda77af226941f34f11bc8689018",
+          "bytes": 3359746
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_BNK.pdf",
+          "gitBlob": "6ff7db76e9b3b1c7675b26406bed24b3122e4e75",
+          "sha256": "508fb2972314df834dcbc79e6777d9b6ecd17b2f2a5020ac3e411acc88e01fd2",
+          "bytes": 3297761
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_BTC.pdf",
+          "gitBlob": "de74baa920c421946aff6c9920abfe750d46e7bd",
+          "sha256": "4487a75cd78c46667ea53f7406fc1a7cf95539d31d2ae648fa89391319357fa6",
+          "bytes": 3466443
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_BVG.pdf",
+          "gitBlob": "94ea6679518b5583a932c1ed563f3be5027a28a6",
+          "sha256": "c058beeea6af3bb54319eae1a991e9a4bac4eb542e6b6b046bf96f858f581007",
+          "bytes": 3613411
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_CHM.pdf",
+          "gitBlob": "d06e247d43cc56297bdce74936bdc05aa7048395",
+          "sha256": "771edd5e42dadc157ede8730fb2cedc9e55a5fa82ba24258f46c54785fb01df1",
+          "bytes": 3562075
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_CMT.pdf",
+          "gitBlob": "ea83399114b95c4e4d783c5ce48d5f026dc36030",
+          "sha256": "eead83438d1cac4b4df91e1d8d93e36d0d8c293e54fb54e599f56e561d181b94",
+          "bytes": 3542630
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_CNO.pdf",
+          "gitBlob": "33ef93437d3615bb13c5fa397b816832c2bfac9d",
+          "sha256": "e9febcdec82cdcea8184fef646c34798b17b500fb5dc731d0dc00eb004095293",
+          "bytes": 3383536
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_COL.pdf",
+          "gitBlob": "4409b8b1001ef93f2536d165c16a356c8eee0c9f",
+          "sha256": "d6ec4a20a8d83d3ebe67ddeb43c89f8e97a5b6de2ee7fe4dbf04200fa11ec2c9",
+          "bytes": 3661361
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_COM.pdf",
+          "gitBlob": "0ea97baf46150f0cccc78d4051dd117385726e3a",
+          "sha256": "3e60f9ad1ca092556749f98bba699ee867eedbf630098a899db9d7b5fe5e3fb4",
+          "bytes": 3533571
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_CON.pdf",
+          "gitBlob": "037f2be3672409b0c569bb9072628b631612e454",
+          "sha256": "ba5dd0d0e7aff51a381c60293a02b5a88740ae1adbb18f9a2d4d2677ab3eede5",
+          "bytes": 3166208
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_COS.pdf",
+          "gitBlob": "af21af06308ec48105dbd80fcc8a6799d1f626de",
+          "sha256": "b0dd5ec4647bd15f2c02dee8d0dd79b4cf7e8f1ddb9265a3936f25d70428f0ca",
+          "bytes": 3529302
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_CSV.pdf",
+          "gitBlob": "2f66fafa01b7347990e27011194adde60a2ddb34",
+          "sha256": "bb64393ad01315602ed52334dfaf0e1c6a430c1e2c942e234a6a00baee0c4a01",
+          "bytes": 2924807
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_CTR.pdf",
+          "gitBlob": "33cc1a55c12f679b17488ffb372b09f9e561d7db",
+          "sha256": "1f404709f9c00667828eb111029e9c82b056e1a96c62f2f148752f40cfad34ab",
+          "bytes": 3479387
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_DHP.pdf",
+          "gitBlob": "576deea70feedea9574138b5f338f58f65c567b1",
+          "sha256": "eba5d887fec320ed95d116c3e761a28aba4736cf978b54fa6a6fabf02917b328",
+          "bytes": 3415087
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_DRG.pdf",
+          "gitBlob": "e00c4ab1deb21c67cf972829d01563458e7b54b0",
+          "sha256": "9b3717e6998e7ff4590203d2f11fa98eba8c8dfca304bf3e9f0b939c98d298e1",
+          "bytes": 3469493
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_ELC.pdf",
+          "gitBlob": "457c6a55036eb8df257e083b387752955fd08682",
+          "sha256": "817501a1220af5d7bbbab23b50660acb1fbb42664e0eacb7773ad65ab153e73d",
+          "bytes": 3619969
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_ELQ.pdf",
+          "gitBlob": "3a3e04e728d0795d502165957fbdfb3c5a46e4e7",
+          "sha256": "f51407f68fe58c9ab22d502b0537a5d526cb78a46282b4e0fbe3e7cfdd076ebc",
+          "bytes": 3504337
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_FBN.pdf",
+          "gitBlob": "3c6df399ebc6e9d1225f6fad1642af0dd914a957",
+          "sha256": "d639646980ee6cbb89894ded94e143186b417e0183e284b98345e80cd01f4e90",
+          "bytes": 3492643
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_FDR.pdf",
+          "gitBlob": "97cec6bf26f5572cc2e40950657bfea2604240e6",
+          "sha256": "feb282d872547ad6a6ca714461fc8f80736cffc9e5b97836a84887068f7b9f80",
+          "bytes": 3671496
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_FOA.pdf",
+          "gitBlob": "33a742d328d41ee32d06a6ded89591e5f5206a3d",
+          "sha256": "7b55c231665ea473e9c8dad7e6433d6646d4884bc05bd11935571eea078bb051",
+          "bytes": 3692368
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_FRP.pdf",
+          "gitBlob": "35b92c409a5fd4ca3b341ff6043f845ab0b923f1",
+          "sha256": "c7d83668222a6193adb537269664eabfdd92e1a934f8e96445d9d2b07e0ba14e",
+          "bytes": 3734130
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_GAS.pdf",
+          "gitBlob": "58d885e8b9fd12f6562101b860938aed4c72894b",
+          "sha256": "f51ba33ab14d27468d869e3e8758767eaf172ce152fd563711fadacc85e88756",
+          "bytes": 3318648
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_HEA.pdf",
+          "gitBlob": "61611ea8bea0ce34abc7a5467215254267e7e66c",
+          "sha256": "e613920049c62ac7ec94025669420c22f8bf3c142b35fe4375670e96cbaf4969",
+          "bytes": 2884137
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_HOM.pdf",
+          "gitBlob": "ed478933722119c8e47a487ee48aebf4e9840501",
+          "sha256": "09f8db5cdb2258f83276303cad7a35c5c04a797823923d5ce223adc9feb24521",
+          "bytes": 3180558
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_HOU.pdf",
+          "gitBlob": "2b66ec1358c25977550f7e1c7b816d7f24578451",
+          "sha256": "63ed0fd33b51d03ad8a0966d657cc5b9a7d33f8ddc71f798a405ebe22111de8b",
+          "bytes": 5151695
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_ICS.pdf",
+          "gitBlob": "4577844cb8a3c58f694d0e2f7db56a3bea9a4dbd",
+          "sha256": "e512e6ed523158d67ec368255c54bdf6691d2f67937742c6877318e477c9e446",
+          "bytes": 4477522
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_IDD.pdf",
+          "gitBlob": "5cbbfc6ec674a8ab2c7dd0fbae044f9dbc0e4a85",
+          "sha256": "e07f80621c214a0349ff86697d176ec0e846e2b00040af7c826b92f6bca0ac78",
+          "bytes": 4910866
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_IEQ.pdf",
+          "gitBlob": "1501a335a4c0694156b27389fb6dd92fe4e817f6",
+          "sha256": "a95afeff69306caa9c6a006a814050172385e78f2406a4b5ebdb6119a78e7d4e",
+          "bytes": 5167722
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_IMS.pdf",
+          "gitBlob": "fc1b161845d5f2eecccbe471132c489aa50c081f",
+          "sha256": "c37c394a233ec0f4334cf12924de00f94d6c9ef4ceaa0c4997ae95d928f3eb75",
+          "bytes": 4392959
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_INS.pdf",
+          "gitBlob": "bce8c8251da5c23bc718dacc9fbfcce84b4b0a39",
+          "sha256": "54aedd42ce4648d871339a6fe53a48fd7bc6d7efb2261c466d9270a549393871",
+          "bytes": 3144843
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_ITC.pdf",
+          "gitBlob": "d93238ac78353300cf960daa1e5b9dc5f0fbfee1",
+          "sha256": "1572894435bb712d42c82f2a5e92213fcbca58994fc8fcd5082dd66ff95feaef",
+          "bytes": 3579735
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_LEG.pdf",
+          "gitBlob": "1fd216a56c5ebe834792266e938bbefaa4b4dba8",
+          "sha256": "8369082cdef8cd26dd1e796a6fd3ff13f290646aaf75a8b66eb081fb8d58dba4",
+          "bytes": 3396701
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_LIF.pdf",
+          "gitBlob": "e5528796d4cf925abee48f1ed1fe4da05c96a506",
+          "sha256": "bae92c5769e87671d771adec5a2098fe96e5fe50b3e8acdf03a7af6403fc88c3",
+          "bytes": 3301491
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_MNX.pdf",
+          "gitBlob": "b2766fcf38108c9f16d16f73b89e51523de79092",
+          "sha256": "e047847c896c5bd49ebba747d8e1d669543cf2bf873644216c6500602bf6aa03",
+          "bytes": 3689959
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_MTC.pdf",
+          "gitBlob": "d14c7e595a583e20b8a9cf0332e46be03e03cf3d",
+          "sha256": "cdc6b2da796c331f60aa9e147a89938e7d0629a91388ddf76c8284d162b6173f",
+          "bytes": 3569239
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_MUW.pdf",
+          "gitBlob": "a432d5ef17e9216e331a699ec1fff2dd2353b7b6",
+          "sha256": "9eb1177a0da471eeccea6c6f6b4ea29904b38667c0e19f04a27d3cf151692f01",
+          "bytes": 5407124
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_OGR.pdf",
+          "gitBlob": "6359444edb02c8337e3e0f3f561952b503ed0099",
+          "sha256": "48c87425a773dcc0f2acc8ccd774d98498434b68519a9e3803f0e42692098955",
+          "bytes": 5282623
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_OGX.pdf",
+          "gitBlob": "f5d6331ec71c75d74def7bd048eae2fed624f071",
+          "sha256": "1b4c5d317403fcd0b949b5f896eb0668ec4a5b7a38e3cd8041c9c6722ed89828",
+          "bytes": 5501293
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_OIE.pdf",
+          "gitBlob": "b2c14307d508a974bcf08fd1d972193547a2d2e2",
+          "sha256": "6c02834a685e46812476a9a626ab62373e4cb751c09d6181513ba3a49a7f660c",
+          "bytes": 4708627
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_PIP.pdf",
+          "gitBlob": "27836e2eb4093310e5d39abe39084b0f577063e7",
+          "sha256": "c17d65140c373ff22d96b6cabbc88c344b66d87dcbe0932a25977fad6402e586",
+          "bytes": 3308850
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_PRO.pdf",
+          "gitBlob": "a00e1647c68c5d2106566955c2fbf9888b27a2ea",
+          "sha256": "a539271a4d691bb20bf844d335869792cb5e0afa6b884ae839ccca8c3e29b937",
+          "bytes": 2759603
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_PUB.pdf",
+          "gitBlob": "1056d1ccbd689963bc8377cdc73d5bd8ea07b90e",
+          "sha256": "83f3f5ffbd2a3bea55bac3554d08ef391e4389c3995df2319fe5335fcdbefa9a",
+          "bytes": 3146608
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_REI.pdf",
+          "gitBlob": "f6e8f294ee18007f5cbecf2029b46da9b1d5a2ab",
+          "sha256": "e85ecb188555bb4e0127eebec69edd3ef5ba24ee659ac675326aca61a68891f6",
+          "bytes": 3378254
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_REM.pdf",
+          "gitBlob": "ed7f41828e927df17d34c3cbc006717a19053099",
+          "sha256": "bf755bdae034db02f977ef708848b1278e68a85b4f6a581b29d1ea12deaf570f",
+          "bytes": 3530211
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_REX.pdf",
+          "gitBlob": "e747947d283e64cd8e7826781d05c9f74cad14c3",
+          "sha256": "71c6f5db8c5d4454cdbcaa1f7c8414feaa48b1ac4cf0bf52779608b128841a0e",
+          "bytes": 3473595
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_RTS.pdf",
+          "gitBlob": "29ef5cfe5708c619188284cbc205e6b8208514ba",
+          "sha256": "648df6aa84ac3c2f97f52310c18bcfeb7f9970ea9d7ad0a5ca4d6777197a2470",
+          "bytes": 3607594
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_SEM.pdf",
+          "gitBlob": "a19de8621a6431edb9c2022a696b1bf91be9991b",
+          "sha256": "46166f66cc5fa71ecae9db8554f2fab572a8e170704d184a92045e0b08862125",
+          "bytes": 3661678
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_SOF.pdf",
+          "gitBlob": "461ea9943c4fb3d556189609c2c168969068c76c",
+          "sha256": "30d8c3c9644929118ea1479c84418be84e7d7fca39df8e595a7798743577c57e",
+          "bytes": 3010868
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_STL.pdf",
+          "gitBlob": "57c8cdcca222f5cb0819fb5a51f22a8e8a674926",
+          "sha256": "7278eac16e89dc56260f0065fe89861c670d5f6ca05c5eaddaebb97a29fe71ac",
+          "bytes": 3746457
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_TCD.pdf",
+          "gitBlob": "5194facd79e916d9b72c4f789f18e8bb459d0b4e",
+          "sha256": "ea80b7c9df968fcaa6229043b9532697cc8710ce8a523af8bb348030755e1e55",
+          "bytes": 3013070
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_TEX.pdf",
+          "gitBlob": "6fbd91f785c2742c52f13b739f585b85c535e461",
+          "sha256": "4147ceb946c08aa7ef6c4c7f65ede4b7173a508846e0f9cf0d5d936a530e83cc",
+          "bytes": 3628811
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_THQ.pdf",
+          "gitBlob": "e7f6245a348ba6a481c5f7652b4a594da76af0e3",
+          "sha256": "a150fdbbe01e7235f13f72c2b95adc18b93ad48f63be329d8a115b19034a2d41",
+          "bytes": 3596588
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_TLS.pdf",
+          "gitBlob": "608a13664393f15e50cbbc60a428ab7008e8bc0e",
+          "sha256": "8d199e259b151698738e68d408fff0d68711a68196d65771853fcb4c6c934f6c",
+          "bytes": 3296102
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_TOB.pdf",
+          "gitBlob": "d8df9f322a88bc6a1afd4e9c2c796b66652c07d4",
+          "sha256": "6b2b2c3376fee7cf205a89e61b8849dabd5af9810cc50c151fd292977429117b",
+          "bytes": 3398302
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_TRA.pdf",
+          "gitBlob": "c6ad232521eecb9d6b8dc198c08a4b260ccb4e59",
+          "sha256": "f123b205b51ffc45152574f796abdf11738f26130a9f1e3c738dcd23f56ff154",
+          "bytes": 3396507
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_TRT.pdf",
+          "gitBlob": "4b5bcce0afb87cc109804532bbd605fa810c8482",
+          "sha256": "a82b71ab653c7c776e390d88652135c25348b70543b5764b70f393979638a16f",
+          "bytes": 3469397
+        },
+        {
+          "path": "site/sources/CSA_Methodology_Handbook_TSV.pdf",
+          "gitBlob": "aa4bc2374e207ce0012c51978195108188862bcd",
+          "sha256": "048fa34e532c748f534acff344153b40f0d925bc65d6bac2441c35a5b04028de",
+          "bytes": 2981519
+        },
+        {
+          "path": "site/sources/CSA_Online_Portal_Guide_2026.pdf",
+          "gitBlob": "de36bf0c0768bf81134d6b408beb786641487ece",
+          "sha256": "848abc6e1bbd272375b9152458b8d4790f89fada9db8f2329eb103ebfebb2c83",
+          "bytes": 3299549
+        },
+        {
+          "path": "site/sources/CSA_Weights_2026.pdf",
+          "gitBlob": "88545d312fd2f319e96c9842ab32483e913174f9",
+          "sha256": "37bb63fbae9d46739823ac7154580ed858df85c8885a98675ebf056098fd9177",
+          "bytes": 953073
+        },
+        {
+          "path": "site/sources/MSA_Methodology_Guidebook.pdf",
+          "gitBlob": "7e4120ded24e5059330460999ecd228ac122227d",
+          "sha256": "d4ffd4a6af4b1ae061229f62a27d7b238bbdf48787509fc03a817656333585a5",
+          "bytes": 1671397
+        },
+        {
+          "path": "site/sources/MSA_Upcoming_Changes.pdf",
+          "gitBlob": "a5668898a2756d1940e03eac5f96bfc00e854c23",
+          "sha256": "bc8e24a15b050641d58ec7b40513477c5bc9baf5491ab552771a4e1e577abad4",
+          "bytes": 295824
+        },
+        {
+          "path": "site/sources/SP_Global_ESG_Scores_Methodology.pdf",
+          "gitBlob": "5b4ecaa01941a29c4089f6dfde766081cf4699a9",
+          "sha256": "50f35531be8ea65f6091c89a4c24ebc90ce6cd429454a6d4c3eb489bac30208f",
+          "bytes": 576821
+        },
+        {
+          "path": "site/sources/SP_Global_ESG_Scores_Methodology中文翻译（双语）.pdf",
+          "gitBlob": "52d61ee932c6d293cdb75fd43a2aebbf3cfd4fae",
+          "sha256": "483035e972833a4264bdb10052d44ab9110caab21f8c804a8013890da8f29c58",
+          "bytes": 1192991
+        },
+        {
+          "path": "site/sources/Sample_Benchmarking_Report_on_Materiality.pdf",
+          "gitBlob": "44e283b58dab6e4bdf9be8cd1d5202c99eb5834d",
+          "sha256": "b147462d59effcf628e013dbc022c67e0448e8ebe50e51544814d960018dccba",
+          "bytes": 1347031
+        },
+        {
+          "path": "site/sources/Sample_CSA_Performance_Outline_Report_2025.pdf",
+          "gitBlob": "912b124d3f0ed2051070a7530d87c6bcf3fd706e",
+          "sha256": "c453dba4d16acc66af62fe7474c42249b13e3b0281a7d7d999ac3274a2ac10a4",
+          "bytes": 1145566
+        },
+        {
+          "path": "site/sources/Sample_Company_Benchmarking_Report_2026.pdf",
+          "gitBlob": "9ccd3e4469122aa8867dd1d52b94a3069e6b9e9c",
+          "sha256": "378e1ebd36d887f718fd9672f20a7047affaffddc65043f7781f19f7453d0bc4",
+          "bytes": 1346590
+        },
+        {
+          "path": "site/styles.css",
+          "gitBlob": "1e101fe3a0f167fdb5e86063e9b87ffa2636fe3c",
+          "sha256": "0d40d431f539fcf18c760f11af5a9abe8eb1256dd55cc8eaacbd68a57da03f34",
+          "bytes": 33828
+        },
+        {
+          "path": "site/task-queue.js",
+          "gitBlob": "e69693797b5980bc602047e52c0b348d41b01641",
+          "sha256": "45094155c33cf5f9797c6c00133b029a33f48a77f8e1634be8abd0a73395ada7",
+          "bytes": 936
+        },
+        {
+          "path": "site/ui.js",
+          "gitBlob": "088728a0431f4d9736c073b8441a27f428314857",
+          "sha256": "3a784f75d550c17cbffe39ff4addd11b86e7c0f534a82db3c76501b06de75166",
+          "bytes": 1883
+        },
+        {
+          "path": "site/workbench-view.js",
+          "gitBlob": "b36aa93f6802eaeb1157bc28c1063d76a5d1d0a9",
+          "sha256": "ffca07b2b4050a9cc4e7ff87eee8c461dfeb27085ac95b0ad9e58e24626baf73",
+          "bytes": 25744
+        },
+        {
+          "path": "site/workbench.js",
+          "gitBlob": "0a81e025d2e08e992fbec57518c02b3dde586e67",
+          "sha256": "62d237a34fc5094b5d35a437fce187c10dce275758fe3ddd6d98954a3f75cbb6",
+          "bytes": 43055
+        },
+        {
+          "path": "site/xlsx.js",
+          "gitBlob": "9be6e8a95376c407e1d5fb89362a6b811e283af5",
+          "sha256": "e59479c0a5880d6be39d900d9cc7ab5601651d9b02071acafc6c32b343ceb5b5",
+          "bytes": 13536
+        },
+        {
+          "path": "启动 CSA 工作台.command",
+          "gitBlob": "5c3ba4e8568e23f62413fb8a51611bf00a4c2774",
+          "sha256": "cf8b9742e5916566b4ee83ed7d4ea5aa4234da473faa116748854c9b99848886",
+          "bytes": 1556
+        }
+      ]
+    },
+    "msci": {
+      "repository": "18zxh/MSCI_ESG_Workbench",
+      "commit": "69bc5c7b67c8ac24bc246fbbcad555aa6b0c152c",
+      "files": [
+        {
+          "path": ".gitignore",
+          "gitBlob": "384a0aeb304d67ccc072dad96b264509fb7ec8fd",
+          "sha256": "6e1de9432654b82ff5b3a2bd1af92b0d0bd7bbb1e1aec2da8096e4ed244916e4",
+          "bytes": 692
+        },
+        {
+          "path": ".impeccable/design.json",
+          "gitBlob": "75bbec35436e1d143f84b35a651ee4de1a7a202c",
+          "sha256": "83250e1d6d14d024a566c45476f0d5fc7ec674481bf48e84d45e67f03a60963b",
+          "bytes": 17672
+        },
+        {
+          "path": "DESIGN.md",
+          "gitBlob": "96e849969ed0b09c70fb53e06c363b302c63d252",
+          "sha256": "8602232d9f6814d456a79c6e2ed10a969cf5fec275aabb53a70cbe847eb032d3",
+          "bytes": 14030
+        },
+        {
+          "path": "MAINTAINER_GUIDE.md",
+          "gitBlob": "b8f48dac1df6c6d9104a4b5b3d533694110fb47e",
+          "sha256": "8ceadf34970ed9d41e410876fc84e77fcf16088304f58fc9fc52f39afbae8ef0",
+          "bytes": 6314
+        },
+        {
+          "path": "PRODUCT.md",
+          "gitBlob": "bd9eab047a549a6550d88c4902ff7dc7d6e76131",
+          "sha256": "05170e06a9fde65db496776e17c894be5b237ea20e434c5a0eb696f2af92858d",
+          "bytes": 3925
+        },
+        {
+          "path": "README.md",
+          "gitBlob": "727d228201456235ce63f80e048fe4e50f3a916e",
+          "sha256": "85b4b6a131e73ed94a2da8221e6765a41258e23805def9fc36e3fa218fbb8443",
+          "bytes": 7718
+        },
+        {
+          "path": "extract/core_modules.json",
+          "gitBlob": "c796628f92760cbb0d6e4bc327868fd2c96f6b6d",
+          "sha256": "b29251d47e426fc00bb62a0e2cd680f3e51a20729ea5fb519d6cbed62b361cb5",
+          "bytes": 84928
+        },
+        {
+          "path": "extract/key_issues.json",
+          "gitBlob": "b842abdb2790fb18d1f1307fdb12825c903e4274",
+          "sha256": "e6d11a4dfe51bc73faaf0a14b9cc0b91ecbd889fb153b088192ce4bce55db371",
+          "bytes": 564024
+        },
+        {
+          "path": "extract/metadata.json",
+          "gitBlob": "602dd20a39c090126b8394465e421ffa3c565e29",
+          "sha256": "93aa26ec9c054d7d241078a772d3e2392a978d8ed6a5066cafc6618d18e0ae67",
+          "bytes": 1533
+        },
+        {
+          "path": "extract/pdf-text/access-to-finance.json",
+          "gitBlob": "a831e89952f32e13e4da68c02b7823b700a5e173",
+          "sha256": "6a51e33a4df0956722cd4837816cef0b155f4630a801f7010e96707e57201f96",
+          "bytes": 20033
+        },
+        {
+          "path": "extract/pdf-text/access-to-health-care.json",
+          "gitBlob": "586c2e653687560c4e0921493dccff0ddb8cdd90",
+          "sha256": "ce2cb28a73723bdfb1e4088679c3580caea222f3dba764f4dd4168622be8b1d0",
+          "bytes": 22927
+        },
+        {
+          "path": "extract/pdf-text/accounting.json",
+          "gitBlob": "35c4e8da2d5d7de283d3bc2693c0eaf2196a61f5",
+          "sha256": "313712360620497daca48ec9bd011f01db9f4687dc9adaeab545aac702be8b12",
+          "bytes": 9072
+        },
+        {
+          "path": "extract/pdf-text/biodiversity-and-land-use.json",
+          "gitBlob": "d63a61f06a8fc3fe01e1f8bc37089b91e50ac0c5",
+          "sha256": "e936fb5812ecfb335a83eeba4b79118a97f6a6ea94486311b464fc366afccd13",
+          "bytes": 21898
+        },
+        {
+          "path": "extract/pdf-text/board.json",
+          "gitBlob": "6babecc58e8896530f0a6620953a99fd20c98210",
+          "sha256": "a7d7ec2d463df76ec32d96eaf18c7e5a48bf3cf38bc5861a3399362800e455d7",
+          "bytes": 47650
+        },
+        {
+          "path": "extract/pdf-text/business-ethics.json",
+          "gitBlob": "ce167ca2e175a12bc0ee8feef199a658431d98c8",
+          "sha256": "2b3d1c907f3f0e0cfc231bee5bba9f8e8a0c3fd5548d20290c39376a0aff149d",
+          "bytes": 11421
+        },
+        {
+          "path": "extract/pdf-text/carbon-emissions.json",
+          "gitBlob": "c6e5151744d2df1f39111896ae00cc9b516e0b93",
+          "sha256": "355a01247642b282b713f2e394fb0d35dc97c9048c3dd393a3e61f5a36fec123",
+          "bytes": 25953
+        },
+        {
+          "path": "extract/pdf-text/chemical-safety.json",
+          "gitBlob": "857a8d59168d0d0c9450a97af5132284e79a8c3c",
+          "sha256": "d111d0a84d2f9a4dc5117bf17674662dc660f59fa91852e880bb26ca67f91376",
+          "bytes": 20767
+        },
+        {
+          "path": "extract/pdf-text/climate-change-vulnerability.json",
+          "gitBlob": "c4d20c8c80c1d2141ff3f9c0c04460127d0f1d26",
+          "sha256": "817c4b07800f33ac98b97ee5cad90623c026d2cb6e663fd60f4b01cec17eba2d",
+          "bytes": 18955
+        },
+        {
+          "path": "extract/pdf-text/community-relations.json",
+          "gitBlob": "30c9d3175b192cff3c4af83aff8b2fb24cadedc6",
+          "sha256": "3f1f56d07b1152530f5e432bc8fc13ab32924e8422383dae8a85906a7469b964",
+          "bytes": 18484
+        },
+        {
+          "path": "extract/pdf-text/consumer-financial-protection.json",
+          "gitBlob": "4ed3fef37560a86227be45f90458e5db0121bfb9",
+          "sha256": "81974c55da085003e76368758ed53d176900b315a074cc7487f1b3fcaa996347",
+          "bytes": 15247
+        },
+        {
+          "path": "extract/pdf-text/controversial-sourcing.json",
+          "gitBlob": "cff378657c2dfbd197dce73140a23a4fee753635",
+          "sha256": "5f24f28576417ba460cca167487fd3c4e3a30d289d3fa2a57e7d10d96345900d",
+          "bytes": 16498
+        },
+        {
+          "path": "extract/pdf-text/electronic-waste.json",
+          "gitBlob": "d52b474c4aa8eef8f8bca49016e081f0308dea14",
+          "sha256": "1c7266dd09b559b0da0521b4f4e572ed97d3db70763f57d721c459bc81ed1852",
+          "bytes": 21113
+        },
+        {
+          "path": "extract/pdf-text/financing-environmental-impact.json",
+          "gitBlob": "dbe765f21a2c1b31ba5d6b7c4b6ce91c1ce30dfd",
+          "sha256": "f3164d7db60506a17bb8d04e1b242ea685b380b6b5be49eddb36586169337aa8",
+          "bytes": 23143
+        },
+        {
+          "path": "extract/pdf-text/health-and-safety.json",
+          "gitBlob": "ecf7625bc775e7d5ed2678a4140947e4b89bfe69",
+          "sha256": "f3c4a776681971cd38e5b17d36026dd252cf5231727d158085b638924d7fd184",
+          "bytes": 24819
+        },
+        {
+          "path": "extract/pdf-text/history.json",
+          "gitBlob": "3e6b2ecadeadd834986ef6b314565dedbd0d2c46",
+          "sha256": "244a025f9aa3e4e0ff3b49c12200a287e98c9b1fdbb49f563f56edc53b728504",
+          "bytes": 26517
+        },
+        {
+          "path": "extract/pdf-text/human-capital-development.json",
+          "gitBlob": "e618ab43a94a08c861f8c6aa24e33aa02505a2ec",
+          "sha256": "00d7d93bf5d40717b048ac8a231d6164a0fa567ab703a653ad4183723acca4f3",
+          "bytes": 19790
+        },
+        {
+          "path": "extract/pdf-text/labor-management.json",
+          "gitBlob": "2445c68657bbe411083fc94e5cf87dc5420a59c9",
+          "sha256": "74ce2495a518936d0d9791634090d01003007d5a34c37a3a15d8267b5339a517",
+          "bytes": 18238
+        },
+        {
+          "path": "extract/pdf-text/methodology.json",
+          "gitBlob": "2235050a5c6e85eb563b2320d3aa39e377d84778",
+          "sha256": "44a3177fa44bfeab4c2dc5cba7cacfad4aad93ed5ea988420fbff43b4d77d225",
+          "bytes": 106324
+        },
+        {
+          "path": "extract/pdf-text/opportunities-in-clean-tech.json",
+          "gitBlob": "c1abbeba296847b66a1e9663e00fb40f4681f1ad",
+          "sha256": "07dd1077d2a508dfcbc50ec971f9d792fccf5eab2a963fb59cc6a2fe329a4c4a",
+          "bytes": 17143
+        },
+        {
+          "path": "extract/pdf-text/opportunities-in-green-building.json",
+          "gitBlob": "2ed1c2c2a12fb4e38764c14b3bad6ea31ee14e5d",
+          "sha256": "1907da4c4be170e9bd29b0579310da24bfd1e4d4c435be70e27a5cdbacf2d546",
+          "bytes": 23995
+        },
+        {
+          "path": "extract/pdf-text/opportunities-in-nutrition-and-health.json",
+          "gitBlob": "4bcee7d86255fd061c5728e722c7fb5cff0b51a6",
+          "sha256": "e59abaae91fafe31cf8923ec5420b021e6195bd587f2cd1188dc7064406ab9b3",
+          "bytes": 19590
+        },
+        {
+          "path": "extract/pdf-text/opportunities-in-renewable-energy.json",
+          "gitBlob": "4b169633dbc738f40a7480535784c8e0dc73c21b",
+          "sha256": "ec0f6e82dcfb7084503e478b2448c68caa06e9f7d641f85187d3958e8ef2189c",
+          "bytes": 21215
+        },
+        {
+          "path": "extract/pdf-text/ownership-and-control.json",
+          "gitBlob": "8c8157b3c456e9644adaa5706851c9a59e5aae75",
+          "sha256": "ee6ebf50f38605e290a9023a7ba8fe97462a89af524ba71d22ffbaefe6accb8a",
+          "bytes": 28134
+        },
+        {
+          "path": "extract/pdf-text/packaging-material-and-waste.json",
+          "gitBlob": "725ba5ae1e20b9d417f1eabd0b5d2c8cdd52e794",
+          "sha256": "4cae09f26deba63f26233b5cf032abffac5467e4d170429324fb438f88bc41f9",
+          "bytes": 21861
+        },
+        {
+          "path": "extract/pdf-text/pay.json",
+          "gitBlob": "1a6d261055337b515ca6e44347b275bd6cf58610",
+          "sha256": "f6aaaf7e47a4d4de452e2650b1c8675175b5c4b015215b19117e27071d3d9f93",
+          "bytes": 24772
+        },
+        {
+          "path": "extract/pdf-text/privacy-and-data-security.json",
+          "gitBlob": "59a4704ba82c7d6720a8c1c2f6ff72125b72b393",
+          "sha256": "cd073e038002eb78324bdd453df3a7e9f697c35d7a859c4e487e9781edee02fa",
+          "bytes": 22633
+        },
+        {
+          "path": "extract/pdf-text/process.json",
+          "gitBlob": "c5f2e649744541b04e4b43a870ac7cad85f9f034",
+          "sha256": "57b7fde223ce490279dc2faa6380bb1a4054fcdc8be243e3544e85b1c9b7b040",
+          "bytes": 31455
+        },
+        {
+          "path": "extract/pdf-text/product-carbon-footprint.json",
+          "gitBlob": "1f51041307c844ad3f44ff454898675a396c40ee",
+          "sha256": "04e6423943c505b171235a42ddb0582c42beea9ec40429cac0aad890987d0e4b",
+          "bytes": 26920
+        },
+        {
+          "path": "extract/pdf-text/product-safety-and-quality.json",
+          "gitBlob": "3fd7301db952bbf9c922b49f113ad1ebce7ea80a",
+          "sha256": "c64d9d6730ce22ff957c081538358c0409e9cf51a4d4c809755ed986b987e6c0",
+          "bytes": 32189
+        },
+        {
+          "path": "extract/pdf-text/raw-materials-sourcing.json",
+          "gitBlob": "450734b7390a45b8d1152c0a05f04bce6123c4a7",
+          "sha256": "e70b167488e8d35b5717563a97fc70555152d9d020eb04c4e5c208e9000aeaf1",
+          "bytes": 28990
+        },
+        {
+          "path": "extract/pdf-text/responsible-investment.json",
+          "gitBlob": "e7ff3b53fcc446e043c60be65c3ad40760f8751a",
+          "sha256": "3fae4ecd0f261c2786a2569e29f766766de073f125dfca656b02fbb1720e5e17",
+          "bytes": 15262
+        },
+        {
+          "path": "extract/pdf-text/supply-chain-labor-standards.json",
+          "gitBlob": "ba06bb53ea766a00c8b360c7a8e35de5e122f67a",
+          "sha256": "8765540ab676d051375e4b4dff041ddfe5ef8298f7abf219c5ab41435a162e6e",
+          "bytes": 19701
+        },
+        {
+          "path": "extract/pdf-text/symbols.json",
+          "gitBlob": "8fbac46b2bcafc787405ef81c6a14418b55d469e",
+          "sha256": "ca15b903302ad5a93f1baf1094c3ea042dd356c47356a147128a255360be668c",
+          "bytes": 50297
+        },
+        {
+          "path": "extract/pdf-text/tax-transparency.json",
+          "gitBlob": "d0bc8393a5035a7716bf47d0dcf81e04b8652749",
+          "sha256": "1df1489503879fc35a0778097a3e6c840066ab4b736aee15360af94a915f3a2f",
+          "bytes": 6994
+        },
+        {
+          "path": "extract/pdf-text/toxic-emissions-and-waste.json",
+          "gitBlob": "0941b96887c046b00b8eb0e4d4f2c0eb5e026133",
+          "sha256": "78fe111254b54d4b11865f66202f6f9d5792648aca12724effc6a26403e5a8c6",
+          "bytes": 29023
+        },
+        {
+          "path": "extract/pdf-text/water-stress.json",
+          "gitBlob": "217e933ee67cf5f74ea0b764ae853856c6cface6",
+          "sha256": "1529370872954e17c8e4878bff3e874530929050f0a249ae832d9d078c6883d6",
+          "bytes": 27747
+        },
+        {
+          "path": "extract/sources.json",
+          "gitBlob": "6b0658fd4aeab4033cc1218e327d0fb4edf6fc24",
+          "sha256": "3873e7c03e58f12036862ea641f3ff702048aa0bcf7a57b6bf67a9d54628b2a5",
+          "bytes": 1576467
+        },
+        {
+          "path": "extract/structure.json",
+          "gitBlob": "4f9e51eb023879d3167b2d3b54b6fa0f52d6b7e5",
+          "sha256": "7944f8d73b6e6ccda00a2a54992bcd21948e4e54ccf69e95bc162ceb24abdc7d",
+          "bytes": 1768
+        },
+        {
+          "path": "pipeline/audit_sources.py",
+          "gitBlob": "8e0ac9c0d3c1874d2f2ca007c1a7742fc03a74e6",
+          "sha256": "3e7582c176607f199d3bda43259504b93c5fdbbeb6b6b74550f1fc72884aacbe",
+          "bytes": 5513
+        },
+        {
+          "path": "pipeline/bin/pdf-converter-macos-arm64",
+          "gitBlob": "c0dc8a19776128a840c6e6a4ae001b6a59731912",
+          "sha256": "74bbd1061a482b9d329e4375a44b19ca3b4c6eafd2a5cfefc0e50c1581f82ea6",
+          "bytes": 54584
+        },
+        {
+          "path": "pipeline/bin/pdf-converter-manifest.json",
+          "gitBlob": "fbaa739edc73bd0f9ac164995396e7ed456d6198",
+          "sha256": "21bf07ab9dec406fe8d41d7a0fca93c8f674a98da996b13bdd723311671f6560",
+          "bytes": 270
+        },
+        {
+          "path": "pipeline/build_ai_requirements.mjs",
+          "gitBlob": "3e691a12e3943fc7b98928987b164ea1ec7256d2",
+          "sha256": "cd092e60a06df103f48e69b0c6f08425fd1a3e94988d886717aac6ea34a257e1",
+          "bytes": 494
+        },
+        {
+          "path": "pipeline/build_data.py",
+          "gitBlob": "ceaaca7bf772282bcf6886877d8195d9c6673cd4",
+          "sha256": "dc362d33f59da0d6c80e4eea62145d5ae5e5a12b383f417037e608578d163abf",
+          "bytes": 1046
+        },
+        {
+          "path": "pipeline/build_release.py",
+          "gitBlob": "3f6087df4c96447e175427c89ea5513f715ebc09",
+          "sha256": "0ec7f839d8b97540f4c2305e6462ab7b18116debaaa1341fdf3f7a26af91b3b7",
+          "bytes": 2956
+        },
+        {
+          "path": "pipeline/build_standalone.py",
+          "gitBlob": "4ff40e78de2b53f92fd3693a4c87c440eaca8086",
+          "sha256": "88d1f8d3abd95d07a7463da1a13581e549529f3c7d9a2fbf09999676ebba5656",
+          "bytes": 1399
+        },
+        {
+          "path": "pipeline/errors.py",
+          "gitBlob": "aa696b50bf00502026bcf4bbe92efd002a2fa30d",
+          "sha256": "066845cdcbb735490a58d3c53ebb7fe4e876a639a3c30c80fe548c83a7c9739a",
+          "bytes": 89
+        },
+        {
+          "path": "pipeline/model_proxy.py",
+          "gitBlob": "caeb33759208b77f13d1d2b6d65dc4e9d2297d8d",
+          "sha256": "e4886c513bfbdf78e62a9dd83fdca4526b990961221b5f87834ede760e55249e",
+          "bytes": 40270
+        },
+        {
+          "path": "pipeline/pdf_assessment.py",
+          "gitBlob": "02628742dd8288ff0b4de7a27ace01479e198cf9",
+          "sha256": "d2559ef025e5676048052847a0b1b5c71cf6a8b1f680826500463000bd6422fa",
+          "bytes": 29970
+        },
+        {
+          "path": "pipeline/pdf_context.py",
+          "gitBlob": "c1db94da5d192b0b24e747a6123ad9259bc064a6",
+          "sha256": "480a8a11eadac274f94685ab7f5e7064eabf7f18fa672b944d072fdf6eb0f4be",
+          "bytes": 3281
+        },
+        {
+          "path": "pipeline/pdf_conversion.py",
+          "gitBlob": "0d5c2df329b1aac9ddc352aefd60d1b294556e5c",
+          "sha256": "e73d7753c5f12945734551e221b6218a3be06f10fa281d7927276be349d6d27a",
+          "bytes": 17714
+        },
+        {
+          "path": "pipeline/pdf_convert.m",
+          "gitBlob": "e4fdb7c8315e592acd590b7523d0724512c42e27",
+          "sha256": "88e738b23a86771786a96745d8d2811153fc86c1a046cdb36489d35149e9c6c7",
+          "bytes": 4683
+        },
+        {
+          "path": "pipeline/pdf_jobs.py",
+          "gitBlob": "da1b137bb7fc204c9c09ab7a418ae3bf8d44eff2",
+          "sha256": "a5c18fab76aacf642a97b8e7f206ac3369df37a4e2d571571edee0c174e4cdb4",
+          "bytes": 2445
+        },
+        {
+          "path": "pipeline/pdf_pages.py",
+          "gitBlob": "5ffa728fe34ada4809400557723ae7911f834649",
+          "sha256": "7edbd078d1f0857f486846d8afcc0cd901a3b5cb1422aaf5ee5d786e6ed842a9",
+          "bytes": 5827
+        },
+        {
+          "path": "pipeline/review_cache.py",
+          "gitBlob": "c08698e443ee4a8b370a12949f1544d8606900b5",
+          "sha256": "a57ab4942f913fd23bcdea4d17a93d5ced8c8afa141254f069464ab4932cde2b",
+          "bytes": 1519
+        },
+        {
+          "path": "pipeline/workbench_server.py",
+          "gitBlob": "043e130fe3890b5da048acfecbf1ad2f126c0edd",
+          "sha256": "23e2021d3f74cf0204b1b190fb646ccc250412d99596f4193fec019f6294d751",
+          "bytes": 13131
+        },
+        {
+          "path": "requirements-pdf.txt",
+          "gitBlob": "13375ac173f99f9f7fd203f26a4d5fc65fe09b59",
+          "sha256": "84744425a10cc70b3eaf31cedbb1e48e1563b8ceeaa769029ab83381b89ed617",
+          "bytes": 34
+        },
+        {
+          "path": "site/app.js",
+          "gitBlob": "78340496eecf074ccb78ca84fd1a569014bce008",
+          "sha256": "9c171e1bcd7f2ad7bf3ca5b045e48b825c9b849dbb6546d8a6a85b6610dfe25a",
+          "bytes": 41157
+        },
+        {
+          "path": "site/data/ai-requirements.json",
+          "gitBlob": "20439ac36c4c082e5b32ab47290776885128e760",
+          "sha256": "66f919468bfe6052a0f6db7df67f0b12b72ffc1acd1ff2c144b1c1377fb752c0",
+          "bytes": 687665
+        },
+        {
+          "path": "site/data/core.js",
+          "gitBlob": "64e21a6821bec05ea5e8452ea8da50abd5860eb6",
+          "sha256": "e739963e6a5be30a9ae451de46c9373cd5edae72aabe71be821dce686cfd2170",
+          "bytes": 1661980
+        },
+        {
+          "path": "site/data/key-issues.js",
+          "gitBlob": "3f247bddc7dc2816480494068b88ed8a19300c3a",
+          "sha256": "3a17913311b7b30a90256ab5e937299f6d0bcbffc1de1943bed31a81e96547a8",
+          "bytes": 565853
+        },
+        {
+          "path": "site/disclosure-search.js",
+          "gitBlob": "16b85e690485c9b0ccc23cbca98003c868db3f0d",
+          "sha256": "34c40c57b94d3852411bcaf792469196175b5b81c70724125a0c5a442cc79606",
+          "bytes": 4742
+        },
+        {
+          "path": "site/index.html",
+          "gitBlob": "add7cdc191012c501013f402a7a3a10e7ae9a7aa",
+          "sha256": "4af4f9b7e4d9028975a0a322538e370297f8d87e741280f4f00e9d2eef8a1094",
+          "bytes": 2034
+        },
+        {
+          "path": "site/msci-esg-ratings.html",
+          "gitBlob": "826dcaebd3ca07017a23050c3edb81016f02a217",
+          "sha256": "a85f1ae1b1c70d42b0ea6a6eef5759a7f3ea273af7c9907d3728f8326b483125",
+          "bytes": 25026603
+        },
+        {
+          "path": "site/report-input.js",
+          "gitBlob": "4fbeff73e70438915b94a3ba0d95c2ba89ffc721",
+          "sha256": "5f2687fad928904f44ae4c3b4a1b7a665d98a6fc8014f558fd0b22c3d8776851",
+          "bytes": 1699
+        },
+        {
+          "path": "site/semantic-retrieval.js",
+          "gitBlob": "e2e41bf3ecc988b283241ad660e07732e3878dab",
+          "sha256": "cda6f0632c82ac0bf0f014f045470d76b2e370a53f83dd92e0ac05257c226b90",
+          "bytes": 5910
+        },
+        {
+          "path": "site/sources/access-to-finance.pdf",
+          "gitBlob": "b80beb224661e324a46e165c4ccf9d0c225e91b7",
+          "sha256": "3754fee4d6c1bd2ac5545682abcc3cdd3a4c4a9a96d50a6f29ba43aa138275d7",
+          "bytes": 551089
+        },
+        {
+          "path": "site/sources/access-to-health-care.pdf",
+          "gitBlob": "568d7a2b915220f21fbdfd4cb25eae6ac3844eb3",
+          "sha256": "299c2f0192595fd717b6d452d91d64175107269d586190abae3723c167f9cb9f",
+          "bytes": 635352
+        },
+        {
+          "path": "site/sources/accounting.pdf",
+          "gitBlob": "45bf61d0d5590c218480af379470992c84c89522",
+          "sha256": "7a0cfc7f1f0fad3998db23913c6a3c9f563d020f928e07bf5d13763902153df3",
+          "bytes": 190961
+        },
+        {
+          "path": "site/sources/biodiversity-and-land-use.pdf",
+          "gitBlob": "4a1f0473033562a687c39443615eb3ee0e5868aa",
+          "sha256": "c1f1a8f52bb682f2f764d954f8b5e298e1a9d317e8a3c6db97500e4f6b748fb3",
+          "bytes": 355203
+        },
+        {
+          "path": "site/sources/board.pdf",
+          "gitBlob": "89a299870212d3a30d56de50766ecb674155192a",
+          "sha256": "5bd61d86144ed51e286dcc6200296d08a784e6f097ec640f8807656a11952bdc",
+          "bytes": 292614
+        },
+        {
+          "path": "site/sources/business-ethics.pdf",
+          "gitBlob": "4781b94c6532371982444aa812960b535a64c1c3",
+          "sha256": "b36400d640716b934559c2893df324eabb2f8425152cf894936d8c63e6479915",
+          "bytes": 219338
+        },
+        {
+          "path": "site/sources/carbon-emissions.pdf",
+          "gitBlob": "95dc7359c3dfcf944e11785c687032a46c7a54a3",
+          "sha256": "57e5b3ceb3bc08e954664f44900439a863f1ac39727a6d36c03fe81f157e55d4",
+          "bytes": 381269
+        },
+        {
+          "path": "site/sources/chemical-safety.pdf",
+          "gitBlob": "004dfc91f397cec2847ece979b72e20972bb98c9",
+          "sha256": "0df22607cac5793b107accd8dbb79ba027c178c937c2dfe58c0a3aef4d22a7e6",
+          "bytes": 545034
+        },
+        {
+          "path": "site/sources/climate-change-vulnerability.pdf",
+          "gitBlob": "3f0d72d023e90bd011ce703650d9291821ebeb99",
+          "sha256": "9fa3802b99d83e3e0a66f3e84346d2fff58fde22463fa80ed11c9b41535b6201",
+          "bytes": 327624
+        },
+        {
+          "path": "site/sources/community-relations.pdf",
+          "gitBlob": "82636a2ebf9dbfb1f0a2e4f63a573c0c15712e16",
+          "sha256": "e456fcb86a48d3a9743159f2b405e39e3c21f24629415bc6e2ebaf19f7d60eb0",
+          "bytes": 524050
+        },
+        {
+          "path": "site/sources/consumer-financial-protection.pdf",
+          "gitBlob": "352dc6e9c8a6234291add3609a7217dcdbf36a40",
+          "sha256": "f4037d1bb2db0cb56aaa2f7225090f9fc0b5201114c93c601097d75825ccc226",
+          "bytes": 482933
+        },
+        {
+          "path": "site/sources/controversial-sourcing.pdf",
+          "gitBlob": "5752735456ebc3bad02b75917394e0a122e5ae0a",
+          "sha256": "ded59c705c250758f26d36bc15a5b4f09db967853d50fa4738dee98feda8d442",
+          "bytes": 501715
+        },
+        {
+          "path": "site/sources/electronic-waste.pdf",
+          "gitBlob": "2b9034f1acbf013abff0bc856ce67f78f6b5b304",
+          "sha256": "17887b23ce945d863d26525aff8521116cf2ed409ac3170432f4b12c11c9f4b2",
+          "bytes": 361250
+        },
+        {
+          "path": "site/sources/financing-environmental-impact.pdf",
+          "gitBlob": "b4812489510cfa3849168e28c12f57120bfc81f6",
+          "sha256": "0743682799e5ea2616813e1046f98ec5a6b4401ea507541d0fc90d046c2930f7",
+          "bytes": 351823
+        },
+        {
+          "path": "site/sources/health-and-safety.pdf",
+          "gitBlob": "607c7612803084f8d22662447dadd0b3eb032739",
+          "sha256": "b84c518e63da795a04733c5cd8c2e101566daf55313396737783b612af75f26d",
+          "bytes": 603958
+        },
+        {
+          "path": "site/sources/history.pdf",
+          "gitBlob": "bb78f78ea0b645e9a40b8d4c6634350552d17ad1",
+          "sha256": "cb26fd0d34e6a0c3e5c15405e4b36ee7ebbbd805707b610920973c5df7e67468",
+          "bytes": 321163
+        },
+        {
+          "path": "site/sources/human-capital-development.pdf",
+          "gitBlob": "eed005caa31f7eaaf3c6dbf32e5558e46a72c5db",
+          "sha256": "0264d2fb26560148f6f62865e3073da338777179a77b94965d624e60c109b405",
+          "bytes": 577826
+        },
+        {
+          "path": "site/sources/labor-management.pdf",
+          "gitBlob": "7cda0f6ab509f4fa0963879a13e1f84f5aa696f1",
+          "sha256": "7c358f5af8692eaa9ef8d3260cc93c55aafb0ab24beefbf2e2cf552089dcb0f1",
+          "bytes": 527505
+        },
+        {
+          "path": "site/sources/methodology.pdf",
+          "gitBlob": "eb9a79c01c673af98bab731c5191059867453218",
+          "sha256": "5a0fa5c98cb051b313799891d8184cfb63feb06b20cbfedf414cab67a2c9a546",
+          "bytes": 1847750
+        },
+        {
+          "path": "site/sources/opportunities-in-clean-tech.pdf",
+          "gitBlob": "87bcd9a77f0ee7001ef21231cadf917f4d620b80",
+          "sha256": "a16d73aac01d2b1d1aa7ff4212e342a19a411e68144b63be9205d2e75e6e3bc2",
+          "bytes": 374017
+        },
+        {
+          "path": "site/sources/opportunities-in-green-building.pdf",
+          "gitBlob": "2389e8cf049a73a3ad5f77ab56f4648680a2fe44",
+          "sha256": "d36ad335d0c698a1f1d1fd83a798e5b7d4aee202e78edf69b872d1b454031816",
+          "bytes": 353675
+        },
+        {
+          "path": "site/sources/opportunities-in-nutrition-and-health.pdf",
+          "gitBlob": "8e1b105b89933f9d8392033b5603b49440f5e105",
+          "sha256": "154c39c4ea1110b8def3cf07156d7ed0aabfab8be323d5f26fb26b46f92ef805",
+          "bytes": 516753
+        },
+        {
+          "path": "site/sources/opportunities-in-renewable-energy.pdf",
+          "gitBlob": "8c91d3c9d636de9dd62aacc761dcc05690d73a4a",
+          "sha256": "04d1b1e9e23730502bf27a4277f39fa8886879cdb5cbea4ea3fd8949b6b90b19",
+          "bytes": 351740
+        },
+        {
+          "path": "site/sources/ownership-and-control.pdf",
+          "gitBlob": "8dc3c0c965969d1c728adf3c7a95b16c4db21ffa",
+          "sha256": "13d8af1704280ee211d62a19d07da6108c5a11e17fbb8de631c0e3a1e1fae513",
+          "bytes": 302339
+        },
+        {
+          "path": "site/sources/packaging-material-and-waste.pdf",
+          "gitBlob": "125e1bf4fa48431ca63b8ee73f13424671b46f0d",
+          "sha256": "0f64184bc68d79420b623864d556a07f048e22f6881434ac5e93af1ae248f7ee",
+          "bytes": 350600
+        },
+        {
+          "path": "site/sources/pay.pdf",
+          "gitBlob": "c92bebe91dfcfe187f40b5bbd32249dc463f14ea",
+          "sha256": "19c3c46f48842c7cdfa2a52ff8ae49663f732508ebbcbb6d3f5d112c3f3e00fd",
+          "bytes": 310456
+        },
+        {
+          "path": "site/sources/privacy-and-data-security.pdf",
+          "gitBlob": "29407454deefda6ff1b63a6c0d3620a3051b2184",
+          "sha256": "b7b36b11be1523ac80edcb69fabaadaf796acf824817e65ed40c9db8b7389402",
+          "bytes": 573361
+        },
+        {
+          "path": "site/sources/process.pdf",
+          "gitBlob": "ad167f4bd4e59908e451a2e912aa3d9703912d89",
+          "sha256": "7acfd0e956d72d25fd4063552c1c5f93ed96365d0ea05bce5acac04afc9e95a5",
+          "bytes": 497421
+        },
+        {
+          "path": "site/sources/product-carbon-footprint.pdf",
+          "gitBlob": "81ea02ecd4e1737ea2137d44e27c60c14d7fdbd9",
+          "sha256": "88546ed61fff1ed1b461029df8c58f7cc9a5e3112a64458a5567736613917b8b",
+          "bytes": 370102
+        },
+        {
+          "path": "site/sources/product-safety-and-quality.pdf",
+          "gitBlob": "c5b24a818588adcab82c8705d858be86413acd0e",
+          "sha256": "c1adb440664e95228400aa0225dc99f611af9d1c5e99ac12dbd511ab44987eec",
+          "bytes": 657964
+        },
+        {
+          "path": "site/sources/raw-materials-sourcing.pdf",
+          "gitBlob": "2ef9bf4445376d9b161b533a85c7abd6d587213b",
+          "sha256": "d3239cd05c3b50404c838a631cc937095814dc268203394e9d4cbc3a486b9ff9",
+          "bytes": 357081
+        },
+        {
+          "path": "site/sources/responsible-investment.pdf",
+          "gitBlob": "630835ddd560c699e829ae842813a2fdb98dd764",
+          "sha256": "86d932317061387c2535ee087c7111bcdd73cda68baa00a294e24a9319d21c2d",
+          "bytes": 492846
+        },
+        {
+          "path": "site/sources/supply-chain-labor-standards.pdf",
+          "gitBlob": "a0fc0acf20ca4708d6ee860e8f331ada5adc8081",
+          "sha256": "0be3a8d6202730a470743f74c3c4de4e9fde8368700b88a870222439e8eb8638",
+          "bytes": 545095
+        },
+        {
+          "path": "site/sources/symbols.pdf",
+          "gitBlob": "cbe3f8ce47822b185c33b845634bc142b6c92656",
+          "sha256": "f319096b874d8b72a7471b7de0f6d6f49e718ae83fb70c7e3877e930c07f87d6",
+          "bytes": 294247
+        },
+        {
+          "path": "site/sources/tax-transparency.pdf",
+          "gitBlob": "163ef479b31d0c140bd5ee19d43e338e6b411908",
+          "sha256": "f5fd41d4c4c470ffaf513f6166bdf5ad088dcdbb9be96699602800a4fb6c55f5",
+          "bytes": 193876
+        },
+        {
+          "path": "site/sources/toxic-emissions-and-waste.pdf",
+          "gitBlob": "5cb13868af6b2065a0710c244086d4e881e8dc58",
+          "sha256": "1d1686d0ebbd89bc79cafda13d4c4e08eccceda959e96c90f12df58c4ecb43c9",
+          "bytes": 416382
+        },
+        {
+          "path": "site/sources/water-stress.pdf",
+          "gitBlob": "43fefefa673b9d88d10868805672b99f5b98e912",
+          "sha256": "bff974f7318fb77f788acf002677d8de4104ec4eba3f5d0ac80754b81a3cbe93",
+          "bytes": 374305
+        },
+        {
+          "path": "site/styles.css",
+          "gitBlob": "6138604f0a5f621f334fabd3e9bdbb4080acac41",
+          "sha256": "c9582229e28decaffeb6be530781de1f05623a5e53976f98420fe4182c039ee0",
+          "bytes": 37986
+        },
+        {
+          "path": "site/workbench-batch.js",
+          "gitBlob": "e65094974e28d20b815a1ddee4b1f23ca9784750",
+          "sha256": "e83a4d362f2a034d2e8214293916cfce52f3c9a326b4779e64d153c2a922d589",
+          "bytes": 11080
+        },
+        {
+          "path": "site/workbench-core.js",
+          "gitBlob": "9e139330f1d0396c3f7630da7b6ea4022e01d3f9",
+          "sha256": "2864e9c718bdb86e24d6212e552a57aceb0ebb3dbfa4a58d1c353743a253758c",
+          "bytes": 34324
+        },
+        {
+          "path": "site/workbench-export.js",
+          "gitBlob": "47d068795eff98c9c33010787d1e61ba6e344579",
+          "sha256": "a5939e9417e28d80e9a386711c3fe315ddc0be8c2122c38fcdfa28cb1a7f85c3",
+          "bytes": 8480
+        },
+        {
+          "path": "site/workbench-native.js",
+          "gitBlob": "f1a4c0ed284cc61efac302f4f147842bcfc3b5bc",
+          "sha256": "36b7dca6cb92151f2e07fa4f6b8cd1e54b170906f4885a529de5a90f1b0c44a9",
+          "bytes": 5157
+        },
+        {
+          "path": "site/workbench-requirements.js",
+          "gitBlob": "855f70470fd31d7c959d24b67990b89312eb87a7",
+          "sha256": "8321417b8cc2b67323e6d7faeb2f148841e62b1a0e25726bb5f85ca8899f1335",
+          "bytes": 1220
+        },
+        {
+          "path": "site/workbench.js",
+          "gitBlob": "3643074600886f3d5dab9baca5964e5c02914418",
+          "sha256": "81d19baef522c543bb3242f597f89c8cab6f0312ad8c103170ce81435e3a34d4",
+          "bytes": 63987
+        },
+        {
+          "path": "site/xlsx.js",
+          "gitBlob": "7a5a290a60aceb0242a6f4dc40c0b00ad7b2d4de",
+          "sha256": "96669e50746252b820295c74333f4a2e1dc466161e962171761ad2b3f79cc4c3",
+          "bytes": 10117
+        },
+        {
+          "path": "交接文档.md",
+          "gitBlob": "2f646cfc8195bb297ce835fd60c9a1fbe28bda11",
+          "sha256": "2c5b448cddefe3484c57dd89d37be8abd878b57188ddc6dd13418ce203c46594",
+          "bytes": 16100
+        },
+        {
+          "path": "初始化运行环境.command",
+          "gitBlob": "2bbf31f6ca7a5b5d985a7771b77e24e4cfde3ee9",
+          "sha256": "10c214ada6870ce89ccd57a78f7191a07bb01904b14e83dc417731050a87cb2d",
+          "bytes": 287
+        },
+        {
+          "path": "启动智能评估工作台.command",
+          "gitBlob": "91e45110874f5a18f9ade43a06111e7244e0ad14",
+          "sha256": "28e2d20f7eb7d54854c109048f6bd2be5249d07dcddf4dbe90750a157e4db3e6",
+          "bytes": 1260
+        },
+        {
+          "path": "打开知识库.html",
+          "gitBlob": "6947f7128a1225b7cb2acd26b22469bc7dc8aaa2",
+          "sha256": "2407436938c7d7633a0de2e93cf6c18ce4b0d266e6a251b9c653545c39bc8d7b",
+          "bytes": 362
+        },
+        {
+          "path": "维护资料/PDF识别链路设计与准确性控制.md",
+          "gitBlob": "bc017472f9b866db0864f71cc1565d131095b15e",
+          "sha256": "62b54856d750d6cff3687ccbe0701428e3667405a4bffcffe6d7f191d1cd5db7",
+          "bytes": 14177
+        }
+      ]
+    },
+    "exchange": {
+      "repository": "18zxh/Stock_Exchange_ESG_Workbench",
+      "commit": "86ad7cda17d9b31caab5708caac474e1ee3c30c9",
+      "files": [
+        {
+          "path": ".gitignore",
+          "gitBlob": "7cbc5016ced50a154f519cd9c7f1e906dae20241",
+          "sha256": "7c8eb69856da539d6a172d268a23f1d124c1bc5837deae001a925e9e398a6c75",
+          "bytes": 142
+        },
+        {
+          "path": "README.md",
+          "gitBlob": "a6f4b5a007d2705a1072999cfc18fd0a75203f59",
+          "sha256": "5819cec0215e9eb67f292e3905a70d764e519c0f3087bad29d8204aeb8c82a90",
+          "bytes": 8251
+        },
+        {
+          "path": "data/assessment/hk-methodology.zh.md",
+          "gitBlob": "ef86976234e2a9d31d09c2743a72cc9a3c5af300",
+          "sha256": "6a80767744e2462b4f8118698b8079df838645a1fbdc4ab442dd6da0cdb7211b",
+          "bytes": 6319
+        },
+        {
+          "path": "data/assessment/hk-questions.zh.json",
+          "gitBlob": "284e69918225e6226b8b1e3c82a4410503870a8c",
+          "sha256": "7fcc12e24625338e03ec89030fcb509f36fefc31f75150ced1d08dcebb56ca99",
+          "bytes": 39071
+        },
+        {
+          "path": "data/assessment/mainland-methodology.zh.md",
+          "gitBlob": "5df4db437c2d5a6dc9b50043b2a5db66a0ec0965",
+          "sha256": "bd29aa71b4fc36d62385bb628d9d68a3cf681e43c081b1f33087ced6bdf46bec",
+          "bytes": 376
+        },
+        {
+          "path": "data/benchmark/framework.json",
+          "gitBlob": "2785ee7025dfbc68e186a77969ed3ba95bce0824",
+          "sha256": "fb23bb198ad66340a81357975e86e274edaea686da376bfb4cf0d63d44fade7c",
+          "bytes": 3002
+        },
+        {
+          "path": "data/knowledge/disclosure.json",
+          "gitBlob": "3a656bbe3c9cb995278638c5f32ffd930e430b13",
+          "sha256": "c6af10dbd3799b31532c3b5b302e9b3f7fb363725e295aaecfec7fe1b9283c48",
+          "bytes": 2648
+        },
+        {
+          "path": "data/knowledge/exchange_diff.json",
+          "gitBlob": "7402ad619f2ed7eb7ae90003c923efd802ab3acf",
+          "sha256": "ea3124532ec5ab065f0985ba17be4e5ed80cdad98ab6d8d946984dec44f1cc6e",
+          "bytes": 100301
+        },
+        {
+          "path": "data/knowledge/framework.json",
+          "gitBlob": "ae37a8ecc886ee0bb7177fc2d3abe8e2fa681be0",
+          "sha256": "e58399d02be128c485ad8ca97de4c9176e74306aa9cd5043c80102c26d02fc03",
+          "bytes": 33703
+        },
+        {
+          "path": "data/knowledge/fulltext.json",
+          "gitBlob": "7abf05815d04076b3f58b00e9c3b23636e17c7cc",
+          "sha256": "a53c4d21b28386e0e1ef65f99658270e2c8015bdefd18187a3dcb2713522a45c",
+          "bytes": 249281
+        },
+        {
+          "path": "data/knowledge/hk-zh.json",
+          "gitBlob": "dafba1e427c3c4fbc010905de33e062c2ecd4af6",
+          "sha256": "fffbaff504fa41fe1f1540ebbd58a68fed95992a53c0c4e9901ed822cd856205",
+          "bytes": 116866
+        },
+        {
+          "path": "data/knowledge/modules.json",
+          "gitBlob": "109be7e4f9d2cfdd53debe6090a4b1242b9ff85b",
+          "sha256": "91dc04f2fd1d301d0bfa4e558db71c064c8105ff6fea2a3c0ccbc36f76c977ea",
+          "bytes": 958
+        },
+        {
+          "path": "data/knowledge/terms.json",
+          "gitBlob": "fe03fce6d667ffee4b14469313a8d9597a495cce",
+          "sha256": "192be5fee91a18216ab100b4cad53af887cc6a4655351a27c3143763f24543f4",
+          "bytes": 58813
+        },
+        {
+          "path": "data/knowledge/transition.json",
+          "gitBlob": "7f5fbdbe92d3bc6a7cc330fe4d2a463813adacbe",
+          "sha256": "1a19eaf644e8961c7d383f6c5689651df8ce09652e77871d6e47bfe7466796d5",
+          "bytes": 11469
+        },
+        {
+          "path": "data/ruleset/bj.json",
+          "gitBlob": "ab5bccce7a1bf538aa5f7d5e3cf4a5dd3de439ae",
+          "sha256": "0e90d174c5406846e9bce5c830be559e6786b6163c2a1bf6a2dfc4dafa86be8f",
+          "bytes": 39490
+        },
+        {
+          "path": "data/ruleset/compilation-spec.md",
+          "gitBlob": "432bac7f43771133ab042afcf66187a7173019d1",
+          "sha256": "a13741814696c4b3258eac3475de5241db077c92065751b0c7f88f65f2b829f5",
+          "bytes": 6915
+        },
+        {
+          "path": "data/ruleset/hk.json",
+          "gitBlob": "96d14c2d43e7d7b13a6377e9319fe8b2baddfd0e",
+          "sha256": "6b52995da8336cfed4480d86f26f4451a42af49b17cc72786d6c545a4264aa8a",
+          "bytes": 125480
+        },
+        {
+          "path": "data/ruleset/sh.json",
+          "gitBlob": "b2f4acfed6bb438ecb03d6979632d29ce9463736",
+          "sha256": "7ef3d56a3d0dfc0748b43586a94cf2a80fe266f826126d5b7b4aea4edfe64faf",
+          "bytes": 39920
+        },
+        {
+          "path": "data/ruleset/source-manifest.json",
+          "gitBlob": "528d0ebbc29fa75b0b6cfcbdcf0cad0e62aa0996",
+          "sha256": "7266c1ebf0e8dea0b2bbc76cd1f98082e35b239e0ecaed9c17cdee57305ff73b",
+          "bytes": 2369
+        },
+        {
+          "path": "data/ruleset/sz.json",
+          "gitBlob": "364659b493665931b72bbe09a19ed77655c4ec52",
+          "sha256": "680d754ec393a0cb7b89bcaa678f213fb564856f692e536685dc61d219e5ce22",
+          "bytes": 39946
+        },
+        {
+          "path": "data/ruleset/verification.json",
+          "gitBlob": "e50bebd0d2b67c19dadc760f1a9e55e0f8d64aa4",
+          "sha256": "c6ad6986516dea3769b6981ac5a6ef6e58a6e0df80355ef7b0182c3fe442d953",
+          "bytes": 70285
+        },
+        {
+          "path": "data/sources/hkex/gem-c2-current-tc.pdf",
+          "gitBlob": "092d1f7201d7e52e84c5fe11221d04b05ede98fd",
+          "sha256": "f07a65081b5fabfd62be100f55742628b2ad2a31bc3726318dc6f0e2dac43882",
+          "bytes": 405561
+        },
+        {
+          "path": "data/sources/hkex/gem-c2-current-zh-extracted.txt",
+          "gitBlob": "14acbb8c43f5406df47eda036e83a63fe944eb58",
+          "sha256": "1a3de7d5c0de88f660eb5e652c7c9816fe9fa6fda2efc8ff9d08b7ed0e0aaa50",
+          "bytes": 35675
+        },
+        {
+          "path": "data/sources/hkex/gem-c2.txt",
+          "gitBlob": "5e61cd55d9b18628a3a4c21bc843be17cb46c0e1",
+          "sha256": "0a24ac76c5580e28ab54343ad0b44fa753fe515dd4378ac35a6d28f46af8faf7",
+          "bytes": 44048
+        },
+        {
+          "path": "data/sources/hkex/hk-zh-manifest.json",
+          "gitBlob": "7918728d21d078f849048173b1b78306eb164dce",
+          "sha256": "ed26e2defb9a06b11f231bb0a86f83f115ee5fc6ef6eabb6ab128417730a8174",
+          "bytes": 3545
+        },
+        {
+          "path": "data/sources/hkex/manifest.json",
+          "gitBlob": "4b9ab46fd01296c928c0b85c66a66e4a0f174153",
+          "sha256": "ee0caa5bb0138e440ae67bc34c99d0fa62ab45e366c9ee3772adb0a6c968052f",
+          "bytes": 1229
+        },
+        {
+          "path": "data/sources/hkex/mb-c2-current-tc.pdf",
+          "gitBlob": "b7c60bed04209e4f0679bcdcdbc486cc6d438acc",
+          "sha256": "8e5d83db8815795448850e430ae98234bda84fcdc1a356a71f912c2a6c556439",
+          "bytes": 418680
+        },
+        {
+          "path": "data/sources/hkex/mb-c2-current-zh-extracted.txt",
+          "gitBlob": "15a99f71bb73f2d2f3a9e1e94a7e7791cb0540f3",
+          "sha256": "7aa016bd75a4f7657a72ed996e9af959f9c59425c63c4142d8f033b509b4e451",
+          "bytes": 36893
+        },
+        {
+          "path": "data/sources/hkex/mb-c2.txt",
+          "gitBlob": "15464c2be92e4dc0fc9fb2f2cb0ce527a98c5279",
+          "sha256": "3b90d252a475007016074ae71d047873b5ec32d59f671d76157a547dd2972ddd",
+          "bytes": 45259
+        },
+        {
+          "path": "package.json",
+          "gitBlob": "8deca96492aca8813db2117492a2c25d685667e8",
+          "sha256": "0a7021c6d1f6ca4f41f1e2c5da298bc57523e07fea35437e3e5a254e5412a6d5",
+          "bytes": 222
+        },
+        {
+          "path": "pipeline/UNICODE-LICENSE.txt",
+          "gitBlob": "56da58912807030b451a4700687d5bd02c72d6ed",
+          "sha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96",
+          "bytes": 1995
+        },
+        {
+          "path": "pipeline/__init__.py",
+          "gitBlob": "d5683357fb08ea62616b4d58c42f1811646612ec",
+          "sha256": "ab4822477b7ea665bc61106d37729bd18b264a60668fd5fb2229c8fa16bf1911",
+          "bytes": 47
+        },
+        {
+          "path": "pipeline/assessment_reference.py",
+          "gitBlob": "84baeb17a78810c2cc9d585547d3824f808f9bda",
+          "sha256": "1fac4721d0bcd4365e04c82e2796872c5453b858f460dc97b823ef090ee73a7b",
+          "bytes": 3542
+        },
+        {
+          "path": "pipeline/benchmark.py",
+          "gitBlob": "7c3ab55a020c333e9da927a0d4be80cf9379e776",
+          "sha256": "4c6a4e74fd1e7bebf5c60800df53dca1fa39807c9a7c845cbbadda9533d21c39",
+          "bytes": 10346
+        },
+        {
+          "path": "pipeline/constants.py",
+          "gitBlob": "c00976fd34c0addf72f9e41b716b20737560a6c6",
+          "sha256": "8d73bc42f553ef1282442035d6d54ba3bc43599332e74c486f16a3eac2eac792",
+          "bytes": 736
+        },
+        {
+          "path": "pipeline/errors.py",
+          "gitBlob": "d0f98542c3299441d27315c7fa7699a9a203dd51",
+          "sha256": "405621f5c728aa38d34d0ba2e70132e598cf1b72230f59bdc62437a5c32fcf83",
+          "bytes": 338
+        },
+        {
+          "path": "pipeline/hk_assessment.py",
+          "gitBlob": "c2ff80879124106775a34e5fdfc8f8006c09bf30",
+          "sha256": "bd2f0cc2480864fc544bfe1ca882295282e1623000f68e32d6088aeffd536b53",
+          "bytes": 3134
+        },
+        {
+          "path": "pipeline/hk_rules.py",
+          "gitBlob": "94e796892a2cfd5dca30d872b687380fc0160071",
+          "sha256": "acdc58d68f18bd89faeb173520b7bed5e72e3cd7aaeb371bb1ee001058beb5eb",
+          "bytes": 2218
+        },
+        {
+          "path": "pipeline/jobs.py",
+          "gitBlob": "7747a5e570e7e1f40e179feb792e259d766bca1b",
+          "sha256": "18591955b79e029340acad708dc176f7bfb2ccc87403f529eedf8b25aa514aa9",
+          "bytes": 3256
+        },
+        {
+          "path": "pipeline/model_proxy.py",
+          "gitBlob": "661989143b2b5c915d6062d4cf1318378deb4cc0",
+          "sha256": "305e843d68992d53708ec88d418752098428cf6db4a87542f2b06d737ae706fe",
+          "bytes": 8351
+        },
+        {
+          "path": "pipeline/pdf_assessment.py",
+          "gitBlob": "91419e16eabcab55d4553e99207ada310df9db62",
+          "sha256": "eab242661e8ac278c02a211406709f758573a8872689f4a76f46cacbf1e9c08b",
+          "bytes": 39631
+        },
+        {
+          "path": "pipeline/pdf_context.py",
+          "gitBlob": "67b52c2fd627e326b243c672d7972bdab6a448a7",
+          "sha256": "407139b6dc906bd44e1b7a675c6372ec0920793c42f2d4e80f02d692848285fb",
+          "bytes": 1972
+        },
+        {
+          "path": "pipeline/pdf_convert.m",
+          "gitBlob": "62fd64977b6b672f748b0cc1e7482384b7dbce1d",
+          "sha256": "282b19e241eb648381a21f4141cfe1a2e8fb80760957da21b1c9d5dbfc3e8cb0",
+          "bytes": 1792
+        },
+        {
+          "path": "pipeline/pdf_ocr.py",
+          "gitBlob": "febe0fbac780b9dce6eb301b68cb1ed9ea8d357d",
+          "sha256": "9f1db863bcddafe1700728541764ed46852733629868aa5577411160dc8c7680",
+          "bytes": 1067
+        },
+        {
+          "path": "pipeline/pdf_pages.py",
+          "gitBlob": "35e83cb06a28424f034e19aca4f9efb09cf85cdc",
+          "sha256": "dce3e43d1cf485907b9c2645bdf4979db481f84af661f03f0cad41c20d95d26c",
+          "bytes": 8554
+        },
+        {
+          "path": "pipeline/pdf_text.py",
+          "gitBlob": "42e1393dac345e3ca6621dff28199bc113d8b9af",
+          "sha256": "b1a0fd944514f9b579ccb7b214f9938602c48d14054f48a18ca2f8c003d3f49e",
+          "bytes": 1115
+        },
+        {
+          "path": "pipeline/review_cache.py",
+          "gitBlob": "8ab875aa169e3ba8ab4224e9e6612d264ef28f81",
+          "sha256": "8f1a73bd86a0fb8852d42da711ab3764dc2d43055927bd5d489fa27782189147",
+          "bytes": 1925
+        },
+        {
+          "path": "pipeline/rules.py",
+          "gitBlob": "71bd4fbf5b88ece41d5feb45fe214fcd45ad60ba",
+          "sha256": "9be9bb06ccdebd821b7929b0c0ac275e3c736cec31821b535eb95260ffafd384",
+          "bytes": 1233
+        },
+        {
+          "path": "pipeline/test_assessment.py",
+          "gitBlob": "db5281ca80bd75571fe04793f6e2b8a89139a33a",
+          "sha256": "c2f55bf9a37ef2b89b020644e3fd127b712cb9d581a7c0f04d8c27e0b531f24a",
+          "bytes": 11637
+        },
+        {
+          "path": "pipeline/test_assessment_reference.py",
+          "gitBlob": "9edad6c9d497546bd8acc78ea459ba5ea1cb155d",
+          "sha256": "9dfd49be78438ab009f179cf675d50b6f616c1ccfe6c40d9d121d3d06789a0d0",
+          "bytes": 2487
+        },
+        {
+          "path": "pipeline/test_baseline.py",
+          "gitBlob": "8d76c73b173eb680bc9e935599f796e4b67f503f",
+          "sha256": "a090e46bbf369bcc239adf6725df3f2da227fec284e8dbbb5d706ac796e06f66",
+          "bytes": 364
+        },
+        {
+          "path": "pipeline/test_benchmark.py",
+          "gitBlob": "eb7cdb2cdd42dad6324182669ef89c52266efd2d",
+          "sha256": "357b0ac49f780ab4e4bfae1a8b4a2d1540b8880ce84ef58beaaea949508845e3",
+          "bytes": 5588
+        },
+        {
+          "path": "pipeline/test_hk.py",
+          "gitBlob": "c187cfae9ebb014e17420f4db9c48be2f65c60dc",
+          "sha256": "617f8b5bb231fafc5f1435c8db36dffeeb9c21d71534d0616d76b83958c87808",
+          "bytes": 7316
+        },
+        {
+          "path": "pipeline/test_hk_assessment.py",
+          "gitBlob": "cca2c6a2c74d30c1e708c4781f98fcbaadeb9b89",
+          "sha256": "e905a8f6666d1b101d34107ac4f6f6b7951a42e735ee8430ceec13c768db903d",
+          "bytes": 3126
+        },
+        {
+          "path": "pipeline/test_http_workflow.py",
+          "gitBlob": "53fa647e217fc9b05f738c91e7e1ad48042ea489",
+          "sha256": "dd0b5edfb517e8cb423d441ab67e757fa5cb62bb51715af3cd33cc958618228a",
+          "bytes": 6757
+        },
+        {
+          "path": "pipeline/test_model_proxy.py",
+          "gitBlob": "eea4b367cd052aebd4cf01f733ade81779664d18",
+          "sha256": "afb621049e48f069c00a06181d6ba9b80a72f0cbc97d411144ff7a5a93ffa6f9",
+          "bytes": 5429
+        },
+        {
+          "path": "pipeline/test_pdf_glm.py",
+          "gitBlob": "589e8aa73b8ed5a142b5c38d157719f382db25e4",
+          "sha256": "c68d1276b58ab818d9e05d7ba3b83cc0db4b8043e574318b92a65478257c6ecd",
+          "bytes": 15696
+        },
+        {
+          "path": "pipeline/test_reading.py",
+          "gitBlob": "baa95ee459ad9c094368953331638c958596db97",
+          "sha256": "9cc37531e1c9686be81126ad6e9122e74234c09833077dab26917ef35646bd6a",
+          "bytes": 7860
+        },
+        {
+          "path": "pipeline/test_topic_align.py",
+          "gitBlob": "0f605edd64214736a9691b43f1079fb51d4e7b4c",
+          "sha256": "6cd4f28ea533467b3e0657d60126150994d429b9aa8a29bfbcbac1c142df5219",
+          "bytes": 5528
+        },
+        {
+          "path": "pipeline/test_workbench_server.py",
+          "gitBlob": "6a9fff2aef5d8fda020206bdc179d6c139271913",
+          "sha256": "4afe0d72aa7f7d7cb05f7439a16a81629e417e4ab16a26071f4ce6dffb8bcf4e",
+          "bytes": 9437
+        },
+        {
+          "path": "pipeline/topic_align.py",
+          "gitBlob": "30684021c82121404934530caefd2db46d0380e4",
+          "sha256": "2faf8a432c5a074f286a3e066b6328342e343be5c6eb4f3d7aaea666eb5d677f",
+          "bytes": 11592
+        },
+        {
+          "path": "pipeline/unicode-equivalents.txt",
+          "gitBlob": "09a30c57f5a99b5141531f8340f9dec6cd695465",
+          "sha256": "38619c05a17e771554000fe604afee92e10eb49e0616ecf0c87af3c1eb0f4320",
+          "bytes": 18371
+        },
+        {
+          "path": "pipeline/workbench_server.py",
+          "gitBlob": "6e75bc160faa010f16112d643475c90c9d671fbb",
+          "sha256": "d3dbc3eafdb8ed1cf61dfa8e83a4f873e8d1a280763614db195ea33d37efa145",
+          "bytes": 11300
+        },
+        {
+          "path": "requirements-pdf.txt",
+          "gitBlob": "9405d2049de10fda93f6b9ab5aecb4eacd36479d",
+          "sha256": "a2a62a4f97ec0d77eb9dc299fedfd33dc1f919a9c91c1cf0aa9d30a7e96a0a2a",
+          "bytes": 33
+        },
+        {
+          "path": "site/assessment-export.js",
+          "gitBlob": "214e1a3f70d80ecb3eb4f99e39c78a148a8207ef",
+          "sha256": "663deb05e2fe2087e858f17ffda2a77e0f45d9e66907d0069974955b601430bf",
+          "bytes": 1571
+        },
+        {
+          "path": "site/benchmark-core.js",
+          "gitBlob": "9940f3e33b1c813dd9843de767f5a79e3d5c8b67",
+          "sha256": "b1ee4470f36264ce129660196c9bace466c75f6625272199d0690b4773723a71",
+          "bytes": 4655
+        },
+        {
+          "path": "site/benchmark.js",
+          "gitBlob": "74e3f4dcd03693c487edc0d2693ea6172db1d91c",
+          "sha256": "f0709e4543e04caa3ac2732af667a82d0f449a059e9c296bec73b4ac3365d549",
+          "bytes": 18931
+        },
+        {
+          "path": "site/brand.svg",
+          "gitBlob": "7f195e0ed019033f4e66f98759aece0b041a878f",
+          "sha256": "d4bbb91008debeeb7b0a94b58858bba5ae2e7f60b286991367b29a34a5ef2928",
+          "bytes": 280
+        },
+        {
+          "path": "site/hk-hierarchy.js",
+          "gitBlob": "5ad157350b9524365c03d62a7298766e2b91fd6d",
+          "sha256": "035fbf85b1261d6eb96b7f695047f364a965a9ca163c470d960adc8333ae0f4e",
+          "bytes": 12416
+        },
+        {
+          "path": "site/hk.js",
+          "gitBlob": "4ef667749dd624c14ab7bc4119592d0da69d3145",
+          "sha256": "51b0454f0337dfbc5a47f6c4703bf1a2993d4009cd3d8bbd9bc8a128bbf1164c",
+          "bytes": 5720
+        },
+        {
+          "path": "site/index.html",
+          "gitBlob": "93e6c7ad824f9d50f54b897ecb350c84d3229cc7",
+          "sha256": "61bcc32433b59cec58b8f109fdbb2dd9e8e0db75f6ab9d41ded701990e9e71ef",
+          "bytes": 16054
+        },
+        {
+          "path": "site/knowledge.js",
+          "gitBlob": "ec6ca25512769d2a217ff264e9f9f535f08f6493",
+          "sha256": "f4e149f527f57d289ef52bd583926450273583846fdf8221d7cc65720d3c7f9c",
+          "bytes": 16701
+        },
+        {
+          "path": "site/review-ui.js",
+          "gitBlob": "77977db3e623ada7922e9e8e9dfa446623627c21",
+          "sha256": "c0cacca3e983317ceaa60ccdaf488bae212dd19c2b5e1b30bc7573bf9bf27876",
+          "bytes": 8642
+        },
+        {
+          "path": "site/styles.css",
+          "gitBlob": "bcbc44166d43621a9b790e9b4bb30acd95eeddd9",
+          "sha256": "ffba8ef67089c86324d0affc4893db4cb84f7a45770f6796d00ca0e0becf5d21",
+          "bytes": 32154
+        },
+        {
+          "path": "site/tests/baseline.test.mjs",
+          "gitBlob": "48bb0bdbf47789dd7f2b8b25fa266b9428595394",
+          "sha256": "2f9d2444261d225dce254904c0d8b24133ad1987d6a175d583a98a128f5144d0",
+          "bytes": 455
+        },
+        {
+          "path": "site/tests/benchmark.test.mjs",
+          "gitBlob": "4d6a9f45ac98c710a70c86c5858f2546b6c3bcd2",
+          "sha256": "23273163414d1da2796413f390f0920c2e5d135cc718bba5e23c1329642b01f1",
+          "bytes": 8182
+        },
+        {
+          "path": "site/tests/export.test.mjs",
+          "gitBlob": "d133604dda9fd4c7e05291395d151dfe51eb8288",
+          "sha256": "76c790118f8fc823a7da33765321c3f2a269f8ab4d86cbb9bc00078b8355aeeb",
+          "bytes": 5539
+        },
+        {
+          "path": "site/tests/hk-hierarchy.test.mjs",
+          "gitBlob": "92a0674443fa036a12d93ae48d75a2359894d71a",
+          "sha256": "6e5625ba2c5f13791925e63c80e452840a1dbc466106524abd9fda1d88bd345e",
+          "bytes": 9754
+        },
+        {
+          "path": "site/tests/hk.test.mjs",
+          "gitBlob": "f28ce31f2222a2e6fecfe807e7452ec44b432c79",
+          "sha256": "a9979ce2f3db935004556e11e68b491de7824a4be64b1af7dd8f100069cdb4ce",
+          "bytes": 2337
+        },
+        {
+          "path": "site/tests/knowledge-export.test.mjs",
+          "gitBlob": "67bf6c5ed380ed53508989b01fbed68f91d4e765",
+          "sha256": "e6c7ec85101cd207f3a01b509b08d615ee16d8d70fc7c30aeb4bcd5c84bd0db7",
+          "bytes": 5470
+        },
+        {
+          "path": "site/tests/knowledge.test.mjs",
+          "gitBlob": "0b32f90243a03a6b6a33303e8d5306aa7f205c87",
+          "sha256": "a0d7fbbf382f22b33ae20fcd72a47e3ed3667e2f0ab2e76b3d89feec48f378b2",
+          "bytes": 8537
+        },
+        {
+          "path": "site/tests/project.test.mjs",
+          "gitBlob": "ab06896f9500afa8d1c15e19fe959bc441cd2484",
+          "sha256": "1ff1757f69fb6ff98182d36f6c9375c875fd072e5a53c26877cb921827c69b01",
+          "bytes": 4181
+        },
+        {
+          "path": "site/tests/review.test.mjs",
+          "gitBlob": "b96b6acdc290ebe7f8b2e94356ca03c7626d785f",
+          "sha256": "7c54a12d18d3a7b9abcc43bee761c6656dbc0b2446a5c8470ef25da849b2048b",
+          "bytes": 4014
+        },
+        {
+          "path": "site/tests/workflow-dom.test.mjs",
+          "gitBlob": "480823c89747e57f55d99d0fd16b57562846f89a",
+          "sha256": "53f5f178cafe4604d8bfd3baf6f907fd324962862908a4ea7bdf79f14f22d8c2",
+          "bytes": 16509
+        },
+        {
+          "path": "site/topic-align.js",
+          "gitBlob": "ccffe81028c7454f8f618594235f22734723a27a",
+          "sha256": "ce42555cf64bb29f93762947b561b29d7bd207a9e18b75e647d7dc5cc3e22cf3",
+          "bytes": 2361
+        },
+        {
+          "path": "site/workbench-core.js",
+          "gitBlob": "0f24b649cefda9101dd26a3e2397f092f0e2b44d",
+          "sha256": "1bb29a00ecfaa569da01c2216c0e18a63fe98b93a59c98b47be0977f1b1a518d",
+          "bytes": 9768
+        },
+        {
+          "path": "site/workbench-export.js",
+          "gitBlob": "92769aab06b01708c1f00c08821e154a5624f8a3",
+          "sha256": "5067af70bcdd63ffcf838239833a1286ba04d691c4619aa8200deab3a11ff8f7",
+          "bytes": 7355
+        },
+        {
+          "path": "site/workbench.js",
+          "gitBlob": "adb9b21324a0df318c1672f44ca36f6b9a3ae4ed",
+          "sha256": "dfe3f4d33a3d78b54400c95e2446b476f7dcfab6ded80033cf7772c8f84c66d7",
+          "bytes": 36487
+        },
+        {
+          "path": "site/xlsx.js",
+          "gitBlob": "530fdf4032eeaf8682c57d6f300b7b6ddff0dd4a",
+          "sha256": "bca49881c0aa9a0433c4c6c93d434dd5fb8780444511d9cb6fe2491be0889000",
+          "bytes": 10226
+        },
+        {
+          "path": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+          "gitBlob": "a97031ffdbab5f9a14f6c4e447c4d6abeb719f18",
+          "sha256": "2a0f5013a3a97291e7bb65257751bed29d418304a00a56f8d1494d7fee21fec2",
+          "bytes": 44617
+        },
+        {
+          "path": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+          "gitBlob": "9edfad6c3e204a793c6f2cf0b60cb99eb05b10dc",
+          "sha256": "a73aecdae4668963d1ce53afb196f04ec9b0b74f16b01d903026410444f9cf2a",
+          "bytes": 224590
+        },
+        {
+          "path": "初始化运行环境.command",
+          "gitBlob": "3d2057327fdb548e6ad79fe2f2b3b0cb627dd57f",
+          "sha256": "29d508e82569fb05f3246fb1bf336c2e00b3ab212083fa590439a72eea1cfe82",
+          "bytes": 2932
+        },
+        {
+          "path": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+          "gitBlob": "71b07cabe186b0ac44ac37ecd00b5d007a9bb0d6",
+          "sha256": "68daa8241f5152842972afb4398f6ca311f5733f5694141aca1a3e208b2a6e5c",
+          "bytes": 42057
+        },
+        {
+          "path": "启动智能评估工作台.command",
+          "gitBlob": "9dda3bee4f679821b9deb371f380071f3d170a50",
+          "sha256": "01bfdbdb7569e91901b22eacd5d30baecc153c46691e784bda71c09e3d785819",
+          "bytes": 455
+        },
+        {
+          "path": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+          "gitBlob": "8b824cfb6463f5dba4a05c6dd71e475074d06cd3",
+          "sha256": "176df038e20858ac7768f54eedd9269f975461ae52a0d42e8a15ee66b9c08134",
+          "bytes": 52248
+        },
+        {
+          "path": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+          "gitBlob": "e734593ecfd843450d08948374d3f042d0bcb83f",
+          "sha256": "faf4e594cc2ff96c22a16c5726220fc6073d2c51949aa0f683f5076e4a572e4a",
+          "bytes": 336907
+        }
+      ]
+    }
+  }
+}

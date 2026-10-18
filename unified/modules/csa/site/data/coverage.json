@@ -1,0 +1,994 @@
+[
+  {
+    "industry": "AIR",
+    "questions": 121,
+    "enabled": 119,
+    "handbookPages": 276,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 62,
+      "Partially Public": 40,
+      "Private": 0,
+      "Flexible": 17,
+      "未注明": 2
+    },
+    "requirementsExtracted": 121,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "ALU",
+    "questions": 124,
+    "enabled": 121,
+    "handbookPages": 307,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 58,
+      "Partially Public": 46,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 2
+    },
+    "requirementsExtracted": 123,
+    "requirementsMissing": 1
+  },
+  {
+    "industry": "ARO",
+    "questions": 111,
+    "enabled": 110,
+    "handbookPages": 279,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 54,
+      "Partially Public": 39,
+      "Private": 0,
+      "Flexible": 17,
+      "未注明": 1
+    },
+    "requirementsExtracted": 111,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "ATX",
+    "questions": 113,
+    "enabled": 112,
+    "handbookPages": 285,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 58,
+      "Partially Public": 36,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 113,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "AUT",
+    "questions": 124,
+    "enabled": 123,
+    "handbookPages": 312,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 63,
+      "Partially Public": 42,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 124,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "BLD",
+    "questions": 110,
+    "enabled": 109,
+    "handbookPages": 278,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 54,
+      "Partially Public": 38,
+      "Private": 0,
+      "Flexible": 17,
+      "未注明": 1
+    },
+    "requirementsExtracted": 110,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "BNK",
+    "questions": 105,
+    "enabled": 100,
+    "handbookPages": 277,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 56,
+      "Partially Public": 29,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 2
+    },
+    "requirementsExtracted": 105,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "BTC",
+    "questions": 111,
+    "enabled": 110,
+    "handbookPages": 284,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 54,
+      "Partially Public": 38,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 111,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "BVG",
+    "questions": 121,
+    "enabled": 118,
+    "handbookPages": 300,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 59,
+      "Partially Public": 42,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 2
+    },
+    "requirementsExtracted": 121,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "CHM",
+    "questions": 119,
+    "enabled": 117,
+    "handbookPages": 298,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 55,
+      "Partially Public": 44,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 2
+    },
+    "requirementsExtracted": 119,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "CMT",
+    "questions": 118,
+    "enabled": 117,
+    "handbookPages": 296,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 59,
+      "Partially Public": 40,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 118,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "CNO",
+    "questions": 113,
+    "enabled": 112,
+    "handbookPages": 281,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 60,
+      "Partially Public": 34,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 113,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "COL",
+    "questions": 125,
+    "enabled": 123,
+    "handbookPages": 308,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 57,
+      "Partially Public": 48,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 2
+    },
+    "requirementsExtracted": 125,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "COM",
+    "questions": 118,
+    "enabled": 116,
+    "handbookPages": 296,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 58,
+      "Partially Public": 40,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 2
+    },
+    "requirementsExtracted": 118,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "CON",
+    "questions": 103,
+    "enabled": 102,
+    "handbookPages": 259,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 49,
+      "Partially Public": 36,
+      "Private": 0,
+      "Flexible": 17,
+      "未注明": 1
+    },
+    "requirementsExtracted": 103,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "COS",
+    "questions": 119,
+    "enabled": 117,
+    "handbookPages": 293,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 61,
+      "Partially Public": 39,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 118,
+    "requirementsMissing": 1
+  },
+  {
+    "industry": "CSV",
+    "questions": 95,
+    "enabled": 94,
+    "handbookPages": 232,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 48,
+      "Partially Public": 28,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 95,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "CTR",
+    "questions": 116,
+    "enabled": 114,
+    "handbookPages": 291,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 58,
+      "Partially Public": 38,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 2
+    },
+    "requirementsExtracted": 116,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "DHP",
+    "questions": 113,
+    "enabled": 112,
+    "handbookPages": 279,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 58,
+      "Partially Public": 36,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 113,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "DRG",
+    "questions": 115,
+    "enabled": 114,
+    "handbookPages": 288,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 58,
+      "Partially Public": 38,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 115,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "ELC",
+    "questions": 125,
+    "enabled": 123,
+    "handbookPages": 306,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 60,
+      "Partially Public": 46,
+      "Private": 0,
+      "Flexible": 17,
+      "未注明": 2
+    },
+    "requirementsExtracted": 125,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "ELQ",
+    "questions": 117,
+    "enabled": 116,
+    "handbookPages": 291,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 56,
+      "Partially Public": 43,
+      "Private": 0,
+      "Flexible": 17,
+      "未注明": 1
+    },
+    "requirementsExtracted": 117,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "FBN",
+    "questions": 111,
+    "enabled": 106,
+    "handbookPages": 297,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 61,
+      "Partially Public": 30,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 2
+    },
+    "requirementsExtracted": 111,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "FDR",
+    "questions": 124,
+    "enabled": 122,
+    "handbookPages": 308,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 64,
+      "Partially Public": 41,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 123,
+    "requirementsMissing": 1
+  },
+  {
+    "industry": "FOA",
+    "questions": 125,
+    "enabled": 122,
+    "handbookPages": 310,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 62,
+      "Partially Public": 43,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 2
+    },
+    "requirementsExtracted": 124,
+    "requirementsMissing": 1
+  },
+  {
+    "industry": "FRP",
+    "questions": 127,
+    "enabled": 125,
+    "handbookPages": 317,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 57,
+      "Partially Public": 50,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 2
+    },
+    "requirementsExtracted": 127,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "GAS",
+    "questions": 112,
+    "enabled": 111,
+    "handbookPages": 278,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 58,
+      "Partially Public": 36,
+      "Private": 0,
+      "Flexible": 17,
+      "未注明": 1
+    },
+    "requirementsExtracted": 112,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "HEA",
+    "questions": 95,
+    "enabled": 94,
+    "handbookPages": 234,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 50,
+      "Partially Public": 27,
+      "Private": 0,
+      "Flexible": 17,
+      "未注明": 1
+    },
+    "requirementsExtracted": 95,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "HOM",
+    "questions": 103,
+    "enabled": 102,
+    "handbookPages": 262,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 50,
+      "Partially Public": 35,
+      "Private": 0,
+      "Flexible": 17,
+      "未注明": 1
+    },
+    "requirementsExtracted": 103,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "HOU",
+    "questions": 116,
+    "enabled": 115,
+    "handbookPages": 289,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 59,
+      "Partially Public": 38,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 116,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "ICS",
+    "questions": 99,
+    "enabled": 98,
+    "handbookPages": 248,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 50,
+      "Partially Public": 31,
+      "Private": 0,
+      "Flexible": 17,
+      "未注明": 1
+    },
+    "requirementsExtracted": 99,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "IDD",
+    "questions": 111,
+    "enabled": 110,
+    "handbookPages": 275,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 53,
+      "Partially Public": 40,
+      "Private": 0,
+      "Flexible": 17,
+      "未注明": 1
+    },
+    "requirementsExtracted": 111,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "IEQ",
+    "questions": 117,
+    "enabled": 116,
+    "handbookPages": 290,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 56,
+      "Partially Public": 43,
+      "Private": 0,
+      "Flexible": 17,
+      "未注明": 1
+    },
+    "requirementsExtracted": 117,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "IMS",
+    "questions": 101,
+    "enabled": 99,
+    "handbookPages": 243,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 51,
+      "Partially Public": 31,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 101,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "INS",
+    "questions": 97,
+    "enabled": 93,
+    "handbookPages": 256,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 51,
+      "Partially Public": 27,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 97,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "ITC",
+    "questions": 120,
+    "enabled": 119,
+    "handbookPages": 302,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 60,
+      "Partially Public": 41,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 120,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "LEG",
+    "questions": 114,
+    "enabled": 112,
+    "handbookPages": 280,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 57,
+      "Partially Public": 38,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 113,
+    "requirementsMissing": 1
+  },
+  {
+    "industry": "LIF",
+    "questions": 109,
+    "enabled": 108,
+    "handbookPages": 272,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 53,
+      "Partially Public": 37,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 109,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "MNX",
+    "questions": 124,
+    "enabled": 121,
+    "handbookPages": 310,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 55,
+      "Partially Public": 48,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 3
+    },
+    "requirementsExtracted": 124,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "MTC",
+    "questions": 117,
+    "enabled": 116,
+    "handbookPages": 293,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 59,
+      "Partially Public": 39,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 117,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "MUW",
+    "questions": 127,
+    "enabled": 125,
+    "handbookPages": 310,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 60,
+      "Partially Public": 48,
+      "Private": 0,
+      "Flexible": 17,
+      "未注明": 2
+    },
+    "requirementsExtracted": 127,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "OGR",
+    "questions": 118,
+    "enabled": 116,
+    "handbookPages": 296,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 56,
+      "Partially Public": 42,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 2
+    },
+    "requirementsExtracted": 118,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "OGX",
+    "questions": 126,
+    "enabled": 124,
+    "handbookPages": 313,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 57,
+      "Partially Public": 49,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 2
+    },
+    "requirementsExtracted": 126,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "OIE",
+    "questions": 103,
+    "enabled": 102,
+    "handbookPages": 262,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 54,
+      "Partially Public": 30,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 103,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "PIP",
+    "questions": 109,
+    "enabled": 108,
+    "handbookPages": 272,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 52,
+      "Partially Public": 39,
+      "Private": 0,
+      "Flexible": 17,
+      "未注明": 1
+    },
+    "requirementsExtracted": 109,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "PRO",
+    "questions": 87,
+    "enabled": 83,
+    "handbookPages": 218,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 42,
+      "Partially Public": 27,
+      "Private": 0,
+      "Flexible": 17,
+      "未注明": 1
+    },
+    "requirementsExtracted": 87,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "PUB",
+    "questions": 105,
+    "enabled": 104,
+    "handbookPages": 255,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 56,
+      "Partially Public": 30,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 105,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "REI",
+    "questions": 111,
+    "enabled": 110,
+    "handbookPages": 284,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 54,
+      "Partially Public": 39,
+      "Private": 0,
+      "Flexible": 17,
+      "未注明": 1
+    },
+    "requirementsExtracted": 111,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "REM",
+    "questions": 115,
+    "enabled": 114,
+    "handbookPages": 294,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 56,
+      "Partially Public": 40,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 115,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "REX",
+    "questions": 114,
+    "enabled": 113,
+    "handbookPages": 287,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 60,
+      "Partially Public": 35,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 114,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "RTS",
+    "questions": 118,
+    "enabled": 117,
+    "handbookPages": 298,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 61,
+      "Partially Public": 38,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 118,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "SEM",
+    "questions": 121,
+    "enabled": 120,
+    "handbookPages": 303,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 60,
+      "Partially Public": 42,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 121,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "SOF",
+    "questions": 98,
+    "enabled": 96,
+    "handbookPages": 238,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 48,
+      "Partially Public": 31,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 98,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "STL",
+    "questions": 127,
+    "enabled": 125,
+    "handbookPages": 314,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 58,
+      "Partially Public": 49,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 2
+    },
+    "requirementsExtracted": 127,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "TCD",
+    "questions": 97,
+    "enabled": 96,
+    "handbookPages": 242,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 49,
+      "Partially Public": 30,
+      "Private": 0,
+      "Flexible": 17,
+      "未注明": 1
+    },
+    "requirementsExtracted": 97,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "TEX",
+    "questions": 121,
+    "enabled": 119,
+    "handbookPages": 302,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 61,
+      "Partially Public": 41,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 121,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "THQ",
+    "questions": 118,
+    "enabled": 117,
+    "handbookPages": 297,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 58,
+      "Partially Public": 41,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 118,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "TLS",
+    "questions": 110,
+    "enabled": 108,
+    "handbookPages": 271,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 57,
+      "Partially Public": 34,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 110,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "TOB",
+    "questions": 111,
+    "enabled": 110,
+    "handbookPages": 276,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 56,
+      "Partially Public": 36,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 111,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "TRA",
+    "questions": 119,
+    "enabled": 117,
+    "handbookPages": 287,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 65,
+      "Partially Public": 35,
+      "Private": 0,
+      "Flexible": 17,
+      "未注明": 2
+    },
+    "requirementsExtracted": 119,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "TRT",
+    "questions": 115,
+    "enabled": 114,
+    "handbookPages": 292,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 59,
+      "Partially Public": 37,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 115,
+    "requirementsMissing": 0
+  },
+  {
+    "industry": "TSV",
+    "questions": 97,
+    "enabled": 95,
+    "handbookPages": 239,
+    "questionnaireComplete": false,
+    "disclosureCounts": {
+      "Public": 47,
+      "Partially Public": 31,
+      "Private": 0,
+      "Flexible": 18,
+      "未注明": 1
+    },
+    "requirementsExtracted": 97,
+    "requirementsMissing": 0
+  }
+]

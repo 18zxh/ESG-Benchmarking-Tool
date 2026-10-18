@@ -1,0 +1,930 @@
+{
+  "version": "hkex-c2-questions-zh-v1",
+  "language": "zh-Hans",
+  "authority": "以data/ruleset/hk.json所选板块的完整中文条文为准；源自港交所官方繁体PDF，经简繁转换，71个问题按ID及逐条哈希绑定。",
+  "topics": [
+    {
+      "id": "hk_b13",
+      "hierarchy": {
+        "part": "B部分",
+        "topic": "ESG管治架构",
+        "indicator": "—",
+        "appendix": "附录C2",
+        "clause": "第13段"
+      },
+      "question": "董事会声明是否涵盖ESG监督、管理方针和策略、重大议题的评估排序管理，以及目标进展检视及其与业务的关系？",
+      "sourceSha256": "770fb4a565840eafcae821bd79c1222d14d44f6e01728c71977a576801dfea0f",
+      "sourceSha256Gem": "770fb4a565840eafcae821bd79c1222d14d44f6e01728c71977a576801dfea0f"
+    },
+    {
+      "id": "hk_b14",
+      "hierarchy": {
+        "part": "B部分",
+        "topic": "汇报原则",
+        "indicator": "—",
+        "appendix": "附录C2",
+        "clause": "第14段"
+      },
+      "question": "报告是否解释重要性、量化及一致性原则的应用，包括重要因素筛选、已开展的持份者参与、计量方法和转换系数来源，以及影响可比性的变更？",
+      "sourceSha256": "84437ef86a8e81d3d886d5dcc364f9bb4d6021891f5aba829210a6aee17b3e06",
+      "sourceSha256Gem": "84437ef86a8e81d3d886d5dcc364f9bb4d6021891f5aba829210a6aee17b3e06"
+    },
+    {
+      "id": "hk_b15",
+      "hierarchy": {
+        "part": "B部分",
+        "topic": "汇报范围",
+        "indicator": "—",
+        "appendix": "附录C2",
+        "clause": "第15段"
+      },
+      "question": "报告是否说明汇报范围、纳入实体或业务的识别过程，以及范围变化的差异及原因？",
+      "sourceSha256": "ec0a5aa46b056311fac04fada6c1902c099a5372fc24eea7ea07426ed238f802",
+      "sourceSha256Gem": "ec0a5aa46b056311fac04fada6c1902c099a5372fc24eea7ea07426ed238f802"
+    },
+    {
+      "id": "hk_a1_general",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "排放物",
+        "indicator": "一般披露",
+        "appendix": "附录C2",
+        "clause": "A1 一般披露"
+      },
+      "question": "是否披露排放物相关政策，以及对发行人有重大影响的相关法律法规遵守情况，并按附注界定排放物范围？",
+      "sourceSha256": "631d406163d7a92ceefc7c9f6eda91237a1a381f43a48a9305e8c747fcfc6605",
+      "sourceSha256Gem": "631d406163d7a92ceefc7c9f6eda91237a1a381f43a48a9305e8c747fcfc6605"
+    },
+    {
+      "id": "hk_a1_1",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "排放物",
+        "indicator": "排放物种类及数据",
+        "appendix": "附录C2",
+        "clause": "KPI A1.1"
+      },
+      "question": "是否披露排放物种类及各自数据？",
+      "sourceSha256": "335a94522fa7f47597f0a4db375213d668ad9093dc52b65d91e817ac3593ccaf",
+      "sourceSha256Gem": "335a94522fa7f47597f0a4db375213d668ad9093dc52b65d91e817ac3593ccaf"
+    },
+    {
+      "id": "hk_a1_3",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "排放物",
+        "indicator": "有害废弃物",
+        "appendix": "附录C2",
+        "clause": "KPI A1.3"
+      },
+      "question": "是否披露有害废弃物产生总量（吨），以及适用情况下的密度及其计算基准？",
+      "sourceSha256": "8dd63d1f702a8f67e470ae3bf37e14c303a830ed6d8db3181180d8b3677e00cb",
+      "sourceSha256Gem": "8dd63d1f702a8f67e470ae3bf37e14c303a830ed6d8db3181180d8b3677e00cb"
+    },
+    {
+      "id": "hk_a1_4",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "排放物",
+        "indicator": "无害废弃物",
+        "appendix": "附录C2",
+        "clause": "KPI A1.4"
+      },
+      "question": "是否披露无害废弃物产生总量（吨），以及适用情况下的密度及其计算基准？",
+      "sourceSha256": "e90f7529c7607249aaa8ad25b91729ce29096ee3ab7af6b0bbf72a83c33c2ff8",
+      "sourceSha256Gem": "e90f7529c7607249aaa8ad25b91729ce29096ee3ab7af6b0bbf72a83c33c2ff8"
+    },
+    {
+      "id": "hk_a1_5",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "排放物",
+        "indicator": "排放目标",
+        "appendix": "附录C2",
+        "clause": "KPI A1.5"
+      },
+      "question": "是否描述所订排放目标及为实现目标采取的步骤？",
+      "sourceSha256": "93307c5619358301b3309ec4200f6c9e655b1af92b0795f50b266d5bd6c7ade0",
+      "sourceSha256Gem": "93307c5619358301b3309ec4200f6c9e655b1af92b0795f50b266d5bd6c7ade0"
+    },
+    {
+      "id": "hk_a1_6",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "排放物",
+        "indicator": "废弃物处理与减量目标",
+        "appendix": "附录C2",
+        "clause": "KPI A1.6"
+      },
+      "question": "是否说明有害及无害废弃物的处理方法、所订减废目标及为实现目标采取的步骤？",
+      "sourceSha256": "f627cce32e737d8824e644656e9bf24575d116811e75c565b96b716674e27de8",
+      "sourceSha256Gem": "f627cce32e737d8824e644656e9bf24575d116811e75c565b96b716674e27de8"
+    },
+    {
+      "id": "hk_a2_general",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "资源使用",
+        "indicator": "一般披露",
+        "appendix": "附录C2",
+        "clause": "A2 一般披露"
+      },
+      "question": "是否披露有效使用能源、水及其他原材料的政策，并考虑附注所述业务活动范围？",
+      "sourceSha256": "59b46d8418070a7561dfd6652db461ea3a528df2e925f53614a2cf530e1e952e",
+      "sourceSha256Gem": "59b46d8418070a7561dfd6652db461ea3a528df2e925f53614a2cf530e1e952e"
+    },
+    {
+      "id": "hk_a2_1",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "资源使用",
+        "indicator": "能源消耗",
+        "appendix": "附录C2",
+        "clause": "KPI A2.1"
+      },
+      "question": "是否按种类披露直接及／或间接能源消耗总量（千个千瓦时）及密度，并说明计算基准？",
+      "sourceSha256": "beb791425bc2b56b338e21e5e90e20d5d58bb66ffaa484a546ddd5da25babe27",
+      "sourceSha256Gem": "beb791425bc2b56b338e21e5e90e20d5d58bb66ffaa484a546ddd5da25babe27"
+    },
+    {
+      "id": "hk_a2_2",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "资源使用",
+        "indicator": "耗水量",
+        "appendix": "附录C2",
+        "clause": "KPI A2.2"
+      },
+      "question": "是否披露总耗水量及密度，并说明计算基准？",
+      "sourceSha256": "92bdf2747f7bd65c59957e302c3ad759f272b98c1512ab442173396a7b27036e",
+      "sourceSha256Gem": "92bdf2747f7bd65c59957e302c3ad759f272b98c1512ab442173396a7b27036e"
+    },
+    {
+      "id": "hk_a2_3",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "资源使用",
+        "indicator": "能源效益目标",
+        "appendix": "附录C2",
+        "clause": "KPI A2.3"
+      },
+      "question": "是否描述所订能源使用效益目标及为实现目标采取的步骤？",
+      "sourceSha256": "7291115646d05e9f3ecbace67a15d67603fa8689c4401c7ff458c414c327c573",
+      "sourceSha256Gem": "7291115646d05e9f3ecbace67a15d67603fa8689c4401c7ff458c414c327c573"
+    },
+    {
+      "id": "hk_a2_4",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "资源使用",
+        "indicator": "水源及用水效益目标",
+        "appendix": "附录C2",
+        "clause": "KPI A2.4"
+      },
+      "question": "是否说明求取适用水源的问题、用水效益目标及为实现目标采取的步骤？",
+      "sourceSha256": "ec2dd88e582af6baa153b4d58972e6e3b9dd58996b7ec5e4dc67adc5e3108509",
+      "sourceSha256Gem": "ec2dd88e582af6baa153b4d58972e6e3b9dd58996b7ec5e4dc67adc5e3108509"
+    },
+    {
+      "id": "hk_a2_5",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "资源使用",
+        "indicator": "包装材料",
+        "appendix": "附录C2",
+        "clause": "KPI A2.5"
+      },
+      "question": "是否披露制成品包装材料总量（吨），以及适用情况下每生产单位的用量？",
+      "sourceSha256": "b2ff7ce2f77473733485823d8fb914b3cbaa1c1eaf63c6e8ea72c431e9cd6957",
+      "sourceSha256Gem": "b2ff7ce2f77473733485823d8fb914b3cbaa1c1eaf63c6e8ea72c431e9cd6957"
+    },
+    {
+      "id": "hk_a3_general",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "环境及天然资源",
+        "indicator": "一般披露",
+        "appendix": "附录C2",
+        "clause": "A3 一般披露"
+      },
+      "question": "是否披露减低发行人对环境及天然资源重大影响的政策？",
+      "sourceSha256": "109fca3038b7f6efc4a65b48d4a3ad08c9df967c196023fb45d93f5b3aadb628",
+      "sourceSha256Gem": "109fca3038b7f6efc4a65b48d4a3ad08c9df967c196023fb45d93f5b3aadb628"
+    },
+    {
+      "id": "hk_a3_1",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "环境及天然资源",
+        "indicator": "环境及天然资源影响",
+        "appendix": "附录C2",
+        "clause": "KPI A3.1"
+      },
+      "question": "是否描述业务活动对环境及天然资源的重大影响及已采取的管理行动？",
+      "sourceSha256": "b48e6a9df41bdcb17117835bd9a60d2d2acf60f8406a7263528502db48532904",
+      "sourceSha256Gem": "b48e6a9df41bdcb17117835bd9a60d2d2acf60f8406a7263528502db48532904"
+    },
+    {
+      "id": "hk_a4_general",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "气候变化",
+        "indicator": "一般披露",
+        "appendix": "附录C2",
+        "clause": "A4 一般披露"
+      },
+      "question": "仅适用于GEM：是否披露识别及减轻已产生或可能产生影响的重大气候相关事宜的政策？",
+      "sourceSha256": "ad9f801db6e1b9d1f84fd4a96ab28878b572897eb304d719a2a062d407457493",
+      "sourceSha256Gem": "75550b15e063ddeb4f0f4f05d6ac0d29a4b4788079d9382dfd67a145715d59e3"
+    },
+    {
+      "id": "hk_a4_1",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "气候变化",
+        "indicator": "重大影响与应对行动",
+        "appendix": "附录C2",
+        "clause": "KPI A4.1"
+      },
+      "question": "仅适用于GEM：是否描述已产生或可能产生影响的重大气候相关事宜及应对行动？",
+      "sourceSha256": "ad9f801db6e1b9d1f84fd4a96ab28878b572897eb304d719a2a062d407457493",
+      "sourceSha256Gem": "7798251d21966a1056db8d601889498b336398beb525ce7ac7d8e008b4e08fe6"
+    },
+    {
+      "id": "hk_b1_general",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "雇佣",
+        "indicator": "一般披露",
+        "appendix": "附录C2",
+        "clause": "B1 一般披露"
+      },
+      "question": "是否披露雇佣政策及对发行人有重大影响的法律法规遵守情况，并涵盖原文列明的薪酬解雇、招聘晋升、工时休假、平等机会、多元化及其他福利？",
+      "sourceSha256": "bd1a5c00b4970590ac4a16613755217827d9c96310fd72cafaa40542e2bf5dfe",
+      "sourceSha256Gem": "bd1a5c00b4970590ac4a16613755217827d9c96310fd72cafaa40542e2bf5dfe"
+    },
+    {
+      "id": "hk_b1_1",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "雇佣",
+        "indicator": "雇员构成",
+        "appendix": "附录C2",
+        "clause": "KPI B1.1"
+      },
+      "question": "是否按性别、雇佣类型、年龄组别及地区披露雇员总数？",
+      "sourceSha256": "68ee326a1584e5fcf42e068972abc59c4e4167aae9cc79a8d393e7d9519fb183",
+      "sourceSha256Gem": "68ee326a1584e5fcf42e068972abc59c4e4167aae9cc79a8d393e7d9519fb183"
+    },
+    {
+      "id": "hk_b1_2",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "雇佣",
+        "indicator": "雇员流失率",
+        "appendix": "附录C2",
+        "clause": "KPI B1.2"
+      },
+      "question": "是否按性别、年龄组别及地区披露雇员流失比率？",
+      "sourceSha256": "13819dc0ddc7d3875585f0d63561e41811350beb8c948d1ad5793294bf12da41",
+      "sourceSha256Gem": "13819dc0ddc7d3875585f0d63561e41811350beb8c948d1ad5793294bf12da41"
+    },
+    {
+      "id": "hk_b2_general",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "健康与安全",
+        "indicator": "一般披露",
+        "appendix": "附录C2",
+        "clause": "B2 一般披露"
+      },
+      "question": "是否披露安全工作环境及雇员职业危害保障的政策，以及有重大影响的相关法律法规遵守情况？",
+      "sourceSha256": "b3aabfab2040e789876a0f3370f126ca637ae4951742e4c062f9c6be9742444d",
+      "sourceSha256Gem": "b3aabfab2040e789876a0f3370f126ca637ae4951742e4c062f9c6be9742444d"
+    },
+    {
+      "id": "hk_b2_1",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "健康与安全",
+        "indicator": "因工亡故",
+        "appendix": "附录C2",
+        "clause": "KPI B2.1"
+      },
+      "question": "是否分别披露包括汇报年度在内的过去三年每年因工亡故人数及比率？",
+      "sourceSha256": "584e6ea5fccc2376cb01d2d88a8a0cc4d47d00925d8a54de08b7edbd375705c0",
+      "sourceSha256Gem": "584e6ea5fccc2376cb01d2d88a8a0cc4d47d00925d8a54de08b7edbd375705c0"
+    },
+    {
+      "id": "hk_b2_2",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "健康与安全",
+        "indicator": "工伤损失工作日",
+        "appendix": "附录C2",
+        "clause": "KPI B2.2"
+      },
+      "question": "是否披露因工伤损失的工作日数？",
+      "sourceSha256": "7606f4f7dae849d49eebffe3fcf17767496fd1d7b746fc88759b32285e85964e",
+      "sourceSha256Gem": "7606f4f7dae849d49eebffe3fcf17767496fd1d7b746fc88759b32285e85964e"
+    },
+    {
+      "id": "hk_b2_3",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "健康与安全",
+        "indicator": "职业健康与安全措施",
+        "appendix": "附录C2",
+        "clause": "KPI B2.3"
+      },
+      "question": "是否描述职业健康与安全措施，以及落实及监察方法？",
+      "sourceSha256": "cc9fc65d2d38de8cf05ae616753e3aa915483b81cbf54e930360246cba5f42e2",
+      "sourceSha256Gem": "cc9fc65d2d38de8cf05ae616753e3aa915483b81cbf54e930360246cba5f42e2"
+    },
+    {
+      "id": "hk_b3_general",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "发展及培训",
+        "indicator": "一般披露",
+        "appendix": "附录C2",
+        "clause": "B3 一般披露"
+      },
+      "question": "是否披露提升雇员履职知识技能的政策并描述培训活动，按附注的职业培训口径核对？",
+      "sourceSha256": "988f1c20f5d34a54b0c9e4b83dac5a1c8d5df12fa5d3ad1a93cc0a76b799f1fd",
+      "sourceSha256Gem": "988f1c20f5d34a54b0c9e4b83dac5a1c8d5df12fa5d3ad1a93cc0a76b799f1fd"
+    },
+    {
+      "id": "hk_b3_1",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "发展及培训",
+        "indicator": "受训雇员比例",
+        "appendix": "附录C2",
+        "clause": "KPI B3.1"
+      },
+      "question": "是否按性别及雇员类别披露受训雇员百分比？",
+      "sourceSha256": "f214411fbd2c5470284a49f7db2125aab6f9a0817a04b6f4002508828474e75f",
+      "sourceSha256Gem": "f214411fbd2c5470284a49f7db2125aab6f9a0817a04b6f4002508828474e75f"
+    },
+    {
+      "id": "hk_b3_2",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "发展及培训",
+        "indicator": "平均培训时数",
+        "appendix": "附录C2",
+        "clause": "KPI B3.2"
+      },
+      "question": "是否按性别及雇员类别披露每名雇员平均受训时数？",
+      "sourceSha256": "f33e3f39eb39842fc940fe0db7e19f2bb373508d58d24b2578d13066a2e2d4da",
+      "sourceSha256Gem": "f33e3f39eb39842fc940fe0db7e19f2bb373508d58d24b2578d13066a2e2d4da"
+    },
+    {
+      "id": "hk_b4_general",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "劳工准则",
+        "indicator": "一般披露",
+        "appendix": "附录C2",
+        "clause": "B4 一般披露"
+      },
+      "question": "是否披露防止童工及强制劳工的政策，以及有重大影响的相关法律法规遵守情况？",
+      "sourceSha256": "f32005a2559cb7a157d239d79254d0079aa6157766556bb6a0515045fab38f87",
+      "sourceSha256Gem": "f32005a2559cb7a157d239d79254d0079aa6157766556bb6a0515045fab38f87"
+    },
+    {
+      "id": "hk_b4_1",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "劳工准则",
+        "indicator": "防止童工及强制劳工措施",
+        "appendix": "附录C2",
+        "clause": "KPI B4.1"
+      },
+      "question": "是否描述检讨招聘惯例以避免童工及强制劳工的措施？",
+      "sourceSha256": "008bcb15ec4fc9880971cf042b617a86b2828f98b69983295562a992a38a14be",
+      "sourceSha256Gem": "008bcb15ec4fc9880971cf042b617a86b2828f98b69983295562a992a38a14be"
+    },
+    {
+      "id": "hk_b4_2",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "劳工准则",
+        "indicator": "违规劳工纠正措施",
+        "appendix": "附录C2",
+        "clause": "KPI B4.2"
+      },
+      "question": "是否描述发现童工或强制劳工时消除相关情况的步骤？",
+      "sourceSha256": "a6f6d297417cc74f2b8583901d476e57b84ad1e8b7428c9532291740301e119f",
+      "sourceSha256Gem": "a6f6d297417cc74f2b8583901d476e57b84ad1e8b7428c9532291740301e119f"
+    },
+    {
+      "id": "hk_b5_general",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "供应链管理",
+        "indicator": "一般披露",
+        "appendix": "附录C2",
+        "clause": "B5 一般披露"
+      },
+      "question": "是否披露管理供应链环境及社会风险的政策？",
+      "sourceSha256": "ce806e8667729495dad698eb66d631baa87f7781c79120d8ca424519b1b1909a",
+      "sourceSha256Gem": "ce806e8667729495dad698eb66d631baa87f7781c79120d8ca424519b1b1909a"
+    },
+    {
+      "id": "hk_b5_1",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "供应链管理",
+        "indicator": "供应商地区分布",
+        "appendix": "附录C2",
+        "clause": "KPI B5.1"
+      },
+      "question": "是否按地区披露供应商数目？",
+      "sourceSha256": "d0a78c3b707326060303bd048a1476252374065d2e579d9288a2eeb6d61aa603",
+      "sourceSha256Gem": "d0a78c3b707326060303bd048a1476252374065d2e579d9288a2eeb6d61aa603"
+    },
+    {
+      "id": "hk_b5_2",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "供应链管理",
+        "indicator": "供应商聘用与监察",
+        "appendix": "附录C2",
+        "clause": "KPI B5.2"
+      },
+      "question": "是否描述供应商聘用惯例、实施惯例的供应商数目，以及落实及监察方法？",
+      "sourceSha256": "493dd4c3ed18803b5cacf7e01c93bf4fcbc3adabadbb3be6529924aea7e3a491",
+      "sourceSha256Gem": "493dd4c3ed18803b5cacf7e01c93bf4fcbc3adabadbb3be6529924aea7e3a491"
+    },
+    {
+      "id": "hk_b5_3",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "供应链管理",
+        "indicator": "供应链环境及社会风险",
+        "appendix": "附录C2",
+        "clause": "KPI B5.3"
+      },
+      "question": "是否描述识别供应链各环节环境及社会风险的惯例，以及落实及监察方法？",
+      "sourceSha256": "4c74538396a4820a6cc68d6b618772bbc7679bc4051a3d07352c0260556f5f70",
+      "sourceSha256Gem": "4c74538396a4820a6cc68d6b618772bbc7679bc4051a3d07352c0260556f5f70"
+    },
+    {
+      "id": "hk_b5_4",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "供应链管理",
+        "indicator": "环保采购惯例",
+        "appendix": "附录C2",
+        "clause": "KPI B5.4"
+      },
+      "question": "是否描述选择供应商时促进使用环保产品及服务的惯例，以及落实及监察方法？",
+      "sourceSha256": "6eb9b531c544092fd24ab3a42733920e5f496dbbb5f3be24acb09b2cf3a3cce5",
+      "sourceSha256Gem": "6eb9b531c544092fd24ab3a42733920e5f496dbbb5f3be24acb09b2cf3a3cce5"
+    },
+    {
+      "id": "hk_b6_general",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "产品责任",
+        "indicator": "一般披露",
+        "appendix": "附录C2",
+        "clause": "B6 一般披露"
+      },
+      "question": "是否披露产品及服务健康安全、广告标签、私隐及补救方法的政策，以及有重大影响的相关法律法规遵守情况？",
+      "sourceSha256": "146620aa9763dc957fa3280da5a8c12c1a6e7be7c78d3da51c97c8f7ab133a47",
+      "sourceSha256Gem": "146620aa9763dc957fa3280da5a8c12c1a6e7be7c78d3da51c97c8f7ab133a47"
+    },
+    {
+      "id": "hk_b6_1",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "产品责任",
+        "indicator": "安全健康召回比例",
+        "appendix": "附录C2",
+        "clause": "KPI B6.1"
+      },
+      "question": "是否披露已售或已运送产品因安全健康理由被召回的百分比？",
+      "sourceSha256": "ec7c39ceb7ba69dac009c1a372c6dbd000245c4039beb7ed88e3b00cbd9ec480",
+      "sourceSha256Gem": "ec7c39ceb7ba69dac009c1a372c6dbd000245c4039beb7ed88e3b00cbd9ec480"
+    },
+    {
+      "id": "hk_b6_2",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "产品责任",
+        "indicator": "产品及服务投诉",
+        "appendix": "附录C2",
+        "clause": "KPI B6.2"
+      },
+      "question": "是否披露产品及服务投诉数目及应对方法？",
+      "sourceSha256": "7b84411c9405e91f83fad29b1b8ce79de57b0db09e5e00ddf8d1d1d8ffcdde36",
+      "sourceSha256Gem": "7b84411c9405e91f83fad29b1b8ce79de57b0db09e5e00ddf8d1d1d8ffcdde36"
+    },
+    {
+      "id": "hk_b6_3",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "产品责任",
+        "indicator": "知识产权",
+        "appendix": "附录C2",
+        "clause": "KPI B6.3"
+      },
+      "question": "是否描述维护及保障知识产权的惯例？",
+      "sourceSha256": "b70b82259e8324c16a09019e907d4860ae3c06429567f1c77b22369f38083755",
+      "sourceSha256Gem": "b70b82259e8324c16a09019e907d4860ae3c06429567f1c77b22369f38083755"
+    },
+    {
+      "id": "hk_b6_4",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "产品责任",
+        "indicator": "质量检定及召回",
+        "appendix": "附录C2",
+        "clause": "KPI B6.4"
+      },
+      "question": "是否描述质量检定过程及产品回收程序？",
+      "sourceSha256": "0cbbd46b1fd643a4fd31dce163dcc51e952ff6bf600a0bf8a23af0fbaf2dbe5f",
+      "sourceSha256Gem": "0cbbd46b1fd643a4fd31dce163dcc51e952ff6bf600a0bf8a23af0fbaf2dbe5f"
+    },
+    {
+      "id": "hk_b6_5",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "产品责任",
+        "indicator": "消费者资料及私隐",
+        "appendix": "附录C2",
+        "clause": "KPI B6.5"
+      },
+      "question": "是否描述消费者资料保障及私隐政策，以及落实及监察方法？",
+      "sourceSha256": "db1ede47b25c9657ccc1dc35cbe703af0e1d4cbf6ef80f294c8782367e3ecba1",
+      "sourceSha256Gem": "db1ede47b25c9657ccc1dc35cbe703af0e1d4cbf6ef80f294c8782367e3ecba1"
+    },
+    {
+      "id": "hk_b7_general",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "反贪污",
+        "indicator": "一般披露",
+        "appendix": "附录C2",
+        "clause": "B7 一般披露"
+      },
+      "question": "是否披露贿赂、勒索、欺诈及洗黑钱的政策，以及有重大影响的相关法律法规遵守情况？",
+      "sourceSha256": "8460a283579e19663a39c8b49cb2ffb0f0b34dd3cd523503b8d797cf473fb9a2",
+      "sourceSha256Gem": "8460a283579e19663a39c8b49cb2ffb0f0b34dd3cd523503b8d797cf473fb9a2"
+    },
+    {
+      "id": "hk_b7_1",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "反贪污",
+        "indicator": "贪污诉讼及结果",
+        "appendix": "附录C2",
+        "clause": "KPI B7.1"
+      },
+      "question": "是否披露汇报期内对发行人或雇员提出并已审结的贪污诉讼数目及结果？",
+      "sourceSha256": "de2e5e93ef0bed7d3fa02ddda1a24e80c52cb5efcffb3946b0b7c5c2824c2be1",
+      "sourceSha256Gem": "de2e5e93ef0bed7d3fa02ddda1a24e80c52cb5efcffb3946b0b7c5c2824c2be1"
+    },
+    {
+      "id": "hk_b7_2",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "反贪污",
+        "indicator": "预防措施与举报程序",
+        "appendix": "附录C2",
+        "clause": "KPI B7.2"
+      },
+      "question": "是否描述防范措施及举报程序，以及落实及监察方法？",
+      "sourceSha256": "ddcf78897e277611777b55b5b03dfc037d51ebd79abc7cc7685603a66d98a378",
+      "sourceSha256Gem": "ddcf78897e277611777b55b5b03dfc037d51ebd79abc7cc7685603a66d98a378"
+    },
+    {
+      "id": "hk_b7_3",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "反贪污",
+        "indicator": "反贪污培训",
+        "appendix": "附录C2",
+        "clause": "KPI B7.3"
+      },
+      "question": "是否描述向董事及员工提供的反贪污培训？",
+      "sourceSha256": "19f62450d4729e89b742922a0e43bcf1185fd209f16ea11079d568e0ad60b3aa",
+      "sourceSha256Gem": "19f62450d4729e89b742922a0e43bcf1185fd209f16ea11079d568e0ad60b3aa"
+    },
+    {
+      "id": "hk_b8_general",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "社区投资",
+        "indicator": "一般披露",
+        "appendix": "附录C2",
+        "clause": "B8 一般披露"
+      },
+      "question": "是否披露社区参与政策，以了解营运社区需要并确保业务考虑社区利益？",
+      "sourceSha256": "59d00e1e9b8f68ae62030f5bbead9372c3a26663ee414da5e7b64bf242701d91",
+      "sourceSha256Gem": "59d00e1e9b8f68ae62030f5bbead9372c3a26663ee414da5e7b64bf242701d91"
+    },
+    {
+      "id": "hk_b8_1",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "社区投资",
+        "indicator": "社区投资范畴",
+        "appendix": "附录C2",
+        "clause": "KPI B8.1"
+      },
+      "question": "是否披露社区贡献的重点范畴？",
+      "sourceSha256": "be29750e934fc83038bba6a31bf9ff384c2dbea5758e701ea68f3955556b1945",
+      "sourceSha256Gem": "be29750e934fc83038bba6a31bf9ff384c2dbea5758e701ea68f3955556b1945"
+    },
+    {
+      "id": "hk_b8_2",
+      "hierarchy": {
+        "part": "C部分",
+        "topic": "社区投资",
+        "indicator": "社区资源投入",
+        "appendix": "附录C2",
+        "clause": "KPI B8.2"
+      },
+      "question": "是否披露在各重点范畴投入的资源，例如金钱或时间？",
+      "sourceSha256": "ea98065d6a70c332607e2bf05202a936263a85ff406091e33cd9b40f0b37c98c",
+      "sourceSha256Gem": "ea98065d6a70c332607e2bf05202a936263a85ff406091e33cd9b40f0b37c98c"
+    },
+    {
+      "id": "hk_d19",
+      "hierarchy": {
+        "part": "D部分",
+        "topic": "管治",
+        "indicator": "气候管治",
+        "appendix": "附录C2",
+        "clause": "第19段"
+      },
+      "question": "是否披露气候监督机构或个人、技能、获悉信息的方式频率、战略及风险监督、目标及薪酬关联、管理层职责、监控及内部整合，并避免与第13段不必要重复？",
+      "sourceSha256": "ed0b9f56a3268ae1fb36c44ddedbe393e37194c9b48ebd4649a0e62bd2895e29",
+      "sourceSha256Gem": "ed0b9f56a3268ae1fb36c44ddedbe393e37194c9b48ebd4649a0e62bd2895e29"
+    },
+    {
+      "id": "hk_d20",
+      "hierarchy": {
+        "part": "D部分",
+        "topic": "战略",
+        "indicator": "气候风险与机遇",
+        "appendix": "附录C2",
+        "clause": "第20段"
+      },
+      "question": "是否识别合理预期影响现金流、融资或资本成本的气候风险与机遇、区分实体及转型风险、说明时间范围及定义，并按附注核定信息口径及商业敏感机遇宽免？",
+      "sourceSha256": "934d6c371984759088045c3cb036fba37bf6307cfcba6246ac0dcb77a5ac3850",
+      "sourceSha256Gem": "aeb53c8d1d5cb1756af21a034a8c1d1eaa6c8d8caee71a6a0361eaadf1fc003b"
+    },
+    {
+      "id": "hk_d21",
+      "hierarchy": {
+        "part": "D部分",
+        "topic": "战略",
+        "indicator": "业务模式与价值链",
+        "appendix": "附录C2",
+        "clause": "第21段"
+      },
+      "question": "是否描述气候风险与机遇对业务模式及价值链的当前及预期影响、集中环节，并考虑相关附注及第41段？",
+      "sourceSha256": "560014d011f8c24ca2497af6a4460736379f4396e2b3599dda96b4cab2d7aae1",
+      "sourceSha256Gem": "560014d011f8c24ca2497af6a4460736379f4396e2b3599dda96b4cab2d7aae1"
+    },
+    {
+      "id": "hk_d22",
+      "hierarchy": {
+        "part": "D部分",
+        "topic": "战略",
+        "indicator": "策略、决策与计划进展",
+        "appendix": "附录C2",
+        "clause": "第22、23段"
+      },
+      "question": "是否描述战略决策中的气候应对、业务及资源调整、适应减缓、转型计划、目标实现和资源投入，以及以往计划进展，并核对否定声明及第41段？",
+      "sourceSha256": "8d8b439912085afa1795b184fc3f34f40550f39225038e3ba5ff1779d709ed52",
+      "sourceSha256Gem": "8d8b439912085afa1795b184fc3f34f40550f39225038e3ba5ff1779d709ed52"
+    },
+    {
+      "id": "hk_d24",
+      "hierarchy": {
+        "part": "D部分",
+        "topic": "战略",
+        "indicator": "当前财务影响",
+        "appendix": "附录C2",
+        "clause": "第24段"
+      },
+      "question": "是否披露当前财务状况、业绩及现金流影响，以及下一年度可能导致资产负债账面值重大调整的风险，按相关附注核定量化宽免并考虑第41段？",
+      "sourceSha256": "15d4e8b7db0ba16c3f5dbe2bc66c05e681b7d75255fd4d8f58ec63e26dd91cad",
+      "sourceSha256Gem": "15d4e8b7db0ba16c3f5dbe2bc66c05e681b7d75255fd4d8f58ec63e26dd91cad"
+    },
+    {
+      "id": "hk_d25",
+      "hierarchy": {
+        "part": "D部分",
+        "topic": "战略",
+        "indicator": "预期财务影响",
+        "appendix": "附录C2",
+        "clause": "第25段"
+      },
+      "question": "是否披露短中长期预期财务状况、业绩及现金流变化、投资出售和资金计划，逐项核定量化宽免及替代定性信息，并考虑第41段？",
+      "sourceSha256": "14365f2a457fcef671b4aae006f566cd09202b6e4987f6675f2885ce9feb4985",
+      "sourceSha256Gem": "14365f2a457fcef671b4aae006f566cd09202b6e4987f6675f2885ce9feb4985"
+    },
+    {
+      "id": "hk_d26",
+      "hierarchy": {
+        "part": "D部分",
+        "topic": "战略",
+        "indicator": "气候韧性与情景分析",
+        "appendix": "附录C2",
+        "clause": "第26段"
+      },
+      "question": "是否披露气候韧性、战略业务影响、不确定性及适应能力，以及情景分析的情景、输入、假设、范围和时间，方法与自身情况相称，并考虑第41段？",
+      "sourceSha256": "4aaa1746b54fd8843bc73661b8933c18fca79c2f15535b73836dc1458a016ec8",
+      "sourceSha256Gem": "4aaa1746b54fd8843bc73661b8933c18fca79c2f15535b73836dc1458a016ec8"
+    },
+    {
+      "id": "hk_d27",
+      "hierarchy": {
+        "part": "D部分",
+        "topic": "风险管理",
+        "indicator": "气候风险管理",
+        "appendix": "附录C2",
+        "clause": "第27段"
+      },
+      "question": "是否描述气候风险及机遇识别、评估、排序、监察过程、输入、情景分析、概率及影响评估、流程变化，以及与整体风险管理的整合？",
+      "sourceSha256": "5c9bd9c70157c1a62cfb6d2c36ea4404f0065c75b0bb51665237045ccb2d11e5",
+      "sourceSha256Gem": "5c9bd9c70157c1a62cfb6d2c36ea4404f0065c75b0bb51665237045ccb2d11e5"
+    },
+    {
+      "id": "hk_ghg12",
+      "hierarchy": {
+        "part": "D部分",
+        "topic": "指标与目标",
+        "indicator": "范围1及范围2温室气体排放",
+        "appendix": "附录C2",
+        "clause": "第28(a)、28(b)、29段"
+      },
+      "question": "是否按第28(a)、28(b)及29段披露范围1及范围2绝对排放总量（二氧化碳当量吨），以及适用的计量方法、输入、假设、分拆和范围2资料？范围3另行评估，不因其缺失扣减本项。",
+      "sourceSha256": "b9c2380c8315e1ac45a4e3fafb52fa08f9b3441ddf13946ab56b6e8bec131967",
+      "sourceSha256Gem": "2b4af23133b97471d79235c62bd8fc4e1915de3c38326e1567ed26d95bd9cc80"
+    },
+    {
+      "id": "hk_ghg3",
+      "hierarchy": {
+        "part": "D部分",
+        "topic": "指标与目标",
+        "indicator": "范围3温室气体排放",
+        "appendix": "附录C2",
+        "clause": "第28(c)、29段"
+      },
+      "question": "是否按第28(c)及29段披露范围3绝对排放总量（二氧化碳当量吨）、计量、类别及适用的融资排放资料？保留鼓励性措辞，独立核对范围3的披露属性及宽免。",
+      "sourceSha256": "b9c2380c8315e1ac45a4e3fafb52fa08f9b3441ddf13946ab56b6e8bec131967",
+      "sourceSha256Gem": "2b4af23133b97471d79235c62bd8fc4e1915de3c38326e1567ed26d95bd9cc80"
+    },
+    {
+      "id": "hk_d30",
+      "hierarchy": {
+        "part": "D部分",
+        "topic": "指标与目标",
+        "indicator": "气候转型风险指标",
+        "appendix": "附录C2",
+        "clause": "第30段"
+      },
+      "question": "是否披露易受气候转型风险影响的资产或业务活动金额及百分比？",
+      "sourceSha256": "0aaaa1036f8995283ec05e4086d13bb7e751dbeb1e9c4e603813c9310fc0a6d9",
+      "sourceSha256Gem": "0aaaa1036f8995283ec05e4086d13bb7e751dbeb1e9c4e603813c9310fc0a6d9"
+    },
+    {
+      "id": "hk_d31",
+      "hierarchy": {
+        "part": "D部分",
+        "topic": "指标与目标",
+        "indicator": "气候实体风险指标",
+        "appendix": "附录C2",
+        "clause": "第31段"
+      },
+      "question": "是否披露易受气候实体风险影响的资产或业务活动金额及百分比？",
+      "sourceSha256": "0c6013109bc40bac55a5484dbe601528b5555bb2271fc86bec145f35a4fc37ba",
+      "sourceSha256Gem": "0c6013109bc40bac55a5484dbe601528b5555bb2271fc86bec145f35a4fc37ba"
+    },
+    {
+      "id": "hk_d32",
+      "hierarchy": {
+        "part": "D部分",
+        "topic": "指标与目标",
+        "indicator": "气候机遇指标",
+        "appendix": "附录C2",
+        "clause": "第32段"
+      },
+      "question": "是否披露与气候机遇相一致的资产或业务活动金额及百分比，并核对附注条件？",
+      "sourceSha256": "6a1ddbc3e3c51135c6732c1c55a84b002b98ff7cc1c149e336a89abcd1fc6c92",
+      "sourceSha256Gem": "6a1ddbc3e3c51135c6732c1c55a84b002b98ff7cc1c149e336a89abcd1fc6c92"
+    },
+    {
+      "id": "hk_d33",
+      "hierarchy": {
+        "part": "D部分",
+        "topic": "指标与目标",
+        "indicator": "资本投放",
+        "appendix": "附录C2",
+        "clause": "第33段"
+      },
+      "question": "是否披露投向气候风险与机遇的资本开支、融资或投资金额？",
+      "sourceSha256": "94dac4600803d8beb4b26e2eb461c29370b14cd400744d1536a3e88bfaa6b132",
+      "sourceSha256Gem": "94dac4600803d8beb4b26e2eb461c29370b14cd400744d1536a3e88bfaa6b132"
+    },
+    {
+      "id": "hk_d34",
+      "hierarchy": {
+        "part": "D部分",
+        "topic": "指标与目标",
+        "indicator": "内部碳定价",
+        "appendix": "附录C2",
+        "clause": "第34段"
+      },
+      "question": "是否说明内部碳价是否及如何用于决策、每吨排放所用碳价，或提供条文允许的适当否定声明？",
+      "sourceSha256": "b2b2aa1b55c65268b7df58cdaae619d50250bc2973806aa2f55e576a6a3b0540",
+      "sourceSha256Gem": "b2b2aa1b55c65268b7df58cdaae619d50250bc2973806aa2f55e576a6a3b0540"
+    },
+    {
+      "id": "hk_d35",
+      "hierarchy": {
+        "part": "D部分",
+        "topic": "指标与目标",
+        "indicator": "薪酬与气候表现",
+        "appendix": "附录C2",
+        "clause": "第35段"
+      },
+      "question": "是否披露气候因素是否及如何纳入薪酬政策，或提供适当否定声明，并允许引用第19(a)(iv)段相关披露？",
+      "sourceSha256": "12474f5f9371eeb5e01f3dcf09cca704744adaccb8c23c0519b3f50348f4d282",
+      "sourceSha256Gem": "12474f5f9371eeb5e01f3dcf09cca704744adaccb8c23c0519b3f50348f4d282"
+    },
+    {
+      "id": "hk_d36",
+      "hierarchy": {
+        "part": "D部分",
+        "topic": "指标与目标",
+        "indicator": "行业指标",
+        "appendix": "附录C2",
+        "clause": "第36段"
+      },
+      "question": "如自愿报告行业指标，是否按所选板块附注考虑相关行业指引及适用性？本项对所有发行人仍属鼓励披露。",
+      "sourceSha256": "4b50a053fea74063d1a22c2c442ef740cc3ed94cdee9596535cc2a26c88641b5",
+      "sourceSha256Gem": "cbc4ca6a10dfa62aecc49dd7ae0953b677aad563f351bbd367d57523f287f7db"
+    },
+    {
+      "id": "hk_d37",
+      "hierarchy": {
+        "part": "D部分",
+        "topic": "指标与目标",
+        "indicator": "气候目标",
+        "appendix": "附录C2",
+        "clause": "第37段"
+      },
+      "question": "是否披露自行设定及法定气候目标、计量指标、目的、范围、期间、基准期、中期目标、绝对或密度口径及国际协定影响，并考虑附注及第41段？",
+      "sourceSha256": "51543d80c99ea83858e3feda7bbc5d546e0720a312fb6135430025e3afa291b4",
+      "sourceSha256Gem": "51543d80c99ea83858e3feda7bbc5d546e0720a312fb6135430025e3afa291b4"
+    },
+    {
+      "id": "hk_d38",
+      "hierarchy": {
+        "part": "D部分",
+        "topic": "指标与目标",
+        "indicator": "目标制定及检讨",
+        "appendix": "附录C2",
+        "clause": "第38段"
+      },
+      "question": "是否说明目标及方法第三方验证、检讨、进展监察指标、修订及原因，并考虑第41段？",
+      "sourceSha256": "a47d1181f09acb31c3aecce0b8835814fd64902eee36f8abb676b44fde72b62d",
+      "sourceSha256Gem": "a47d1181f09acb31c3aecce0b8835814fd64902eee36f8abb676b44fde72b62d"
+    },
+    {
+      "id": "hk_d39",
+      "hierarchy": {
+        "part": "D部分",
+        "topic": "指标与目标",
+        "indicator": "目标表现与趋势",
+        "appendix": "附录C2",
+        "clause": "第39段"
+      },
+      "question": "是否披露各气候目标的表现及趋势或变动分析？",
+      "sourceSha256": "2bd173db2acab372742777fd86a3ce91a7e89b608b719ac2e2ea631074219f0a",
+      "sourceSha256Gem": "2bd173db2acab372742777fd86a3ce91a7e89b608b719ac2e2ea631074219f0a"
+    },
+    {
+      "id": "hk_d40",
+      "hierarchy": {
+        "part": "D部分",
+        "topic": "指标与目标",
+        "indicator": "温室气体目标与碳信用",
+        "appendix": "附录C2",
+        "clause": "第40段"
+      },
+      "question": "是否逐项披露温室气体目标覆盖气体及排放范围、总量或净额、净额对应的总量目标、行业脱碳方法，以及碳信用依赖程度、认证计划、类型、持久性及完整性因素？",
+      "sourceSha256": "063809d08e2a3999eddd35439dad4b49ac0eedb224647711666357ecebce6488",
+      "sourceSha256Gem": "063809d08e2a3999eddd35439dad4b49ac0eedb224647711666357ecebce6488"
+    }
+  ]
+}

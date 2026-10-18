@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#344b40" />
+    <title>CSA 评级知识库与评估工作台</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到正文</a>
+    <header class="topbar">
+      <button
+        class="nav-toggle"
+        id="nav-toggle"
+        aria-label="打开导航"
+        aria-expanded="false"
+        aria-controls="sidebar"
+      >
+        <span class="nav-toggle-bars"></span>
+      </button>
+      <a class="brand" href="#/home"
+        ><span class="brand-mark" aria-hidden="true">C</span
+        ><span class="brand-text"
+          ><strong>CSA 评级知识库</strong><small>知识 · 来源 · 评估</small></span
+        ></a
+      >
+      <form class="topbar-search" id="global-search" role="search">
+        <span class="topbar-search-icon" aria-hidden="true"></span
+        ><input
+          id="search-query"
+          name="q"
+          type="search"
+          aria-label="搜索方法、行业、问题和企业"
+          placeholder="搜索方法、行业、问题和企业"
+        /><button type="submit" class="sr-only">搜索</button>
+      </form>
+    </header>
+    <div class="shell">
+      <aside id="sidebar" class="sidebar" aria-label="主导航">
+        <nav class="nav" id="nav"></nav>
+        <div class="sidebar-foot">
+          <p class="sidebar-foot-meta">方法 2026 · Full CSA</p>
+          <p class="sidebar-foot-note">根据官方 PDF 整理的独立工具。披露初评不代表标普官方评分。</p>
+        </div>
+      </aside>
+      <div id="scrim" class="scrim" hidden></div>
+      <main id="main" class="view" tabindex="-1"><p role="status">正在载入本地资料…</p></main>
+    </div>
+    <div id="toast" role="status" aria-live="polite" hidden></div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

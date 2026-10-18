@@ -1,0 +1,45 @@
+{
+  "version": "2024-05-01.20261015-v1",
+  "sources": [
+    {
+      "exchange": "sh",
+      "sourcePath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.md",
+      "sourceOriginalPath": "上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）.pdf",
+      "sourceSha256": "2a0f5013a3a97291e7bb65257751bed29d418304a00a56f8d1494d7fee21fec2",
+      "sourceOriginalSha256": "a73aecdae4668963d1ce53afb196f04ec9b0b74f16b01d903026410444f9cf2a",
+      "sourcePhysicalPages": 28,
+      "sourceIndexPages": [
+        27,
+        28
+      ],
+      "indexAvailability": "本地原件附表/附件已核对",
+      "sourcePageNote": "PDF物理页，1起算"
+    },
+    {
+      "exchange": "sz",
+      "sourcePath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.md",
+      "sourceOriginalPath": "深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）.pdf",
+      "sourceSha256": "176df038e20858ac7768f54eedd9269f975461ae52a0d42e8a15ee66b9c08134",
+      "sourceOriginalSha256": "faf4e594cc2ff96c22a16c5726220fc6073d2c51949aa0f683f5076e4a572e4a",
+      "sourcePhysicalPages": 34,
+      "sourceIndexPages": [
+        29,
+        30
+      ],
+      "indexAvailability": "本地原件附表/附件已核对",
+      "sourcePageNote": "PDF物理页，1起算"
+    },
+    {
+      "exchange": "bj",
+      "sourcePath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.md",
+      "sourceOriginalPath": "北京证券交易所上市公司持续监管指引第11号——可持续发展报告（试行）.docx",
+      "sourceSha256": "68daa8241f5152842972afb4398f6ca311f5733f5694141aca1a3e208b2a6e5c",
+      "sourceOriginalSha256": "84e4fe9f0dae361236a50b7a39c4c38742131627da20b4c3a2fc72a5364193bd",
+      "sourcePhysicalPages": null,
+      "sourceIndexPages": [],
+      "indexAvailability": "本地DOCX及Markdown未包含第59条提及的附表；按条款正文核对议题映射",
+      "sourcePageNote": "原始DOCX无固定物理页，页码留空；以条款号及Markdown行号定位"
+    }
+  ],
+  "sourcePolicy": "三份指引原文为条款权威；PRD与对比分析仅提供产品结构和对照维度。所有原始文件只读保留。"
+}

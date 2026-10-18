@@ -1,0 +1,2169 @@
+{
+  "exchange": "hk",
+  "market": "hk",
+  "version": "hkex-c2-20250101.20261016-v2",
+  "boardOptions": [
+    "主板",
+    "GEM"
+  ],
+  "guideline": {
+    "number": "附录C2",
+    "name": "香港交易所《环境、社会及管治报告守则》",
+    "effectiveDate": "",
+    "version": "官方中文条文（繁体原件，简体显示）",
+    "climateEffectiveDate": "2025-01-01",
+    "supportedFiscalStart": "2025-01-01",
+    "timelineSource": "https://www.hkex.com.hk/News/Regulatory-Announcements/2024/240419news?sc_lang=en",
+    "sourceUrls": [
+      "https://cn-rules.hkex.com.hk/sites/default/files/net_file_store/HKEXCN_TC_10553_VER38253.pdf",
+      "https://cn-rules.hkex.com.hk/sites/default/files/net_file_store/HKEXCN_TC_8299_VER38252.pdf"
+    ],
+    "sourceEdition": "现行中文版（2026-10-16获取）",
+    "sourceLanguageNote": "官方繁体中文，正文已作简繁转换。"
+  },
+  "topics": [
+    {
+      "id": "hk_b13",
+      "name": "ESG管治架构",
+      "dimension": "governance",
+      "clause": "附录C2 · B部分 第13段",
+      "requirement": "披露董事会ESG监督、管理方针与策略、重大议题评估排序管理过程，以及目标进展检视及其与业务的关系。",
+      "part": "B",
+      "sourceText": "13. 由董事会发出的声明，当中载有下列内容：\n(i)披露董事会对环境、社会及管治事宜的监管；\n(ii)董事会的环境、社会及管治管理方针及策略，包括评估、优次排列及管理重要的环境、社会及管治相关事宜（包括对发行人业务的风险）的过程；及\n(iii) 董事会如何按环境、社会及管治相关目标检讨进度，并解释它们如何与发行人业务有关连。",
+      "sourceTextGem": "13. 由董事会发出的声明，当中载有下列内容：\n(i)披露董事会对环境、社会及管治事宜的监管；\n(ii)董事会的环境、社会及管治管理方针及策略，包括评估、优次排列及管理重要的环境、社会及管治相关事宜（包括对发行人业务的风险）的过程；及\n(iii) 董事会如何按环境、社会及管治相关目标检讨进度，并解释它们如何与发行人业务有关连。",
+      "governanceDefault": true,
+      "sourceAnchorMb": {
+        "pdfPages": [
+          5,
+          5
+        ],
+        "rules": [
+          "Part B paragraph 13"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          4,
+          4
+        ],
+        "rules": [
+          "Part B paragraph 13"
+        ]
+      }
+    },
+    {
+      "id": "hk_b14",
+      "name": "汇报原则",
+      "dimension": "governance",
+      "clause": "附录C2 · B部分 第14段",
+      "requirement": "说明重要性识别及筛选准则、已开展持份者参与的过程与结果；量化方法和转换系数来源；影响可比性的方法、指标及范围变更。",
+      "part": "B",
+      "sourceText": "14. 描述或解释在编备环境、社会及管治报告时如何应用下列汇报原则：\n重要性：环境、社会及管治报告应披露：\n(i)识别重要环境、社会及管治因素的过程及选择这些因素的准则；\n(ii)如发行人已进行持份者参与，已识别的重要持份者的描述及发行人持份者参与的过程及结果。\n量化：有关汇报排放量╱能源耗用（如适用）所用的标准、方法、假设及╱或计算工具的资料，以及所使用的转换因素的来源应予披露。\n一致性：发行人应在环境、社会及管治报告中披露统计方法或关键绩效指标的变更（如有）或任何其他影响有意义比较的相关因素。",
+      "sourceTextGem": "14. 描述或解释在编备环境、社会及管治报告时如何应用下列汇报原则：\n重要性：环境、社会及管治报告应披露：\n(i)识别重要环境、社会及管治因素的过程及选择这些因素的准则；\n(ii)如发行人已进行持份者参与，已识别的重要持份者的描述及发行人持份者参与的过程及结果。\n量化：有关汇报排放量╱能源耗用（如适用）所用的标准、方法、假设及╱或计算工具的资料，以及所使用的转换因素的来源应予披露。\n一致性：发行人应在环境、社会及管治报告中披露统计方法或关键绩效指标的变更（如有）或任何其他影响有意义比较的相关因素。",
+      "governanceDefault": true,
+      "sourceAnchorMb": {
+        "pdfPages": [
+          5,
+          5
+        ],
+        "rules": [
+          "Part B paragraph 14"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          4,
+          4
+        ],
+        "rules": [
+          "Part B paragraph 14"
+        ]
+      }
+    },
+    {
+      "id": "hk_b15",
+      "name": "汇报范围",
+      "dimension": "governance",
+      "clause": "附录C2 · B部分 第15段",
+      "requirement": "解释ESG报告边界及纳入实体或业务的识别过程；范围变化时说明差异与原因。",
+      "part": "B",
+      "sourceText": "15. 解释环境、社会及管治报告的汇报范围，及描述挑选哪些实体或业务纳入环境、社会及管治报告的过程。若汇报范围有所改变，发行人应解释不同之处及变动原因。",
+      "sourceTextGem": "15. 解释环境、社会及管治报告的汇报范围，及描述挑选哪些实体或业务纳入环境、社会及管治报告的过程。若汇报范围有所改变，发行人应解释不同之处及变动原因。",
+      "governanceDefault": true,
+      "sourceAnchorMb": {
+        "pdfPages": [
+          5,
+          5
+        ],
+        "rules": [
+          "Part B paragraph 15"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          4,
+          4
+        ],
+        "rules": [
+          "Part B paragraph 15"
+        ]
+      }
+    },
+    {
+      "id": "hk_a1_general",
+      "name": "排放物 · 一般披露",
+      "dimension": "environment",
+      "clause": "附录C2 · A1 一般披露",
+      "requirement": "按原文披露排放物相关政策及对发行人有重大影响的法律法规遵守情况。",
+      "part": "C",
+      "sourceText": "有关废气排放、向水及土地的排污、有害及无害废弃物的产生等的：\n(a)政策；及\n(b) 遵守对发行人有重大影响的相关法律及规例的资料。\n注：废气排放包括氮氧化物、硫氧化物及其他受国家法律及规例规管的污染物。有害废弃物指国家规例所界定者。",
+      "sourceTextGem": "有关废气排放、向水及土地的排污、有害及无害废弃物的产生等的：\n(a)政策；及\n(b) 遵守对发行人有重大影响的相关法律及规例的资料。\n注：废气排放包括氮氧化物、硫氧化物及其他受国家法律及规例规管的污染物。有害废弃物指国家规例所界定者。",
+      "governanceDefault": false,
+      "aspect": "A1",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          6,
+          6
+        ],
+        "rules": [
+          "A1 一般披露"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          5,
+          5
+        ],
+        "rules": [
+          "A1 一般披露"
+        ]
+      }
+    },
+    {
+      "id": "hk_a1_1",
+      "name": "排放物 · 排放物种类及数据",
+      "dimension": "environment",
+      "clause": "附录C2 · KPI A1.1",
+      "requirement": "披露排放物种类及数据；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "排放物种类及相关排放数据。",
+      "sourceTextGem": "排放物种类及相关排放数据。",
+      "governanceDefault": false,
+      "aspect": "A1",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          6,
+          6
+        ],
+        "rules": [
+          "KPI A1.1"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          5,
+          5
+        ],
+        "rules": [
+          "KPI A1.1"
+        ]
+      }
+    },
+    {
+      "id": "hk_a1_3",
+      "name": "排放物 · 有害废弃物",
+      "dimension": "environment",
+      "clause": "附录C2 · KPI A1.3",
+      "requirement": "披露有害废弃物；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "所产生有害废弃物总量（以吨计算）及（如适用）密度（如以每产量单位、每项设施计算）。",
+      "sourceTextGem": "所产生有害废弃物总量（以吨计算）及（如适用）密度（如以每产量单位、每项设施计算）。",
+      "governanceDefault": false,
+      "aspect": "A1",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          6,
+          6
+        ],
+        "rules": [
+          "KPI A1.3"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          5,
+          5
+        ],
+        "rules": [
+          "KPI A1.3"
+        ]
+      }
+    },
+    {
+      "id": "hk_a1_4",
+      "name": "排放物 · 无害废弃物",
+      "dimension": "environment",
+      "clause": "附录C2 · KPI A1.4",
+      "requirement": "披露无害废弃物；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "所产生无害废弃物总量（以吨计算）及（如适用）密度（如以每产量单位、每项设施计算）。",
+      "sourceTextGem": "所产生无害废弃物总量（以吨计算）及（如适用）密度（如以每产量单位、每项设施计算）。",
+      "governanceDefault": false,
+      "aspect": "A1",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          6,
+          6
+        ],
+        "rules": [
+          "KPI A1.4"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          5,
+          5
+        ],
+        "rules": [
+          "KPI A1.4"
+        ]
+      }
+    },
+    {
+      "id": "hk_a1_5",
+      "name": "排放物 · 排放目标",
+      "dimension": "environment",
+      "clause": "附录C2 · KPI A1.5",
+      "requirement": "披露排放目标；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "描述所订立的排放量目标及为达到这些目标所采取的步骤。",
+      "sourceTextGem": "描述所订立的排放量目标及为达到这些目标所采取的步骤。",
+      "governanceDefault": false,
+      "aspect": "A1",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          6,
+          6
+        ],
+        "rules": [
+          "KPI A1.5"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          5,
+          5
+        ],
+        "rules": [
+          "KPI A1.5"
+        ]
+      }
+    },
+    {
+      "id": "hk_a1_6",
+      "name": "排放物 · 废弃物处理与减量目标",
+      "dimension": "environment",
+      "clause": "附录C2 · KPI A1.6",
+      "requirement": "披露废弃物处理与减量目标；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "描述处理有害及无害废弃物的方法，及描述所订立的减废目标及为达到这些目标所采取的步骤。",
+      "sourceTextGem": "描述处理有害及无害废弃物的方法，及描述所订立的减废目标及为达到这些目标所采取的步骤。",
+      "governanceDefault": false,
+      "aspect": "A1",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          6,
+          6
+        ],
+        "rules": [
+          "KPI A1.6"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          5,
+          5
+        ],
+        "rules": [
+          "KPI A1.6"
+        ]
+      }
+    },
+    {
+      "id": "hk_a2_general",
+      "name": "资源使用 · 一般披露",
+      "dimension": "environment",
+      "clause": "附录C2 · A2 一般披露",
+      "requirement": "按原文披露资源使用相关政策及管理惯例。",
+      "part": "C",
+      "sourceText": "有效使用资源（包括能源、水及其他原材料）的政策。\n注：资源可用于生产、储存、运输、楼宇、电子设备等。",
+      "sourceTextGem": "有效使用资源（包括能源、水及其他原材料）的政策。\n注：资源可用于生产、储存、运输、楼宇、电子设备等。",
+      "governanceDefault": false,
+      "aspect": "A2",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          7,
+          7
+        ],
+        "rules": [
+          "A2 一般披露"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          6,
+          6
+        ],
+        "rules": [
+          "A2 一般披露"
+        ]
+      }
+    },
+    {
+      "id": "hk_a2_1",
+      "name": "资源使用 · 能源消耗",
+      "dimension": "environment",
+      "clause": "附录C2 · KPI A2.1",
+      "requirement": "披露能源消耗；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "按类型划分的直接及╱或间接能源（如电、气或油）总耗量（以千个千瓦时计算）及密度（如以每产量单位、每项设施计算）。",
+      "sourceTextGem": "按类型划分的直接及╱或间接能源（如电、气或油）总耗量（以千个千瓦时计算）及密度（如以每产量单位、每项设施计算）。",
+      "governanceDefault": false,
+      "aspect": "A2",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          7,
+          7
+        ],
+        "rules": [
+          "KPI A2.1"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          6,
+          6
+        ],
+        "rules": [
+          "KPI A2.1"
+        ]
+      }
+    },
+    {
+      "id": "hk_a2_2",
+      "name": "资源使用 · 耗水量",
+      "dimension": "environment",
+      "clause": "附录C2 · KPI A2.2",
+      "requirement": "披露耗水量；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "总耗水量及密度（如以每产量单位、每项设施计算）。",
+      "sourceTextGem": "总耗水量及密度（如以每产量单位、每项设施计算）。",
+      "governanceDefault": false,
+      "aspect": "A2",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          7,
+          7
+        ],
+        "rules": [
+          "KPI A2.2"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          6,
+          6
+        ],
+        "rules": [
+          "KPI A2.2"
+        ]
+      }
+    },
+    {
+      "id": "hk_a2_3",
+      "name": "资源使用 · 能源效益目标",
+      "dimension": "environment",
+      "clause": "附录C2 · KPI A2.3",
+      "requirement": "披露能源效益目标；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "描述所订立的能源使用效益目标及为达到这些目标所采取的步骤。",
+      "sourceTextGem": "描述所订立的能源使用效益目标及为达到这些目标所采取的步骤。",
+      "governanceDefault": false,
+      "aspect": "A2",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          7,
+          7
+        ],
+        "rules": [
+          "KPI A2.3"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          6,
+          6
+        ],
+        "rules": [
+          "KPI A2.3"
+        ]
+      }
+    },
+    {
+      "id": "hk_a2_4",
+      "name": "资源使用 · 水源及用水效益目标",
+      "dimension": "environment",
+      "clause": "附录C2 · KPI A2.4",
+      "requirement": "披露水源及用水效益目标；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "描述求取适用水源上可有任何问题，以及所订立的用水效益目标及为达到这些目标所采取的步骤。",
+      "sourceTextGem": "描述求取适用水源上可有任何问题，以及所订立的用水效益目标及为达到这些目标所采取的步骤。",
+      "governanceDefault": false,
+      "aspect": "A2",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          7,
+          7
+        ],
+        "rules": [
+          "KPI A2.4"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          6,
+          6
+        ],
+        "rules": [
+          "KPI A2.4"
+        ]
+      }
+    },
+    {
+      "id": "hk_a2_5",
+      "name": "资源使用 · 包装材料",
+      "dimension": "environment",
+      "clause": "附录C2 · KPI A2.5",
+      "requirement": "披露包装材料；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "制成品所用包装材料的总量（以吨计算）及（如适用）每生产单位占量。",
+      "sourceTextGem": "制成品所用包装材料的总量（以吨计算）及（如适用）每生产单位占量。",
+      "governanceDefault": false,
+      "aspect": "A2",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          7,
+          7
+        ],
+        "rules": [
+          "KPI A2.5"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          6,
+          6
+        ],
+        "rules": [
+          "KPI A2.5"
+        ]
+      }
+    },
+    {
+      "id": "hk_a3_general",
+      "name": "环境及天然资源 · 一般披露",
+      "dimension": "environment",
+      "clause": "附录C2 · A3 一般披露",
+      "requirement": "按原文披露环境及天然资源相关政策及管理惯例。",
+      "part": "C",
+      "sourceText": "减低发行人对环境及天然资源造成重大影响的政策。",
+      "sourceTextGem": "减低发行人对环境及天然资源造成重大影响的政策。",
+      "governanceDefault": false,
+      "aspect": "A3",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          7,
+          7
+        ],
+        "rules": [
+          "A3 一般披露"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          6,
+          6
+        ],
+        "rules": [
+          "A3 一般披露"
+        ]
+      }
+    },
+    {
+      "id": "hk_a3_1",
+      "name": "环境及天然资源 · 环境及天然资源影响",
+      "dimension": "environment",
+      "clause": "附录C2 · KPI A3.1",
+      "requirement": "披露环境及天然资源影响；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "描述业务活动对环境及天然资源的重大影响及已采取管理有关影响的行动。",
+      "sourceTextGem": "描述业务活动对环境及天然资源的重大影响及已采取管理有关影响的行动。",
+      "governanceDefault": false,
+      "aspect": "A3",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          7,
+          7
+        ],
+        "rules": [
+          "KPI A3.1"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          6,
+          6
+        ],
+        "rules": [
+          "KPI A3.1"
+        ]
+      }
+    },
+    {
+      "id": "hk_a4_general",
+      "name": "气候变化 · 一般披露",
+      "dimension": "environment",
+      "clause": "附录C2 · A4 一般披露",
+      "requirement": "披露识别及减轻对发行人产生或可能产生影响的重大气候相关事宜的政策。",
+      "part": "C",
+      "sourceText": "[于2025年1月1日删除]",
+      "sourceTextGem": "识别及应对已经及可能会对发行人产生影响的重大气候相关事宜的政策。",
+      "governanceDefault": false,
+      "aspect": "A4",
+      "boards": [
+        "GEM"
+      ],
+      "sourceAnchorMb": {
+        "pdfPages": [
+          7,
+          7
+        ],
+        "rules": [
+          "A4 一般披露"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          6,
+          6
+        ],
+        "rules": [
+          "A4 一般披露"
+        ]
+      }
+    },
+    {
+      "id": "hk_a4_1",
+      "name": "气候变化 · 重大影响与应对行动",
+      "dimension": "environment",
+      "clause": "附录C2 · KPI A4.1",
+      "requirement": "描述对发行人产生或可能产生影响的重大气候相关事宜及应对行动。",
+      "part": "C",
+      "sourceText": "[于2025年1月1日删除]",
+      "sourceTextGem": "描述已经及可能会对发行人产生影响的重大气候相关事宜，及应对行动。",
+      "governanceDefault": false,
+      "aspect": "A4",
+      "boards": [
+        "GEM"
+      ],
+      "sourceAnchorMb": {
+        "pdfPages": [
+          7,
+          7
+        ],
+        "rules": [
+          "KPI A4.1"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          6,
+          6
+        ],
+        "rules": [
+          "KPI A4.1"
+        ]
+      }
+    },
+    {
+      "id": "hk_b1_general",
+      "name": "雇佣 · 一般披露",
+      "dimension": "social",
+      "clause": "附录C2 · B1 一般披露",
+      "requirement": "按原文披露雇佣相关政策及对发行人有重大影响的法律法规遵守情况。",
+      "part": "C",
+      "sourceText": "有关薪酬及解雇、招聘及晋升、工作时数、假期、平等机会、多元化、反歧视以及其他待遇及福利的：\n(a)政策；及\n(b) 遵守对发行人有重大影响的相关法律及规例的资料。",
+      "sourceTextGem": "有关薪酬及解雇、招聘及晋升、工作时数、假期、平等机会、多元化、反歧视以及其他待遇及福利的：\n(a)政策；及\n(b) 遵守对发行人有重大影响的相关法律及规例的资料。",
+      "governanceDefault": false,
+      "aspect": "B1",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          8,
+          8
+        ],
+        "rules": [
+          "B1 一般披露"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          7,
+          7
+        ],
+        "rules": [
+          "B1 一般披露"
+        ]
+      }
+    },
+    {
+      "id": "hk_b1_1",
+      "name": "雇佣 · 雇员构成",
+      "dimension": "social",
+      "clause": "附录C2 · KPI B1.1",
+      "requirement": "披露雇员构成；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "按性别、雇佣类型（如全职或兼职）、年龄组别及地区划分的雇员总数。",
+      "sourceTextGem": "按性别、雇佣类型（如全职或兼职）、年龄组别及地区划分的雇员总数。",
+      "governanceDefault": false,
+      "aspect": "B1",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          8,
+          8
+        ],
+        "rules": [
+          "KPI B1.1"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          7,
+          7
+        ],
+        "rules": [
+          "KPI B1.1"
+        ]
+      }
+    },
+    {
+      "id": "hk_b1_2",
+      "name": "雇佣 · 雇员流失率",
+      "dimension": "social",
+      "clause": "附录C2 · KPI B1.2",
+      "requirement": "披露雇员流失率；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "按性别、年龄组别及地区划分的雇员流失比率。",
+      "sourceTextGem": "按性别、年龄组别及地区划分的雇员流失比率。",
+      "governanceDefault": false,
+      "aspect": "B1",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          8,
+          8
+        ],
+        "rules": [
+          "KPI B1.2"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          7,
+          7
+        ],
+        "rules": [
+          "KPI B1.2"
+        ]
+      }
+    },
+    {
+      "id": "hk_b2_general",
+      "name": "健康与安全 · 一般披露",
+      "dimension": "social",
+      "clause": "附录C2 · B2 一般披露",
+      "requirement": "按原文披露健康与安全相关政策及对发行人有重大影响的法律法规遵守情况。",
+      "part": "C",
+      "sourceText": "有关提供安全工作环境及保障雇员避免职业性危害的：\n(a)政策；及\n(b) 遵守对发行人有重大影响的相关法律及规例的资料。",
+      "sourceTextGem": "有关提供安全工作环境及保障雇员避免职业性危害的：\n(a)政策；及\n(b) 遵守对发行人有重大影响的相关法律及规例的资料。",
+      "governanceDefault": false,
+      "aspect": "B2",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          8,
+          8
+        ],
+        "rules": [
+          "B2 一般披露"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          7,
+          7
+        ],
+        "rules": [
+          "B2 一般披露"
+        ]
+      }
+    },
+    {
+      "id": "hk_b2_1",
+      "name": "健康与安全 · 因工亡故",
+      "dimension": "social",
+      "clause": "附录C2 · KPI B2.1",
+      "requirement": "披露因工亡故；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "过去三年（包括汇报年度）每年因工亡故的人数及比率。",
+      "sourceTextGem": "过去三年（包括汇报年度）每年因工亡故的人数及比率。",
+      "governanceDefault": false,
+      "aspect": "B2",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          8,
+          8
+        ],
+        "rules": [
+          "KPI B2.1"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          7,
+          7
+        ],
+        "rules": [
+          "KPI B2.1"
+        ]
+      }
+    },
+    {
+      "id": "hk_b2_2",
+      "name": "健康与安全 · 工伤损失工作日",
+      "dimension": "social",
+      "clause": "附录C2 · KPI B2.2",
+      "requirement": "披露工伤损失工作日；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "因工伤损失工作日数。",
+      "sourceTextGem": "因工伤损失工作日数。",
+      "governanceDefault": false,
+      "aspect": "B2",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          8,
+          8
+        ],
+        "rules": [
+          "KPI B2.2"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          7,
+          7
+        ],
+        "rules": [
+          "KPI B2.2"
+        ]
+      }
+    },
+    {
+      "id": "hk_b2_3",
+      "name": "健康与安全 · 职业健康与安全措施",
+      "dimension": "social",
+      "clause": "附录C2 · KPI B2.3",
+      "requirement": "披露职业健康与安全措施；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "描述所采纳的职业健康与安全措施，以及相关执行及监察方法。",
+      "sourceTextGem": "描述所采纳的职业健康与安全措施，以及相关执行及监察方法。",
+      "governanceDefault": false,
+      "aspect": "B2",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          8,
+          8
+        ],
+        "rules": [
+          "KPI B2.3"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          7,
+          7
+        ],
+        "rules": [
+          "KPI B2.3"
+        ]
+      }
+    },
+    {
+      "id": "hk_b3_general",
+      "name": "发展及培训 · 一般披露",
+      "dimension": "social",
+      "clause": "附录C2 · B3 一般披露",
+      "requirement": "按原文披露发展及培训相关政策及管理惯例。",
+      "part": "C",
+      "sourceText": "有关提升雇员履行工作职责的知识及技能的政策。描述培训活动。\n注：培训指职业培训，可包括由雇主付费的内外部课程。",
+      "sourceTextGem": "有关提升雇员履行工作职责的知识及技能的政策。描述培训活动。\n注：培训指职业培训，可包括由雇主付费的内外部课程。",
+      "governanceDefault": false,
+      "aspect": "B3",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          9,
+          9
+        ],
+        "rules": [
+          "B3 一般披露"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          7,
+          7
+        ],
+        "rules": [
+          "B3 一般披露"
+        ]
+      }
+    },
+    {
+      "id": "hk_b3_1",
+      "name": "发展及培训 · 受训雇员比例",
+      "dimension": "social",
+      "clause": "附录C2 · KPI B3.1",
+      "requirement": "披露受训雇员比例；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "按性别及雇员类别（如高级管理层、中级管理层）划分的受训雇员百分比。",
+      "sourceTextGem": "按性别及雇员类别（如高级管理层、中级管理层）划分的受训雇员百分比。",
+      "governanceDefault": false,
+      "aspect": "B3",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          9,
+          9
+        ],
+        "rules": [
+          "KPI B3.1"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          7,
+          7
+        ],
+        "rules": [
+          "KPI B3.1"
+        ]
+      }
+    },
+    {
+      "id": "hk_b3_2",
+      "name": "发展及培训 · 平均培训时数",
+      "dimension": "social",
+      "clause": "附录C2 · KPI B3.2",
+      "requirement": "披露平均培训时数；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "按性别及雇员类别划分，每名雇员完成受训的平均时数。",
+      "sourceTextGem": "按性别及雇员类别划分，每名雇员完成受训的平均时数。",
+      "governanceDefault": false,
+      "aspect": "B3",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          9,
+          9
+        ],
+        "rules": [
+          "KPI B3.2"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          7,
+          7
+        ],
+        "rules": [
+          "KPI B3.2"
+        ]
+      }
+    },
+    {
+      "id": "hk_b4_general",
+      "name": "劳工准则 · 一般披露",
+      "dimension": "social",
+      "clause": "附录C2 · B4 一般披露",
+      "requirement": "按原文披露劳工准则相关政策及对发行人有重大影响的法律法规遵守情况。",
+      "part": "C",
+      "sourceText": "有关防止童工或强制劳工的：\n(a)政策；及\n(b) 遵守对发行人有重大影响的相关法律及规例的资料。",
+      "sourceTextGem": "有关防止童工或强制劳工的：\n(a)政策；及\n(b) 遵守对发行人有重大影响的相关法律及规例的资料。",
+      "governanceDefault": false,
+      "aspect": "B4",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          9,
+          9
+        ],
+        "rules": [
+          "B4 一般披露"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          8,
+          8
+        ],
+        "rules": [
+          "B4 一般披露"
+        ]
+      }
+    },
+    {
+      "id": "hk_b4_1",
+      "name": "劳工准则 · 防止童工及强制劳工措施",
+      "dimension": "social",
+      "clause": "附录C2 · KPI B4.1",
+      "requirement": "披露防止童工及强制劳工措施；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "描述检讨招聘惯例的措施以避免童工及强制劳工。",
+      "sourceTextGem": "描述检讨招聘惯例的措施以避免童工及强制劳工。",
+      "governanceDefault": false,
+      "aspect": "B4",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          9,
+          9
+        ],
+        "rules": [
+          "KPI B4.1"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          8,
+          8
+        ],
+        "rules": [
+          "KPI B4.1"
+        ]
+      }
+    },
+    {
+      "id": "hk_b4_2",
+      "name": "劳工准则 · 违规劳工纠正措施",
+      "dimension": "social",
+      "clause": "附录C2 · KPI B4.2",
+      "requirement": "披露违规劳工纠正措施；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "描述在发现违规情况时消除有关情况所采取的步骤。",
+      "sourceTextGem": "描述在发现违规情况时消除有关情况所采取的步骤。",
+      "governanceDefault": false,
+      "aspect": "B4",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          9,
+          9
+        ],
+        "rules": [
+          "KPI B4.2"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          8,
+          8
+        ],
+        "rules": [
+          "KPI B4.2"
+        ]
+      }
+    },
+    {
+      "id": "hk_b5_general",
+      "name": "供应链管理 · 一般披露",
+      "dimension": "social",
+      "clause": "附录C2 · B5 一般披露",
+      "requirement": "按原文披露供应链管理相关政策及管理惯例。",
+      "part": "C",
+      "sourceText": "管理供应链的环境及社会风险政策。",
+      "sourceTextGem": "管理供应链的环境及社会风险政策。",
+      "governanceDefault": false,
+      "aspect": "B5",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          10,
+          10
+        ],
+        "rules": [
+          "B5 一般披露"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          8,
+          8
+        ],
+        "rules": [
+          "B5 一般披露"
+        ]
+      }
+    },
+    {
+      "id": "hk_b5_1",
+      "name": "供应链管理 · 供应商地区分布",
+      "dimension": "social",
+      "clause": "附录C2 · KPI B5.1",
+      "requirement": "披露供应商地区分布；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "按地区划分的供应商数目。",
+      "sourceTextGem": "按地区划分的供应商数目。",
+      "governanceDefault": false,
+      "aspect": "B5",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          10,
+          10
+        ],
+        "rules": [
+          "KPI B5.1"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          8,
+          8
+        ],
+        "rules": [
+          "KPI B5.1"
+        ]
+      }
+    },
+    {
+      "id": "hk_b5_2",
+      "name": "供应链管理 · 供应商聘用与监察",
+      "dimension": "social",
+      "clause": "附录C2 · KPI B5.2",
+      "requirement": "披露供应商聘用与监察；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "描述有关聘用供应商的惯例，向其执行有关惯例的供应商数目，以及相关执行及监察方法。",
+      "sourceTextGem": "描述有关聘用供应商的惯例，向其执行有关惯例的供应商数目，以及相关执行及监察方法。",
+      "governanceDefault": false,
+      "aspect": "B5",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          10,
+          10
+        ],
+        "rules": [
+          "KPI B5.2"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          8,
+          8
+        ],
+        "rules": [
+          "KPI B5.2"
+        ]
+      }
+    },
+    {
+      "id": "hk_b5_3",
+      "name": "供应链管理 · 供应链环境及社会风险",
+      "dimension": "social",
+      "clause": "附录C2 · KPI B5.3",
+      "requirement": "披露供应链环境及社会风险；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "描述有关识别供应链每个环节的环境及社会风险的惯例，以及相关执行及监察方法。",
+      "sourceTextGem": "描述有关识别供应链每个环节的环境及社会风险的惯例，以及相关执行及监察方法。",
+      "governanceDefault": false,
+      "aspect": "B5",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          10,
+          10
+        ],
+        "rules": [
+          "KPI B5.3"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          8,
+          8
+        ],
+        "rules": [
+          "KPI B5.3"
+        ]
+      }
+    },
+    {
+      "id": "hk_b5_4",
+      "name": "供应链管理 · 环保采购惯例",
+      "dimension": "social",
+      "clause": "附录C2 · KPI B5.4",
+      "requirement": "披露环保采购惯例；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "描述在拣选供应商时促使多用环保产品及服务的惯例，以及相关执行及监察方法。",
+      "sourceTextGem": "描述在拣选供应商时促使多用环保产品及服务的惯例，以及相关执行及监察方法。",
+      "governanceDefault": false,
+      "aspect": "B5",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          10,
+          10
+        ],
+        "rules": [
+          "KPI B5.4"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          8,
+          8
+        ],
+        "rules": [
+          "KPI B5.4"
+        ]
+      }
+    },
+    {
+      "id": "hk_b6_general",
+      "name": "产品责任 · 一般披露",
+      "dimension": "social",
+      "clause": "附录C2 · B6 一般披露",
+      "requirement": "按原文披露产品责任相关政策及对发行人有重大影响的法律法规遵守情况。",
+      "part": "C",
+      "sourceText": "有关所提供产品和服务的健康与安全、广告、标签及私隐事宜以及补救方法的：\n(a)政策；及\n(b) 遵守对发行人有重大影响的相关法律及规例的资料。",
+      "sourceTextGem": "有关所提供产品和服务的健康与安全、广告、标签及私隐事宜以及补救方法的：\n(a)政策；及\n(b) 遵守对发行人有重大影响的相关法律及规例的资料。",
+      "governanceDefault": false,
+      "aspect": "B6",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          11,
+          11
+        ],
+        "rules": [
+          "B6 一般披露"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          9,
+          9
+        ],
+        "rules": [
+          "B6 一般披露"
+        ]
+      }
+    },
+    {
+      "id": "hk_b6_1",
+      "name": "产品责任 · 安全健康召回比例",
+      "dimension": "social",
+      "clause": "附录C2 · KPI B6.1",
+      "requirement": "披露安全健康召回比例；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "已售或已运送产品总数中因安全与健康理由而须回收的百分比。",
+      "sourceTextGem": "已售或已运送产品总数中因安全与健康理由而须回收的百分比。",
+      "governanceDefault": false,
+      "aspect": "B6",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          11,
+          11
+        ],
+        "rules": [
+          "KPI B6.1"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          9,
+          9
+        ],
+        "rules": [
+          "KPI B6.1"
+        ]
+      }
+    },
+    {
+      "id": "hk_b6_2",
+      "name": "产品责任 · 产品及服务投诉",
+      "dimension": "social",
+      "clause": "附录C2 · KPI B6.2",
+      "requirement": "披露产品及服务投诉；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "接获关于产品及服务的投诉数目以及应对方法。",
+      "sourceTextGem": "接获关于产品及服务的投诉数目以及应对方法。",
+      "governanceDefault": false,
+      "aspect": "B6",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          11,
+          11
+        ],
+        "rules": [
+          "KPI B6.2"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          9,
+          9
+        ],
+        "rules": [
+          "KPI B6.2"
+        ]
+      }
+    },
+    {
+      "id": "hk_b6_3",
+      "name": "产品责任 · 知识产权",
+      "dimension": "social",
+      "clause": "附录C2 · KPI B6.3",
+      "requirement": "披露知识产权；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "描述与维护及保障知识产权有关的惯例。",
+      "sourceTextGem": "描述与维护及保障知识产权有关的惯例。",
+      "governanceDefault": false,
+      "aspect": "B6",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          11,
+          11
+        ],
+        "rules": [
+          "KPI B6.3"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          9,
+          9
+        ],
+        "rules": [
+          "KPI B6.3"
+        ]
+      }
+    },
+    {
+      "id": "hk_b6_4",
+      "name": "产品责任 · 质量检定及召回",
+      "dimension": "social",
+      "clause": "附录C2 · KPI B6.4",
+      "requirement": "披露质量检定及召回；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "描述质量检定过程及产品回收程序。",
+      "sourceTextGem": "描述质量检定过程及产品回收程序。",
+      "governanceDefault": false,
+      "aspect": "B6",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          11,
+          11
+        ],
+        "rules": [
+          "KPI B6.4"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          9,
+          9
+        ],
+        "rules": [
+          "KPI B6.4"
+        ]
+      }
+    },
+    {
+      "id": "hk_b6_5",
+      "name": "产品责任 · 消费者资料及私隐",
+      "dimension": "social",
+      "clause": "附录C2 · KPI B6.5",
+      "requirement": "披露消费者资料及私隐；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "描述消费者资料保障及私隐政策，以及相关执行及监察方法。",
+      "sourceTextGem": "描述消费者资料保障及私隐政策，以及相关执行及监察方法。",
+      "governanceDefault": false,
+      "aspect": "B6",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          11,
+          11
+        ],
+        "rules": [
+          "KPI B6.5"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          9,
+          9
+        ],
+        "rules": [
+          "KPI B6.5"
+        ]
+      }
+    },
+    {
+      "id": "hk_b7_general",
+      "name": "反贪污 · 一般披露",
+      "dimension": "social",
+      "clause": "附录C2 · B7 一般披露",
+      "requirement": "按原文披露反贪污相关政策及对发行人有重大影响的法律法规遵守情况。",
+      "part": "C",
+      "sourceText": "有关防止贿赂、勒索、欺诈及洗黑钱的：\n(a)政策；及\n(b) 遵守对发行人有重大影响的相关法律及规例的资料。",
+      "sourceTextGem": "有关防止贿赂、勒索、欺诈及洗黑钱的：\n(a)政策；及\n(b) 遵守对发行人有重大影响的相关法律及规例的资料。",
+      "governanceDefault": false,
+      "aspect": "B7",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          12,
+          12
+        ],
+        "rules": [
+          "B7 一般披露"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          9,
+          9
+        ],
+        "rules": [
+          "B7 一般披露"
+        ]
+      }
+    },
+    {
+      "id": "hk_b7_1",
+      "name": "反贪污 · 贪污诉讼及结果",
+      "dimension": "social",
+      "clause": "附录C2 · KPI B7.1",
+      "requirement": "披露贪污诉讼及结果；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "于汇报期内对发行人或其雇员提出并已审结的贪污诉讼案件的数目及诉讼结果。",
+      "sourceTextGem": "于汇报期内对发行人或其雇员提出并已审结的贪污诉讼案件的数目及诉讼结果。",
+      "governanceDefault": false,
+      "aspect": "B7",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          12,
+          12
+        ],
+        "rules": [
+          "KPI B7.1"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          9,
+          9
+        ],
+        "rules": [
+          "KPI B7.1"
+        ]
+      }
+    },
+    {
+      "id": "hk_b7_2",
+      "name": "反贪污 · 预防措施与举报程序",
+      "dimension": "social",
+      "clause": "附录C2 · KPI B7.2",
+      "requirement": "披露预防措施与举报程序；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "描述防范措施及举报程序，以及相关执行及监察方法。",
+      "sourceTextGem": "描述防范措施及举报程序，以及相关执行及监察方法。",
+      "governanceDefault": false,
+      "aspect": "B7",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          12,
+          12
+        ],
+        "rules": [
+          "KPI B7.2"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          9,
+          9
+        ],
+        "rules": [
+          "KPI B7.2"
+        ]
+      }
+    },
+    {
+      "id": "hk_b7_3",
+      "name": "反贪污 · 反贪污培训",
+      "dimension": "social",
+      "clause": "附录C2 · KPI B7.3",
+      "requirement": "披露反贪污培训；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "描述向董事及员工提供的反贪污培训。",
+      "sourceTextGem": "描述向董事及员工提供的反贪污培训。",
+      "governanceDefault": false,
+      "aspect": "B7",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          12,
+          12
+        ],
+        "rules": [
+          "KPI B7.3"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          9,
+          9
+        ],
+        "rules": [
+          "KPI B7.3"
+        ]
+      }
+    },
+    {
+      "id": "hk_b8_general",
+      "name": "社区投资 · 一般披露",
+      "dimension": "social",
+      "clause": "附录C2 · B8 一般披露",
+      "requirement": "按原文披露社区投资相关政策及管理惯例。",
+      "part": "C",
+      "sourceText": "有关以社区参与来了解营运所在社区需要和确保其业务活动会考虑社区利益的政策。",
+      "sourceTextGem": "有关以社区参与来了解营运所在社区需要和确保其业务活动会考虑社区利益的政策。",
+      "governanceDefault": false,
+      "aspect": "B8",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          12,
+          12
+        ],
+        "rules": [
+          "B8 一般披露"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          10,
+          10
+        ],
+        "rules": [
+          "B8 一般披露"
+        ]
+      }
+    },
+    {
+      "id": "hk_b8_1",
+      "name": "社区投资 · 社区投资范畴",
+      "dimension": "social",
+      "clause": "附录C2 · KPI B8.1",
+      "requirement": "披露社区投资范畴；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "专注贡献范畴（如教育、环境事宜、劳工需求、健康、文化、体育）。",
+      "sourceTextGem": "专注贡献范畴（如教育、环境事宜、劳工需求、健康、文化、体育）。",
+      "governanceDefault": false,
+      "aspect": "B8",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          12,
+          12
+        ],
+        "rules": [
+          "KPI B8.1"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          10,
+          10
+        ],
+        "rules": [
+          "KPI B8.1"
+        ]
+      }
+    },
+    {
+      "id": "hk_b8_2",
+      "name": "社区投资 · 社区资源投入",
+      "dimension": "social",
+      "clause": "附录C2 · KPI B8.2",
+      "requirement": "披露社区资源投入；逐项核对原文规定的口径、分类、单位、期间及适用条件。",
+      "part": "C",
+      "sourceText": "在专注范畴所动用资源（如金钱或时间）。",
+      "sourceTextGem": "在专注范畴所动用资源（如金钱或时间）。",
+      "governanceDefault": false,
+      "aspect": "B8",
+      "sourceAnchorMb": {
+        "pdfPages": [
+          12,
+          12
+        ],
+        "rules": [
+          "KPI B8.2"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          10,
+          10
+        ],
+        "rules": [
+          "KPI B8.2"
+        ]
+      }
+    },
+    {
+      "id": "hk_d19",
+      "name": "气候管治",
+      "dimension": "governance",
+      "clause": "附录C2 · D部分 第19段",
+      "requirement": "逐项核对气候管治的原文要求及相关注释、条件、适用宽免；不将有条件的量化要求视为无条件要求。",
+      "part": "D",
+      "sourceText": "19. 发行人须披露有关以下方面的资料：\n(a)负责监督气候相关风险和机遇的治理机构（可包括董事会、委员会或其他同等治理机构）或个人的资讯。具体而言，发行人须指出有关机构或个人及披露以下资讯：\n注：该机构或个人应在其职权范围、授权、角色描述和其他适用于该机构或个人的相关政策中体现其责任。\n(i)该机构或个人如何厘定当前或将来是否有适当的技能和胜任能力来监督应对气候相关风险和机遇的策略；\n(ii)该机构或个人获悉气候相关风险和机遇的方式和频率；\n(iii)该机构或个人在监督发行人的策略、重大交易决策和风险管理程序及相关政策的过程中，如何考虑气候相关风险和机遇，包括该机构或个人是否有考虑与该等气候相关风险和机遇相关的权衡评估；\n(iv)该机构或个人如何监督有关气候相关风险和机遇的目标制定并监察达标进度（见第37段至第40段），包括是否将相关绩效指标纳入薪酬政策以及如何纳入（见第35段）；及\n(b) 管理层在用以监察、管理及监督气候相关风险和机遇的管治流程、监控措施及程序中的角色，包括以下资讯：\n(i)该角色是否被委托给特定的管理层人员或管理层委员会以及如何对该人员或委员会进行监督；及\n(ii) 管理层可有使用监控措施及程序协助监督气候相关风险和机遇；如有，这些监控措施及程序如何与其他内部职能部门进行整合。\n注：发行人按第19段的要求而进行披露时，应避免与按本守则第13段所披露内容有不必要的重复。例如，虽然发行人应提供本第19段要求的资讯，但若发行人集中管理对环境、社会及管治相关（包括气候相关）风险及机遇的监督工作，则应进行整合的管治披露，而不必单独就每个与环境、社会及管治相关的风险及机遇进行披露，从而减少重复披露。",
+      "sourceTextGem": "19. 发行人须披露有关以下方面的资料：\n(a)负责监督气候相关风险和机遇的治理机构（可包括董事会、委员会或其他同等治理机构）或个人的资讯。具体而言，发行人须指出有关机构或个人及披露以下资讯：\n注：该机构或个人应在其职权范围、授权、角色描述和其他适用于该机构或个人的相关政策中体现其责任。\n(i)该机构或个人如何厘定当前或将来是否有适当的技能和胜任能力来监督应对气候相关风险和机遇的策略；\n(ii)该机构或个人获悉气候相关风险和机遇的方式和频率；\n(iii)该机构或个人在监督发行人的策略、重大交易决策和风险管理程序及相关政策的过程中，如何考虑气候相关风险和机遇，包括该机构或个人是否有考虑与该等气候相关风险和机遇相关的权衡评估；\n(iv)该机构或个人如何监督有关气候相关风险和机遇的目标制定并监察达标进度（见第37段至第40段），包括是否将相关绩效指标纳入薪酬政策以及如何纳入（见第35段）；及\n(b) 管理层在用以监察、管理及监督气候相关风险和机遇的管治流程、监控措施及程序中的角色，包括以下资讯：\n(i)该角色是否被委托给特定的管理层人员或管理层委员会以及如何对该人员或委员会进行监督；及\n(ii) 管理层可有使用监控措施及程序协助监督气候相关风险和机遇；如有，这些监控措施及程序如何与其他内部职能部门进行整合。\n注：发行人按第19段的要求而进行披露时，应避免与按本守则第13段所披露内容有不必要的重复。例如，虽然发行人应提供本第19段要求的资讯，但若发行人集中管理对环境、社会及管治相关（包括气候相关）风险及机遇的监督工作，则应进行整合的管治披露，而不必单独就每个与环境、社会及管治相关的风险及机遇进行披露，从而减少重复披露。",
+      "governanceDefault": false,
+      "sourceAnchorMb": {
+        "pdfPages": [
+          14,
+          15
+        ],
+        "rules": [
+          "Part D paragraph 19"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          11,
+          12
+        ],
+        "rules": [
+          "Part D paragraph 19"
+        ]
+      }
+    },
+    {
+      "id": "hk_d20",
+      "name": "气候风险与机遇",
+      "dimension": "environment",
+      "clause": "附录C2 · D部分 第20段",
+      "requirement": "逐项核对气候风险与机遇的原文要求及相关注释、条件、适用宽免；不将有条件的量化要求视为无条件要求。",
+      "part": "D",
+      "sourceText": "20. 发行人须披露其资讯，以让人理解其合理预期可能在短期、中期或长期影响其现金流量、融资渠道或资本成本的气候相关风险和机遇。具体而言，发行人须：\n(a)描述合理预期可能在短期、中期或长期影响发行人的现金流量、融资渠道或资本成本的气候相关风险和机遇；\n(b)就发行人已识别的每项气候相关风险，解释发行人是否认为该风险是与气候相关物理风险或与气候相关转型风险；\n(c)就发行人已识别的每项气候相关风险和机遇，具体说明其合理预期可能影响发行人的时间范围（短期、中期或长期）；及\n(d) 解释发行人如何定义短期、中期及长期，以及这些定义如何与其策略决定规划范围挂钩。\n注：1. 在根据第20段识别气候相关风险和机遇时：\n(a)发行人须使用在汇报之日其可以无需付出不必要成本或努力即可获得的一切合理且有依据的资料，包括有关过去事件、当前状况及对未来状况的预测的资料；及\n(b) 本交易所鼓励发行人参考《〈国际财务报告准则S2号〉行业实施指南》中定义的行业披露主题，并考量其是否适用。\n2.\n(a)如在下文附注2(b)所载的有限情况下，发行人认为根据本D部分的任何规定披露有关气候相关机遇的资讯属于商业敏感资讯，发行人可不用披露有关资讯。\n(b)只有在下述情况下，发行人才符合上文注2(a)中所述宽免的条件：\n(i)关于气候相关机遇的资讯尚未可公开获得；\n(ii)可以合理预期，若然披露该资讯，将严重损害发行人追求该机遇能够实现的经济利益；及\n(iii) 发行人已确定，其不可能以既不严重损害其追求该机遇所能够实现的经济利益，又达到披露规定目的的方式（例如汇总方式） 披露该资讯。\n(c)若发行人选择使用上文注2(a)所述的宽免，则针对每一项略去不披露的资讯，发行人须逐一：\n(i)披露其使用了该项宽免的事实；及\n(ii) 在每个汇报日重新评估该资讯是否符合宽免条件。",
+      "sourceTextGem": "20. 发行人须披露其资讯，以让人理解其合理预期可能在短期、中期或长期影响其现金流量、融资渠道或资本成本的气候相关风险和机遇。具体而言，发行人须：\n(a)描述合理预期可能在短期、中期或长期影响发行人的现金流量、融资渠道或资本成本的气候相关风险和机遇；\n(b)就发行人已识别的每项气候相关风险，解释发行人是否认为该风险是与气候相关物理风险或与气候相关转型风险；\n(c)就发行人已识别的每项气候相关风险和机遇，具体说明其合理预期可能影响发行人的时间范围（短期、中期或长期）；及\n(d) 解释发行人如何定义短期、中期及长期，以及这些定义如何与其策略决定规划范围挂钩。\n注：1. 在根据第20段识别气候相关风险和机遇时：\n(a)发行人须使用在汇报之日其可以无需付出不必要成本或努力即可获得的一切合理且有依据的资料，包括有关过去事件、当前状况及对未来状况的预测的资料；及\n(b) 本交易所鼓励发行人参考《〈国际财务报告准则S2号〉行业实施指南》中定义的行业披露主题，并考量其是否适用。\n2.\n(a)如在下文附注2(b)所载的有限情况下，发行人认为根据本D部分的任何规定披露有关气候相关机遇的资讯属于商业敏感资讯，发行人可不用披露有关资讯。\n(b)只有在下述情况下，发行人才符合上文注2(a)中所述宽免的条件：\n(i)关于气候相关机遇的资讯尚未可公开获得；\n(ii)可以合理预期，若然披露该资讯，将严重损害发行人追求该机遇能够实现的经济利益；及\n(iii) 发行人已确定，其不可能以既不严重损害其追求该机遇所能够实现的经济利益，又达到披露规定目的的方式（例如汇总方式）披露该资讯。\n(c)若发行人选择使用上文注2(a)所述的宽免，则针对每一项略去不披露的资讯，发行人须逐一：\n(i)披露其使用了该项宽免的事实；及\n(ii) 在每个汇报日重新评估该资讯是否符合宽免条件。",
+      "governanceDefault": false,
+      "sourceAnchorMb": {
+        "pdfPages": [
+          15,
+          16
+        ],
+        "rules": [
+          "Part D paragraph 20"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          12,
+          13
+        ],
+        "rules": [
+          "Part D paragraph 20"
+        ]
+      }
+    },
+    {
+      "id": "hk_d21",
+      "name": "业务模式与价值链",
+      "dimension": "environment",
+      "clause": "附录C2 · D部分 第21段",
+      "requirement": "逐项核对业务模式与价值链的原文要求及相关注释、条件、适用宽免；不将有条件的量化要求视为无条件要求。",
+      "part": "D",
+      "sourceText": "21. 发行人须披露让人了解气候相关风险和机遇对其业务模式和价值链的当前和预期影响的资讯。具体而言，发行人须作如下披露：\n(a)描述气候相关风险和机遇对发行人的业务模式和价值链的当前和预期影响；及\n(b) 描述在发行人的业务模式和价值链中，气候相关风险和机遇集中的地方（例如，地理区域、设施及资产类型）。\n注：发行人须使用在汇报之日其可以无需付出不必要成本或努力即可获得的一切合理且有依据的资料去确定其价值链的范围，包括其涵盖范围和构成。\n\n41. 在编制披露内容以符合第21至26及37至38段的规定时，发行人须参考(i)跨行业指标（见第28至35段）及(ii)行业指标（见第36段）并考虑其是否适用。",
+      "sourceTextGem": "21. 发行人须披露让人了解气候相关风险和机遇对其业务模式和价值链的当前和预期影响的资讯。具体而言，发行人须作如下披露：\n(a)描述气候相关风险和机遇对发行人的业务模式和价值链的当前和预期影响；及\n(b) 描述在发行人的业务模式和价值链中，气候相关风险和机遇集中的地方（例如，地理区域、设施及资产类型）。\n注：发行人须使用在汇报之日其可以无需付出不必要成本或努力即可获得的一切合理且有依据的资料去确定其价值链的范围，包括其涵盖范围和构成。\n\n41. 在编制披露内容以符合第21至26及37至38段的规定时，发行人须参考(i)跨行业指标（见第28至35段）及(ii)行业指标（见第36段）并考虑其是否适用。",
+      "governanceDefault": false,
+      "sourceAnchorMb": {
+        "pdfPages": [
+          17,
+          27
+        ],
+        "rules": [
+          "Part D paragraph 21",
+          "Part D paragraph 41 (non-contiguous)"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          13,
+          20
+        ],
+        "rules": [
+          "Part D paragraph 21",
+          "Part D paragraph 41 (non-contiguous)"
+        ]
+      }
+    },
+    {
+      "id": "hk_d22",
+      "name": "策略、决策与计划进展",
+      "dimension": "environment",
+      "clause": "附录C2 · D部分 第22、23段",
+      "requirement": "逐项核对策略、决策与计划进展的原文要求及相关注释、条件、适用宽免；不将有条件的量化要求视为无条件要求。",
+      "part": "D",
+      "sourceText": "22. 发行人须披露让人了解气候相关风险和机遇对其策略和决策的影响的资讯。具体而言，发行人须披露：\n(a)有关发行人已经及将来计划在其策略和决策中如何应对气候相关风险和机遇的资讯，包括发行人计划如何实现任何其所设定的气候相关目标，以及任何法律或法规要求达到的目标。具体而言，发行人须披露以下资讯：\n(i)因应气候相关风险和机遇而在当前及预期将来对发行人业务模式（包括资源配置）作出的变动；\n(ii)已经或预期将进行的任何适应或减缓工作（直接或间接）；\n(iii)发行人任何与气候相关转型计划（包括制定转型计划时使用的主要假设的资讯，以及该计划所依赖的因素），或若发行人并未有这样的计划，则作适当的否定声明；\n(iv)发行人计划如何实现第37至40段所述的任何气候相关目标（包括任何温室气体排放目标（如有））；及\n(b) 有关发行人当前及将来计划如何为根据第22(a)段披露的行动提供资源。\n23. 发行人须披露先前各汇报期内按照第22(a)段所披露计划的进度。\n\n41. 在编制披露内容以符合第21至26及37至38段的规定时，发行人须参考(i)跨行业指标（见第28至35段）及(ii)行业指标（见第36段）并考虑其是否适用。",
+      "sourceTextGem": "22. 发行人须披露让人了解气候相关风险和机遇对其策略和决策的影响的资讯。具体而言，发行人须披露：\n(a)有关发行人已经及将来计划在其策略和决策中如何应对气候相关风险和机遇的资讯，包括发行人计划如何实现任何其所设定的气候相关目标，以及任何法律或法规要求达到的目标。具体而言，发行人须披露以下资讯：\n(i)因应气候相关风险和机遇而在当前及预期将来对发行人业务模式（包括资源配置）作出的变动；\n(ii)已经或预期将进行的任何适应或减缓工作（直接或间接）；\n(iii)发行人任何与气候相关转型计划（包括制定转型计划时使用的主要假设的资讯，以及该计划所依赖的因素），或若发行人并未有这样的计划，则作适当的否定声明；\n(iv)发行人计划如何实现第37至40段所述的任何气候相关目标（包括任何温室气体排放目标（如有））；及\n(b) 有关发行人当前及将来计划如何为根据第22(a)段披露的行动提供资源。\n23. 发行人须披露先前各汇报期内按照第22(a)段所披露计划的进度。\n\n41. 在编制披露内容以符合第21至26及37至38段的规定时，发行人须参考(i)跨行业指标（见第28至35段）及(ii)行业指标（见第36段）并考虑其是否适用。",
+      "governanceDefault": false,
+      "sourceAnchorMb": {
+        "pdfPages": [
+          17,
+          27
+        ],
+        "rules": [
+          "Part D paragraph 22",
+          "Part D paragraph 23",
+          "Part D paragraph 41 (non-contiguous)"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          13,
+          20
+        ],
+        "rules": [
+          "Part D paragraph 22",
+          "Part D paragraph 23",
+          "Part D paragraph 41 (non-contiguous)"
+        ]
+      }
+    },
+    {
+      "id": "hk_d24",
+      "name": "当前财务影响",
+      "dimension": "environment",
+      "clause": "附录C2 · D部分 第24段",
+      "requirement": "逐项核对当前财务影响的原文要求及相关注释、条件、适用宽免；不将有条件的量化要求视为无条件要求。",
+      "part": "D",
+      "sourceText": "24. 发行人须披露以下定性和量化资料：\n(a)气候相关风险和机遇如何影响发行人在汇报期的财务状况、财务表现及现金流量；及\n(b) 当存在将导致下一汇报年度相关财务报表中的资产和负债帐面价值发生重要调整的重大风险时，关于第24(a)段中识别的气候相关风险和机遇的资讯。\n注：1. 发行人应根据《香港财务报告准则》、《国际财务报告准则》、《中国企业会计准则》或联交所接纳的其他海外财务汇报准则的规定，于财务报表中说明气候相关事宜。\n2. 若根据上文第24段披露的量化资料并未于财务报表中作为单独项目列示，发行人须解释有关资料如何于其财务报表中反映（例如识别相关财务项目）。\n\n41. 在编制披露内容以符合第21至26及37至38段的规定时，发行人须参考(i)跨行业指标（见第28至35段）及(ii)行业指标（见第36段）并考虑其是否适用。",
+      "sourceTextGem": "24. 发行人须披露以下定性和量化资料：\n(a)气候相关风险和机遇如何影响发行人在汇报期的财务状况、财务表现及现金流量；及\n(b) 当存在将导致下一汇报年度相关财务报表中的资产和负债帐面价值发生重要调整的重大风险时，关于第24(a)段中识别的气候相关风险和机遇的资讯。\n注：1. 发行人应根据《香港财务报告准则》、《国际财务报告准则》、《中国企业会计准则》或联交所接纳的其他海外财务汇报准则的规定，于财务报表中说明气候相关事宜。\n2. 若根据上文第24段披露的量化资料并未于财务报表中作为单独项目列示，发行人须解释有关资料如何于其财务报表中反映（例如识别相关财务项目）。\n\n41. 在编制披露内容以符合第21至26及37至38段的规定时，发行人须参考(i)跨行业指标（见第28至35段）及(ii)行业指标（见第36段）并考虑其是否适用。",
+      "governanceDefault": false,
+      "sourceAnchorMb": {
+        "pdfPages": [
+          18,
+          27
+        ],
+        "rules": [
+          "Part D paragraph 24",
+          "Part D paragraph 41 (non-contiguous)"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          14,
+          20
+        ],
+        "rules": [
+          "Part D paragraph 24",
+          "Part D paragraph 41 (non-contiguous)"
+        ]
+      }
+    },
+    {
+      "id": "hk_d25",
+      "name": "预期财务影响",
+      "dimension": "environment",
+      "clause": "附录C2 · D部分 第25段",
+      "requirement": "逐项核对预期财务影响的原文要求及相关注释、条件、适用宽免；不将有条件的量化要求视为无条件要求。",
+      "part": "D",
+      "sourceText": "25. 发行人须披露以下定性和量化资料：\n(a)发行人经考虑其管理气候相关风险和机遇的策略后，并考虑到以下各项，预期其财务状况在短期、中期及长期内将如何变化：\n(i)其投资及处置计划；及\n(ii) 其为实施策略所需的资金的计划资金来源；及\n(b) 基于发行人管理气候相关风险和机遇的策略，其预计其财务业绩及现金流量在短期、中期及长期的变化。\n注：1. 提供有关当前或预期财务影响的量化资料时，发行人可披露单一数额或区间范围。\n2. 在准备披露气候相关风险或机遇的预期财务影响时，发行人须：\n(a)使用在汇报之日其可以无需付出不必要成本或努力即可获得的一切合理且有依据的资料；及\n(b) 采用与发行人现有技能、能力和资源相称的方法编备披露内容。\n3. 如发行人确定有以下情况，其毋须提供有关气候相关风险或机遇的当前或预期财务影响的量化资料：\n(a)有关影响无法单独识别；或\n(b) 用以评估这些影响的计量方式不确定性太高，估量的量化资讯没有参考价值。\n4. 此外，如发行人不具备提供有关气候相关风险或机遇的预期财务影响的量化资料的技能、能力或资源，则其毋须提供预期财务影响的量化资料。\n5. 如发行人确定根据上述注3或4中的准则，其毋须提供有关气候相关风险或机遇的当前或预期财务影响的量化资料，发行人须：\n(a)解释为何未提供量化资料；\n(b)提供有关这些财务影响的定性资料，包括指出相关财务报表中可能或已经受到气候相关风险或机遇影响的明细项目、总计和小计；及\n(c) 提供有关该气候相关风险或机遇与其他气候相关风险或机遇以及其他因素的综合财务影响的量化资料，除非发行人确定有关综合财务影响的量化资料没有用处则作别论。\n\n41. 在编制披露内容以符合第21至26及37至38段的规定时，发行人须参考(i)跨行业指标（见第28至35段）及(ii)行业指标（见第36段）并考虑其是否适用。",
+      "sourceTextGem": "25. 发行人须披露以下定性和量化资料：\n(a)发行人经考虑其管理气候相关风险和机遇的策略后，并考虑到以下各项，预期其财务状况在短期、中期及长期内将如何变化：\n(i)其投资及处置计划；及\n(ii) 其为实施策略所需的资金的计划资金来源；及\n(b) 基于发行人管理气候相关风险和机遇的策略，其预计其财务业绩及现金流量在短期、中期及长期的变化。\n注：1. 提供有关当前或预期财务影响的量化资料时，发行人可披露单一数额或区间范围。\n2. 在准备披露气候相关风险或机遇的预期财务影响时，发行人须：\n(a)使用在汇报之日其可以无需付出不必要成本或努力即可获得的一切合理且有依据的资料；及\n(b) 采用与发行人现有技能、能力和资源相称的方法编备披露内容。\n3. 如发行人确定有以下情况，其毋须提供有关气候相关风险或机遇的当前或预期财务影响的量化资料：\n(a)有关影响无法单独识别；或\n(b) 用以评估这些影响的计量方式不确定性太高，估量的量化资讯没有参考价值。\n4. 此外，如发行人不具备提供有关气候相关风险或机遇的预期财务影响的量化资料的技能、能力或资源，则其毋须提供预期财务影响的量化资料。\n5. 如发行人确定根据上述注3或4中的准则，其毋须提供有关气候相关风险或机遇的当前或预期财务影响的量化资料，发行人须：\n(a)解释为何未提供量化资料；\n(b)提供有关这些财务影响的定性资料，包括指出相关财务报表中可能或已经受到气候相关风险或机遇影响的明细项目、总计和小计；及\n(c) 提供有关该气候相关风险或机遇与其他气候相关风险或机遇以及其他因素的综合财务影响的量化资料，除非发行人确定有关综合财务影响的量化资料没有用处则作别论。\n\n41. 在编制披露内容以符合第21至26及37至38段的规定时，发行人须参考(i)跨行业指标（见第28至35段）及(ii)行业指标（见第36段）并考虑其是否适用。",
+      "governanceDefault": false,
+      "sourceAnchorMb": {
+        "pdfPages": [
+          18,
+          27
+        ],
+        "rules": [
+          "Part D paragraph 25",
+          "Part D paragraph 41 (non-contiguous)"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          14,
+          20
+        ],
+        "rules": [
+          "Part D paragraph 25",
+          "Part D paragraph 41 (non-contiguous)"
+        ]
+      }
+    },
+    {
+      "id": "hk_d26",
+      "name": "气候韧性与情景分析",
+      "dimension": "environment",
+      "clause": "附录C2 · D部分 第26段",
+      "requirement": "逐项核对气候韧性与情景分析的原文要求及相关注释、条件、适用宽免；不将有条件的量化要求视为无条件要求。",
+      "part": "D",
+      "sourceText": "26. 在考虑发行人已识别的气候相关风险和机遇后，发行人须披露资讯，使他人了解发行人的策略及业务模式对气候相关变化、发展或不确定性的韧性。发行人须按与其情况相称的做法，使用与气候相关的情景分析来评估其气候韧性。提供量化资讯时，发行人可披露单一数额或区间范围。具体而言，发行人须披露：\n(a)发行人截至汇报日对其气候韧性的评估，其有助于了解：\n(i)发行人的分析结果对其策略和业务模式的影响（如有），包括发行人需要如何应对气候相关情景分析中确定的影响；\n(ii)发行人对气候韧性的评估中考虑的重大不确定因素的范畴；及\n(iii) 发行人根据气候发展调整其短期、中期和长期策略和业务模式的能力；\n(b)如何及何时进行气候相关情景分析，包括：\n(i)使用的输入数据，包括：\n(1)发行人在分析中使用的气候相关情景及其来源；\n(2)分析是否涵盖多种不同的气候相关情景；\n(3)分析所使用的气候相关情景是否与气候相关转型风险或气候相关物理风险有关；\n(4)发行人在其情景中是否使用了与最新气候变化国际协议相一致的情景；\n(5)发行人为何认为所选择的气候相关情景与评估其气候相关变化、发展或不确定性的韧性相关；\n(6)发行人在分析中所使用的时间范围；及\n(7) 发行人分析所涵盖的营运范围（例如分析所涵盖的营运地点及业务单位）；\n(ii)发行人在分析中所作的关键假设；及\n(iii) 进行气候相关情景分析的汇报期。\n注：发行人须确定其作出气候相关情景分析的方法，可以使其将汇报之日其可无需付出不必要成本或努力即可获得的一切合理且有依据的资料纳入考量。厘定使用哪种方法时，须依据发行人对其本身所面对气候相关风险和机遇以及其可用技能、能力和资源的评估来决定。\n\n41. 在编制披露内容以符合第21至26及37至38段的规定时，发行人须参考(i)跨行业指标（见第28至35段）及(ii)行业指标（见第36段）并考虑其是否适用。",
+      "sourceTextGem": "26. 在考虑发行人已识别的气候相关风险和机遇后，发行人须披露资讯，使他人了解发行人的策略及业务模式对气候相关变化、发展或不确定性的韧性。发行人须按与其情况相称的做法，使用与气候相关的情景分析来评估其气候韧性。提供量化资讯时，发行人可披露单一数额或区间范围。具体而言，发行人须披露：\n(a)发行人截至汇报日对其气候韧性的评估，其有助于了解：\n(i)发行人的分析结果对其策略和业务模式的影响（如有），包括发行人需要如何应对气候相关情景分析中确定的影响；\n(ii)发行人对气候韧性的评估中考虑的重大不确定因素的范畴；及\n(iii) 发行人根据气候发展调整其短期、中期和长期策略和业务模式的能力；\n(b)如何及何时进行气候相关情景分析，包括：\n(i)使用的输入数据，包括：\n(1)发行人在分析中使用的气候相关情景及其来源；\n(2)分析是否涵盖多种不同的气候相关情景；\n(3)分析所使用的气候相关情景是否与气候相关转型风险或气候相关物理风险有关；\n(4)发行人在其情景中是否使用了与最新气候变化国际协议相一致的情景；\n(5)发行人为何认为所选择的气候相关情景与评估其气候相关变化、发展或不确定性的韧性相关；\n(6)发行人在分析中所使用的时间范围；及\n(7) 发行人分析所涵盖的营运范围（例如分析所涵盖的营运地点及业务单位）；\n(ii)发行人在分析中所作的关键假设；及\n(iii) 进行气候相关情景分析的汇报期。\n注：发行人须确定其作出气候相关情景分析的方法，可以使其将汇报之日其可无需付出不必要成本或努力即可获得的一切合理且有依据的资料纳入考量。厘定使用哪种方法时，须依据发行人对其本身所面对气候相关风险和机遇以及其可用技能、能力和资源的评估来决定。\n\n41. 在编制披露内容以符合第21至26及37至38段的规定时，发行人须参考(i)跨行业指标（见第28至35段）及(ii)行业指标（见第36段）并考虑其是否适用。",
+      "governanceDefault": false,
+      "sourceAnchorMb": {
+        "pdfPages": [
+          20,
+          27
+        ],
+        "rules": [
+          "Part D paragraph 26",
+          "Part D paragraph 41 (non-contiguous)"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          15,
+          20
+        ],
+        "rules": [
+          "Part D paragraph 26",
+          "Part D paragraph 41 (non-contiguous)"
+        ]
+      }
+    },
+    {
+      "id": "hk_d27",
+      "name": "气候风险管理",
+      "dimension": "environment",
+      "clause": "附录C2 · D部分 第27段",
+      "requirement": "逐项核对气候风险管理的原文要求及相关注释、条件、适用宽免；不将有条件的量化要求视为无条件要求。",
+      "part": "D",
+      "sourceText": "27. 发行人须披露以下资讯：\n(a)发行人用于识别、评估气候相关风险，以及厘定当中轻重缓急并保持监察的流程及相关政策，包括有关以下方面的资讯；\n(i)发行人使用的输入资料及参数（例如资料来源及程序所涵盖的业务范围）；\n(ii)发行人可有及如何使用气候相关情景分析来识别气候相关风险；\n(iii)发行人如何评估有关风险的影响的性质、可能性及程度（例如发行人可有考虑定性因素、量化门槛或其他所用标准）；\n(iv)发行人可有及如何就气候相关风险相对于其他类型风险的优次排列；\n(v)发行人如何监察其气候相关风险；及(vi) 与上一个汇报期相比，发行人可有及如何改变其使用的流程；\n(b)发行人用于识别、评估气候相关机遇，以及厘定当中轻重缓急并保持监察的流程（包括发行人可有及如何使用气候相关情景分析来确定气候相关机遇的资讯）；及\n(c) 气候相关风险和机遇的识别、评估、优次排列和监察流程，是如何融入发行人的整体风险管理流程，以及融入的程度如何。\n注：发行人为符合本第27段中的要求而进行披露时，须避免与根据本守则第13(ii)段和第14段（重要性）的披露有不必要的重复。例如，虽然发行人应提供本第27段要求的资讯，但若发行人是集中管理对环境、社会及管治相关（包括气候相关）风险及机遇的监督工作，则其应进行整合的风险管理披露，而不必单独就每个与环境、社会及管治相关的风险及机遇进行披露，从而减少重复披露。",
+      "sourceTextGem": "27. 发行人须披露以下资讯：\n(a)发行人用于识别、评估气候相关风险，以及厘定当中轻重缓急并保持监察的流程及相关政策，包括有关以下方面的资讯；\n(i)发行人使用的输入资料及参数（例如资料来源及程序所涵盖的业务范围）；\n(ii)发行人可有及如何使用气候相关情景分析来识别气候相关风险；\n(iii)发行人如何评估有关风险的影响的性质、可能性及程度（例如发行人可有考虑定性因素、量化门槛或其他所用标准）；\n(iv)发行人可有及如何就气候相关风险相对于其他类型风险的优次排列；\n(v)发行人如何监察其气候相关风险；及(vi) 与上一个汇报期相比，发行人可有及如何改变其使用的流程；\n(b)发行人用于识别、评估气候相关机遇，以及厘定当中轻重缓急并保持监察的流程（包括发行人可有及如何使用气候相关情景分析来确定气候相关机遇的资讯）；及\n(c) 气候相关风险和机遇的识别、评估、优次排列和监察流程，是如何融入发行人的整体风险管理流程，以及融入的程度如何。\n注：发行人为符合本第27段中的要求而进行披露时，须避免与根据本守则第13(ii)段和第14段（重要性）的披露有不必要的重复。例如，虽然发行人应提供本第27段要求的资讯，但若发行人是集中管理对环境、社会及管治相关（包括气候相关）风险及机遇的监督工作，则其应进行整合的风险管理披露，而不必单独就每个与环境、社会及管治相关的风险及机遇进行披露，从而减少重复披露。",
+      "governanceDefault": false,
+      "sourceAnchorMb": {
+        "pdfPages": [
+          21,
+          22
+        ],
+        "rules": [
+          "Part D paragraph 27"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          16,
+          17
+        ],
+        "rules": [
+          "Part D paragraph 27"
+        ]
+      }
+    },
+    {
+      "id": "hk_ghg12",
+      "name": "范围1及范围2温室气体排放",
+      "dimension": "environment",
+      "clause": "附录C2 · D部分 第28(a)、28(b)、29段",
+      "requirement": "核对第28(a)、28(b)段范围1、2绝对排放及第29段对应计量方法、假设和范围2地点基准等要求；范围3由另一指标单独检查。",
+      "part": "D",
+      "sourceText": "28. 发行人须披露汇报期内的温室气体绝对总排放量（以公吨二氧化碳当量表示），并分为：\n(a)范围1温室气体排放；\n(b)范围2温室气体排放；及\n(c) 范围3温室气体排放。\n29. 发行人须：\n(a)除非管辖机关或发行人上市之另一交易所另有要求，否则发行人须根据《温室气体核算体系：企业核算与报告标准（2004年）》计量其温室气体排放；\n(b)披露其用于计量温室气体排放的方法，包括：\n(i)发行人用于计量其温室气体排放的计量方法、输入资料及假设；\n(ii)发行人为何选择该计量方法、输入资料及假设计量温室气体排放；及\n(iii) 发行人在汇报期对计量方法、输入资料及假设进行的任何变更以及变更原因；\n(c)就根据第28(b)段披露的范围2温室气体排放，披露其以地域为基准的范围2温室气体排放，并提供有助于了解该排放的任何所需合约文书的资讯；及\n(d) 就根据第28(c)段披露的范围3温室气体排放，根据《温室气体核算体系：企业价值链（范围3）核算与报告标准（2011年）》所述的范围3类别披露发行人计量范围3温室气体排放中包含的类别。\n注:1. 发行人在选择用于计量其范围3温室气体排放的计量方法、输入资料及假设时，须使用在汇报之日其可以无需付出不必要成本或努力即可获得的一切合理且有依据的资料。\n2. 发行人根据第28段的规定计量其温室气体排放时，也可使用与其自身汇报期不同的汇报期资料，前提是该资料是取自其价值链中汇报期与发行人不同的实体，并且符合以下条件：\n(a)发行人是使用其价值链中这些实体提供的最新数据（过程中可以无需付出不必要成本或努力）来计量和披露其温室气体排放；\n(b)汇报期长度相同；及\n(c) 发行人披露其价值链中实体的汇报期与发行人的环境、社会及管治报告日期之间发生的重大事件和与其温室气体排放相关的情况变化的影响。\n3. 如发行人的活动包括资产管理、商业银行或保险，本交易所鼓励发行人披露有关其第15类温室气体排放或与其投资相关的额外资讯（融资排放）。",
+      "sourceTextGem": "28. 发行人须披露汇报期内的温室气体绝对总排放量（以公吨二氧化碳当量表示），并分为：\n(a)范围1温室气体排放；\n(b)范围2温室气体排放；及\n(c) 范围3温室气体排放。\n29. 发行人须：\n(a)除非管辖机关或发行人上市之另一交易所另有要求，否则发行人须根据《温室气体核算体系：企业核算与报告标准（2004年）》计量其温室气体排放；\n(b)披露其用于计量温室气体排放的方法，包括：\n(i)发行人用于计量其温室气体排放的计量方法、输入资料及假设；\n(ii)发行人为何选择该计量方法、输入资料及假设计量温室气体排放；及\n(iii) 发行人在汇报期对计量方法、输入资料及假设进行的任何变更以及变更原因；\n(c)就根据第28(b)段披露的范围2温室气体排放，披露其以地域为基准的范围2温室气体排放，并提供有助于了解该排放的任何所需合约文书的资讯；及\n(d) 就根据第28(c)段披露的范围3温室气体排放，根据《温室气体核算体系：企业价值链（范围3）核算与报告标准（2011年）》所述的范围3类别披露发行人计量范围3温室气体排放中包含的类别。\n注：1. 发行人在选择用于计量其范围3温室气体排放的计量方法、输入资料及假设时，须使用在汇报之日其可以无需付出不必要成本或努力即可获得的一切合理且有依据的资料。\n2. 发行人根据第28段的规定计量其温室气体排放时，也可使用与其自身汇报期不同的汇报期资料，前提是该资料是取自其价值链中汇报期与发行人不同的实体，并且符合以下条件：\n(a)发行人是使用其价值链中这些实体提供的最新数据（过程中可以无需付出不必要成本或努力）来计量和披露其温室气体排放；\n(b)汇报期长度相同；及\n(c) 发行人披露其价值链中实体的汇报期与发行人的环境、社会及管治报告日期之间发生的重大事件和与其温室气体排放相关的情况变化的影响。\n3. 如发行人的活动包括资产管理、商业银行或保险，本交易所鼓励发行人披露有关其第15类温室气体排放或与其投资相关的额外资讯（融资排放）。",
+      "governanceDefault": false,
+      "sourceAnchorMb": {
+        "pdfPages": [
+          22,
+          24
+        ],
+        "rules": [
+          "Part D paragraph 28",
+          "Part D paragraph 29"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          17,
+          18
+        ],
+        "rules": [
+          "Part D paragraph 28",
+          "Part D paragraph 29"
+        ]
+      }
+    },
+    {
+      "id": "hk_ghg3",
+      "name": "范围3温室气体排放",
+      "dimension": "environment",
+      "clause": "附录C2 · D部分 第28(c)、29段",
+      "requirement": "核对第28(c)段范围3绝对排放及第29段相关类别、计量与价值链数据规定；不将鼓励披露的融资排放额外资料误作强制。",
+      "part": "D",
+      "sourceText": "28. 发行人须披露汇报期内的温室气体绝对总排放量（以公吨二氧化碳当量表示），并分为：\n(a)范围1温室气体排放；\n(b)范围2温室气体排放；及\n(c) 范围3温室气体排放。\n29. 发行人须：\n(a)除非管辖机关或发行人上市之另一交易所另有要求，否则发行人须根据《温室气体核算体系：企业核算与报告标准（2004年）》计量其温室气体排放；\n(b)披露其用于计量温室气体排放的方法，包括：\n(i)发行人用于计量其温室气体排放的计量方法、输入资料及假设；\n(ii)发行人为何选择该计量方法、输入资料及假设计量温室气体排放；及\n(iii) 发行人在汇报期对计量方法、输入资料及假设进行的任何变更以及变更原因；\n(c)就根据第28(b)段披露的范围2温室气体排放，披露其以地域为基准的范围2温室气体排放，并提供有助于了解该排放的任何所需合约文书的资讯；及\n(d) 就根据第28(c)段披露的范围3温室气体排放，根据《温室气体核算体系：企业价值链（范围3）核算与报告标准（2011年）》所述的范围3类别披露发行人计量范围3温室气体排放中包含的类别。\n注:1. 发行人在选择用于计量其范围3温室气体排放的计量方法、输入资料及假设时，须使用在汇报之日其可以无需付出不必要成本或努力即可获得的一切合理且有依据的资料。\n2. 发行人根据第28段的规定计量其温室气体排放时，也可使用与其自身汇报期不同的汇报期资料，前提是该资料是取自其价值链中汇报期与发行人不同的实体，并且符合以下条件：\n(a)发行人是使用其价值链中这些实体提供的最新数据（过程中可以无需付出不必要成本或努力）来计量和披露其温室气体排放；\n(b)汇报期长度相同；及\n(c) 发行人披露其价值链中实体的汇报期与发行人的环境、社会及管治报告日期之间发生的重大事件和与其温室气体排放相关的情况变化的影响。\n3. 如发行人的活动包括资产管理、商业银行或保险，本交易所鼓励发行人披露有关其第15类温室气体排放或与其投资相关的额外资讯（融资排放）。",
+      "sourceTextGem": "28. 发行人须披露汇报期内的温室气体绝对总排放量（以公吨二氧化碳当量表示），并分为：\n(a)范围1温室气体排放；\n(b)范围2温室气体排放；及\n(c) 范围3温室气体排放。\n29. 发行人须：\n(a)除非管辖机关或发行人上市之另一交易所另有要求，否则发行人须根据《温室气体核算体系：企业核算与报告标准（2004年）》计量其温室气体排放；\n(b)披露其用于计量温室气体排放的方法，包括：\n(i)发行人用于计量其温室气体排放的计量方法、输入资料及假设；\n(ii)发行人为何选择该计量方法、输入资料及假设计量温室气体排放；及\n(iii) 发行人在汇报期对计量方法、输入资料及假设进行的任何变更以及变更原因；\n(c)就根据第28(b)段披露的范围2温室气体排放，披露其以地域为基准的范围2温室气体排放，并提供有助于了解该排放的任何所需合约文书的资讯；及\n(d) 就根据第28(c)段披露的范围3温室气体排放，根据《温室气体核算体系：企业价值链（范围3）核算与报告标准（2011年）》所述的范围3类别披露发行人计量范围3温室气体排放中包含的类别。\n注：1. 发行人在选择用于计量其范围3温室气体排放的计量方法、输入资料及假设时，须使用在汇报之日其可以无需付出不必要成本或努力即可获得的一切合理且有依据的资料。\n2. 发行人根据第28段的规定计量其温室气体排放时，也可使用与其自身汇报期不同的汇报期资料，前提是该资料是取自其价值链中汇报期与发行人不同的实体，并且符合以下条件：\n(a)发行人是使用其价值链中这些实体提供的最新数据（过程中可以无需付出不必要成本或努力）来计量和披露其温室气体排放；\n(b)汇报期长度相同；及\n(c) 发行人披露其价值链中实体的汇报期与发行人的环境、社会及管治报告日期之间发生的重大事件和与其温室气体排放相关的情况变化的影响。\n3. 如发行人的活动包括资产管理、商业银行或保险，本交易所鼓励发行人披露有关其第15类温室气体排放或与其投资相关的额外资讯（融资排放）。",
+      "governanceDefault": false,
+      "sourceAnchorMb": {
+        "pdfPages": [
+          22,
+          24
+        ],
+        "rules": [
+          "Part D paragraph 28",
+          "Part D paragraph 29"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          17,
+          18
+        ],
+        "rules": [
+          "Part D paragraph 28",
+          "Part D paragraph 29"
+        ]
+      }
+    },
+    {
+      "id": "hk_d30",
+      "name": "气候转型风险指标",
+      "dimension": "environment",
+      "clause": "附录C2 · D部分 第30段",
+      "requirement": "逐项核对气候转型风险指标的原文要求及相关注释、条件、适用宽免；不将有条件的量化要求视为无条件要求。",
+      "part": "D",
+      "sourceText": "30. 发行人须披露容易受气候相关转型风险影响的资产或业务活动的金额及百分比。气候相关物理风险",
+      "sourceTextGem": "30. 发行人须披露容易受气候相关转型风险影响的资产或业务活动的金额及百分比。气候相关物理风险",
+      "governanceDefault": false,
+      "sourceAnchorMb": {
+        "pdfPages": [
+          24,
+          24
+        ],
+        "rules": [
+          "Part D paragraph 30"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          18,
+          18
+        ],
+        "rules": [
+          "Part D paragraph 30"
+        ]
+      }
+    },
+    {
+      "id": "hk_d31",
+      "name": "气候实体风险指标",
+      "dimension": "environment",
+      "clause": "附录C2 · D部分 第31段",
+      "requirement": "逐项核对气候实体风险指标的原文要求及相关注释、条件、适用宽免；不将有条件的量化要求视为无条件要求。",
+      "part": "D",
+      "sourceText": "31. 发行人须披露容易受气候相关物理风险影响的资产或业务活动的金额及百分比。",
+      "sourceTextGem": "31. 发行人须披露容易受气候相关物理风险影响的资产或业务活动的金额及百分比。",
+      "governanceDefault": false,
+      "sourceAnchorMb": {
+        "pdfPages": [
+          24,
+          24
+        ],
+        "rules": [
+          "Part D paragraph 31"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          18,
+          18
+        ],
+        "rules": [
+          "Part D paragraph 31"
+        ]
+      }
+    },
+    {
+      "id": "hk_d32",
+      "name": "气候机遇指标",
+      "dimension": "environment",
+      "clause": "附录C2 · D部分 第32段",
+      "requirement": "逐项核对气候机遇指标的原文要求及相关注释、条件、适用宽免；不将有条件的量化要求视为无条件要求。",
+      "part": "D",
+      "sourceText": "32. 发行人须披露涉及气候相关机遇的资产或业务活动的金额及百分比。\n注：发行人为符合第30至32段的要求而进行披露时，须使用在汇报之日其可以无需付出不必要成本或努力即可获得的一切合理且有依据的资料。",
+      "sourceTextGem": "32. 发行人须披露涉及气候相关机遇的资产或业务活动的金额及百分比。\n注：发行人为符合第30至32段的要求而进行披露时，须使用在汇报之日其可以无需付出不必要成本或努力即可获得的一切合理且有依据的资料。",
+      "governanceDefault": false,
+      "sourceAnchorMb": {
+        "pdfPages": [
+          24,
+          24
+        ],
+        "rules": [
+          "Part D paragraph 32"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          18,
+          18
+        ],
+        "rules": [
+          "Part D paragraph 32"
+        ]
+      }
+    },
+    {
+      "id": "hk_d33",
+      "name": "资本投放",
+      "dimension": "environment",
+      "clause": "附录C2 · D部分 第33段",
+      "requirement": "逐项核对资本投放的原文要求及相关注释、条件、适用宽免；不将有条件的量化要求视为无条件要求。",
+      "part": "D",
+      "sourceText": "33. 发行人须披露用于气候相关风险和机遇的资本开支、融资或投资的金额。",
+      "sourceTextGem": "33. 发行人须披露用于气候相关风险和机遇的资本开支、融资或投资的金额。",
+      "governanceDefault": false,
+      "sourceAnchorMb": {
+        "pdfPages": [
+          24,
+          24
+        ],
+        "rules": [
+          "Part D paragraph 33"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          18,
+          18
+        ],
+        "rules": [
+          "Part D paragraph 33"
+        ]
+      }
+    },
+    {
+      "id": "hk_d34",
+      "name": "内部碳定价",
+      "dimension": "environment",
+      "clause": "附录C2 · D部分 第34段",
+      "requirement": "逐项核对内部碳定价的原文要求及相关注释、条件、适用宽免；不将有条件的量化要求视为无条件要求。",
+      "part": "D",
+      "sourceText": "34. 发行人须披露如下：\n(a)阐释发行人可有及如何在决策中应用碳定价（例如投资决策、转移定价及情景分析）；及\n(b) 发行人用于评估其温室气体排放成本的每公吨温室气体排放量定价；或适当的否定声明，确认发行人没有在决策中应用碳定价。",
+      "sourceTextGem": "34. 发行人须披露如下：\n(a)阐释发行人可有及如何在决策中应用碳定价（例如投资决策、转移定价及情景分析）；及\n(b) 发行人用于评估其温室气体排放成本的每公吨温室气体排放量定价；或适当的否定声明，确认发行人没有在决策中应用碳定价。",
+      "governanceDefault": false,
+      "sourceAnchorMb": {
+        "pdfPages": [
+          24,
+          24
+        ],
+        "rules": [
+          "Part D paragraph 34"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          19,
+          19
+        ],
+        "rules": [
+          "Part D paragraph 34"
+        ]
+      }
+    },
+    {
+      "id": "hk_d35",
+      "name": "薪酬与气候表现",
+      "dimension": "governance",
+      "clause": "附录C2 · D部分 第35段",
+      "requirement": "逐项核对薪酬与气候表现的原文要求及相关注释、条件、适用宽免；不将有条件的量化要求视为无条件要求。",
+      "part": "D",
+      "sourceText": "35. 发行人须披露气候相关考虑因素可有及如何纳入薪酬政策，或提供适当的否定声明。这可能构成根据第19(a)(iv)段作出的披露的一部分。",
+      "sourceTextGem": "35. 发行人须披露气候相关考虑因素可有及如何纳入薪酬政策，或提供适当的否定声明。这可能构成根据第19(a)(iv)段作出的披露的一部分。",
+      "governanceDefault": false,
+      "sourceAnchorMb": {
+        "pdfPages": [
+          25,
+          25
+        ],
+        "rules": [
+          "Part D paragraph 35"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          19,
+          19
+        ],
+        "rules": [
+          "Part D paragraph 35"
+        ]
+      }
+    },
+    {
+      "id": "hk_d36",
+      "name": "行业指标",
+      "dimension": "environment",
+      "clause": "附录C2 · D部分 第36段",
+      "requirement": "逐项核对行业指标的原文要求及相关注释、条件、适用宽免；不将有条件的量化要求视为无条件要求。",
+      "part": "D",
+      "sourceText": "36. 本交易所鼓励发行人披露与一项或多项特定的业务模式和活动有关的行业指标，或与参与有关行业常见特征有关的行业指标。在决定披露哪些行业指标时，本交易所鼓励发行人参考《〈国际财务报告可持续披露准则S2号〉行业披露指南》和其他国际环境、社会及管治报告框架规定的行业披露要求所述的与披露主题相关的行业指标，并考虑其是否适用。",
+      "sourceTextGem": "36. 本交易所鼓励发行人披露与一项或多项特定的业务模式和活动有关的行业指标，或与参与有关行业常见特征有关的行业指标。在决定披露哪些行业指标时，本交易所鼓励参考《〈国际财务报告可持续披露准则S2号〉行业披露指南》和其他国际环境、社会及管治报告框架规定的行业披露要求所述的与披露主题相关的行业指标，并考虑其是否适用。",
+      "governanceDefault": false,
+      "sourceAnchorMb": {
+        "pdfPages": [
+          25,
+          25
+        ],
+        "rules": [
+          "Part D paragraph 36"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          19,
+          19
+        ],
+        "rules": [
+          "Part D paragraph 36"
+        ]
+      }
+    },
+    {
+      "id": "hk_d37",
+      "name": "气候目标",
+      "dimension": "environment",
+      "clause": "附录C2 · D部分 第37段",
+      "requirement": "逐项核对气候目标的原文要求及相关注释、条件、适用宽免；不将有条件的量化要求视为无条件要求。",
+      "part": "D",
+      "sourceText": "37. 发行人须披露(a)其为监察实现其策略目标的进展而设定的与气候相关的定性及量化目标；及(b)法律或法规要求发行人达到的任何目标，包括任何温室气体排放目标。发行人须就每个目标逐一披露：\n(a)用以设定目标的指标；\n(b)目标的目的（例如减缓、适应或以科学为基础的举措）；\n(c)目标的适用范围（例如目标是适用于发行人整个集团还是部分（如仅适用于某个业务单位或地理区域））；\n(d)目标的适用期间；\n(e)衡量进度的基准期间；\n(f)阶段性目标或中期目标（如有）；\n(g)如属量化目标，其属绝对目标还是强度目标；及\n(h) 最新气候变化国际协议（包括该协议产生的司法承诺）如何帮助发行人设定目标。\n注：有关目标不一定是本守则C部分关键绩效指标A1.5、A1.6、A2.3及A2.4项下的指标。\n\n41. 在编制披露内容以符合第21至26及37至38段的规定时，发行人须参考(i)跨行业指标（见第28至35段）及(ii)行业指标（见第36段）并考虑其是否适用。",
+      "sourceTextGem": "37. 发行人须披露(a)其为监察实现其策略目标的进展而设定的与气候相关的定性及量化目标；及(b)法律或法规要求发行人达到的任何目标，包括任何温室气体排放目标。发行人须就每个目标逐一披露：\n(a)用以设定目标的指标；\n(b)目标的目的（例如减缓、适应或以科学为基础的举措）；\n(c)目标的适用范围（例如目标是适用于发行人整个集团还是部分（如仅适用于某个业务单位或地理区域））；\n(d)目标的适用期间；\n(e)衡量进度的基准期间；\n(f)阶段性目标或中期目标（如有）；\n(g)如属量化目标，其属绝对目标还是强度目标；及\n(h) 最新气候变化国际协议（包括该协议产生的司法承诺）如何帮助发行人设定目标。\n注：有关目标不一定是本守则C部分关键绩效指标A1.5、A1.6、A2.3及A2.4项下的指标。\n\n41. 在编制披露内容以符合第21至26及37至38段的规定时，发行人须参考(i)跨行业指标（见第28至35段）及(ii)行业指标（见第36段）并考虑其是否适用。",
+      "governanceDefault": false,
+      "sourceAnchorMb": {
+        "pdfPages": [
+          25,
+          27
+        ],
+        "rules": [
+          "Part D paragraph 37",
+          "Part D paragraph 41 (non-contiguous)"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          19,
+          20
+        ],
+        "rules": [
+          "Part D paragraph 37",
+          "Part D paragraph 41 (non-contiguous)"
+        ]
+      }
+    },
+    {
+      "id": "hk_d38",
+      "name": "目标制定及检讨",
+      "dimension": "environment",
+      "clause": "附录C2 · D部分 第38段",
+      "requirement": "逐项核对目标制定及检讨的原文要求及相关注释、条件、适用宽免；不将有条件的量化要求视为无条件要求。",
+      "part": "D",
+      "sourceText": "38. 发行人须披露其设定及审核每项目标的方法，以及其如何监察达标进度，包括：\n(a)目标本身及设定目标的方法是否经第三方验证；\n(b)发行人审核目标的程序；\n(c)用于监察达标进度的指标；及\n(d) 任何修订目标的内容及原因。\n\n41. 在编制披露内容以符合第21至26及37至38段的规定时，发行人须参考(i)跨行业指标（见第28至35段）及(ii)行业指标（见第36段）并考虑其是否适用。",
+      "sourceTextGem": "38. 发行人须披露其设定及审核每项目标的方法，以及其如何监察达标进度，包括：\n(a)目标本身及设定目标的方法是否经第三方验证；\n(b)发行人审核目标的程序；\n(c)用于监察达标进度的指标；及\n(d) 任何修订目标的内容及原因。\n\n41. 在编制披露内容以符合第21至26及37至38段的规定时，发行人须参考(i)跨行业指标（见第28至35段）及(ii)行业指标（见第36段）并考虑其是否适用。",
+      "governanceDefault": false,
+      "sourceAnchorMb": {
+        "pdfPages": [
+          26,
+          27
+        ],
+        "rules": [
+          "Part D paragraph 38",
+          "Part D paragraph 41 (non-contiguous)"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          20,
+          20
+        ],
+        "rules": [
+          "Part D paragraph 38",
+          "Part D paragraph 41 (non-contiguous)"
+        ]
+      }
+    },
+    {
+      "id": "hk_d39",
+      "name": "目标表现与趋势",
+      "dimension": "environment",
+      "clause": "附录C2 · D部分 第39段",
+      "requirement": "逐项核对目标表现与趋势的原文要求及相关注释、条件、适用宽免；不将有条件的量化要求视为无条件要求。",
+      "part": "D",
+      "sourceText": "39. 发行人须披露有关每项气候相关目标的绩效的资讯以及对发行人绩效的趋势或变化分析。",
+      "sourceTextGem": "39. 发行人须披露有关每项气候相关目标的绩效的资讯以及对发行人绩效的趋势或变化分析。",
+      "governanceDefault": false,
+      "sourceAnchorMb": {
+        "pdfPages": [
+          26,
+          26
+        ],
+        "rules": [
+          "Part D paragraph 39"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          20,
+          20
+        ],
+        "rules": [
+          "Part D paragraph 39"
+        ]
+      }
+    },
+    {
+      "id": "hk_d40",
+      "name": "温室气体目标与碳信用",
+      "dimension": "environment",
+      "clause": "附录C2 · D部分 第40段",
+      "requirement": "逐项核对温室气体目标与碳信用的原文要求及相关注释、条件、适用宽免；不将有条件的量化要求视为无条件要求。",
+      "part": "D",
+      "sourceText": "40. 就按第37至39段披露的每一项温室气体排放目标，发行人须披露：\n(a)目标涵盖哪些温室气体；\n(b)目标是否涵盖范围1、范围2或范围3温室气体排放；\n(c)此目标是温室气体排放总量目标还是温室气体排放净额目标。如为温室气体排放净额目标，发行人须另外披露相关的温室气体排放总量目标；\n(d)目标是否是采用行业脱碳方法得出的；及\n(e) 发行人计划使用碳信用抵销温室气体排放以实现任何温室气体排放净额目标。关于使用碳信用的计划，发行人须披露：\n(i)依赖使用碳信用以实现任何温室气体排放净额目标的程度及方式；\n(ii)该碳信用将由哪些第三方计划验证或认证；\n(iii)碳信用的类型，包括相关抵消是否是基于自然还是基于科技的碳消除，以及相关抵消是通过减碳还是碳消除实现；及\n(iv) 为让人了解发行人计划使用的碳信用的可信度和完整性所必需的任何其他重要因素（例如，对碳抵消效果的假设）。",
+      "sourceTextGem": "40. 就按第37至39段披露的每一项温室气体排放目标，发行人须披露：\n(a)目标涵盖哪些温室气体；\n(b)目标是否涵盖范围1、范围2或范围3温室气体排放；\n(c)此目标是温室气体排放总量目标还是温室气体排放净额目标。如为温室气体排放净额目标，发行人须另外披露相关的温室气体排放总量目标；\n(d)目标是否是采用行业脱碳方法得出的；及\n(e) 发行人计划使用碳信用抵销温室气体排放以实现任何温室气体排放净额目标。关于使用碳信用的计划，发行人须披露：\n(i)依赖使用碳信用以实现任何温室气体排放净额目标的程度及方式；\n(ii)该碳信用将由哪些第三方计划验证或认证；\n(iii)碳信用的类型，包括相关抵消是否是基于自然还是基于科技的碳消除，以及相关抵消是通过减碳还是碳消除实现；及\n(iv) 为让人了解发行人计划使用的碳信用的可信度和完整性所必需的任何其他重要因素（例如，对碳抵消效果的假设）。",
+      "governanceDefault": false,
+      "sourceAnchorMb": {
+        "pdfPages": [
+          26,
+          27
+        ],
+        "rules": [
+          "Part D paragraph 40"
+        ]
+      },
+      "sourceAnchorGem": {
+        "pdfPages": [
+          20,
+          20
+        ],
+        "rules": [
+          "Part D paragraph 40"
+        ]
+      }
+    }
+  ],
+  "applicationText": {
+    "mb": "A部分：引言\n守则\n1. 本《环境、社会及管治报告守则》涵盖两个层次的披露责任：\n(a)强制披露规定；及(b)「不遵守就解释」条文。\n2.\n(1)本守则B部分载列强制披露规定。发行人必须在环境、社会及管治报告中提供当中所述资料。\n(2)本守则C部分载列「不遵守就解释」条文，发行人须按「不遵守就解释」原则在环境、社会及管治报告中汇报相关资料。\n(3)本守则D部分载列参照以下核心元素，有关发行人面对的气候相关风险及可获得的气候相关机遇的资料：\n(a)管治–发行人用于监察、管理及监督气候相关风险和机遇的管治流程、监控措施及程序；\n(b)策略–发行人管理气候相关风险和机遇的策略；\n(c)风险管理–发行人用于识别、评估气候相关风险和机遇，以及厘定当中轻重缓急并持续监察的流程；及\n(d) 指标及目标–发行人用于了解自己在气候相关风险和机遇方面表现的指标及目标，包括达致所设定气候相关目标的进度，以及法例规定须达致的目标。发行人适用的披露责任及其须就上述各核心元素在环境、社会及管治报告中作出的披露，须参阅本守则D部分。\n3. 发行人须按本守则中的「不遵守就解释」条文作汇报。若发行人未有就该等条文中的一条或以上作汇报，其须在环境、社会及管治报告中提供经过审慎考虑的理由。有关「不遵守就解释」的指引，发行人可参照《主板上市规则》附录C1的《企业管治守则》的「何谓「不遵守就解释」？」一节。\n4.\n(1)发行人须每年刊发其环境、社会及管治报告，有关资料所涵盖的期间须与其年报内容涵盖的时间相同。环境、社会及管治报告可以登载于发行人的年报中又或自成一份独立报告。无论采纳何种形式，环境、社会及管治报告都必须登载于本交易所及该发行人的网站。\n(2)若发行人的环境、社会及管治报告并非其年报一部分：\n(a)在所有适用法例及规例许可的情况下，发行人须根据《上市规则》第2.07A条以电子方式向股东提供环境、社会及管治报告。\n(b) [已于2023年12月31日删除]\n(c) [已于2023年12月31日删除]\n(d) 发行人须在刊发年报时，同时刊发环境、社会及管治报告。\n整体方针\n5. 本守则将环境、社会及管治主要范畴（「主要范畴」）分成两大类：环境（「主要范畴A」）及社会（「主要范畴B」）。企业管治则列载于《企业管治守则》。\n6. 每个主要范畴均有多个层面。每个层面载有供发行人汇报其绩效的一般披露及关键绩效指标。\n7. 除本守则所载的「不遵守就解释」事宜外，本交易所鼓励发行人识别及披露其他反映发行人对环境及社会有重大影响又或对持份者的评估及决策有重大影响的环境、社会及管治事宜和关键绩效指标。评估此等事宜时，发行人应持续地安排持份者参与其中，了解他们的意见，并更妥善地符合他们的期望。\n8. 本守则并没有涵盖所有披露事项，发行人可参考与其行业或业界有关的现有国际环境、社会及管治报告准则。只要所涵括的披露相当于本守则所要求的披露，发行人可采纳国际环境、社会及管治报告准则，包括《国际财务报告可持续披露准则》。就此而言，以符合国际财务报告准则S1号－可持续相关财务信息披露一般要求以及国际财务报告准则S2号－气候相关披露之方式编备的环境、社会及管治报告，均视为符合本守则D部份。\n9. 发行人可寻求独立验证，以加强所披露的环境、社会及管治资料的可信性。若取得独立验证，发行人应在环境、社会及管治报告中清楚描述验证的水平、范围及所采用的过程。\n10. 董事会对发行人的环境、社会及管治策略及汇报承担全部责任。\n汇报原则\n11. 以下汇报原则是编制环境、社会及管治报告的基础，界定报告的内容及资讯的呈列方式。发行人编备环境、社会及管治报告时应遵守这些汇报原则：\n(1)重要性：当董事会厘定有关环境、社会及管治事宜会对投资者及其他持份者产生重要影响时，发行人就应作出汇报。就本守则D部分而言，发行人须披露合理预期可能影响其短期、中期或长期现金流量、融资渠道和资本成本的气候相关风险和机遇。\n(2)量化：有关历史数据的关键绩效指标须可予计量。发行人应订下减少个别影响的目标（可以是实际数字或方向性、前瞻性的声明）。这样，环境、社会及管治政策及管理系统的效益可被评估及验证。量化资料应附带说明，阐述其目的及影响，并在适当的情况下提供比较数据。\n(3)平衡：环境、社会及管治报告应当不偏不倚地呈报发行人的表现，避免可能会不恰当地影响报告读者决策或判断的选择、遗漏或呈报格式。\n(4)一致性：发行人应使用一致的披露统计方法，令环境、社会及管治数据日后可作有意义的比较。\n配合董事报告「业务审视」部分中有关环境、社会及管治事宜讨论的规定\n12. 根据《主板上市规则》附录D2第28(2)(d)段，发行人财政年度内的董事报告须根据《公司条例》附表5载有业务审视。业务审视必须包含下列内容，详细程度须至少能足以令人了解发行人业务的发展、表现或状况：\n(i)探讨发行人的环境（包括气候相关）政策及表现；\n(ii)探讨发行人遵守对其有重大影响的有关法律及规例的情况；及\n(iii) 说明发行人与其雇员、顾客及供应商的重要关系，以及说明发行人与符合以下说明的其他人士的重要关系：该等人士对发行人有重大影响，而发行人的兴盛系于该等人士。由于本守则需要发行人披露特定环境、社会及管治方面的资料，故此守则应可补充有关董事报告的内容规定。\n\nD部分：气候相关披露\n披露责任\n16.\n(1)除第17段另有规定外，发行人须按「不遵守就解释」原则在环境、社会及管治报告中披露本部分规定的气候相关资料。如发行人未能披露任何规定所要求的资料，必须提供经过审慎考虑的理由。\n(2)如果发行人未披露本部分所列任何条文所要求的资料，无论其是选择(a)「解释」为何未根据「不遵守就解释」原则作出特定披露，亦或(b)根据相关规定的附注使用任何适用的宽免（无论其是否须作强制披露或按「遵守或解释」原则作披露），本交易所鼓励发行人也就其作出所需披露涉及的工作计划、进度及时间表提供相关资讯。\n17.\n(1)发行人须按第28(a)、28(b)及29段的规定强制披露其范围1温室气体排放及范围2温室气体排放。\n(2)如发行人是恒生综合大型股指数（HSCLI）成分股，须就2026年1月1日或之后开始的财政年度强制披露本部分所规定的资料。\n注：本第17(2)段适用于在紧接汇报年度之前全年属HSCLI成分股的发行人。发行人一旦须遵守本守则D部分的强制披露规定，即使其后不再是HSCLI成分股，也仍须继续遵守有关规定。\n(3)本交易所鼓励（但非强制）发行人根据第36段披露行业指标。\n定义及指引\n18.\n(1)在本部分中，除非另有规定，否则粗体及斜体字词的含义概如国际财务报告准则S2号－气候相关披露的附录A所述。\n(2)发行人按本部分规定准备披露内容时，应参考(i)国际财务报告准则S2号－气候相关披露附录B所载的应用指引；及(ii)联交所在其网站刊发并不时修订的实施指引。",
+    "gem": "A部分：引言\n守则\n1. 本《环境、社会及管治报告守则》涵盖两个层次的披露责任：\n(a)强制披露规定；及(b)「不遵守就解释」条文。\n2.\n(1)本守则B部分载列强制披露规定。发行人必须在环境、社会及管治报告中提供当中所述资料。\n(2)本守则C部分载列「不遵守就解释」条文，发行人须按「不遵守就解释」原则在环境、社会及管治报告中汇报相关资料。\n(3)本守则D部分载列参照以下核心元素，有关发行人面对的气候相关风险及可获得的气候相关机遇的资料：\n(a)管治－发行人用于监察、管理及监督气候相关风险和机遇的管治流程、监控措施及程序；\n(b)策略－发行人管理气候相关风险和机遇的策略；\n(c)风险管理－发行人用于识别、评估气候相关风险和机遇，以及厘定当中轻重缓急并持续监察的流程；及\n(d) 指标及目标－发行人用于了解自己在气候相关风险和机遇方面表现的指标及目标，包括达致所设定气候相关目标的进度，以及法例规定须达致的目标。发行人适用的披露责任及其须就上述各核心元素在环境、社会及管治报告中作出的披露，须参阅本守则D部分。\n3. 发行人须按本守则中的「不遵守就解释」条文作汇报。若发行人未有就该等条文中的一条或以上作汇报，其须在环境、社会及管治报告中提供经过审慎考虑的理由。有关「不遵守就解释」的指引，发行人可参照《GEM上市规则》附录C1的《企业管治守则》的「何谓「不遵守就解释」？」一节。\n4.\n(1)发行人须每年刊发其环境、社会及管治报告，有关资料所涵盖的期间须与其年报内容涵盖的时间相同。环境、社会及管治报告可以登载于发行人的年报中又或自成一份独立报告。无论采纳何种形式，环境、社会及管治报告都必须登载于本交易所及该发行人的网站。\n(2)若发行人的环境、社会及管治报告并非其年报一部分：\n(a)在所有适用法例及规例许可情况下，发行人须按《GEM上市规则》第16.04A条所载规定以电子形式向股东提供环境、社会及管治报告。\n(b) [已于2023年12月31日删除]\n(c) [已于2023年12月31日删除]\n(d) 发行人须在刊发年报时，同时刊发环境、社会及管治报告。\n整体方针\n5. 本守则将环境、社会及管治主要范畴（「主要范畴」）分成两大类：环境（「主要范畴A」）及社会（「主要范畴B」）。企业管治则列载于《企业管治守则》。\n6. 每个主要范畴均有多个层面。每个层面载有供发行人汇报其绩效的一般披露及关键绩效指标。\n7. 除本守则所载的「不遵守就解释」事宜外，本交易所鼓励发行人识别及披露其他反映发行人对环境及社会有重大影响又或对持份者的评估及决策有重大影响的环境、社会及管治事宜和关键绩效指标。评估此等事宜时，发行人应持续地安排持份者参与其中，了解他们的意见，并更妥善地符合他们的期望。\n8. 本守则并没有涵盖所有披露事项，发行人可参考与其行业或业界有关的现有国际环境、社会及管治报告准则。只要所涵括的披露相当于本守则所要求的披露，发行人可采纳国际环境、社会及管治报告准则，包括《国际财务报告可持续披露准则》。就此而言，以符合国际财务报告准则S1号－可持续相关财务信息披露一般要求以及国际财务报告准则S2号－气候相关披露之方式编备的环境、社会及管治报告，均视为符合本守则D部份。\n9. 发行人可寻求独立验证，以加强所披露的环境、社会及管治资料的可信性。若取得独立验证，发行人应在环境、社会及管治报告中清楚描述验证的水平、范围及所采用的过程。\n10. 董事会对发行人的环境、社会及管治策略及汇报承担全部责任。\n汇报原则\n11. 以下汇报原则是编制环境、社会及管治报告的基础，界定报告的内容及资讯的呈列方式。发行人编备环境、社会及管治报告时应遵守这些汇报原则：\n(1)重要性：当董事会厘定有关环境、社会及管治事宜会对投资者及其他持份者产生重要影响时，发行人就应作出汇报。就本守则D部分而言，发行人须披露合理预期可能影响其短期、中期或长期现金流量、融资渠道和资本成本的气候相关风险和机遇。\n(2)量化：有关历史数据的关键绩效指标须可予计量。发行人应订下减少个别影响的目标（可以是实际数字或方向性、前瞻性的声明）。这样，环境、社会及管治政策及管理系统的效益可被评估及验证。量化资料应附带说明，阐述其目的及影响，并在适当的情况下提供比较数据。\n(3)平衡：环境、社会及管治报告应当不偏不倚地呈报发行人的表现，避免可能会不恰当地影响报告读者决策或判断的选择、遗漏或呈报格式。\n(4)一致性：发行人应使用一致的披露统计方法，令环境、社会及管治数据日后可作有意义的比较。\n配合董事报告「业务审视」部分中有关环境、社会及管治事宜讨论的规定\n12. 根据《GEM上市规则》第18.07A(2)(d)条，发行人财政年度内的董事报告须根据《公司条例》附表5载有业务审视。业务审视必须包含下列内容，详细程度须至少能足以令人了解发行人业务的发展、表现或状况：\n(i)探讨发行人的环境（包括气候相关）政策及表现；\n(ii)探讨发行人遵守对其有重大影响的有关法律及规例的情况；及\n(iii) 说明发行人与其雇员、顾客及供应商的重要关系，以及说明发行人与符合以下说明的其他人士的重要关系：该等人士对发行人有重大影响，而发行人的兴盛系于该等人士。由于本守则需要发行人披露特定环境、社会及管治方面的资料，故此守则应可补充有关董事报告的内容规定。\n\nD部分：气候相关披露\n披露责任\n16. 除第17段另有规定外，本交易所鼓励发行人自愿在环境、社会及管治报告中披露本部分规定的气候相关资料。\n17. 发行人须按第28(a)、28(b)及29段的规定强制披露其范围1温室气体排放及范围2温室气体排放。\n定义及指引\n18.\n(1)在本部分中，除非另有规定，否则粗体及斜体字词的含义概如国际财务报告准则S2号－\n气候相关披露的附录A所述。\n(2)发行人按本部分规定准备披露内容时，应参考(i)国际财务报告准则S2号－气候相关披露附录B所载的应用指引；及(ii)联交所在其网站刊发并不时修订的实施指引。"
+  },
+  "assessmentFiles": {
+    "language": "zh-Hans",
+    "questions": "data/assessment/hk-questions.zh.json",
+    "methodology": "data/assessment/hk-methodology.zh.md"
+  },
+  "contentLanguage": "zh-Hans",
+  "sourceManifest": "data/sources/hkex/hk-zh-manifest.json"
+}

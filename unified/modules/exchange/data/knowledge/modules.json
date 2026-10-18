@@ -1,0 +1,40 @@
+{
+  "version": "2024-05-01.20261015-v1",
+  "modules": [
+    {
+      "id": "terms",
+      "name": "术语与符号",
+      "dataPath": "data/knowledge/terms.json"
+    },
+    {
+      "id": "framework",
+      "name": "披露框架与方法",
+      "dataPath": "data/knowledge/framework.json"
+    },
+    {
+      "id": "topic_clause",
+      "name": "议题清单与条款映射",
+      "dataPath": "data/ruleset/{exchange}.json"
+    },
+    {
+      "id": "transition",
+      "name": "过渡期与衔接安排",
+      "dataPath": "data/knowledge/transition.json"
+    },
+    {
+      "id": "exchange_diff",
+      "name": "三大交易所的区别与联系",
+      "dataPath": "data/knowledge/exchange_diff.json"
+    },
+    {
+      "id": "disclosure",
+      "name": "披露属性说明",
+      "dataPath": "data/knowledge/disclosure.json"
+    },
+    {
+      "id": "search",
+      "name": "查询与检索",
+      "dataPath": "data/knowledge/fulltext.json"
+    }
+  ]
+}

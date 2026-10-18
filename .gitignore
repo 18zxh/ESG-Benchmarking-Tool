@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.runtime/
+node_modules/
+.pytest_cache/
+.cache/
+*.log
+.env
+.env.*
+
+releases/
+.impeccable/review/

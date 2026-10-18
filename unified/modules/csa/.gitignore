@@ -1,0 +1,41 @@
+# Local runtime and caches
+.runtime/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+node_modules/
+.cache/
+.workbench-cache/
+*.sqlite3
+*.sqlite3-*
+
+# Credentials and personal configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*api-key*
+*api_key*
+
+# User projects, uploaded reports and generated temporary exports
+uploads/
+projects/
+project-backups/
+*备份*.json
+*试跑*.json
+*试跑*.xlsx
+
+# Development and historical material
+work/
+历史归档/
+审核记录/
+验收记录/
+*.log
+
+# Development checks and test artifacts are not part of V1
+tests/
+测试记录/
+试跑材料/

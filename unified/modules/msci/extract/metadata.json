@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "checkedOn": "2026-10-05",
+    "modelVersion": "v5.0.2",
+    "modelDate": "2026-09-10",
+    "officialUrl": "https://www.msci.com/legal/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies",
+    "scope": "基于用户提供的 37 份 PDF；中文为解读或译文，英文源 PDF 为核对依据。",
+    "limits": "版本以所供文件为准。公开方法文件不提供所有内部参数，不能仅据本库复算官方评级。方法更新后应重新核对。"
+  },
+  "audit": {
+    "addedIndicators": 188,
+    "previousIndicators": 281,
+    "indicators": 469,
+    "governanceKeyMetrics": 107,
+    "issues": 33,
+    "sources": 37,
+    "warnings": [
+      {
+        "issue": "opportunities-in-green-building",
+        "name": "Evidence of green certified buildings in real estate portfolio",
+        "note": "原文 0–5 分与 10 分描述冲突"
+      },
+      {
+        "issue": "product-safety-and-quality",
+        "name": "Warranty performance relative to peers",
+        "note": "原文 10 分含义的句子未完成"
+      },
+      {
+        "issue": "product-safety-and-quality",
+        "name": "Warranty payments industry relative score",
+        "note": "原文分母说明未完成"
+      },
+      {
+        "issue": "tax-transparency",
+        "note": "源文件框架图含历史议题；税收区间在 5% 边界显示交叠"
+      },
+      {
+        "issue": "accounting",
+        "note": "源文件框架图含历史议题"
+      }
+    ]
+  }
+}

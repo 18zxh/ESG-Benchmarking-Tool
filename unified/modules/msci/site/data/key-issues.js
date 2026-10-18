@@ -1,0 +1,9811 @@
+// Reviewed source-backed data. See extract/ and 核验报告.md.
+export const PILLARS = [
+  {
+    "id": "environmental",
+    "name": "环境",
+    "nameEn": "Environmental"
+  },
+  {
+    "id": "social",
+    "name": "社会",
+    "nameEn": "Social"
+  },
+  {
+    "id": "governance",
+    "name": "治理",
+    "nameEn": "Governance"
+  }
+];
+export const THEMES = [
+  {
+    "id": "climate-change",
+    "pillar": "environmental",
+    "name": "气候变化",
+    "nameEn": "Climate Change"
+  },
+  {
+    "id": "natural-capital",
+    "pillar": "environmental",
+    "name": "自然资本",
+    "nameEn": "Natural Capital"
+  },
+  {
+    "id": "pollution-waste",
+    "pillar": "environmental",
+    "name": "污染与废弃物",
+    "nameEn": "Pollution & Waste"
+  },
+  {
+    "id": "environmental-opportunities",
+    "pillar": "environmental",
+    "name": "环境机遇",
+    "nameEn": "Environmental Opportunities"
+  },
+  {
+    "id": "human-capital",
+    "pillar": "social",
+    "name": "人力资本",
+    "nameEn": "Human Capital"
+  },
+  {
+    "id": "product-liability",
+    "pillar": "social",
+    "name": "产品责任",
+    "nameEn": "Product Liability"
+  },
+  {
+    "id": "stakeholder-opposition",
+    "pillar": "social",
+    "name": "利益相关方阻力",
+    "nameEn": "Stakeholder Opposition"
+  },
+  {
+    "id": "social-opportunities",
+    "pillar": "social",
+    "name": "社会机遇",
+    "nameEn": "Social Opportunities"
+  },
+  {
+    "id": "corporate-governance",
+    "pillar": "governance",
+    "name": "公司治理",
+    "nameEn": "Corporate Governance"
+  },
+  {
+    "id": "corporate-behavior",
+    "pillar": "governance",
+    "name": "企业行为",
+    "nameEn": "Corporate Behavior"
+  }
+];
+export const KEY_ISSUES = [
+  {
+    "id": "carbon-emissions",
+    "name": "碳排放",
+    "nameEn": "Carbon Emissions",
+    "pillar": "environmental",
+    "theme": "climate-change",
+    "type": "risk",
+    "summary": "评估企业运营的碳强度，以及企业管理气候相关风险与机遇的努力，包括减排举措、目标与绩效表现。",
+    "intro": "Carbon Emissions is a Key Issue in the Environmental Pillar of the MSCI ESG Ratings model. Companies are evaluated on the carbon intensity of their operations and their efforts to manage climate-related risks and opportunities.",
+    "risks": [
+      "Increased costs linked to carbon pricing or trading.",
+      "Facility retrofit costs or operational disruptions due to regulatory caps."
+    ],
+    "risksCn": [
+      "碳定价或碳交易带来的成本增加。",
+      "因监管上限导致的设施改造费用或运营中断。"
+    ],
+    "indicators": [
+      {
+        "component": "Mitigation",
+        "componentCn": "减排措施",
+        "name": "Use of cleaner sources of energy",
+        "nameCn": "使用更清洁的能源",
+        "definition": "Assesses how aggressively the company has sought to mitigate its carbon emissions through the use of cleaner sources of energy such as solar, wind, geothermal, co-generation, or natural gas in place of oil or coal.",
+        "definitionCn": "评估公司通过使用更清洁的能源（如太阳能、风能、地热能、热电联产或天然气替代石油或煤炭）来减排其碳排放的积极程度。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Mitigation",
+        "componentCn": "减排措施",
+        "name": "Efforts to capture GHG emissions",
+        "nameCn": "捕获温室气体排放的举措",
+        "definition": "Assesses the aggressiveness of a company’s efforts to use greenhouse gas (GHG) capture and storage/sequestration of its operational emissions.",
+        "definitionCn": "评估公司对运营排放采用温室气体（GHG）捕集与封存/固存的积极程度。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Mitigation",
+        "componentCn": "减排措施",
+        "name": "Energy Consumption Management & Operational Efficiency",
+        "nameCn": "能源消耗管理与运营效率",
+        "definition": "This data point indicates our assessment of how aggressively the company has sought to mitigate its carbon emissions by managing energy consumption and improving the energy efficiency of its operations. Possible values are: 'Aggressive efforts' (best); 'Some efforts'; 'Limited efforts/information'; 'No efforts' (worst)",
+        "definitionCn": "该数据点反映我们对公司通过管理能源消耗和提高运营能效来减排其碳排放的积极程度的评估。可能取值为：'积极举措'（最佳）；'部分举措'；'有限举措/信息'；'无举措'（最差）",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Mitigation",
+        "componentCn": "减排措施",
+        "name": "Efforts to reduce customer energy consumption (demand-side management)",
+        "nameCn": "减少客户能源消耗的举措（需求侧管理）",
+        "definition": "Indicates MSCI ESG Research's assessment of the aggressiveness of a company's efforts to reduce future energy consumption through energy efficiency or demand response programs. This indicator is specifically relevant for energy companies and utilities.",
+        "definitionCn": "反映 MSCI ESG Research 对公司通过能效或需求响应方案来减少未来能源消耗的积极程度的评估。该指标与能源公司和公用事业尤为相关。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Mitigation",
+        "componentCn": "减排措施",
+        "name": "Other efforts to reduce carbon emissions",
+        "nameCn": "其他减少碳排放的举措",
+        "definition": "Assesses how aggressively the company has sought to mitigate its operational and/or value chain carbon emissions through other efforts (including purchasing carbon offsets, but excluding energy efficiency, clean energy use, carbon capture or demand-side management). The assessment is based on industry-specific criteria.",
+        "definitionCn": "评估公司通过其他举措（包括购买碳抵消，但不包括能效、清洁能源使用、碳捕集或需求侧管理）来减排其运营和/或价值链碳排放的积极程度。评估基于行业特定标准。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Targets",
+        "componentCn": "目标管理",
+        "name": "Carbon emissions target comprehensiveness",
+        "nameCn": "碳排放目标的全面性",
+        "definition": "Assesses the extent to which the company has established quantitative climate targets that are comprehensive in scope and complete in coverage. Expressed as a 0-10 score, with 10 indicating comprehensive targets.",
+        "definitionCn": "评估公司所建立的定量气候目标在范围上的全面性和覆盖上的完整性。以 0-10 分表示，10 分表示目标全面。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Carbon emissions target footprint coverage (%)",
+        "definition": "Assesses the extent to which the company’s emission reduction targets cover its total reported emissions. Expressed as a 0–10 score, where 10 indicates that the targets comprehensively cover all relevant emissions.",
+        "component": "Targets",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Carbon emissions target comprehensiveness",
+        "nameCn": "碳减排目标排放足迹覆盖率（%）",
+        "definitionCn": "评估企业减排目标覆盖其报告排放总量的程度。以 0–10 分表示，10 表示目标全面覆盖所有相关排放。",
+        "componentCn": "目标管理",
+        "parentCn": "碳排放目标的全面性"
+      },
+      {
+        "name": "Carbon emissions target relevant scope score",
+        "definition": "Assesses whether the company’s emission reduction targets include all financially material scopes. Expressed as a 0–10 score, where 10 indicates full coverage of financially material emission scopes.",
+        "component": "Targets",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Carbon emissions target comprehensiveness",
+        "nameCn": "碳减排目标相关排放范围得分",
+        "definitionCn": "评估企业减排目标是否包括所有具有财务重要性的排放范围。以 0–10 分表示，10 表示全面覆盖具有财务重要性的排放范围。",
+        "componentCn": "目标管理",
+        "parentCn": "碳排放目标的全面性"
+      },
+      {
+        "component": "Targets",
+        "componentCn": "目标管理",
+        "name": "Carbon emissions target progress",
+        "nameCn": "碳排放目标的进展",
+        "definition": "Assesses the company’s progress toward active environmental targets, as well as its historical track record in meeting previously stated targets. Expressed as a 0-10 score, with 10 indicating strong progress towards targets",
+        "definitionCn": "评估公司在现行环境目标上的进展，以及其在实现此前所设定目标方面的历史记录。以 0-10 分表示，10 分表示目标进展强劲。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Carbon emissions ongoing target progress",
+        "definition": "Assesses the company’s progress toward achieving its emission reduction targets based on current performance. Expressed as a 0–10 score, where 10 all its targets are on track to meet stated targets.",
+        "component": "Targets",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Carbon emissions target progress",
+        "nameCn": "正在执行的碳减排目标进展",
+        "definitionCn": "根据当前绩效评估企业实现减排目标的进度。以 0–10 分表示；原文对 10 分的表述为所有目标均按计划朝既定目标推进。",
+        "componentCn": "目标管理",
+        "parentCn": "碳排放目标的进展"
+      },
+      {
+        "name": "Carbon emissions target track record",
+        "definition": "Assesses the company’s historical performance in achieving or maintaining sustainability or environmental targets. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Targets",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Carbon emissions target progress",
+        "nameCn": "碳减排目标历史实现记录",
+        "definitionCn": "评估企业实现或维持可持续发展或环境目标的历史表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "目标管理",
+        "parentCn": "碳排放目标的进展"
+      },
+      {
+        "component": "Targets",
+        "componentCn": "目标管理",
+        "name": "Carbon emissions target verification",
+        "nameCn": "碳排放目标的核验",
+        "definition": "Assesses whether the company’s disclosed targets are supported by the Science Based Targets initiative (SBTi), where applicable. Expressed as either NULL or 10 score, with 10 indicating presence of verification.",
+        "definitionCn": "评估公司所披露的目标在适用情况下是否得到科学碳目标倡议（SBTi）的支持。以 NULL 或 10 分表示，10 分表示存在核验。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "SBTi long-term target status",
+        "definition": "Indicates the status of the company’s Science Based Targets initiative (SBTi) long-term target, aligned with net-zero or long-term decarbonization goals.",
+        "component": "Targets",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Carbon emissions target verification",
+        "nameCn": "SBTi 长期目标状态",
+        "definitionCn": "说明企业科学碳目标倡议（SBTi）长期目标的状态，该目标与净零或长期脱碳目标相一致。",
+        "componentCn": "目标管理",
+        "parentCn": "碳排放目标的核验"
+      },
+      {
+        "name": "SBTi near-term target status",
+        "definition": "Indicates the status of the company’s Science Based Targets initiative (SBTi) near-term target, aligned with short-to medium-term emissions reduction goals.",
+        "component": "Targets",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Carbon emissions target verification",
+        "nameCn": "SBTi 近期目标状态",
+        "definitionCn": "说明企业科学碳目标倡议（SBTi）近期目标的状态，该目标与短期至中期减排目标相一致。",
+        "componentCn": "目标管理",
+        "parentCn": "碳排放目标的核验"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Carbon emissions performance relative to peers",
+        "nameCn": "碳排放绩效的相对同业表现",
+        "definition": "Assesses the company's performance on greenhouse gas [GHG] emissions intensity (normalized by sales or by units of production), and trend in GHG emissions intensity, relative to its peers. Expressed as a 0-10 score, where 10 indicates strong performance.",
+        "definitionCn": "评估公司在温室气体[GHG]排放强度（按销售额或产量单位标准化）及 GHG 排放强度趋势方面相对于同业的表现。以 0-10 分表示，10 分表示表现强劲。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Carbon emissions intensity industry relative score",
+        "definition": "Assesses the company's performance on greenhouse gas [GHG] emissions intensity (normalized by sales or by units of production), relative to its peers. Expressed as a 0-10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Carbon emissions performance relative to peers",
+        "nameCn": "碳排放强度行业相对得分",
+        "definitionCn": "相对于同业，评估企业温室气体（GHG）排放强度的表现；强度以销售额或产量为分母。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "碳排放绩效的相对同业表现"
+      },
+      {
+        "name": "Three-year average carbon emissions intensity (sales based)",
+        "definition": "Measures the company’s three-year average greenhouse-gas emissions per unit of sales over the defined period.",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          9
+        ],
+        "parent": "Carbon emissions intensity industry relative score",
+        "nameCn": "三年平均碳排放强度（按销售额）",
+        "definitionCn": "衡量企业在规定期间内每单位销售额温室气体排放的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "碳排放强度行业相对得分"
+      },
+      {
+        "name": "Three-year average carbon emissions intensity (production based)",
+        "definition": "Measures the company’s three-year average greenhouse-gas emissions per unit production (megawatt-hour generated, or ton cement produced or revenue passenger kilometer, based on industry).",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          9
+        ],
+        "parent": "Carbon emissions intensity industry relative score",
+        "nameCn": "三年平均碳排放强度（按产量）",
+        "definitionCn": "衡量企业单位产量温室气体排放的三年平均值；分母视行业采用发电兆瓦时、每吨水泥或收入客运公里。",
+        "componentCn": "绩效表现",
+        "parentCn": "碳排放强度行业相对得分"
+      },
+      {
+        "name": "Carbon emissions intensity industry relative trend score",
+        "definition": "Assesses the company’s performance on the three-year average of year-over-year carbon-emissions intensity trend (normalized by sales or by units of production), relative to its peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          9
+        ],
+        "parent": "Carbon emissions performance relative to peers",
+        "nameCn": "碳排放强度行业相对趋势得分",
+        "definitionCn": "相对于同业，评估企业碳排放强度同比变化趋势的三年平均表现；强度以销售额或产量为分母。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "碳排放绩效的相对同业表现"
+      },
+      {
+        "name": "Three-year average year-over-year carbon emissions intensity trend (sales based)",
+        "definition": "Measures the company’s three-year average of year-over-year greenhouse-gas emissions (per unit of sales) trend.",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          9
+        ],
+        "parent": "Carbon emissions intensity industry relative trend score",
+        "nameCn": "三年平均碳排放强度同比趋势（按销售额）",
+        "definitionCn": "衡量企业每单位销售额温室气体排放同比变化趋势的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "碳排放强度行业相对趋势得分"
+      },
+      {
+        "name": "Three-year average year-over-year carbon emissions intensity trend (production based)",
+        "definition": "Measures the company’s three-year average year-over-year greenhouse-gas emissions per unit production (megawatt-hour generated, or ton cement produced or revenue passenger kilometer based on industry) trend.",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          9
+        ],
+        "parent": "Carbon emissions intensity industry relative trend score",
+        "nameCn": "三年平均碳排放强度同比趋势（按产量）",
+        "definitionCn": "衡量企业单位产量温室气体排放同比变化趋势的三年平均值；分母视行业采用发电兆瓦时、每吨水泥或收入客运公里。",
+        "componentCn": "绩效表现",
+        "parentCn": "碳排放强度行业相对趋势得分"
+      }
+    ],
+    "keyMetrics": [],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 16,
+      "sourceFile": "2 carbon-emissions-key-issue.pdf",
+      "source": "Environmental Pillar/2 carbon-emissions-key-issue.pdf"
+    },
+    "sourceId": "carbon-emissions",
+    "introPages": [
+      3
+    ],
+    "riskPages": [
+      4
+    ],
+    "scoringNote": "风险型议题将风险敞口与风险管理得分通过总方法论的映射组合，不是两者直接相乘。管理评估可包含实践、绩效、目标及争议扣分；具体组件和行业适用性见本议题 PDF。",
+    "scoringPages": [
+      21,
+      22,
+      23
+    ],
+    "rules": []
+  },
+  {
+    "id": "climate-change-vulnerability",
+    "name": "气候变化脆弱性",
+    "nameEn": "Climate Change Vulnerability",
+    "pillar": "environmental",
+    "theme": "climate-change",
+    "type": "risk",
+    "summary": "针对保险公司，评估气候变化对其承保资产或人群可能造成的物理风险敞口。",
+    "intro": "Climate Change Vulnerability is a Key Issue in the Environmental Pillar of the MSCI ESG Ratings model. Insurance companies are assessed on the physical risk that climate change may pose to insured assets or individuals.",
+    "risks": [
+      "Climate model risk: inadequate climate risk modelling may underestimate or misrepresent future climate-related losses and reserving assumptions.",
+      "Liquidity and solvency risk: timing and size of claims impact cash flows and solvency.",
+      "Catastrophe risk: increase in frequency and severity and decrease in predictability of catastrophe losses."
+    ],
+    "risksCn": [
+      "气候模型风险：气候风险建模不充分可能低估或错误反映未来气候相关损失以及准备金假设。",
+      "流动性与偿付能力风险：索赔的时间和规模会影响现金流与偿付能力。",
+      "巨灾风险：巨灾损失的频率和严重程度上升，可预测性下降。"
+    ],
+    "indicators": [
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Recognition that physical risk of climate change may increase underwriting risks",
+        "nameCn": "认识到气候变化的物理风险可能增加承保风险",
+        "definition": "Indicates whether the company recognizes that the physical risk of climate change may increase underwriting risks.",
+        "definitionCn": "说明公司是否认识到气候变化的物理风险可能增加承保风险。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Research or exercise to quantify the impact of physical risk on insurance underwriting",
+        "nameCn": "量化物理风险对保险承保影响的研究或分析",
+        "definition": "Indicates whether the company conducts research or exercises to quantify the impact of physical risk on insurance underwriting, either directly (via primary research) or indirectly (through an industry consortium).",
+        "definitionCn": "说明公司是否开展研究或分析以量化物理风险对保险承保的影响，方式可以是直接开展（通过一手研究）或间接开展（通过行业联盟）。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Evidence of using climate change models",
+        "nameCn": "使用气候变化模型的证据",
+        "definition": "Indicates whether the company uses climate change models to inform underwriting decisions.",
+        "definitionCn": "说明公司是否使用气候变化模型为承保决策提供依据。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Underwriting performance based on combined ratio",
+        "nameCn": "基于综合成本率的承保绩效",
+        "definition": "Assesses the company's underwriting performance, based on its three-year average combined ratio. The combined ratio measures an insurer’s underwriting profitability by comparing total claims and expenses to earned premiums.",
+        "definitionCn": "根据公司三年平均综合成本率评估其承保绩效。综合成本率通过比较总赔款及费用与已赚保费，衡量保险公司的承保盈利能力。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      }
+    ],
+    "keyMetrics": [],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 13,
+      "sourceFile": "3 climate-change-vulnerability-key-issue.pdf",
+      "source": "Environmental Pillar/3 climate-change-vulnerability-key-issue.pdf"
+    },
+    "sourceId": "climate-change-vulnerability",
+    "introPages": [
+      3
+    ],
+    "riskPages": [
+      4
+    ],
+    "scoringNote": "风险型议题将风险敞口与风险管理得分通过总方法论的映射组合，不是两者直接相乘。管理评估可包含实践、绩效、目标及争议扣分；具体组件和行业适用性见本议题 PDF。",
+    "scoringPages": [
+      21,
+      22,
+      23
+    ],
+    "rules": []
+  },
+  {
+    "id": "financing-environmental-impact",
+    "name": "融资的环境影响",
+    "nameEn": "Financing Environmental Impact",
+    "pillar": "environmental",
+    "theme": "climate-change",
+    "type": "risk",
+    "summary": "针对金融机构，评估其贷款与承销活动中的环境风险，以及把握绿色金融机遇的能力。",
+    "intro": "Financing Environmental Impact is a Key Issue in the Environmental Pillar of the MSCI ESG Ratings model. Financial institutions are evaluated on the environmental risks of their lending and underwriting activities and their ability to capitalize on opportunities related to green finance.",
+    "risks": [
+      "Increased credit defaults from borrowers that suffer losses related to a range of environmental concerns, including operational disruption, loss of market access, liabilities and asset impairment.",
+      "Damage to corporate reputation from financing environmentally harmful projects."
+    ],
+    "risksCn": [
+      "借款人因一系列环境问题（包括运营中断、市场准入丧失、负债及资产减值）遭受损失，导致信用违约增加。",
+      "为环境有害项目提供融资而损害企业声誉。"
+    ],
+    "indicators": [
+      {
+        "component": "Systems",
+        "componentCn": "管理体系",
+        "name": "Formal management systems to assess ESG risks in financing activities",
+        "nameCn": "用于评估融资活动中 ESG 风险的正式管理体系",
+        "definition": "Describes the company's management system to assess ESG risks in financing activities. Best practice includes ESG factors systematically embedded in credit assessment, supported by a documented, end-to-end framework that sets out the risk management process.",
+        "definitionCn": "描述公司评估融资活动中 ESG 风险的管理体系。最佳实践包括将 ESG 因素系统性地嵌入信贷评估，并由一套记录的、端到端的框架予以支持，该框架明确了风险管理流程。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Systems",
+        "componentCn": "管理体系",
+        "name": "Scope of management system to assess ESG risks in financing activities",
+        "nameCn": "评估融资活动中 ESG 风险的管理体系覆盖范围",
+        "definition": "The scope of a company’s formal management systems to assess ESG risks in financing activities. Best practice is to include all credit and investment banking operations.",
+        "definitionCn": "公司评估融资活动中 ESG 风险的正式管理体系的覆盖范围。最佳实践是将所有信贷和投资银行业务纳入其中。",
+        "level": 1,
+        "sourcePages": [
+          6,
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Integration",
+        "componentCn": "整合",
+        "name": "Involvement of group credit risk in ESG due diligence",
+        "nameCn": "集团信用风险部门参与 ESG 尽职调查的程度",
+        "definition": "The extent to which the group responsible for credit risk management is directly involved in ESG due diligence.",
+        "definitionCn": "负责信用风险管理的集团直接参与 ESG 尽职调查的程度。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Integration",
+        "componentCn": "整合",
+        "name": "ESG due diligence triggers and risk-escalation process clearly defined",
+        "nameCn": "ESG 尽职调查触发条件与风险升级流程的明确定义情况",
+        "definition": "The level of transparency provided around the escalation process for triggering credit evaluations based on ESG risks. Best practices are to clearly define the ESG risk escalation process, provide details on thresholds for triggering escalation, and provide examples of extra due diligence where necessary.",
+        "definitionCn": "围绕基于 ESG 风险触发信贷评估的升级流程所提供信息的透明程度。最佳实践是明确定义 ESG 风险升级流程、提供触发升级的阈值细节，并在必要时提供额外尽职调查的示例。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Oversight",
+        "componentCn": "监督",
+        "name": "Oversight of ESG risk management in financing activities",
+        "nameCn": "对融资活动中 ESG 风险管理的监督",
+        "definition": "The group or individual that has ultimate responsibility over the integration of ESG considerations in financing and investment activities.",
+        "definitionCn": "对在融资和投资活动中整合 ESG 考量承担最终责任的集团或个人。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Oversight",
+        "componentCn": "监督",
+        "name": "Conducts climate-related risk analysis",
+        "nameCn": "开展气候相关风险分析",
+        "definition": "The company’s initiatives to assess the business risks associated with climate change. Best practice is to integrate climate change risk analysis in financing decisions.",
+        "definitionCn": "公司评估与气候变化相关业务风险的举措。最佳实践是将气候变化风险分析纳入融资决策。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Policy",
+        "componentCn": "政策",
+        "name": "Environmental credit policy score",
+        "nameCn": "环境信贷政策评分",
+        "definition": "Assesses the scope and strength of a financial institution implementing environmental credit policy across five sectors and themes: agriculture, power utilities, mining, oil & gas, biodiversity. Expressed as a 0–10 score, where 10 indicates binding environmental credit policies applied across all five sectors and themes.",
+        "definitionCn": "评估金融机构在五个行业和主题——农业、电力公用事业、采矿、石油天然气、生物多样性——实施环境信贷政策的范围和力度。以 0–10 分表示，10 分表示在全部五个行业和主题均应用具有约束力的环境信贷政策。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Credit policy related to agriculture",
+        "definition": "Indicates whether the company has developed binding or non-binding environmental credit policies, or has adopted voluntary standards, related to agriculture industry financing.",
+        "component": "Policy",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Environmental credit policy score",
+        "nameCn": "农业相关信贷政策",
+        "definitionCn": "说明企业是否针对农业融资制定了具有约束力或不具有约束力的环境信贷政策，或采用了自愿性标准。",
+        "componentCn": "政策",
+        "parentCn": "环境信贷政策评分"
+      },
+      {
+        "name": "Credit policy related to power utilities",
+        "definition": "Indicates whether the company has developed binding or non-binding environmental credit policies, or has adopted voluntary standards, related to power industry financing.",
+        "component": "Policy",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Environmental credit policy score",
+        "nameCn": "电力公用事业相关信贷政策",
+        "definitionCn": "说明企业是否针对电力行业融资制定了具有约束力或不具有约束力的环境信贷政策，或采用了自愿性标准。",
+        "componentCn": "政策",
+        "parentCn": "环境信贷政策评分"
+      },
+      {
+        "name": "Credit policy related to mining",
+        "definition": "Indicates whether the company has developed binding or non-binding environmental credit policies, or has adopted voluntary standards, related to mining industry financing.",
+        "component": "Policy",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Environmental credit policy score",
+        "nameCn": "采矿相关信贷政策",
+        "definitionCn": "说明企业是否针对采矿业融资制定了具有约束力或不具有约束力的环境信贷政策，或采用了自愿性标准。",
+        "componentCn": "政策",
+        "parentCn": "环境信贷政策评分"
+      },
+      {
+        "name": "Credit policy related to oil and gas",
+        "definition": "Indicates whether the company has developed binding or non-binding environmental credit policies, or has adopted voluntary standards, related to oil and gas industry financing.",
+        "component": "Policy",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Environmental credit policy score",
+        "nameCn": "油气相关信贷政策",
+        "definitionCn": "说明企业是否针对油气行业融资制定了具有约束力或不具有约束力的环境信贷政策，或采用了自愿性标准。",
+        "componentCn": "政策",
+        "parentCn": "环境信贷政策评分"
+      },
+      {
+        "name": "Credit policy related to biodiversity",
+        "definition": "Indicates whether the company has developed binding or non-binding environmental credit policies, or has adopted voluntary standards, related to biodiversity.",
+        "component": "Policy",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Environmental credit policy score",
+        "nameCn": "生物多样性相关信贷政策",
+        "definitionCn": "说明企业是否制定了与生物多样性相关、具有约束力或不具有约束力的环境信贷政策，或采用了自愿性标准。",
+        "componentCn": "政策",
+        "parentCn": "环境信贷政策评分"
+      },
+      {
+        "component": "Opportunities",
+        "componentCn": "机遇",
+        "name": "Involvement in green financing and securities",
+        "nameCn": "参与绿色融资和绿色证券的程度",
+        "definition": "The extent to which a company invests in green securities or is involved in the structuring of green financing.",
+        "definitionCn": "公司投资绿色证券或参与绿色融资结构设计的程度。",
+        "level": 1,
+        "sourcePages": [
+          8,
+          9
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Opportunities",
+        "componentCn": "机遇",
+        "name": "Sustainability-related financial product development",
+        "nameCn": "可持续相关金融产品开发",
+        "definition": "The extent to which a company has integrated sustainability factors into its financial products, either through pricing mechanisms or other related green financing methods.",
+        "definitionCn": "公司将可持续因素通过定价机制或其他相关绿色融资方式纳入其金融产品的程度。",
+        "level": 1,
+        "sourcePages": [
+          9
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Covered Bond Issuers",
+        "componentCn": "担保债券发行人专用评分",
+        "name": "Financing environmental impact practices score for covered bonds issuers",
+        "nameCn": "担保债券发行人的融资环境影响实践评分",
+        "definition": "Indicates the strength of ESG risk management practices affecting the assets in the cover pool, proxied by the average practices of loan originators in the country of domicile. Expressed as a 0–10 score, where 10 indicates strong practices.",
+        "definitionCn": "表示影响担保资产池中资产的 ESG 风险管理实践的力度，以注册国贷款发放机构的平均实践作为代理指标。以 0–10 分表示，10 分表示实践力度强。",
+        "level": 1,
+        "sourcePages": [
+          9
+        ],
+        "parent": "",
+        "parentCn": ""
+      }
+    ],
+    "keyMetrics": [],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 15,
+      "sourceFile": "5 financing-environmental-impact-key-issue.pdf",
+      "source": "Environmental Pillar/5 financing-environmental-impact-key-issue.pdf"
+    },
+    "sourceId": "financing-environmental-impact",
+    "introPages": [
+      3
+    ],
+    "riskPages": [
+      4
+    ],
+    "scoringNote": "风险型议题将风险敞口与风险管理得分通过总方法论的映射组合，不是两者直接相乘。管理评估可包含实践、绩效、目标及争议扣分；具体组件和行业适用性见本议题 PDF。",
+    "scoringPages": [
+      21,
+      22,
+      23
+    ],
+    "rules": []
+  },
+  {
+    "id": "product-carbon-footprint",
+    "name": "产品碳足迹",
+    "nameEn": "Product Carbon Footprint",
+    "pillar": "environmental",
+    "theme": "climate-change",
+    "type": "risk",
+    "summary": "评估企业产品的碳强度，以及其在供应链或产品与服务使用环节降低碳足迹的能力。",
+    "intro": "Product Carbon Footprint is a Key Issue in the Environmental Pillar of the MSCI ESG Ratings model. Companies are evaluated on the carbon intensity of their products and their ability to reduce the carbon footprint in their supply chains or in the use of their products and services.",
+    "risks": [
+      "Increased costs from higher and more volatile energy prices upstream in the value chain (affecting raw materials, input, and distribution costs).",
+      "Regulatory risks associated with downstream emissions, e.g., penalties resulting from vehicle fleet emissions standards in the automobile industry."
+    ],
+    "risksCn": [
+      "因价值链上游能源价格走高且波动加剧而导致的成本增加（影响原材料、投入品和分销成本）。",
+      "与下游排放相关的监管风险，例如汽车行业车辆车队排放标准导致的处罚。"
+    ],
+    "indicators": [
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Assessment of energy consumption and/or carbon emissions of suppliers",
+        "nameCn": "对供应商能耗和/或碳排放的评估",
+        "definition": "Indicates whether the company assesses the carbon emissions and/or energy consumption of its suppliers.",
+        "definitionCn": "表明公司是否评估其供应商的碳排放和/或能耗。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Extent of product carbon footprint assessments",
+        "nameCn": "产品碳足迹评估的范围",
+        "definition": "Indicates whether the company assesses the downstream carbon emissions of its products and services.",
+        "definitionCn": "表明公司是否评估其产品和服务在下游的碳排放。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Targets to reduce Scope 3 upstream carbon emissions",
+        "nameCn": "减少Scope 3上游碳排放的目标",
+        "definition": "Indicates whether there is evidence the company has quantitative and time-bound targets to reduce Scope 3 upstream carbon emissions. This may include targets regarding the company’s supply chain.",
+        "definitionCn": "表明是否有证据显示公司设有量化且有时限的减少Scope 3上游碳排放的目标。这可能包括与公司供应链相关的目标。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Energy consumption or carbon emissions assessment of distribution and store operations",
+        "nameCn": "对分销和门店运营的能耗或碳排放评估",
+        "definition": "Indicates whether the company assesses the carbon emissions or energy consumption of its distribution centers and store operations.",
+        "definitionCn": "表明公司是否评估其配送中心和门店运营的碳排放或能耗。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Energy consumption or carbon emissions assessment of manufacturing operations (including suppliers)",
+        "nameCn": "对生产运营（含供应商）的能耗或碳排放评估",
+        "definition": "Indicates whether the company assesses the carbon emissions or energy consumption of its manufacturing operations, including suppliers’ operations.",
+        "definitionCn": "表明公司是否评估其生产运营（包括供应商的运营）的碳排放或能耗。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Energy consumption or carbon emissions assessment of raw materials sourcing",
+        "nameCn": "对原材料采购的能耗或碳排放评估",
+        "definition": "Indicates whether the company assesses the upstream carbon emissions or energy consumption involved in the production of raw materials.",
+        "definitionCn": "表明公司是否评估原材料生产过程中涉及的上游碳排放或能耗。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Energy consumption or carbon emissions assessment of transportation and logistics",
+        "nameCn": "对运输和物流的能耗或碳排放评估",
+        "definition": "Indicates whether the company assesses the carbon emissions or energy consumption of its transportation and logistics operations.",
+        "definitionCn": "表明公司是否评估其运输和物流运营的碳排放或能耗。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Extent of energy consumption or carbon emissions reduction programs in distribution centers or store operations",
+        "nameCn": "分销中心或门店运营能耗或碳排放减排方案覆盖程度",
+        "definition": "The extent of the company’s carbon emissions or energy reduction programs in its distribution centers or store operations. Best practice includes programs in all distribution centers or store operations.",
+        "definitionCn": "公司在配送中心或门店运营中的碳排放或节能方案的范围。最佳实践包括覆盖所有配送中心或门店运营的方案。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Extent of energy consumption or carbon emissions reduction programs in manufacturing operations (including suppliers)",
+        "nameCn": "生产运营（含供应商）能耗或碳排放减排方案覆盖程度",
+        "definition": "The extent of the company’s carbon emissions or energy reduction programs in its manufacturing operations, including suppliers’ operations. Best practice includes programs covering all core production facilities.",
+        "definitionCn": "公司在生产运营（包括供应商的运营）中的碳排放或节能方案的范围。最佳实践包括覆盖所有核心生产设施的方案。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Extent of energy consumption or carbon emissions reduction programs in raw materials sourcing",
+        "nameCn": "原材料采购能耗或碳排放减排方案覆盖程度",
+        "definition": "The extent of the company’s carbon emissions or energy reduction programs in the sourcing of raw materials, including those sourced by suppliers. Best practice includes programs covering all core products.",
+        "definitionCn": "公司在原材料采购（包括供应商采购的原材料）中的碳排放或节能方案的范围。最佳实践包括覆盖所有核心产品的方案。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Extent of energy consumption or carbon emissions reduction programs in transportation and logistics",
+        "nameCn": "运输与物流能耗或碳排放减排方案覆盖程度",
+        "definition": "The extent of the company’s carbon emissions or energy reduction programs in the transportation and logistics stages. Best practice includes improvements in fleet efficiency combined with improvements in load/packaging optimization.",
+        "definitionCn": "公司在运输与物流阶段开展碳排放或能源减量方案的程度。最佳实践包括提升车队效率，并改进载荷／包装优化。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Tailpipe fleet emission performance relative to peers",
+        "nameCn": "相对于同业组的尾气车队排放绩效",
+        "definition": "Assesses the company's estimated global volume-weighted tailpipe fleet emission performance in comparison to industry peers. Expressed as a 0-10 score, with 10 indicating lowest fleet emissions, relative to peers.",
+        "definitionCn": "评估公司相对于行业同业组的估计全球销量加权尾气车队排放绩效。以0-10分表示，10分表示相对于同业组车队排放最低。",
+        "level": 1,
+        "sourcePages": [
+          9
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Product Carbon Footprint industry relative score",
+        "definition": "Assesses the company's performance on estimated global volume-weighted tailpipe fleet emission, relative to its peers. Expressed as a 0-10 score, where 10 indicates lowest fleet emissions relative to peers.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          9
+        ],
+        "parent": "Tailpipe fleet emission performance relative to peers",
+        "nameCn": "产品碳足迹行业相对得分",
+        "definitionCn": "相对于同业，评估企业估计的全球销量加权车队尾气排放表现。以 0–10 分表示，10 表示相对于同业车队排放最低。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对于同业组的尾气车队排放绩效"
+      },
+      {
+        "name": "Product Carbon Footprint industry relative trend score",
+        "definition": "Assesses the company’s performance on the three-year average of year-over-year estimated global volume-weighted tailpipe fleet emission trend, relative to its peers. Expressed as a 0–10 score, where 10 indicates highest decline in fleet emissions, relative to peers.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          9
+        ],
+        "parent": "Tailpipe fleet emission performance relative to peers",
+        "nameCn": "产品碳足迹行业相对趋势得分",
+        "definitionCn": "相对于同业，评估企业估计的全球销量加权车队尾气排放同比变化趋势的三年平均表现。以 0–10 分表示，10 表示相对于同业车队排放降幅最大。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对于同业组的尾气车队排放绩效"
+      },
+      {
+        "component": "Targets",
+        "componentCn": "目标管理",
+        "name": "Carbon emissions target comprehensiveness",
+        "nameCn": "碳排放目标的全面性",
+        "definition": "Assesses the extent to which the company has established quantitative climate targets that are comprehensive in scope and complete in coverage. Expressed as a 0-10 score, with 10 indicating comprehensive targets.",
+        "definitionCn": "评估公司建立的定量气候目标在范围上的全面性和覆盖上的完整性。以 0–10 分表示，10 分表示目标全面。",
+        "level": 1,
+        "sourcePages": [
+          9
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Carbon emissions target footprint coverage (%)",
+        "definition": "Assesses the extent to which the company’s emission reduction targets cover its total reported emissions. Expressed as a 0–10 score, where 10 indicates that the targets comprehensively cover all relevant emissions.",
+        "component": "Targets",
+        "level": 2,
+        "sourcePages": [
+          9,
+          10
+        ],
+        "parent": "Carbon emissions target comprehensiveness",
+        "nameCn": "碳减排目标排放足迹覆盖率（%）",
+        "definitionCn": "评估企业减排目标覆盖其报告排放总量的程度。以 0–10 分表示，10 表示目标全面覆盖所有相关排放。",
+        "componentCn": "目标管理",
+        "parentCn": "碳排放目标的全面性"
+      },
+      {
+        "name": "Carbon emissions target relevant scope score",
+        "definition": "Assesses whether the company’s emission reduction targets include all financially material scopes. Expressed as a 0–10 score, where 10 indicates full coverage of financially material emission scopes.",
+        "component": "Targets",
+        "level": 2,
+        "sourcePages": [
+          10
+        ],
+        "parent": "Carbon emissions target comprehensiveness",
+        "nameCn": "碳减排目标相关排放范围得分",
+        "definitionCn": "评估企业减排目标是否包括所有具有财务重要性的排放范围。以 0–10 分表示，10 表示全面覆盖具有财务重要性的排放范围。",
+        "componentCn": "目标管理",
+        "parentCn": "碳排放目标的全面性"
+      },
+      {
+        "component": "Targets",
+        "componentCn": "目标管理",
+        "name": "Carbon emissions target progress",
+        "nameCn": "碳排放目标进展",
+        "definition": "Assesses the company’s progress toward active environmental targets, as well as its historical track record in meeting previously stated targets. Expressed as a 0-10 score, with 10 indicating strong progress towards targets",
+        "definitionCn": "评估公司在现行环境目标方面的进展，以及其在实现此前既定目标方面的历史记录。以 0-10 分表示，10 分表示在实现既定目标方面进展强劲。",
+        "level": 1,
+        "sourcePages": [
+          10
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Carbon emissions ongoing target progress",
+        "definition": "Assesses the company’s progress toward achieving its emission reduction targets based on current performance. Expressed as a 0–10 score, where 10 all its targets are on track to meet stated targets.",
+        "component": "Targets",
+        "level": 2,
+        "sourcePages": [
+          10
+        ],
+        "parent": "Carbon emissions target progress",
+        "nameCn": "正在执行的碳减排目标进展",
+        "definitionCn": "根据当前绩效评估企业实现减排目标的进度。以 0–10 分表示；原文对 10 分的表述为所有目标均按计划朝既定目标推进。",
+        "componentCn": "目标管理",
+        "parentCn": "碳排放目标进展"
+      },
+      {
+        "name": "Carbon emissions target track record",
+        "definition": "Assesses the company’s historical performance in achieving or maintaining sustainability or environmental targets. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Targets",
+        "level": 2,
+        "sourcePages": [
+          10
+        ],
+        "parent": "Carbon emissions target progress",
+        "nameCn": "碳减排目标历史实现记录",
+        "definitionCn": "评估企业实现或维持可持续发展或环境目标的历史表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "目标管理",
+        "parentCn": "碳排放目标进展"
+      },
+      {
+        "component": "Targets",
+        "componentCn": "目标管理",
+        "name": "Carbon emissions target verification",
+        "nameCn": "碳排放目标核验",
+        "definition": "Assesses whether the company’s disclosed targets are supported by the Science Based Targets initiative (SBTi), where applicable. Expressed as either NULL or 10 score, with 10 indicating presence of verification.",
+        "definitionCn": "评估公司所披露的目标是否（在适用情况下）获得科学碳目标倡议（SBTi）的支持。以NULL或10分表示，10分表示存在核验。",
+        "level": 1,
+        "sourcePages": [
+          10
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "SBTi long-term target status",
+        "definition": "Indicates the status of the company’s Science Based Targets initiative (SBTi) long-term target, aligned with net-zero or long-term decarbonization goals.",
+        "component": "Targets",
+        "level": 2,
+        "sourcePages": [
+          10
+        ],
+        "parent": "Carbon emissions target verification",
+        "nameCn": "SBTi 长期目标状态",
+        "definitionCn": "说明企业科学碳目标倡议（SBTi）长期目标的状态，该目标与净零或长期脱碳目标相一致。",
+        "componentCn": "目标管理",
+        "parentCn": "碳排放目标核验"
+      },
+      {
+        "name": "SBTi near-term target status",
+        "definition": "Indicates the status of the company’s Science Based Targets initiative (SBTi) near-term target, aligned with short-to medium-term emissions reduction goals.",
+        "component": "Targets",
+        "level": 2,
+        "sourcePages": [
+          10
+        ],
+        "parent": "Carbon emissions target verification",
+        "nameCn": "SBTi 近期目标状态",
+        "definitionCn": "说明企业科学碳目标倡议（SBTi）近期目标的状态，该目标与短期至中期减排目标相一致。",
+        "componentCn": "目标管理",
+        "parentCn": "碳排放目标核验"
+      }
+    ],
+    "keyMetrics": [],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 18,
+      "sourceFile": "10 product-carbon-footprint-key-issue.pdf",
+      "source": "Environmental Pillar/10 product-carbon-footprint-key-issue.pdf"
+    },
+    "sourceId": "product-carbon-footprint",
+    "introPages": [
+      3
+    ],
+    "riskPages": [
+      4
+    ],
+    "scoringNote": "风险型议题将风险敞口与风险管理得分通过总方法论的映射组合，不是两者直接相乘。管理评估可包含实践、绩效、目标及争议扣分；具体组件和行业适用性见本议题 PDF。",
+    "scoringPages": [
+      21,
+      22,
+      23
+    ],
+    "rules": []
+  },
+  {
+    "id": "opportunities-in-clean-tech",
+    "name": "清洁技术机遇",
+    "nameEn": "Opportunities in Clean Tech",
+    "pillar": "environmental",
+    "theme": "environmental-opportunities",
+    "type": "opportunity",
+    "summary": "评估企业把握具有环境效益产品市场需求的产品与业务定位。",
+    "intro": "Opportunities in Clean Tech is a Key Issue in the Environmental Pillar of the MSCI ESG Ratings model. Companies are evaluated on their positioning to meet market demand for products with environmental benefits.",
+    "risks": [],
+    "risksCn": [],
+    "indicators": [
+      {
+        "component": "Strategy",
+        "componentCn": "战略",
+        "name": "Targets to increase investment in clean tech",
+        "nameCn": "增加清洁技术投资的目标",
+        "definition": "Indicates whether the company has disclosed quantitative targets to increase investment in clean technology.",
+        "definitionCn": "表明公司是否披露了增加清洁技术投资的定量目标。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Strategy",
+        "componentCn": "战略",
+        "name": "Strategic focus on clean technology development",
+        "nameCn": "对清洁技术开发的战略重点",
+        "definition": "Assesses the company’s strategic commitment to clean technology as part of its core business focus and growth plans. Highest performance reflects clean technology being a core business line or a primary focus for future R&D and innovation. Expressed as a 0–10 score, where 10 indicates the highest level of performance.",
+        "definitionCn": "评估公司将清洁技术作为其核心业务重点和增长计划一部分的战略承诺。最高绩效反映清洁技术是核心业务线或是未来研发与创新的首要重点。以 0–10 分表示，其中 10 表示最高绩效水平。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Programs & Initiatives",
+        "componentCn": "方案与举措",
+        "name": "Research and development intensity (as percentage of sales) score",
+        "nameCn": "研发强度（占销售额百分比）得分",
+        "definition": "Assesses the company’s performance on R&D intensity metrics (including R&D intensity normalized by sales, and trend in R&D intensity) relative to its peers. Expressed as a 0–10 score, where 10 indicates the highest level of performance.",
+        "definitionCn": "评估公司相对于同业组在研发强度指标（包括以销售额标准化的研发强度，以及研发强度趋势）上的绩效。以 0–10 分表示，其中 10 表示最高绩效水平。",
+        "level": 1,
+        "sourcePages": [
+          6,
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "R&D intensity(% of sales) industry relative score",
+        "definition": "Assesses the company’s performance on R&D intensity (as a percentage of sales) relative to its industry peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Programs & Initiatives",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Research and development intensity (as percentage of sales) score",
+        "nameCn": "研发强度（占销售额百分比）行业相对得分",
+        "definitionCn": "相对于行业同业，评估企业研发强度（占销售额百分比）的表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "方案与举措",
+        "parentCn": "研发强度（占销售额百分比）得分"
+      },
+      {
+        "name": "Three-year average R&D intensity(% of sales)",
+        "definition": "Measures the company’s three-year average R&D intensity (as a percentage of sales).",
+        "component": "Programs & Initiatives",
+        "level": 3,
+        "sourcePages": [
+          7
+        ],
+        "parent": "R&D intensity(% of sales) industry relative score",
+        "nameCn": "三年平均研发强度（占销售额百分比）",
+        "definitionCn": "衡量企业研发强度（占销售额百分比）的三年平均值。",
+        "componentCn": "方案与举措",
+        "parentCn": "研发强度（占销售额百分比）行业相对得分"
+      },
+      {
+        "name": "R&D intensity (% of sales) industry relative trend score",
+        "definition": "Assesses the company’s three-year average of year-over-year R&D intensity (as a percentage of sales) trend, relative to its peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Programs & Initiatives",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Research and development intensity (as percentage of sales) score",
+        "nameCn": "研发强度（占销售额百分比）行业相对趋势得分",
+        "definitionCn": "相对于同业，评估企业研发强度（占销售额百分比）同比变化趋势的三年平均表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "方案与举措",
+        "parentCn": "研发强度（占销售额百分比）得分"
+      },
+      {
+        "name": "Three-year average R&D intensity trend (% of sales)",
+        "definition": "Measures the company’s three-year average of year-over-year R&D intensity (as a percentage of sales) trend.",
+        "component": "Programs & Initiatives",
+        "level": 3,
+        "sourcePages": [
+          7
+        ],
+        "parent": "R&D intensity (% of sales) industry relative trend score",
+        "nameCn": "三年平均研发强度趋势（占销售额百分比）",
+        "definitionCn": "衡量企业研发强度（占销售额百分比）同比变化趋势的三年平均值。",
+        "componentCn": "方案与举措",
+        "parentCn": "研发强度（占销售额百分比）行业相对趋势得分"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Clean tech revenue score",
+        "nameCn": "清洁技术收入得分",
+        "definition": "The percentage of the company's revenue from clean tech activities. Expressed as a 0-10 score, where 10 indicates that the company derives more than 50% of its revenue from clean technology products and services.",
+        "definitionCn": "公司来自清洁技术活动的收入百分比。以 0-10 分表示，其中 10 表示公司超过 50% 的收入来自清洁技术产品与服务。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      }
+    ],
+    "keyMetrics": [],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 12,
+      "sourceFile": "6 opportunities-in-clean-tech-key-issue.pdf",
+      "source": "Environmental Pillar/6 opportunities-in-clean-tech-key-issue.pdf"
+    },
+    "sourceId": "opportunities-in-clean-tech",
+    "introPages": [
+      3
+    ],
+    "riskPages": [],
+    "scoringNote": "机遇型议题根据机遇敞口与把握机遇的管理能力进行非线性映射。下表是源 PDF 列出的管理指标与子指标；仅凭这些指标不能复算完整官方得分。",
+    "scoringPages": [
+      24,
+      25
+    ],
+    "rules": []
+  },
+  {
+    "id": "opportunities-in-green-building",
+    "name": "绿色建筑机遇",
+    "nameEn": "Opportunities in Green Building",
+    "pillar": "environmental",
+    "theme": "environmental-opportunities",
+    "type": "opportunity",
+    "summary": "评估企业物业资产的资源消耗与碳强度、面临绿色建筑法规的敞口，以及把握绿色建筑需求的定位。",
+    "intro": "Opportunities in Green Building is a Key Issue in the Environmental Pillar of the MSCI ESG Ratings model. Companies are evaluated based on the resource consumption and carbon intensity of their property assets, their potential exposure to environmental building regulations and their efforts to improve the environmental performance of their real estate assets.",
+    "risks": [],
+    "risksCn": [],
+    "indicators": [
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Extent of green building certification commitments in portfolio or development pipeline",
+        "nameCn": "投资组合或开发项目中绿色建筑认证承诺的程度",
+        "definition": "The portion of the company’s portfolio or development projects that are covered by its green building commitments. Applies to real estate companies only.",
+        "definitionCn": "公司投资组合或开发项目中受其绿色建筑承诺覆盖的部分。仅适用于房地产公司。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Extent of commercial arrangements to improve or maintain property environmental performance",
+        "nameCn": "改善或维持物业环境绩效的商业安排程度",
+        "definition": "Indicates whether the company provides evidence of implementing commercial agreements to incentivize tenants and property managers to improve property environmental performance. Applies to real estate companies only.",
+        "definitionCn": "表明公司是否提供证据，证明其已实施商业协议以激励租户和物业管理方改善物业环境绩效。仅适用于房地产公司。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Use of green or triple-net leases",
+        "nameCn": "绿色租赁或三重净租赁的使用",
+        "definition": "Indicates whether the company provides evidence of implementing green leases or triple-net leases in its tenancies. Applies to real estate companies only.",
+        "definitionCn": "表明公司是否提供证据，证明其租赁业务中实施了绿色租赁或三重净租赁。仅适用于房地产公司。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Green certification commitments related to greenfield developments",
+        "nameCn": "与绿地开发相关的绿色认证承诺",
+        "definition": "The company’s green building strategy for greenfield sites, including whether there is a clear statement on avoiding greenfield sites, the company only develops green-certified properties on greenfield developments, or we found no evidence of green certification for greenfield developments. Applies to real estate companies only.",
+        "definitionCn": "公司针对绿地的绿色建筑战略，包括是否明确声明避免绿地开发、公司仅在绿地开发中建设获得绿色认证的物业，或我们未发现绿地开发获得绿色认证的证据。仅适用于房地产公司。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Evidence of flexible or mixed-use properties in portfolio",
+        "nameCn": "投资组合中灵活用途或混合用途物业的证据",
+        "definition": "Indicates whether the company provides evidence of flexible or mixed-use properties in its property portfolio. Applies to real estate companies only.",
+        "definitionCn": "表明公司是否提供证据，证明其物业投资组合中存在灵活用途或混合用途物业。仅适用于房地产公司。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Evidence of urban revitalization developments",
+        "nameCn": "城市更新开发的证据",
+        "definition": "The level of urban redevelopment that the company undertakes. Best practice is urban revitalization. Applies to real estate companies only.",
+        "definitionCn": "公司开展的城市再开发程度。最佳实践为城市更新。仅适用于房地产公司。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Green building commitment extends to existing buildings in portfolio (in addition to new buildings)",
+        "nameCn": "绿色建筑承诺延伸至投资组合中的既有建筑（除新建建筑外）",
+        "definition": "Indicates whether the company renovates or redevelops its existing properties with either green building initiatives or green building certifications. Applies to real estate companies only.",
+        "definitionCn": "表明公司是否通过绿色建筑举措或绿色建筑认证对其既有物业进行翻新或再开发。仅适用于房地产公司。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Green building certification score",
+        "nameCn": "绿色建筑认证得分",
+        "definition": "Assesses the extent of certified spaces or buildings under selected green building standards. Expressed as a 0-10 score, with 10 indicating highest level of certification coverage across the portfolio.",
+        "definitionCn": "评估在选定绿色建筑标准下获得认证的空间或建筑的程度。以 0-10 分表示，10 表示投资组合中认证覆盖率最高。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Score of green certified buildings as % of total",
+        "definition": "Assesses the company’s performance on the share of green-certified buildings within its real estate portfolio, calculated as the percentage of total buildings that hold recognized green building certifications. Expressed as a 0–10 score, where 10 indicates the highest level of performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Green building certification score",
+        "nameCn": "绿色认证建筑数量占比得分",
+        "definitionCn": "评估企业房地产组合中绿色认证建筑的占比，按获得认可绿色建筑认证的建筑数量占全部建筑数量的百分比计算。以 0–10 分表示，10 表示最高绩效水平。",
+        "componentCn": "绩效表现",
+        "parentCn": "绿色建筑认证得分"
+      },
+      {
+        "name": "Score of green certified space as % of total",
+        "definition": "Assesses the company’s performance on the share of green-certified space within its real estate portfolio, calculated as the percentage of total floor area that holds recognized green building certifications. Expressed as a 0–10 score, where 10 indicates the highest level of performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Green building certification score",
+        "nameCn": "绿色认证建筑面积占比得分",
+        "definitionCn": "评估企业房地产组合中绿色认证面积的占比，按获得认可绿色建筑认证的建筑面积占总建筑面积的百分比计算。以 0–10 分表示，10 表示最高绩效水平。",
+        "componentCn": "绩效表现",
+        "parentCn": "绿色建筑认证得分"
+      },
+      {
+        "name": "Evidence of green certified buildings in real estate portfolio",
+        "definition": "Assesses the extent to which the company provides verifiable evidence of green-certified buildings within its real estate portfolio, based on the availability and quality of supporting documentation such as certification records or third-party registries. Expressed as a 0–5 score, where 10 indicates comprehensive and verifiable evidence.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Green building certification score",
+        "nameCn": "房地产组合中绿色认证建筑的证据",
+        "definitionCn": "根据认证记录、第三方名录等支持文件的可获得性与质量，评估企业提供房地产组合中绿色认证建筑可核实证据的程度。原文写为 0–5 分，同时称 10 表示证据全面且可核实；两者存在冲突，需核对原文。",
+        "componentCn": "绩效表现",
+        "parentCn": "绿色建筑认证得分",
+        "sourceNote": "原文同时写 0–5 分与“10 分表示全面披露”，存在标尺冲突；保留原文，未擅自修改范围。"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Carbon emissions performance relative to peers",
+        "nameCn": "相对同业组的碳排放绩效",
+        "definition": "Assesses the company's performance on greenhouse gas [GHG] emissions intensity (normalized by sales or by units of production), and trend in GHG emissions intensity, relative to its peers. Expressed as a 0-10 score, where 10 indicates the highest level of performance.",
+        "definitionCn": "评估公司相对同业组的温室气体[GHG]排放强度（按销售额或产量单位标准化）绩效及温室气体排放强度趋势。以 0-10 分表示，10 表示最高绩效水平。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      }
+    ],
+    "keyMetrics": [],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 15,
+      "sourceFile": "7 opportunities-in-green-building-key-issue.pdf",
+      "source": "Environmental Pillar/7 opportunities-in-green-building-key-issue.pdf"
+    },
+    "sourceId": "opportunities-in-green-building",
+    "introPages": [
+      3
+    ],
+    "riskPages": [],
+    "scoringNote": "机遇型议题根据机遇敞口与把握机遇的管理能力进行非线性映射。下表是源 PDF 列出的管理指标与子指标；仅凭这些指标不能复算完整官方得分。",
+    "scoringPages": [
+      24,
+      25
+    ],
+    "rules": []
+  },
+  {
+    "id": "opportunities-in-renewable-energy",
+    "name": "可再生能源机遇",
+    "nameEn": "Opportunities in Renewable Energy",
+    "pillar": "environmental",
+    "theme": "environmental-opportunities",
+    "type": "opportunity",
+    "summary": "评估企业通过新增装机与网络扩张把握可再生能源电力市场需求的定位。",
+    "intro": "Opportunities in Renewable Energy is a Key Issue in the Environmental Pillar of the MSCI ESG Ratings model. Companies are evaluated on their positioning to meet market demand for renewable power through capacity additions and network expansion.",
+    "risks": [],
+    "risksCn": [],
+    "indicators": [
+      {
+        "component": "Strategy",
+        "componentCn": "战略",
+        "name": "Targets to increase renewable capacity",
+        "nameCn": "提高可再生能源装机容量的目标",
+        "definition": "Indicates whether the company has disclosed quantitative targets to increase renewable energy capacity. Includes targets referring to owned capacity only, i.e., excluding purchasing agreements. Applies to companies with an electricity generation business only.",
+        "definitionCn": "表明公司是否披露了提高可再生能源装机容量的定量目标。仅包括针对自有装机容量的目标，即不包括购电协议。仅适用于拥有发电业务的公司。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Strategy",
+        "componentCn": "战略",
+        "name": "Internal structures to develop renewable capacity",
+        "nameCn": "发展可再生能源装机容量的内部架构",
+        "definition": "Assesses the company’s established internal structures related to developing renewable capacity. Best practice is to have a dedicated renewable energy subsidiary or be wholly involved in renewables. Applies to companies with an electricity generation business only.",
+        "definitionCn": "评估公司与发展可再生能源装机容量相关的既定内部架构。最佳实践是设有专门的可再生能源子公司或完全从事可再生能源业务。仅适用于拥有发电业务的公司。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Strategy",
+        "componentCn": "战略",
+        "name": "Investments to increase connection of renewable power to electric grid",
+        "nameCn": "增加可再生电力并网的投资",
+        "definition": "Indicates whether the company has made investments related to the increased connection of renewable power to the electric grid. Applies to companies with an electricity transmission or distribution business only.",
+        "definitionCn": "表明公司是否进行了与增加可再生电力并网相关的投资。仅适用于拥有输电或配电业务的公司。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Strategy",
+        "componentCn": "战略",
+        "name": "Score of planned additional renewable electricity generation relative to current total capacity",
+        "nameCn": "计划新增可再生能源发电量相对当前总量的得分",
+        "definition": "Assesses the company’s performance on ratio of planned additional renewable electricity generation to current total capacity. Expressed as a 0–10 score, where 10 indicates the highest level of performance.",
+        "definitionCn": "评估公司在计划新增可再生能源发电量与当前总装机容量之比方面的表现。以 0–10 分表示，10 分表示表现最高。当前总装机容量（MW）",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Current Total Installed Capacity (MW)",
+        "definition": "The current amount of installed capacity for power generation in megawatts (MW).",
+        "component": "Strategy",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Score of planned additional renewable electricity generation relative to current total capacity",
+        "nameCn": "当前总装机容量（MW）",
+        "definitionCn": "当前发电装机容量，以兆瓦（MW）计。",
+        "componentCn": "战略",
+        "parentCn": "计划新增可再生能源发电量相对当前总量的得分"
+      },
+      {
+        "name": "Additional renewable capacity (MW)",
+        "definition": "The amount of capacity in megawatts (MW) that an issuer has disclosed as planned additions which are renewables.",
+        "component": "Strategy",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Score of planned additional renewable electricity generation relative to current total capacity",
+        "nameCn": "新增可再生能源装机容量（MW）",
+        "definitionCn": "发行人已披露计划新增、且属于可再生能源的装机容量，以兆瓦（MW）计。",
+        "componentCn": "战略",
+        "parentCn": "计划新增可再生能源发电量相对当前总量的得分"
+      },
+      {
+        "component": "Programs & Initiatives",
+        "componentCn": "方案与举措",
+        "name": "Commercializes renewable power equipment",
+        "nameCn": "商业化可再生电力设备",
+        "definition": "Indicates whether the company implements programs that involve the installation of equipment used in renewable energy generation.",
+        "definitionCn": "表明公司是否实施涉及安装可再生能源发电所用设备的方案。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Programs & Initiatives",
+        "componentCn": "方案与举措",
+        "name": "Offers customers a green power option",
+        "nameCn": "为客户提供绿色电力选项",
+        "definition": "Indicates whether the company offers its customers the option to purchase power from renewable generation sources. Applies to companies with an electricity supply business only.",
+        "definitionCn": "表明公司是否为客户提供从可再生能源发电来源购电的选项。仅适用于拥有供电业务的公司。",
+        "level": 1,
+        "sourcePages": [
+          7,
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Renewable power capacity performance relative to peers",
+        "nameCn": "可再生电力装机容量绩效的相对同业表现",
+        "definition": "Assesses the company's performance on total renewable energy power capacity (as a percentage of total installed capacity), and trend in renewable energy power capacity, relative to its peers. Expressed as a 0-10 score, where 10 indicates the highest level of performance.",
+        "definitionCn": "评估公司在可再生能源总装机容量（占总装机容量的百分比）及可再生能源装机容量趋势方面相对于同业的表现。以 0-10 分表示，10 分表示表现最高。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Renewable power capacity (% of total installed capacity) score",
+        "definition": "Assesses the company’s performance on installed renewable power capacity expressed (as a percentage of total installed capacity). Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Renewable power capacity performance relative to peers",
+        "nameCn": "可再生能源装机占总装机容量百分比得分",
+        "definitionCn": "评估企业已安装可再生能源装机容量占总装机容量百分比的表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "可再生电力装机容量绩效的相对同业表现"
+      },
+      {
+        "name": "Three-year average renewable power capacity (% of total installed capacity)",
+        "definition": "Measures the company’s three-year average installed renewable capacity (as a percentage of total installed capacity).",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Renewable power capacity (% of total installed capacity) score",
+        "nameCn": "三年平均可再生能源装机占总装机容量百分比",
+        "definitionCn": "衡量企业已安装可再生能源装机容量占总装机容量百分比的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "可再生能源装机占总装机容量百分比得分"
+      },
+      {
+        "name": "Renewable power capacity (% of total installed capacity) industry relative trend score",
+        "definition": "Assesses the company’s three-year average of year-over-year installed renewable power capacity (as a percentage of total installed capacity) trend, relative to its peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Renewable power capacity performance relative to peers",
+        "nameCn": "可再生能源装机占总装机容量百分比行业相对趋势得分",
+        "definitionCn": "相对于同业，评估企业已安装可再生能源装机占总装机容量百分比同比变化趋势的三年平均表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "可再生电力装机容量绩效的相对同业表现"
+      },
+      {
+        "name": "Three-year average renewable power capacity trend (% of total installed capacity)",
+        "definition": "Measures the company’s three-year average of year-over-year installed renewable capacity (as a percentage of total installed capacity) trend.",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Renewable power capacity (% of total installed capacity) industry relative trend score",
+        "nameCn": "三年平均可再生能源装机占总装机容量百分比趋势",
+        "definitionCn": "衡量企业已安装可再生能源装机占总装机容量百分比同比变化趋势的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "可再生能源装机占总装机容量百分比行业相对趋势得分"
+      }
+    ],
+    "keyMetrics": [],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 15,
+      "sourceFile": "8 opportunities-in-renewable-energy-key-issue.pdf",
+      "source": "Environmental Pillar/8 opportunities-in-renewable-energy-key-issue.pdf"
+    },
+    "sourceId": "opportunities-in-renewable-energy",
+    "introPages": [
+      3
+    ],
+    "riskPages": [],
+    "scoringNote": "机遇型议题根据机遇敞口与把握机遇的管理能力进行非线性映射。下表是源 PDF 列出的管理指标与子指标；仅凭这些指标不能复算完整官方得分。",
+    "scoringPages": [
+      24,
+      25
+    ],
+    "rules": []
+  },
+  {
+    "id": "biodiversity-and-land-use",
+    "name": "生物多样性与土地利用",
+    "nameEn": "Biodiversity & Land Use",
+    "pillar": "environmental",
+    "theme": "natural-capital",
+    "type": "risk",
+    "summary": "评估企业运营对其所在区域生物多样性的潜在影响，以及其管理运营环境影响的举措。",
+    "intro": "Biodiversity & Land Use is a Key Issue in the Environmental Pillar of the MSCI ESG Ratings model. MSCI S&C evaluates companies on the potential impact of their operations on biodiversity in their areas of operation and their efforts to manage the environmental impact of their operations.",
+    "risks": [
+      "Loss of formal and social license to operate.",
+      "Litigation by landowners and other affected parties.",
+      "Increased costs of land protection and reclamation."
+    ],
+    "risksCn": [
+      "失去正式运营许可与社会运营许可。",
+      "土地所有者及其他受影响方提起诉讼。",
+      "土地保护与复垦成本增加。"
+    ],
+    "indicators": [
+      {
+        "component": "Policy & Disclosure",
+        "componentCn": "政策与披露",
+        "name": "Involvement with external stakeholder groups to address the biodiversity impacts of its operations",
+        "nameCn": "与外部利益相关方团体合作以应对其生物多样性影响",
+        "definition": "Indicates whether there are external stakeholder groups that work with the company to address the biodiversity impacts of its operations.",
+        "definitionCn": "表明是否存在与公司合作以应对其运营生物多样性影响的外部利益相关方团体。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Policy & Disclosure",
+        "componentCn": "政策与披露",
+        "name": "Scope of third-party engagement or standard to address the biodiversity impacts of operations",
+        "nameCn": "应对生物多样性影响的第三方参与或标准的范围",
+        "definition": "The estimated share of operations with ecosystem protection programs certified or assured by an external stakeholder group.",
+        "definitionCn": "获得外部利益相关方团体认证或鉴证的生态系统保护项目所覆盖的运营估计占比。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Policy & Disclosure",
+        "componentCn": "政策与披露",
+        "name": "Commitment to minimize disturbances on biodiversity",
+        "nameCn": "尽量减少对生物多样性干扰的承诺",
+        "definition": "Indicates whether the company has disclosed an explicit commitment to minimize disturbances on biodiversity, for example following the mitigation hierarchy of “avoid, minimize, restore and offset.”",
+        "definitionCn": "表明公司是否披露了尽量减少对生物多样性干扰的明确承诺，例如遵循“避免、减少、恢复和补偿”的减缓层级。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Policy & Disclosure",
+        "componentCn": "政策与披露",
+        "name": "Commitment to reclaim habitat on disturbed land",
+        "nameCn": "复垦受干扰土地栖息地的承诺",
+        "definition": "Indicates whether the company has disclosed an explicit policy to eventually reclaim the habitat of all disturbed land.",
+        "definitionCn": "表明公司是否披露了最终复垦所有受干扰土地栖息地的明确政策。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Policy & Disclosure",
+        "componentCn": "政策与披露",
+        "name": "Scope of biodiversity and land reclamation policy",
+        "nameCn": "生物多样性与土地复垦政策的范围",
+        "definition": "The scope of operations covered by the company’s disclosed biodiversity and land reclamation policy, where applicable (i.e., all operations including its supply chain, all direct operations, or partial operations).",
+        "definitionCn": "公司所披露的生物多样性与土地复垦政策所覆盖的运营范围（如适用），即包括供应链在内的所有运营、所有直接运营或部分运营。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Programs & Structures",
+        "componentCn": "方案与组织",
+        "name": "Extent of programs to protect ecosystems",
+        "nameCn": "生态系统保护方案的程度",
+        "definition": "Assesses the comprehensiveness of the company’s steps to protect ecosystems, for example, whether the company creates ecosystem reserves vs. isolated initiatives to protect single species, and whether such practices apply to all major sites or only selected operations.",
+        "definitionCn": "评估公司保护生态系统措施的全面性，例如公司是建立生态系统保护区还是仅采取保护单一物种的孤立举措，以及此类实践适用于所有主要场所还是仅适用于部分运营。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Programs & Structures",
+        "componentCn": "方案与组织",
+        "name": "Conducts biodiversity impact assessments",
+        "nameCn": "开展生物多样性影响评估",
+        "definition": "Indicates whether the company conducts biodiversity impact assessments prior to settling in new areas.",
+        "definitionCn": "表明公司在进入新区域之前是否开展生物多样性影响评估。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Oil spills performance relative to peers",
+        "nameCn": "相对同业组的溢油绩效",
+        "definition": "Assesses the company’s performance on oil spills intensity (normalized by sales), and trend in oil spills intensity, relative to its peers. Expressed as a 0–10 score, where 10 indicates the highest level of performance.",
+        "definitionCn": "评估公司相对同业组的溢油强度（按销售额标准化）绩效及溢油强度趋势。以 0–10 分表示，10 表示最高绩效水平。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Oil spill intensity industry relative score",
+        "definition": "Assesses the company’s performance on oil spill intensity metrics (total volume of oil spilled normalized by sales) relative to its industry peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Oil spills performance relative to peers",
+        "nameCn": "溢油强度行业相对得分",
+        "definitionCn": "相对于行业同业，评估企业溢油强度指标（溢油总量除以销售额）的表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业组的溢油绩效"
+      },
+      {
+        "name": "Three-year average oil spill intensity (sales based)",
+        "definition": "Measures the company’s three-year average oil spill intensity, calculated as total oil spill volume per unit of sales.",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Oil spill intensity industry relative score",
+        "nameCn": "三年平均溢油强度（按销售额）",
+        "definitionCn": "衡量企业溢油总量除以每单位销售额所得溢油强度的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "溢油强度行业相对得分"
+      },
+      {
+        "name": "Oil spill intensity industry relative trend score",
+        "definition": "Assesses the company’s performance on the three-year trend in oil spill intensity (year-over-year change in oil spill volume normalized by sales) relative to its industry peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Oil spills performance relative to peers",
+        "nameCn": "溢油强度行业相对趋势得分",
+        "definitionCn": "相对于行业同业，评估企业溢油强度的三年趋势，即以销售额为分母的溢油量同比变化。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业组的溢油绩效"
+      },
+      {
+        "name": "Three-year average year-over-year oil spill intensity trend (sales based)",
+        "definition": "Measures the company’s three-year trend in oil spill intensity.",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Oil spill intensity industry relative trend score",
+        "nameCn": "三年平均溢油强度同比趋势（按销售额）",
+        "definitionCn": "衡量企业溢油强度的三年趋势。",
+        "componentCn": "绩效表现",
+        "parentCn": "溢油强度行业相对趋势得分"
+      }
+    ],
+    "keyMetrics": [],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 15,
+      "sourceFile": "1 biodiversity-and-land-use-key-issue.pdf",
+      "source": "Environmental Pillar/1 biodiversity-and-land-use-key-issue.pdf"
+    },
+    "sourceId": "biodiversity-and-land-use",
+    "introPages": [
+      3
+    ],
+    "riskPages": [
+      4
+    ],
+    "scoringNote": "风险型议题将风险敞口与风险管理得分通过总方法论的映射组合，不是两者直接相乘。管理评估可包含实践、绩效、目标及争议扣分；具体组件和行业适用性见本议题 PDF。",
+    "scoringPages": [
+      21,
+      22,
+      23
+    ],
+    "rules": []
+  },
+  {
+    "id": "raw-materials-sourcing",
+    "name": "原材料采购",
+    "nameEn": "Raw Material Sourcing",
+    "pillar": "environmental",
+    "theme": "natural-capital",
+    "type": "risk",
+    "summary": "评估产品所用原材料的环境影响，以及企业在供应链可追溯性与认证方面的努力。",
+    "intro": "Raw Material Sourcing is a Key Issue in the Environmental Pillar of the MSCI ESG Ratings model. Companies are evaluated on the environmental impacts of the raw materials used in their products and their efforts around supply-chain traceability and certification.",
+    "risks": [
+      "Loss of market access.",
+      "Increased cost of goods sold or additional compliance costs.",
+      "Regulatory penalties, fines, confiscation of product, or loss of access to government contracts.",
+      "Damage to brand value.",
+      "Failure to meet consumer demand for more environmentally sound products."
+    ],
+    "risksCn": [
+      "市场准入丧失。",
+      "销售成本增加或额外的合规成本。",
+      "监管处罚、罚款、产品没收，或丧失政府合同准入资格。",
+      "品牌价值受损。",
+      "未能满足消费者对更环保产品的需求。"
+    ],
+    "indicators": [
+      {
+        "name": "Commitments towards responsible beef and/or dairy sourcing",
+        "definition": "Indicates whether the company has an explicit policy to sustainably source beef and/or dairy (e.g., zero-deforestation beef policy) or whether it belongs to an industry group with such a policy (e.g., the Global Roundtable on Responsible Beef).",
+        "component": "Beef & Dairy Policy",
+        "level": 1,
+        "sourcePages": [
+          7,
+          8
+        ],
+        "parent": "",
+        "nameCn": "负责任牛肉及乳制品采购承诺",
+        "definitionCn": "说明企业是否具有明确的牛肉及乳制品可持续采购政策（例如牛肉零毁林政策），或加入了具有此类政策的行业组织（例如全球可持续牛肉圆桌组织）。",
+        "componentCn": "牛肉与乳制品政策",
+        "parentCn": ""
+      },
+      {
+        "component": "Beef & Dairy Policy",
+        "componentCn": "牛肉与乳制品政策",
+        "name": "Percentage of beef and/or dairy third-party certified to an environmental sustainability standard",
+        "nameCn": "牛肉和/或乳制品获第三方环境可持续认证的比例",
+        "definition": "The estimated share of beef and/or dairy externally certified to sustainable standards (e.g., organic certification).",
+        "definitionCn": "牛肉和/或乳制品经外部可持续标准（如有机认证）认证的估计比例。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Beef & Dairy Policy",
+        "componentCn": "牛肉与乳制品政策",
+        "name": "Extent of beef and/or dairy certification against the most stringent sustainable criteria",
+        "nameCn": "牛肉和/或乳制品按最严格可持续标准认证的程度",
+        "definition": "The estimated share of the company’s supply of beef and/or dairy externally certified to the most stringent sustainable standards (e.g., Rainforest Alliance).",
+        "definitionCn": "公司牛肉和/或乳制品供应经外部最严格可持续标准（如 Rainforest Alliance）认证的估计比例。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Beef & Dairy Policy",
+        "componentCn": "牛肉与乳制品政策",
+        "name": "Extent of beef and/or dairy traceability to place of origin",
+        "nameCn": "牛肉和/或乳制品追溯至原产地的程度",
+        "definition": "The estimated level of traceability of beef and/or dairy up to the plantation/farm level. Best practice is for all products to be traceable.",
+        "definitionCn": "牛肉和/或乳制品追溯至种植园/农场层级的估计程度。最佳实践是所有产品均可追溯。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Beef & Dairy Policy",
+        "componentCn": "牛肉与乳制品政策",
+        "name": "Extent of supply chain initiatives to address impacts of beef and/or dairy production",
+        "nameCn": "应对牛肉和/或乳制品生产影响的供应链举措程度",
+        "definition": "The extent of the company’s initiatives to develop sustainable practices within its beef and/or dairy supply chain, e.g., sustainable land management program, methane reduction program, implementation of specific sustainable requirements for suppliers and verification of compliance.",
+        "definitionCn": "公司在牛肉和/或乳制品供应链内发展可持续实践的举措程度，例如可持续土地管理方案、甲烷减排方案、对供应商实施特定可持续要求并核查合规情况。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Beef & Dairy Policy",
+        "componentCn": "牛肉与乳制品政策",
+        "name": "Future targets for beef and/or dairy sourcing",
+        "nameCn": "牛肉和/或乳制品采购的未来目标",
+        "definition": "The extent to which the company has clear, measurable targets for certifying or tracing its sources of beef and/or dairy.",
+        "definitionCn": "公司就牛肉和/或乳制品来源的认证或追溯设定清晰、可衡量目标的程度。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Commitments towards responsible cotton sourcing",
+        "definition": "Indicates whether the company has an explicit policy to sustainably source cotton or whether it belongs to an industry group with such a policy (e.g., Textile Exchange or Better Cotton Initiative).",
+        "component": "Cotton Policy",
+        "level": 1,
+        "sourcePages": [
+          8,
+          9
+        ],
+        "parent": "",
+        "nameCn": "负责任棉花采购承诺",
+        "definitionCn": "说明企业是否具有明确的棉花可持续采购政策，或加入了具有此类政策的行业组织（例如 Textile Exchange 或 Better Cotton Initiative）。",
+        "componentCn": "棉花政策",
+        "parentCn": ""
+      },
+      {
+        "component": "Cotton Policy",
+        "componentCn": "棉花政策",
+        "name": "Percentage of cotton third-party certified to an environmental standard",
+        "nameCn": "棉花获第三方环境标准认证的比例",
+        "definition": "The estimated share of cotton externally certified to sustainable standards (e.g., Better Cotton Initiative).",
+        "definitionCn": "棉花经外部可持续标准（如 Better Cotton Initiative）认证的估计比例。",
+        "level": 1,
+        "sourcePages": [
+          9
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Cotton Policy",
+        "componentCn": "棉花政策",
+        "name": "Extent of cotton traceability to place of origin",
+        "nameCn": "棉花追溯至原产地的程度",
+        "definition": "The estimated level of traceability of cotton up to the plantation/farm level. Best practice is for all products to be traceable.",
+        "definitionCn": "棉花追溯至种植园/农场层级的估计程度。最佳实践是所有产品均可追溯。",
+        "level": 1,
+        "sourcePages": [
+          9
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Cotton Policy",
+        "componentCn": "棉花政策",
+        "name": "Extent of supply chain initiatives to address impacts of cotton production",
+        "nameCn": "应对棉花生产影响的供应链举措程度",
+        "definition": "The extent of the company’s initiatives to develop sustainable practices within its cotton supply chain, e.g., water and pesticide reduction programs, technical assistance to obtain sustainable certification.",
+        "definitionCn": "公司在棉花供应链内发展可持续实践的举措程度，例如节水和减少农药方案、为获得可持续认证提供技术援助。",
+        "level": 1,
+        "sourcePages": [
+          9
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Cotton Policy",
+        "componentCn": "棉花政策",
+        "name": "Future targets for cotton sourcing",
+        "nameCn": "棉花采购的未来目标",
+        "definition": "The extent to which the company has clear, measurable targets for certifying or tracing its sources of cotton.",
+        "definitionCn": "公司就棉花来源的认证或追溯设定清晰、可衡量目标的程度。",
+        "level": 1,
+        "sourcePages": [
+          9
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Leather Policy",
+        "componentCn": "皮革政策",
+        "name": "Commitments towards responsible leather sourcing",
+        "nameCn": "负责任皮革采购的承诺",
+        "definition": "Indicates whether the company has an explicit policy to sustainably source leather (e.g., addressing deforestation) or whether it belongs to an industry group with such a policy (e.g., Leather Working Group).",
+        "definitionCn": "表明公司是否有明确的可持续采购皮革政策（如应对森林砍伐），或是否属于制定此类政策的行业组织（如 Leather Working Group）。",
+        "level": 1,
+        "sourcePages": [
+          9
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Leather Policy",
+        "componentCn": "皮革政策",
+        "name": "Percentage of leather third-party certified to an environmental sustainability standard",
+        "nameCn": "皮革获第三方环境可持续标准认证的比例",
+        "definition": "The estimated share of leather externally certified to sustainable standards (e.g., Leather Working Group).",
+        "definitionCn": "皮革经外部可持续标准（如 Leather Working Group）认证的估计比例。",
+        "level": 1,
+        "sourcePages": [
+          9,
+          10
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Leather Policy",
+        "componentCn": "皮革政策",
+        "name": "Extent of leather certification against the most stringent sustainable criteria",
+        "nameCn": "皮革按最严格可持续标准认证的程度",
+        "definition": "The estimated share of the company’s supply of leather externally certified to the most stringent sustainable standards (e.g., Recycled).",
+        "definitionCn": "公司皮革供应经外部最严格可持续标准（如 Recycled）认证的估计比例。",
+        "level": 1,
+        "sourcePages": [
+          10
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Leather Policy",
+        "componentCn": "皮革政策",
+        "name": "Extent of leather traceability to place of origin",
+        "nameCn": "皮革追溯至原产地的程度",
+        "definition": "The estimated level of traceability of leather up to the plantation/farm level. Best practice is for all products to be traceable.",
+        "definitionCn": "皮革追溯至种植园/农场层级的估计程度。最佳实践是所有产品均可追溯。",
+        "level": 1,
+        "sourcePages": [
+          10
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Leather Policy",
+        "componentCn": "皮革政策",
+        "name": "Extent of supply chain initiatives to address impacts of leather production",
+        "nameCn": "应对皮革生产影响的供应链举措程度",
+        "definition": "The extent of the company’s initiatives to develop sustainable practices within its leather supply chain, e.g., technical assistance to obtain sustainable certification, reduction of chemical use in the dyeing and tanning process.",
+        "definitionCn": "公司在皮革供应链内发展可持续实践的举措程度，例如为获得可持续认证提供技术援助、减少染色和鞣制过程中的化学品使用。",
+        "level": 1,
+        "sourcePages": [
+          10
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Leather Policy",
+        "componentCn": "皮革政策",
+        "name": "Future targets for leather sourcing",
+        "nameCn": "皮革采购的未来目标",
+        "definition": "The extent to which the company has clear, measurable targets for certifying or tracing its sources of leather.",
+        "definitionCn": "公司就皮革来源的认证或追溯设定清晰、可衡量目标的程度。",
+        "level": 1,
+        "sourcePages": [
+          10
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Palm Oil Policy",
+        "componentCn": "棕榈油政策",
+        "name": "Commitments towards responsible palm oil sourcing",
+        "nameCn": "负责任棕榈油采购的承诺",
+        "definition": "Indicates whether the company has an explicit policy to sustainably source palm oil (e.g., no deforestation, no peat, no exploitation policy) or whether it belongs to an industry group with such a policy (e.g., the Roundtable on Sustainable Palm Oil).",
+        "definitionCn": "表明公司是否有明确的可持续采购棕榈油政策（如无森林砍伐、无泥炭、无剥削政策），或是否属于制定此类政策的行业组织（如 the Roundtable on Sustainable Palm Oil）。",
+        "level": 1,
+        "sourcePages": [
+          10
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Palm Oil Policy",
+        "componentCn": "棕榈油政策",
+        "name": "Percentage of palm oil third-party certified to an environmental sustainability standard",
+        "nameCn": "棕榈油获第三方环境可持续标准认证的比例",
+        "definition": "The estimated share of palm oil externally certified to sustainable standards (e.g., Roundtable on Sustainable Palm Oil).",
+        "definitionCn": "棕榈油经外部可持续标准（如 Roundtable on Sustainable Palm Oil）认证的估计比例。",
+        "level": 1,
+        "sourcePages": [
+          10,
+          11
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Palm Oil Policy",
+        "componentCn": "棕榈油政策",
+        "name": "Extent of palm oil certification against the most stringent sustainable criteria",
+        "nameCn": "棕榈油按最严格可持续标准认证的程度",
+        "definition": "The estimated share of the company’s supply of palm oil externally certified to the most stringent sustainable standards (e.g., Segregated or Identity Preserved Roundtable on Sustainable Palm Oil).",
+        "definitionCn": "公司棕榈油供应经外部最严格可持续标准（如 Segregated 或 Identity Preserved Roundtable on Sustainable Palm Oil）认证的估计比例。",
+        "level": 1,
+        "sourcePages": [
+          11
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Palm Oil Policy",
+        "componentCn": "棕榈油政策",
+        "name": "Extent of palm oil traceability to place of origin",
+        "nameCn": "棕榈油追溯至原产地的程度",
+        "definition": "The estimated level of traceability of palm oil up to the plantation/farm level. Best practice is for all products to be traceable.",
+        "definitionCn": "棕榈油追溯至种植园/农场层级的估计程度。最佳实践是所有产品均可追溯。",
+        "level": 1,
+        "sourcePages": [
+          11
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Palm Oil Policy",
+        "componentCn": "棕榈油政策",
+        "name": "Extent of supply chain initiatives to address impacts of palm oil production",
+        "nameCn": "应对棕榈油生产影响的供应链举措程度",
+        "definition": "The extent of the company’s initiatives to develop sustainable practices within its palm oil supply chain, e.g., technical assistance to obtain sustainable certification, implementation of specific sustainable requirements for suppliers and verification of compliance.",
+        "definitionCn": "公司在棕榈油供应链内发展可持续实践的举措程度，例如为获得可持续认证提供技术援助、对供应商实施特定可持续要求并核查合规情况。",
+        "level": 1,
+        "sourcePages": [
+          11
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Palm Oil Policy",
+        "componentCn": "棕榈油政策",
+        "name": "Future targets for palm oil sourcing",
+        "nameCn": "棕榈油采购的未来目标",
+        "definition": "The extent to which the company has clear, measurable targets for certifying or tracing its sources of palm oil.",
+        "definitionCn": "公司就棕榈油来源的认证或追溯设定清晰、可衡量目标的程度。",
+        "level": 1,
+        "sourcePages": [
+          11
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Seafood Policy",
+        "componentCn": "海产品政策",
+        "name": "Commitments towards responsible seafood sourcing",
+        "nameCn": "负责任海产品采购的承诺",
+        "definition": "Indicates whether the company has an explicit policy to sustainably source seafood (e.g., banning the sale of endangered species, specifying acceptable fishing methods) or whether it belongs to an industry group with such a policy (e.g., Marine Stewardship Council).",
+        "definitionCn": "表明公司是否有明确的可持续采购海产品政策（如禁止销售濒危物种、规定可接受的捕捞方式），或是否属于制定此类政策的行业组织（如 Marine Stewardship Council）。",
+        "level": 1,
+        "sourcePages": [
+          11
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Seafood Policy",
+        "componentCn": "海产品政策",
+        "name": "Percentage of seafood third-party certified to an environmental sustainability standard",
+        "nameCn": "海产品获第三方环境可持续标准认证的比例",
+        "definition": "The estimated share of seafood externally certified to sustainable standards (e.g., Global Aquaculture Alliance’s Best Aquaculture Practices).",
+        "definitionCn": "海产品经外部可持续标准（如 Global Aquaculture Alliance's Best Aquaculture Practices）认证的估计比例。",
+        "level": 1,
+        "sourcePages": [
+          12
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Seafood Policy",
+        "componentCn": "海产品政策",
+        "name": "Extent of seafood certification against the most stringent sustainable criteria",
+        "nameCn": "海产品按最严格可持续标准认证的程度",
+        "definition": "The estimated share of the company’s supply of seafood externally certified to the most stringent sustainable standards (e.g., Marine Stewardship Council, Aquaculture Stewardship Council).",
+        "definitionCn": "公司海产品供应经外部最严格可持续标准（如 Marine Stewardship Council、Aquaculture Stewardship Council）认证的估计比例。",
+        "level": 1,
+        "sourcePages": [
+          12
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Seafood Policy",
+        "componentCn": "海产品政策",
+        "name": "Extent of seafood traceability to place of origin",
+        "nameCn": "海产品追溯至原产地的程度",
+        "definition": "The estimated level of traceability of seafood up to the fishing location/farm level. Best practice is for all products to be traceable.",
+        "definitionCn": "海产品追溯至捕捞地点/养殖场层级的估计程度。最佳实践是所有产品均可追溯。",
+        "level": 1,
+        "sourcePages": [
+          12
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Seafood Policy",
+        "componentCn": "海产品政策",
+        "name": "Extent of supply chain initiatives to address impacts of seafood production",
+        "nameCn": "应对海产品生产影响的供应链举措程度",
+        "definition": "The extent of the company’s initiatives to develop sustainable practices within its seafood supply chain, e.g., technical assistance to obtain sustainable certification, involvement in Fisheries Improvement Projects.",
+        "definitionCn": "公司在海产品供应链内发展可持续实践的举措程度，例如为获得可持续认证提供技术援助、参与渔业改进项目。",
+        "level": 1,
+        "sourcePages": [
+          12
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Seafood Policy",
+        "componentCn": "海产品政策",
+        "name": "Future targets for seafood sourcing",
+        "nameCn": "海产品采购的未来目标",
+        "definition": "The extent to which the company has clear, measurable targets for certifying or tracing its sources of seafood.",
+        "definitionCn": "公司就海产品来源的认证或追溯设定清晰、可衡量目标的程度。",
+        "level": 1,
+        "sourcePages": [
+          12
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Timber Policy",
+        "componentCn": "木材政策",
+        "name": "Commitments towards responsible timber and/or paper sourcing",
+        "nameCn": "负责任木材和/或纸张采购的承诺",
+        "definition": "Indicates whether the company has an explicit policy to sustainably source timber or whether it belongs to an industry group with such a policy (e.g., Forest Stewardship Council).",
+        "definitionCn": "表明公司是否有明确的可持续采购木材政策，或是否属于制定此类政策的行业组织（如 Forest Stewardship Council）。",
+        "level": 1,
+        "sourcePages": [
+          12
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Timber Policy",
+        "componentCn": "木材政策",
+        "name": "Percentage of timber or paper third-party certified to an environmental sustainability standard",
+        "nameCn": "木材或纸张获第三方环境可持续认证的比例",
+        "definition": "The estimated share of timber or paper externally certified to sustainable standards (e.g., Programme for the Endorsement of Forest Certification).",
+        "definitionCn": "木材或纸张经外部可持续标准（如 Programme for the Endorsement of Forest Certification）认证的估计比例。",
+        "level": 1,
+        "sourcePages": [
+          13
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Timber Policy",
+        "componentCn": "木材政策",
+        "name": "Extent of timber certification against the most stringent sustainable criteria",
+        "nameCn": "木材按最严格可持续标准认证的程度",
+        "definition": "The estimated share of the company’s supply of timber externally certified to the most stringent sustainable standards (e.g., Forest Stewardship Council).",
+        "definitionCn": "公司木材供应经外部最严格可持续标准（如 Forest Stewardship Council）认证的估计比例。",
+        "level": 1,
+        "sourcePages": [
+          13
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Timber Policy",
+        "componentCn": "木材政策",
+        "name": "Extent of timber and/or paper traceability to place of origin",
+        "nameCn": "木材和/或纸张追溯至原产地的程度",
+        "definition": "The estimated level of traceability of timber and/or paper up to the plantation or forest level. Best practice is for all products to be traceable.",
+        "definitionCn": "木材和/或纸张追溯至种植园或森林层级的估计程度。最佳实践是所有产品均可追溯。",
+        "level": 1,
+        "sourcePages": [
+          13
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Timber Policy",
+        "componentCn": "木材政策",
+        "name": "Extent of supply chain initiatives to address impacts of timber and/or paper production",
+        "nameCn": "应对木材和/或纸张生产影响的供应链举措程度",
+        "definition": "The extent of the company’s initiatives to develop sustainable practices within its timber and/or paper supply chain, e.g., technical assistance to obtain sustainable certification, implementation of specific sustainable requirements for suppliers and verification of compliance.",
+        "definitionCn": "公司在木材和/或纸张供应链内发展可持续实践的举措程度，例如为获得可持续认证提供技术援助、对供应商实施特定可持续要求并核查合规情况。",
+        "level": 1,
+        "sourcePages": [
+          13
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Timber Policy",
+        "componentCn": "木材政策",
+        "name": "Future targets for timber and/or paper sourcing",
+        "nameCn": "木材和/或纸张采购的未来目标",
+        "definition": "The extent to which the company has clear, measurable targets for certifying or tracing its sources of timber and/or paper.",
+        "definitionCn": "公司是否为木材和／或纸张来源的认证或追溯设定明确、可衡量的目标。",
+        "level": 1,
+        "sourcePages": [
+          13
+        ],
+        "parent": "",
+        "parentCn": ""
+      }
+    ],
+    "keyMetrics": [],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 19,
+      "sourceFile": "11 raw-materials-sourcing-key-issue.pdf",
+      "source": "Environmental Pillar/11 raw-materials-sourcing-key-issue.pdf"
+    },
+    "sourceId": "raw-materials-sourcing",
+    "introPages": [
+      3
+    ],
+    "riskPages": [
+      4
+    ],
+    "scoringNote": "风险型议题将风险敞口与风险管理得分通过总方法论的映射组合，不是两者直接相乘。管理评估可包含实践、绩效、目标及争议扣分；具体组件和行业适用性见本议题 PDF。",
+    "scoringPages": [
+      21,
+      22,
+      23
+    ],
+    "rules": []
+  },
+  {
+    "id": "water-stress",
+    "name": "水资源压力",
+    "nameEn": "Water Stress",
+    "pillar": "environmental",
+    "theme": "natural-capital",
+    "type": "risk",
+    "summary": "评估企业运营的水资源强度、运营地区的水资源压力，以及其管理水资源相关风险的举措。",
+    "intro": "Water Stress is a Key Issue in the Environmental Pillar of the MSCI ESG Ratings model. Companies are evaluated on the water intensity of their operations, the water stress in their areas of operations, and their efforts to manage water-related risks.",
+    "risks": [
+      "Operational disruptions to production processes requiring water as a critical input.",
+      "Loss of access to markets through community opposition and heightened regulatory hurdles.",
+      "Increased costs to comply with more stringent regulations and install equipment and systems to reduce water use.",
+      "Higher water use costs."
+    ],
+    "risksCn": [
+      "以水作为关键投入的生产流程发生运营中断。",
+      "因社区反对和监管障碍加剧而失去市场准入。",
+      "为遵守更严格的法规以及安装减少用水量的设备和系统而增加的成本。",
+      "更高的用水成本。"
+    ],
+    "indicators": [
+      {
+        "component": "Governance & Strategy",
+        "componentCn": "治理与战略",
+        "name": "Use of alternative water",
+        "nameCn": "替代水源的使用",
+        "definition": "Assesses the company's use of water from non-freshwater sources. Expressed as a 0-10 score, with 10 indicating higher usage from non-freshwater sources.",
+        "definitionCn": "评估公司对非淡水来源水的使用。以 0-10 分表示，10 表示非淡水来源使用比例更高。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Evidence of using alternative water sources",
+        "definition": "Indicates whether there is evidence that the company uses some alternative water sources, but a percentage is not available. Alternative water sources include seawater, brackish water, gray water and rainwater.",
+        "component": "Governance & Strategy",
+        "level": 2,
+        "sourcePages": [
+          6
+        ],
+        "parent": "Use of alternative water",
+        "nameCn": "使用替代水源的证据",
+        "definitionCn": "说明是否有证据表明企业使用部分替代水源，但未提供百分比。替代水源包括海水、半咸水、灰水和雨水。",
+        "componentCn": "治理与战略",
+        "parentCn": "替代水源的使用"
+      },
+      {
+        "name": "Percentage of water use from alternative water sources",
+        "definition": "The amount of water that the company obtains from alternative sources. Alternative water sources include seawater, brackish water, gray water, and rainwater.",
+        "component": "Governance & Strategy",
+        "level": 2,
+        "sourcePages": [
+          6,
+          7
+        ],
+        "parent": "Use of alternative water",
+        "nameCn": "替代水源用水占比",
+        "definitionCn": "企业从替代水源取得的水量。替代水源包括海水、半咸水、灰水和雨水。",
+        "componentCn": "治理与战略",
+        "parentCn": "替代水源的使用"
+      },
+      {
+        "component": "Governance & Strategy",
+        "componentCn": "治理与战略",
+        "name": "Scope of water reduction programs at own operations",
+        "nameCn": "自有运营中节水方案的范围",
+        "definition": "Assesses the extent to which the company has implemented water reduction measures at its direct operations.",
+        "definitionCn": "评估公司在直接运营中实施节水措施的程度。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Governance & Strategy",
+        "componentCn": "治理与战略",
+        "name": "Programs to reduce water use in value chains",
+        "nameCn": "减少价值链用水量的方案",
+        "definition": "Assesses the extent to which the company has implemented or supported operational programs aimed at reducing water use in its value chain.",
+        "definitionCn": "评估公司实施或支持旨在减少其价值链用水量的运营方案的程度。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Governance & Strategy",
+        "componentCn": "治理与战略",
+        "name": "Water recycling rate score",
+        "nameCn": "水回收利用率得分",
+        "definition": "Assesses the company's water recycling rate based on the company's reported value. Expressed as a 0-10 score, with 10 indicating a higher recycling rate.",
+        "definitionCn": "根据公司报告数值评估其水回收利用率。以 0-10 分表示，10 表示回收利用率更高。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Water recycling rate",
+        "definition": "The percentage of recycled or recirculated water of total water usage.",
+        "component": "Governance & Strategy",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Water recycling rate score",
+        "nameCn": "水循环利用率",
+        "definitionCn": "循环利用或回用水量占总用水量的百分比。",
+        "componentCn": "治理与战略",
+        "parentCn": "水回收利用率得分"
+      },
+      {
+        "component": "Governance & Strategy",
+        "componentCn": "治理与战略",
+        "name": "Executive body responsible for water management strategy and performance",
+        "nameCn": "负责水管理战略与绩效的执行机构",
+        "definition": "Assesses the governing level of water strategy and performance oversight assigned to dedicated individuals or a committee. Expressed as a 0-10 score, with 10 indicating CEO or board-level oversight.",
+        "definitionCn": "评估负责水战略与绩效监督的专职人员或委员会的治理层级。以 0-10 分表示，10 表示首席执行官或董事会层面的监督。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "CEO is responsible for water management strategy and performance",
+        "definition": "Indicates whether the CEO is responsible for water management strategy and performance.",
+        "component": "Governance & Strategy",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Executive body responsible for water management strategy and performance",
+        "nameCn": "CEO 负责水管理战略与绩效",
+        "definitionCn": "说明 CEO 是否负责水管理战略与绩效。",
+        "componentCn": "治理与战略",
+        "parentCn": "负责水管理战略与绩效的执行机构"
+      },
+      {
+        "name": "CSR or sustainability committee is responsible for water management strategy and performance",
+        "definition": "Indicates whether corporate social responsibility or sustainability committees are responsible for water management strategy and performance.",
+        "component": "Governance & Strategy",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Executive body responsible for water management strategy and performance",
+        "nameCn": "企业社会责任或可持续发展委员会负责水管理战略与绩效",
+        "definitionCn": "说明企业社会责任或可持续发展委员会是否负责水管理战略与绩效。",
+        "componentCn": "治理与战略",
+        "parentCn": "负责水管理战略与绩效的执行机构"
+      },
+      {
+        "name": "Non-executive- or non-committee-level task force is responsible for water management strategy and performance",
+        "definition": "Indicates whether responsibility for water management strategy and performance is with a nonexecutive-or non-committee-level task force or risk officer.",
+        "component": "Governance & Strategy",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Executive body responsible for water management strategy and performance",
+        "nameCn": "非执行人员或非委员会层级工作组负责水管理战略与绩效",
+        "definitionCn": "说明水管理战略与绩效是否由非执行人员或非委员会层级工作组或风险负责人负责。",
+        "componentCn": "治理与战略",
+        "parentCn": "负责水管理战略与绩效的执行机构"
+      },
+      {
+        "name": "Senior executive or executive committee is responsible for water management strategy and performance",
+        "definition": "Indicates whether a senior executive or executive committee are responsible for water management strategy and performance.",
+        "component": "Governance & Strategy",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Executive body responsible for water management strategy and performance",
+        "nameCn": "高级管理人员或执行委员会负责水管理战略与绩效",
+        "definitionCn": "说明高级管理人员或执行委员会是否负责水管理战略与绩效。",
+        "componentCn": "治理与战略",
+        "parentCn": "负责水管理战略与绩效的执行机构"
+      },
+      {
+        "component": "Targets",
+        "componentCn": "目标管理",
+        "name": "Water stress target comprehensiveness",
+        "nameCn": "水资源压力目标的全面性",
+        "definition": "Assesses the extent to which a company has established measurable water-related targets that are comprehensive in operational scope. Expressed as a 0-10 score, with 10 indicating a quantitative target that covers all relevant segments.",
+        "definitionCn": "评估公司建立的可衡量水资源相关目标在运营范围上的全面程度。以 0-10 分表示，10 表示覆盖所有相关业务板块的定量目标。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Evidence of ongoing Water Stress target",
+        "definition": "Indicates whether the company has disclosed an ongoing target addressing water stress or water resource management.",
+        "component": "Targets",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Water stress target comprehensiveness",
+        "nameCn": "正在执行的水资源压力目标的证据",
+        "definitionCn": "说明企业是否披露了正在执行、针对水资源压力或水资源管理的目标。",
+        "componentCn": "目标管理",
+        "parentCn": "水资源压力目标的全面性"
+      },
+      {
+        "name": "Scope of ongoing Water Stress target",
+        "definition": "Describes the scope and coverage of the company’s ongoing target related to water stress management.",
+        "component": "Targets",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Water stress target comprehensiveness",
+        "nameCn": "正在执行的水资源压力目标覆盖范围",
+        "definitionCn": "描述企业正在执行的水资源压力管理目标的范围和覆盖程度。",
+        "componentCn": "目标管理",
+        "parentCn": "水资源压力目标的全面性"
+      },
+      {
+        "component": "Targets",
+        "componentCn": "目标管理",
+        "name": "Water stress target progress",
+        "nameCn": "水资源压力目标进展",
+        "definition": "Assesses the company’s progress toward any ongoing water reduction targets or track record of progress toward historical targets. Expressed as a 0-10 score, with 10 indicating higher progress towards targets.",
+        "definitionCn": "评估公司在任何正在进行的节水目标上的进展，或实现历史目标的过往记录。以 0-10 分表示，10 表示目标进展更高。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Status of ongoing Water Stress target",
+        "definition": "Measures the current implementation status of the company’s ongoing target related to water stress management or reduction.",
+        "component": "Targets",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Water stress target progress",
+        "nameCn": "正在执行的水资源压力目标状态",
+        "definitionCn": "衡量企业正在执行的水资源压力管理或降低目标目前的实施状态。",
+        "componentCn": "目标管理",
+        "parentCn": "水资源压力目标进展"
+      },
+      {
+        "name": "Status of historical Water Stress target",
+        "definition": "Measures the achievement or completion status of the company’s historical target related to water stress management or reduction.",
+        "component": "Targets",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Water stress target progress",
+        "nameCn": "历史水资源压力目标状态",
+        "definitionCn": "衡量企业历史水资源压力管理或降低目标的实现或完成状态。",
+        "componentCn": "目标管理",
+        "parentCn": "水资源压力目标进展"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Freshwater consumption performance relative to peers",
+        "nameCn": "相对同业组的淡水消耗绩效",
+        "definition": "Assesses the company’s performance on freshwater consumption intensity (normalized by sales and/or product), and trend in freshwater consumption intensity, relative to its peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "definitionCn": "评估公司相对同业组的淡水消耗强度（按销售额和/或产品标准化）绩效及淡水消耗强度趋势。以 0–10 分表示，10 表示绩效强劲。",
+        "level": 1,
+        "sourcePages": [
+          9
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Freshwater consumption intensity industry relative score",
+        "definition": "Assesses the company’s performance on freshwater consumption intensity (per unit of sales or output), relative to its peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          9
+        ],
+        "parent": "Freshwater consumption performance relative to peers",
+        "nameCn": "淡水消耗强度行业相对得分",
+        "definitionCn": "相对于同业，评估企业淡水消耗强度（每单位销售额或产出）的表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业组的淡水消耗绩效"
+      },
+      {
+        "name": "Three-year average freshwater consumption intensity (sales based)",
+        "definition": "Measures the company’s three-year average freshwater consumption intensity (per unit of sales).",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          9
+        ],
+        "parent": "Freshwater consumption intensity industry relative score",
+        "nameCn": "三年平均淡水消耗强度（按销售额）",
+        "definitionCn": "衡量企业每单位销售额淡水消耗强度的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "淡水消耗强度行业相对得分"
+      },
+      {
+        "name": "Three-year average product water-consumption intensity (product based)",
+        "definition": "Measures the company’s three-year average product water consumption intensity (per unit of product output). Applicable to Brewers GICS Sub-industry issuers only.",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          9
+        ],
+        "parent": "Freshwater consumption intensity industry relative score",
+        "nameCn": "三年平均产品水消耗强度（按产品）",
+        "definitionCn": "衡量企业每单位产品产出水消耗强度的三年平均值。仅适用于 GICS 啤酒子行业发行人。",
+        "componentCn": "绩效表现",
+        "parentCn": "淡水消耗强度行业相对得分"
+      },
+      {
+        "name": "Freshwater consumption intensity industry relative trend score",
+        "definition": "Assesses the company’s performance on three-year average of year-over-year freshwater consumption intensity (per unit of sales or output) trend, relative to its peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          9
+        ],
+        "parent": "Freshwater consumption performance relative to peers",
+        "nameCn": "淡水消耗强度行业相对趋势得分",
+        "definitionCn": "相对于同业，评估企业淡水消耗强度（每单位销售额或产出）同比变化趋势的三年平均表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业组的淡水消耗绩效"
+      },
+      {
+        "name": "Three-year average year-over-year freshwater consumption intensity trend (sales based)",
+        "definition": "Measures the company’s three-year average of year-over-year freshwater consumption intensity (per unit of sales) trend.",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          9
+        ],
+        "parent": "Freshwater consumption intensity industry relative trend score",
+        "nameCn": "三年平均淡水消耗强度同比趋势（按销售额）",
+        "definitionCn": "衡量企业每单位销售额淡水消耗强度同比变化趋势的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "淡水消耗强度行业相对趋势得分"
+      },
+      {
+        "name": "Three-year average year-over-year freshwater water-consumption intensity trend (product based)",
+        "definition": "Measures the company’s three-year average of year-over-year product water-consumption intensity (per unit of product output) trend. Applicable to Brewers GICS Sub-industry issuers only.",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          9,
+          10
+        ],
+        "parent": "Freshwater consumption intensity industry relative trend score",
+        "nameCn": "三年平均淡水消耗强度同比趋势（按产品）",
+        "definitionCn": "衡量企业每单位产品产出水消耗强度同比变化趋势的三年平均值。仅适用于 GICS 啤酒子行业发行人。",
+        "componentCn": "绩效表现",
+        "parentCn": "淡水消耗强度行业相对趋势得分"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Freshwater withdrawal performance relative to peers",
+        "nameCn": "相对同业组的淡水取水绩效",
+        "definition": "Assesses the company's performance on freshwater withdrawal intensity (normalized by sales or by units of production), and trend in freshwater withdrawal intensity, relative to its peers. Expressed as a 0-10 score, where 10 indicates strong performance.",
+        "definitionCn": "评估公司相对同业组的淡水取水强度（按销售额或产量单位标准化）绩效及淡水取水强度趋势。以 0-10 分表示，10 表示绩效强劲。",
+        "level": 1,
+        "sourcePages": [
+          10
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Freshwater withdrawal intensity industry relative score",
+        "definition": "Assesses the company’s performance on freshwater withdrawal intensity (per unit of sales or output), relative to its peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          10
+        ],
+        "parent": "Freshwater withdrawal performance relative to peers",
+        "nameCn": "淡水取水强度行业相对得分",
+        "definitionCn": "相对于同业，评估企业淡水取水强度（每单位销售额或产出）的表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业组的淡水取水绩效"
+      },
+      {
+        "name": "Three-year average freshwater withdrawal intensity (sales based)",
+        "definition": "Measures the company’s three-year average freshwater withdrawal intensity (per unit of sales).",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          10
+        ],
+        "parent": "Freshwater withdrawal intensity industry relative score",
+        "nameCn": "三年平均淡水取水强度（按销售额）",
+        "definitionCn": "衡量企业每单位销售额淡水取水强度的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "淡水取水强度行业相对得分"
+      },
+      {
+        "name": "Three-year average freshwater withdrawal intensity (product based)",
+        "definition": "Measures the company’s three-year average freshwater withdrawal intensity (per unit of product output). Applicable to issuers with power generation only.",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          10
+        ],
+        "parent": "Freshwater withdrawal intensity industry relative score",
+        "nameCn": "三年平均淡水取水强度（按产品）",
+        "definitionCn": "衡量企业每单位产品产出淡水取水强度的三年平均值。仅适用于具有发电业务的发行人。",
+        "componentCn": "绩效表现",
+        "parentCn": "淡水取水强度行业相对得分"
+      },
+      {
+        "name": "Freshwater withdrawal intensity industry relative trend score",
+        "definition": "Assesses the company’s performance on three-year average of year-over-year freshwater withdrawal intensity (per unit of sales or output) trend, relative to its peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          10
+        ],
+        "parent": "Freshwater withdrawal performance relative to peers",
+        "nameCn": "淡水取水强度行业相对趋势得分",
+        "definitionCn": "相对于同业，评估企业淡水取水强度（每单位销售额或产出）同比变化趋势的三年平均表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业组的淡水取水绩效"
+      },
+      {
+        "name": "Three-year average year-over-year freshwater withdrawal intensity trend (sales based)",
+        "definition": "Measures the company’s three-year average of year-over-year freshwater withdrawal intensity (per unit of sales) trend.",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          10
+        ],
+        "parent": "Freshwater withdrawal intensity industry relative trend score",
+        "nameCn": "三年平均淡水取水强度同比趋势（按销售额）",
+        "definitionCn": "衡量企业每单位销售额淡水取水强度同比变化趋势的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "淡水取水强度行业相对趋势得分"
+      },
+      {
+        "name": "Three-year average year-over-year freshwater withdrawal intensity trend (product based)",
+        "definition": "Measures the company’s three-year average of year-over-year freshwater withdrawal intensity (per unit of product output) trend. Applicable to issuers with power generation only.",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          10
+        ],
+        "parent": "Freshwater withdrawal intensity industry relative trend score",
+        "nameCn": "三年平均淡水取水强度同比趋势（按产品）",
+        "definitionCn": "衡量企业每单位产品产出淡水取水强度同比变化趋势的三年平均值。仅适用于具有发电业务的发行人。",
+        "componentCn": "绩效表现",
+        "parentCn": "淡水取水强度行业相对趋势得分"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Water leakage performance relative to peers",
+        "nameCn": "相对同业组的漏水绩效",
+        "definition": "Assesses the company's performance on leakage rates, and trend in leakage rates, relative to industry peers. Expressed as a 0-10 score, where 10 indicates strong performance. Applicable to water utility issuers only.",
+        "definitionCn": "评估公司相对行业同业组的漏水率绩效及漏水率趋势。以 0-10 分表示，10 表示绩效强劲。仅适用于供水公用事业发行人。",
+        "level": 1,
+        "sourcePages": [
+          10,
+          11
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Water leakage industry relative score",
+        "definition": "Assesses the company’s performance on water leakage rate, relative to its peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          11
+        ],
+        "parent": "Water leakage performance relative to peers",
+        "nameCn": "漏水率行业相对得分",
+        "definitionCn": "相对于同业，评估企业漏水率的表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业组的漏水绩效"
+      },
+      {
+        "name": "Three-year average water-leakage rate",
+        "definition": "Measures the company’s three-year average water leakage rate.",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          11
+        ],
+        "parent": "Water leakage industry relative score",
+        "nameCn": "三年平均漏水率",
+        "definitionCn": "衡量企业漏水率的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "漏水率行业相对得分"
+      },
+      {
+        "name": "Water leakage industry relative trend score",
+        "definition": "Assesses the company’s performance on the three-year average of year-over-year water leakage rate trend, relative to its peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          11
+        ],
+        "parent": "Water leakage performance relative to peers",
+        "nameCn": "漏水率行业相对趋势得分",
+        "definitionCn": "相对于同业，评估企业漏水率同比变化趋势的三年平均表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业组的漏水绩效"
+      },
+      {
+        "name": "Three-year average year-over-year water leakage rate trend",
+        "definition": "Measures the company’s three-year average of year-over-year water leakage rate trend.",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          11
+        ],
+        "parent": "Water leakage industry relative trend score",
+        "nameCn": "三年平均漏水率同比趋势",
+        "definitionCn": "衡量企业漏水率同比变化趋势的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "漏水率行业相对趋势得分"
+      }
+    ],
+    "keyMetrics": [],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 18,
+      "sourceFile": "13 water-stress-key-issue.pdf",
+      "source": "Environmental Pillar/13 water-stress-key-issue.pdf"
+    },
+    "sourceId": "water-stress",
+    "introPages": [
+      3
+    ],
+    "riskPages": [
+      4
+    ],
+    "scoringNote": "风险型议题将风险敞口与风险管理得分通过总方法论的映射组合，不是两者直接相乘。管理评估可包含实践、绩效、目标及争议扣分；具体组件和行业适用性见本议题 PDF。",
+    "scoringPages": [
+      21,
+      22,
+      23
+    ],
+    "rules": []
+  },
+  {
+    "id": "electronic-waste",
+    "name": "电子废弃物",
+    "nameEn": "Electronic Waste",
+    "pillar": "environmental",
+    "theme": "pollution-waste",
+    "type": "risk",
+    "summary": "评估企业产生的电子废弃物、面临的电子废弃物法规敞口，以及产品回收与循环利用的努力。",
+    "intro": "Electronic Waste is a Key Issue in the Environmental Pillar of the MSCI ESG Ratings model. Companies are evaluated on their production of electronic waste, their potential exposure to electronic waste regulations and their efforts at product collection and recycling.",
+    "risks": [
+      "Loss of access to markets due to regulatory change.",
+      "Loss of revenue due to changing consumer demand.",
+      "Increased costs due to compliance with producer responsibility regulations."
+    ],
+    "risksCn": [
+      "因法规变化而丧失市场准入。",
+      "因消费者需求变化而导致收入损失。",
+      "因遵守生产者责任法规而导致成本增加。"
+    ],
+    "indicators": [
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Scope of the electronic waste take-back program by product type",
+        "nameCn": "按产品类型划分的电子废弃物回收计划范围",
+        "definition": "The scope of products that are eligible for collection and recycling under the company’s electronic waste product recycling program.",
+        "definitionCn": "在公司电子废弃物产品回收计划下，符合收集和回收条件的产品范围。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Scope of the electronic waste take-back program by location",
+        "nameCn": "按地点划分的电子废弃物回收计划范围",
+        "definition": "The geographic scope of the company’s product collection and electronic waste recycling program.",
+        "definitionCn": "公司产品收集和电子废弃物回收计划的地理范围。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Scope of electronic waste take-back programs",
+        "nameCn": "电子废弃物回收计划的范围",
+        "definition": "Assesses the company’s return channels for end-of-life products - drop-off, mail-in, and pick-up. Expressed as a 0-10 score, with 10 indicating strong initiatives.",
+        "definitionCn": "评估公司针对报废产品的回收渠道——投放点、邮寄回收和上门取件。以0-10分表示，10分表示举措有力。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Electronic waste take-back programs include drop-off of end-of-life products",
+        "definition": "Indicates whether channels for consumers to return end-of-life electronics to the company include drop-off options (at a store or designated drop-off locations).",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Scope of electronic waste take-back programs",
+        "nameCn": "电子废弃物回收计划包括终寿产品送交渠道",
+        "definitionCn": "说明消费者将终寿电子产品退回企业的渠道是否包括送交方式（门店或指定交回地点）。",
+        "componentCn": "实践管理",
+        "parentCn": "电子废弃物回收计划的范围"
+      },
+      {
+        "name": "Electronic waste take-back programs include mail-in of end-of-life products",
+        "definition": "Indicates whether available channels for consumers to return end-of-life electronics to the company include mail-in options.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Scope of electronic waste take-back programs",
+        "nameCn": "电子废弃物回收计划包括终寿产品邮寄渠道",
+        "definitionCn": "说明消费者将终寿电子产品退回企业的可用渠道是否包括邮寄方式。",
+        "componentCn": "实践管理",
+        "parentCn": "电子废弃物回收计划的范围"
+      },
+      {
+        "name": "Electronic waste take-back programs include pick-up of end-of-life products",
+        "definition": "Indicates whether available channels for consumers to return end-of-life electronics to the company include pick-up options.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Scope of electronic waste take-back programs",
+        "nameCn": "电子废弃物回收计划包括终寿产品上门收取渠道",
+        "definitionCn": "说明消费者将终寿电子产品退回企业的可用渠道是否包括上门收取方式。",
+        "componentCn": "实践管理",
+        "parentCn": "电子废弃物回收计划的范围"
+      },
+      {
+        "name": "Electronic waste take-back program exists but no details given",
+        "definition": "Indicates whether channels exist for consumers to return end-of-life electronics to the company, but details are not provided.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Scope of electronic waste take-back programs",
+        "nameCn": "存在电子废弃物回收计划但未提供详情",
+        "definitionCn": "说明是否存在消费者将终寿电子产品退回企业的渠道，但未提供具体信息。",
+        "componentCn": "实践管理",
+        "parentCn": "电子废弃物回收计划的范围"
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Facilities that handle recycling of collected electronics",
+        "nameCn": "处理所收集电子产品回收的设施",
+        "definition": "Assesses company efforts in managing electronic waste through recycling. Expressed as a 0-10 score, with 10 indicating strong initiatives.",
+        "definitionCn": "评估公司通过回收管理电子废弃物的努力。以0-10分表示，10分表示举措有力。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Company-operated electronic waste recycling facilities",
+        "definition": "Indicates whether the company operates its own electronic waste recycling facilities. The company may also use vendors or participate in recycling management organizations for electronic waste recycling.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Facilities that handle recycling of collected electronics",
+        "nameCn": "企业自营电子废弃物回收设施",
+        "definitionCn": "说明企业是否运营自有电子废弃物回收设施。企业也可能使用服务商或参加回收管理组织进行电子废弃物回收。",
+        "componentCn": "实践管理",
+        "parentCn": "处理所收集电子产品回收的设施"
+      },
+      {
+        "name": "Participation in electronic waste recycling programs",
+        "definition": "Indicates that the company participates in electronic waste (e-waste) recycling management organizations (or recycling consortia/network) that support or operate recycling facilities. The company may also operate its own facilities or use vendors for e-waste recycling.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Facilities that handle recycling of collected electronics",
+        "nameCn": "参加电子废弃物回收计划",
+        "definitionCn": "说明企业参加支持或运营回收设施的电子废弃物回收管理组织、联合体或网络。企业也可能运营自有设施或使用服务商回收电子废弃物。",
+        "componentCn": "实践管理",
+        "parentCn": "处理所收集电子产品回收的设施"
+      },
+      {
+        "name": "Vendor-operated electronic waste recycling facilities",
+        "definition": "Indicates that the company uses designated vendors that operate electronic waste (e-waste) recycling facilities. The company may also operate its own facilities or participate in recycling management organizations for e-waste recycling. Moreover, indicates whether these vendors audited or certified by the company or third-party audit programs (including but not limited to R2, e-stewards and WEEELABEX).",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Facilities that handle recycling of collected electronics",
+        "nameCn": "服务商运营的电子废弃物回收设施",
+        "definitionCn": "说明企业使用指定服务商运营的电子废弃物回收设施。企业也可能运营自有设施或参加电子废弃物回收管理组织。此外，说明这些服务商是否接受企业或第三方审计项目的审计或认证，包括但不限于 R2、e-stewards 和 WEEELABEX。",
+        "componentCn": "实践管理",
+        "parentCn": "处理所收集电子产品回收的设施"
+      },
+      {
+        "name": "Unspecified electronic waste recycling activities",
+        "definition": "Indicates that the company has a general statement on recycling electronic waste (e-waste) with no further details regarding the facilities, vendors or organizations that handle recycling of collected e-waste.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          7,
+          8
+        ],
+        "parent": "Facilities that handle recycling of collected electronics",
+        "nameCn": "未具体说明的电子废弃物回收活动",
+        "definitionCn": "说明企业对电子废弃物回收有一般性声明，但未进一步说明负责所收集电子废弃物回收的设施、服务商或组织。",
+        "componentCn": "实践管理",
+        "parentCn": "处理所收集电子产品回收的设施"
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Explicit ban on electronic waste exports to non-OECD countries",
+        "nameCn": "明确禁止向非OECD国家出口电子废弃物",
+        "definition": "Indicates whether the company explicitly bans electronic waste exports from OECD member countries to non-OECD member countries for disposal and recovery, in accordance with the Basel Ban Amendment to the Basel Convention.",
+        "definitionCn": "表明公司是否依据《巴塞尔公约》的《巴塞尔禁令修正案》，明确禁止将电子废弃物从OECD成员国出口至非OECD成员国进行处置和回收。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "End of life electronic waste recycling",
+        "nameCn": "报废电子废弃物回收",
+        "definition": "Assesses the company's performance on the share of electronic waste that is recovered and subsequently recycled by the company. Expressed as a 0-10 score, with 10 indicating strong performance.",
+        "definitionCn": "评估公司在被其回收并随后进行再生利用的电子废弃物占比方面的绩效。以0-10分表示，10分表示绩效强劲。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Percentage of electronic waste recycled – Reported",
+        "definition": "Indicates the proportion of collected end-of-life electronic waste that is successfully recycled and repurposed relative to the total end-of-life products and e-waste recovered.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "End of life electronic waste recycling",
+        "nameCn": "电子废弃物回收比例（已报告）",
+        "definitionCn": "说明所收集终寿电子废弃物中成功回收并再利用的部分，占全部回收终寿产品和电子废弃物的比例。",
+        "componentCn": "绩效表现",
+        "parentCn": "报废电子废弃物回收"
+      }
+    ],
+    "keyMetrics": [],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 14,
+      "sourceFile": "4 electronic-waste-key-issue.pdf",
+      "source": "Environmental Pillar/4 electronic-waste-key-issue.pdf"
+    },
+    "sourceId": "electronic-waste",
+    "introPages": [
+      3
+    ],
+    "riskPages": [
+      4
+    ],
+    "scoringNote": "风险型议题将风险敞口与风险管理得分通过总方法论的映射组合，不是两者直接相乘。管理评估可包含实践、绩效、目标及争议扣分；具体组件和行业适用性见本议题 PDF。",
+    "scoringPages": [
+      21,
+      22,
+      23
+    ],
+    "rules": []
+  },
+  {
+    "id": "packaging-material-and-waste",
+    "name": "包装材料与废弃物",
+    "nameEn": "Packaging Material & Waste",
+    "pillar": "environmental",
+    "theme": "pollution-waste",
+    "type": "risk",
+    "summary": "评估企业对包装材料的生产或依赖、面临的废弃物管理与包装法规敞口，以及降低包装环境影响的做法。",
+    "intro": "Packaging Material & Waste is a Key Issue in the Environmental Pillar of the MSCI ESG Ratings model. Companies are evaluated on their production of or reliance upon packaging materials, their potential exposure to waste management and packaging regulations, as well as their efforts to reduce the environmental impact of packaging materials.",
+    "risks": [
+      "Loss of access to markets due to reform of regulations governing packaging material and waste.",
+      "Loss of revenue due to changing consumer preferences.",
+      "Increased costs to reformulate packaging and comply with producer responsibility regulations."
+    ],
+    "risksCn": [
+      "因包装材料及废弃物相关法规改革而失去市场准入。",
+      "因消费者偏好变化而损失收入。",
+      "因重新设计包装及遵守生产者责任法规而导致成本增加。"
+    ],
+    "indicators": [
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Disclosure of packaging material mix",
+        "nameCn": "包装材料构成的披露",
+        "definition": "How transparent the company is about the type of materials used in its packaging. Best practice is full disclosure.",
+        "definitionCn": "公司在包装所用材料类型方面的透明度。最佳实践是完整披露。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Scope of consumer programs to reduce waste",
+        "nameCn": "减少废弃物的消费者方案的覆盖范围",
+        "definition": "The scope of the company’s consumer education programs on recycling (e.g., take-back locations) or recycling instructions.",
+        "definitionCn": "公司关于回收的消费者教育方案（如回收点）或回收指引的覆盖范围。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Scope of recycling programs where not mandated by law",
+        "nameCn": "法律未强制要求的回收方案的覆盖范围",
+        "definition": "The extent of the company’s involvement in recycling or recovery of packaging materials in locations or circumstances where packaging waste recycling is not mandated by law. Best practice is to have an overarching packaging waste strategy.",
+        "definitionCn": "公司在法律未强制要求包装废弃物回收的地区或情形下参与包装材料回收或再生利用的程度。最佳实践是制定一项总体性的包装废弃物战略。",
+        "level": 1,
+        "sourcePages": [
+          6,
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Strategy to reduce the environmental impact of packaging",
+        "nameCn": "降低包装环境影响的战略",
+        "definition": "The comprehensiveness of the company’s strategy to reduce the environmental impact of its packaging, such as through waste elimination, packaging redesign, and engagement with suppliers or customers. Best practice is to have specific initiatives that reduce the environmental impact of packaging.",
+        "definitionCn": "公司降低其包装环境影响的战略的全面性，例如通过减少废弃物、重新设计包装以及与供应商或客户互动。最佳实践是制定减少包装环境影响的具体举措。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Targets related to packaging content",
+        "nameCn": "与包装成分相关的目标",
+        "definition": "Assesses the company's targets and their scope focused on recycled material content of packaging. Expressed as a 0-10 score, with 10 indicating strong initiatives.",
+        "definitionCn": "评估公司针对包装再生材料成分的目标及其范围。以 0-10 分表示，10 分表示举措强。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Scope of targets to increase recycled material content of packaging",
+        "definition": "Indicates the scope of a company's target to incorporate postconsumer recycled materials into its packaging.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Targets related to packaging content",
+        "nameCn": "提高包装再生材料含量目标的覆盖范围",
+        "definitionCn": "说明企业在包装中使用消费后再生材料目标的覆盖范围。",
+        "componentCn": "实践管理",
+        "parentCn": "与包装成分相关的目标"
+      },
+      {
+        "name": "Targets to increase recycled or renewable material content of packaging",
+        "definition": "Indicates whether the company has specific targets for improving packaging content, such as increasing recycled content, renewable content, or eliminating problematic or hard-to-recycle plastic content.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Targets related to packaging content",
+        "nameCn": "提高包装再生或可再生材料含量的目标",
+        "definitionCn": "说明企业是否设有改善包装成分的具体目标，例如增加再生材料或可再生材料含量，或去除有问题、难回收的塑料成分。",
+        "componentCn": "实践管理",
+        "parentCn": "与包装成分相关的目标"
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Targets related to packaging material circularity or waste elimination",
+        "nameCn": "与包装材料循环利用或减少废弃物相关的目标",
+        "definition": "Assesses the company's targets and their scope focused on packaging material circularity or waste elimination. Expressed as a 0-10 score, with 10 indicating strong initiatives.",
+        "definitionCn": "评估公司针对包装材料循环利用或减少废弃物的目标及其范围。以 0-10 分表示，10 分表示举措强。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Scope of targets for packaging material circularity or waste elimination",
+        "definition": "Indicates the scope of environmental targets related to material recovery or waste elimination in packaging.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Targets related to packaging material circularity or waste elimination",
+        "nameCn": "包装材料循环性或消除废弃物目标的覆盖范围",
+        "definitionCn": "说明包装中与材料回收或消除废弃物相关的环境目标的覆盖范围。",
+        "componentCn": "实践管理",
+        "parentCn": "与包装材料循环利用或减少废弃物相关的目标"
+      },
+      {
+        "name": "Targets for packaging material circularity or waste elimination",
+        "definition": "Indicates whether the company has specific targets related to improving product recovery through packaging.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Targets related to packaging material circularity or waste elimination",
+        "nameCn": "包装材料循环性或消除废弃物目标",
+        "definitionCn": "说明企业是否设有通过包装改善产品回收的具体目标。",
+        "componentCn": "实践管理",
+        "parentCn": "与包装材料循环利用或减少废弃物相关的目标"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Scope of environmental improvements in packaging",
+        "nameCn": "包装环境改善措施的覆盖范围",
+        "definition": "Assesses the company's achievements on packaging content (e.g. light-weighted, recycled content).",
+        "definitionCn": "评估公司在包装成分方面（如轻量化、再生材料含量）的成果。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Scope of product or packaging recovery",
+        "nameCn": "产品或包装回收的覆盖范围",
+        "definition": "Assesses the company's achievements on product or packaging recovery.",
+        "definitionCn": "评估公司在产品或包装回收方面的成果。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      }
+    ],
+    "keyMetrics": [],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 14,
+      "sourceFile": "9 packaging-material-and-waste-key-issue.pdf",
+      "source": "Environmental Pillar/9 packaging-material-and-waste-key-issue.pdf"
+    },
+    "sourceId": "packaging-material-and-waste",
+    "introPages": [
+      3
+    ],
+    "riskPages": [
+      4
+    ],
+    "scoringNote": "风险型议题将风险敞口与风险管理得分通过总方法论的映射组合，不是两者直接相乘。管理评估可包含实践、绩效、目标及争议扣分；具体组件和行业适用性见本议题 PDF。",
+    "scoringPages": [
+      21,
+      22,
+      23
+    ],
+    "rules": []
+  },
+  {
+    "id": "toxic-emissions-and-waste",
+    "name": "有毒排放与废弃物",
+    "nameEn": "Toxic Emissions & Waste",
+    "pillar": "environmental",
+    "theme": "pollution-waste",
+    "type": "risk",
+    "summary": "评估企业运营可能造成的环境污染与有毒或致癌排放，以及其环境管理体系的强度。",
+    "intro": "Toxic Emissions & Waste is a Key Issue in the Environmental Pillar of the MSCI ESG Ratings model. Companies are evaluated on the potential environmental contamination and toxic or carcinogenic emissions arising from their operations and the strength of their environmental management systems.",
+    "risks": [
+      "Increased costs from liabilities associated with damaging health, property.",
+      "Loss of access to markets through community opposition, heightened regulatory hurdles.",
+      "Increased costs to meet compliance standards and install equipment and systems to contain pollution."
+    ],
+    "risksCn": [
+      "因损害健康、财产而产生的责任导致成本增加。",
+      "因社区反对、监管门槛提高而失去市场准入。",
+      "为满足合规标准以及安装控制污染的设备与系统而增加的成本。"
+    ],
+    "indicators": [
+      {
+        "component": "Governance and Strategy",
+        "componentCn": "治理与战略",
+        "name": "Scope and frequency of environmental impact audits",
+        "nameCn": "环境影响审核的范围与频率",
+        "definition": "Assesses whether the company conducts regular audits to assess and manage environmental risks and impacts. Expressed as a 0-10 score, with 10 indicating strong initiatives.",
+        "definitionCn": "评估公司是否开展定期审核以评估和管理环境风险与影响。以 0-10 分表示，其中 10 表示举措有力。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Evidence of environmental impact audits",
+        "definition": "Indicates whether there is evidence that the company conducts internal and/or external environmental audits of its relevant operations. This could include, for example, an EMS certified to ISO 14001 or a similar framework, which requires regular audits.",
+        "component": "Governance and Strategy",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Scope and frequency of environmental impact audits",
+        "nameCn": "环境影响审计的证据",
+        "definitionCn": "说明是否有证据表明企业对相关运营开展内部及外部环境审计。例如，获得 ISO 14001 或类似框架认证的环境管理体系（EMS）要求定期审计。",
+        "componentCn": "治理与战略",
+        "parentCn": "环境影响审核的范围与频率"
+      },
+      {
+        "name": "Evidence of audits across all locations of operations",
+        "definition": "Indicates whether there is evidence of environmental audits across all locations of operations.",
+        "component": "Governance and Strategy",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Scope and frequency of environmental impact audits",
+        "nameCn": "所有运营地点审计的证据",
+        "definitionCn": "说明是否有证据表明环境审计覆盖所有运营地点。",
+        "componentCn": "治理与战略",
+        "parentCn": "环境影响审核的范围与频率"
+      },
+      {
+        "name": "Evidence of annual environmental impact audits",
+        "definition": "Indicates whether there is evidence that the company carries out annual environmental impact audits.",
+        "component": "Governance and Strategy",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Scope and frequency of environmental impact audits",
+        "nameCn": "每年环境影响审计的证据",
+        "definitionCn": "说明是否有证据表明企业每年开展环境影响审计。",
+        "componentCn": "治理与战略",
+        "parentCn": "环境影响审核的范围与频率"
+      },
+      {
+        "component": "Governance and Strategy",
+        "componentCn": "治理与战略",
+        "name": "Existence of environmental management system",
+        "nameCn": "环境管理体系的存在",
+        "definition": "Indicates whether there is evidence that the company has an Environmental Management System (EMS) in place across all or selected relevant operations. This could include, for example, an EMS certified to ISO 14001, registration under EMAS, or a similar framework.",
+        "definitionCn": "表明是否有证据显示公司在全部或选定的相关运营中建立了环境管理体系（EMS）。例如，可能包括通过 ISO 14001 认证的环境管理体系、在 EMAS 下的注册，或类似的框架。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Governance and Strategy",
+        "componentCn": "治理与战略",
+        "name": "Extent of programs to reduce toxic emissions of supply chain",
+        "nameCn": "减少供应链有毒排放的方案覆盖程度",
+        "definition": "Indicates the extent to which the company has established programs to reduce toxic emissions within its supply chain. Best practice is for suppliers’ environmental management to be subject to screening and audits.",
+        "definitionCn": "表明公司在多大程度上建立了减少其供应链内有毒排放的方案。最佳实践是供应商的环境管理接受筛查和审核。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Governance and Strategy",
+        "componentCn": "治理与战略",
+        "name": "Scope of policies to address environmental impacts",
+        "nameCn": "应对环境影响的政策范围",
+        "definition": "Indicates whether the company has formal policies in place to address environmental impacts such as air emissions, water discharges, and waste.",
+        "definitionCn": "表明公司是否制定了正式政策以应对诸如大气排放、废水排放和废弃物等环境影响。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Governance and Strategy",
+        "componentCn": "治理与战略",
+        "name": "Certified environmental system score",
+        "nameCn": "认证环境体系得分",
+        "definition": "Assesses the extent of the company's sites with an environmental management system certified to ISO 14001 or similar. Expressed as a 0-10 score, with 10 indicating the highest degree of certification.",
+        "definitionCn": "评估公司有多少场所拥有通过 ISO 14001 或类似标准认证的环境管理体系。以 0-10 分表示，其中 10 表示认证程度最高。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Percentage of operations with an environmental management system certified to ISO 14001 or HAZWOPER",
+        "definition": "The percentage of sites with hazardous waste guidance that follow ISO 14001 or HAZWOPER certification for waste management.",
+        "component": "Governance and Strategy",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Certified environmental system score",
+        "nameCn": "环境管理体系获得 ISO 14001 或 HAZWOPER 认证的运营占比",
+        "definitionCn": "具有危险废弃物管理指引、并遵循 ISO 14001 或 HAZWOPER 废弃物管理认证的场所占比。",
+        "componentCn": "治理与战略",
+        "parentCn": "认证环境体系得分"
+      },
+      {
+        "component": "Targets",
+        "componentCn": "目标管理",
+        "name": "Toxic emissions & waste target comprehensiveness",
+        "nameCn": "有毒排放与废弃物目标的全面性",
+        "definition": "Assesses the extent to which a company has established toxic waste reduction targets that have a measurable reduction scope and are complete in coverage. Expressed as a 0-10 score, with 10 indicating a quantitative target that covers all segments.",
+        "definitionCn": "评估公司在多大程度上建立了具有可衡量减排范围且覆盖完整的有毒废物减排目标。以 0-10 分表示，其中 10 表示覆盖所有业务板块的定量目标。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Evidence of ongoing Toxic Emissions & Waste target",
+        "definition": "Indicates whether the company has an ongoing toxic emissions and/or waste reduction target.",
+        "component": "Targets",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Toxic emissions & waste target comprehensiveness",
+        "nameCn": "正在执行的有毒排放与废弃物目标的证据",
+        "definitionCn": "说明企业是否具有正在执行的有毒排放或废弃物减少目标。",
+        "componentCn": "目标管理",
+        "parentCn": "有毒排放与废弃物目标的全面性"
+      },
+      {
+        "name": "Scope of ongoing Toxic Emissions & Waste target",
+        "definition": "Assess the scope of coverage of the ongoing toxic emissions and/or waste target. Expressed as a 0-10 score, where 10 indicates that the target covers all relevant segments of the company's operations.",
+        "component": "Targets",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Toxic emissions & waste target comprehensiveness",
+        "nameCn": "正在执行的有毒排放与废弃物目标覆盖范围",
+        "definitionCn": "评估正在执行的有毒排放或废弃物目标的覆盖范围。以 0–10 分表示，10 表示目标涵盖企业运营的所有相关部分。",
+        "componentCn": "目标管理",
+        "parentCn": "有毒排放与废弃物目标的全面性"
+      },
+      {
+        "component": "Targets",
+        "componentCn": "目标管理",
+        "name": "Toxic emissions & waste target progress",
+        "nameCn": "有毒排放与废弃物目标进展",
+        "definition": "Assesses the company’s to-date progress on active toxic emissions & waste targets, as well as its historical track record in meeting previously stated targets. Expressed as a 0-10 score, with 10 indicating achievement of stated target.",
+        "definitionCn": "评估公司当前有毒排放与废弃物目标的迄今进展，以及其在实现此前公布目标方面的历史记录。以 0-10 分表示，其中 10 表示已实现公布的目标。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Status of ongoing Toxic Emissions & Waste target",
+        "definition": "Measures the current implementation status of the company’s ongoing target on toxic emissions and/or waste management, by assessing the current progress against the target.",
+        "component": "Targets",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Toxic emissions & waste target progress",
+        "nameCn": "正在执行的有毒排放与废弃物目标状态",
+        "definitionCn": "通过评估相对于目标的当前进展，衡量企业正在执行的有毒排放或废弃物管理目标目前的实施状态。",
+        "componentCn": "目标管理",
+        "parentCn": "有毒排放与废弃物目标进展"
+      },
+      {
+        "name": "Status of historical Toxic Emissions & Waste target",
+        "definition": "Measures the achievement or completion status of the company’s historical target on toxic emissions and/or waste management, by assessing whether the stated target was achieved or not.",
+        "component": "Targets",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Toxic emissions & waste target progress",
+        "nameCn": "历史有毒排放与废弃物目标状态",
+        "definitionCn": "通过评估既定目标是否实现，衡量企业历史有毒排放或废弃物管理目标的实现或完成状态。",
+        "componentCn": "目标管理",
+        "parentCn": "有毒排放与废弃物目标进展"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "NOx emissions performance relative to peers",
+        "nameCn": "相对同业的氮氧化物排放绩效",
+        "definition": "Assesses the company's performance on nitrogen oxides (NOx) emissions intensity (normalized by sales or by units of production), and trend in NOx emissions intensity, relative to its peers. Expressed as a 0-10 score, where 10 indicates strong performance.",
+        "definitionCn": "评估公司相对于同业组在氮氧化物（NOx）排放强度（以销售额或产量单位标准化）以及 NOx 排放强度趋势上的绩效。以 0-10 分表示，其中 10 表示绩效强劲。",
+        "level": 1,
+        "sourcePages": [
+          9
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "NOx emissions intensity industry relative score",
+        "definition": "Assesses the company’s performance on nitrogen oxide (NOx) emissions intensity (emissions per unit of sales or production), relative to its peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          9
+        ],
+        "parent": "NOx emissions performance relative to peers",
+        "nameCn": "NOx 排放强度行业相对得分",
+        "definitionCn": "相对于同业，评估企业氮氧化物（NOx）排放强度（每单位销售额或产量排放量）的表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业的氮氧化物排放绩效"
+      },
+      {
+        "name": "Three-year average NOx emissions intensity (sales based)",
+        "definition": "Measures the company’s three-year average NOx emissions (per unit of sales).",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          9
+        ],
+        "parent": "NOx emissions intensity industry relative score",
+        "nameCn": "三年平均 NOx 排放强度（按销售额）",
+        "definitionCn": "衡量企业每单位销售额 NOx 排放量的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "NOx 排放强度行业相对得分"
+      },
+      {
+        "name": "Three-year average NOx emissions intensity (production based)",
+        "definition": "Measures the company’s three-year average NOx emissions (per megawatt-hour generated).",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          9
+        ],
+        "parent": "NOx emissions intensity industry relative score",
+        "nameCn": "三年平均 NOx 排放强度（按产量）",
+        "definitionCn": "衡量企业每发电兆瓦时 NOx 排放量的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "NOx 排放强度行业相对得分"
+      },
+      {
+        "name": "NOx emissions intensity industry relative trend score",
+        "definition": "Assesses the company’s performance on the three-year average of year-over-year NOx emissions (per unit of sales or production) trend, relative to its peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          9
+        ],
+        "parent": "NOx emissions performance relative to peers",
+        "nameCn": "NOx 排放强度行业相对趋势得分",
+        "definitionCn": "相对于同业，评估企业 NOx 排放量（每单位销售额或产量）同比变化趋势的三年平均表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业的氮氧化物排放绩效"
+      },
+      {
+        "name": "Three-year average NOx emissions intensity trend (sales based)",
+        "definition": "Measures the company’s three-year average of year-over-year NOx emissions (per unit of sales) trend.",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          9
+        ],
+        "parent": "NOx emissions intensity industry relative trend score",
+        "nameCn": "三年平均 NOx 排放强度趋势（按销售额）",
+        "definitionCn": "衡量企业每单位销售额 NOx 排放量同比变化趋势的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "NOx 排放强度行业相对趋势得分"
+      },
+      {
+        "name": "Three-year average NOx emissions intensity trend (production based)",
+        "definition": "Measures the company’s three-year average of year-over-year NOx emissions (per megawatt-hour generated) trend.",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          9
+        ],
+        "parent": "NOx emissions intensity industry relative trend score",
+        "nameCn": "三年平均 NOx 排放强度趋势（按产量）",
+        "definitionCn": "衡量企业每发电兆瓦时 NOx 排放量同比变化趋势的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "NOx 排放强度行业相对趋势得分"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "SOx emissions performance relative to peers",
+        "nameCn": "相对同业的硫氧化物排放绩效",
+        "definition": "Assesses the company's performance on sulfur oxides (SOx) emissions intensity (normalized by sales or by units of production), and trend in SOx emissions intensity, relative to its peers. Expressed as a 0-10 score, where 10 indicates strong performance.",
+        "definitionCn": "评估公司相对于同业组在硫氧化物（SOx）排放强度（以销售额或产量单位标准化）以及 SOx 排放强度趋势上的绩效。以 0-10 分表示，其中 10 表示绩效强劲。",
+        "level": 1,
+        "sourcePages": [
+          9,
+          10
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "SOx emissions intensity industry relative score",
+        "definition": "Assesses the company’s performance on sulfur oxide (SOx) emissions intensity emissions (per unit of sales or production), relative to its peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          10
+        ],
+        "parent": "SOx emissions performance relative to peers",
+        "nameCn": "SOx 排放强度行业相对得分",
+        "definitionCn": "相对于同业，评估企业硫氧化物（SOx）排放强度（每单位销售额或产量排放量）的表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业的硫氧化物排放绩效"
+      },
+      {
+        "name": "Three-year average SOx emissions intensity (sales based)",
+        "definition": "Measures the company’s three-year average SOx emissions (per unit of sales).",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          10
+        ],
+        "parent": "SOx emissions intensity industry relative score",
+        "nameCn": "三年平均 SOx 排放强度（按销售额）",
+        "definitionCn": "衡量企业每单位销售额 SOx 排放量的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "SOx 排放强度行业相对得分"
+      },
+      {
+        "name": "Three-year average SOx emissions intensity (production based)",
+        "definition": "Measures the company’s three-year average SOx emissions (per megawatt-hour generated).",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          10
+        ],
+        "parent": "SOx emissions intensity industry relative score",
+        "nameCn": "三年平均 SOx 排放强度（按产量）",
+        "definitionCn": "衡量企业每发电兆瓦时 SOx 排放量的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "SOx 排放强度行业相对得分"
+      },
+      {
+        "name": "SOx emissions intensity industry relative trend score",
+        "definition": "Assesses the company’s performance on the three-year average of year-over-year SOx emissions (per unit of sales or production) trend, relative to its peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          10
+        ],
+        "parent": "SOx emissions performance relative to peers",
+        "nameCn": "SOx 排放强度行业相对趋势得分",
+        "definitionCn": "相对于同业，评估企业 SOx 排放量（每单位销售额或产量）同比变化趋势的三年平均表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业的硫氧化物排放绩效"
+      },
+      {
+        "name": "Three-year average SOx emissions intensity trend (sales based)",
+        "definition": "Measures the company’s three-year average of year-over-year SOx emissions (per unit of sales) trend.",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          10
+        ],
+        "parent": "SOx emissions intensity industry relative trend score",
+        "nameCn": "三年平均 SOx 排放强度趋势（按销售额）",
+        "definitionCn": "衡量企业每单位销售额 SOx 排放量同比变化趋势的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "SOx 排放强度行业相对趋势得分"
+      },
+      {
+        "name": "Three-year average SOx emissions intensity trend (production based)",
+        "definition": "Measures the company’s three-year average of year-over-year SOx emissions (per megawatt-hour generated) trend.",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          10
+        ],
+        "parent": "SOx emissions intensity industry relative trend score",
+        "nameCn": "三年平均 SOx 排放强度趋势（按产量）",
+        "definitionCn": "衡量企业每发电兆瓦时 SOx 排放量同比变化趋势的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "SOx 排放强度行业相对趋势得分"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "VOC emissions performance relative to peers",
+        "nameCn": "相对同业的挥发性有机物排放绩效",
+        "definition": "Assesses the company's performance on volatile organic compounds (VOC) emissions intensity (normalized by sales), and trend in VOC emissions intensity, relative to its peers. Expressed as a 0-10 score, where 10 indicates strong performance.",
+        "definitionCn": "评估公司相对于同业组在挥发性有机物（VOC）排放强度（以销售额标准化）以及 VOC 排放强度趋势上的绩效。以 0-10 分表示，其中 10 表示绩效强劲。",
+        "level": 1,
+        "sourcePages": [
+          10
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "VOC emissions intensity industry relative score",
+        "definition": "Assesses the company’s performance on volatile organic compounds (VOC) emissions intensity (emissions per unit of sales), relative to its peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          10
+        ],
+        "parent": "VOC emissions performance relative to peers",
+        "nameCn": "VOC 排放强度行业相对得分",
+        "definitionCn": "相对于同业，评估企业挥发性有机物（VOC）排放强度（每单位销售额排放量）的表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业的挥发性有机物排放绩效"
+      },
+      {
+        "name": "Three-year average VOC emissions intensity (sales based)",
+        "definition": "Measures the company’s three-year average VOC emissions per unit of sales.",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          11
+        ],
+        "parent": "VOC emissions intensity industry relative score",
+        "nameCn": "三年平均 VOC 排放强度（按销售额）",
+        "definitionCn": "衡量企业每单位销售额 VOC 排放量的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "VOC 排放强度行业相对得分"
+      },
+      {
+        "name": "VOC emissions intensity (sales based) industry relative trend score",
+        "definition": "Assesses the company’s performance on the three-year average of year-over-year VOC emissions (per unit of sales) trend, relative to its peers. Expressed as a 0– 10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          11
+        ],
+        "parent": "VOC emissions performance relative to peers",
+        "nameCn": "VOC 排放强度（按销售额）行业相对趋势得分",
+        "definitionCn": "相对于同业，评估企业 VOC 排放量（每单位销售额）同比变化趋势的三年平均表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业的挥发性有机物排放绩效"
+      },
+      {
+        "name": "Three-year average VOC emissions intensity trend (sales based)",
+        "definition": "Measures the company’s three-year average of year-over-year VOC emissions (per unit of sales) trend.",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          11
+        ],
+        "parent": "VOC emissions intensity (sales based) industry relative trend score",
+        "nameCn": "三年平均 VOC 排放强度趋势（按销售额）",
+        "definitionCn": "衡量企业每单位销售额 VOC 排放量同比变化趋势的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "VOC 排放强度（按销售额）行业相对趋势得分"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Particulate matter emissions performance relative to peers",
+        "nameCn": "相对同业的颗粒物排放绩效",
+        "definition": "Assesses the company's performance on particulate matter (PM) emissions intensity (normalized by sales), and trend in PM emissions intensity), relative to its peers. Expressed as a 0-10 score, where 10 indicates strong performance.",
+        "definitionCn": "评估公司相对于同业组在颗粒物（PM）排放强度（以销售额标准化）以及 PM 排放强度趋势上的绩效。以 0-10 分表示，其中 10 表示绩效强劲。",
+        "level": 1,
+        "sourcePages": [
+          11
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Particulate matter emissions intensity industry relative score",
+        "definition": "Assesses the company’s performance on particulate matter (PM) emissions intensity (emissions per unit of sales) relative to its peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          11
+        ],
+        "parent": "Particulate matter emissions performance relative to peers",
+        "nameCn": "颗粒物排放强度行业相对得分",
+        "definitionCn": "相对于同业，评估企业颗粒物（PM）排放强度（每单位销售额排放量）的表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业的颗粒物排放绩效"
+      },
+      {
+        "name": "Three-year average particulate matter emissions intensity (sales based)",
+        "definition": "Measures the company’s three-year average particulate matter emissions (per unit of sales).",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          11
+        ],
+        "parent": "Particulate matter emissions intensity industry relative score",
+        "nameCn": "三年平均颗粒物排放强度（按销售额）",
+        "definitionCn": "衡量企业每单位销售额颗粒物排放量的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "颗粒物排放强度行业相对得分"
+      },
+      {
+        "name": "Particulate matter emissions intensity industry relative trend score",
+        "definition": "Assesses the company’s performance on the three-year average of year-over-year particulate matter emissions intensity (per unit of sales) trend, relative to its industry peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          11
+        ],
+        "parent": "Particulate matter emissions performance relative to peers",
+        "nameCn": "颗粒物排放强度行业相对趋势得分",
+        "definitionCn": "相对于行业同业，评估企业颗粒物排放强度（每单位销售额）同比变化趋势的三年平均表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业的颗粒物排放绩效"
+      },
+      {
+        "name": "Three-year average particulate matter emissions intensity trend (sales based)",
+        "definition": "Measures the company’s three-year average of year-over-year particulate matter emissions intensity(per unit of sales) trend.",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          11
+        ],
+        "parent": "Particulate matter emissions intensity industry relative trend score",
+        "nameCn": "三年平均颗粒物排放强度趋势（按销售额）",
+        "definitionCn": "衡量企业每单位销售额颗粒物排放强度同比变化趋势的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "颗粒物排放强度行业相对趋势得分"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Hazardous waste performance relative to peers",
+        "nameCn": "相对同业的危险废物绩效",
+        "definition": "Assesses the company's performance on hazardous waste intensity (normalized by sales), and trend in hazardous waste intensity, relative to its peers. Expressed as a 0-10 score, where 10 indicates strong performance.",
+        "definitionCn": "评估公司相对于同业组在危险废物强度（以销售额标准化）以及危险废物强度趋势上的绩效。以 0-10 分表示，其中 10 表示绩效强劲。",
+        "level": 1,
+        "sourcePages": [
+          12
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Hazardous waste intensity industry relative score",
+        "definition": "Assesses the company’s performance on hazardous waste generated normalized by sales, relative to its industry peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          12
+        ],
+        "parent": "Hazardous waste performance relative to peers",
+        "nameCn": "危险废弃物强度行业相对得分",
+        "definitionCn": "相对于行业同业，评估企业以销售额为分母的危险废弃物产生量表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业的危险废物绩效"
+      },
+      {
+        "name": "Three-year average hazardous waste intensity (sales based)",
+        "definition": "Measures the company’s three-year average hazardous waste generated per unit of sales.",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          12
+        ],
+        "parent": "Hazardous waste intensity industry relative score",
+        "nameCn": "三年平均危险废弃物强度（按销售额）",
+        "definitionCn": "衡量企业每单位销售额危险废弃物产生量的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "危险废弃物强度行业相对得分"
+      },
+      {
+        "name": "Hazardous waste intensity industry relative trend score",
+        "definition": "Assesses the company’s performance on the three-year average of year-over-year hazardous waste generated (per unit of sales) trend, relative to its industry peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          12
+        ],
+        "parent": "Hazardous waste performance relative to peers",
+        "nameCn": "危险废弃物强度行业相对趋势得分",
+        "definitionCn": "相对于行业同业，评估企业危险废弃物产生量（每单位销售额）同比变化趋势的三年平均表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业的危险废物绩效"
+      },
+      {
+        "name": "Three-year average hazardous waste intensity trend (sales based)",
+        "definition": "Measures the company’s three-year average of year-over-year hazardous waste generated (per unit of sales) trend.",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          12
+        ],
+        "parent": "Hazardous waste intensity industry relative trend score",
+        "nameCn": "三年平均危险废弃物强度趋势（按销售额）",
+        "definitionCn": "衡量企业每单位销售额危险废弃物产生量同比变化趋势的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "危险废弃物强度行业相对趋势得分"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Non-hazardous waste performance relative to peers",
+        "nameCn": "相对同业的非危险废物绩效",
+        "definition": "Assesses the company's performance on non-hazardous waste intensity (normalized by sales), and trend in non-hazardous waste intensity, relative to its peers. Expressed as a 0-10 score, where 10 indicates strong performance.",
+        "definitionCn": "评估公司相对于同业组在非危险废物强度（以销售额标准化）以及非危险废物强度趋势上的绩效。以 0-10 分表示，其中 10 表示绩效强劲。",
+        "level": 1,
+        "sourcePages": [
+          12
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Non-hazardous waste intensity industry relative score",
+        "definition": "Assesses the company’s performance on non-hazardous waste generated (normalized by sales), relative to its industry peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          12
+        ],
+        "parent": "Non-hazardous waste performance relative to peers",
+        "nameCn": "非危险废弃物强度行业相对得分",
+        "definitionCn": "相对于行业同业，评估企业以销售额为分母的非危险废弃物产生量表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业的非危险废物绩效"
+      },
+      {
+        "name": "Three-year average non-hazardous waste intensity (sales based)",
+        "definition": "Measures the company’s three-year average non-hazardous waste generated (per unit of sales).",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          12
+        ],
+        "parent": "Non-hazardous waste intensity industry relative score",
+        "nameCn": "三年平均非危险废弃物强度（按销售额）",
+        "definitionCn": "衡量企业每单位销售额非危险废弃物产生量的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "非危险废弃物强度行业相对得分"
+      },
+      {
+        "name": "Non-hazardous waste intensity industry relative trend score",
+        "definition": "Assesses the company’s performance on the three-year average of year-over-year non-hazardous generated (per unit of sales) trend, relative to its industry peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          12,
+          13
+        ],
+        "parent": "Non-hazardous waste performance relative to peers",
+        "nameCn": "非危险废弃物强度行业相对趋势得分",
+        "definitionCn": "相对于行业同业，评估企业非危险废弃物产生量（每单位销售额）同比变化趋势的三年平均表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业的非危险废物绩效"
+      },
+      {
+        "name": "Three-year average non-hazardous waste intensity trend (sales based)",
+        "definition": "Measures the company’s three-year average of year-over-year non-hazardous waste generated (per unit of sales) trend.",
+        "component": "Performance",
+        "level": 3,
+        "sourcePages": [
+          13
+        ],
+        "parent": "Non-hazardous waste intensity industry relative trend score",
+        "nameCn": "三年平均非危险废弃物强度趋势（按销售额）",
+        "definitionCn": "衡量企业每单位销售额非危险废弃物产生量同比变化趋势的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "非危险废弃物强度行业相对趋势得分"
+      }
+    ],
+    "keyMetrics": [],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 18,
+      "sourceFile": "12 toxic-emissions-and-waste-key-issue.pdf",
+      "source": "Environmental Pillar/12 toxic-emissions-and-waste-key-issue.pdf"
+    },
+    "sourceId": "toxic-emissions-and-waste",
+    "introPages": [
+      3
+    ],
+    "riskPages": [
+      4
+    ],
+    "scoringNote": "风险型议题将风险敞口与风险管理得分通过总方法论的映射组合，不是两者直接相乘。管理评估可包含实践、绩效、目标及争议扣分；具体组件和行业适用性见本议题 PDF。",
+    "scoringPages": [
+      21,
+      22,
+      23
+    ],
+    "rules": []
+  },
+  {
+    "id": "health-and-safety",
+    "name": "健康与安全",
+    "nameEn": "Health & Safety",
+    "pillar": "social",
+    "theme": "human-capital",
+    "type": "risk",
+    "summary": "评估企业的工作场所安全管理，以及其所在行业与地区的工作场所安全标准。",
+    "intro": "Health & Safety is a Key Issue in the Social Pillar of the MSCI ESG Ratings model. Companies are evaluated on their management of workplace safety and the workplace safety standards in the industries and regions in which they operate.",
+    "risks": [
+      "Decreased operational efficiency, production disruptions.",
+      "Increased costs from litigation, penalties and fines.",
+      "Loss of access to markets or growth opportunities from negative reputational effects."
+    ],
+    "risksCn": [
+      "运营效率下降、生产中断。",
+      "诉讼、处罚和罚款带来的成本增加。",
+      "负面声誉影响导致的市场准入或增长机会丧失。"
+    ],
+    "indicators": [
+      {
+        "component": "Governance & Strategy",
+        "componentCn": "治理与战略",
+        "name": "Scope of health and safety policy",
+        "nameCn": "健康与安全政策的适用范围",
+        "definition": "Indicates whether the company’s health and safety policy applies to all operations or select operations.",
+        "definitionCn": "表明公司的健康与安全政策适用于所有运营还是部分运营。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Governance & Strategy",
+        "componentCn": "治理与战略",
+        "name": "Applicability of health and safety policy to contractors",
+        "nameCn": "健康与安全政策对承包商的适用性",
+        "definition": "Indicates whether contractors are held to the same health and safety policies as employees.",
+        "definitionCn": "表明承包商是否须遵守与员工相同的健康与安全政策。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Governance & Strategy",
+        "componentCn": "治理与战略",
+        "name": "Health and safety policy and practices are audited",
+        "nameCn": "健康与安全政策及实践经过审计",
+        "definition": "Indicates whether there is evidence that the company conducts internal and/or external audits of its health & safety policy and practices. This could include, for example, certification to ISO 45001 or a similar framework, which requires regular audits.",
+        "definitionCn": "表明是否有证据显示公司对其健康与安全政策及实践进行内部和/或外部审计。这可能包括例如获得 ISO 45001 或类似框架的认证，此类认证要求定期审计。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Governance & Strategy",
+        "componentCn": "治理与战略",
+        "name": "Health and safety performance is a factor in CEO compensation",
+        "nameCn": "健康与安全绩效是 CEO 薪酬的考量因素",
+        "definition": "Indicates whether CEO compensation is linked to health and safety performance.",
+        "definitionCn": "表明 CEO 薪酬是否与健康与安全绩效挂钩。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Governance & Strategy",
+        "componentCn": "治理与战略",
+        "name": "Body responsible for health & safety strategy and performance",
+        "nameCn": "负责健康与安全战略与绩效的机构",
+        "definition": "Assesses whether the health & safety strategy and performance oversight is assigned to a dedicated individual, team, or committee. Expressed as a 0-10 score, with 10 indicating that the CEO is responsible for these practices.",
+        "definitionCn": "评估健康与安全战略及绩效监督是否分配给专门的个人、团队或委员会。以 0-10 分表示，10 分表示 CEO 负责这些实践。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "CEO is responsible for health and safety strategy",
+        "definition": "Indicates whether the company’s CEO has explicit responsibility for oversight of the company’s health and safety strategy and performance.",
+        "component": "Governance & Strategy",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Body responsible for health & safety strategy and performance",
+        "nameCn": "CEO 负责健康与安全战略",
+        "definitionCn": "说明企业 CEO 是否明确负责监督企业健康与安全战略及绩效。",
+        "componentCn": "治理与战略",
+        "parentCn": "负责健康与安全战略与绩效的机构"
+      },
+      {
+        "name": "Senior executive or executive committee are responsible for health and safety strategy",
+        "definition": "Indicates whether there is a senior executive or executive committee with explicit responsibility for oversight of the company’s health and safety strategy and performance.",
+        "component": "Governance & Strategy",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Body responsible for health & safety strategy and performance",
+        "nameCn": "高级管理人员或执行委员会负责健康与安全战略",
+        "definitionCn": "说明是否有高级管理人员或执行委员会明确负责监督企业健康与安全战略及绩效。",
+        "componentCn": "治理与战略",
+        "parentCn": "负责健康与安全战略与绩效的机构"
+      },
+      {
+        "name": "CSR or sustainability committees are responsible for health and safety strategy and performance",
+        "definition": "Indicates whether there is a CSR or sustainability committee with explicit responsibility for oversight of the company’s health and safety strategy and performance.",
+        "component": "Governance & Strategy",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Body responsible for health & safety strategy and performance",
+        "nameCn": "企业社会责任或可持续发展委员会负责健康与安全战略及绩效",
+        "definitionCn": "说明是否有企业社会责任（CSR）或可持续发展委员会明确负责监督企业健康与安全战略及绩效。",
+        "componentCn": "治理与战略",
+        "parentCn": "负责健康与安全战略与绩效的机构"
+      },
+      {
+        "name": "Non-executive or non-committee level task force is responsible for health and safety strategy and performance",
+        "definition": "Indicates whether there is a non-executive person or non-committee with explicit responsibility for oversight of the company’s health and safety strategy and performance. An example of this would be a non-executive risk officer that is responsible for these practices.",
+        "component": "Governance & Strategy",
+        "level": 2,
+        "sourcePages": [
+          7,
+          8
+        ],
+        "parent": "Body responsible for health & safety strategy and performance",
+        "nameCn": "非执行人员或非委员会层级工作组负责健康与安全战略及绩效",
+        "definitionCn": "说明是否有非执行人员或非委员会机构明确负责监督企业健康与安全战略及绩效，例如负责此类实践的非执行风险负责人。",
+        "componentCn": "治理与战略",
+        "parentCn": "负责健康与安全战略与绩效的机构"
+      },
+      {
+        "component": "Governance & Strategy",
+        "componentCn": "治理与战略",
+        "name": "Evaluation of health & safety certification",
+        "nameCn": "健康与安全认证的评估",
+        "definition": "Assesses the extent to which the company has obtained recognized health and safety certifications (e.g., ISO 45001). Expressed as a 0-10 score, with 10 indicating the highest degree of certification.",
+        "definitionCn": "评估公司获得公认健康与安全认证（如 ISO 45001）的程度。以 0-10 分表示，10 分表示认证程度最高。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Evidence of health and safety management system certified to recognized standard",
+        "definition": "Indicates whether there is evidence that some portion of the company’s operations have a health and safety management system certified to the ISO 45001 standard, or GB/T 45001-2020 standard.",
+        "component": "Governance & Strategy",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Evaluation of health & safety certification",
+        "nameCn": "健康与安全管理体系获得认可标准认证的证据",
+        "definitionCn": "说明是否有证据表明企业部分运营的健康与安全管理体系获得 ISO 45001 或 GB/T 45001-2020 标准认证。",
+        "componentCn": "治理与战略",
+        "parentCn": "健康与安全认证的评估"
+      },
+      {
+        "name": "Percentage of operations having health and safety management systems certified to recognized standard",
+        "definition": "The percentage of operations that have a health and safety management system certified to the ISO 45001, or GB/T 45001 -2020 standard.",
+        "component": "Governance & Strategy",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Evaluation of health & safety certification",
+        "nameCn": "健康与安全管理体系获得认可标准认证的运营占比",
+        "definitionCn": "健康与安全管理体系获得 ISO 45001 或 GB/T 45001-2020 标准认证的运营占比。",
+        "componentCn": "治理与战略",
+        "parentCn": "健康与安全认证的评估"
+      },
+      {
+        "component": "Governance & Strategy",
+        "componentCn": "治理与战略",
+        "name": "Contractors included in disclosed health and safety metrics",
+        "nameCn": "披露的健康与安全指标中包含承包商",
+        "definition": "Indicates whether contractor health and safety performance is measured and disclosed in the same or similar manner as employees.",
+        "definitionCn": "表明承包商的健康与安全绩效是否以与员工相同或类似的方式进行衡量和披露。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Targets",
+        "componentCn": "目标管理",
+        "name": "Target to improve health and safety performance",
+        "nameCn": "改善健康与安全绩效的目标",
+        "definition": "The type of target set by the company to reduce employee accidents and fatalities. Best practice is to set a quantifiable (non-zero) accident reduction target that includes contractors and employees.",
+        "definitionCn": "公司为减少员工事故和死亡而设定的目标类型。最佳实践是设定包含承包商和员工的、可量化（非零）的事故减少目标。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Lost time incident rate performance relative to peers",
+        "nameCn": "误工事故率绩效的相对同业表现",
+        "definition": "Assesses the company’s performance on reported lost time incidents rate [LTIR] (per million hours worked), and trend in LTIR, relative to its peers. Expressed as a 0–10 score, where 10 indicates the highest level of performance.",
+        "definitionCn": "评估公司在报告的误工事故率[LTIR]（每百万工时）及 LTIR 趋势方面相对于同业的表现。以 0–10 分表示，10 分表示表现最高。误工事故率（每百万工时）",
+        "level": 1,
+        "sourcePages": [
+          9
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Lost time incident rate (per million hours worked) industry relative score",
+        "definition": "Assesses the company’s performance on Lost Time Incident Rate (number of incidents resulting in lost work time per million hours worked) relative to its industry peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          9
+        ],
+        "parent": "Lost time incident rate performance relative to peers",
+        "nameCn": "损失工时事故率（每百万工时）行业相对得分",
+        "definitionCn": "相对于行业同业，评估企业损失工时事故率，即每百万工时导致损失工作时间的事故数量。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "误工事故率绩效的相对同业表现"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Three-year average Lost time incident rate (per million hours worked)",
+        "nameCn": "三年平均误工事故率（每百万工时）",
+        "definition": "Measures the company’s three-year average Lost Time Incident Rate (per million hours worked).",
+        "definitionCn": "衡量公司三年平均误工事故率（每百万工时）。误工事故率（每百万工时）",
+        "level": 3,
+        "sourcePages": [
+          9
+        ],
+        "parent": "Lost time incident rate (per million hours worked) industry relative score",
+        "parentCn": "损失工时事故率（每百万工时）行业相对得分"
+      },
+      {
+        "name": "Lost time incident rate (per million hours worked) industry relative trend score",
+        "definition": "Assesses the company’s performance on the three-year average of year-over-year Lost Time Incident Rate (per million hours worked) trend, relative to its industry peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          9
+        ],
+        "parent": "Lost time incident rate performance relative to peers",
+        "nameCn": "损失工时事故率（每百万工时）行业相对趋势得分",
+        "definitionCn": "相对于同业，评估企业损失工时事故率（每百万工时）同比变化趋势的三年平均表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "误工事故率绩效的相对同业表现"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Three-year average Lost time incident rate trend (per million hours worked)",
+        "nameCn": "三年平均误工事故率趋势（每百万工时）",
+        "definition": "Measures the company’s three-year average of year-over-year Lost Time Incident Rate (per million hours worked) trend.",
+        "definitionCn": "衡量公司误工事故率（每百万工时）同比趋势的三年平均值。",
+        "level": 3,
+        "sourcePages": [
+          9
+        ],
+        "parent": "Lost time incident rate (per million hours worked) industry relative trend score",
+        "parentCn": "损失工时事故率（每百万工时）行业相对趋势得分"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Total recordable injury rate performance relative to peers",
+        "nameCn": "总可记录伤害率绩效的相对同业表现",
+        "definition": "Assesses the company’s performance on reported total recordable injury rate [TRIR] (per million hours worked), and trend in TRIR, relative to its peers. Expressed as a 0–10 score, where 10 indicates the highest level of performance.",
+        "definitionCn": "评估公司在报告的总可记录伤害率[TRIR]（每百万工时）及 TRIR 趋势方面相对于同业的表现。以 0–10 分表示，10 分表示表现最高。总可记录伤害率（每百万工时）",
+        "level": 1,
+        "sourcePages": [
+          9
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Total recordable injury rate (per million hours worked) industry relative score",
+        "definition": "Assesses the company’s performance on Total Recordable Injury Rate (number of recordable injuries per million hours worked), relative to its industry peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          9
+        ],
+        "parent": "Total recordable injury rate performance relative to peers",
+        "nameCn": "总可记录伤害率（每百万工时）行业相对得分",
+        "definitionCn": "相对于行业同业，评估企业总可记录伤害率，即每百万工时可记录伤害数量。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "总可记录伤害率绩效的相对同业表现"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Three-year average Total recordable injury rate (per million hours worked)",
+        "nameCn": "三年平均总可记录伤害率（每百万工时）",
+        "definition": "Measures the company’s three-year average Total Recordable Injury Rate (per million hours worked).",
+        "definitionCn": "衡量公司三年平均总可记录伤害率（每百万工时）。总可记录伤害率（每百万工时）",
+        "level": 3,
+        "sourcePages": [
+          10
+        ],
+        "parent": "Total recordable injury rate (per million hours worked) industry relative score",
+        "parentCn": "总可记录伤害率（每百万工时）行业相对得分"
+      },
+      {
+        "name": "Total recordable injury rate (per million hours worked) industry relative trend score",
+        "definition": "Assesses the company’s performance on the three-year average of year-over-year Total Recordable Injury Rate (per million hours worked) trend, relative to its industry peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          10
+        ],
+        "parent": "Total recordable injury rate performance relative to peers",
+        "nameCn": "总可记录伤害率（每百万工时）行业相对趋势得分",
+        "definitionCn": "相对于同业，评估企业总可记录伤害率（每百万工时）同比变化趋势的三年平均表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "总可记录伤害率绩效的相对同业表现"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Three-year average Total recordable injury rate trend (per million hours worked)",
+        "nameCn": "三年平均总可记录伤害率趋势（每百万工时）",
+        "definition": "Measures the company’s three-year average of year-over-year Total recordable injury rate (per million hours worked) trend.",
+        "definitionCn": "衡量公司总可记录伤害率（每百万工时）同比趋势的三年平均值。",
+        "level": 3,
+        "sourcePages": [
+          10
+        ],
+        "parent": "Total recordable injury rate (per million hours worked) industry relative trend score",
+        "parentCn": "总可记录伤害率（每百万工时）行业相对趋势得分"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Fatality intensity performance relative to peers",
+        "nameCn": "死亡强度绩效的相对同业表现",
+        "definition": "Assesses the company's performance on fatalities intensity (normalized by number of employees and/or by sales), relative to industry peers. Expressed as a 0-10 score, with 10 indicating zero fatalities.",
+        "definitionCn": "评估公司在死亡强度（按员工人数和/或销售额标准化）方面相对于行业同业的表现。以 0-10 分表示，10 分表示零死亡。",
+        "level": 1,
+        "sourcePages": [
+          10
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Fatalities industry relative score",
+        "definition": "Assesses the company’s performance on fatalities normalized per 100,000 employees and/or sales, relative to its industry peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          10
+        ],
+        "parent": "Fatality intensity performance relative to peers",
+        "nameCn": "死亡事故行业相对得分",
+        "definitionCn": "相对于同业，评估以每 100,000 名员工或销售额为分母的死亡人数表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "死亡强度绩效的相对同业表现"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Three-year average fatalities (per 100,000 employees)",
+        "nameCn": "三年平均死亡人数（每 100,000 名员工）",
+        "definition": "Measures the company’s three-year average fatalities per 100,000 employees.",
+        "definitionCn": "衡量公司每 100,000 名员工的三年平均死亡人数。",
+        "level": 3,
+        "sourcePages": [
+          10
+        ],
+        "parent": "Fatalities industry relative score",
+        "parentCn": "死亡事故行业相对得分"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Three-year average fatalities per million USD in sales",
+        "nameCn": "每百万美元销售额的三年平均死亡人数",
+        "definition": "Measures the company’s three-year average fatalities per million USD in sales.",
+        "definitionCn": "衡量公司每百万美元销售额的三年平均死亡人数。",
+        "level": 3,
+        "sourcePages": [
+          10
+        ],
+        "parent": "Fatalities industry relative score",
+        "parentCn": "死亡事故行业相对得分"
+      }
+    ],
+    "keyMetrics": [],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 17,
+      "sourceFile": "7 health-and-safety-key-issue.pdf",
+      "source": "Social Pillar/7 health-and-safety-key-issue.pdf"
+    },
+    "sourceId": "health-and-safety",
+    "introPages": [
+      3
+    ],
+    "riskPages": [
+      4
+    ],
+    "scoringNote": "风险型议题将风险敞口与风险管理得分通过总方法论的映射组合，不是两者直接相乘。管理评估可包含实践、绩效、目标及争议扣分；具体组件和行业适用性见本议题 PDF。",
+    "scoringPages": [
+      21,
+      22,
+      23
+    ],
+    "rules": []
+  },
+  {
+    "id": "human-capital-development",
+    "name": "人力资本发展",
+    "nameEn": "Human Capital Development",
+    "pillar": "social",
+    "theme": "human-capital",
+    "type": "risk",
+    "summary": "评估企业的人才需求，以及其吸引、留住和培养高技能劳动力的能力。",
+    "intro": "Human Capital Development is a Key Issue in the Social Pillar of the MSCI ESG Ratings model. Companies are evaluated on their workforce talent requirements and their ability to attract, retain and develop a highly skilled workforce.",
+    "risks": [
+      "Inability to attract skilled talent to fill role requirements, loss of competitiveness.",
+      "Loss of intellectual and human capital through attrition, key-person risk.",
+      "Increased costs associated with high employee turnover (e.g., recruitment, training).",
+      "Low workforce productivity."
+    ],
+    "risksCn": [
+      "无法吸引熟练人才以满足岗位要求，丧失竞争力。",
+      "因人员流失而损失智力资本和人力资本，关键人员风险。",
+      "与员工高流动率相关的成本增加（如招聘、培训）。",
+      "劳动力生产率低下。"
+    ],
+    "indicators": [
+      {
+        "component": "Strategy",
+        "componentCn": "战略",
+        "name": "Extent of human resource-related grievance reporting or escalation procedures",
+        "nameCn": "与人力资源相关的申诉报告或上报程序的程度",
+        "definition": "Indicates whether the company has an internal reporting channel or escalation procedures for employees to report human resource-related grievances.",
+        "definitionCn": "说明公司是否有内部报告渠道或上报程序，供员工报告与人力资源相关的申诉。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Strategy",
+        "componentCn": "战略",
+        "name": "Employee satisfaction survey frequency",
+        "nameCn": "员工满意度调查频率",
+        "definition": "The frequency of employee satisfaction surveys. Best practice is at least annually.",
+        "definitionCn": "员工满意度调查的频率。最佳实践是至少每年一次。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Strategy",
+        "componentCn": "战略",
+        "name": "Formal talent pipeline development strategy",
+        "nameCn": "正式的人才梯队培养战略",
+        "definition": "Indicates whether a company has a formal talent pipeline development strategy in place, evidenced through structured recruitment programs (such as graduate traineeships, internships, or apprenticeships) and explicit statements linking talent pipeline development to the company’s long-term business or workforce strategy.",
+        "definitionCn": "说明公司是否制定了正式的人才梯队培养战略，其证据包括结构化的招聘项目（如毕业生培训计划、实习或学徒制）以及将人才梯队培养与公司长期业务或劳动力战略相联系的明确表述。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Programs & Initiatives",
+        "componentCn": "方案与举措",
+        "name": "Employee equity programs",
+        "nameCn": "员工股权方案",
+        "definition": "The extent of eligibility for an employee stock ownership plan and/or an employee stock purchase plan. Best practice is for all permanent employees to have access to such programs to participate.",
+        "definitionCn": "员工持股计划和/或员工购股计划的资格覆盖程度。最佳实践是所有正式员工均可参与此类方案。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Programs & Initiatives",
+        "componentCn": "方案与举措",
+        "name": "Variable performance-based component to pay",
+        "nameCn": "薪酬中基于绩效的可变部分",
+        "definition": "Indicates whether non-officer and non-sales staff are eligible for variable performance-based pay, such as bonuses.",
+        "definitionCn": "说明非管理人员和非销售员工是否有资格获得基于绩效的可变薪酬，如奖金。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Programs & Initiatives",
+        "componentCn": "方案与举措",
+        "name": "Workforce eligible for paid parental leave policy",
+        "nameCn": "有资格享受带薪育儿假政策的员工范围",
+        "definition": "Assesses the extent to which the company’s workforce is eligible for material non-pay benefits, evaluated through the company’s paid parental leave policies, considering both the duration of paid leave and the scope of employee coverage based on publicly available information. The industry-leading practice is when a company’s paid parental leave policies cover all employees across its global operations.",
+        "definitionCn": "评估公司员工有资格享受实质性非现金福利的程度，通过公司的带薪育儿假政策进行评估，同时考虑带薪假的时长和员工覆盖范围（基于公开可得信息）。行业领先实践是公司的带薪育儿假政策覆盖其全球业务中的所有员工。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Programs & Initiatives",
+        "componentCn": "方案与举措",
+        "name": "Regular performance appraisals and feedback processes",
+        "nameCn": "定期的绩效评估和反馈流程",
+        "definition": "Indicates whether and to what extent the company undertakes programs for employee professional development, such as performance reviews, goal setting and review, or similar. Best practice is for such programs to be provided to all permanent employees.",
+        "definitionCn": "说明公司是否开展以及开展程度如何的员工职业发展项目，如绩效评估、目标设定与回顾等。最佳实践是此类项目提供给所有正式员工。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Programs & Initiatives",
+        "componentCn": "方案与举措",
+        "name": "Skills and knowledge development training",
+        "nameCn": "技能与知识发展培训",
+        "definition": "The extent of managerial/leadership development training. Best practice is a training program in which all employees participate.",
+        "definitionCn": "管理/领导力发展培训的程度。最佳实践是全体员工参与培训项目。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Employee turnover rate performance relative to peers",
+        "nameCn": "相对于同业组的员工流动率绩效",
+        "definition": "Assesses the company’s performance on reported employee turnover rate, and trend in employee turnover rate, relative to its peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "definitionCn": "评估公司在所报告的员工流动率以及员工流动率趋势方面相对于同业组的表现。以 0–10 分表示，10 分表示绩效强。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Employee turnover rate industry relative score",
+        "definition": "Assesses the company’s performance on employee turnover rate relative to its peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Employee turnover rate performance relative to peers",
+        "nameCn": "员工流失率行业相对得分",
+        "definitionCn": "相对于同业，评估企业员工流失率的表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对于同业组的员工流动率绩效"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Three-year average employee turnover rate",
+        "nameCn": "三年平均员工流动率",
+        "definition": "Measures the company’s three-year average employee turnover rate.",
+        "definitionCn": "衡量公司的三年平均员工流动率。",
+        "level": 3,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Employee turnover rate industry relative score",
+        "parentCn": "员工流失率行业相对得分"
+      },
+      {
+        "name": "Employee turnover rate industry relative trend score",
+        "definition": "Assesses the company’s performance on the three-year average of year-over-year trend in employee turnover rate, relative to its peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Employee turnover rate performance relative to peers",
+        "nameCn": "员工流失率行业相对趋势得分",
+        "definitionCn": "相对于同业，评估企业员工流失率同比变化趋势的三年平均表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对于同业组的员工流动率绩效"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Three-year average employee turnover rate trend",
+        "nameCn": "三年平均员工流动率趋势",
+        "definition": "Measures the company’s three-year average of year-over-year employee turnover rate trend.",
+        "definitionCn": "衡量公司三年平均的同比员工流动率趋势。",
+        "level": 3,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Employee turnover rate industry relative trend score",
+        "parentCn": "员工流失率行业相对趋势得分"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "External recognition as employer of choice (last three years)",
+        "nameCn": "作为理想雇主的外部认可（最近三年）",
+        "definition": "Indicates whether the company received external recognition as an employer of choice in the last three years.",
+        "definitionCn": "说明公司在最近三年是否获得作为理想雇主的外部认可。",
+        "level": 1,
+        "sourcePages": [
+          9
+        ],
+        "parent": "",
+        "parentCn": ""
+      }
+    ],
+    "keyMetrics": [],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 15,
+      "sourceFile": "8 human-capital-development-key-issue.pdf",
+      "source": "Social Pillar/8 human-capital-development-key-issue.pdf"
+    },
+    "sourceId": "human-capital-development",
+    "introPages": [
+      3
+    ],
+    "riskPages": [
+      4
+    ],
+    "scoringNote": "风险型议题将风险敞口与风险管理得分通过总方法论的映射组合，不是两者直接相乘。管理评估可包含实践、绩效、目标及争议扣分；具体组件和行业适用性见本议题 PDF。",
+    "scoringPages": [
+      21,
+      22,
+      23
+    ],
+    "rules": []
+  },
+  {
+    "id": "labor-management",
+    "name": "劳工管理",
+    "nameEn": "Labor Management",
+    "pillar": "social",
+    "theme": "human-capital",
+    "type": "risk",
+    "summary": "结合劳动力规模、劳动强度与地理分布，评估企业吸引、激励和发展庞大复杂劳动力队伍的能力。",
+    "intro": "Labor Management is a Key Issue in the Social Pillar of the MSCI ESG Ratings model. Companies are evaluated on their ability to engage, incentivize, and develop a large and complex workforce, taking into account workforce size, labor intensity, and geographic footprint.",
+    "risks": [
+      "Production delays due to labor unrest.",
+      "Reduced productivity and product quality.",
+      "Loss of growth opportunities, market share or pricing power due to damage to brand value."
+    ],
+    "risksCn": [
+      "因劳工动荡而导致的生产延误。",
+      "生产率和产品质量下降。",
+      "因品牌价值受损而丧失增长机会、市场份额或定价能力。"
+    ],
+    "indicators": [
+      {
+        "component": "Strategy",
+        "componentCn": "战略",
+        "name": "Employee equity programs",
+        "nameCn": "员工股权方案",
+        "definition": "The extent of eligibility for an employee stock ownership plan and/or an employee stock purchase plan. Best practice is for all permanent employees to have access to such programs to participate.",
+        "definitionCn": "员工持股计划和/或员工购股计划的适用资格范围。最佳实践是让所有正式员工都能参与此类方案。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Strategy",
+        "componentCn": "战略",
+        "name": "Workforce eligible for paid parental leave policy",
+        "nameCn": "符合带薪育儿假政策资格的员工",
+        "definition": "Assesses the extent to which the company’s workforce is eligible for material non-pay benefits, evaluated through the company’s paid parental leave policies, considering both the duration of paid leave and the scope of employee coverage based on publicly available information. The industry-leading practice is when a company’s paid parental leave policies cover all employees across its global operations.",
+        "definitionCn": "评估公司员工符合实质性非薪酬福利资格的程度，通过公司的带薪育儿假政策进行评估，同时考虑带薪假期时长和基于公开信息可得的员工覆盖范围。行业领先实践是公司的带薪育儿假政策覆盖其全球运营中的所有员工。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Strategy",
+        "componentCn": "战略",
+        "name": "Scope of workforce eligibility for variable performance-based component to pay",
+        "nameCn": "浮动绩效薪酬组件适用的员工范围",
+        "definition": "Indicates whether non-officer staff are eligible for variable performance-based pay, such as bonuses, and considers the scope of employees eligible for performance-based pay.",
+        "definitionCn": "表明非高管员工是否有资格获得浮动绩效薪酬（如奖金），并考虑符合绩效薪酬资格的员工范围。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Programs & Initiatives",
+        "componentCn": "方案与举措",
+        "name": "Employee satisfaction survey frequency",
+        "nameCn": "员工满意度调查频率",
+        "definition": "The frequency of employee satisfaction surveys. Best practice is at least annually.",
+        "definitionCn": "员工满意度调查的频率。最佳实践是至少每年一次。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Programs & Initiatives",
+        "componentCn": "方案与举措",
+        "name": "Restructuring policies and programs",
+        "nameCn": "重组政策与方案",
+        "definition": "Indicates whether the company has established clear policies for employees following a restructuring or layoff, such as offering severance pay or assistance with outplacement, reemployment or retraining.",
+        "definitionCn": "表明公司是否在重组或裁员后为员工制定了明确的政策，例如提供遣散费或再就业安置、重新就业或再培训方面的协助。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Programs & Initiatives",
+        "componentCn": "方案与举措",
+        "name": "Skills and knowledge development training",
+        "nameCn": "技能与知识发展培训",
+        "definition": "The extent of managerial/leadership development training. Best practice is a training program in which all employees participate.",
+        "definitionCn": "管理/领导力发展培训的范围。最佳实践是所有员工都参与的培训计划。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Programs & Initiatives",
+        "componentCn": "方案与举措",
+        "name": "Support for degree programs or certifications for employees",
+        "nameCn": "对员工学位项目或认证的支持",
+        "definition": "The scope of the company's workforce eligible for support in pursuing degree programs or new certifications through tuition or fees reimbursement, etc.",
+        "definitionCn": "公司员工有资格通过学费或费用报销等方式获得攻读学位项目或获取新认证支持的范围。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      }
+    ],
+    "keyMetrics": [],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 14,
+      "sourceFile": "9 labor-management-key-issue.pdf",
+      "source": "Social Pillar/9 labor-management-key-issue.pdf"
+    },
+    "sourceId": "labor-management",
+    "introPages": [
+      3
+    ],
+    "riskPages": [
+      4
+    ],
+    "scoringNote": "风险型议题将风险敞口与风险管理得分通过总方法论的映射组合，不是两者直接相乘。管理评估可包含实践、绩效、目标及争议扣分；具体组件和行业适用性见本议题 PDF。",
+    "scoringPages": [
+      21,
+      22,
+      23
+    ],
+    "rules": []
+  },
+  {
+    "id": "supply-chain-labor-standards",
+    "name": "供应链劳工标准",
+    "nameEn": "Supply Chain Labor Standards",
+    "pillar": "social",
+    "theme": "human-capital",
+    "type": "risk",
+    "summary": "评估企业供应链的管理与透明度，以及其供应商所在地区的劳动标准状况。",
+    "intro": "Supply Chain Labor Standards is a Key Issue in the Social Pillar of the MSCI ESG Ratings model. Companies are evaluated on the management and transparency of their supply chain and the working standards in the regions in which their suppliers are located.",
+    "risks": [
+      "Production delays due to labor unrest in supply chains.",
+      "Reduced productivity and product quality.",
+      "Loss of growth opportunities, market share or pricing power due to negative publicity and damage to brand value."
+    ],
+    "risksCn": [
+      "因供应链中的劳工骚乱导致生产延误。",
+      "生产率和产品质量下降。",
+      "因负面报道和品牌价值受损而丧失增长机会、市场份额或定价能力。"
+    ],
+    "indicators": [
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Scope of supplier code of conduct",
+        "nameCn": "供应商行为准则的覆盖范围",
+        "definition": "Assesses inclusion of key labor standards in supplier code of conduct such as wages, working hours and worker protections. Expressed as a 0-10 score, with 10 indicating strong initiatives.",
+        "definitionCn": "评估供应商行为准则中对关键劳工标准的纳入情况，如工资、工作时间和劳动者保护。以 0-10 分表示，10 分表示举措强。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Supply chain code of conduct covers anti-discrimination",
+        "definition": "Indicates whether the company’s supply chain code of conduct sets forth requirements forbidding suppliers from engaging in discrimination regarding their employees.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Scope of supplier code of conduct",
+        "nameCn": "供应链行为准则涵盖反歧视",
+        "definitionCn": "说明企业供应链行为准则是否规定了禁止供应商歧视其员工的要求。",
+        "componentCn": "实践管理",
+        "parentCn": "供应商行为准则的覆盖范围"
+      },
+      {
+        "name": "Supply chain code of conduct covers child labor",
+        "definition": "Indicates whether the company’s supply chain code of conduct forbids suppliers to use underage labor.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Scope of supplier code of conduct",
+        "nameCn": "供应链行为准则涵盖童工",
+        "definitionCn": "说明企业供应链行为准则是否禁止供应商使用未成年劳工。",
+        "componentCn": "实践管理",
+        "parentCn": "供应商行为准则的覆盖范围"
+      },
+      {
+        "name": "Supply chain code of conduct covers forced labor",
+        "definition": "Indicates whether the company’s supply chain code of conduct forbids suppliers to use forced labor.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Scope of supplier code of conduct",
+        "nameCn": "供应链行为准则涵盖强迫劳动",
+        "definitionCn": "说明企业供应链行为准则是否禁止供应商使用强迫劳动。",
+        "componentCn": "实践管理",
+        "parentCn": "供应商行为准则的覆盖范围"
+      },
+      {
+        "name": "Supply chain code of conduct covers freedom of association",
+        "definition": "Indicates whether the company’s supply chain code of conduct sets forth requirements that suppliers respect freedom of association and allow workers to unionize if desired.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Scope of supplier code of conduct",
+        "nameCn": "供应链行为准则涵盖结社自由",
+        "definitionCn": "说明企业供应链行为准则是否要求供应商尊重结社自由，并允许有意愿的工人加入工会。",
+        "componentCn": "实践管理",
+        "parentCn": "供应商行为准则的覆盖范围"
+      },
+      {
+        "name": "Supply chain code of conduct covers health and safety",
+        "definition": "Indicates whether the company’s supply chain code of conduct sets forth requirements regarding health and safety working conditions at supplier factories.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Scope of supplier code of conduct",
+        "nameCn": "供应链行为准则涵盖健康与安全",
+        "definitionCn": "说明企业供应链行为准则是否对供应商工厂的健康与安全工作条件作出要求。",
+        "componentCn": "实践管理",
+        "parentCn": "供应商行为准则的覆盖范围"
+      },
+      {
+        "name": "Supply chain code of conduct covers minimum wage",
+        "definition": "Indicates whether the company’s supply chain code of conduct sets forth requirements regarding the minimum wages that suppliers must pay their employees.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Scope of supplier code of conduct",
+        "nameCn": "供应链行为准则涵盖最低工资",
+        "definitionCn": "说明企业供应链行为准则是否对供应商必须支付给员工的最低工资作出要求。",
+        "componentCn": "实践管理",
+        "parentCn": "供应商行为准则的覆盖范围"
+      },
+      {
+        "name": "Supply chain code of conduct covers paid overtime",
+        "definition": "Indicates whether the company’s supply chain code of conduct sets forth requirements that suppliers pay overtime wages when employees must work overtime hours.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Scope of supplier code of conduct",
+        "nameCn": "供应链行为准则涵盖加班报酬",
+        "definitionCn": "说明企业供应链行为准则是否要求供应商在员工必须加班时支付加班工资。",
+        "componentCn": "实践管理",
+        "parentCn": "供应商行为准则的覆盖范围"
+      },
+      {
+        "name": "Supply chain code of conduct covers working hours",
+        "definition": "Indicates whether the company’s supply chain code of conduct sets forth requirements limiting the amount of hours suppliers’ employees may be required to work in a day or a week.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          7,
+          8
+        ],
+        "parent": "Scope of supplier code of conduct",
+        "nameCn": "供应链行为准则涵盖工作时间",
+        "definitionCn": "说明企业供应链行为准则是否限制供应商每日或每周可要求员工工作的时数。",
+        "componentCn": "实践管理",
+        "parentCn": "供应商行为准则的覆盖范围"
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Trains suppliers on labor related social issues",
+        "nameCn": "就劳工相关社会议题培训供应商",
+        "definition": "Indicates whether the company has specific training programs in place with its suppliers on its supplier code of conduct or specific labor-related issues.",
+        "definitionCn": "说明公司是否有针对其供应商行为准则或特定劳工相关议题的具体培训项目。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Supplier selection based on labor management performance",
+        "nameCn": "基于劳工管理绩效的供应商选择",
+        "definition": "Indicates whether the company considers suppliers’ performance in allocating or renewing contracts, and/or placing further orders.",
+        "definitionCn": "说明公司在分配或续签合同，和/或下达进一步订单时是否考虑供应商的绩效。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Evidence of supplier audits",
+        "nameCn": "供应商审计的证据",
+        "definition": "Indicates whether the company conducts internal and/or external audits across its supply chain.",
+        "definitionCn": "说明公司是否在其供应链中开展内部和/或外部审计。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Action taken to address supplier misconduct",
+        "nameCn": "针对供应商不当行为采取的行动",
+        "definition": "Indicates whether the company provides evidence of developing a remediation action plan when incidents of noncompliance with its code of conduct are found.",
+        "definitionCn": "说明公司是否提供证据，表明在发现违反其行为准则的事件时会制定整改行动计划。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Extent of disclosure on instances of supplier misconduct",
+        "nameCn": "对供应商不当行为事件的披露程度",
+        "definition": "Indicates whether the company discloses the frequency and type of noncompliance incidents found in its supply chain.",
+        "definitionCn": "说明公司是否披露在其供应链中发现的不合规事件的频率和类型。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Scope of supplier audits",
+        "nameCn": "供应商审计的覆盖范围",
+        "definition": "Assesses the extent of audits conducted across the company's supply chains. Expressed as a 0-10 score, with 10 indicating strong initiatives.",
+        "definitionCn": "评估公司供应链中开展的审计程度。以 0-10 分表示，10 分表示举措强。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Tier 1 supplier audits (direct suppliers)",
+        "definition": "Indicates whether some or all Tier 1 suppliers (i.e., direct suppliers) are covered by the social audit program of the company.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Scope of supplier audits",
+        "nameCn": "一级供应商审计（直接供应商）",
+        "definitionCn": "说明企业社会审计计划是否覆盖部分或全部一级供应商（即直接供应商）。",
+        "componentCn": "实践管理",
+        "parentCn": "供应商审计的覆盖范围"
+      },
+      {
+        "name": "Tier 2 suppliers audits (components)",
+        "definition": "Indicates whether some or all Tier 2 suppliers (i.e., components) are covered by the social audit program of the company.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          8,
+          9
+        ],
+        "parent": "Scope of supplier audits",
+        "nameCn": "二级供应商审计（零部件）",
+        "definitionCn": "说明企业社会审计计划是否覆盖部分或全部二级供应商（即零部件供应商）。",
+        "componentCn": "实践管理",
+        "parentCn": "供应商审计的覆盖范围"
+      },
+      {
+        "name": "Tier 3 suppliers audits (raw materials)",
+        "definition": "Indicates whether some or all Tier 3 suppliers (i.e., raw materials) are covered by the social audit program of the company.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          9
+        ],
+        "parent": "Scope of supplier audits",
+        "nameCn": "三级供应商审计（原材料）",
+        "definitionCn": "说明企业社会审计计划是否覆盖部分或全部三级供应商（即原材料供应商）。",
+        "componentCn": "实践管理",
+        "parentCn": "供应商审计的覆盖范围"
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Effectiveness of grievance mechanisms",
+        "nameCn": "申诉机制的有效性",
+        "definition": "Assesses the effectiveness of grievance mechanisms for supply chain workers.",
+        "definitionCn": "评估供应链工人申诉机制的有效性。",
+        "level": 1,
+        "sourcePages": [
+          9
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Commitment to pay living wage for workers in supply chains",
+        "nameCn": "为供应链工人支付生活工资的承诺",
+        "definition": "Assesses the company's commitment to pay a living wage to its supply chain workers.",
+        "definitionCn": "评估公司向供应链工人支付生活工资的承诺。",
+        "level": 1,
+        "sourcePages": [
+          9
+        ],
+        "parent": "",
+        "parentCn": ""
+      }
+    ],
+    "keyMetrics": [],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 15,
+      "sourceFile": "14 supply-chain-labor-standards-key-issue.pdf",
+      "source": "Social Pillar/14 supply-chain-labor-standards-key-issue.pdf"
+    },
+    "sourceId": "supply-chain-labor-standards",
+    "introPages": [
+      3
+    ],
+    "riskPages": [
+      4
+    ],
+    "scoringNote": "风险型议题将风险敞口与风险管理得分通过总方法论的映射组合，不是两者直接相乘。管理评估可包含实践、绩效、目标及争议扣分；具体组件和行业适用性见本议题 PDF。",
+    "scoringPages": [
+      21,
+      22,
+      23
+    ],
+    "rules": []
+  },
+  {
+    "id": "chemical-safety",
+    "name": "化学品安全",
+    "nameEn": "Chemical Safety",
+    "pillar": "social",
+    "theme": "product-liability",
+    "type": "risk",
+    "summary": "评估企业产品组合中可能存在的有害化学品、面临的化学品法规收紧或待定敞口，以及开发低害替代品的努力。",
+    "intro": "Chemical Safety is a Key Issue in the Social Pillar of the MSCI ESG Ratings model. Companies are evaluated on the possible presence of harmful chemicals in their product portfolio, their potential exposure to strengthening or pending chemical regulations and their efforts to develop less- harmful alternatives.",
+    "risks": [
+      "Loss of access to markets due to regulatory reform.",
+      "Loss of revenue due to supply disruptions and changing consumer demand.",
+      "Increased costs from reformulating products."
+    ],
+    "risksCn": [
+      "因监管改革而丧失市场准入。",
+      "因供应中断和消费者需求变化而导致收入损失。",
+      "因重新配制产品而导致的成本增加。"
+    ],
+    "indicators": [
+      {
+        "component": "Strategy",
+        "componentCn": "战略",
+        "name": "Scope of chemical phase-out plan",
+        "nameCn": "化学品淘汰计划的范围",
+        "definition": "The scope of products or chemicals of concern that the company is targeting to phase out.",
+        "definitionCn": "公司计划淘汰的关注产品或关注化学品的范围。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Strategy",
+        "componentCn": "战略",
+        "name": "Level of efforts to identify substances for regulatory risk",
+        "nameCn": "识别监管风险物质的工作力度",
+        "definition": "The level of identification of chemicals that are regulated or have the potential to be regulated in the company’s products. Best practice is to identify all chemicals.",
+        "definitionCn": "对公司产品中受监管或有可能受监管的化学品的识别程度。最佳实践是识别所有化学品。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Programs & Initiatives",
+        "componentCn": "方案与举措",
+        "name": "Scope of disclosure of registration and use of regulated substances",
+        "nameCn": "受监管物质注册与使用情况的披露范围",
+        "definition": "The level of disclosure around substances that fall within regulatory registration requirements. Best practice is to disclose all regulatory registrations and use.",
+        "definitionCn": "对属于法规注册要求的物质的披露程度。最佳实践是披露所有法规注册和使用情况。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Programs & Initiatives",
+        "componentCn": "方案与举措",
+        "name": "Environmental and health standards in new product design",
+        "nameCn": "新产品设计中的环境和健康标准",
+        "definition": "Indicates whether the company has a formal process to apply environmental and health standards in new product design.",
+        "definitionCn": "表明公司是否有正式流程在新产品设计中应用环境和健康标准。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Programs & Initiatives",
+        "componentCn": "方案与举措",
+        "name": "Demonstrated track record of reducing reliance on substances of concern",
+        "nameCn": "减少对关注物质依赖的既往实绩",
+        "definition": "Indicates whether the company has demonstrated a track record of introducing viable alternatives to high-concern substances. Applies specifically to chemical producers.",
+        "definitionCn": "表明公司是否有引入高关注物质可行替代品的既往实绩。专门适用于化学品生产商。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Programs & Initiatives",
+        "componentCn": "方案与举措",
+        "name": "Demonstrated track record of phasing out and/or reformulating products with chemicals of concern",
+        "nameCn": "逐步淘汰和／或重新配制含受关注化学品产品的既往实绩",
+        "definition": "Indicates whether the company has demonstrated a track record of introducing viable alternatives to high-concern substances. Applies specifically to product manufacturers other than chemical producers.",
+        "definitionCn": "表明公司是否有引入高关注物质可行替代品的既往实绩。专门适用于化学品生产商以外的产品制造商。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Programs & Initiatives",
+        "componentCn": "方案与举措",
+        "name": "Initiatives to improve consumer awareness on product chemical content",
+        "nameCn": "提升消费者对产品化学成分认知的举措",
+        "definition": "The level of initiatives to improve consumer awareness on product chemical content through channels that are easy for consumers to access. Best practice is to provide information regarding product chemical content and usage to consumers. Applies specifically to product manufacturers.",
+        "definitionCn": "通过消费者易于获取的渠道提升其对产品化学成分认知的举措力度。最佳实践是向消费者提供有关产品化学成分和使用的信息。专门适用于产品制造商。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Programs & Initiatives",
+        "componentCn": "方案与举措",
+        "name": "Extent of substances or products that a company conducts hazard assessments",
+        "nameCn": "公司开展危害评估的物质或产品范围",
+        "definition": "Describes the extent of substances or products on which the company conducts a chemical safety hazard assessment. Applies specifically to chemical producers.",
+        "definitionCn": "描述公司开展化学品安全危害评估的物质或产品范围。专门适用于化学品生产商。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      }
+    ],
+    "keyMetrics": [],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 15,
+      "sourceFile": "3 chemical-safety-key-issue.pdf",
+      "source": "Social Pillar/3 chemical-safety-key-issue.pdf"
+    },
+    "sourceId": "chemical-safety",
+    "introPages": [
+      3
+    ],
+    "riskPages": [
+      4
+    ],
+    "scoringNote": "风险型议题将风险敞口与风险管理得分通过总方法论的映射组合，不是两者直接相乘。管理评估可包含实践、绩效、目标及争议扣分；具体组件和行业适用性见本议题 PDF。",
+    "scoringPages": [
+      21,
+      22,
+      23
+    ],
+    "rules": []
+  },
+  {
+    "id": "consumer-financial-protection",
+    "name": "消费者金融保护",
+    "nameEn": "Consumer Financial Protection",
+    "pillar": "social",
+    "theme": "product-liability",
+    "type": "risk",
+    "summary": "针对金融机构，评估其产品管理与透明度，包括缓释不道德信贷行为或销售行为带来的声誉与监管风险。",
+    "intro": "Consumer Financial Protection is a Key Issue in the Social Pillar of the MSCI ESG Ratings model. Financial institutions are evaluated on product stewardship and transparency, including efforts to mitigate potential reputational and regulatory risks arising from unethical lending practices or mis-selling financial products to consumers.",
+    "risks": [
+      "Unanticipated credit losses due to non-transparent or unsustainable products.",
+      "Loss of market access due to regulatory change.",
+      "Increased costs from litigation or regulatory penalties."
+    ],
+    "risksCn": [
+      "因不透明或不可持续的产品而产生的意外信用损失。",
+      "因监管变化而失去市场准入。",
+      "因诉讼或监管处罚而增加的成本。"
+    ],
+    "indicators": [
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Debt collection policy",
+        "nameCn": "债务催收政策",
+        "definition": "Indicates whether the company has a formal debt collection policy supported by training of relevant employees.",
+        "definitionCn": "表明公司是否制定了正式的债务催收政策，并以对相关员工的培训为支持。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Employee training on consumer financial protection",
+        "nameCn": "消费者金融保护方面的员工培训",
+        "definition": "The scope of employee training programs related to consumer financial protection, including financial literacy and ethical selling practices.",
+        "definitionCn": "与消费者金融保护相关的员工培训方案的范围，包括金融素养和合乎道德的销售实践。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Fair advertising policy",
+        "nameCn": "公平广告政策",
+        "definition": "Indicates whether the company has a policy on fair marketing practices supported by an oversight committee or training of relevant employees.",
+        "definitionCn": "表明公司是否制定了关于公平营销实践的政策，并以监督委员会或对相关员工的培训为支持。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Financial education initiatives and stakeholder outreach",
+        "nameCn": "金融教育举措与利益相关方沟通",
+        "definition": "The extent of programs to improve financial literacy, either through formal partnerships with financial education organizations, targeted initiatives for specific demographics or general outreach programs.",
+        "definitionCn": "提升金融素养的方案覆盖程度，方式包括与金融教育组织建立正式合作、针对特定人群的定向举措或一般性沟通方案。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Company offers loan modification options",
+        "nameCn": "公司提供贷款重组选项",
+        "definition": "Indicates whether loan modification options are available to retail customers, including income-based repayment plans and access to escalation options.",
+        "definitionCn": "表明是否向零售客户提供贷款重组选项，包括基于收入的还款计划和升级选项的获取途径。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Oversight of complaint resolution process",
+        "nameCn": "投诉解决流程的监督",
+        "definition": "Indicates whether there is board-level oversight, management-level committee oversight, or a formal monitoring group for customer complaints.",
+        "definitionCn": "表明是否存在针对客户投诉的董事会层面监督、管理层委员会监督或正式监督小组。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Financial product complaint handling process",
+        "nameCn": "金融产品投诉处理流程",
+        "definition": "Indicates whether the company has a formal process to handle customer complaints through a customer ombudsman, an internal complaint review body or a complaint hotline.",
+        "definitionCn": "表明公司是否通过客户申诉专员、内部投诉审查机构或投诉热线建立了处理客户投诉的正式流程。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Oversight of financial product or service reviews",
+        "nameCn": "金融产品或服务审查的监督",
+        "definition": "Indicates whether there is board-level oversight, management-level committee oversight or another internal review body that is responsible for reviewing products and services.",
+        "definitionCn": "表明是否存在负责审查产品和服务的董事会层面监督、管理层委员会监督或其他内部审查机构。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Evidence of offering high-risk lending products",
+        "nameCn": "提供高风险贷款产品的证据",
+        "definition": "Indicates whether there is evidence the company offers high-risk lending products. High risk lending products includes, but is not limited to, payday, pawn, doorstep, title, logbook, tax refund anticipation, and loans with predatory interest rates or fees.",
+        "definitionCn": "表明是否有证据显示公司提供高风险贷款产品。高风险贷款产品包括但不限于发薪日贷款、典当贷款、上门贷款、产权贷款、车辆登记证贷款、退税预期贷款，以及具有掠夺性利率或费用的贷款。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Complaints growth (three-year rolling average)",
+        "nameCn": "投诉增长（三年滚动平均）",
+        "definition": "Indicates whether the customer complaints against the company are increasing, stable, or decreasing based on a three-year rolling average.",
+        "definitionCn": "表明基于三年滚动平均，针对公司的客户投诉是在增加、稳定还是减少。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Consumer financial protection practices score for covered bond issuers",
+        "nameCn": "担保债券发行人的消费者金融保护实践得分",
+        "definition": "Indicates the strength of consumer financial protection practices relevant to the assets in the cover pool, proxied by the average practices of loan originators in the country of domicile. Expressed as a 0–10 score, where 10 indicates strong practices.",
+        "definitionCn": "表明与担保池中资产相关的消费者金融保护实践的强度，以公司注册国贷款发放机构的平均实践作为代理。以 0–10 分表示，其中 10 表示实践有力。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Consumer financial protection performance score for covered bond issuers",
+        "nameCn": "担保债券发行人的消费者金融保护绩效得分",
+        "definition": "Indicates performance on consumer financial protection metrics relevant to the assets in the cover pool, proxied by the average performance of loan originators in the country of domicile. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "definitionCn": "表明与担保池中资产相关的消费者金融保护指标上的绩效，以公司注册国贷款发放机构的平均绩效作为代理。以 0–10 分表示，其中 10 表示绩效强劲。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      }
+    ],
+    "keyMetrics": [],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 12,
+      "sourceFile": "5 consumer-financial-protection-key-issue.pdf",
+      "source": "Social Pillar/5 consumer-financial-protection-key-issue.pdf"
+    },
+    "sourceId": "consumer-financial-protection",
+    "introPages": [
+      3
+    ],
+    "riskPages": [
+      4
+    ],
+    "scoringNote": "风险型议题将风险敞口与风险管理得分通过总方法论的映射组合，不是两者直接相乘。管理评估可包含实践、绩效、目标及争议扣分；具体组件和行业适用性见本议题 PDF。",
+    "scoringPages": [
+      21,
+      22,
+      23
+    ],
+    "rules": []
+  },
+  {
+    "id": "privacy-and-data-security",
+    "name": "隐私与数据安全",
+    "nameEn": "Privacy & Data Security",
+    "pillar": "social",
+    "theme": "product-liability",
+    "type": "risk",
+    "summary": "评估企业收集个人数据的规模、面临的隐私法规演变与收紧敞口、潜在数据泄露风险，以及个人数据保护体系。",
+    "intro": "Privacy & Data Security is a Key Issue in the Social Pillar of the MSCI ESG Ratings model. Companies are evaluated on the amount of personal data they collect, their exposure to evolving or increasing privacy regulations, their vulnerability to potential data breaches, and their systems for protecting personal data.",
+    "risks": [
+      "Loss of revenue or unanticipated remediation and litigation costs in the event of a data breach or misuse.",
+      "Damage to reputation in the event of a breach or controversy over how data is used.",
+      "Loss of significant market or forced change in business model if regulatory action restricts how companies may use data.",
+      "Increased costs to comply with new or evolving regulations."
+    ],
+    "risksCn": [
+      "在发生数据泄露或数据滥用时，收入损失或意外的补救与诉讼成本。",
+      "在发生泄露或就数据使用方式产生争议时，声誉受损。",
+      "若监管行动限制公司使用数据的方式，将失去重要市场或被迫改变业务模式。",
+      "为遵守新的或不断演变的法规而增加的成本。"
+    ],
+    "indicators": [
+      {
+        "component": "Core Risk Management",
+        "componentCn": "核心风险管理",
+        "name": "Scope of employee training on privacy and data security",
+        "nameCn": "隐私与数据安全员工培训的范围",
+        "definition": "The coverage of privacy and data security training across the workforce. Best practice is for training to be provided to all employees, including contractors.",
+        "definitionCn": "隐私与数据安全培训在全体员工中的覆盖范围。最佳实践是向所有员工（包括承包商）提供培训。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Core Risk Management",
+        "componentCn": "核心风险管理",
+        "name": "Responsibility for privacy and data security",
+        "nameCn": "隐私与数据安全的责任归属",
+        "definition": "The group (board-level committee, C-suite or executive committee, or special task force or risk officer) responsible for the company’s privacy and data security risk and strategy.",
+        "definitionCn": "负责公司隐私与数据安全风险及战略的团队（董事会层面委员会、最高管理层或执行委员会，或特别工作组或风险官）。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Core Risk Management",
+        "componentCn": "核心风险管理",
+        "name": "Measures to address data breaches",
+        "nameCn": "应对数据泄露的措施",
+        "definition": "The scope of the data breach or incident response plan the company has in place, including whether the plan is proactive, reactive or limited in scope.",
+        "definitionCn": "公司已建立的数据泄露或事件响应计划的范围，包括该计划是主动型、被动型还是范围有限。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Core Risk Management",
+        "componentCn": "核心风险管理",
+        "name": "Frequency of audits of information security system",
+        "nameCn": "信息安全系统审核的频率",
+        "definition": "The frequency with which the company audits its information security policies and systems.",
+        "definitionCn": "公司审核其信息安全政策与系统的频率。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Core Risk Management",
+        "componentCn": "核心风险管理",
+        "name": "Rights provided to consumers regarding the control of their data",
+        "nameCn": "就数据控制向消费者提供的权利",
+        "definition": "The extent of the rights provided by the company to individuals regarding the access, rectification and deletion of individuals’ data.",
+        "definitionCn": "公司就个人数据的访问、更正和删除向个人提供的权利范围。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Core Risk Management",
+        "componentCn": "核心风险管理",
+        "name": "Scope of data protection policy",
+        "nameCn": "数据保护政策的范围",
+        "definition": "Indicates whether the company’s data protection policy governs all or selected business lines. A data protection policy must contain at least the following basic provisions: (1) clarifying collection purposes, (2) clarifying the means by which the company collects data, and (3) clarifying whether third parties have access to data and for what purposes.",
+        "definitionCn": "表明公司的数据保护政策是涵盖全部还是选定的业务线。数据保护政策必须至少包含以下基本条款：(1) 明确收集目的，(2) 明确公司收集数据的方式，(3) 明确第三方是否可以访问数据及其目的。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Supplemental Risk Management",
+        "componentCn": "补充风险管理",
+        "name": "Scope of information security management system certifications",
+        "nameCn": "信息安全管理体系认证的范围",
+        "definition": "The scope of the company’s information security management system certification to widely recognized standards. Best practice is for most (over 80%) of owned operations to be certified to widely recognized standards, such as ISO 27001, TRUSTe, Privacy Mark and SSAE16 soc2.",
+        "definitionCn": "公司信息安全管理体系按广泛认可标准进行认证的范围。最佳实践是大部分（超过 80%）自有运营通过广泛认可标准的认证，如 ISO 27001、TRUSTe、Privacy Mark 和 SSAE16 soc2。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Supplemental Risk Management",
+        "componentCn": "补充风险管理",
+        "name": "Privacy enhancing technologies and initiatives",
+        "nameCn": "隐私增强技术与举措",
+        "definition": "Assesses the company’s practice on integrating privacy-enhancing technologies and initiatives into its products or services. Best practices include systematically applying the privacy-by-design principle during product or service development, and conducting privacy impact assessments on existing offerings before introducing new ones.",
+        "definitionCn": "评估公司将隐私增强技术与举措整合进其产品或服务的实践。最佳实践包括在产品或服务开发过程中系统性地应用隐私设计（privacy-by-design）原则，并在推出新产品之前对现有产品进行隐私影响评估。",
+        "level": 1,
+        "sourcePages": [
+          7,
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Supplemental Risk Management",
+        "componentCn": "补充风险管理",
+        "name": "Consent policy for use of consumer data for secondary purposes",
+        "nameCn": "将消费者数据用于次要目的的同意政策",
+        "definition": "Assesses the company’s policy or practice regarding the processing customer data for secondary purposes and the consent options provided to customers, such as opt-in or opt-out mechanisms.",
+        "definitionCn": "评估公司关于为次要目的处理客户数据的政策或实践，以及向客户提供的同意选项，例如选择加入（opt-in）或选择退出（opt-out）机制。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Supplemental Risk Management",
+        "componentCn": "补充风险管理",
+        "name": "Data protection programs covering suppliers and business partners",
+        "nameCn": "涵盖供应商与业务伙伴的数据保护方案",
+        "definition": "The extent of the company’s data protection or privacy programs covering suppliers and business partners that handle the company’s data or have access to the company’s network. Best practice is for them to be required to have data protection policies or abide by the company’s policy and for inspections to be conducted to verify their compliance.",
+        "definitionCn": "公司覆盖处理其数据或可访问其网络的供应商与业务伙伴的数据保护或隐私方案的范围。最佳实践是要求他们制定数据保护政策或遵守公司的政策，并进行检查以核实其合规情况。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      }
+    ],
+    "keyMetrics": [],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 16,
+      "sourceFile": "11 privacy-and-data-security-key-issue.pdf",
+      "source": "Social Pillar/11 privacy-and-data-security-key-issue.pdf"
+    },
+    "sourceId": "privacy-and-data-security",
+    "introPages": [
+      3
+    ],
+    "riskPages": [
+      4
+    ],
+    "scoringNote": "风险型议题将风险敞口与风险管理得分通过总方法论的映射组合，不是两者直接相乘。管理评估可包含实践、绩效、目标及争议扣分；具体组件和行业适用性见本议题 PDF。",
+    "scoringPages": [
+      21,
+      22,
+      23
+    ],
+    "rules": []
+  },
+  {
+    "id": "product-safety-and-quality",
+    "name": "产品安全与质量",
+    "nameEn": "Product Safety & Quality",
+    "pillar": "social",
+    "theme": "product-liability",
+    "type": "risk",
+    "summary": "评估企业面临的召回或产品安全风险敞口、供应链与采购体系强度、制造质量管理努力及召回应对记录。",
+    "intro": "Product Safety & Quality is a Key Issue in the Social Pillar of the MSCI ESG Ratings model. Companies are evaluated on their exposure to possible recalls or product safety concerns, the strength of their supply chain and sourcing systems, their quality management efforts in manufacturing and their responsible marketing practices.",
+    "risks": [
+      "Damage to brand value from loss of consumer trust or negative publicity.",
+      "Increased costs to comply with additional regulatory requirements or litigation.",
+      "Increased costs of implementing large-scale product recalls or to fulfill warranties."
+    ],
+    "risksCn": [
+      "因消费者信任丧失或负面报道对品牌价值造成的损害。",
+      "为遵守额外监管要求或应对诉讼而增加的成本。",
+      "实施大规模产品召回或履行保修而增加的成本。"
+    ],
+    "indicators": [
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Existence of contingency plans/mitigation control systems to ensure that products are in stock, reliable and safe",
+        "nameCn": "确保产品库存充足、可靠和安全的应急预案/减缓控制系统的存在",
+        "definition": "Indicates whether the company has contingency plans/mitigation control systems to ensure that products are in stock, reliable, and safe.",
+        "definitionCn": "表明公司是否制定应急预案/减缓控制系统，以确保产品库存充足、可靠和安全。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Measures and reports quantitative indicators related to service quality performance or customer protection",
+        "nameCn": "衡量并报告与服务质量绩效或客户保护相关的定量指标",
+        "definition": "Indicates whether the company measures and reports quantitative indicators related to service quality performance or customer protection (e.g., clinical quality reports, customer surveys).",
+        "definitionCn": "表明公司是否衡量并报告与服务质量绩效或客户保护相关的定量指标（例如临床质量报告、客户调查）。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Certification to product safety or quality standard",
+        "nameCn": "产品安全或质量标准认证",
+        "definition": "Indicates whether the company's products are certified to internationally recognized safety and quality standards. Expressed as a 0-10 score, with 10 indicating strong initiatives.",
+        "definitionCn": "表明公司产品是否获得国际公认的安全与质量标准认证。以 0-10 分表示，10 表示举措有力。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Extent of certification to a widely accepted product safety/quality standard",
+        "definition": "Indicates whether the company certifies its own operations with a widely accepted product safety/quality standard (e.g., HACCP, ISO 9001, ISO/TS 16949, ISO 13485 or equivalent).",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Certification to product safety or quality standard",
+        "nameCn": "广泛认可的产品安全与质量标准认证范围",
+        "definitionCn": "说明企业是否为自有运营取得广泛认可的产品安全与质量标准认证，例如 HACCP、ISO 9001、ISO/TS 16949、ISO 13485 或同等标准。",
+        "componentCn": "实践管理",
+        "parentCn": "产品安全或质量标准认证"
+      },
+      {
+        "name": "Extent of certification to an internally developed product safety/quality standard",
+        "definition": "Indicates whether the company certifies its own operations with an internally developed product safety/quality standard.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Certification to product safety or quality standard",
+        "nameCn": "内部制定的产品安全与质量标准认证范围",
+        "definitionCn": "说明企业是否为自有运营取得内部制定的产品安全与质量标准认证。",
+        "componentCn": "实践管理",
+        "parentCn": "产品安全或质量标准认证"
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Scope of employee training on product quality",
+        "nameCn": "员工产品质量培训范围",
+        "definition": "The scope of the company’s employee training on product safety and quality. Best practice is for all employees to receive training on product quality standards.",
+        "definitionCn": "公司员工产品安全与质量培训的范围。最佳实践为所有员工均接受产品质量标准培训。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Extent of product testing capacity",
+        "nameCn": "产品检测能力的程度",
+        "definition": "The extent of the company’s product testing capacity, e.g., third-party or in-house testing.",
+        "definitionCn": "公司产品检测能力的程度，例如第三方或内部检测。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Audit/control procedures on responsible marketing",
+        "nameCn": "负责任营销的审计/控制程序",
+        "definition": "Indicates whether the company conducts audits or control procedures to assess compliance with its responsible marketing policies.",
+        "definitionCn": "表明公司是否开展审计或控制程序，以评估其对负责任营销政策的遵守情况。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Policy on responsible marketing, advertising and sales",
+        "nameCn": "负责任营销、广告与销售政策",
+        "definition": "Indicates whether the company has explicitly stated a policy on responsible marketing, advertising and sales.",
+        "definitionCn": "表明公司是否明确制定了负责任营销、广告与销售政策。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Membership in recognized industry-wide partnership(s) on supply chain risk evaluation and mitigation",
+        "nameCn": "加入公认的供应链风险评估与减缓行业范围伙伴关系",
+        "definition": "Indicates whether the company is a member of industry initiatives or partnerships that evaluate supply chain risk and undertake relevant mitigation programs.",
+        "definitionCn": "表明公司是否为评估供应链风险并开展相关减缓方案的行业倡议或伙伴关系的成员。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Supplier certification level",
+        "nameCn": "供应商认证水平",
+        "definition": "Assesses whether suppliers at each level (e.g., Tier 1, Tier 2, Tier 3) possess relevant safety, and quality certifications. Expressed as a 0-10 score, with 10 indicating strong initiatives.",
+        "definitionCn": "评估各层级供应商（例如一级、二级、三级）是否具备相关的安全与质量认证。以 0-10 分表示，10 表示举措有力。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "General statement on supplier certification of quality procedures",
+        "definition": "Indicates whether the company makes general statements regarding the certification or oversight of its supply chain quality, without providing further detail on certification at specific levels of its supply chain",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Supplier certification level",
+        "nameCn": "供应商质量程序认证的一般性声明",
+        "definitionCn": "说明企业是否对供应链质量认证或监督作出一般性声明，但未进一步提供供应链具体层级的认证详情。",
+        "componentCn": "实践管理",
+        "parentCn": "供应商认证水平"
+      },
+      {
+        "name": "Tier 1 - Direct supplier facilities and processes certified by company employees or third-party auditors",
+        "definition": "Indicates whether the company oversees the quality processes of its direct supplier (Tier 1) facilities and processes through certification or audits by a third party or by company employees.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          8
+        ],
+        "parent": "Supplier certification level",
+        "nameCn": "一级直接供应商设施与流程由企业员工或第三方审计人员认证",
+        "definitionCn": "说明企业是否通过第三方或企业员工开展认证或审计，监督直接供应商（一级供应商）设施与流程的质量程序。",
+        "componentCn": "实践管理",
+        "parentCn": "供应商认证水平"
+      },
+      {
+        "name": "Tier 2 - Indirect/sub supplier facilities and processes certified by company employees or third-party auditors",
+        "definition": "Indicates whether the company oversees the quality processes of its indirect/sub-supplier (Tier 2) facilities and processes through certification or audits by a third party or by company employees.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          8,
+          9
+        ],
+        "parent": "Supplier certification level",
+        "nameCn": "二级间接或次级供应商设施与流程由企业员工或第三方审计人员认证",
+        "definitionCn": "说明企业是否通过第三方或企业员工开展认证或审计，监督间接或次级供应商（二级供应商）设施与流程的质量程序。",
+        "componentCn": "实践管理",
+        "parentCn": "供应商认证水平"
+      },
+      {
+        "name": "Tier 3 - Ingredients/raw materials checked for quality on a regular basis",
+        "definition": "Indicates whether the company oversees the quality processes of its ingredients/raw materials (Tier 3) through certification or audits by a third party or by company employees.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          9
+        ],
+        "parent": "Supplier certification level",
+        "nameCn": "三级配料或原材料的质量定期检查",
+        "definitionCn": "说明企业是否通过第三方或企业员工开展认证或审计，监督配料或原材料（三级供应商）的质量程序。",
+        "componentCn": "实践管理",
+        "parentCn": "供应商认证水平"
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Scope of supplier training on quality standards",
+        "nameCn": "供应商质量标准培训范围",
+        "definition": "The extent to which the company trains suppliers on quality standards, requirements, and processes. Best practice is to train all suppliers.",
+        "definitionCn": "公司就质量标准、要求和流程对供应商开展培训的程度。最佳实践为培训所有供应商。",
+        "level": 1,
+        "sourcePages": [
+          9
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Product responsibility & integrity",
+        "nameCn": "产品责任与诚信",
+        "definition": "Assesses how responsibly and ethically a company designs, delivers and promotes its products and services. Expressed as a 0-10 score, with 10 indicating strong initiatives.",
+        "definitionCn": "评估公司在设计、交付和推广其产品与服务方面的负责任与道德程度。以 0-10 分表示，10 表示举措有力。",
+        "level": 1,
+        "sourcePages": [
+          9
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Medical Loss Ratio (MLR) performance score",
+        "definition": "Assesses the company’s Medical Loss Ratio, reflecting the proportion of premiums spent on medical services versus administrative costs. Higher scores indicate stronger alignment with service quality and regulatory expectations in managed healthcare. Applicable to Managed Healthcare industry only.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          9
+        ],
+        "parent": "Product responsibility & integrity",
+        "nameCn": "医疗赔付率（MLR）绩效得分",
+        "definitionCn": "评估企业医疗赔付率，反映保费用于医疗服务与行政成本的比例。得分越高，表示在管理式医疗中更符合服务质量和监管期望。仅适用于管理式医疗行业。",
+        "componentCn": "实践管理",
+        "parentCn": "产品责任与诚信"
+      },
+      {
+        "name": "Teaching staff score",
+        "definition": "Assesses the proportion of teaching staff relative to the total workforce. Applicable to Education Services industry only.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          9
+        ],
+        "parent": "Product responsibility & integrity",
+        "nameCn": "教学人员得分",
+        "definitionCn": "评估教学人员占员工总数的比例。仅适用于教育服务行业。",
+        "componentCn": "实践管理",
+        "parentCn": "产品责任与诚信"
+      },
+      {
+        "name": "Instruction to marketing expense ratio score",
+        "definition": "Assesses the proportion of instruction and student services expenses to marketing and recruitment expenses. Applicable to Education Services industry only.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          9
+        ],
+        "parent": "Product responsibility & integrity",
+        "nameCn": "教学与营销费用比率得分",
+        "definitionCn": "评估教学及学生服务费用与营销及招生费用的比例。仅适用于教育服务行业。",
+        "componentCn": "实践管理",
+        "parentCn": "产品责任与诚信"
+      },
+      {
+        "name": "Marketing and recruitment expenses score",
+        "definition": "Assesses the proportion of marketing expenses relative to the total sales revenue. Applicable to Education Services industry only.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          9
+        ],
+        "parent": "Product responsibility & integrity",
+        "nameCn": "营销及招生费用得分",
+        "definitionCn": "评估营销费用占销售收入总额的比例。仅适用于教育服务行业。",
+        "componentCn": "实践管理",
+        "parentCn": "产品责任与诚信"
+      },
+      {
+        "name": "Responsible gambling policy & practices score",
+        "definition": "Assesses the company's implementation of responsible gambling standards, policies, and player protection measures. Applicable to Casinos & Gaming industry only.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          10
+        ],
+        "parent": "Product responsibility & integrity",
+        "nameCn": "负责任博彩政策与实践得分",
+        "definitionCn": "评估企业实施负责任博彩标准、政策与玩家保护措施的情况。仅适用于赌场与博彩行业。",
+        "componentCn": "实践管理",
+        "parentCn": "产品责任与诚信"
+      },
+      {
+        "name": "Antibiotics use policy score",
+        "definition": "Assesses the company's policy framework and certifications related to antibiotic use in meat production and aquaculture. Applicable to Restaurants industry only.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          10
+        ],
+        "parent": "Product responsibility & integrity",
+        "nameCn": "抗生素使用政策得分",
+        "definitionCn": "评估企业肉类生产与水产养殖中抗生素使用的政策框架和认证。仅适用于餐饮行业。",
+        "componentCn": "实践管理",
+        "parentCn": "产品责任与诚信"
+      },
+      {
+        "name": "Antibiotics phaseout targets",
+        "definition": "Assesses the presence and robustness of issuer plans to phase out non-therapeutic or high-risk antibiotic use in meat production and aquaculture . Applicable to Restaurants industry only.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          10
+        ],
+        "parent": "Product responsibility & integrity",
+        "nameCn": "逐步停用抗生素目标",
+        "definitionCn": "评估发行人在肉类生产与水产养殖中逐步停用非治疗性或高风险抗生素的计划是否存在及其稳健程度。仅适用于餐饮行业。",
+        "componentCn": "实践管理",
+        "parentCn": "产品责任与诚信"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Regulatory warning performance relative to peers",
+        "nameCn": "相对同业组的监管警告绩效",
+        "definition": "Assesses the company’s performance based on number or regulatory warnings (warning letters and U.S. FDA form 483s (“Form 483”)) and their intensities (normalized by sales) issued by regulatory authorities, relative to peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "definitionCn": "评估公司相对同业组的绩效，依据监管机构发出的监管警告数量（警告信和美国 FDA 483 表格（“Form 483”））及其强度（按销售额标准化）。以 0–10 分表示，10 表示绩效强劲。",
+        "level": 1,
+        "sourcePages": [
+          10
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Industry relative warning letters performance score",
+        "definition": "Assesses the company’s performance on three-year average of total number of Warning Letters received (both absolute and sales normalized), relative to its peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          10
+        ],
+        "parent": "Regulatory warning performance relative to peers",
+        "nameCn": "警告信行业相对绩效得分",
+        "definitionCn": "相对于同业，评估企业收到警告信总数三年平均值的表现，同时考虑绝对数量及以销售额为分母的数量。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业组的监管警告绩效"
+      },
+      {
+        "name": "Three-year average warning letters received (absolute)",
+        "definition": "Measures the company’s three-year average number of warning letters received.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          10
+        ],
+        "parent": "Regulatory warning performance relative to peers",
+        "nameCn": "三年平均收到警告信数量（绝对值）",
+        "definitionCn": "衡量企业收到警告信数量的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业组的监管警告绩效"
+      },
+      {
+        "name": "Three-year average warning letters received (sales normalized)",
+        "definition": "Measures the company’s three year average number of warning letters received, normalized by sales.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          10,
+          11
+        ],
+        "parent": "Regulatory warning performance relative to peers",
+        "nameCn": "三年平均收到警告信数量（按销售额）",
+        "definitionCn": "衡量企业以销售额为分母的收到警告信数量的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业组的监管警告绩效"
+      },
+      {
+        "name": "Industry relative Form 483 performance score",
+        "definition": "Assesses the company’s performance on three-year average of total number of Form 483s received (both absolute and sales normalized), relative to its peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          11
+        ],
+        "parent": "Regulatory warning performance relative to peers",
+        "nameCn": "Form 483 行业相对绩效得分",
+        "definitionCn": "相对于同业，评估企业收到 Form 483 总数三年平均值的表现，同时考虑绝对数量及以销售额为分母的数量。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业组的监管警告绩效"
+      },
+      {
+        "name": "Three-year average Form 483 received (absolute)",
+        "definition": "Measures the company’s three-year average of absolute number of Form 483s received.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          11
+        ],
+        "parent": "Regulatory warning performance relative to peers",
+        "nameCn": "三年平均收到 Form 483 数量（绝对值）",
+        "definitionCn": "衡量企业收到 Form 483 绝对数量的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业组的监管警告绩效"
+      },
+      {
+        "name": "Three-year average Form 483 received (sales normalized)",
+        "definition": "Measures the company’s three year average number of Form 483 received, normalized by sales.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          11
+        ],
+        "parent": "Regulatory warning performance relative to peers",
+        "nameCn": "三年平均收到 Form 483 数量（按销售额）",
+        "definitionCn": "衡量企业以销售额为分母的收到 Form 483 数量的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业组的监管警告绩效"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Warranty performance relative to peers",
+        "nameCn": "相对同业组的保修绩效",
+        "definition": "Assesses the company's performance on warranty payments (normalized by sales) and its trend, relative to industry peers. Expressed as a 0-10 score, where 10 indicates",
+        "definitionCn": "评估公司相对于行业同业的质保支付表现（按销售额归一化）及其趋势。原文接着写“以 0–10 分表示，10 分表示”，但句子未完；未补写其含义。",
+        "level": 1,
+        "sourcePages": [
+          11
+        ],
+        "parent": "",
+        "parentCn": "",
+        "sourceNote": "原文句子在“where 10 indicates”处中断；未推断或补写 10 分的含义。"
+      },
+      {
+        "name": "Warranty payments industry relative score",
+        "definition": "Assesses the company’s warranty payments intensity (per unit of sales or), relative to industry peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          11
+        ],
+        "parent": "Warranty performance relative to peers",
+        "nameCn": "保修付款行业相对得分",
+        "definitionCn": "相对于行业同业，评估企业保修付款强度。原文分母写为“每单位销售额或”，语句残缺；以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业组的保修绩效",
+        "sourceNote": "原文括号中“per unit of sales or”未完成，未补写另一项分母。"
+      },
+      {
+        "name": "Three-year average warranty payments (per million revenue)",
+        "definition": "Measures the company’s three-year average warranty payments normalized by revenue.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          11
+        ],
+        "parent": "Warranty performance relative to peers",
+        "nameCn": "三年平均保修付款（每百万收入）",
+        "definitionCn": "衡量企业以收入为分母的保修付款的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业组的保修绩效"
+      },
+      {
+        "name": "Warranty Payments Industry Relative Trend score",
+        "definition": "Assesses the company’s performance on the three-year average of year-over-year warranty payments intensity trend (per unit of sales), relative to industry peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          11
+        ],
+        "parent": "Warranty performance relative to peers",
+        "nameCn": "保修付款行业相对趋势得分",
+        "definitionCn": "相对于行业同业，评估企业保修付款强度（每单位销售额）同比变化趋势的三年平均表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业组的保修绩效"
+      },
+      {
+        "name": "Three-year average year-over-year warranty payments trend (per million revenue)",
+        "definition": "Measures the company’s three-year average of year-over-year change in warranty payments normalized by revenue.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          11
+        ],
+        "parent": "Warranty performance relative to peers",
+        "nameCn": "三年平均保修付款同比趋势（每百万收入）",
+        "definitionCn": "衡量企业以收入为分母的保修付款同比变化的三年平均值。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业组的保修绩效"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Product recall performance relative to peers",
+        "nameCn": "相对同业组的产品召回绩效",
+        "definition": "Assesses the company's performance with respect to product recalls, relative to industry peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "definitionCn": "评估公司相对行业同业组的产品召回绩效。以 0–10 分表示，10 表示绩效强劲。",
+        "level": 1,
+        "sourcePages": [
+          12
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Industry relative recalls performance score (absolute)",
+        "definition": "Assesses the company’s performance on the total number of recalls, disaggregated by severity (severe, moderate, and minor), relative to industry peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          12
+        ],
+        "parent": "Product recall performance relative to peers",
+        "nameCn": "召回行业相对绩效得分（绝对值）",
+        "definitionCn": "相对于行业同业，评估按严重、中度和轻微程度区分的召回总数表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业组的产品召回绩效"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Three-year average absolute total severe recalls",
+        "nameCn": "三年平均绝对严重召回总数",
+        "definition": "Measures the company’s three-year average of absolute total number of recalls that are severe in nature.",
+        "definitionCn": "衡量公司三年内性质为严重的召回绝对总数的平均值。",
+        "level": 3,
+        "sourcePages": [
+          12
+        ],
+        "parent": "Industry relative recalls performance score (absolute)",
+        "parentCn": "召回行业相对绩效得分（绝对值）"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Three-year average absolute total moderate recalls",
+        "nameCn": "三年平均绝对中等召回总数",
+        "definition": "Measures the company’s three-year average of absolute total number of recalls that are moderate in nature.",
+        "definitionCn": "衡量公司三年内性质为中等的召回绝对总数的平均值。",
+        "level": 3,
+        "sourcePages": [
+          12
+        ],
+        "parent": "Industry relative recalls performance score (absolute)",
+        "parentCn": "召回行业相对绩效得分（绝对值）"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Three-year average absolute total minor recalls",
+        "nameCn": "三年平均绝对轻微召回总数",
+        "definition": "Measures the company’s three-year average of absolute total number of recalls that are minor in nature.",
+        "definitionCn": "衡量公司三年内性质为轻微的召回绝对总数的平均值。",
+        "level": 3,
+        "sourcePages": [
+          12
+        ],
+        "parent": "Industry relative recalls performance score (absolute)",
+        "parentCn": "召回行业相对绩效得分（绝对值）"
+      },
+      {
+        "name": "Industry relative recalls performance score (sales based)",
+        "definition": "Assesses the company’s performance on recall intensity normalized by sales, disaggregated by severity (severe, moderate, and minor), relative to industry peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          12
+        ],
+        "parent": "Product recall performance relative to peers",
+        "nameCn": "召回行业相对绩效得分（按销售额）",
+        "definitionCn": "相对于行业同业，评估以销售额为分母、并按严重、中度和轻微程度区分的召回强度表现。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业组的产品召回绩效"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Three-year average total severe recalls (sales based)",
+        "nameCn": "三年平均严重召回总数（基于销售额）",
+        "definition": "Measures the company’s three-year average of total number of recalls that are moderate in nature normalized by sales.",
+        "definitionCn": "衡量公司三年内按销售额标准化的性质为中等的召回总数的平均值。",
+        "level": 3,
+        "sourcePages": [
+          12
+        ],
+        "parent": "Industry relative recalls performance score (sales based)",
+        "parentCn": "召回行业相对绩效得分（按销售额）"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Three-year average total moderate recalls (sales based)",
+        "nameCn": "三年平均中等召回总数（基于销售额）",
+        "definition": "Measures the company’s three-year average of total number of recalls that are moderate in nature normalized by sales.",
+        "definitionCn": "衡量公司三年内按销售额标准化的性质为中等的召回总数的平均值。",
+        "level": 3,
+        "sourcePages": [
+          12
+        ],
+        "parent": "Industry relative recalls performance score (sales based)",
+        "parentCn": "召回行业相对绩效得分（按销售额）"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Three-year average total minor recalls (sales based)",
+        "nameCn": "三年平均轻微召回总数（基于销售额）",
+        "definition": "Measures the company’s three-year average of total number of recalls that are minor in nature normalized by sales.",
+        "definitionCn": "衡量公司三年内按销售额标准化的性质为轻微的召回总数的平均值。",
+        "level": 3,
+        "sourcePages": [
+          12
+        ],
+        "parent": "Industry relative recalls performance score (sales based)",
+        "parentCn": "召回行业相对绩效得分（按销售额）"
+      },
+      {
+        "name": "Automobile recalls performance score",
+        "definition": "Assesses the company’s overall performance on recall intensity and trend metrics (vehicles recalled per vehicle manufactured or sold) relative to its peers. Expressed as a 0–10 score, where 10 indicates the highest level of performance. Applicable to automobiles industry only.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          13
+        ],
+        "parent": "Product recall performance relative to peers",
+        "nameCn": "汽车召回绩效得分",
+        "definitionCn": "相对于同业，评估企业召回强度及其趋势指标（每辆生产或销售汽车对应的召回车辆数量）的综合表现。以 0–10 分表示，10 表示最高绩效水平。仅适用于汽车行业。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业组的产品召回绩效"
+      },
+      {
+        "name": "Recalls per vehicle sales industry relative score",
+        "definition": "Assesses the company’s performance on vehicle-recall intensity metrics (vehicles recalled per vehicle sold), relative to its peers. Expressed as a 0–10 score, where 10 indicates the highest level of performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          13
+        ],
+        "parent": "Product recall performance relative to peers",
+        "nameCn": "每辆销售汽车召回数量行业相对得分",
+        "definitionCn": "相对于同业，评估企业车辆召回强度指标，即每辆销售汽车对应的召回车辆数量。以 0–10 分表示，10 表示最高绩效水平。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业组的产品召回绩效"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Three-year average of recalls (normalized by number of vehicles sold)",
+        "nameCn": "三年平均召回数（按已售汽车数量标准化）",
+        "definition": "Measures the company’s three-year average of total number of recalls, normalized by number of vehicles sold.",
+        "definitionCn": "衡量公司三年内按已售汽车数量标准化的召回总数的平均值。",
+        "level": 3,
+        "sourcePages": [
+          13
+        ],
+        "parent": "Recalls per vehicle sales industry relative score",
+        "parentCn": "每辆销售汽车召回数量行业相对得分"
+      },
+      {
+        "name": "Recalls per vehicle sales industry relative trend score",
+        "definition": "Assesses the company’s performance on the three-year average year-over-year trend in vehicle-recall intensity (vehicles recalled per vehicle sold), relative to its peers. Expressed as a 0–10 score, where 10 indicates the highest level of performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          13
+        ],
+        "parent": "Product recall performance relative to peers",
+        "nameCn": "每辆销售汽车召回数量行业相对趋势得分",
+        "definitionCn": "相对于同业，评估企业车辆召回强度（每辆销售汽车对应的召回车辆数量）同比变化趋势的三年平均表现。以 0–10 分表示，10 表示最高绩效水平。",
+        "componentCn": "绩效表现",
+        "parentCn": "相对同业组的产品召回绩效"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Three-year average of year-over-year trend in recalls (normalized by number of vehicles sold)",
+        "nameCn": "三年平均召回数同比趋势（按已售汽车数量标准化）",
+        "definition": "Measures the company’s three-year average of year-over-trend in total number of recalls, normalized by number of vehicles sold.",
+        "definitionCn": "衡量公司三年内按已售汽车数量标准化的召回总数同比趋势的平均值。",
+        "level": 3,
+        "sourcePages": [
+          13
+        ],
+        "parent": "Recalls per vehicle sales industry relative trend score",
+        "parentCn": "每辆销售汽车召回数量行业相对趋势得分"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Industry-specific Product Safety and Quality Performance score",
+        "nameCn": "行业专属产品安全与质量绩效得分",
+        "definition": "Assesses the company's performance on industry-specific metrics related to product safety and quality. Expressed as a 0-10 score, where 10 indicates the highest level of performance.",
+        "definitionCn": "评估公司在与产品安全与质量相关的行业专属指标上的绩效。以 0-10 分表示，10 表示最高绩效水平。",
+        "level": 1,
+        "sourcePages": [
+          13
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Airworthiness directives performance score",
+        "definition": "Assesses the company’s performance on compliance with airworthiness directives issued by aviation regulators over a three-year period relative to its peers. Expressed as a 0–10 score, where 10 indicates the highest level of performance. Applicable to Aerospace & Defense companies with revenues in Aircrafts segments only.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          13
+        ],
+        "parent": "Industry-specific Product Safety and Quality Performance score",
+        "nameCn": "适航指令绩效得分",
+        "definitionCn": "相对于同业，评估企业三年期间遵守航空监管机构适航指令的表现。以 0–10 分表示，10 表示最高绩效水平。仅适用于航空航天与国防行业中具有飞机业务收入的企业。",
+        "componentCn": "绩效表现",
+        "parentCn": "行业专属产品安全与质量绩效得分"
+      },
+      {
+        "name": "Industry Relative airworthiness directives intensity score",
+        "definition": "Assesses the company’s performance on airworthiness-directive intensity metrics (number of airworthiness directives per sales) relative to its peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          13,
+          14
+        ],
+        "parent": "Industry-specific Product Safety and Quality Performance score",
+        "nameCn": "适航指令强度行业相对得分",
+        "definitionCn": "相对于同业，评估企业适航指令强度指标，即每单位销售额对应的适航指令数量。以 0–10 分表示，10 表示表现较强。",
+        "componentCn": "绩效表现",
+        "parentCn": "行业专属产品安全与质量绩效得分"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Three-year average airworthiness directives intensity",
+        "nameCn": "三年平均适航指令强度",
+        "definition": "Measures the company’s three-year average number of airworthiness directives normalized by sales.",
+        "definitionCn": "衡量公司三年内按销售额标准化的适航指令数量的平均值。",
+        "level": 3,
+        "sourcePages": [
+          14
+        ],
+        "parent": "Industry Relative airworthiness directives intensity score",
+        "parentCn": "适航指令强度行业相对得分"
+      },
+      {
+        "name": "Air incidents performance score",
+        "definition": "Assesses the company’s performance on aviation incidents leading to fatalities and damage caused to the aircraft due to aviation incidents. Expressed as a 0–10 score, where 10 indicates the highest level of performance. Applicable to Passenger airlines industry only.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          14
+        ],
+        "parent": "Industry-specific Product Safety and Quality Performance score",
+        "nameCn": "航空事故绩效得分",
+        "definitionCn": "评估企业航空事故造成的死亡和飞机损坏表现。以 0–10 分表示，10 表示最高绩效水平。仅适用于客运航空行业。",
+        "componentCn": "绩效表现",
+        "parentCn": "行业专属产品安全与质量绩效得分"
+      },
+      {
+        "name": "Aviation Incidents Fatality score",
+        "definition": "Assesses the company’s performance on number of fatalities due to air incidents. Expressed as a 0–10 score, where 10 indicates the highest level of performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          14
+        ],
+        "parent": "Industry-specific Product Safety and Quality Performance score",
+        "nameCn": "航空事故死亡得分",
+        "definitionCn": "评估企业航空事故造成死亡人数的表现。以 0–10 分表示，10 表示最高绩效水平。",
+        "componentCn": "绩效表现",
+        "parentCn": "行业专属产品安全与质量绩效得分"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Three-year average number of fatalities",
+        "nameCn": "三年平均死亡人数",
+        "definition": "Measures the company’s three year average number of fatalities caused due to aviation incidents.",
+        "definitionCn": "衡量公司三年内因航空事故造成的死亡人数的平均值。",
+        "level": 3,
+        "sourcePages": [
+          14
+        ],
+        "parent": "Aviation Incidents Fatality score",
+        "parentCn": "航空事故死亡得分"
+      },
+      {
+        "name": "Industry Relative Aircraft Damage intensity score",
+        "definition": "Assesses the company’s performance on damage caused to the aircraft intensity (normalized by sales), relative to peers. Expressed as a 0–10 score, where 10 indicates the highest level of performance.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          14
+        ],
+        "parent": "Industry-specific Product Safety and Quality Performance score",
+        "nameCn": "飞机损坏强度行业相对得分",
+        "definitionCn": "相对于同业，评估以销售额为分母的飞机损坏强度表现。以 0–10 分表示，10 表示最高绩效水平。",
+        "componentCn": "绩效表现",
+        "parentCn": "行业专属产品安全与质量绩效得分"
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Three-year average aircraft damage intensity",
+        "nameCn": "三年平均飞机损伤强度",
+        "definition": "Measures the company’s three-year average of aircrafts damaged intensity (normalized by sales) due to aviation incidents.",
+        "definitionCn": "衡量公司三年内因航空事故造成的飞机损伤强度（按销售额标准化）的平均值。",
+        "level": 3,
+        "sourcePages": [
+          14
+        ],
+        "parent": "Industry Relative Aircraft Damage intensity score",
+        "parentCn": "飞机损坏强度行业相对得分"
+      },
+      {
+        "name": "Managed healthcare performance score",
+        "definition": "Assesses the company’s performance on healthcare plan quality and safety metrics based on CMS Star Ratings or IDSS scores. Expressed as a 0–10 score, where 10 indicates the highest level of performance. Applicable to managed healthcare industry only.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          14
+        ],
+        "parent": "Industry-specific Product Safety and Quality Performance score",
+        "nameCn": "管理式医疗绩效得分",
+        "definitionCn": "根据 CMS 星级评级或 IDSS 得分，评估企业医疗计划质量与安全指标的表现。以 0–10 分表示，10 表示最高绩效水平。仅适用于管理式医疗行业。",
+        "componentCn": "绩效表现",
+        "parentCn": "行业专属产品安全与质量绩效得分"
+      },
+      {
+        "name": "Water quality standards score",
+        "definition": "Assesses the company’s performance on compliance with drinking-water-quality standards and regulations. Expressed as a 0–10 score, where 10 indicates strong performance. Applicable to water utilities industry only.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          14,
+          15
+        ],
+        "parent": "Industry-specific Product Safety and Quality Performance score",
+        "nameCn": "水质标准得分",
+        "definitionCn": "评估企业遵守饮用水质量标准和法规的表现。以 0–10 分表示，10 表示表现较强。仅适用于水务公用事业行业。",
+        "componentCn": "绩效表现",
+        "parentCn": "行业专属产品安全与质量绩效得分"
+      },
+      {
+        "name": "Labelling or marketing incidents performance score",
+        "definition": "Assesses the company’s performance on compliance with industry or regulatory labeling and marketing codes. Expressed as a 0–10 score, where 10 indicates strong performance. Applicable to Beverages industry only.",
+        "component": "Performance",
+        "level": 2,
+        "sourcePages": [
+          15
+        ],
+        "parent": "Industry-specific Product Safety and Quality Performance score",
+        "nameCn": "标签或营销事件绩效得分",
+        "definitionCn": "评估企业遵守行业或监管标签与营销准则的表现。以 0–10 分表示，10 表示表现较强。仅适用于饮料行业。",
+        "componentCn": "绩效表现",
+        "parentCn": "行业专属产品安全与质量绩效得分"
+      }
+    ],
+    "keyMetrics": [],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 21,
+      "sourceFile": "12 product-safety-and-quality-key-issue.pdf",
+      "source": "Social Pillar/12 product-safety-and-quality-key-issue.pdf"
+    },
+    "sourceId": "product-safety-and-quality",
+    "introPages": [
+      3
+    ],
+    "riskPages": [
+      4
+    ],
+    "scoringNote": "风险型议题将风险敞口与风险管理得分通过总方法论的映射组合，不是两者直接相乘。管理评估可包含实践、绩效、目标及争议扣分；具体组件和行业适用性见本议题 PDF。",
+    "scoringPages": [
+      21,
+      22,
+      23
+    ],
+    "rules": []
+  },
+  {
+    "id": "responsible-investment",
+    "name": "负责任投资",
+    "nameEn": "Responsible Investment",
+    "pillar": "social",
+    "theme": "product-liability",
+    "type": "risk",
+    "summary": "评估企业在管理自有资产或代客管理资产时对 ESG 因素的整合程度。",
+    "intro": "Responsible Investment is a Key Issue in the Social Pillar of the MSCI ESG Ratings model. Companies are evaluated on their integration of environmental, social and governance considerations in the management of their own assets or the assets they manage on behalf of others.",
+    "risks": [
+      "Lower security values due to unmitigated or overlooked ESG risks.",
+      "Client attrition due to mismanagement of investment risk.",
+      "Higher returns from ESG investments."
+    ],
+    "risksCn": [
+      "因未缓解或被忽视的 ESG 风险导致的证券价值下降。",
+      "因投资风险管理不当导致的客户流失。",
+      "ESG 投资带来的更高回报。"
+    ],
+    "indicators": [
+      {
+        "component": "Integration",
+        "componentCn": "整合",
+        "name": "Dedicated ESG analysts responsible for analyzing ESG issues in investment process",
+        "nameCn": "负责在投资流程中分析 ESG 议题的专职 ESG 分析师",
+        "definition": "Indicates whether the company has a dedicated individual or team responsible for analyzing ESG issues in the investment process or if the company provides training on ESG issues to investment analysts.",
+        "definitionCn": "表明公司是否有专门的个人或团队负责在投资流程中分析 ESG 议题，或公司是否为投资分析师提供 ESG 议题培训。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Integration",
+        "componentCn": "整合",
+        "name": "Responsible investment policy to incorporate ESG considerations",
+        "nameCn": "纳入 ESG 考量的负责任投资政策",
+        "definition": "Indicates whether the company has policies and procedures to incorporate ESG considerations in the investment process.",
+        "definitionCn": "表明公司是否有将 ESG 考量纳入投资流程的政策和程序。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Integration",
+        "componentCn": "整合",
+        "name": "Highest level of ESG factors incorporation in investment process across asset classes",
+        "nameCn": "各资产类别投资流程中纳入 ESG 因素的最高程度",
+        "definition": "Assesses the highest level of ESG factors incorporation observed across the investment process for six asset classes: listed equity, corporate fixed income, non-corporate fixed income, private equity, real estate, and hedge funds/alternative investments. Expressed as a 0–10 score, where 10 indicates highest level of incorporation.",
+        "definitionCn": "评估在六类资产类别（上市股票、公司固定收益、非公司固定收益、私募股权、房地产以及对冲基金/另类投资）的投资流程中所观察到的纳入 ESG 因素的最高程度。以 0–10 分表示，10 分表示纳入程度最高。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Engagement",
+        "componentCn": "参与",
+        "name": "Dedicated staff responsible for ESG engagement",
+        "nameCn": "负责 ESG 参与事务的专职人员",
+        "definition": "Indicates whether the company has a dedicated individual or team responsible for monitoring and implementing its ESG engagement or proxy voting policies.",
+        "definitionCn": "表明公司是否有专门的个人或团队负责监督和执行其 ESG 参与或代理投票政策。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Engagement",
+        "componentCn": "参与",
+        "name": "Detailed engagement policy that addresses environmental, social and governance issues",
+        "nameCn": "涉及环境、社会和治理议题的详细参与政策",
+        "definition": "Indicates whether the company has an engagement or proxy voting policy that addresses environmental, social and governance issues.",
+        "definitionCn": "表明公司是否有涉及环境、社会和治理议题的参与或代理投票政策。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      }
+    ],
+    "keyMetrics": [],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 12,
+      "sourceFile": "13 responsible-investment-key-issue.pdf",
+      "source": "Social Pillar/13 responsible-investment-key-issue.pdf"
+    },
+    "sourceId": "responsible-investment",
+    "introPages": [
+      3
+    ],
+    "riskPages": [
+      4
+    ],
+    "scoringNote": "风险型议题将风险敞口与风险管理得分通过总方法论的映射组合，不是两者直接相乘。管理评估可包含实践、绩效、目标及争议扣分；具体组件和行业适用性见本议题 PDF。",
+    "scoringPages": [
+      21,
+      22,
+      23
+    ],
+    "rules": []
+  },
+  {
+    "id": "access-to-finance",
+    "name": "金融服务可及性",
+    "nameEn": "Access to Finance",
+    "pillar": "social",
+    "theme": "social-opportunities",
+    "type": "opportunity",
+    "summary": "评估企业面向服务不足市场提供金融服务、把握相关市场需求的定位。",
+    "intro": "Access to Finance is a Key Issue in the Social Pillar of the MSCI ESG Ratings model. Companies are evaluated on their positioning to meet market demand for financial services in underserved markets.",
+    "risks": [],
+    "risksCn": [],
+    "indicators": [
+      {
+        "component": "Distribution",
+        "componentCn": "分销",
+        "name": "Innovation in mobile/online distribution channels for financial services",
+        "nameCn": "金融服务移动/线上分销渠道的创新",
+        "definition": "The company's innovation in mobile/online distribution channels. Best practice is sector-leading innovation in mobile/online distribution targeting underserved demographics. Applies to financial institutions only.",
+        "definitionCn": "公司在移动/线上分销渠道方面的创新。最佳实践是针对服务不足人群的移动/线上分销领域的行业领先创新。仅适用于金融机构。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Distribution",
+        "componentCn": "分销",
+        "name": "Innovation in other alternative branchless distribution channels for financial services",
+        "nameCn": "金融服务其他替代性无网点分销渠道的创新",
+        "definition": "The company’s innovation in alternative branchless distribution channels (e.g., correspondents, partnerships with retail stores/post offices). Applies to financial institutions only.",
+        "definitionCn": "公司在替代性无网点分销渠道（如代理机构、与零售商店/邮局的合作）方面的创新。仅适用于金融机构。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Distribution",
+        "componentCn": "分销",
+        "name": "Financial literacy initiatives for unbanked, underbanked, or underserved groups",
+        "nameCn": "面向无银行账户、银行服务不足或未得到充分服务群体的金融素养举措",
+        "definition": "Assesses the company's initiatives aimed at improving financial literacy for unbanked, underbanked, or underserved customers and communities.",
+        "definitionCn": "评估公司旨在提升无银行账户、银行服务不足或未得到充分服务的客户及社区的金融素养的举措。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Products",
+        "componentCn": "产品",
+        "name": "Financial solutions targeting unbanked, underbanked, or underserved customers",
+        "nameCn": "面向无银行账户、银行服务不足或未得到充分服务客户的金融解决方案",
+        "definition": "Assesses the company's lending solutions designed to serve underserved individuals and small-and medium-sized enterprises (SMEs).",
+        "definitionCn": "评估公司旨在服务未得到充分服务的个人及中小企业（SMEs）的贷款解决方案。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Products",
+        "componentCn": "产品",
+        "name": "Extent of involvement in microfinance/microinsurance",
+        "nameCn": "参与小额信贷/小额保险的程度",
+        "definition": "The type of involvement in microfinance or microinsurance. Best practice is for the company to directly provide microfinance or microinsurance products to customers. Involvement may also come in the form of institutional partnerships, investment vehicles, or charitable giving.",
+        "definitionCn": "参与小额信贷或小额保险的类型。最佳实践是公司直接向客户提供小额信贷或小额保险产品。参与形式也可以是通过机构合作、投资工具或慈善捐赠。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Assessment of lending to small and medium-size enterprises",
+        "nameCn": "中小企业贷款评估",
+        "definition": "Assesses the company's lending to small and medium-size enterprises as a percentage of total lending, relative to industry peers.",
+        "definitionCn": "评估公司对中小企业的贷款占总贷款的比例，并与行业同业进行对比。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Performance",
+        "componentCn": "绩效表现",
+        "name": "Assessment of growth in lending to small and medium-size enterprises",
+        "nameCn": "中小企业贷款增长评估",
+        "definition": "Assesses the year-over-year growth in lending to small and medium-size enterprises, relative to industry peers.",
+        "definitionCn": "评估中小企业贷款的同比增速，并与行业同业进行对比。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      }
+    ],
+    "keyMetrics": [],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 14,
+      "sourceFile": "2 access-to-finance-key-issue.pdf",
+      "source": "Social Pillar/2 access-to-finance-key-issue.pdf"
+    },
+    "sourceId": "access-to-finance",
+    "introPages": [
+      3
+    ],
+    "riskPages": [],
+    "scoringNote": "机遇型议题根据机遇敞口与把握机遇的管理能力进行非线性映射。下表是源 PDF 列出的管理指标与子指标；仅凭这些指标不能复算完整官方得分。",
+    "scoringPages": [
+      24,
+      25
+    ],
+    "rules": []
+  },
+  {
+    "id": "access-to-health-care",
+    "name": "医疗健康可及性",
+    "nameEn": "Access to Health Care",
+    "pillar": "social",
+    "theme": "social-opportunities",
+    "type": "opportunity",
+    "summary": "评估企业面向发展中国家与服务不足市场提供医疗健康产品与服务、把握市场需求的定位。",
+    "intro": "Access to Health Care is a Key Issue in the Social Pillar of the MSCI ESG Ratings model. Companies are evaluated on their positioning to meet market demand for health care products and services in developing countries and underserved markets.",
+    "risks": [],
+    "risksCn": [],
+    "indicators": [
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Number of relevant diseases addressed by the company’s commercialized products",
+        "nameCn": "公司已商业化产品所涵盖的相关疾病数量",
+        "definition": "The number of diseases within the scope of this key issue for which the company has commercialized products on the market.",
+        "definitionCn": "在本关键议题范围内、公司已有产品上市销售的疾病数量。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Number of relevant diseases addressed by the company’s research and development",
+        "nameCn": "公司研发所涵盖的相关疾病数量",
+        "definition": "The number of diseases within the scope of this key issue for which the company has ongoing research and development.",
+        "definitionCn": "在本关键议题范围内、公司正在开展研发的疾病数量。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Scope of expansion plans to low-income and middle-income countries",
+        "nameCn": "向低收入和中等收入国家扩张计划的覆盖范围",
+        "definition": "Indicates whether the company explicitly states it plans to expand operations and markets to low-income and middle-income countries as defined by the World Bank. Applies to pharmaceutical, biotech and medical devices operations and markets.",
+        "definitionCn": "说明公司是否明确表示计划将业务和市场扩展至世界银行定义的低收入和中等收入国家。适用于制药、生物技术和医疗器械的业务和市场。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Assistance to local manufacturers to achieve international drug manufacturing quality standards in low- and middle-income countries",
+        "nameCn": "协助本地制造商达到国际药品生产质量",
+        "definition": "Indicates whether the company undertakes initiatives to improve the capacity of local manufacturers in low-and middle-income countries (as defined by the World Bank) to manufacture products to international quality standards such as the World Health Organization’s Good Manufacturing Practices. These initiatives aim to address local needs, in partnership with local stakeholders, and may have long-term sustainability aims.",
+        "definitionCn": "说明公司是否开展举措，以提升低收入和中等收入国家（世界银行定义）本地制造商按国际质量标准（如世界卫生组织的《药品生产质量管理规范》）生产产品的能力。这些举措旨在与本地利益相关方合作满足本地需求，并可能具有长期可持续发展目标。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Supports pharmacovigilance in low- and middle-income countries",
+        "nameCn": "支持低收入和中等收入国家的药物警戒",
+        "definition": "Indicates whether the company supports initiatives to build capacity to improve pharmacovigilance capability (i.e., monitoring the effects of drugs and vaccines after sale to detect and assess adverse effects or any other medicine-or vaccine-related problem) in low-and middle-income countries as defined by the World Bank. These initiatives are typically carried out with local relevant partners and aligned with local needs, and their goals and outcomes are generally measured.",
+        "definitionCn": "说明公司是否支持在低收入和中等收入国家（世界银行定义）开展能力建设举措，以提升药物警戒能力（即监测药品和疫苗售后的效果，以发现和评估不良反应或任何其他与药品或疫苗相关的问题）。这些举措通常与本地相关合作方共同开展，并与本地需求保持一致，其目标和成果通常会被衡量。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Trains local healthcare workers in low- and middle-income countries",
+        "nameCn": "培训低收入和中等收入国家的本地医护工作者",
+        "definition": "Indicates whether the company undertakes initiatives to train health care workers in low-and middle-income countries (as defined by the World Bank) to strengthen the existing health system and build local capacity. These initiatives aim to address local needs in partnership with local stakeholders and may have long-term sustainability aims.",
+        "definitionCn": "说明公司是否开展举措，培训低收入和中等收入国家（世界银行定义）的医护工作者，以加强现有卫生系统并建设本地能力。这些举措旨在与本地利益相关方合作满足本地需求，并可能具有长期可持续发展目标。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Improves availability of products to patients through pharmaceutical supply chain initiatives in low- and middle-income countries",
+        "nameCn": "通过药品供应链举措改善患者获得产品的可及性",
+        "definition": "Indicates whether the company undertakes initiatives to improve the pharmaceutical supply chain, beyond its own supply chain, in low-and middle-income countries as defined by the World Bank. These initiatives aim to address local needs in partnership with local stakeholders and may have long-term sustainability aims. Examples include initiatives to improve the last-mile supply of essential medicines.",
+        "definitionCn": "说明公司是否在低收入和中等收入国家（世界银行定义）开展举措，以改善其自身供应链之外的药品供应链。这些举措旨在与本地利益相关方合作满足本地需求，并可能具有长期可持续发展目标。示例包括改善基本药物最后一公里供应的举措。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Involvement in public-private partnerships for improving local research and development capacity in low- and middle-income countries",
+        "nameCn": "参与旨在改善本地研发的公私合作",
+        "definition": "Indicates whether the company undertakes public-private partnerships to strengthen local research and development capability in low-and middle-income countries as defined by the World Bank. These initiatives aim to address local needs and skill requirements in collaboration with relevant stakeholders, and may have long-term sustainability aims.",
+        "definitionCn": "说明公司是否开展公私合作，以增强低收入和中等收入国家（世界银行定义）的本地研发能力。这些举措旨在与相关利益相关方合作满足本地需求和技术要求，并可能具有长期可持续发展目标。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Capacity building of public health infrastructure, information, or health programs in low- and middle-income countries",
+        "nameCn": "低收入和中等收入国家公共卫生基础设施、信息或卫生项目的能力建设",
+        "definition": "Indicates whether the company undertakes initiatives to improve public health systems in terms of infrastructure, information, or health programs in low-and middle-income countries as defined by the World Bank. These initiatives aim to address local needs and skill requirements in collaboration with relevant stakeholders and may have long-term sustainability aims.",
+        "definitionCn": "说明公司是否开展举措，从基础设施、信息或卫生项目方面改善低收入和中等收入国家（世界银行定义）的公共卫生系统。这些举措旨在与相关利益相关方合作满足本地需求和技术要求，并可能具有长期可持续发展目标。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Number of non-exclusive voluntary licenses issued or received",
+        "nameCn": "已发出或已获得的非独占自愿许可数量",
+        "definition": "The number of non-exclusive voluntary licenses (NEVLs) that a patent holder has issued or that a generic manufacturer has received to allow the manufacture and supply of generic versions of patented medicines by other manufacturers.",
+        "definitionCn": "专利权人已发出、或仿制药制造商已获得的非独占自愿许可（NEVL）数量，此类许可允许其他制造商生产和供应专利药品的仿制版本。",
+        "level": 1,
+        "sourcePages": [
+          9
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Extent of pricing policies based on affordability",
+        "nameCn": "基于可负担性的定价政策的程度",
+        "definition": "Indicates whether the company implements tiered pricing (i.e., tailoring the price according to local ability to pay) for its products between countries, within countries or on both levels. Applies to patented drugs, generics, vaccines and medical devices.",
+        "definitionCn": "说明公司是否对其产品在国家之间、国家内部或两个层面实施分级定价（即根据当地支付能力调整价格）。适用于专利药品、仿制药、疫苗和医疗器械。",
+        "level": 1,
+        "sourcePages": [
+          9
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Signed licensing agreements or entered into manufacturing contracts with the Medicines Patent Pool (MPP)",
+        "nameCn": "与药品专利池签署许可协议或订立生产合同",
+        "definition": "The extent of the company’s licensing agreements or manufacturing contracts with the Medicines Patent Pool (MPP).",
+        "definitionCn": "公司与药品专利池（Medicines Patent Pool，MPP）之间许可协议或生产合同的程度。",
+        "level": 1,
+        "sourcePages": [
+          9
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Pricing transparency in developed and developing markets",
+        "nameCn": "发达市场和发展中市场的定价透明度",
+        "definition": "Describes the level of detail provided by a company regarding its product pricing. Applies to healthcare companies only.",
+        "definitionCn": "描述公司就其产品定价所提供信息的详细程度。仅适用于医疗健康公司。",
+        "level": 1,
+        "sourcePages": [
+          9
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Is the company conducting R&D to address antibiotic resistance (e.g., in-house R&D, partnerships)?",
+        "definition": "Indicates whether the company engages in antibiotic stewardship initiatives, such as collaboration on research and development of solutions for antibiotic resistance, or partnerships with industry peers, academia, or other entities to address antibiotic resistance.",
+        "component": "Practices",
+        "level": 1,
+        "sourcePages": [
+          9
+        ],
+        "parent": "",
+        "nameCn": "是否开展解决抗生素耐药性的研发（例如内部研发或合作）",
+        "definitionCn": "说明企业是否参与抗生素管理举措，例如合作研发解决抗生素耐药性的方案，或与行业同业、学术机构及其他主体合作解决抗生素耐药性。",
+        "componentCn": "实践管理",
+        "parentCn": ""
+      }
+    ],
+    "keyMetrics": [],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 16,
+      "sourceFile": "1 access-to-health-care-key-issue.pdf",
+      "source": "Social Pillar/1 access-to-health-care-key-issue.pdf"
+    },
+    "sourceId": "access-to-health-care",
+    "introPages": [
+      3
+    ],
+    "riskPages": [],
+    "scoringNote": "机遇型议题根据机遇敞口与把握机遇的管理能力进行非线性映射。下表是源 PDF 列出的管理指标与子指标；仅凭这些指标不能复算完整官方得分。",
+    "scoringPages": [
+      24,
+      25
+    ],
+    "rules": []
+  },
+  {
+    "id": "opportunities-in-nutrition-and-health",
+    "name": "营养与健康机遇",
+    "nameEn": "Opportunities in Nutrition & Health",
+    "pillar": "social",
+    "theme": "social-opportunities",
+    "type": "opportunity",
+    "summary": "评估企业把握具有更优营养或健康特征产品市场需求的定位。",
+    "intro": "Opportunities in Nutrition & Health is a Key Issue in the Social Pillar of the MSCI ESG Ratings model. Companies are evaluated on their positioning to meet market demand for products with improved nutritional or health profiles.",
+    "risks": [],
+    "risksCn": [],
+    "indicators": [
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "In-house innovation capacity to develop healthier products",
+        "nameCn": "开发更健康产品的内部创新能力",
+        "definition": "Indicates whether the company has resources dedicated to developing healthier and more natural products. Leading practice is to have dedicated research centers and staff to develop healthier products.",
+        "definitionCn": "表明公司是否有专门用于开发更健康和更天然产品的资源。领先实践是设立专门的研究中心和人员来开发更健康的产品。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Strategy to develop natural and healthy products",
+        "nameCn": "开发天然和健康产品的战略",
+        "definition": "Indicates whether the company has a strategy to further develop natural and healthy products.",
+        "definitionCn": "表明公司是否有进一步开发天然和健康产品的战略。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Food & beverage nutrition enhancement programs score",
+        "nameCn": "食品饮料营养强化方案评分",
+        "definition": "Assesses the company’s efforts to improve the nutritional profile of its food and beverage products. Highest performance reflects comprehensive programs to reduce artificial ingredients, fat, sodium, sugar, and portion size, enhance products through fortification and use natural ingredients. Expressed as a 0–10 score, where 10 indicates the highest level of performance.",
+        "definitionCn": "评估公司改善其食品饮料产品营养成分的努力。最高绩效体现为减少人工成分、脂肪、钠、糖和份量的综合方案，通过营养强化和使用天然成分提升产品。以 0–10 分表示，10 分表示绩效最高水平。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "name": "Extent of programs to reduce artificial ingredients in food products",
+        "definition": "The estimated share of revenues generated from food and beverage products that contain less or no artificial ingredients (e.g., preservatives, colorings, aspartame) or less or no controversial ingredients (e.g., antibiotics).",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Food & beverage nutrition enhancement programs score",
+        "nameCn": "减少食品中人工成分的计划覆盖程度",
+        "definitionCn": "所含人工成分（例如防腐剂、色素、阿斯巴甜）更少或为零，或争议性成分（例如抗生素）更少或为零的食品及饮料产品所产生收入的估计占比。",
+        "componentCn": "实践管理",
+        "parentCn": "食品饮料营养强化方案评分"
+      },
+      {
+        "name": "Extent of programs to reduce portion size",
+        "definition": "The estimated share of revenues generated from products reformulated with reduced portions.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Food & beverage nutrition enhancement programs score",
+        "nameCn": "缩小产品份量的计划覆盖程度",
+        "definitionCn": "经重新配方或设计、缩小份量的产品所产生收入的估计占比。",
+        "componentCn": "实践管理",
+        "parentCn": "食品饮料营养强化方案评分"
+      },
+      {
+        "name": "Extent of programs to reduce sugar in food products",
+        "definition": "The estimated share of revenues generated from food and beverage products reformulated with less sugar.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Food & beverage nutrition enhancement programs score",
+        "nameCn": "减少食品中糖含量的计划覆盖程度",
+        "definitionCn": "经重新配方、含糖量更低的食品及饮料产品所产生收入的估计占比。",
+        "componentCn": "实践管理",
+        "parentCn": "食品饮料营养强化方案评分"
+      },
+      {
+        "name": "Extent of programs to reduce fat in food products",
+        "definition": "Indicates the estimated share of revenues generated from food/beverage products reformulated with less fat.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Food & beverage nutrition enhancement programs score",
+        "nameCn": "减少食品中脂肪含量的计划覆盖程度",
+        "definitionCn": "经重新配方、脂肪含量更低的食品及饮料产品所产生收入的估计占比。",
+        "componentCn": "实践管理",
+        "parentCn": "食品饮料营养强化方案评分"
+      },
+      {
+        "name": "Extent of programs to reduce sodium in food products",
+        "definition": "Indicates the estimated share of revenues generated from food/beverage products reformulated with less salt.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Food & beverage nutrition enhancement programs score",
+        "nameCn": "减少食品中钠含量的计划覆盖程度",
+        "definitionCn": "经重新配方、含盐量更低的食品及饮料产品所产生收入的估计占比。",
+        "componentCn": "实践管理",
+        "parentCn": "食品饮料营养强化方案评分"
+      },
+      {
+        "name": "Extent of programs to enhance or fortify products to address nutrient deficiencies",
+        "definition": "Indicates the estimated share of revenues generated from food/beverage products fortified to reduce nutrient deficiencies (e.g. vitamin A, zinc, iodine, iron).",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Food & beverage nutrition enhancement programs score",
+        "nameCn": "针对营养素缺乏改善或强化产品的计划覆盖程度",
+        "definitionCn": "为减少营养素缺乏而强化营养（例如维生素 A、锌、碘、铁）的食品及饮料产品所产生收入的估计占比。",
+        "componentCn": "实践管理",
+        "parentCn": "食品饮料营养强化方案评分"
+      },
+      {
+        "name": "Extent of initiatives to use more natural ingredients",
+        "definition": "The estimated share of revenues generated from food and beverage products that are certified to organic standards.",
+        "component": "Practices",
+        "level": 2,
+        "sourcePages": [
+          7
+        ],
+        "parent": "Food & beverage nutrition enhancement programs score",
+        "nameCn": "使用更多天然成分的举措覆盖程度",
+        "definitionCn": "获得有机标准认证的食品及饮料产品所产生收入的估计占比。",
+        "componentCn": "实践管理",
+        "parentCn": "食品饮料营养强化方案评分"
+      }
+    ],
+    "keyMetrics": [],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 14,
+      "sourceFile": "10 opportunities-in-nutrition-and-health-key-issue.pdf",
+      "source": "Social Pillar/10 opportunities-in-nutrition-and-health-key-issue.pdf"
+    },
+    "sourceId": "opportunities-in-nutrition-and-health",
+    "introPages": [
+      3
+    ],
+    "riskPages": [],
+    "scoringNote": "机遇型议题根据机遇敞口与把握机遇的管理能力进行非线性映射。下表是源 PDF 列出的管理指标与子指标；仅凭这些指标不能复算完整官方得分。",
+    "scoringPages": [
+      24,
+      25
+    ],
+    "rules": []
+  },
+  {
+    "id": "community-relations",
+    "name": "社区关系",
+    "nameEn": "Community Relations",
+    "pillar": "social",
+    "theme": "stakeholder-opposition",
+    "type": "risk",
+    "summary": "评估企业对当地社区关系的管理，以及人权相关政策与实践。",
+    "intro": "Community Relations is a Key Issue in the Social Pillar of the MSCI ESG Ratings model. Companies are evaluated on their management of local community relations and policies on human rights.",
+    "risks": [
+      "Operational disruptions or loss of market access due to community opposition.",
+      "Loss of formal and social license to operate.",
+      "Litigation by landowners and other affected parties."
+    ],
+    "risksCn": [
+      "因社区反对导致运营中断或市场准入丧失。",
+      "丧失正式运营许可和社会运营许可。",
+      "土地所有者及其他受影响方提起诉讼。"
+    ],
+    "indicators": [
+      {
+        "component": "Impact and Disturbance",
+        "componentCn": "影响与干扰",
+        "name": "Commitment to refrain from operating in protected areas",
+        "nameCn": "承诺不在保护区内运营",
+        "definition": "Indicates whether a company has made a commitment to avoid operating in high-conservation areas, such as World Heritage sites or areas of cultural significance.",
+        "definitionCn": "表明公司是否已承诺避免在高保护价值区域（如世界遗产地或具有文化意义的区域）运营。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Impact and Disturbance",
+        "componentCn": "影响与干扰",
+        "name": "Conducts community impact assessment prior to settling in new areas",
+        "nameCn": "在新区域落户前开展社区影响评估",
+        "definition": "Indicates whether a company conducts community impact assessments in line with the principles of Free, Prior and Informed Consent (FPIC) or whether there is any evidence of community engagement prior to developing in new areas.",
+        "definitionCn": "表明公司是否按照自由、事先和知情同意（FPIC）原则开展社区影响评估，或在开发新区域之前是否有任何社区参与的迹象。",
+        "level": 1,
+        "sourcePages": [
+          6,
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Impact and Disturbance",
+        "componentCn": "影响与干扰",
+        "name": "Indigenous people policy",
+        "nameCn": "原住民政策",
+        "definition": "Indicates whether the company has a policy to minimize community impacts on indigenous people and their traditional way of life.",
+        "definitionCn": "表明公司是否有政策以尽量减少对原住民及其传统生活方式的社区影响。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Impact and Disturbance",
+        "componentCn": "影响与干扰",
+        "name": "Local community engagement approach",
+        "nameCn": "当地社区参与方式",
+        "definition": "Indicates whether a company’s approach to local community engagement includes proactive programs, such as grievance reporting mechanisms and formal community engagement channels.",
+        "definitionCn": "表明公司当地社区参与的方式是否包含主动举措，如申诉报告机制和正式的社区参与渠道。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Conflict and Human Rights",
+        "componentCn": "冲突与人权",
+        "name": "Monitors the effectiveness of its human rights policy",
+        "nameCn": "监测其人权政策的有效性",
+        "definition": "The extent of monitoring to measure the effectiveness of human rights policies, and whether the company commits to targets or reports progress against human rights targets.",
+        "definitionCn": "衡量人权政策有效性的监测程度，以及公司是否承诺目标或报告人权目标的进展。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Conflict and Human Rights",
+        "componentCn": "冲突与人权",
+        "name": "Employee training on human rights protection",
+        "nameCn": "人权保护员工培训",
+        "definition": "Indicates whether the company has employee training programs on human rights.",
+        "definitionCn": "表明公司是否有关于人权的员工培训方案。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Conflict and Human Rights",
+        "componentCn": "冲突与人权",
+        "name": "Ethical conduct policy covers contract security providers",
+        "nameCn": "道德行为政策涵盖合同安保服务提供商",
+        "definition": "Indicates whether a company has a formal business ethics policy that applies to contract security providers and whether that policy is supported by auditing to ensure compliance.",
+        "definitionCn": "表明公司是否有适用于合同安保服务提供商的正式商业道德政策，以及该政策是否有审计支持以确保合规。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Conflict and Human Rights",
+        "componentCn": "冲突与人权",
+        "name": "Human rights policy",
+        "nameCn": "人权政策",
+        "definition": "Indicates whether a company has adopted a formal human rights policy and whether that policy is aligned with the United Nations Declaration of Human Rights.",
+        "definitionCn": "表明公司是否采用了正式的人权政策，以及该政策是否与《联合国人权宣言》一致。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Conflict and Human Rights",
+        "componentCn": "冲突与人权",
+        "name": "Violence and conflict policy",
+        "nameCn": "暴力与冲突政策",
+        "definition": "Indicates whether the company has a formal policy or informal commitment related to violence and conflict.",
+        "definitionCn": "表明公司是否有与暴力和冲突相关的正式政策或非正式承诺。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Distribution of Benefits",
+        "componentCn": "利益分配",
+        "name": "Local procurement policy",
+        "nameCn": "本地采购政策",
+        "definition": "Indicates whether a company has a policy to support local suppliers or prioritize purchases that support local communities.",
+        "definitionCn": "表明公司是否有政策支持本地供应商，或优先进行支持当地社区的采购。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Distribution of Benefits",
+        "componentCn": "利益分配",
+        "name": "Programs to support local communities",
+        "nameCn": "支持当地社区的方案",
+        "definition": "A company’s investments in community projects (including local infrastructure, hospitals and education) and philanthropic programs to support local communities.",
+        "definitionCn": "公司在社区项目（包括当地基础设施、医院和教育）以及支持当地社区的公益方案方面的投资。",
+        "level": 1,
+        "sourcePages": [
+          8
+        ],
+        "parent": "",
+        "parentCn": ""
+      }
+    ],
+    "keyMetrics": [],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 14,
+      "sourceFile": "4 community-relations-key-issue.pdf",
+      "source": "Social Pillar/4 community-relations-key-issue.pdf"
+    },
+    "sourceId": "community-relations",
+    "introPages": [
+      3
+    ],
+    "riskPages": [
+      4
+    ],
+    "scoringNote": "风险型议题将风险敞口与风险管理得分通过总方法论的映射组合，不是两者直接相乘。管理评估可包含实践、绩效、目标及争议扣分；具体组件和行业适用性见本议题 PDF。",
+    "scoringPages": [
+      21,
+      22,
+      23
+    ],
+    "rules": []
+  },
+  {
+    "id": "controversial-sourcing",
+    "name": "争议性采购",
+    "nameEn": "Controversial Sourcing",
+    "pillar": "social",
+    "theme": "stakeholder-opposition",
+    "type": "risk",
+    "summary": "评估企业对冲突地区原材料的依赖程度与采购规模，以及可追溯性和认证方面的努力。",
+    "intro": "Controversial Sourcing is a Key Issue in the Social Pillar of the MSCI ESG Ratings model. Companies are evaluated on their dependence on, and purchasing volume of, raw materials procured from conflict areas and their efforts at traceability and certification.",
+    "risks": [
+      "Reputational risk and potential loss of market share as consumer awareness grows.",
+      "Costs to comply with new regulations (e.g., Corporate Sustainability Due Diligence Directive (CSDDD), U.S. Dodd-Frank Act)."
+    ],
+    "risksCn": [
+      "随着消费者意识提高而产生的声誉风险及市场份额潜在流失。",
+      "遵守新法规的成本（例如企业可持续尽职调查指令（CSDDD）、美国《多德-弗兰克法案》）。"
+    ],
+    "indicators": [
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Extent of efforts to ensure compliance with controversial materials sourcing policy",
+        "nameCn": "确保遵守争议材料采购政策的努力程度",
+        "definition": "Indicates whether the company carries out initiatives to ensure compliance with its controversial sourcing policy, or collaborates with stakeholders to promote supply chain transparency and accountability.",
+        "definitionCn": "表明公司是否开展举措以确保遵守其争议采购政策，或与利益相关方合作以促进供应链透明度和问责。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Targets for ensuring compliance with controversial materials sourcing policy",
+        "nameCn": "确保遵守争议材料采购政策的目标",
+        "definition": "Indicates whether the company has targets for ensuring compliance with its controversial materials sourcing policy.",
+        "definitionCn": "表明公司是否设有确保遵守其争议材料采购政策的目标。",
+        "level": 1,
+        "sourcePages": [
+          6
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Extent of supplier/material certification as conflict-free by external agencies using the most stringent criteria",
+        "nameCn": "由外部机构使用最严格标准将供应商/材料认证为无冲突的程度",
+        "definition": "The extent of relevant products externally certified as conflict-free using the most stringent criteria, which may differ from industry to industry. Example: Responsible Minerals Assurance Process (RMAP) for Consumer Electronics.",
+        "definitionCn": "使用最严格标准（因行业而异）获得外部无冲突认证的相关产品程度。示例：针对消费电子产品的负责任矿产保证流程（RMAP）。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Commitments to address controversial sourcing practices",
+        "nameCn": "应对争议采购实践的承诺",
+        "definition": "Indicates whether the company has a policy to address sourcing and use of raw materials that may originate from areas associated with human rights violations, illicit trade and/or financing of violence.",
+        "definitionCn": "表明公司是否制定政策，以应对可能来源于与侵犯人权、非法贸易和/或资助暴力相关地区的原材料的采购与使用。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      },
+      {
+        "component": "Practices",
+        "componentCn": "实践管理",
+        "name": "Extent of material traceability to place of origin",
+        "nameCn": "材料追溯至原产地的程度",
+        "definition": "Indicates the estimated share of relevant products with traceable origin of raw materials. Traceable origin refers to the location where the ore was mined, to the best detail possible. At a minimum, the description must include the country, but more details may be provided including the province/state, city, mine site and mine name.",
+        "definitionCn": "表明可追溯原材料原产地的相关产品估计占比。可追溯原产地指矿石开采的地点，尽可能详细。描述至少需包含国家，但可提供更多细节，包括省/州、城市、矿区及矿山名称。",
+        "level": 1,
+        "sourcePages": [
+          7
+        ],
+        "parent": "",
+        "parentCn": ""
+      }
+    ],
+    "keyMetrics": [],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 13,
+      "sourceFile": "6 controversial-sourcing-key-issue.pdf",
+      "source": "Social Pillar/6 controversial-sourcing-key-issue.pdf"
+    },
+    "sourceId": "controversial-sourcing",
+    "introPages": [
+      3
+    ],
+    "riskPages": [
+      4
+    ],
+    "scoringNote": "风险型议题将风险敞口与风险管理得分通过总方法论的映射组合，不是两者直接相乘。管理评估可包含实践、绩效、目标及争议扣分；具体组件和行业适用性见本议题 PDF。",
+    "scoringPages": [
+      21,
+      22,
+      23
+    ],
+    "rules": []
+  },
+  {
+    "id": "business-ethics",
+    "name": "商业道德",
+    "nameEn": "Business Ethics",
+    "pillar": "governance",
+    "theme": "corporate-behavior",
+    "type": "governance",
+    "summary": "评估企业对欺诈、高管不当行为、腐败行为、洗钱或反垄断违规等商业道德问题的监督与管理。",
+    "intro": "Business Ethics is a Key Issue in the Governance Pillar of the MSCI ESG Ratings model. Companies are evaluated on their oversight and management of business ethics issues such as fraud, executive misconduct, corrupt practices, money laundering, or antitrust violations.",
+    "risks": [],
+    "risksCn": [],
+    "indicators": [],
+    "keyMetrics": [
+      {
+        "name": "Oversight of Ethics Issues",
+        "nameCn": "道德议题监督",
+        "fullName": "Oversight of Ethics Issues Key Metric",
+        "category": "Policies & practices",
+        "categoryCn": "政策与实践",
+        "definition": "Indicates the company's governance body (e.g., board-level committee, C-suite or executive committee, or special task force or risk officer) responsible for oversight of business ethics and corruption issues.",
+        "definitionCn": "表明公司负责监督商业道德与腐败议题的治理机构（例如董事会层面的委员会、高管层或执行委员会，或专项工作组或风险官）。",
+        "scope": "",
+        "deduction": "Variable, based on disclosure of management practice: Board level committee, C-suite or executive committee: 0.0. Special task force, or risk officer, or Corporate Social Responsibility / Sustainability team: -0.7. No evidence: -1.4.",
+        "range": "",
+        "sourcePages": [
+          4
+        ],
+        "scoringText": "Typical scoring deduction: Variable, based on disclosure of management practice: Board level committee, C-suite or executive committee: 0.0. Special task force, or risk officer, or Corporate Social Responsibility / Sustainability team: -0.7. No evidence: -1.4."
+      },
+      {
+        "name": "Bribery and Anti-corruption Policy",
+        "nameCn": "贿赂与反腐败政策",
+        "fullName": "Bribery and Anti-corruption Policy Key Metric",
+        "category": "Policies & practices",
+        "categoryCn": "政策与实践",
+        "definition": "Indicates if the company has a policy on bribery and anti-corruption in place and the scope of that policy.",
+        "definitionCn": "表明公司是否已制定贿赂与反腐败政策以及该政策的范围。",
+        "scope": "",
+        "deduction": "Variable, based on disclosure of management practice: Detailed formal policy on bribery and anti-corruption: 0.0. General statements of commitment to address bribery and corruption: -0.7. No evidence: -1.4.",
+        "range": "",
+        "sourcePages": [
+          4
+        ],
+        "scoringText": "Typical scoring deduction: Variable, based on disclosure of management practice: Detailed formal policy on bribery and anti-corruption: 0.0. General statements of commitment to address bribery and corruption: -0.7. No evidence: -1.4."
+      },
+      {
+        "name": "Anti-Corruption Policy for Suppliers",
+        "nameCn": "供应商反腐败政策",
+        "fullName": "Anti-Corruption Policy for Suppliers Key Metric",
+        "category": "Policies & practices",
+        "categoryCn": "政策与实践",
+        "definition": "Indicates the scope of the bribery and anti-corruption policy in place for suppliers.",
+        "definitionCn": "表明针对供应商实施的贿赂与反腐败政策的范围。",
+        "scope": "",
+        "deduction": "Variable, based on disclosure of management practice: All suppliers are required to have anti-corruption policies and programs to verify compliance: 0.0. All suppliers are required to have anti-corruption policies: -0.7. Policy covers selected suppliers: -1.0. No evidence: -1.4.",
+        "range": "",
+        "sourcePages": [
+          5
+        ],
+        "scoringText": "Typical scoring deduction: Variable, based on disclosure of management practice: All suppliers are required to have anti-corruption policies and programs to verify compliance: 0.0. All suppliers are required to have anti-corruption policies: -0.7. Policy covers selected suppliers: -1.0. No evidence: -1.4."
+      },
+      {
+        "name": "Whistleblower Protection",
+        "nameCn": "举报人保护",
+        "fullName": "Whistleblower Protection Key Metric",
+        "category": "Policies & practices",
+        "categoryCn": "政策与实践",
+        "definition": "Indicates whether the company has disclosed a whistleblower policy that provides whistleblowers with protection from retaliation.",
+        "definitionCn": "表明公司是否披露了为举报人提供免受报复保护的举报人政策。",
+        "scope": "",
+        "deduction": "Variable, based on disclosure of management practice: Policy provides whistleblowers with protection from retaliation: 0.0. No evidence: -1.4.",
+        "range": "",
+        "sourcePages": [
+          5
+        ],
+        "scoringText": "Typical scoring deduction: Variable, based on disclosure of management practice: Policy provides whistleblowers with protection from retaliation: 0.0. No evidence: -1.4."
+      },
+      {
+        "name": "Employee Training on Ethical Standards",
+        "nameCn": "员工道德标准培训",
+        "fullName": "Employee Training on Ethical Standards Key Metric",
+        "category": "Policies & practices",
+        "categoryCn": "政策与实践",
+        "definition": "Indicates the scope of employee training on anti-corruption and business ethics standards.",
+        "definitionCn": "表明反腐败和商业道德标准方面的员工培训范围。",
+        "scope": "",
+        "deduction": "Variable, based on disclosure of management practice: Programs covering all employees (including part-time) and contractors: 0.0. Programs covering all permanent employees (excluding part-time and contractors): -0.7. General statements on employee training on ethical standards: -1.0. No evidence: -1.4.",
+        "range": "",
+        "sourcePages": [
+          5
+        ],
+        "scoringText": "Typical scoring deduction: Variable, based on disclosure of management practice: Programs covering all employees (including part-time) and contractors: 0.0. Programs covering all permanent employees (excluding part-time and contractors): -0.7. General statements on employee training on ethical standards: -1.0. No evidence: -1.4."
+      },
+      {
+        "name": "Regular Audits of Ethical Standards",
+        "nameCn": "道德标准定期审计",
+        "fullName": "Regular Audits of Ethical Standards Key Metric",
+        "category": "Policies & practices",
+        "categoryCn": "政策与实践",
+        "definition": "Indicates the frequency and scope of audits related to anti-corruption and business ethics.",
+        "definitionCn": "表明与反腐败和商业道德相关的审计频率和范围。",
+        "scope": "",
+        "deduction": "Variable, based on disclosure of management practice: Audits of all operations at least once every three years: 0.0. Audits of selected operations at least once every three years: -0.7. Evidence of audits but no specific details / audits conducted but not on a regular schedule: -0.7. No evidence: -1.4.",
+        "range": "",
+        "sourcePages": [
+          5,
+          6
+        ],
+        "scoringText": "Typical scoring deduction: Variable, based on disclosure of management practice: Audits of all operations at least once every three years: 0.0. Audits of selected operations at least once every three years: -0.7. Evidence of audits but no specific details / audits conducted but not on a regular schedule: -0.7. No evidence: -1.4."
+      },
+      {
+        "name": "Anti-Money Laundering (AML) Policy",
+        "nameCn": "反洗钱（AML）政策",
+        "fullName": "Anti-Money Laundering (AML) Policy Key Metric",
+        "category": "Policies & practices",
+        "categoryCn": "政策与实践",
+        "definition": "Indicates the scope of a company's policy on anti-money laundering and know your customer.",
+        "definitionCn": "表明公司反洗钱与了解你的客户政策的范围。",
+        "scope": "",
+        "deduction": "Variable, based on disclosure of management practice: Policy and implementation strategy articulated: 0.0. Evidence of policy but no disclosure of implementation: -0.7. Not disclosed: -1.4.",
+        "range": "",
+        "sourcePages": [
+          6
+        ],
+        "scoringText": "Typical scoring deduction: Variable, based on disclosure of management practice: Policy and implementation strategy articulated: 0.0. Evidence of policy but no disclosure of implementation: -0.7. Not disclosed: -1.4."
+      },
+      {
+        "name": "Corruption Risk Exposure & Controversies",
+        "nameCn": "腐败风险敞口与争议",
+        "fullName": "Corruption Risk Exposure & Controversies Key Metric",
+        "category": "Risk & Controversies",
+        "categoryCn": "风险与争议",
+        "definition": "Indicates the company’s exposure to business activities or geographies facing a higher incidence of corruption and involvement in ongoing corruption-related controversies.",
+        "definitionCn": "表明公司对腐败发生率较高的商业活动或地区的敞口，以及是否卷入正在进行的腐败相关争议。",
+        "scope": "",
+        "deduction": "Variable, based on percentage of operations in medium-and high-risk geographies, high-risk business segments, government ownership (percentage) and controversy type & assessment.",
+        "range": "0 to -7.0",
+        "sourcePages": [
+          6
+        ],
+        "scoringText": "Typical Scoring deduction: Variable, based on percentage of operations in medium-and high-risk geographies, high-risk business segments, government ownership (percentage) and controversy type & assessment. Range: 0 to -7.0 Refer to the Corruption Risk Exposure Deduction Key, below, for details on corruption risk exposure deduction. Refer to the Corporate Behavior Controversy Deduction Key, below, for details on corruption-related controversy deduction."
+      },
+      {
+        "name": "Business Ethics Controversies",
+        "nameCn": "商业道德争议",
+        "fullName": "Business Ethics Controversies Key Metric",
+        "category": "Risk & Controversies",
+        "categoryCn": "风险与争议",
+        "definition": "Indicates the company’s involvement in anticompetitive and business ethics controversies. Cases related to the two Board Key Issue-related Key Metrics Securities Violations and Executive Misconduct (See the “MSCI ESG Ratings Methodology: Board Key Issue” document for details) will be taken into consideration in the assessment of the Business Ethics Controversies Key Metric.",
+        "definitionCn": "表明公司是否卷入反竞争和商业道德争议。与董事会关键议题相关的两项关键指标——证券违规和高管不当行为（详情请参阅《MSCI ESG Ratings Methodology: Board Key Issue》文件）——相关的案件将在商业道德争议关键指标的评估中予以考虑。",
+        "scope": "",
+        "deduction": "Variable, based on Severity, Status (Ongoing, Partially Concluded, or Concluded), and the company’s Role (Direct vs. Indirect Involvement) in the controversy.",
+        "range": "0 to -7.0",
+        "sourcePages": [
+          7
+        ],
+        "scoringText": "Typical scoring deduction: Variable, based on Severity, Status (Ongoing, Partially Concluded, or Concluded), and the company’s Role (Direct vs. Indirect Involvement) in the controversy. Range: 0 to -7.0 Refer to the Corporate Behavior Controversy Deduction Key, below."
+      }
+    ],
+    "doc": {
+      "version": "2026-06",
+      "versionLabel": "2026 年 6 月",
+      "pages": 11,
+      "sourceFile": "3 business-ethics-key-issue.pdf",
+      "source": "Governance Pillar/3 business-ethics-key-issue.pdf"
+    },
+    "sourceId": "business-ethics",
+    "introPages": [
+      3
+    ],
+    "riskPages": [],
+    "scoringNote": "治理先从 10 分起扣除相关关键指标的贡献，并按方法论做缩放、主题与支柱汇总。部分指标影响议题得分，但不经公司治理主题进入最终评级；适用范围及贡献以各指标原文和总方法论为准。",
+    "scoringPages": [
+      30,
+      31,
+      32,
+      33
+    ],
+    "rules": [
+      {
+        "title": "公司行为争议与腐败敞口",
+        "pages": [
+          6,
+          7,
+          8
+        ],
+        "body": [
+          "腐败风险敞口扣分取决于中高风险地区、高风险业务及政府持股；争议扣分另看严重性、状态和直接／间接角色。两类规则应按第 7–8 页扣分表结合使用。",
+          "证券违规和高管不当行为在董事会议题中的得分影响，不经公司治理主题计入最终评级；相关案件会在商业道德争议中评估。"
+        ],
+        "note": "页面保留每项指标完整的英文适用范围与扣分说明。未用某一个“典型扣分”推断所有公司。"
+      }
+    ]
+  },
+  {
+    "id": "tax-transparency",
+    "name": "税务透明度",
+    "nameEn": "Tax Transparency",
+    "pillar": "governance",
+    "theme": "corporate-behavior",
+    "type": "governance",
+    "summary": "评估企业估计税负缺口、收入申报透明度及税务相关争议的参与情况。",
+    "intro": "Tax Transparency is a Key Issue in the Governance Pillar of the MSCI ESG Ratings model. Companies are evaluated on their estimated corporate tax gap (see below), revenue-reporting transparency and their involvement in tax-related controversies. A company’s estimated tax gap will only affect its 0-10 Corporate Behavior Theme Score and its 0-10 Governance Pillar Score when it is involved in an ongoing tax-related controversy. Because the estimated tax gap is an approximation and does not consider the unique circumstances of a company’s tax structure, ongoing tax controversies are used to improve the level of conviction in an estimated negative tax gap.",
+    "risks": [],
+    "risksCn": [],
+    "indicators": [],
+    "keyMetrics": [
+      {
+        "name": "Tax Controversies",
+        "nameCn": "税务争议",
+        "fullName": "Tax Controversies Key Metric",
+        "category": "Controversies",
+        "categoryCn": "争议",
+        "definition": "Indicates the company’s involvement in ongoing tax-related controversies.",
+        "definitionCn": "表明公司是否涉及正在进行的税务相关争议。",
+        "scope": "",
+        "deduction": "The scoring contribution is variable, based on the type and assessment of ongoing controversies.",
+        "range": "0 to -2.0.",
+        "sourcePages": [
+          4
+        ],
+        "scoringText": "Typical Scoring Contribution: The scoring contribution is variable, based on the type and assessment of ongoing controversies. Scoring range: 0 to -2.0. For details about the deduction, refer to the Tax Controversy Deduction Key, below."
+      }
+    ],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 8,
+      "sourceFile": "6 tax-transparency-key-issue.pdf",
+      "source": "Governance Pillar/6 tax-transparency-key-issue.pdf"
+    },
+    "sourceId": "tax-transparency",
+    "introPages": [
+      3
+    ],
+    "riskPages": [],
+    "sourceNote": "该议题 PDF 的框架图仍含已删除的历史议题。本网站的 33 议题结构依据 2026 年 3 月总方法论第 6 页；删除历史见模型更新 v4.2（2023-04-03）。议题指标本身仍按本文件核对。",
+    "scoringNote": "治理先从 10 分起扣除相关关键指标的贡献，并按方法论做缩放、主题与支柱汇总。部分指标影响议题得分，但不经公司治理主题进入最终评级；适用范围及贡献以各指标原文和总方法论为准。",
+    "scoringPages": [
+      30,
+      31,
+      32,
+      33
+    ],
+    "rules": [
+      {
+        "title": "税收差距影响得分的前提",
+        "pages": [
+          3,
+          5
+        ],
+        "body": [
+          "只有涉及正在进行的税务争议时，估计税收差距才影响公司行为主题和治理支柱得分。税收差距是近五年平均估计有效税率与按收入来源国家／地区估计法定税率之间的差异。"
+        ],
+        "table": {
+          "headers": [
+            "正在进行的税务争议",
+            "估计税收差距（原文）",
+            "贡献",
+            "税收透明度议题得分"
+          ],
+          "rows": [
+            [
+              "有",
+              "5% or below",
+              "−0.8",
+              "6"
+            ],
+            [
+              "有",
+              "5–10%",
+              "−1.4",
+              "3"
+            ],
+            [
+              "有",
+              "Above 10%",
+              "−2.0",
+              "0"
+            ],
+            [
+              "无",
+              "上述任意区间",
+              "0.0",
+              "10"
+            ]
+          ]
+        },
+        "note": "原表“5% or below”和“5–10%”在 5% 处有显示交叠；未自行规定边界归属。"
+      }
+    ]
+  },
+  {
+    "id": "accounting",
+    "name": "会计",
+    "nameEn": "Accounting",
+    "pillar": "governance",
+    "theme": "corporate-governance",
+    "type": "governance",
+    "summary": "评估外部审计机构的聘任、审计报告结论，以及其他会计事件所反映的潜在会计风险。",
+    "intro": "Accounting is a Key Issue in the Governance Pillar of the MSCI ESG Ratings model. Companies are evaluated on the appointment of the external audit firm, the findings of its audit report, and on other accounting events as an indicator of potential accounting risk.",
+    "risks": [],
+    "risksCn": [],
+    "indicators": [],
+    "keyMetrics": [
+      {
+        "name": "Accounting Investigations",
+        "nameCn": "会计调查",
+        "fullName": "Accounting Investigations Key Metric",
+        "category": "Accounting events",
+        "categoryCn": "会计事件",
+        "definition": "Has the company announced an internal investigation into its accounting, come under investigation from a regulatory body, or been subject to fine, settlement, or conviction for issues related to its accounting practices? Or has the company’s auditor come under investigation for issues related to its work on the audit of the company? Flagged if yes. The duration of the flag is dependent on the severity assessment.",
+        "definitionCn": "公司是否宣布对其会计进行内部调查、受到监管机构调查，或因会计实践相关问题而被罚款、和解或定罪？或者公司的审计机构是否因与公司审计工作相关的问题而受到调查？若是，则被标记。标记的持续时间取决于严重程度评估。",
+        "scope": "All issuers",
+        "deduction": "Variable, based on event severity: Minor 0.0, Moderate 0.3, Severe 0.5, Very Severe 1.0",
+        "range": "",
+        "sourcePages": [
+          4
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: Variable, based on event severity: Minor 0.0, Moderate 0.3, Severe 0.5, Very Severe 1.0"
+      },
+      {
+        "name": "Auditor Report Concerns",
+        "nameCn": "审计报告关注事项",
+        "fullName": "Auditor Report Concerns Key Metric",
+        "category": "Accounting events",
+        "categoryCn": "会计事件",
+        "definition": "Has the company’s independent auditor expressed a qualified, adverse, or disclaimer of opinion, expressed concerns via an emphasis of matter paragraph? Have concerns been identified in respect of the auditor’s ability to present an independent opinion, or has the auditor been changed in a manner that may raise concerns for investors? Flagged if yes within the past year. This metric is based on the report of the external auditor disclosed in the annual financial statements and highlights any qualified auditor opinion or concerns raised in an emphasis of matter inserted by the auditor. Purely informational emphasis of matter paragraphs are not flagged. This metric is also evaluated on the basis of news reports or regulatory filings, including those that relate to interim or quarterly financial statements in which the auditors have raised concerns.",
+        "definitionCn": "公司的独立审计机构是否发表保留意见、否定意见或无法表示意见，或通过强调事项段表达关注？是否已识别出与审计机构能否提出独立意见相关的关注事项，或审计机构发生变更的方式可能引发投资者担忧？若在过去一年内为是，则被标记。该指标基于年度财务报表中披露的外部审计机构报告，并突出显示任何保留审计意见或审计机构在强调事项段中提出的关注。纯属信息性的强调事项段不予标记。该指标还基于新闻报道或监管文件进行评估，包括与审计机构提出关注的、中期或季度财务报表相关的报道或文件。",
+        "scope": "All issuers",
+        "deduction": "Variable, based on type of auditor opinion/emphasis of matter and whether there are consecutive years of concerns.",
+        "range": "0.5 to 3.0",
+        "sourcePages": [
+          4,
+          5
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: Variable, based on type of auditor opinion/emphasis of matter and whether there are consecutive years of concerns. Range: 0.5 to 3.0"
+      },
+      {
+        "name": "Internal Controls",
+        "nameCn": "内部控制",
+        "fullName": "Internal Controls Key Metric",
+        "category": "Accounting events",
+        "categoryCn": "会计事件",
+        "definition": "Has there been evidence of material weakness in the company’s internal control systems? Flagged if yes. The duration of the flag is dependent on the severity assessment. The event tags or categories used to create this flag include material weakness in internal controls or SOX 404 violations. Outside of the U.S., this metric is evaluated based on the audit committee’s assessment of the effectiveness of internal control.",
+        "definitionCn": "是否有证据表明公司的内部控制体系存在重大缺陷？若有，则被标记。标记的持续时间取决于严重程度评估。用于生成该标记的事件标签或类别包括内部控制的重大缺陷或 SOX 404 违规。在美国以外，该指标基于审计委员会对内部控制有效性的评估进行评估。",
+        "scope": "All issuers",
+        "deduction": "Variable, based on event severity: Minor 0.0, Moderate 0.1, Severe 0.2, Very Severe 0.4",
+        "range": "",
+        "sourcePages": [
+          5
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: Variable, based on event severity: Minor 0.0, Moderate 0.1, Severe 0.2, Very Severe 0.4"
+      },
+      {
+        "name": "Restatements or Special Charges",
+        "nameCn": "重述或特别费用",
+        "fullName": "Restatements or Special Charges Key Metric",
+        "category": "Accounting events",
+        "categoryCn": "会计事件",
+        "definition": "Has the company had to restate previously published financial statements due to fraud, error, or the misapplication of accounting standards? Has the company announced or reported special charges or write-offs that might raise questions as to the stewardship of the company by the board? Flagged if yes. The duration of the flag is dependent on the severity assessment.",
+        "definitionCn": "公司是否因欺诈、错误或会计准则的误用而不得不重述此前公布的财务报表？公司是否宣布或报告了可能对董事会对公司的管理提出质疑的特别费用或核销？若有，则被标记。标记的持续时间取决于严重程度评估。",
+        "scope": "All issuers",
+        "deduction": "Variable, based on event severity: Minor 0.0, Moderate 0.3, Severe 0.5, Very Severe 1.0",
+        "range": "",
+        "sourcePages": [
+          5
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: Variable, based on event severity: Minor 0.0, Moderate 0.3, Severe 0.5, Very Severe 1.0"
+      },
+      {
+        "name": "Late Filings",
+        "nameCn": "延迟申报",
+        "fullName": "Late Filings Key Metric",
+        "category": "Accounting events",
+        "categoryCn": "会计事件",
+        "definition": "Is the company currently late in filing its quarterly, half-year (or interim), or annual reports, or its annual proxy/notice of annual meeting of shareholders? Flagged if yes. The flag will be removed once the case is assessed as concluded.",
+        "definitionCn": "公司目前是否延迟提交其季度、半年度（或中期）或年度报告，或其年度委托书/股东大会通知？若是，则被标记。一旦该事项被评估为已结案，该标记将被移除。",
+        "scope": "All issuers",
+        "deduction": "0.2",
+        "range": "",
+        "sourcePages": [
+          6
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring Deduction: 0.2"
+      },
+      {
+        "name": "Auditor Independence",
+        "nameCn": "审计机构独立性",
+        "fullName": "Auditor Independence Key Metric",
+        "category": "Auditor independence",
+        "categoryCn": "审计独立性",
+        "definition": "Did the company pay its external audit firm less for audit and audit-related services than for other services in the last fiscal year? Flagged if yes. This metric uses auditor fees schedules to flag companies where such independence may have been compromised.",
+        "definitionCn": "在上一个财年，公司为其外部审计机构支付的审计及审计相关服务费用是否低于其他服务费用？若是，则被标记。该指标使用审计机构费用明细表来标记此类独立性可能已受损的公司。",
+        "scope": "All issuers",
+        "deduction": "0.5",
+        "range": "",
+        "sourcePages": [
+          6
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: 0.5"
+      },
+      {
+        "name": "Auditor Tenure",
+        "nameCn": "审计机构任期",
+        "fullName": "Auditor Tenure Key Metric",
+        "category": "Auditor independence",
+        "categoryCn": "审计独立性",
+        "definition": "Is there evidence that the external audit firm has served in excess of 20 years? Flagged if yes.",
+        "definitionCn": "是否有证据表明外部审计机构已服务超过 20 年？若有，则被标记。",
+        "scope": "All issuers",
+        "deduction": "Variable based on tenure: 0.3 if > 50 years 0.2 if > 20 years 0.1 if not disclosed",
+        "range": "",
+        "sourcePages": [
+          6
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: Variable based on tenure: 0.3 if > 50 years 0.2 if > 20 years 0.1 if not disclosed"
+      }
+    ],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 9,
+      "sourceFile": "1 accounting-key-issue.pdf",
+      "source": "Governance Pillar/1 accounting-key-issue.pdf"
+    },
+    "sourceId": "accounting",
+    "introPages": [
+      3
+    ],
+    "riskPages": [],
+    "sourceNote": "该议题 PDF 的框架图仍含已删除的历史议题。本网站的 33 议题结构依据 2026 年 3 月总方法论第 6 页；删除历史见模型更新 v4.2（2023-04-03）。议题指标本身仍按本文件核对。",
+    "scoringNote": "治理先从 10 分起扣除相关关键指标的贡献，并按方法论做缩放、主题与支柱汇总。部分指标影响议题得分，但不经公司治理主题进入最终评级；适用范围及贡献以各指标原文和总方法论为准。",
+    "scoringPages": [
+      30,
+      31,
+      32,
+      33
+    ],
+    "rules": []
+  },
+  {
+    "id": "board",
+    "name": "董事会",
+    "nameEn": "Board",
+    "pillar": "governance",
+    "theme": "corporate-governance",
+    "type": "governance",
+    "summary": "评估董事会相对于管理层及其他利益方的独立性，以及董事出席率、董事兼职过多等经验与有效性指标。",
+    "intro": "Board is a Key Issue in the Governance Pillar of the MSCI ESG Ratings model. Companies are evaluated on the board’s independence from management and/or other interests, and on various measures of board experience and effectiveness such as director attendance and director overboarding, where individual board members may compromise their effectiveness by serving on too many boards. Negative governance-related events such as bankruptcies; securities violations or regulatory investigations; and delisting threats are included in this section. These event metrics, when flagged, may have a significant impact on a company’s overall governance score.",
+    "risks": [],
+    "risksCn": [],
+    "indicators": [],
+    "keyMetrics": [
+      {
+        "name": "Independent Chair",
+        "nameCn": "董事长独立性",
+        "fullName": "Independent Chair Key Metric",
+        "category": "Board leadership",
+        "categoryCn": "董事会领导结构",
+        "definition": "Is the chair classified as not independent of management or not independent of other interests (links to employees, government or major owners), based on MSCI S&C criteria? Flagged if yes. This metric refers to the board of directors or (in a two-tier board structure) to the supervisory board. See the section Evaluating Directors, below, for details of the independence evaluation criteria.",
+        "definitionCn": "根据 MSCI S&C 标准，董事长是否被归类为不独立于管理层或不独立于其他利益（与员工、政府或主要股东的联系）？若是则被标记。本指标指董事会，或（在双层董事会结构中）指监事会。独立性评估标准的详情见下文“评估董事”章节。",
+        "scope": "All issuers",
+        "deduction": "0.1",
+        "range": "",
+        "sourcePages": [
+          4
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: 0.1"
+      },
+      {
+        "name": "Combined CEO/Chair",
+        "nameCn": "首席执行官与董事长兼任",
+        "fullName": "Combined CEO/Chair Key Metric",
+        "category": "Board leadership",
+        "categoryCn": "董事会领导结构",
+        "definition": "Does the company have a combined CEO/chair? Flagged if yes. While the practice of combining the CEO and chair positions on the board of directors is common enough to minimize its significance as a standalone metric, when combined with other key indicators this practice may be an indicator of potential governance weakness.",
+        "definitionCn": "公司是否存在首席执行官与董事长由同一人担任的情况？若是则被标记。尽管在董事会中兼任首席执行官与董事长职务的做法较为普遍，使其作为单独指标的重要性降低，但与其他关键指标结合时，这种做法可能预示潜在的治理薄弱。",
+        "scope": "All issuers",
+        "deduction": "0.2",
+        "range": "",
+        "sourcePages": [
+          5
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: 0.2"
+      },
+      {
+        "name": "Leadership Concerns",
+        "nameCn": "领导层问题",
+        "fullName": "Leadership Concerns Key Metric",
+        "category": "Board leadership",
+        "categoryCn": "董事会领导结构",
+        "definition": "Are there concerns that there is a leader with excessive influence, including, but not limited to, instances such as: • An executive chair is serving alongside a CEO. • A former CEO remaining on the board as a non-executive director. • The non-executive chair is a former CFO. • An executive chair at one group company serves as a non-executive director at another group company. • A founder or co-founder remains on the board but not as chair or CEO. • Unregistered directors providing leadership direction. Flagged if yes.",
+        "definitionCn": "是否存在某位领导者拥有过度影响力的问题，包括但不限于以下情形：• 执行董事长与首席执行官同时任职。• 前首席执行官作为非执行董事留任董事会。• 非执行董事长曾任首席财务官。• 某集团公司的一名执行董事长在另一集团公司担任非执行董事。• 创始人或联合创始人留任董事会但并非董事长或首席执行官。• 未登记的董事提供领导方向。若是则被标记。",
+        "scope": "All issuers",
+        "deduction": "0.3",
+        "range": "",
+        "sourcePages": [
+          5
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: 0.3"
+      },
+      {
+        "name": "Chair Not Independent & No Independent Lead Director",
+        "nameCn": "董事长不独立且无独立首席董事",
+        "fullName": "Chair Not Independent & No Independent Lead Director Key Metric",
+        "category": "Board leadership",
+        "categoryCn": "董事会领导结构",
+        "definition": "For companies with a non-independent chair, has the company failed to designate an individually named non-executive lead director or independent deputy chair who is classified as both independent of management and independent of other interests (links to employees, government or major owners), based on MSCI S&C criteria? Flagged if yes. This metric refers to the board of directors or (in a two-tier board structure) to the supervisory board. See the section Evaluating Directors, below, for details of the independence evaluation criteria. For purposes of evaluating this metric, MSCI S&C excludes any lead directors who have not been individually designated as such by the company. This standard explicitly excludes lead director assignments based on rotating committee chair assignments or similar practices that may weaken the role and effectively counter its intended purpose.",
+        "definitionCn": "对于董事长不独立的公司，公司是否未能指派一位具名的非执行首席董事或独立副董事长，且该人根据 MSCI S&C 标准同时被归类为独立于管理层和独立于其他利益（与员工、政府或主要股东的联系）？若是则被标记。本指标指董事会，或（在双层董事会结构中）指监事会。独立性评估标准的详情见下文“评估董事”章节。就评估本指标而言，MSCI S&C 排除任何未被公司单独指名为首席董事的人士。此标准明确排除基于轮值委员会主席指派或类似做法而产生的首席董事任命，此类做法可能削弱该角色的作用并实质上背离其预期目的。",
+        "scope": "All issuers",
+        "deduction": "0.1",
+        "range": "",
+        "sourcePages": [
+          5,
+          6
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: 0.1"
+      },
+      {
+        "name": "Board Majority Independent of Management",
+        "nameCn": "董事会多数成员独立于管理层",
+        "fullName": "Board Majority Independent of Management Key Metric",
+        "category": "Board independence",
+        "categoryCn": "董事会独立性",
+        "definition": "Are less than a majority of directors independent of management, as defined by MSCI S&C? Flagged if yes. This metric flags issuers when less than 51% of the board is independent of management. See the section Evaluating Directors, below, for our definition of independence from management. For issuers with a two-tier board structure, this Key Metric assesses the supervisory board.",
+        "definitionCn": "根据 MSCI S&C 的定义，独立于管理层的董事是否不足多数？若是则被标记。当董事会中独立于管理层的成员不足 51% 时，本指标会标记发行人。关于独立于管理层的定义，见下文“评估董事”章节。对于双层董事会结构的发行人，本关键指标评估监事会。",
+        "scope": "All issuers",
+        "deduction": "Variable, based on percentage of independent (of management) directors and whether the company is controlled:",
+        "range": "0.2 to 1.0",
+        "sourcePages": [
+          6
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: Variable, based on percentage of independent (of management) directors and whether the company is controlled: Range: 0.2 to 1.0"
+      },
+      {
+        "name": "Board Majority Independent of Other Interest",
+        "nameCn": "董事会多数成员独立于其他利益",
+        "fullName": "Board Majority Independent of Other Interest Key Metric",
+        "category": "Board independence",
+        "categoryCn": "董事会独立性",
+        "definition": "Are less than a majority of directors independent of other interests, as defined by MSCI S&C? Flagged if yes. This metric assesses what percentage of directors are affiliated with interests (other than those of management) that may diverge from the interests of minority investors. Issuers are flagged when less than 51% of the board is independent of other interests. See the section Evaluating Directors, below, for our definition of independence from other interests. For issuers with a two-tier board structure, this Key Metric assesses the supervisory board.",
+        "definitionCn": "根据 MSCI S&C 的定义，独立于其他利益的董事是否不足多数？若是则被标记。本指标评估与可能背离少数股东利益之利益方（管理层利益方除外）有关联的董事所占百分比。当董事会中独立于其他利益的成员不足 51% 时，发行人会被标记。关于独立于其他利益的定义，见下文“评估董事”章节。对于双层董事会结构的发行人，本关键指标评估监事会。",
+        "scope": "All issuers",
+        "deduction": "Variable, based on percentage of independent (of other interests) directors:",
+        "range": "0.3 to 1.0.",
+        "sourcePages": [
+          6,
+          7
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: Variable, based on percentage of independent (of other interests) directors: Range: 0.3 to 1.0."
+      },
+      {
+        "name": "Executives on Board",
+        "nameCn": "董事会中的高管",
+        "fullName": "Executives on Board Key Metric",
+        "category": "Board independence",
+        "categoryCn": "董事会独立性",
+        "definition": "Does 30% or more of the board of directors comprise executive directors or does the management board include eight or more executive directors? Flagged if yes. All board member bios are reviewed to determine current titles and positions.",
+        "definitionCn": "董事会中执行董事是否占 30% 或以上，或管理委员会是否包含八名或以上执行董事？若是则被标记。会审阅所有董事会成员的个人简介以确定其现任职务和职位。",
+        "scope": "All issuers",
+        "deduction": "Variable, based on percentage of executive directors (or number of executives on a management board):",
+        "range": "0.2 to 0.5.",
+        "sourcePages": [
+          7
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: Variable, based on percentage of executive directors (or number of executives on a management board): Range: 0.2 to 0.5."
+      },
+      {
+        "name": "No Independent Directors",
+        "nameCn": "无独立董事",
+        "fullName": "No Independent Directors Key Metric",
+        "category": "Board independence",
+        "categoryCn": "董事会独立性",
+        "definition": "Is the board composed entirely of directors who do not meet the MSCI S&C criteria for independence from management? Flagged if yes. This metric tests for those extreme cases where there is not a single member of the board of directors or supervisory board who can be considered independent of management. See the section Evaluating Directors, below, for details of the independence evaluation criteria.",
+        "definitionCn": "董事会是否完全由不符合 MSCI S&C 独立于管理层标准的董事组成？若是则被标记。本指标用于检验以下极端情形：董事会或监事会中没有任何一名成员可被视为独立于管理层。独立性评估标准的详情见下文“评估董事”章节。",
+        "scope": "All issuers",
+        "deduction": "0.5",
+        "range": "",
+        "sourcePages": [
+          7
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: 0.5"
+      },
+      {
+        "name": "Related-Party Transactions",
+        "nameCn": "关联方交易",
+        "fullName": "Related-Party Transactions Key Metric",
+        "category": "Board independence",
+        "categoryCn": "董事会独立性",
+        "definition": "Have there been any disclosed related-party transactions (RPTs) in either of the two most recently reported financial years? Flagged if yes. See the section Related-Party Transactions, below.",
+        "definitionCn": "在最近报告的两个财务年度中的任一年度，是否存在任何已披露的关联方交易（RPT）？若是则被标记。见下文“关联方交易”章节。",
+        "scope": "All issuers",
+        "deduction": "Variable, based on transaction size, type of related-party and (for higher-risk cases) qualitative criteria. Partial disclosure: 0.5 or (if controlled) 1.0 If non-disclosure market & no company disclosure: 1.0 (scored but not flagged)",
+        "range": "0.05 to 3.4",
+        "sourcePages": [
+          7,
+          8
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: Variable, based on transaction size, type of related-party and (for higher-risk cases) qualitative criteria. Partial disclosure: 0.5 or (if controlled) 1.0 If non-disclosure market & no company disclosure: 1.0 (scored but not flagged) Range: 0.05 to 3.4"
+      },
+      {
+        "name": "Flagged Directors on Board",
+        "nameCn": "董事会中被标记董事",
+        "fullName": "Flagged Directors on Board Key Metric",
+        "category": "Board effectiveness",
+        "categoryCn": "董事会有效性",
+        "definition": "Are any of the board members Flagged Directors, as defined by MSCI S&C? Flagged if yes. See the section Evaluating Directors, below, for details of the evaluation criteria. For issuers with two-tier board structures, members of either the supervisory board or the management board may be flagged.",
+        "definitionCn": "是否有任何董事会成员属于 MSCI S&C 定义的被标记董事？若是则被标记。评估标准的详情见下文“评估董事”章节。对于双层董事会结构的发行人，监事会或管理委员会的成员均可能被标记。",
+        "scope": "All issuers",
+        "deduction": "Variable, based on number of flagged directors on the board and number of flagged-director instances for each director.",
+        "range": "0.2 to 1.0",
+        "sourcePages": [
+          8
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: Variable, based on number of flagged directors on the board and number of flagged-director instances for each director. Range: 0.2 to 1.0"
+      },
+      {
+        "name": "Overboarded Non-Exec Directors",
+        "nameCn": "兼任过多董事职务的非执行董事",
+        "fullName": "Overboarded Non-Exec Directors Key Metric",
+        "category": "Board effectiveness",
+        "categoryCn": "董事会有效性",
+        "definition": "Do any of the company’s non-executive board members serve on the boards of four or more issuers in MSCI S&C’s corporate governance research universe (whether included as an equity or debt issuer)? Flagged if yes. Board membership counts reference the board of directors or (in a two-tier board structure) the supervisory board. See the section Evaluating Directors, below, for details of the evaluation criteria.",
+        "definitionCn": "公司是否有任何非执行董事会成员在 MSCI S&C 公司治理研究范围（无论作为股权或债券发行人纳入）内的四家或以上发行人董事会任职？若是则被标记。董事会任职计数指董事会，或（在双层董事会结构中）指监事会。评估标准的详情见下文“评估董事”章节。",
+        "scope": "All issuers",
+        "deduction": "0.5",
+        "range": "",
+        "sourcePages": [
+          8,
+          9
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: 0.5"
+      },
+      {
+        "name": "Overboarded Exec Directors",
+        "nameCn": "兼任过多董事职务的执行董事",
+        "fullName": "Overboarded Exec Directors Key Metric",
+        "category": "Board effectiveness",
+        "categoryCn": "董事会有效性",
+        "definition": "Do any of the company’s executive board members serve on the boards of three or more issuers in MSCI S&C’s corporate governance research universe (whether included as an equity or debt issuer)? Flagged if yes. This is of particular significance in the case of the company’s CEO. Board membership counts reference the board of directors or (in a two-tier board structure) the supervisory board. See the section Evaluating Directors, below, for details of the evaluation criteria.",
+        "definitionCn": "公司是否有任何执行董事会成员在 MSCI S&C 公司治理研究范围（无论作为股权或债券发行人纳入）内的三家或以上发行人董事会任职？若是则被标记。就公司首席执行官而言，这一点尤为重要。董事会任职计数指董事会，或（在双层董事会结构中）指监事会。评估标准的详情见下文“评估董事”章节。",
+        "scope": "All issuers",
+        "deduction": "0.5",
+        "range": "",
+        "sourcePages": [
+          9
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: 0.5"
+      },
+      {
+        "name": "Significant Votes Against Directors",
+        "nameCn": "反对董事的重大投票",
+        "fullName": "Significant Votes Against Directors Key Metric",
+        "category": "Board effectiveness",
+        "categoryCn": "董事会有效性",
+        "definition": "Are there one or more directors on the board who received a negative or withheld shareholder vote in excess of 10% in the most recently reported election? Flagged if yes. This metric refers to the board of directors or (in a two-tier board structure) to the supervisory board and the management board. Even a negative vote of 5% indicates an unusually high vote against a particular individual director at most companies. This metric is triggered by a negative vote of over 10% against any directors in the most recently reported election (or in certain markets on the discharge of the directors). A “negative vote” includes any against, withhold or abstain votes.",
+        "definitionCn": "在最近报告的选举中，是否有一名或多名董事会成员获得超过 10% 的反对票或拒绝投票？若是则被标记。本指标指董事会，或（在双层董事会结构中）指监事会和管理委员会。在多数公司中，针对某位特定董事哪怕 5% 的反对票都表明反对票异常之高。在最近报告的选举中（或在某些市场针对董事的免责表决中），只要有超过 10% 的反对票针对任何董事，本指标即被触发。“反对票”包括任何反对票、拒绝投票或弃权票。",
+        "scope": "All issuers",
+        "deduction": "Variable, based on number of directors, the size of against/abstain/withhold votes and whether there is a controlling shareholder.",
+        "range": "0.25 to 2.0",
+        "sourcePages": [
+          9
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: Variable, based on number of directors, the size of against/abstain/withhold votes and whether there is a controlling shareholder. Range: 0.25 to 2.0"
+      },
+      {
+        "name": "Oversized Board",
+        "nameCn": "董事会规模过大",
+        "fullName": "Oversized Board Key Metric",
+        "category": "Board effectiveness",
+        "categoryCn": "董事会有效性",
+        "definition": "Does the board of directors or the supervisory board include a high number of directors that suggests obstacles to effective oversight and decision-making? Flagged if yes. This is currently set at 20 directors and refers to either the board of directors or supervisory board. Boards of this size may find it harder to discuss issues in the necessary detail or take decisions in a timely manner.",
+        "definitionCn": "董事会或监事会是否包含数量过多、可能对有效监督和决策构成障碍的董事？若是则被标记。目前设定为 20 名董事，指董事会或监事会。如此规模的董事会可能更难对问题进行必要的深入讨论，或更难以适时作出决策。",
+        "scope": "All issuers",
+        "deduction": "0.5",
+        "range": "",
+        "sourcePages": [
+          9,
+          10
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: 0.5"
+      },
+      {
+        "name": "Undersized Board",
+        "nameCn": "董事会规模过小",
+        "fullName": "Undersized Board Key Metric",
+        "category": "Board effectiveness",
+        "categoryCn": "董事会有效性",
+        "definition": "Are there four or fewer directors on the board of directors or supervisory board? Flagged if yes. Boards comprising so few individuals may lack the diversity of view and experience needed to provide effective oversight over most public companies, particularly when it comes to appointing members to the board’s standing committees. This metric refers to either the board of directors or supervisory board.",
+        "definitionCn": "董事会或监事会中是否有四名或更少的董事？若是则被标记。由如此少数个人组成的董事会可能缺乏对多数上市公司进行有效监督所需的观点和经验多样性，尤其是在向董事会各常设委员会任命成员时。本指标指董事会或监事会。",
+        "scope": "All issuers",
+        "deduction": "1.0",
+        "range": "",
+        "sourcePages": [
+          10
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: 1.0"
+      },
+      {
+        "name": "Board Attendance Failures",
+        "nameCn": "董事出席率不达标",
+        "fullName": "Board Attendance Failures Key Metric",
+        "category": "Board effectiveness",
+        "categoryCn": "董事会有效性",
+        "definition": "Did any members of the board fail to attend at least 75% of all board and committee meetings held during the last reported period? Flagged if yes. This metric refers to the board of directors or (in a two-tier board structure) to the supervisory board and the management board. Excessive board attendance failures have been linked to other, less visible board problems or weaknesses.",
+        "definitionCn": "在最近报告的期间内，是否有任何董事会成员未能出席所有董事会及委员会会议的至少 75%？若是则被标记。本指标指董事会，或（在双层董事会结构中）指监事会和管理委员会。董事出席率的严重不达标与其他较不明显的董事会问题或薄弱环节有关联。",
+        "scope": "All issuers",
+        "deduction": "0.1",
+        "range": "",
+        "sourcePages": [
+          10
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: 0.1"
+      },
+      {
+        "name": "Entrenched Board",
+        "nameCn": "董事会固化",
+        "fullName": "Entrenched Board Key Metric",
+        "category": "Board skills & diversity",
+        "categoryCn": "董事会技能与多元化",
+        "definition": "Does the percentage of long-tenured, aging directors suggest a problem with board entrenchment? Flagged if yes. This metric is based on an assessment of multiple factors, including director age and tenure in the following combinations: • More than 35% of the board has a tenure of 15 years or greater; • More than 22% of the board has a tenure of 15 years or greater and more than 15% of the directors are aged 70 or over; • There are more than four directors who have a tenure of 15 years or greater; or • There are more than four directors who are aged 70 or over. This metric extends to the board of directors and supervisory board. The strength of this metric as an indicator of potential governance problems is greatly increased at companies whose recent performance has consistently lagged their peers.",
+        "definitionCn": "长期任职及年长董事所占百分比是否表明存在董事会固化的迹象？若是则被标记。本指标基于对多重因素的评估，包括以下组合中的董事年龄和任期：• 超过 35% 的董事会成员任期为 15 年或以上；• 超过 22% 的董事会成员任期为 15 年或以上，且超过 15% 的董事年龄为 70 岁或以上；• 有四名以上董事任期为 15 年或以上；或 • 有四名以上董事年龄为 70 岁或以上。本指标适用于董事会和监事会。在近期绩效持续落后于同业组的公司，本指标作为潜在治理问题迹象的效力会大大增强。",
+        "scope": "All issuers",
+        "deduction": "Variable, based on CEO tenure & board refreshment rate.",
+        "range": "0.6 to 1.5",
+        "sourcePages": [
+          11
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: Variable, based on CEO tenure & board refreshment rate. Range: 0.6 to 1.5"
+      },
+      {
+        "name": "CEOs on Board",
+        "nameCn": "董事会中的首席执行官",
+        "fullName": "CEOs on Board Key Metric",
+        "category": "Board skills & diversity",
+        "categoryCn": "董事会技能与多元化",
+        "definition": "Is more than 30% of the board composed of currently active corporate CEOs from other companies? Flagged if yes. This metric extends to the board of directors and supervisory board. To be included in this category, the individual must be a currently active CEO at another publicly traded company; the CEO of the company being rated is excluded. Based on information contained in each individual’s bio or on his or her designation as a current company CEO in the MSCI S&C director database.",
+        "definitionCn": "董事会中是否有超过 30% 由来自其他公司的现任在职首席执行官组成？若是则被标记。本指标适用于董事会和监事会。要纳入此类别，该人士必须是另一家上市公司的现任在职首席执行官；被评级的公司自身的首席执行官被排除在外。依据每个人个人简介中的信息，或其在 MSCI S&C 董事数据库中作为现任公司首席执行官的标注。",
+        "scope": "All issuers",
+        "deduction": "0.5",
+        "range": "",
+        "sourcePages": [
+          11
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: 0.5"
+      },
+      {
+        "name": "No Female Directors",
+        "nameCn": "无女性董事",
+        "fullName": "No Female Directors Key Metric",
+        "category": "Board skills & diversity",
+        "categoryCn": "董事会技能与多元化",
+        "definition": "Does the composition of the board fail to include any female directors? Flagged if yes. This metric extends to the board of directors and supervisory board.",
+        "definitionCn": "董事会的构成中是否没有任何女性董事？若是则被标记。本指标适用于董事会和监事会。",
+        "scope": "All issuers",
+        "deduction": "0.2",
+        "range": "",
+        "sourcePages": [
+          12
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: 0.2"
+      },
+      {
+        "name": "Not 30% Female Directors",
+        "nameCn": "女性董事不足 30%",
+        "fullName": "Not 30% Female Directors Key Metric",
+        "category": "Board skills & diversity",
+        "categoryCn": "董事会技能与多元化",
+        "definition": "Does the composition of the board fail to include at least 30% female directors? Flagged if yes. This metric extends to the board of directors and supervisory board.",
+        "definitionCn": "董事会的构成中是否未包含至少 30% 的女性董事？若是则被标记。本指标适用于董事会和监事会。",
+        "scope": "All issuers",
+        "deduction": "0.1",
+        "range": "",
+        "sourcePages": [
+          12
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: 0.1"
+      },
+      {
+        "name": "Risk Management Expertise",
+        "nameCn": "风险管理专长",
+        "fullName": "Risk Management Expertise Key Metric",
+        "category": "Board skills & diversity",
+        "categoryCn": "董事会技能与多元化",
+        "definition": "Does the board lack at least one non-executive member of the board who has general expertise in risk management, based on MSCI S&C standards? Flagged if yes. This metric extends to the board of directors and supervisory board. See the section Evaluating Directors, below, for details of the evaluation criteria.",
+        "definitionCn": "根据 MSCI S&C 标准，董事会是否缺少至少一名具备风险管理一般专长的非执行董事成员？若是则被标记。本指标适用于董事会和监事会。评估标准的详情见下文“评估董事”章节。",
+        "scope": "All issuers",
+        "deduction": "0.2",
+        "range": "",
+        "sourcePages": [
+          12
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: 0.2"
+      },
+      {
+        "name": "Audit Board/Committee Independence",
+        "nameCn": "审计委员会/审计董事会独立性",
+        "fullName": "Audit Board/Committee Independence Key Metric",
+        "category": "Audit oversight",
+        "categoryCn": "审计监督",
+        "definition": "Has the company failed to establish an audit committee or audit board comprising only directors who are independent of management based on MSCI S&C’s criteria? Flagged if yes. See the section Evaluating Directors, below, for details of the independence evaluation criteria.",
+        "definitionCn": "公司是否未能设立仅由符合 MSCI S&C 独立于管理层标准的董事组成的审计委员会或审计董事会？若是则被标记。独立性评估标准的详情见下文“评估董事”章节。",
+        "scope": "All issuers",
+        "deduction": "Variable, based on whether committee exists & percentage of independent members.",
+        "range": "0.1 to 0.8",
+        "sourcePages": [
+          13
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: Variable, based on whether committee exists & percentage of independent members. Range: 0.1 to 0.8"
+      },
+      {
+        "name": "Executives on Audit Board/Committee",
+        "nameCn": "审计委员会/审计董事会中的高管",
+        "fullName": "Executives on Audit Board/Committee Key Metric",
+        "category": "Audit oversight",
+        "categoryCn": "审计监督",
+        "definition": "Are there company executives serving on the audit committee or audit board? Flagged if yes.",
+        "definitionCn": "是否有公司高管在审计委员会或审计董事会任职？若是则被标记。",
+        "scope": "All issuers",
+        "deduction": "Variable, based on percentage of executive members.",
+        "range": "0.2 to 0.5",
+        "sourcePages": [
+          13
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: Variable, based on percentage of executive members. Range: 0.2 to 0.5"
+      },
+      {
+        "name": "Audit Committee Financial Expert",
+        "nameCn": "审计委员会财务专家",
+        "fullName": "Audit Committee Financial Expert Key Metric",
+        "category": "Audit oversight",
+        "categoryCn": "审计监督",
+        "definition": "Does the audit committee or audit board lack at least one non-executive member with general expertise in accounting or financial management, based on the MSCI S&C criteria? Flagged if yes. See the section Evaluating Directors, below, for details of the evaluation criteria.",
+        "definitionCn": "根据 MSCI S&C 标准，审计委员会或审计董事会是否缺少至少一名具备会计或财务管理一般专长的非执行成员？若是则被标记。评估标准的详情见下文“评估董事”章节。",
+        "scope": "All issuers",
+        "deduction": "0.1",
+        "range": "",
+        "sourcePages": [
+          13
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: 0.1"
+      },
+      {
+        "name": "Audit Committee Industry Expert",
+        "nameCn": "审计委员会行业专家",
+        "fullName": "Audit Committee Industry Expert Key Metric",
+        "category": "Audit oversight",
+        "categoryCn": "审计监督",
+        "definition": "Does the audit committee or audit board lack at least one non-executive member who has substantial industry knowledge, based on the MSCI S&C criteria? Flagged if yes. See the section Evaluating Directors, below, for details of the evaluation criteria.",
+        "definitionCn": "根据 MSCI S&C 标准，审计委员会或审计董事会是否缺少至少一名具备深厚行业知识的非执行成员？若是则被标记。评估标准的详情见下文“评估董事”章节。",
+        "scope": "All issuers",
+        "deduction": "0.1",
+        "range": "",
+        "sourcePages": [
+          14
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: 0.1"
+      },
+      {
+        "name": "Overboarded Audit Committee Members",
+        "nameCn": "兼任过多董事职务的审计委员会成员",
+        "fullName": "Overboarded Audit Committee Members Key Metric",
+        "category": "Audit oversight",
+        "categoryCn": "审计监督",
+        "definition": "Do any of the independent members of the audit committee serve on the boards of four or more issuers in MSCI S&C’s corporate governance research universe (whether included as an equity or debt issuer)? Or do any of the non-independent members of the audit committee serve on the boards of three or more issuers? Flagged if yes. This metric further emphasizes the link between overboarding and board effectiveness by testing for its presence on this committee.",
+        "definitionCn": "审计委员会是否有任何独立成员在 MSCI S&C 公司治理研究范围（无论作为股权或债券发行人纳入）内的四家或以上发行人董事会任职？或审计委员会是否有任何非独立成员在三家或以上发行人董事会任职？若是则被标记。本指标通过检验该委员会中是否存在此类情形，进一步强调董事兼任过多与董事会有效性之间的关联。",
+        "scope": "All issuers",
+        "deduction": "0.1",
+        "range": "",
+        "sourcePages": [
+          14
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: 0.1"
+      },
+      {
+        "name": "Pay Committee Independence",
+        "nameCn": "薪酬委员会独立性",
+        "fullName": "Pay Committee Independence Key Metric",
+        "category": "Pay oversight",
+        "categoryCn": "薪酬监督",
+        "definition": "Where the company has established a pay committee, are there directors serving on the committee who are not independent of management based on MSCI S&C’s criteria? Flagged if yes. See the section Evaluating Directors, below, for details of the independence evaluation criteria.",
+        "definitionCn": "在公司已设立薪酬委员会的情况下，委员会中是否有不符合 MSCI S&C 独立于管理层标准的董事任职？若是则被标记。独立性评估标准的详情见下文“评估董事”章节。",
+        "scope": "All issuers",
+        "deduction": "Variable, based on percentage of independent members.",
+        "range": "0.1 to 0.3",
+        "sourcePages": [
+          14,
+          15
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: Variable, based on percentage of independent members. Range: 0.1 to 0.3"
+      },
+      {
+        "name": "Executives on Pay Committee",
+        "nameCn": "薪酬委员会中的高管",
+        "fullName": "Executives on Pay Committee Key Metric",
+        "category": "Pay oversight",
+        "categoryCn": "薪酬监督",
+        "definition": "Are there company executives serving on the pay committee? Flagged if yes. In addition to evaluating the independence of its non-executive members, MSCI S&C also takes into consideration the presence of current company executives on this standing committee.",
+        "definitionCn": "是否有公司高管在薪酬委员会任职？若是则被标记。除评估其非执行成员的独立性外，MSCI S&C 还会考虑公司现任高管在该常设委员会中的存在情况。",
+        "scope": "All issuers",
+        "deduction": "Variable, based on percentage of executive members.",
+        "range": "0.1 to 0.2",
+        "sourcePages": [
+          15
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: Variable, based on percentage of executive members. Range: 0.1 to 0.2"
+      },
+      {
+        "name": "No Pay Committee & Execs on Board",
+        "nameCn": "无薪酬委员会且董事会中有高管",
+        "fullName": "No Pay Committee & Execs on Board Key Metric",
+        "category": "Pay oversight",
+        "categoryCn": "薪酬监督",
+        "definition": "Does the company lack a standing pay committee, and are current company executives serving on its board? Flagged if yes. This metric is flagged for boards that lack a formally named pay committee yet include among its members one or more current company executives, including the CEO.",
+        "definitionCn": "公司是否缺少常设薪酬委员会，且其董事会中有现任公司高管任职？若是则被标记。对于缺少正式命名的薪酬委员会、但其成员中包含一名或多名现任公司高管（包括首席执行官）的董事会，本指标会被标记。",
+        "scope": "All issuers",
+        "deduction": "0.6",
+        "range": "",
+        "sourcePages": [
+          15
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: 0.6"
+      },
+      {
+        "name": "Pay Committee Concerns",
+        "nameCn": "薪酬委员会问题",
+        "fullName": "Pay Committee Concerns Key Metric",
+        "category": "Pay oversight",
+        "categoryCn": "薪酬监督",
+        "definition": "Does the composition of the pay committee raise concerns about the presence of active CEOs on the committee or in relation to the past record of the pay committee chair? Flagged if yes. This metric is triggered by the majority of pay committee or the committee chair being active CEOs, where the pay committee chair also chairs other pay committees and the latest annual say-on-pay vote was defeated, or where the pay committee chair is a former listed-company CEO and during his CEO tenure the say-on-pay vote was defeated.",
+        "definitionCn": "薪酬委员会的构成是否因委员会中存在在职首席执行官，或与薪酬委员会主席以往记录相关而引发担忧？若是则被标记。本指标的触发情形包括：薪酬委员会的多数成员或委员会主席为在职首席执行官；薪酬委员会主席同时担任其他薪酬委员会主席且最近的年度薪酬表决（say-on-pay）未获通过；或薪酬委员会主席曾任上市公司首席执行官且在其首席执行官任期内薪酬表决未获通过。",
+        "scope": "All issuers",
+        "deduction": "0.3 (if one test is met) 0.5 (if Pay Committee is 100% active CEOs) 0.6 (if two or more tests are met)",
+        "range": "",
+        "sourcePages": [
+          15,
+          16
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: 0.3 (if one test is met) 0.5 (if Pay Committee is 100% active CEOs) 0.6 (if two or more tests are met)"
+      },
+      {
+        "name": "No Nomination Committee",
+        "nameCn": "无提名委员会",
+        "fullName": "No Nomination Committee Key Metric",
+        "category": "Nomination process oversight",
+        "categoryCn": "提名流程监督",
+        "definition": "Does the company lack a standing nomination committee? Flagged if yes. This metric flags issuers that have not disclosed a formal nomination committee. A committee with the responsibility to nominate directors for election to the board will generally be considered a nomination committee, regardless of its name or other roles.",
+        "definitionCn": "公司是否缺少常设提名委员会？若是则被标记。本指标会标记未披露正式提名委员会的发行人。负责提名董事参加董事会选举的委员会，不论其名称或其他职能如何，通常会被视为提名委员会。",
+        "scope": "All issuers",
+        "deduction": "0.3",
+        "range": "",
+        "sourcePages": [
+          16
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: 0.3"
+      },
+      {
+        "name": "Nomination Committee Chair Independence",
+        "nameCn": "提名委员会主席独立性",
+        "fullName": "Nomination Committee Chair Independence Key Metric",
+        "category": "Nomination process oversight",
+        "categoryCn": "提名流程监督",
+        "definition": "Is the nomination committee chair not independent of management or other interests, as defined by MSCI S&C? Flagged if yes. MSCI S&C consider it a best practice for key committees to be led by members who are independent of management, and, in some markets, nomination committees may include a high proportion of stakeholder representatives whose interests may diverge from those of minority investors. Therefore, this metric assesses the committee chair’s independence from both management and other interests. See the section Evaluating Directors, below, for our definitions of independence. This metric is not evaluated for companies that lack a nomination committee.",
+        "definitionCn": "根据 MSCI S&C 的定义，提名委员会主席是否不独立于管理层或其他利益？若是则被标记。MSCI S&C 认为关键委员会由独立于管理层的成员领导是最佳实践，且在某些市场，提名委员会可能包含高比例的利益相关方代表，其利益可能背离少数股东的利益。因此，本指标评估委员会主席独立于管理层和其他利益两者的程度。关于独立性的定义，见下文“评估董事”章节。对于缺少提名委员会的公司，不评估本指标。",
+        "scope": "All issuers",
+        "deduction": "0.1",
+        "range": "",
+        "sourcePages": [
+          16
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: 0.1"
+      },
+      {
+        "name": "Nomination Committee Independence",
+        "nameCn": "提名委员会独立性",
+        "fullName": "Nomination Committee Independence Key Metric",
+        "category": "Nomination process oversight",
+        "categoryCn": "提名流程监督",
+        "definition": "Are less than a majority of nomination committee members independent of management and other interests, as defined by MSCI S&C? Flagged if yes. MSCI S&C consider it a best practice for key committees to be independent of management, and, in some markets, nomination committees may include a high proportion of stakeholder representatives whose interests may diverge from those of minority investors. Therefore, this metric assesses what percentage of the committee is independent of both management and other interests. See the section Evaluating Directors, below, for our definitions of independence. This metric is not evaluated for companies that lack a nomination committee.",
+        "definitionCn": "根据 MSCI S&C 的定义，独立于管理层和其他利益的提名委员会成员是否不足多数？若是则被标记。MSCI S&C 认为关键委员会独立于管理层是最佳实践，且在某些市场，提名委员会可能包含高比例的利益相关方代表，其利益可能背离少数股东的利益。因此，本指标评估委员会中独立于管理层和其他利益两者的成员所占百分比。关于独立性的定义，见下文“评估董事”章节。对于缺少提名委员会的公司，不评估本指标。",
+        "scope": "All issuers",
+        "deduction": "0.1",
+        "range": "",
+        "sourcePages": [
+          17
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: 0.1"
+      },
+      {
+        "name": "Bankruptcy or Liquidation",
+        "nameCn": "破产或清算",
+        "fullName": "Bankruptcy or Liquidation Key Metric",
+        "category": "Strategic Oversight",
+        "categoryCn": "战略监督",
+        "definition": "Is the company, or a material subsidiary, currently in receivership, under bankruptcy protection, or facing liquidation? Flagged if yes. The flag will be removed once the case is assessed as concluded. This Key Metric focuses on negative credit events including bankruptcy protection, administration, receivership, curatorship and liquidation.",
+        "definitionCn": "公司或重大子公司目前是否处于破产接管、破产保护之下，或面临清算？若是则被标记。一旦该案件被评估为已了结，标记即会移除。本关键指标关注负面信用事件，包括破产保护、破产管理、破产接管、财产监管和清算。",
+        "scope": "All issuers",
+        "deduction": "Variable, based on event severity: Minor 0.0, Moderate 0.8, Severe 1.5, Very Severe 3.0",
+        "range": "",
+        "sourcePages": [
+          17
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: Variable, based on event severity: Minor 0.0, Moderate 0.8, Severe 1.5, Very Severe 3.0"
+      },
+      {
+        "name": "Debt Covenant Concerns",
+        "nameCn": "债务契约问题",
+        "fullName": "Debt Covenant Concerns Key Metric",
+        "category": "Strategic Oversight",
+        "categoryCn": "战略监督",
+        "definition": "Has the company, or a material subsidiary, recently breached the terms of its debt covenants, had a test of its debt covenant terms deferred or waived, or been reported to be in danger of breaching its debt covenants? Flagged if yes. The flag will be removed once the case is assessed as concluded. This Key Metric focuses on negative credit events including failure to repay (or defer paying) capital or interest on the debt, breaching terms (or waiving or deferring the testing) of the debt covenants such as exceeding borrowing limits or breaches of technical provisions.",
+        "definitionCn": "公司或重大子公司最近是否违反了其债务契约条款、其债务契约条款的检验被推迟或豁免，或被报告面临违反债务契约的风险？若是则被标记。一旦该案件被评估为已了结，标记即会移除。本关键指标关注负面信用事件，包括未能偿还（或推迟偿还）债务本金或利息、违反条款（或豁免或推迟检验）债务契约（如超出借款限额或违反技术性条款）。",
+        "scope": "All issuers",
+        "deduction": "Variable, based on event severity: Minor 0.0, Moderate 0.3, Severe 0.5, Very Severe 1.0",
+        "range": "",
+        "sourcePages": [
+          17,
+          18
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: Variable, based on event severity: Minor 0.0, Moderate 0.3, Severe 0.5, Very Severe 1.0"
+      },
+      {
+        "name": "Financing Difficulties",
+        "nameCn": "融资困难",
+        "fullName": "Financing Difficulties Key Metric",
+        "category": "Strategic Oversight",
+        "categoryCn": "战略监督",
+        "definition": "Have concerns been identified by the board or been reported in the press in relation to the going-concern assumption, or is there other evidence that the company, or a material subsidiary, may be facing financing difficulties? Flagged if yes. The flag will be removed once the case is assessed as concluded. This Key Metric seeks to identify where there is a risk of a negative credit event. A successful outcome, such as an equity-raising or renegotiated credit terms, may resolve this concern, and forms part of the severity assessment criteria.",
+        "definitionCn": "董事会是否已发现与持续经营假设相关的问题，或媒体已报道此类问题，或有其他证据表明公司或重大子公司可能面临融资困难？若是则被标记。一旦该案件被评估为已了结，标记即会移除。本关键指标旨在识别存在负面信用事件风险的情形。成功的结果（如股权融资或重新协商信贷条款）可能化解此问题，并构成严重程度评估标准的一部分。",
+        "scope": "All issuers",
+        "deduction": "Variable, based on event severity: Minor 0.0, Moderate 0.3, Severe 0.5, Very Severe 1.0",
+        "range": "",
+        "sourcePages": [
+          18
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: Variable, based on event severity: Minor 0.0, Moderate 0.3, Severe 0.5, Very Severe 1.0"
+      },
+      {
+        "name": "Capital Management Concerns",
+        "nameCn": "资本管理问题",
+        "fullName": "Capital Management Concerns Key Metric",
+        "category": "Strategic Oversight",
+        "categoryCn": "战略监督",
+        "definition": "Have concerns been raised as to the treatment of security holders in relation to the raising and/or return of capital? Flagged if yes. The duration of the flag is dependent on the severity assessment. Circumstances that may be flagged include situations where investors face high potential equity dilution through new share issuances, where existing investors have been treated unfairly in capital raisings, or where there are concerns related to share buyback activity.",
+        "definitionCn": "在资本的募集和/或返还方面，是否有人就证券持有人的待遇提出担忧？若是则被标记。标记的持续时间取决于严重程度评估。可能被标记的情形包括：投资者因新股发行而面临高度潜在股权稀释；现有投资者在资本募集中被不公平对待；或与股份回购活动相关的担忧。",
+        "scope": "All issuers",
+        "deduction": "Variable, based on event severity: Minor 0.0, Moderate 0.3, Severe 0.5, Very Severe 1.0",
+        "range": "",
+        "sourcePages": [
+          18
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: Variable, based on event severity: Minor 0.0, Moderate 0.3, Severe 0.5, Very Severe 1.0"
+      },
+      {
+        "name": "Securities Violations",
+        "nameCn": "证券违规",
+        "fullName": "Securities Violations Key Metric",
+        "category": "Strategic Oversight",
+        "categoryCn": "战略监督",
+        "definition": "Has the company faced allegations that investors have not been given access to certain basic facts about the company, whether in the process of issuing new securities or following issuance? Or has the company faced substantive allegations of breaches of investor protection requirements (including in relation to offers it makes for third parties)? Flagged if yes. The duration of the flag is dependent on the severity assessment. Items that relate specifically to accounting and audit issues are covered under the Accounting Key Issue. The Securities Violations Key Metric contributes to the Board Key Issue, but does not contribute to a company’s ESG Ratings via the Corporate Governance Theme Score. The impact will instead be reflected in the Corporate Behavior Theme under the Business Ethics Key Issue in the assessment of the Business Ethics Controversies Key Metric. (See the “MSCI ESG Ratings Methodology: Business Ethics Key Issue” document for details)",
+        "definitionCn": "公司是否面临指控，称投资者未能在发行新证券的过程中或发行之后获得有关公司的某些基本事实？或公司是否面临实质性指控，称其违反了投资者保护要求（包括与向第三方提出的要约相关的要求）？若是则被标记。标记的持续时间取决于严重程度评估。与会计和审计问题具体相关的项目在“会计”关键议题下涵盖。证券违规关键指标对“董事会”关键议题有贡献，但不通过公司治理主题评分贡献于公司的 ESG 评级。其影响将改为在公司行为主题下的商业道德关键议题中，通过商业道德争议关键指标的评估予以反映。（详情见《MSCI ESG Ratings Methodology: Business Ethics Key Issue》文件）",
+        "scope": "All issuers",
+        "deduction": "Variable, based on event severity: Minor 0.0, Moderate 0.3, Severe 0.5, Very Severe 1.0",
+        "range": "",
+        "sourcePages": [
+          19
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: Variable, based on event severity: Minor 0.0, Moderate 0.3, Severe 0.5, Very Severe 1.0"
+      },
+      {
+        "name": "Threat of Delisting",
+        "nameCn": "退市威胁",
+        "fullName": "Threat of Delisting Key Metric",
+        "category": "Strategic Oversight",
+        "categoryCn": "战略监督",
+        "definition": "Is the issuer currently in breach of its continuing obligations that apply to the listing of its securities, which may threaten the continued listing or trading of those securities? Flagged if yes. The flag will be removed once the case is assessed as concluded.",
+        "definitionCn": "发行人目前是否违反了适用于其证券上市的持续义务，从而可能威胁这些证券的继续上市或交易？若是则被标记。一旦该案件被评估为已了结，标记即会移除。",
+        "scope": "All issuers",
+        "deduction": "0.5",
+        "range": "",
+        "sourcePages": [
+          19
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: 0.5"
+      },
+      {
+        "name": "Executive Misconduct",
+        "nameCn": "高管不当行为",
+        "fullName": "Executive Misconduct Key Metric",
+        "category": "Strategic Oversight",
+        "categoryCn": "战略监督",
+        "definition": "Has a current or recent member of the board or a senior executive of the company (and while serving at this company) allegedly failed to act with honesty and integrity, engaged in actions contrary to the interests of the company and its shareholders, breached trust or confidence, engaged in criminal actions or engaged in actions that caused damage to the company’s reputation? Flagged if yes. The duration of the flag is dependent on the severity assessment. This metric refers to current or former members of the board of directors, management board (in a two-tier structure) and executive committee. The Executive Misconduct Key Metric contributes to the Board Key Issue, but does not contribute to a company’s ESG Ratings via the Corporate Governance Theme Score. The impact will instead be reflected in the Corporate Behavior Theme under the Business Ethics Key Issue in the assessment of the Business Ethics Controversies Key Metric. (See the “MSCI ESG Ratings Methodology: Business Ethics Key Issue” document for details.)",
+        "definitionCn": "公司现任或近期的董事会成员或高级高管（且在其于本公司任职期间）是否被指控未能以诚实和诚信行事、从事违背公司及其股东利益的行为、违反信任或信赖、从事犯罪行为，或从事损害公司声誉的行为？若是则被标记。标记的持续时间取决于严重程度评估。本指标指董事会、管理委员会（双层结构下）和执行委员会的现任或前任成员。高管不当行为关键指标对“董事会”关键议题有贡献，但不通过公司治理主题评分贡献于公司的 ESG 评级。其影响将改为在公司行为主题下的商业道德关键议题中，通过商业道德争议关键指标的评估予以反映。（详情见《MSCI ESG Ratings Methodology: Business Ethics Key Issue》文件。）",
+        "scope": "All issuers",
+        "deduction": "Variable, based on event severity: Minor 0.0, Moderate 0.3, Severe 0.5, Very Severe 1.0",
+        "range": "",
+        "sourcePages": [
+          19,
+          20
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: Variable, based on event severity: Minor 0.0, Moderate 0.3, Severe 0.5, Very Severe 1.0"
+      },
+      {
+        "name": "Other High-Impact Governance Events",
+        "nameCn": "其他高影响治理事件",
+        "fullName": "Other High-Impact Governance Events Key Metric",
+        "category": "Strategic Oversight",
+        "categoryCn": "战略监督",
+        "definition": "Has the company faced situations that may distract the board from focusing on business operations and strategic matters; have major questions been raised as to the quality of past board decisions; or is there evidence of governance failures at the company? Flagged if yes. The duration of the flag is dependent on the severity assessment.",
+        "definitionCn": "公司是否面临可能使董事会无法专注于业务运营和战略事项的情形；是否有人就过往董事会决策的质量提出重大质疑；或是否存在公司治理失灵的迹象？若是则被标记。标记的持续时间取决于严重程度评估。",
+        "scope": "All issuers",
+        "deduction": "Variable, based on event severity: Minor 0.0, Moderate 0.5, Severe 1.0, Very Severe 2.0 Evaluating directors Independence Director independence is assessed along two dimensions — independence from management and independence from other interests (links to employees, government or major owners). The Board Leadership Key Metrics require independence from both management and other interests, however, assessments of the board as a whole and of the various board committees (excluding the nomination committee) are based on the independent of management criteria only. Lengthy tenure is not evaluated as part of the independence assessments but forms part of the Entrenched Board Key Metric evaluation criteria. Independent of management Per MSCI S&C’s definition of independence from management, a director will be considered not independent of management if they meet one or more of the following criteria in Exhibit 2.",
+        "range": "",
+        "sourcePages": [
+          20
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring deduction: Variable, based on event severity: Minor 0.0, Moderate 0.5, Severe 1.0, Very Severe 2.0 Evaluating directors Independence Director independence is assessed along two dimensions — independence from management and independence from other interests (links to employees, government or major owners). The Board Leadership Key Metrics require independence from both management and other interests, however, assessments of the board as a whole and of the various board committees (excluding the nomination committee) are based on the independent of management criteria only. Lengthy tenure is not evaluated as part of the independence assessments but forms part of the Entrenched Board Key Metric evaluation criteria. Independent of management Per MSCI S&C’s definition of independence from management, a director will be considered not independent of management if they meet one or more of the following criteria in Exhibit 2."
+      }
+    ],
+    "doc": {
+      "version": "2026-06",
+      "versionLabel": "2026 年 6 月",
+      "pages": 31,
+      "sourceFile": "2 board-key-issue.pdf",
+      "source": "Governance Pillar/2 board-key-issue.pdf"
+    },
+    "sourceId": "board",
+    "introPages": [
+      3
+    ],
+    "riskPages": [],
+    "scoringNote": "治理先从 10 分起扣除相关关键指标的贡献，并按方法论做缩放、主题与支柱汇总。部分指标影响议题得分，但不经公司治理主题进入最终评级；适用范围及贡献以各指标原文和总方法论为准。",
+    "scoringPages": [
+      30,
+      31,
+      32,
+      33
+    ],
+    "rules": []
+  },
+  {
+    "id": "ownership-and-control",
+    "name": "所有权与控制权",
+    "nameEn": "Ownership & Control",
+    "pillar": "governance",
+    "theme": "corporate-governance",
+    "type": "governance",
+    "summary": "评估企业所有权结构、最大股东经济权益与投票权的偏离（控制权倾斜），以及影响治理风险的资本与所有权因素；并评估股东权利与问责框架、监管环境。",
+    "intro": "Ownership & Control is a Key Issue in the Governance Pillar of the MSCI ESG Ratings model. Companies are evaluated on their ownership structure, the proportionality between the economic exposure and voting power of the largest owner (“control skew”), and other capital or ownership factors that may affect governance risk. Companies are also evaluated on investor protection, specifically the rights of shareholders and the effectiveness of the framework to hold boards to account, in addition to the regulatory and company- specific provisions that support (or restrict) shareholders’ ability to determine the company’s future.",
+    "risks": [],
+    "risksCn": [],
+    "indicators": [],
+    "keyMetrics": [
+      {
+        "name": "Controlling Shareholder",
+        "nameCn": "控股股东",
+        "fullName": "Controlling Shareholder Key Metric",
+        "category": "Ownership structure",
+        "categoryCn": "所有权结构",
+        "definition": "Does any shareholder or shareholder bloc control more than 30% of the voting shares, or are they able to elect more than 50% of the company’s board? Flagged if yes. Where the Governance Reference Entity is not an equity issuer, this evaluation is based on the ultimate owner.",
+        "definitionCn": "是否有任何股东或股东集团控制超过 30% 的有表决权股份，或能够选出超过 50% 的公司董事会成员？若为是则被标记。当治理参考实体并非股权发行人时，该评估基于最终所有者。",
+        "scope": "All issuers",
+        "deduction": "0",
+        "range": "",
+        "sourcePages": [
+          4
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: 0"
+      },
+      {
+        "name": "Controlling Shareholder Concerns",
+        "nameCn": "控股股东问题",
+        "fullName": "Controlling Shareholder Concerns Key Metric",
+        "category": "Ownership structure",
+        "categoryCn": "所有权结构",
+        "definition": "Does the company have ownership structures or governance arrangements that may present risks for minority public shareholders? Flagged if yes. This can be triggered by the presence of one or more criteria, including where: • Any of the following Key Metrics are also flagged:  No Independent Directors; Leadership Concerns; Undersized Board; Cross Shareholdings; or Poison Pill. • Or any of the following apply:  The issuer has issued golden shares;  The issuer is controlled via a stock pyramid;  The issuer is incorporated as a Partnership Limited by Shares; or  The largest shareholder holds more than 75% of the total voting rights.",
+        "definitionCn": "公司是否存在可能给少数公众股东带来风险的所有权结构或治理安排？若为是则被标记。可由一项或多项标准触发，包括：• 以下任一关键指标也被标记：无独立董事；领导层问题；董事会规模不足；交叉持股；或毒丸计划。• 或存在以下任一情形：发行人已发行黄金股；发行人通过股权金字塔控制；发行人注册为股份有限公司合伙企业（Partnership Limited by Shares）；或最大股东持有超过 75% 的全部表决权。",
+        "scope": "All issuers",
+        "deduction": "1.0",
+        "range": "",
+        "sourcePages": [
+          5
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: 1.0"
+      },
+      {
+        "name": "Dispersed Ownership Concerns",
+        "nameCn": "分散持股问题",
+        "fullName": "Dispersed Ownership Concerns Key Metric",
+        "category": "Ownership structure",
+        "categoryCn": "所有权结构",
+        "definition": "Is the company so widely held that there are no principal shareholders or other large-bloc holders? Flagged if yes. This test eliminates family or founder firms, companies with a principal shareholder with more than 10% of voting rights, and companies where the aggregate 5%+ holdings exceed 30%. This metric is intended to capture companies where there is a disconnect between ownership and management. In the absence of the constraining influence of an informed and involved bloc of shareholders, there is a greater risk of the CEO and board asserting a degree of power and authority more commonly associated with controlled companies.",
+        "definitionCn": "公司是否持股如此分散，以致没有主要股东或其他大额持股方？若是则被标记。该测试排除家族或创始人企业、拥有表决权超过 10% 的主要股东的公司，以及所有至少持有 5% 股份的股东合计持股超过 30% 的公司。本指标旨在识别所有权与管理层脱节的公司。若缺少知情且积极参与的股东群体所形成的约束，CEO 和董事会可能行使通常见于受控公司的权力与权威，风险更大。",
+        "scope": "All issuers",
+        "deduction": "0.2",
+        "range": "",
+        "sourcePages": [
+          5,
+          6
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: 0.2"
+      },
+      {
+        "name": "Cross-Shareholdings",
+        "nameCn": "交叉持股",
+        "fullName": "Cross-Shareholdings Key Metric",
+        "category": "Ownership structure",
+        "categoryCn": "所有权结构",
+        "definition": "Is the company involved in a series of cross-shareholdings with other (related or unrelated) companies? Flagged if yes. This metric identifies cross-shareholdings intended for non-investment purposes. Cross-shareholdings for the purpose of this Key Metric include direct, indirect (via subsidiary companies), circular, or more complex cross-shareholding networks.",
+        "definitionCn": "公司是否与其他（关联或非关联）公司存在一系列交叉持股？若为是则被标记。该指标识别出于非投资目的的交叉持股。就本关键指标而言，交叉持股包括直接、间接（通过子公司）、循环或更复杂的交叉持股网络。",
+        "scope": "All issuers",
+        "deduction": "Variable, based on size of cross-shareholdings:",
+        "range": "0.2 to 3.2",
+        "sourcePages": [
+          6
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: Variable, based on size of cross-shareholdings: Range: 0.2 to 3.2"
+      },
+      {
+        "name": "Tracking Stock",
+        "nameCn": "追踪股票",
+        "fullName": "Tracking Stock Key Metric",
+        "category": "Ownership structure",
+        "categoryCn": "所有权结构",
+        "definition": "Is the company being traded as a tracking stock or similar trading-based entity? Flagged if yes. Tracking stocks are treated as an indicator of potential governance weakness.",
+        "definitionCn": "公司是否以追踪股票或类似的基于交易的实体形式交易？若为是则被标记。追踪股票被视为潜在治理弱点的指标。",
+        "scope": "All issuers",
+        "deduction": "0.5",
+        "range": "",
+        "sourcePages": [
+          6
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: 0.5"
+      },
+      {
+        "name": "Variable Interest Entities",
+        "nameCn": "可变利益实体",
+        "fullName": "Variable Interest Entities Key Metric",
+        "category": "Ownership structure",
+        "categoryCn": "所有权结构",
+        "definition": "Does at least 5% of the group's revenue come from VIEs where the company holds less than 10% voting rights? Flagged if yes. A variable interest entity (VIE) is a special purpose vehicle in which the issuer holds a controlling interest in an operating company that is not based on a majority of the voting rights. Via structured contracts, the issuer is typically the primary beneficiary of the VIE.",
+        "definitionCn": "集团是否有至少 5% 的收入来自公司持有不足 10% 表决权的 VIE？若为是则被标记。可变利益实体（VIE）是一种特殊目的载体，发行人在其中对一家经营公司持有控制性权益，但该控制并非基于多数表决权。通过结构化合同，发行人通常是该 VIE 的主要受益人。",
+        "scope": "All issuers",
+        "deduction": "0.5",
+        "range": "",
+        "sourcePages": [
+          6,
+          7
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: 0.5"
+      },
+      {
+        "name": "Multiple Equity Classes with Different Voting Rights",
+        "nameCn": "具有不同表决权的多重股权类别",
+        "fullName": "Multiple Equity Classes with Different Voting Rights Key Metric",
+        "category": "One share, one vote",
+        "categoryCn": "一股一票",
+        "definition": "Has the company issued more than one class of equity shares and do these classes carry unequal voting rights? Flagged if yes. The inequality in the voting rights may be manifested via different votes per share, different votes per unit of nominal value, through the ability to vote only on certain matters, on the election of certain directors, or grant special rights (such as the exclusive right of nominating directors). When a share class termed as “preference,” “preferred,” or similar, is classified in the annual accounts under accounting standards as an equity security rather than a liability, then it will be considered as an equity class for the purposes of this metric. Share classes that do not carry special rights but have unequal voting rights may not be flagged if the number issued is not significant.",
+        "definitionCn": "公司是否发行了多于一个类别的股权股份，且这些类别具有不等的表决权？若为是则被标记。表决权的不平等可能表现为每股表决票不同、每单位面值表决票不同，或仅可就特定事项、特定董事选举进行表决，或授予特殊权利（如提名董事的专属权利）。当被称为“优先”“优先股”或类似名称的股份类别，依据会计准则在年度账目中被归类为权益证券而非负债时，就本指标而言将被视为一个股权类别。不附带特殊权利但具有不等表决权的股份类别，若发行数量不重大，可能不被标记。",
+        "scope": "All issuers",
+        "deduction": "Variable, based on size of voting rights differential & percentage of votes held by largest owner:",
+        "range": "0.2 to 0.6",
+        "sourcePages": [
+          7
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: Variable, based on size of voting rights differential & percentage of votes held by largest owner: Range: 0.2 to 0.6"
+      },
+      {
+        "name": "Single Equity Class with Different Voting Rights",
+        "nameCn": "具有不同表决权的单一股权类别",
+        "fullName": "Single Equity Class with Different Voting Rights Key Metric",
+        "category": "One share, one vote",
+        "categoryCn": "一股一票",
+        "definition": "Does the capital structure include a single share class where the voting rights vary based on the duration of ownership (or extra voting rights are granted via “loyalty shares”)? Flagged if yes. In some literature these may also be referred to as tenured voting shares.",
+        "definitionCn": "资本结构是否包含单一股份类别，其表决权根据持股时间长短而变化（或通过“忠诚股”授予额外表决权）？若为是则被标记。在某些文献中，这些也可称为附期限表决股份（tenured voting shares）。",
+        "scope": "All issuers",
+        "deduction": "Variable, based on length of required holding period and percentage of votes held by largest owner.",
+        "range": "0.2 to 0.55",
+        "sourcePages": [
+          7,
+          8
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: Variable, based on length of required holding period and percentage of votes held by largest owner. Range: 0.2 to 0.55"
+      },
+      {
+        "name": "Voting Rights Limits Shares Held",
+        "nameCn": "表决权限制持股数量",
+        "fullName": "Voting Rights Limits Shares Held Key Metric",
+        "category": "One share, one vote",
+        "categoryCn": "一股一票",
+        "definition": "Are voting rights capped at a certain percentage, no matter how many shares the investor owns? Flagged if yes. This may refer to either an “ownership ceiling” or a “voting rights ceiling,” in which ownership and/or voting rights limits are applied to some or all shareholders. This metric is derived from a company’s corporate charter and bylaws, or on the basis of applicable corporate regulations.",
+        "definitionCn": "无论投资者持有多少股份，表决权是否被限制在某一百分比？若为是则被标记。这可能指“持股上限”或“表决权上限”，即对部分或全部股东适用持股和/或表决权限制。该指标源自公司的公司章程和细则，或基于适用的公司法规。",
+        "scope": "All issuers",
+        "deduction": "Variable, based on ownership or voting-limit percentage.",
+        "range": "0.1 to 0.3",
+        "sourcePages": [
+          8
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: Variable, based on ownership or voting-limit percentage. Range: 0.1 to 0.3"
+      },
+      {
+        "name": "Voting Rights Limits Residency",
+        "nameCn": "表决权限制居住地",
+        "fullName": "Voting Rights Limits Residency Key Metric",
+        "category": "One share, one vote",
+        "categoryCn": "一股一票",
+        "definition": "Are voting rights different for foreign or non-resident shareholders? Flagged if yes. This provision sets limits on the ability of foreign or non-resident parties to vote on corporate matters, regardless of the number or type of shares held, and includes cases in which foreign shareholders are prohibited from voting. This may refer either to an aggregate limit on shares or voting rights held by shareholders of a stated nationality or to a limit on holdings of one shareholder based on that shareholder’s nationality. This metric is derived from a company’s corporate charter and bylaws, or on the basis of applicable corporate regulations.",
+        "definitionCn": "外国或非居民股东的表决权是否不同？若为是则被标记。该条款限制外国或非居民一方就公司事项进行表决的能力，无论其持有的股份数量或类型如何，并包括禁止外国股东表决的情形。这可能指对具有某一国籍的股东所持股份或表决权的合计限制，或基于某股东国籍对其持股的限制。该指标源自公司的公司章程和细则，或基于适用的公司法规。",
+        "scope": "All issuers",
+        "deduction": "Variable, based on ownership or voting-limit percentage.",
+        "range": "0.15 to 0.3",
+        "sourcePages": [
+          8
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: Variable, based on ownership or voting-limit percentage. Range: 0.15 to 0.3"
+      },
+      {
+        "name": "Government Intervention Concerns",
+        "nameCn": "政府干预问题",
+        "fullName": "Government Intervention Concerns Key Metric",
+        "category": "One share, one vote",
+        "categoryCn": "一股一票",
+        "definition": "Do the company’s capital and ownership structures include a “golden share” provision, are there equivalent provisions in national or state laws, or is there a government representative on the board? Flagged if yes. A “golden share” provision allows a single shareholder, usually a national government, to override all other shareholder voting rights on certain decisions.",
+        "definitionCn": "公司的资本和所有权结构是否包含“黄金股”条款、国家或州法律中是否存在同等条款，或董事会中是否有政府代表？若为是则被标记。“黄金股”条款允许单一股东（通常是国家政府）在某些决策上否决所有其他股东的表决权。",
+        "scope": "All issuers",
+        "deduction": "0.5",
+        "range": "",
+        "sourcePages": [
+          9
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: 0.5"
+      },
+      {
+        "name": "Poison Pill",
+        "nameCn": "毒丸计划",
+        "fullName": "Poison Pill Key Metric",
+        "category": "Control mechanisms",
+        "categoryCn": "控制权机制",
+        "definition": "Has the company adopted a takeover defense such as a poison pill, shareholder rights plan, or equivalent provision? Flagged if yes. A takeover defense may shield management and the board from accountability (board entrenchment). Takeover defenses may include a formal shareholder’s rights plan, poison pill, protective preference shares, or equivalent provision.",
+        "definitionCn": "公司是否采用了收购防御措施，如毒丸计划、股东权益计划或同等条款？若为是则被标记。收购防御可能使管理层和董事会免受问责（董事会固守）。收购防御可包括正式的股东权益计划、毒丸计划、保护性优先股或同等条款。",
+        "scope": "All issuers",
+        "deduction": "0.5",
+        "range": "",
+        "sourcePages": [
+          9
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: 0.5"
+      },
+      {
+        "name": "Bylaws Amendments",
+        "nameCn": "细则修订",
+        "fullName": "Bylaws Amendments Key Metric",
+        "category": "Shareholder rights",
+        "categoryCn": "股东权利",
+        "definition": "Does the board have the unilateral right to amend the company’s bylaws/Articles of Association without shareholder approval? Flagged if yes. Most U.S. companies grant the board unilateral control over the bylaws, and are flagged accordingly, but in other regions this remains a helpful indicator of governance strength. This metric is derived from a company’s corporate charter and bylaws, or on the basis of applicable corporate regulations.",
+        "definitionCn": "董事会是否拥有未经股东批准单方面修订公司细则/公司章程的权力？若为是则被标记。多数美国公司赋予董事会对细则的单方面控制权，并据此被标记，但在其他地区，这仍是治理力度的有用指标。该指标源自公司的公司章程和细则，或基于适用的公司法规。",
+        "scope": "Equity issuers",
+        "deduction": "0.1",
+        "range": "",
+        "sourcePages": [
+          9,
+          10
+        ],
+        "scoringText": "Scope: Equity issuers Typical scoring deduction: 0.1"
+      },
+      {
+        "name": "Shareholder Rights to Convene Meeting",
+        "nameCn": "股东召集会议权利",
+        "fullName": "Shareholder Rights to Convene Meeting Key Metric",
+        "category": "Shareholder rights",
+        "categoryCn": "股东权利",
+        "definition": "Do shareholders lack the right to requisition an extraordinary general meeting (EGM) or does the threshold required to request an EGM exceed 10% of the voting rights? Flagged if yes. Some companies may apply a different threshold to append a resolution to the agenda of an existing meeting – see Shareholder Rights Concerns Key Metric.",
+        "definitionCn": "股东是否缺乏要求召开临时股东大会（EGM）的权利，或要求召开 EGM 所需门槛超过 10% 的表决权？若为是则被标记。部分公司可能对在现有会议议程中追加决议适用不同门槛——参见股东权利问题关键指标。",
+        "scope": "Equity issuers",
+        "deduction": "Variable, based on voting-rights threshold required to requisition a meeting.",
+        "range": "0.1 to 0.3",
+        "sourcePages": [
+          10
+        ],
+        "scoringText": "Scope: Equity issuers Typical scoring deduction: Variable, based on voting-rights threshold required to requisition a meeting. Range: 0.1 to 0.3"
+      },
+      {
+        "name": "Shareholder Rights Concerns",
+        "nameCn": "股东权利问题",
+        "fullName": "Shareholder Rights Concerns Key Metric",
+        "category": "Shareholder rights",
+        "categoryCn": "股东权利",
+        "definition": "Are shareholders limited in their ability to make changes at the company due to the nature of provisions in the governing documents? Flagged if yes. Does a change to the governing documents require a vote in favor of more than 67% of the total capital or more than 75% of the votes cast? Are shareholders both unable to act by written consent in a majority vote AND does the threshold required to request inclusion of a shareholder proposal at the annual general meeting (AGM) exceed 1% (or is not permitted)?",
+        "definitionCn": "由于治理文件条款的性质，股东在公司进行变革的能力是否受到限制？若为是则被标记。治理文件的变更是否需要超过全部资本 67% 的赞成票或超过已投票数 75% 的赞成票？股东是否既无法以多数票通过书面同意行事，又在年度股东大会（AGM）上请求列入股东提案所需的门槛超过 1%（或不被允许）？",
+        "scope": "Equity issuers",
+        "deduction": "0.2",
+        "range": "",
+        "sourcePages": [
+          10
+        ],
+        "scoringText": "Scope: Equity issuers Typical scoring deduction: 0.2"
+      },
+      {
+        "name": "Say-on-Pay Policy",
+        "nameCn": "薪酬话语权政策",
+        "fullName": "Say-on-Pay Policy Key Metric",
+        "category": "Shareholder rights",
+        "categoryCn": "股东权利",
+        "definition": "Has the company failed to implement regular say-on-pay votes? Flagged if yes. Shareholders should be granted a vote on either the policies themselves, the amounts paid pursuant to these policies, or on the report of the pay committee that sets out these items( i.e., this should be a broad-based vote on policy or total pay, and not just a vote on the policy or total amount of one component of pay). The scope of the say-on-pay vote must include any executive directors on the board of directors, or the most senior executive, if there is no executive director on the board. The vote may be in respect of all the executive directors collectively or by separate votes for each executive director individually. Votes should be held on a regular basis, at intervals of no more than three years. The Key Metric will not be flagged if there are no executives (e.g., for investment trusts).",
+        "definitionCn": "公司是否未能实施定期的薪酬话语权（say-on-pay）表决？若为是则被标记。应赋予股东就政策本身、依据这些政策支付的金额，或薪酬委员会列明上述事项的报告进行表决的权利（即，这应是对政策或薪酬总额的广泛表决，而不仅仅是对薪酬某一组成部分的政策或总额进行表决）。薪酬话语权表决的范围必须包括董事会中的任何执行董事，若董事会中没有执行董事，则包括最高级别的管理人员。该表决可针对所有执行董事集体进行，或对每位执行董事单独表决。表决应定期举行，间隔不超过三年。若无高管（如投资信托），则该关键指标不会被标记。",
+        "scope": "Equity issuers",
+        "deduction": "0.1",
+        "range": "",
+        "sourcePages": [
+          10,
+          11
+        ],
+        "scoringText": "Scope: Equity issuers Typical scoring deduction: 0.1"
+      },
+      {
+        "name": "Confidential Voting",
+        "nameCn": "保密投票",
+        "fullName": "Confidential Voting Key Metric",
+        "category": "Shareholder rights",
+        "categoryCn": "股东权利",
+        "definition": "Has the company failed to implement confidential voting, barring reasonable exceptions? Flagged if yes. Confidential voting is intended to protect the anonymity of shareholders who wish to vote against management, or against a particular director, but who may be concerned about the possibility of redress. This metric is derived from a company’s corporate charter and bylaws, or on the basis of applicable corporate regulations. For the U.S. and Canada, this metric is flagged unless the required evidence is identified to confirm confidential voting is in place. For other markets, this metric is only flagged if specific evidence is identified to indicate the absence of confidential voting.",
+        "definitionCn": "公司是否未能实施保密投票（在合理例外情形之外）？若为是则被标记。保密投票旨在保护那些希望投票反对管理层或反对某位特定董事、但可能担心遭到报复的股东的匿名性。该指标源自公司的公司章程和细则，或基于适用的公司法规。对于美国和加拿大，除非能确认保密投票已存在的必要证据，否则该指标会被标记。对于其他市场，仅当发现表明不存在保密投票的具体证据时，该指标才会被标记。",
+        "scope": "Equity issuers",
+        "deduction": "0.1",
+        "range": "",
+        "sourcePages": [
+          11
+        ],
+        "scoringText": "Scope: Equity issuers Typical scoring deduction: 0.1"
+      },
+      {
+        "name": "Proxy Access",
+        "nameCn": "代理提名权",
+        "fullName": "Proxy Access Key Metric",
+        "category": "Director elections",
+        "categoryCn": "董事选举",
+        "definition": "Does the company not allow qualified shareholders to nominate directors for election at the annual general meeting, such nominees to be included in the meeting agenda circulated by the company to its shareholders? Flagged if yes. Proxy access is a measure of shareholder’s ability to influence the composition of the company’s board. This metric is derived from a company’s corporate charter and bylaws, or on the basis of applicable corporate regulations.",
+        "definitionCn": "公司是否不允许合格股东提名董事在年度股东大会上参选，且将此类被提名人纳入公司向股东分发的会议议程？若为是则被标记。代理提名权是衡量股东影响公司董事会构成能力的指标。该指标源自公司的公司章程和细则，或基于适用的公司法规。",
+        "scope": "Equity issuers",
+        "deduction": "0.2",
+        "range": "",
+        "sourcePages": [
+          11,
+          12
+        ],
+        "scoringText": "Scope: Equity issuers Typical scoring deduction: 0.2"
+      },
+      {
+        "name": "Annual Director Elections",
+        "nameCn": "年度董事选举",
+        "fullName": "Annual Director Elections Key Metric",
+        "category": "Director elections",
+        "categoryCn": "董事选举",
+        "definition": "Do any shareholder-elected directors stand for re-election at intervals greater than one year? Flagged if yes. This metric captures both classified boards, where director re-election is staggered, and boards where all directors stand simultaneously for re-election albeit less often than annually. Boards undergoing declassification over an extended period are treated as classified until this process has been completed (i.e., until all the board members are re-elected annually). The metric does not refer to employee-appointed directors, only those elected by shareholders.",
+        "definitionCn": "是否有任何由股东选举的董事的连任间隔超过一年？若为是则被标记。该指标既涵盖董事连任交错进行的分类董事会，也涵盖所有董事同时连任但频率低于每年一次的董事会。在较长时间内进行去分类化的董事会，在此过程完成之前（即直到所有董事会成员每年均连任）被视为分类董事会。该指标不涉及员工任命的董事，仅涉及由股东选举的董事。",
+        "scope": "Equity issuers",
+        "deduction": "Variable, based on percentage of board subject to re-election and frequency of re-election:",
+        "range": "0.1 to 0.2",
+        "sourcePages": [
+          12
+        ],
+        "scoringText": "Scope: Equity issuers Typical scoring deduction: Variable, based on percentage of board subject to re-election and frequency of re-election: Range: 0.1 to 0.2"
+      },
+      {
+        "name": "Strong Classified Board Combination",
+        "nameCn": "强分类董事会组合",
+        "fullName": "Strong Classified Board Combination Key Metric",
+        "category": "Director elections",
+        "categoryCn": "董事选举",
+        "definition": "Does the company have a classified or staggered board, in combination with other limitations on shareholder rights that further limit shareholders ability to affect the make-up of the board? Flagged if yes. A company has a strong classified board combination if, in addition to having a Classified Board, any of the following are true: • Director Removal for Cause Only is Yes, and Shareholder Can Fill Board Vacancies is No and the Bylaw Vote Percent is = 0% or > 51%; • Director Removal for Cause Only is Yes, and Shareholder Can Fill Board Vacancies is No and the Effective Classified Board is Yes; • Director Removal without Cause Vote % > 51%, and Shareholder Can Fill Board Vacancies is No and Bylaw Vote Percent is = 0% or > 51%; or • Director Removal Without Cause Vote % > 51%, and Shareholder Can Fill Board Vacancies is No, and Effective Classified Board is Yes.",
+        "definitionCn": "公司是否设有分类或交错董事会，同时存在其他股东权利限制，进一步限制股东影响董事会构成的能力？若是则被标记。在已有分类董事会的基础上，下列任一组合成立时即符合本指标：①“仅可因故罢免董事”为 Yes，“股东可填补董事会空缺”为 No，且细则表决比例等于 0% 或大于 51%；②“仅可因故罢免董事”为 Yes，“股东可填补董事会空缺”为 No，且“有效分类董事会”为 Yes；③无因罢免董事所需表决比例大于 51%，“股东可填补董事会空缺”为 No，且细则表决比例等于 0% 或大于 51%；④无因罢免董事所需表决比例大于 51%，“股东可填补董事会空缺”为 No，且“有效分类董事会”为 Yes。",
+        "scope": "Equity issuers",
+        "deduction": "0.2",
+        "range": "",
+        "sourcePages": [
+          12,
+          13
+        ],
+        "scoringText": "Scope: Equity issuers Typical scoring deduction: 0.2"
+      },
+      {
+        "name": "Majority Voting",
+        "nameCn": "多数投票制",
+        "fullName": "Majority Voting Key Metric",
+        "category": "Director elections",
+        "categoryCn": "董事选举",
+        "definition": "Has the company failed to use or adopt binding majority voting in the election of directors (with immediate resignation, if the director does not receive a majority of the votes cast)? Flagged if yes. MSCI S&C uses a strict majority standard for this metric, flagging plurality, plurality plus resignation, and majority plus resignation standards. Where a director fails to achieve a majority of the votes cast, this standard requires the director to immediately depart (unless the company would have below the legal minimum number of directors, in which case they remain only briefly pending a new appointment). Implementation of majority voting is a measure of the shareholder’s ability to influence the composition of the board.",
+        "definitionCn": "公司是否未在董事选举中使用或采用有约束力的多数投票制（若董事未获得已投票数的多数，则立即辞职）？若为是则被标记。MSCI S&C 对该指标采用严格的多数标准，对相对多数（plurality）、相对多数加辞职、多数加辞职标准均予以标记。若某董事未获得已投票数的多数，该标准要求该董事立即离职（除非公司董事会人数将低于法定最低人数，此情况下其仅短暂留任直至新任命）。实施多数投票制是衡量股东影响董事会构成能力的指标。",
+        "scope": "Equity issuers",
+        "deduction": "Variable, based on voting standard and whether director vote is binding.",
+        "range": "0.1 to 0.3",
+        "sourcePages": [
+          13
+        ],
+        "scoringText": "Scope: Equity issuers Typical scoring deduction: Variable, based on voting standard and whether director vote is binding. Range: 0.1 to 0.3"
+      },
+      {
+        "name": "Cumulative Voting",
+        "nameCn": "累积投票",
+        "fullName": "Cumulative Voting Key Metric",
+        "category": "Director elections",
+        "categoryCn": "董事选举",
+        "definition": "Does the company, which has a controlling shareholder, use a plurality vote standard for director elections, without permitting cumulative voting (whether as the default election standard or at the request of shareholders)? Flagged if yes. Cumulative voting is a method of election of the board of directors whereby a stockholder may cast as many votes for directors as he or she has shares of stock, multiplied by the number of directors to be elected. The purpose of cumulative voting is to facilitate the representation of minority stockholders on the board. The stockholder may cast all his or her votes for one or more, but not all, directors on the ballot, which therefore promotes representation of small shareholders.",
+        "definitionCn": "拥有控股股东的公司，是否在董事选举中采用相对多数投票标准，且不允许累积投票（无论作为默认选举标准还是应股东要求）？若为是则被标记。累积投票是一种董事会选举方法，股东可投出的董事票数等于其持有的股份数乘以应选董事人数。累积投票的目的是促进少数股东在董事会中的代表性。股东可将其全部票投给选票上的一名或多名（但非全部）董事，从而促进小股东的代表性。",
+        "scope": "Equity issuers",
+        "deduction": "0.1",
+        "range": "",
+        "sourcePages": [
+          13
+        ],
+        "scoringText": "Scope: Equity issuers Typical scoring deduction: 0.1"
+      },
+      {
+        "name": "Director Removal Without Cause",
+        "nameCn": "无因罢免董事",
+        "fullName": "Director Removal Without Cause Key Metric",
+        "category": "Director elections",
+        "categoryCn": "董事选举",
+        "definition": "Do shareholders lack the right to remove individual directors without cause? Flagged if yes. If director removal without cause is permitted, a bidder that is hostile to current management may seek to remove existing directors and replace them with the bidder’s nominees. Where there is no evidence of this right, from either national or stock exchange regulation or from the company’s documents, the Key Metric will be flagged.",
+        "definitionCn": "股东是否缺乏无因罢免个别董事的权利？若为是则被标记。若允许无因罢免董事，对现任管理层怀有敌意的收购方可能寻求罢免现有董事并用其提名人取而代之。若从国家或证券交易所法规或公司文件中均无该权利的证据，则该关键指标会被标记。",
+        "scope": "Equity issuers",
+        "deduction": "0.1",
+        "range": "",
+        "sourcePages": [
+          14
+        ],
+        "scoringText": "Scope: Equity issuers Typical scoring deduction: 0.1"
+      },
+      {
+        "name": "Constituency Provision",
+        "nameCn": "利益相关方条款",
+        "fullName": "Constituency Provision Key Metric",
+        "category": "Takeover provisions",
+        "categoryCn": "收购防御条款",
+        "definition": "Does the company have a constituency provision or is it subject to constituency protection under applicable law? Flagged if yes. Constituency provisions allow a board to consider interests other than those of shareholders in making corporate decisions, including decisions about changes of control. Typical other constituencies would include employees, communities, customers, suppliers and the environment. The Key Metric will be flagged where there is explicit evidence of this provision from either national or stock exchange regulation or from the company’s constitutional documents.",
+        "definitionCn": "公司是否设有利益相关方条款，或是否受适用法律下利益相关方保护条款的约束？若为是则被标记。利益相关方条款允许董事会在作出公司决策（包括有关控制权变更的决策）时考虑股东以外的利益。典型的其他利益相关方包括员工、社区、客户、供应商和环境。若从国家或证券交易所法规或公司的组织文件中发现该条款的明确证据，该关键指标会被标记。",
+        "scope": "Equity issuers",
+        "deduction": "0.1",
+        "range": "",
+        "sourcePages": [
+          14
+        ],
+        "scoringText": "Scope: Equity issuers Typical scoring deduction: 0.1"
+      },
+      {
+        "name": "Business Combination Provision",
+        "nameCn": "企业合并条款",
+        "fullName": "Business Combination Provision Key Metric",
+        "category": "Takeover provisions",
+        "categoryCn": "收购防御条款",
+        "definition": "Does the company have a business combination provision in place or is it subject to business combination protection under applicable law? Flagged if yes. A business combination provision requires that a company not engage in a transaction with a shareholder holding a certain percentage (usually dubbed an “interested shareholder”) for a period of time after the shareholder exceeded this threshold, or that such a transaction be approved by a higher-than-usual percentage of shares. A different variation of a “business combination” may also list a higher-than-usual percentage of shares for approving a merger but not list a time period during which a merger would be prohibited.",
+        "definitionCn": "公司是否设有企业合并条款，或是否受适用法律下企业合并保护条款的约束？若为是则被标记。企业合并条款要求公司在某股东超过一定持股比例（通常称为“利益相关股东”）后的一段时间内不得与该股东进行交易，或要求此类交易须经高于通常比例的股份批准。企业合并的另一种变体也可能规定批准合并须达到高于通常比例的股份，但未规定禁止合并的期限。",
+        "scope": "Equity issuers",
+        "deduction": "0.1",
+        "range": "",
+        "sourcePages": [
+          14,
+          15
+        ],
+        "scoringText": "Scope: Equity issuers Typical scoring deduction: 0.1"
+      },
+      {
+        "name": "Fair Bid Treatment Provisions",
+        "nameCn": "公平收购待遇条款",
+        "fullName": "Fair Bid Treatment Provisions Key Metric",
+        "category": "Takeover provisions",
+        "categoryCn": "收购防御条款",
+        "definition": "Does the company not have a fair price provision (with a mandatory bid requirement which does not exceed 33.3%) in place or is it not subject to fair price protection under applicable law? Flagged if yes. These terms generally involve all shareholders being entitled to receive the same price for their shares, the price being within some range of the average market price over some period of time prior to the offer, the offer remaining open for a minimum amount of time, and similar protections. In the U.S., this is generally presented as an exception to the business combination provision’s prohibition or higher vote requirement that applies when an acquisition offer contains certain terms designed to ensure fairness and eliminate the possibility that shareholders will feel coerced to agree to the offer.",
+        "definitionCn": "公司是否未设立公平价格条款（附有不超过 33.3% 的强制收购要约要求），或是否不受适用法律下公平价格保护条款的约束？若为是则被标记。这些条款通常涉及所有股东有权就其股份获得相同价格、该价格处于要约前一段时间内平均市场价格的某一区间内、要约须在最短时间内保持开放，以及类似的保护措施。在美国，这通常作为企业合并条款的禁止或更高表决要求的例外情形呈现，适用于收购要约包含某些旨在确保公平并消除股东感到被胁迫而同意要约的可能性的条款时。",
+        "scope": "Equity issuers",
+        "deduction": "0.1 Ownership Structure Assessment The ownership structure of a company is evaluated along three axes. The first dimension of ownership assessment is the level of control asserted by the largest owner. Principal-agent concerns are primarily applicable to widely held companies with highly dispersed ownership. For closely held companies, however, governance risk is primarily a function of the identity and degree of control wielded by a company’s dominant shareholder. Where stock pyramids are present or in the case of private companies, our assessment focuses on the ultimate owner.",
+        "range": "",
+        "sourcePages": [
+          15
+        ],
+        "scoringText": "Scope: Equity issuers Typical scoring deduction: 0.1 Ownership Structure Assessment The ownership structure of a company is evaluated along three axes. The first dimension of ownership assessment is the level of control asserted by the largest owner. Principal-agent concerns are primarily applicable to widely held companies with highly dispersed ownership. For closely held companies, however, governance risk is primarily a function of the identity and degree of control wielded by a company’s dominant shareholder. Where stock pyramids are present or in the case of private companies, our assessment focuses on the ultimate owner."
+      }
+    ],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 20,
+      "sourceFile": "4 ownership-and-control-key-issue.pdf",
+      "source": "Governance Pillar/4 ownership-and-control-key-issue.pdf"
+    },
+    "sourceId": "ownership-and-control",
+    "introPages": [
+      3
+    ],
+    "riskPages": [],
+    "scoringNote": "治理先从 10 分起扣除相关关键指标的贡献，并按方法论做缩放、主题与支柱汇总。部分指标影响议题得分，但不经公司治理主题进入最终评级；适用范围及贡献以各指标原文和总方法论为准。",
+    "scoringPages": [
+      30,
+      31,
+      32,
+      33
+    ],
+    "rules": []
+  },
+  {
+    "id": "pay",
+    "name": "薪酬",
+    "nameEn": "Pay",
+    "pillar": "governance",
+    "theme": "corporate-governance",
+    "type": "governance",
+    "summary": "评估 CEO 及其他高管薪酬实践，包括已披露的具体薪酬数据；主要基于相对同业的薪酬水平与薪酬方案设计特征评分。",
+    "intro": "Pay is a Key Issue in the Governance Pillar of the MSCI ESG Ratings model. Companies are evaluated on CEO and other executive pay practices, including specific pay figures, where disclosed. Pay is scored primarily based on levels of pay relative to peers, as well as specific features of the pay program design.",
+    "risks": [],
+    "risksCn": [],
+    "indicators": [],
+    "keyMetrics": [
+      {
+        "name": "CEO Equity Policy",
+        "nameCn": "CEO 股权政策",
+        "fullName": "CEO Equity Policy Key Metric",
+        "category": "Pay performance alignment",
+        "categoryCn": "薪酬与绩效对齐",
+        "definition": "If the CEO does not hold a significant number of shares, has the company failed to adopt effective stock ownership guidelines or an equity retention policy for the CEO? Flagged if yes. A significant number of shares is defined as either shares worth at least 5 times base salary or USD 5 million or shares representing 1% of outstanding shares. Effective stock ownership guidelines include requirements to hold shares worth at least 5 times base salary. Effective equity retention requirements include requirements to hold at least 50% of vested equity.",
+        "definitionCn": "如果 CEO 并未持有大量股份，公司是否未能为 CEO 采纳有效的持股指引或股权保留政策？若是，则被标记。大量股份的定义为：价值至少为基本薪酬 5 倍或 500 万美元的股份，或占已发行股份 1% 的股份。有效的持股指引包括要求持有价值至少为基本薪酬 5 倍的股份。有效的股权保留要求包括要求保留至少 50% 的已归属股权。",
+        "scope": "Equity issuers",
+        "deduction": "0.2",
+        "range": "",
+        "sourcePages": [
+          5
+        ],
+        "scoringText": "Scope: Equity issuers Typical scoring deduction: 0.2"
+      },
+      {
+        "name": "CEO Equity Changes",
+        "nameCn": "CEO 股权变动",
+        "fullName": "CEO Equity Changes Key Metric",
+        "category": "Pay performance alignment",
+        "categoryCn": "薪酬与绩效对齐",
+        "definition": "Has the number of shares held by the CEO (after adjustment for any corporate actions) decreased year over year by 10% or more? Flagged if yes. This metric excludes CEOs with less than two years’ tenure.",
+        "definitionCn": "CEO 持有的股份数量（经任何公司行动调整后）是否同比减少 10% 或以上？若是，则被标记。该指标不包括任期不足两年的 CEO。",
+        "scope": "All issuers",
+        "deduction": "0.2",
+        "range": "",
+        "sourcePages": [
+          6
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: 0.2"
+      },
+      {
+        "name": "Long-Term Pay Performance",
+        "nameCn": "长期薪酬绩效",
+        "fullName": "Long-Term Pay Performance Key Metric",
+        "category": "Pay performance alignment",
+        "categoryCn": "薪酬与绩效对齐",
+        "definition": "Does the CEO’s equity pay fail to reflect the company’s total shareholder return (TSR) performance over the last three and five years? Flagged if yes. This metric is flagged if any vested stock and option gains reported for the company’s CEO are greater than zero during a year when the company is showing negative 3-year and 5-year TSR.",
+        "definitionCn": "CEO 的股权薪酬是否未能反映公司过去三年和五年的股东总回报（TSR）绩效？若是，则被标记。若在公司 3 年和 5 年 TSR 为负的年份，报告的公司 CEO 任何已归属股票和期权收益大于零，则该指标被标记。",
+        "scope": "Equity issuers",
+        "deduction": "0.2",
+        "range": "",
+        "sourcePages": [
+          6
+        ],
+        "scoringText": "Scope: Equity issuers Typical scoring deduction: 0.2"
+      },
+      {
+        "name": "Long-Term Pay Performance Versus Peers",
+        "nameCn": "长期薪酬绩效与同业对比",
+        "fullName": "Long-Term Pay Performance Versus Peers Key Metric",
+        "category": "Pay performance alignment",
+        "categoryCn": "薪酬与绩效对齐",
+        "definition": "Does the CEO’s equity pay fail to reflect the company’s TSR performance over the last three and five years relative to its Pay Peer Group? Flagged if yes. This metric is flagged if any vested stock and option gains reported for the company’s CEO are greater than zero during a year when the company’s 3-year and 5-year TSR fall below the median for its Pay Peer Group (see Pay Peer Groups, below).",
+        "definitionCn": "相对于其薪酬同业组，CEO 的股权薪酬是否未能反映公司过去三年和五年的 TSR 绩效？若是，则被标记。若在公司 3 年和 5 年 TSR 低于其薪酬同业组中位数的年份，报告的公司 CEO 任何已归属股票和期权收益大于零，则该指标被标记（见下文薪酬同业组）。",
+        "scope": "Equity issuers",
+        "deduction": "0.2",
+        "range": "",
+        "sourcePages": [
+          6
+        ],
+        "scoringText": "Scope: Equity issuers Typical scoring deduction: 0.2"
+      },
+      {
+        "name": "Short-Term Pay Performance",
+        "nameCn": "短期薪酬绩效",
+        "fullName": "Short-Term Pay Performance Key Metric",
+        "category": "Pay performance alignment",
+        "categoryCn": "薪酬与绩效对齐",
+        "definition": "Did the CEO’s annual incentives fail to rise or fall in line with annual performance for the last reported period? Flagged if yes. The four test metrics used are net income, basic normalized earnings per share (EPS), total revenue and total assets. This metric is flagged if: • CEO’s reported total short-term incentives are greater than zero and three or more of the four test metrics listed above have decreased year-on-year; or • Total short-term incentives did not decrease year-on-year, prior year incentives were greater than zero, and two or more metrics decreased year-on-year. “Total short-term incentives” for the purpose of this Key Metric include any bonus (in the U.S. including “Non-Equity Incentive Compensation”), whether delivered in the form of cash, shares, shares subject to a holding period prior to release, bonus waived into pension or other form of delivery.",
+        "definitionCn": "在最近报告期，CEO 的年度激励是否未能随年度绩效同步升降？若是，则被标记。所使用的四项测试指标为净利润、基本正常化每股收益（EPS）、总收入和总资产。若出现以下情形，则该指标被标记：• CEO 报告的短期激励总额大于零，且上述四项测试指标中有三项或以上同比减少；或 • 短期激励总额未同比减少，上一年度激励大于零，且两项或以上的指标同比减少。就本关键指标而言，短期激励总额包括任何奖金（在美国包括非股权激励薪酬），无论其以现金、股份、在释放前设有持有期的股份、放弃并转入养老金的奖金或其他交付形式提供。",
+        "scope": "All issuers",
+        "deduction": "0.2",
+        "range": "",
+        "sourcePages": [
+          7
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: 0.2"
+      },
+      {
+        "name": "Pay Linked to Sustainability",
+        "nameCn": "薪酬与可持续性挂钩",
+        "fullName": "Pay Linked to Sustainability Key Metric",
+        "category": "Pay performance alignment",
+        "categoryCn": "薪酬与绩效对齐",
+        "definition": "Has the company failed to incorporate links to sustainability performance in its current executive pay policies? Flagged if yes. This metric is based entirely on the company’s own reporting. It considers whether one or more sustainability metrics are used to determine annual and/or long-term incentive pay policy and does not consider the effectiveness of those metrics. This metric is evaluated for the CEO and/or other executive directors. Companies that do not issue any incentive pay will also be flagged under this Key Metric.",
+        "definitionCn": "公司是否未在其当前的高管薪酬政策中纳入与可持续性绩效的挂钩？若是，则被标记。该指标完全基于公司自身的报告。它考量是否使用一项或多项可持续性指标来确定年度和/或长期激励薪酬政策，而不考量这些指标的有效性。该指标针对 CEO 和/或其他执行董事进行评估。未发放任何激励薪酬的公司也将在本关键指标下被标记。",
+        "scope": "All issuers other than externally managed companies.",
+        "deduction": "0.2",
+        "range": "",
+        "sourcePages": [
+          7
+        ],
+        "scoringText": "Scope: All issuers other than externally managed companies. Typical scoring deduction: 0.2"
+      },
+      {
+        "name": "Clawbacks & Malus",
+        "nameCn": "追回与减扣",
+        "fullName": "Clawbacks & Malus Key Metric",
+        "category": "Pay performance alignment",
+        "categoryCn": "薪酬与绩效对齐",
+        "definition": "Where the company offers variable or incentive pay, has the company failed to adopt a clawback policy, applicable to both the annual and long-term incentives, that would recoup incentive pay based on accounts that were restated at a later date? Flagged if yes. The absence of a formal clawback policy may weaken the board’s legal standing in cases where senior executives have been granted incentive awards on the basis of fraudulent or erroneous data.",
+        "definitionCn": "在公司提供可变或激励薪酬的情况下，公司是否未能采纳适用于年度和长期激励的追回政策，以根据后续重述的账目收回激励薪酬？若是，则被标记。在高级高管基于欺诈性或错误数据获得激励奖励的情况下，缺乏正式的追回政策可能会削弱董事会的法律地位。",
+        "scope": "All issuers",
+        "deduction": "0.2",
+        "range": "",
+        "sourcePages": [
+          8
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: 0.2"
+      },
+      {
+        "name": "Golden Hellos",
+        "nameCn": "高额入职奖金",
+        "fullName": "Golden Hellos Key Metric",
+        "category": "Pay performance alignment",
+        "categoryCn": "薪酬与绩效对齐",
+        "definition": "Has there been public criticism from stakeholders of golden hellos provided by the company to its CEO or other senior executives? Flagged if yes. The duration of the flag is dependent on the severity assessment. A golden hello is considered to be any first-year pay award for external hires in excess of one year’s total remuneration in normal circumstances, regardless of form. The scope of this Key Metric extends to any CEO; any member of the management board in a two-tier board structure; any executive member of the board of directors in a unitary board structure or where a board of directors/board of auditors structure is in place; or any of the top five executives (U.S. – named executive officers).",
+        "definitionCn": "是否存在利益相关方对该公司向其 CEO 或其他高级高管提供的入职奖金（golden hellos）的公开批评？若是，则被标记。标记的持续时间取决于严重程度评估。入职奖金指在正常情况下向外聘人员提供的超过一年总薪酬的任何首年薪酬奖励，无论其形式如何。本关键指标的范围涵盖任何 CEO；双层董事会结构中的任何管理董事会成员；单层董事会结构或设有董事会/监事会结构的公司中的任何执行董事；或排名前五的高管中的任何一位（美国——具名高管）。",
+        "scope": "All issuers",
+        "deduction": "Variable, based on event severity: Minor 0.0, Moderate 0.3, Severe 0.5, Very Severe 1.0",
+        "range": "",
+        "sourcePages": [
+          8
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: Variable, based on event severity: Minor 0.0, Moderate 0.3, Severe 0.5, Very Severe 1.0"
+      },
+      {
+        "name": "Pay Controversy",
+        "nameCn": "薪酬争议",
+        "fullName": "Pay Controversy Key Metric",
+        "category": "Pay performance alignment",
+        "categoryCn": "薪酬与绩效对齐",
+        "definition": "Have the company’s pay policies or practices attracted adverse public comment from stakeholders (including shareholders, government, regulators, etc.)? Flagged if yes. The duration of the flag is dependent on the severity assessment.",
+        "definitionCn": "公司的薪酬政策或实践是否招致利益相关方（包括股东、政府、监管机构等）的负面公开评论？若是，则被标记。标记的持续时间取决于严重程度评估。",
+        "scope": "All issuers",
+        "deduction": "Variable, based on event severity: Minor 0.0, Moderate 0.5, Severe 1.0, Very Severe 2.0",
+        "range": "",
+        "sourcePages": [
+          8,
+          9
+        ],
+        "scoringText": "Scope: All issuers Typical Scoring Deduction: Variable, based on event severity: Minor 0.0, Moderate 0.5, Severe 1.0, Very Severe 2.0"
+      },
+      {
+        "name": "Significant Vote Against Pay Practices",
+        "nameCn": "对薪酬实践的重大反对票",
+        "fullName": "Significant Vote Against Pay Practices Key Metric",
+        "category": "Pay performance alignment",
+        "categoryCn": "薪酬与绩效对齐",
+        "definition": "For the most recently reported period, did the company receive a negative vote in excess of 10% on its pay policies and practices, or were relevant proposals withdrawn or adjourned? Flagged if yes. This metric is intended to measure shareholder dissatisfaction with the company’s executive pay practices. A “negative vote” includes any of against, withhold or abstain votes.",
+        "definitionCn": "在最近报告期，公司是否就其薪酬政策与实践收到超过 10% 的反对票，或相关提案被撤回或推迟？若是，则被标记。该指标旨在衡量股东对公司高管薪酬实践的不满。反对票包括任何反对票、保留票或弃权票。",
+        "scope": "All issuers",
+        "deduction": "Variable, based on resolution outcome, vote data and consecutive years:",
+        "range": "0.05 to 0.5",
+        "sourcePages": [
+          9
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: Variable, based on resolution outcome, vote data and consecutive years: Range: 0.05 to 0.5"
+      },
+      {
+        "name": "Executive Pay Disclosure",
+        "nameCn": "高管薪酬披露",
+        "fullName": "Executive Pay Disclosure Key Metric",
+        "category": "Pay Figures",
+        "categoryCn": "薪酬水平",
+        "definition": "Has the company failed to disclose specific pay totals for its top executives, including the CEO? Flagged if yes. This is the most basic test in this area, and as such, carries considerable weight when invoked, as it must serve in the place of several of the other metrics normally applied in this area. Disclosure must include, at a minimum, pay for all executive members of the board of directors (or management board for companies with a two-tier board structure) on an individualized basis or in cases where there are no executive members, the CEO. The individualized disclosure should include separate information on the amount of each of the following (where such a component is provided): salary, short-term incentives, long-term incentives, pensions, benefits and one-off payments (such as recruitment or retention awards).",
+        "definitionCn": "公司是否未能披露其高管（包括 CEO）的具体薪酬总额？若是，则被标记。这是该领域最基本的测试，因此一旦触发便具有相当大的权重，因为它必须替代该领域通常适用的若干其他指标。披露至少必须包括董事会（或双层董事会结构公司的管理董事会）所有执行成员的薪酬，且按个人逐一披露；若没有执行成员，则包括 CEO 的薪酬。个人化披露应包含以下各项金额的单独信息（在提供该组成部分的情况下）：基本薪酬、短期激励、长期激励、养老金、福利和一次性付款（如招聘或留任奖励）。",
+        "scope": "All issuers",
+        "deduction": "Variable, based on executive pay disclosure: CEO pay not disclosed 1.2; CEO pay disclosed and other executive pay not disclosed 0.1",
+        "range": "",
+        "sourcePages": [
+          9
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: Variable, based on executive pay disclosure: CEO pay not disclosed 1.2; CEO pay disclosed and other executive pay not disclosed 0.1"
+      },
+      {
+        "name": "CEO Pay Total Realized",
+        "nameCn": "CEO 已实现薪酬总额",
+        "fullName": "CEO Pay Total Realized Key Metric",
+        "category": "Pay Figures",
+        "categoryCn": "薪酬水平",
+        "definition": "Does the most recently reported total realized CEO pay figure fall into an extreme range relative to the company’s pay peer group? Flagged if yes. This metric is flagged if the CEO’s total realized pay falls within the top decile of CEO realized pay values for the company’s pay peer group (see Pay Peer Groups, below). Because companies file their proxy statements at different times throughout the year, a company could see this metric change due to changes in reported figures for its peers.",
+        "definitionCn": "最近报告的 CEO 已实现薪酬总额是否相对于公司的薪酬同业组处于极端区间？ 若是，则被标记。若 CEO 的已实现薪酬总额落入公司薪酬同业组 CEO 已实现薪酬值的最高十分位，则该指标被标记（见下文薪酬同业组）。由于各公司在一年中的不同时间提交其委托书，某公司可能会因同业组报告数据的变化而看到该指标发生变化。",
+        "scope": "Equity issuers",
+        "deduction": "0.2",
+        "range": "",
+        "sourcePages": [
+          10
+        ],
+        "scoringText": "Scope: Equity issuers Typical scoring deduction: 0.2"
+      },
+      {
+        "name": "CEO Pay Total Awarded",
+        "nameCn": "CEO 授予薪酬总额",
+        "fullName": "CEO Pay Total Awarded Key Metric",
+        "category": "Pay Figures",
+        "categoryCn": "薪酬水平",
+        "definition": "Does the most recently reported total awarded CEO pay figure fall into an extreme range relative to the company’s pay peer group? Flagged if yes. This metric is flagged if the CEO’s total awarded pay falls within the top decile of CEO total awarded pay values for the company’s pay peer group (see Pay Peer Groups, below). Because companies file their proxy statements at different times throughout the year, a company could see this metric change due to changes in reported figures for its peers.",
+        "definitionCn": "最近报告的 CEO 授予薪酬总额是否相对于公司的薪酬同业组处于极端区间？若是，则被标记。若 CEO 的授予薪酬总额落入公司薪酬同业组 CEO 授予薪酬总额值的最高十分位，则该指标被标记（见下文薪酬同业组）。由于各公司在一年中的不同时间提交其委托书，某公司可能会因同业组报告数据的变化而看到该指标发生变化。",
+        "scope": "Equity issuers",
+        "deduction": "0.2",
+        "range": "",
+        "sourcePages": [
+          10
+        ],
+        "scoringText": "Scope: Equity issuers Typical scoring deduction: 0.2"
+      },
+      {
+        "name": "CEO Pay Total Fixed",
+        "nameCn": "CEO 固定薪酬总额",
+        "fullName": "CEO Pay Total Fixed Key Metric",
+        "category": "Pay Figures",
+        "categoryCn": "薪酬水平",
+        "definition": "Does the most recently reported total fixed CEO pay figure fall into an extreme range relative to the company’s pay peer group? Flagged if yes. This metric is flagged if the CEO’s total fixed pay falls within the top decile of CEO total fixed pay values for the company’s pay peer group (see Pay Peer Groups, below). Because companies file their proxy statements at different times throughout the year, a company could see this metric change due to changes in reported figures for its peers.",
+        "definitionCn": "最近报告的 CEO 固定薪酬总额是否相对于公司的薪酬同业组处于极端区间？若是，则被标记。若 CEO 的固定薪酬总额落入公司薪酬同业组 CEO 固定薪酬总额值的最高十分位，则该指标被标记（见下文薪酬同业组）。由于各公司在一年中的不同时间提交其委托书，某公司可能会因同业组报告数据的变化而看到该指标发生变化。",
+        "scope": "Equity issuers",
+        "deduction": "0.2",
+        "range": "",
+        "sourcePages": [
+          11
+        ],
+        "scoringText": "Scope: Equity issuers Typical scoring deduction: 0.2"
+      },
+      {
+        "name": "CEO Pay Perks & Other Pay",
+        "nameCn": "CEO 津贴及其他薪酬",
+        "fullName": "CEO Pay Perks & Other Pay Key Metric",
+        "category": "Pay Figures",
+        "categoryCn": "薪酬水平",
+        "definition": "Does the most recently reported CEO perquisites (perks) and other pay figure exceed the stated MSCI S&C thresholds? Flagged if yes. This metric is flagged if the perks reported exceed: • USD 200,000 for companies with market cap exceeding USD 100 billion. • USD 150,000 for companies with market cap between USD 10 billion and USD 100 billion. • USD 120,000 for companies with market cap between USD 4 billion and USD 10 billion. • USD 90,000 for companies with market cap between USD 340 million and USD 4 billion. • USD 75,000 for companies with market cap below USD 340 million.",
+        "definitionCn": "最近报告的 CEO 津贴（perks）及其他薪酬金额是否超过规定的 MSCI S&C 门槛值？若是，则被标记。若报告的津贴超过以下数值，则该指标被标记：• 市值超过 1000 亿美元的公司：200,000 美元。• 市值在 100 亿至 1000 亿美元之间的公司：150,000 美元。• 市值在 40 亿至 100 亿美元之间的公司：120,000 美元。• 市值在 3.4 亿至 40 亿美元之间的公司：90,000 美元。• 市值低于 3.4 亿美元的公司：75,000 美元。",
+        "scope": "Equity issuers",
+        "deduction": "0.2",
+        "range": "",
+        "sourcePages": [
+          11
+        ],
+        "scoringText": "Scope: Equity issuers Typical scoring deduction: 0.2"
+      },
+      {
+        "name": "CEO Pay NQDC",
+        "nameCn": "CEO 非合格递延薪酬（NQDC）",
+        "fullName": "CEO Pay NQDC Key Metric",
+        "category": "Pay Figures",
+        "categoryCn": "薪酬水平",
+        "definition": "Is the pension contribution rate (defined contribution amount [CEO NQDC] divided by salary) made by the company on behalf of the CEO excessive relative to the company’s pay peer group? Flagged if yes. This metric is flagged if the CEO’s pension contribution rate falls within the top decile of all such values for the company’s pay peer group (see Pay Peer Groups, below). Because companies file their proxy statements at different times throughout the year, a company could see this metric change due to changes in reported figures for its peers.",
+        "definitionCn": "公司代表 CEO 支付的养老金缴款率（定额缴款金额 [CEO NQDC] 除以基本薪酬）是否相对于公司的薪酬同业组过高？若是，则被标记。若 CEO 的养老金缴款率落入公司薪酬同业组所有此类值的最高十分位，则该指标被标记（见下文薪酬同业组）。由于各公司在一年中的不同时间提交其委托书，某公司可能会因同业组报告数据的变化而看到该指标发生变化。",
+        "scope": "Equity issuers",
+        "deduction": "0.2",
+        "range": "",
+        "sourcePages": [
+          11,
+          12
+        ],
+        "scoringText": "Scope: Equity issuers Typical scoring deduction: 0.2"
+      },
+      {
+        "name": "CEO Pay Pension",
+        "nameCn": "CEO 养老金薪酬",
+        "fullName": "CEO Pay Pension Key Metric",
+        "category": "Pay Figures",
+        "categoryCn": "薪酬水平",
+        "definition": "Is the most recently reported CEO accumulated pension figure (divided by the number of years of pensionable service) excessive relative to the company’s pay peer group? Flagged if yes. This metric is flagged if the CEO’s (total accumulated pension divided by number of years served) figure falls within the top decile of all such values for the company’s pay peer group (see Pay Peer Groups, below). Because companies file their proxy statements at different times throughout the year, a company could see this metric change due to changes in reported figures for its peers.",
+        "definitionCn": "最近报告的 CEO 累计养老金金额（除以可计养老金的服务年限）是否相对于公司的薪酬同业组过高？若是，则被标记。若 CEO 的（累计养老金总额除以服务年限）数值落入公司薪酬同业组所有此类值的最高十分位，则该指标被标记（见下文薪酬同业组）。由于各公司在一年中的不同时间提交其委托书，某公司可能会因同业组报告数据的变化而看到该指标发生变化。",
+        "scope": "Equity issuers",
+        "deduction": "0.2",
+        "range": "",
+        "sourcePages": [
+          12
+        ],
+        "scoringText": "Scope: Equity issuers Typical scoring deduction: 0.2"
+      },
+      {
+        "name": "Internal Pay Equity",
+        "nameCn": "内部薪酬公平性",
+        "fullName": "Internal Pay Equity Key Metric",
+        "category": "Pay Figures",
+        "categoryCn": "薪酬水平",
+        "definition": "Does the CEO’s total awarded pay for the last reported period exceed the median pay for the other named executive officers by more than three times? Flagged if yes. Another coarse measure of pay alignment and effectiveness, this metric is used to identify any anomalies in overall executive pay practices that might favor the CEO over the rest of the company's senior management team.",
+        "definitionCn": "在最近报告期，CEO 的授予薪酬总额是否超过其他具名高管薪酬中位数的三倍以上？若是，则被标记。作为薪酬一致性和有效性的另一项粗略衡量，该指标用于识别整体高管薪酬实践中可能存在、有利于 CEO 而不利于公司其他高级管理团队的异常情况。",
+        "scope": "All issuers",
+        "deduction": "0.2",
+        "range": "",
+        "sourcePages": [
+          12
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: 0.2"
+      },
+      {
+        "name": "Golden Parachutes",
+        "nameCn": "黄金降落伞",
+        "fullName": "Golden Parachutes Key Metric",
+        "category": "Severance & Change of Control",
+        "categoryCn": "离职补偿与控制权变更",
+        "definition": "Does the CEO’s potential cash severance pay exceed five times their annual pay? Flagged if yes.",
+        "definitionCn": "CEO 的潜在现金离职补偿是否超过其年度薪酬的五倍？若是，则被标记。",
+        "scope": "All issuers",
+        "deduction": "0.3",
+        "range": "",
+        "sourcePages": [
+          13
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: 0.3"
+      },
+      {
+        "name": "Severance Vesting",
+        "nameCn": "离职补偿归属",
+        "fullName": "Severance Vesting Key Metric",
+        "category": "Severance & Change of Control",
+        "categoryCn": "离职补偿与控制权变更",
+        "definition": "Are unvested equity awards still eligible for vesting when the CEO's employment is terminated? Flagged if yes. This metric is designed to help in evaluating the board’s effectiveness in aligning the interests of the CEO and other senior executives with those of the company’s investors.",
+        "definitionCn": "当 CEO 的雇佣关系终止时，未归属的股权奖励是否仍符合归属条件？若是，则被标记。该指标旨在帮助评估董事会在使 CEO 和其他高级高管的利益与公司投资者利益保持一致方面的有效性。",
+        "scope": "All issuers",
+        "deduction": "0.1",
+        "range": "",
+        "sourcePages": [
+          13
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: 0.1"
+      },
+      {
+        "name": "Dilution Concerns",
+        "nameCn": "稀释问题",
+        "fullName": "Dilution Concerns Key Metric",
+        "category": "Equity Plan Dilution",
+        "categoryCn": "股权计划稀释",
+        "definition": "Is the potential dilution in the company’s traded shares 10% or greater? Flagged if yes. Dilution is defined as the percentage of company shares the board has set aside for use in granting incentive awards. The 10% dilution threshold is used regardless of company size.",
+        "definitionCn": "公司已发行股份的潜在稀释是否达到 10% 或以上？若是，则被标记。稀释定义为董事会预留用于授予激励奖励的公司股份百分比。无论公司规模如何，均采用 10% 的稀释门槛。",
+        "scope": "All issuers",
+        "deduction": "0.1",
+        "range": "",
+        "sourcePages": [
+          13
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: 0.1"
+      },
+      {
+        "name": "Run Rate Concerns",
+        "nameCn": "消耗率问题",
+        "fullName": "Run Rate Concerns Key Metric",
+        "category": "Equity Plan Dilution",
+        "categoryCn": "股权计划稀释",
+        "definition": "Is the company’s current run rate 2% or more? Flagged if yes. Run rate is defined as the percentage of company shares actually granted as incentive awards during the most recently reported period. The 2% run rate threshold is used regardless of company size.",
+        "definitionCn": "公司的当前消耗率（run rate）是否达到 2% 或以上？若是，则被标记。消耗率定义为在最近报告期实际授予作为激励奖励的公司股份百分比。无论公司规模如何，均采用 2% 的消耗率门槛。",
+        "scope": "All issuers",
+        "deduction": "0.2",
+        "range": "",
+        "sourcePages": [
+          13,
+          14
+        ],
+        "scoringText": "Scope: All issuers Typical scoring deduction: 0.2"
+      },
+      {
+        "name": "Director Equity Policy",
+        "nameCn": "董事股权政策",
+        "fullName": "Director Equity Policy Key Metric",
+        "category": "Non-executive Director Pay",
+        "categoryCn": "非执行董事薪酬",
+        "definition": "Has the company failed to adopt specific stock ownership guidelines for non-executive directors? Flagged if yes. Another relatively coarse but effective indicator, this metric does not evaluate the effectiveness of such standards, but simply whether the company has formally announced a policy in this area.",
+        "definitionCn": "公司是否未能为非执行董事采纳具体的持股指引？若是，则被标记。作为另一项相对粗略但有效的指标，该指标不评估此类标准的有效性，而仅考量公司是否已正式宣布该领域的政策。",
+        "scope": "Equity issuers",
+        "deduction": "0.1 Total Pay Components",
+        "range": "",
+        "sourcePages": [
+          14
+        ],
+        "scoringText": "Scope: Equity issuers Typical scoring deduction: 0.1 Total Pay Components"
+      }
+    ],
+    "doc": {
+      "version": "2026-03",
+      "versionLabel": "2026 年 3 月",
+      "pages": 19,
+      "sourceFile": "5 pay-key-issue.pdf",
+      "source": "Governance Pillar/5 pay-key-issue.pdf"
+    },
+    "sourceId": "pay",
+    "introPages": [
+      4
+    ],
+    "riskPages": [],
+    "scoringNote": "治理先从 10 分起扣除相关关键指标的贡献，并按方法论做缩放、主题与支柱汇总。部分指标影响议题得分，但不经公司治理主题进入最终评级；适用范围及贡献以各指标原文和总方法论为准。",
+    "scoringPages": [
+      30,
+      31,
+      32,
+      33
+    ],
+    "rules": []
+  }
+];
+export const KEY_ISSUE_STATS = {
+  "issues": 33,
+  "indicators": 469,
+  "governanceKeyMetrics": 107
+};
