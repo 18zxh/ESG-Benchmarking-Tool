@@ -1,7 +1,7 @@
 {
-  "release": "V1",
-  "applicationVersion": "0.4.0",
-  "baseline": "115c4c3",
+  "release": "0.5.3",
+  "applicationVersion": "0.5.3",
+  "baseline": "9d3a83c",
   "selfExcluded": "RELEASE-MANIFEST.json",
   "excluded": [
     {
@@ -98,10 +98,14 @@
     },
     {
       "path": "unified/modules/msci/site/msci-esg-ratings.html",
-      "reason": "obsolete standalone generated bundle (live app retained)"
+      "reason": "obsolete standalone bundle"
     },
     {
       "path": "unified/tests/serve_fixture.py",
+      "reason": "tests"
+    },
+    {
+      "path": "unified/tests/test_anchored_reading.py",
       "reason": "tests"
     },
     {
@@ -109,11 +113,43 @@
       "reason": "tests"
     },
     {
+      "path": "unified/tests/test_chat_stream.py",
+      "reason": "tests"
+    },
+    {
       "path": "unified/tests/test_core.py",
       "reason": "tests"
     },
     {
+      "path": "unified/tests/test_cpa.py",
+      "reason": "tests"
+    },
+    {
+      "path": "unified/tests/test_csa_quality.py",
+      "reason": "tests"
+    },
+    {
+      "path": "unified/tests/test_exchange_diagnostics.py",
+      "reason": "tests"
+    },
+    {
+      "path": "unified/tests/test_exchange_windows.py",
+      "reason": "tests"
+    },
+    {
+      "path": "unified/tests/test_glm_resilience.py",
+      "reason": "tests"
+    },
+    {
       "path": "unified/tests/test_http.py",
+      "reason": "tests"
+    },
+    {
+      "path": "unified/tests/test_msci_guard.py",
+      "reason": "tests"
+    },
+    {
+      "path": "unified/tests/test_msci_windows.py",
       "reason": "tests"
     },
     {
@@ -125,11 +161,23 @@
       "reason": "tests"
     },
     {
+      "path": "unified/tests/test_reading_speed.py",
+      "reason": "tests"
+    },
+    {
+      "path": "unified/tests/test_result_text.py",
+      "reason": "tests"
+    },
+    {
       "path": "unified/tests/test_workspace.py",
       "reason": "tests"
     },
     {
       "path": "unified/web/tests/export.test.mjs",
+      "reason": "tests"
+    },
+    {
+      "path": "unified/web/tests/reading-progress.test.mjs",
       "reason": "tests"
     }
   ],
@@ -143,10 +191,17 @@
     },
     {
       "path": "README.md",
-      "sha": "05c4ea588a98d04d364f8f3b9e14ba65a8220dfa",
-      "sha256": "6e9ef024444088b153c59a7f490b6be3fe8994a8c765b5fdcd7df8dcabffb540",
+      "sha": "19ec8f11104dfdf089698f6c89fd75fa72ad7909",
+      "sha256": "1500895763410bda1902f58b95bf2237b98e76df82b0356a93be2be360a74f99",
       "mode": "100644",
-      "bytes": 5729
+      "bytes": 7506
+    },
+    {
+      "path": "RELEASE-0.5.3.md",
+      "sha": "7bba830d54ec327ab5c937038e386d763e88622e",
+      "sha256": "053246244da8889e49135cf460a0febbb62010aac87d857ead090412521a5b0e",
+      "mode": "100644",
+      "bytes": 417
     },
     {
       "path": "RELEASE-V1.md",
@@ -164,10 +219,17 @@
     },
     {
       "path": "unified/adapters.py",
-      "sha": "98d6d7c378ac817a2391d4c9620ba77c44e00e0b",
-      "sha256": "80a95b5310d6a73311dbfaac3b0fa0af1b3cc6bf00711b239f079c67fd951d52",
+      "sha": "8beca0e66bb5c620d9d2de714112a5529fcd0787",
+      "sha256": "501efe3ed0e099de43e293ca013693b0b9804c3eacbd1e0068d93f3382be9343",
       "mode": "100644",
-      "bytes": 20759
+      "bytes": 34047
+    },
+    {
+      "path": "unified/anchored_reading.py",
+      "sha": "e207937b64f6c826654fb53418d04824fc3119bf",
+      "sha256": "10fff8b77865b9b2898e01a71d10b2df0cf4400de10e55d9ad75cf965b045c97",
+      "mode": "100644",
+      "bytes": 7526
     },
     {
       "path": "unified/app-dist/PDFJS-LICENSE.txt",
@@ -191,25 +253,25 @@
       "bytes": 2092
     },
     {
-      "path": "unified/app-dist/assets/PdfPane-0Zk_EMI-.js",
-      "sha": "ad70a13c6f9f0be732c8ad34b353b1c552a810c5",
-      "sha256": "26b1ef52da728e934dc0c59d263bdb8cff903572c74151f88e6d0c28700327ce",
+      "path": "unified/app-dist/assets/PdfPane-Cz1MYxe4.js",
+      "sha": "c4230fcd1131ae18ce180cc91e6aaab815b5e36a",
+      "sha256": "2514e5d76971e65888e692eb88897302c04ff767e20c7ec41878c50ff054eec7",
       "mode": "100644",
       "bytes": 1925
     },
     {
-      "path": "unified/app-dist/assets/index-C7xNRmLh.css",
-      "sha": "ab1b3e5afc8c5297fec15d4f0b5667de39d74c35",
-      "sha256": "26bc31110bc3fb88eae0b0cb01999e5e76cfb85dcfaf669e737faefa375771e2",
+      "path": "unified/app-dist/assets/index-Ei-r8_4n.css",
+      "sha": "2f9d3076188e9331d0490feb45d848e330cf549a",
+      "sha256": "9cc423235fae5f8ff5ddd8024066fab1ef68a8dcff734968a2176541824c022f",
       "mode": "100644",
-      "bytes": 27633
+      "bytes": 27696
     },
     {
-      "path": "unified/app-dist/assets/index-wVs0p7LK.js",
-      "sha": "dcce3bb205f232493d03c23c1fd2cb2f820c7829",
-      "sha256": "82ce9483efc6c309b6c0ae1b15435da1e735c6b7ce3a30c1b66e106e54d0eb11",
+      "path": "unified/app-dist/assets/index-pcU5SIVe.js",
+      "sha": "f9571e15f263f176818f368d3581a977482b2daa",
+      "sha256": "91b8d7ec1d68de753dc2723ce06cebe872576c5fdea82a9984e3c50898256f8e",
       "mode": "100644",
-      "bytes": 108861
+      "bytes": 112057
     },
     {
       "path": "unified/app-dist/assets/pdf-DxLgU_vh.js",
@@ -1424,8 +1486,8 @@
     },
     {
       "path": "unified/app-dist/index.html",
-      "sha": "4af9993a218d3293535e532850fa9fe078e007f8",
-      "sha256": "a65a8c35593641ab7ffa5a9499a28d6131a17ea6a918bb25862469b580efa950",
+      "sha": "9d5d36308a415b1de1d639b8c17768f7ca05468f",
+      "sha256": "3d074bded62f7b902066bcf4ba736fadd45c8598bd91319ebc49d6af92904bf7",
       "mode": "100644",
       "bytes": 620
     },
@@ -1640,11 +1702,25 @@
       "bytes": 4241
     },
     {
-      "path": "unified/core.py",
-      "sha": "5b88cfd0b345d2d41ff033b7d3d66ee285154753",
-      "sha256": "5c0864b9d42dece0a4ca37553415beb9b00ecdabeb42eec17dc75819d302aadf",
+      "path": "unified/chat_stream.py",
+      "sha": "337701aaccb3674c11eac62d725048bcef6695a2",
+      "sha256": "33a06bfe728479a3f54682cbc3c4142c1dc5b22517068bdc1599b780052d4663",
       "mode": "100644",
-      "bytes": 16195
+      "bytes": 2461
+    },
+    {
+      "path": "unified/core.py",
+      "sha": "229b19e72876af9aa0ef645e96e35e9519ac7d79",
+      "sha256": "21d667f9a545fbdc84ab5bd1757858047e3dde7aec25d6fd9e3e44c5f8d5e03a",
+      "mode": "100644",
+      "bytes": 16683
+    },
+    {
+      "path": "unified/csa_quality.py",
+      "sha": "433433090bb8f3afaae26c82202d787c10c59204",
+      "sha256": "234b1d707ea22b81c85562bba9fc83044ad9474d79fb2fdb74a610a4529acfbb",
+      "mode": "100644",
+      "bytes": 6633
     },
     {
       "path": "unified/csa_windows.py",
@@ -1654,11 +1730,18 @@
       "bytes": 4685
     },
     {
-      "path": "unified/gateway.py",
-      "sha": "e2983729321d0eeb02db64590da7cb9dc0bf78ac",
-      "sha256": "d7bdd10deb0a5a510189d47925d91fd8f87e2480ff61d1f3212b3bb718ce6118",
+      "path": "unified/exchange_windows.py",
+      "sha": "7ced9f9efbd746e8c08edd4d86137a8471fe44c2",
+      "sha256": "c3a59d364b20d95c9f290d14be3b51fe17c630c9f0915819e62e292edcb7b8ab",
       "mode": "100644",
-      "bytes": 5761
+      "bytes": 6786
+    },
+    {
+      "path": "unified/gateway.py",
+      "sha": "c9c2ab5863279b9026d59d03f9bad82546f830c8",
+      "sha256": "a6ce587dbdef652a03f04d5dc167d8a7b1d073d29adadfd7b965a20d14b8b8fb",
+      "mode": "100644",
+      "bytes": 12910
     },
     {
       "path": "unified/loader.py",
@@ -4559,11 +4642,32 @@
       "bytes": 14177
     },
     {
-      "path": "unified/pdf_engine.py",
-      "sha": "2f80c301a3f4d8ad4918dc77a3b09a60680c72f2",
-      "sha256": "54c3093de99f0dd11cfb72e630f06d68e8f897debd870b72f48da6639da73b5a",
+      "path": "unified/msci_guard.py",
+      "sha": "cc7de52521ef7a71341b29e7462a5000814a2f03",
+      "sha256": "1736e5a7a4323b5d996300158b1803efd6e095e26a7e034a2124b0c3fcea1ed4",
       "mode": "100644",
-      "bytes": 4701
+      "bytes": 7019
+    },
+    {
+      "path": "unified/msci_runner.py",
+      "sha": "e00cffc650291e57a38de76511e46c4e2a4c29b1",
+      "sha256": "920f18fdd3b54dece631eb03ba59d5a4a7d02e073ac94751821cd9a9030d47c5",
+      "mode": "100644",
+      "bytes": 16715
+    },
+    {
+      "path": "unified/msci_windows.py",
+      "sha": "60256f2dd8be3555b95b2b6857560cd121c4ee8e",
+      "sha256": "215968604df238c351362e11751e2d0a1b128978ddffd1b10f104f0226d577c2",
+      "mode": "100644",
+      "bytes": 4784
+    },
+    {
+      "path": "unified/pdf_engine.py",
+      "sha": "eb42b2ef376178efee1ef34258789ef91aed3f2a",
+      "sha256": "13b2a64fb6fb8ba807254793afb44dc53f4820f6ad4526ebe18ebe2ec81d565f",
+      "mode": "100644",
+      "bytes": 4719
     },
     {
       "path": "unified/project_center.py",
@@ -4580,11 +4684,25 @@
       "bytes": 66
     },
     {
-      "path": "unified/server.py",
-      "sha": "79114cd986b87955df4ca1e4f619a36be7f18200",
-      "sha256": "70332e28fc16f988f79467730f86215ca4fc7a6600d18533b59aeaef340f4312",
+      "path": "unified/responses.py",
+      "sha": "98616c13e83f0c2ea8497036d2f5a11cc5d21cfe",
+      "sha256": "dc4c0837437f2fb693fa256931295a3ab99c4243f32aaaa20bf3309d0ea21b1d",
       "mode": "100644",
-      "bytes": 22918
+      "bytes": 4588
+    },
+    {
+      "path": "unified/result_text.py",
+      "sha": "3cea62f528608c8fe0766698fdfd1ef218d322bc",
+      "sha256": "ea9095a59b0cbdcf6b9f200deb5be01809b8126fb132116a01559c974f1ab7f6",
+      "mode": "100644",
+      "bytes": 2958
+    },
+    {
+      "path": "unified/server.py",
+      "sha": "a9d2ab7248ccbedda31af267172c27c8716f4814",
+      "sha256": "17032537fd7ea8b7805c886ed69abe6de5c759037354c1b9670adf1ffd5280dc",
+      "mode": "100644",
+      "bytes": 25026
     },
     {
       "path": "unified/site/bridge.js",
@@ -4622,11 +4740,25 @@
       "bytes": 1890
     },
     {
-      "path": "unified/site/shell.js",
-      "sha": "545a14b94a85acc2d02b46e951920eb80b32646a",
-      "sha256": "80770bd3f88836fe4bc851155cec7358d133eadc72855ed982a3342cb38d9173",
+      "path": "unified/site/msci-progress.js",
+      "sha": "4d1afa9241884cbd333ae142cc7a83fdcb059e77",
+      "sha256": "9cc4ed08a93ad8019adc0929c7da1334c356f552dbc1aafd80790e93aabf3e86",
       "mode": "100644",
-      "bytes": 11603
+      "bytes": 2385
+    },
+    {
+      "path": "unified/site/shell.js",
+      "sha": "6a95fa44405818dc7bb981abfa74496b00665504",
+      "sha256": "8bc3b9613f78688f745696bca424dafd3c25714ed3ac7d2e0a062d5b264c0e38",
+      "mode": "100644",
+      "bytes": 12519
+    },
+    {
+      "path": "unified/source_layout.py",
+      "sha": "6b7a85641e7d201ab1d6554f603571296656cf3e",
+      "sha256": "2dde0cb0990a9435bf29629c1786ddcf4e55476da6008efe7a69ec56d8b584dd",
+      "mode": "100644",
+      "bytes": 5000
     },
     {
       "path": "unified/ui_copy.py",
@@ -4665,15 +4797,15 @@
     },
     {
       "path": "unified/web/package-lock.json",
-      "sha": "b5b7273b95dce631a409a0e870bb10c6cd84c3b7",
-      "sha256": "62e0778ef84fbdf46fef8ff2d48f385567022f8931764cf1ef1697be902210ed",
+      "sha": "7198ab3c8b13d222ca3f59b2819eefbd8e0a1017",
+      "sha256": "4b13f4788e030c6fbe1e9853ccb500f4cbaf4871a42fba782516a3bcd6796943",
       "mode": "100644",
       "bytes": 61099
     },
     {
       "path": "unified/web/package.json",
-      "sha": "31ed39a4c60b18794d2187de27313b6f1af12af8",
-      "sha256": "0a5a6345b956e7362752da6599dd4b0b6274031fbb3ab552606bc4c68d90826c",
+      "sha": "73ecf009c1ff0491d467ed8b51cccaf1afb4030b",
+      "sha256": "5ebee36ce7910d21cdd34b6ed55406e3fb157a2233d22378dadb1c80585c4e04",
       "mode": "100644",
       "bytes": 831
     },
@@ -4693,10 +4825,10 @@
     },
     {
       "path": "unified/web/src/Maintenance.tsx",
-      "sha": "6dc170cac105db1f3610c955c349d1a5c5995c52",
-      "sha256": "026b9933f2111f607f7f57ea136e390322210a7b3cc21800e238e26cd3e048bf",
+      "sha": "b2774e25189dc3f2460c84cd5ca9be1343afe175",
+      "sha256": "50b81e8252d5078c692b27c50bbd47f3d9f919a65f8bc9e525c784a286cc3f5c",
       "mode": "100644",
-      "bytes": 22068
+      "bytes": 20086
     },
     {
       "path": "unified/web/src/MappingEditor.tsx",
@@ -4704,6 +4836,13 @@
       "sha256": "643c2a762fd5a201118678e89eaf9c1200c35e1c84ca7232a7d41b88b55703e1",
       "mode": "100644",
       "bytes": 3187
+    },
+    {
+      "path": "unified/web/src/ModelSettings.tsx",
+      "sha": "9fea1bd907cc086d3d0c45e29e199cb68264a6a6",
+      "sha256": "e5758c4a5d4da64680160b26653ae00e0797cdde6ac108bc6b85cbf02b95b9d4",
+      "mode": "100644",
+      "bytes": 8238
     },
     {
       "path": "unified/web/src/PdfPane.tsx",
@@ -4777,17 +4916,17 @@
     },
     {
       "path": "unified/web/src/styles.css",
-      "sha": "191173a28a724fa99763e0e517fa472536eb8176",
-      "sha256": "5b48007c970d27acacb51d6656b488277e92e21a2337904ae30e7dcaf2eda866",
+      "sha": "9ab106e66cbdc0dfc8292ae7666cce9e8dedd337",
+      "sha256": "0dccb44759b99c3da8139fc9957a4a73cbd9e6d203d79ace270ee97bed60ed8b",
       "mode": "100644",
-      "bytes": 21311
+      "bytes": 21381
     },
     {
       "path": "unified/web/src/types.ts",
-      "sha": "08859b0f65f9156ae3636f7a403f8f3b24bbbb1d",
-      "sha256": "5a5dc5586d666c414c134cb3d229455c9212a42d07c78cd165172c7127012463",
+      "sha": "f22ce48fe2022175eb84133406fe1784ffa7dc43",
+      "sha256": "8fd97804340660d378594a95eee7422749ec26e4b5b1374b10b0b1ea1ef5c65e",
       "mode": "100644",
-      "bytes": 2522
+      "bytes": 2821
     },
     {
       "path": "unified/web/src/ui.tsx",
@@ -4826,10 +4965,10 @@
     },
     {
       "path": "unified/workspace.py",
-      "sha": "418b7e3dbe390960e5a6b54d9395db2e96db291e",
-      "sha256": "e753df3cc4b575a1b2c323b91d080b542515e15bcb679a953dd87da96a1e9883",
+      "sha": "7f9cea2566f5dc47223f3723e1f72342ae3db608",
+      "sha256": "c88b9b8bf6d5d7493c5fc8f0bc4f753c994ce4fbb3ca694497c6a4817cccfb7c",
       "mode": "100644",
-      "bytes": 26395
+      "bytes": 26480
     },
     {
       "path": "unified/workspace_api.py",
@@ -4847,8 +4986,8 @@
     },
     {
       "path": "启动统一ESG工作台.command",
-      "sha": "387f0cc36ae7fb22f194529b9ad4241101628b8c",
-      "sha256": "9e52728be5e818116557e816368fab0642200f0d1ba592a7e6a7f967237fb075",
+      "sha": "bdce79fc74806a684b75a101b3307096dddeb88b",
+      "sha256": "76ad298aa666055a108df26ae213750e6c9f9bcb2ddbcf7fbedc37875533fcd1",
       "mode": "100755",
       "bytes": 1421
     }

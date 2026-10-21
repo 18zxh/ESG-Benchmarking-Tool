@@ -65,11 +65,14 @@ class Run:
     namespace: str
     scope: str
     job_id: str
+    provider_contract: str = ""
 
 
 @contextmanager
-def running(namespace, scope, job_id):
-    token = ACTIVE.set(Run(namespace, scope, job_id))
+def running(namespace, scope, job_id, provider_contract=None):
+    parent = ACTIVE.get()
+    contract = provider_contract if provider_contract is not None else parent.provider_contract if parent else ""
+    token = ACTIVE.set(Run(namespace, scope, job_id, contract))
     try:
         yield
     finally:
@@ -127,7 +130,12 @@ class Store:
             for suffix in ('', '-wal', '-shm'):
                 path = Path(str(self.path) + suffix)
                 if path.exists():
-                    path.chmod(0o600)
+                    try:
+                        path.chmod(0o600)
+                    except FileNotFoundError:
+                        # Another connection may checkpoint/remove WAL sidecars
+                        # between exists() and chmod(). The database is required.
+                        if not suffix: raise
 
     @staticmethod
     def namespace(value):

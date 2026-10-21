@@ -21,7 +21,7 @@ from .ui_copy import simplify_interface_copy
 
 ROOT = Path(__file__).resolve().parent
 APP_ID = 'unified-esg-workbench'
-VERSION = '0.4.0'
+VERSION = '0.5.3'
 
 
 class Application:
@@ -154,6 +154,9 @@ class Handler(BaseHTTPRequestHandler):
                               'storeId': hashlib.sha256(str(self.app.store.root).encode()).hexdigest()[:16],
                               'modules': ['csa', 'msci', 'exchange'], 'storage': 'sqlite',
                               'realModelValidated': False, **self.app.gateway.public()})
+        if path == '/api/v1/providers/check' and not read:
+            self.json_body()
+            return self.send(self.app.gateway.check())
         if path == '/api/v1/providers':
             return self.send(self.app.gateway.public() if read else self.app.gateway.connect(self.json_body()))
         if path == '/api/v1/usage' and read:
@@ -215,7 +218,7 @@ class Handler(BaseHTTPRequestHandler):
         raise LocalError('接口不存在。', 404)
 
     def shared_static(self, relative):
-        if relative not in {'index.html', 'bridge.js', 'home.js', 'home.css', 'entry.css', 'shell.js'}:
+        if relative not in {'index.html', 'bridge.js', 'home.js', 'home.css', 'entry.css', 'shell.js', 'msci-progress.js'}:
             raise LocalError('资源不存在。', 404)
         path = ROOT / 'site' / relative
         if not path.is_file(): raise LocalError('资源不存在。', 404)
@@ -277,10 +280,19 @@ class Handler(BaseHTTPRequestHandler):
             if namespace == 'csa' and target.name == 'weights.js':
                 text = text.replace('style="width:${d.weight}%"', 'data-weight="${d.weight}"')
             text = text.replace('启动报告评估工作台', '启动统一ESG工作台').replace('启动 CSA 工作台.command', '启动统一ESG工作台.command')
+            if namespace == 'msci' and target.name == 'workbench-native.js':
+                text = 'import {updateReadingProgress} from "/_unified/msci-progress.js";\n' + text
+                text = text.replace("['glm-5.3-flash','glm-5.3-flashx'].includes","['glm-5.3-flash','glm-5.3-flashx','gpt-6-luna'].includes")
+                seam("if(stamp===this.previousSnapshot)return;", "if(stamp===this.previousSnapshot){updateReadingProgress(data);return;}")
+                seam('data.results?.length,data.errors?.length]', 'data.results?.length,data.errors?.length,data.calls,data.activity]')
+                seam('evidence:data.evidence,model:', 'evidence:data.evidence,activity:data.activity,error:data.error,total:data.total,readPolicy:data.readPolicy,model:')
+                seam('    this.onChange();\n  }\n  async run', '    this.onChange();updateReadingProgress(data);\n  }\n  async run')
             if namespace == 'csa' and target.name == 'project.js':
                 seam('export async function saveProject(p) {', "export async function saveProject(p) { if (globalThis.__unified) return __unified.put('csa-local-workbench', 'current', p);")
                 seam('export async function loadProject() {', "export async function loadProject() { if (globalThis.__unified) { const p=await __unified.get('csa-local-workbench', 'current'); return p ? validateProject(p) : __unified.seed('csa', blankProject()); }")
             if namespace == 'msci' and target.name == 'workbench.js':
+                text = 'import {updateReadingProgress} from "/_unified/msci-progress.js";\n' + text
+                seam('function wbRenderResults() {', 'function wbRenderResults() {\n  queueMicrotask(()=>updateReadingProgress(wbWorkspace.fullReview));')
                 seam('function wbDatabase(mode, operation) {', "function wbDatabase(mode, operation) { if(globalThis.__unified) return __unified.database('msci-workbench', mode, operation);")
                 text = text.replace('草稿、报告与评论已保存到此浏览器本机。密钥未保存。', '草稿、原报告与评论已保存到统一本机资料库。密钥未保存。').replace('此浏览器没有保存的草稿。', '当前企业项目没有保存的MSCI草稿。')
                 seam('  await wbLoadProviders();\n}', "  await wbLoadProviders();\n  if (globalThis.__unified && __unified.firstMount('msci')) {\n    if (await __unified.latest('msci-workbench')) await wbRestore();\n    else { wbWorkspace = await __unified.seed('msci', wbWorkspace); wbSyncInputs(); }\n    __unified.restored();\n  }\n}")
@@ -296,6 +308,15 @@ class Handler(BaseHTTPRequestHandler):
             text = text.replace('草稿已保存到当前浏览器。换浏览器、端口或清理站点数据后需使用原地址查找。', '草稿、原报告及评论已保存到统一本机资料库。')
             text = text.replace('横向对标草稿已保存到当前浏览器，包含原报告、映射和已完成结果。', '横向对标草稿已保存到统一本机资料库，包含原报告、映射和已完成结果。')
             text = text.replace('当前浏览器地址下尚无已保存草稿。', '当前企业项目尚无已保存草稿。').replace('当前浏览器尚无已保存对标草稿。', '当前企业项目尚无已保存对标草稿。')
+            if target.name in {'workbench.js', 'workbench-view.js'}:
+                for old, new in {
+                    '尚未连接 GLM': '尚未连接模型', '由GLM分批读取': '由所选模型分批读取',
+                    '无文字层页面由 GLM 读取': '无文字层页面由所选模型读取',
+                    '正在准备 GLM PDF 逐页读取': '正在准备 PDF 逐页读取',
+                    '未发送新的 GLM 请求': '未发送新的模型请求',
+                    '发送给 GLM 的方法内容': '发送给模型的方法内容',
+                    '`GLM · ${provider.model}': '`${provider.name || "模型"} · ${provider.model}',
+                }.items(): text = text.replace(old, new)
             text = simplify_interface_copy(namespace, target.name, text)
             raw = text.encode()
             mime = 'text/javascript'
@@ -324,7 +345,7 @@ class Handler(BaseHTTPRequestHandler):
         delegate.end_headers = Handler.end_headers.__get__(delegate)
         scope = self.headers.get('X-Workbench-Project') or 'default'
         if not re.fullmatch(r'[A-Za-z0-9_-]{1,100}', scope): raise LocalError('项目范围无效。')
-        with self.app.workspace.center.access(scope), running(namespace, scope, 'request'):
+        with self.app.workspace.center.access(scope), running(namespace, scope, 'request', (self.app.gateway.current or {}).get('fingerprint', '')):
             method = getattr(delegate, 'do_' + self.command, None)
             if method is None: raise LocalError('不支持此方法。', 405)
             method()

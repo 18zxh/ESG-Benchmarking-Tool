@@ -11,12 +11,12 @@ def estimate_tokens(text):
     return math.ceil(ascii_count / 3 + (len(text) - ascii_count) * 1.2)
 
 
-def reading_batches(texts, max_pages=12):
+def reading_batches(texts, max_pages=12, *, budget=14000):
     """Shared conservative density policy; no text layer still has a cost."""
     start, used = 1, 0
     for number, text in enumerate(texts, 1):
         cost = estimate_tokens(text) + (500 if text.strip() else 1600)
-        if number > start and (used + cost > 14000 or number - start >= max_pages):
+        if number > start and (used + cost > budget or number - start >= max_pages):
             yield start, number - 1
             start, used = number, 0
         used += cost

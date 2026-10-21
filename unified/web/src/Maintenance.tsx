@@ -1,3 +1,4 @@
+import ModelSettings from "./ModelSettings";
 import { useEffect, useState } from "react";
 import { api, upload, downloadJson } from "./api";
 import { Button, Field, Empty, Notice, Status } from "./ui";
@@ -13,10 +14,6 @@ const phaseNames: Record<string, string> = {
   benchmark: "横向对标",
 };
 export function SettingsPage({ boot, refresh, report, fail }: Common) {
-  const [key, setKey] = useState(""),
-    [baseUrl, setBaseUrl] = useState("https://open.bigmodel.cn/api/paas/v4"),
-    [model, setModel] = useState("glm-5.3-flash"),
-    [busy, setBusy] = useState(false);
   return (
     <>
       <div className="page-heading">
@@ -25,62 +22,12 @@ export function SettingsPage({ boot, refresh, report, fail }: Common) {
           <p>全局模型连接、数据备份与运行信息。</p>
         </div>
       </div>
-      <section className="section">
-        <h2>共享模型连接</h2>
-        <p>
-          {boot.providers.length
-            ? "当前已登记 " + boot.providers[0].model
-            : "尚未连接模型。"}
-        </p>
-        <form
-          onSubmit={async (e) => {
-            e.preventDefault();
-            setBusy(true);
-            try {
-              await api("/api/v1/providers", { apiKey: key, model, baseUrl });
-              setKey("");
-              await refresh();
-              report(
-                "共享连接已登记。实际可用性在首次调用时验证；密钥只保留在服务内存。",
-              );
-            } catch (error) {
-              fail(error);
-            } finally {
-              setBusy(false);
-            }
-          }}
-        >
-          <div className="form-grid">
-            <Field label="GLM官方接口地址">
-              <input
-                type="url"
-                value={baseUrl}
-                onChange={(e) => setBaseUrl(e.target.value)}
-                required
-              />
-            </Field>
-            <Field label="模型">
-              <select value={model} onChange={(e) => setModel(e.target.value)}>
-                <option>glm-5.3-flash</option>
-                <option>glm-5.3-flashx</option>
-              </select>
-            </Field>
-            <Field label="API Key（仅进程内存）">
-              <input
-                type="password"
-                autoComplete="off"
-                value={key}
-                onChange={(e) => setKey(e.target.value)}
-                required={!boot.providers.length}
-              />
-            </Field>
-          </div>
-          <Button disabled={busy}>登记共享连接</Button>
-        </form>
-        <p className="muted">
-          重启服务后需重新连接。模型任务会将选中的PDF副本、方法与证据发送至该官方接口。
-        </p>
-      </section>
+      <ModelSettings
+        boot={boot}
+        refresh={refresh}
+        report={report}
+        fail={fail}
+      />
       <section className="section">
         <h2>数据与备份</h2>
         <p>完整备份包含原PDF、项目、评估记录、独立评论、历史及方法版本。</p>

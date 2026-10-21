@@ -114,6 +114,19 @@
       restoreLayout();
       navigation();
       const id = moduleId(), active = route(), workbench = active.includes('workbench');
+      // Keep one global configuration instead of three incompatible model forms.
+      main.querySelectorAll('form[data-wb-form="provider"],#wbProviderForm,#provider-form').forEach(form => {
+        form.hidden = true;
+        let host = form.parentElement;
+        if (form.id === 'wbProviderForm') { host.hidden = true; host = host.parentElement; }
+        if (!host.querySelector(':scope > .u-shared-model-settings')) {
+          const entry = document.createElement('a'); entry.className = 'u-shared-model-settings'; entry.href = '/#/settings';
+          entry.textContent = '在全局设置中配置 GLM 或 CPA'; host.append(entry);
+        }
+        host.querySelectorAll('p').forEach(p => {
+          if (p.textContent.includes('工作台只连接 GLM') || p.textContent.startsWith('默认使用 GLM-5.3-Flash') || p.textContent.startsWith('GLM 直接读取原 PDF')) p.hidden = true;
+        });
+      });
       if (workbench) main.querySelector('#wbClearSaved')?.setAttribute('hidden', '');
       main.querySelectorAll('[data-wb="new"],#new-project,#benchmark-new').forEach(button => {
           if (button.textContent !== '新建项目') button.textContent = '新建项目';

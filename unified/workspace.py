@@ -171,7 +171,7 @@ class Workspace:
     def _work(self,run):
         token=METHOD.set(run['_method'])
         try:
-            with running('csa' if run['module']=='csa' else 'msci' if run['module']=='msci' else 'exchange',run['projectId'],run['id']):
+            with running('csa' if run['module']=='csa' else 'msci' if run['module']=='msci' else 'exchange',run['projectId'],run['id'],self.app.gateway.get()['fingerprint']):
                 self.checkpoint(run);self.update(run,status='running',phase='准备原PDF')
                 if run['module']=='csa':self._csa(run)
                 elif run['module']=='msci':self._msci(run)
@@ -320,7 +320,7 @@ class Workspace:
         industries=read(ROOT/'csa/site/data/industries.json')
         return {'modules':[{'id':k,'name':v} for k,v in MODULES.items()],'projects':self.list_projects(),'trashProjects':self.center.trash(),
                 'documents':self.documents(),'industries':[{'code':i['code'],'name':i['zh']} for i in industries],
-                'providers':self.app.gateway.public()['providers']}
+                'providers':self.app.gateway.public()['providers'],'modelConfig':self.app.gateway.configuration()}
 
     def import_project(self,value):
         if not isinstance(value,dict):raise LocalError('项目JSON必须是对象。')

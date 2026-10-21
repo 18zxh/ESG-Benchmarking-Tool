@@ -103,7 +103,22 @@ export interface Bootstrap {
   trashProjects?: Project[];
   documents: DocumentInfo[];
   industries: { code: string; name: string }[];
-  providers: { model: string; id: string }[];
+  modelConfig?: {
+    cpaLocalKeyAvailable: boolean;
+    cpaBaseUrl: string;
+    cpaModel: string;
+    cpaReasoningEffort: string;
+    cpaReadingEffort?: string;
+  };
+  providers: {
+    model: string;
+    id: string;
+    name?: string;
+    service?: string;
+    baseUrl?: string;
+    reasoningEffort?: string;
+    readingEffort?: string;
+  }[];
 }
 export type Common = {
   boot: Bootstrap;

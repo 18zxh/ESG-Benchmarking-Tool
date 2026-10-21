@@ -17,7 +17,7 @@ store=hashlib.sha256(str(pathlib.Path('.runtime/unified-data').resolve()).encode
 for port in range(8791,8811):
     try:
         with urllib.request.urlopen(f'http://127.0.0.1:{port}/api/status',timeout=.2) as r: status=json.load(r)
-        if status.get('appId')=='unified-esg-workbench' and status.get('workspaceId')==expected and status.get('storeId')==store and status.get('version')=='0.4.0':
+        if status.get('appId')=='unified-esg-workbench' and status.get('workspaceId')==expected and status.get('storeId')==store and status.get('version')=='0.5.3':
             print(f'http://127.0.0.1:{port}/');break
     except Exception:pass
 PY_REUSE
